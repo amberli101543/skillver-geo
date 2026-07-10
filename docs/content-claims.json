@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "canonicalPositioning": "封闭内测、邀请码准入",
+  "scanPaths": [
+    "README.md",
+    "TODO-skillver-geo.md",
+    "01-strategy",
+    "04-channels",
+    "content"
+  ],
+  "allowedClaims": [
+    {
+      "id": "ALLOW_CLOSED_BETA",
+      "description": "当前唯一准入阶段为封闭内测。",
+      "patterns": [
+        "封闭内测",
+        "内测中",
+        "内测阶段",
+        "内测期"
+      ]
+    },
+    {
+      "id": "ALLOW_INVITE_ONLY",
+      "description": "用户必须通过邀请码或内测申请获得准入。",
+      "patterns": [
+        "邀请码准入",
+        "需要邀请码",
+        "持邀请码",
+        "内测申请",
+        "领邀请码"
+      ]
+    }
+  ],
+  "prohibitedClaims": [
+    {
+      "id": "BLOCK_PUBLIC_RELEASE",
+      "description": "不得将当前阶段描述为公开版、公测或无内测过渡。",
+      "patterns": [
+        "公开版",
+        "公测",
+        "无内测过渡",
+        "跳过内测"
+      ]
+    },
+    {
+      "id": "BLOCK_OPEN_SIGNUP",
+      "description": "不得声称开放、自由或免邀请注册。",
+      "patterns": [
+        "开放注册",
+        "公开注册",
+        "自由注册",
+        "无需邀请码",
+        "免邀请码",
+        "注册已开放"
+      ]
+    }
+  ],
+  "pendingVerificationClaims": [
+    {
+      "id": "VERIFY_PRICE",
+      "description": "免费、零收费、价格或折扣声明发布前必须由业务事实源确认。",
+      "patterns": [
+        "免费",
+        "零收费",
+        "价格",
+        "折扣"
+      ]
+    },
+    {
+      "id": "VERIFY_USAGE_COUNT",
+      "description": "体验次数、名额或额度等具体数量发布前必须核实。",
+      "patterns": [
+        "[0-9一二三四五六七八九十百千]+\\s*(次|个)?\\s*(体验|名额|额度)",
+        "(体验|名额|额度)\\s*[0-9一二三四五六七八九十百千]+"
+      ]
+    },
+    {
+      "id": "VERIFY_MENTOR_STATUS",
+      "description": "导师服务上线或可预约状态发布前必须核实。",
+      "patterns": [
+        "导师.{0,12}(已上线|已开放|现已开放|可预约|开放预约)",
+        "(已上线|已开放|现已开放|可预约|开放预约).{0,12}导师"
+      ]
+    }
+  ]
+}

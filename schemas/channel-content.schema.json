@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skillver.cn/schemas/geo/channel-content.schema.json",
+  "title": "Skillver GEO 渠道发布资产",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "type": "object",
+        "required": [
+          "contentId",
+          "cellId",
+          "channel",
+          "title",
+          "status",
+          "sourceMaster",
+          "scheduledAt",
+          "markdownPath",
+          "cmsHtmlPath"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "contentId": {
+            "type": "string",
+            "pattern": "^GEO-202607-C(01|05|13|15|16)-(TCODEAI|MAIN-FAQ|WECHAT|XHS|ZHIHU)$"
+          },
+          "cellId": {
+            "type": "string",
+            "enum": [
+              "C01",
+              "C05",
+              "C13",
+              "C15",
+              "C16"
+            ]
+          },
+          "channel": {
+            "type": "string",
+            "enum": [
+              "tcodeai",
+              "main-faq",
+              "wechat",
+              "xiaohongshu",
+              "zhihu"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "approved"
+            ]
+          },
+          "sourceMaster": {
+            "type": "string",
+            "pattern": "^content/C(01|05|13|15|16)-.+\\.md$"
+          },
+          "scheduledAt": {
+            "type": "string",
+            "pattern": "^2026-07-(1[1-8])$"
+          },
+          "markdownPath": {
+            "type": "string",
+            "pattern": "^content/publish-ready/C(01|05|13|15|16)/(tcodeai|main-faq|wechat|xiaohongshu|zhihu)\\.md$"
+          },
+          "cmsHtmlPath": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^content/publish-ready/C(01|05|13|15|16)/cms/(tcodeai|main-faq)\\.html$"
+          }
+        }
+      }
+    }
+  }
+}

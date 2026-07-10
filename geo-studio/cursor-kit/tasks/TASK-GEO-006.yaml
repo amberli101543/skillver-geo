@@ -1,0 +1,30 @@
+task_id: TASK-GEO-006
+spec_id: SPEC-GEO-003
+goal: "引入 NestJS 应用骨架：main.ts 启动、AppModule、GET /health 健康检查；vitest 适配装饰器，测试与 typecheck 通过"
+
+files_to_touch:
+  - backend/package.json
+  - backend/tsconfig.json
+  - backend/nest-cli.json
+  - backend/vitest.config.ts
+  - backend/src/main.ts
+  - backend/src/health/health.controller.ts
+
+validation:
+  - "npm --prefix backend test PASS（含 health.controller 单测）"
+  - "npm --prefix backend run typecheck PASS"
+  - "本地 npm --prefix backend run start 可启动且 GET /health 返回 {status:'ok'}"
+  - "eval/task_validation/TASK-GEO-006.checklist.md 全部勾选"
+  - "golden case health-001 复现一致"
+
+approval_required: true
+
+# 引入 API 行为（/health）→ 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-006.checklist.md
+  - eval/golden_cases/infra/health-001.json
+
+# 注意：AppModule 在本 task 仅注册 HealthController；BrandModule/PrismaModule 由 007/008 接入
+# tsconfig 需开启 experimentalDecorators + emitDecoratorMetadata；vitest 配 swc 处理装饰器
+# 预估 diff：~220 行（package.json 依赖 + main/health + 配置）（≤300）
+# service 边界：backend（单一 service，满足 R6）

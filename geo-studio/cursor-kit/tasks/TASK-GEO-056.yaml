@@ -1,0 +1,18 @@
+task_id: TASK-GEO-056
+spec_id: SPEC-GEO-026
+goal: "DraftEditor 初稿编辑 + matrix/source/draft/questions API parity 余项"
+
+files_to_touch:
+  - web/src/api.ts
+  - web/src/DraftEditor.tsx
+  - web/src/MatrixPanel.tsx
+  - web/src/DistributionPanel.tsx
+  - web/src/DiagnosticRunsPanel.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+  - "PATCH content-drafts body 可保存"
+  - "matrix PUT / source PUT / draft DELETE / questions GET 已接线"
+
+approval_required: false

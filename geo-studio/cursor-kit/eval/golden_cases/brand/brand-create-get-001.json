@@ -1,0 +1,18 @@
+{
+  "id": "BRAND-CREATE-GET-001",
+  "task_id": "TASK-GEO-003",
+  "feature": "brand",
+  "risk_type": "happy_path",
+  "input": {
+    "create": { "tenantId": "t1", "name": "Acme", "definition": "A SaaS brand" },
+    "getSameTenant": { "tenantId": "t1" },
+    "getOtherTenant": { "tenantId": "other" }
+  },
+  "expected_output": {
+    "createdHasGeneratedId": true,
+    "getSameTenant": "returns the created brand",
+    "getOtherTenant": "undefined",
+    "invalidInput": "throws BrandValidationError"
+  },
+  "replay_required": true
+}

@@ -1,0 +1,47 @@
+# Cursor Dev Kit — 项目配置（拷贝到目标项目根目录后修改）
+
+kit_version: v1.0.0
+
+project:
+  name: geo-studio
+  description: "企业品牌的 AI 可见度运营中台：诊断、内容生产、分发与监测的 GEO 运营闭环"
+
+# Agent 完成 task 后应执行的验证命令（按项目技术栈修改）
+commands:
+  test: "npm --prefix backend test"
+  lint: ""
+  typecheck: "npm --prefix backend run typecheck"
+  architecture: "npm --prefix backend run check:architecture"
+  build: "npm --prefix backend run build && npm --prefix web run build"
+
+# R6 跨服务禁令：单 task 禁止同时修改列表中多个服务目录
+# 当前按"前端 / 后端 / AI 编排 / 异步 Worker"四类边界划分；
+# 后端内部按品牌·诊断·内容·分发模块化（src/<module>），物理拆分留待规模化阶段。
+services:
+  - web        # React 前端：工作台 / 可见度看板 / 内容编辑器 / 设置
+  - backend    # 核心后端服务：品牌·诊断·内容·分发（按 src/<module> 模块化）
+  - ai         # AI 编排层：LLM 路由 / 生成评分流水线 / RAG / 提示词资产
+  - worker     # 异步任务与定时调度：实测、生成、发布、监测爬取
+
+# task 机械化限额（覆盖 bridge/task_executor_rules.md 与 STANDARDS.md 的默认 3/100）
+# 决策（2026-06-11）：完整产品目标下适度放宽单 task 粒度，测试+checklist+golden 闸门保留。
+# 文档中 R2/R3 写的 3 文件 / 100 行为 kit 默认值；本项目以下方为准。
+limits:
+  max_files_per_task: 6
+  max_lines_per_task: 300
+  max_tasks_per_spec: 3
+
+# TAEOS 集成模式：lite = 仅本 kit；full = 额外要求 check_sync.py PASS
+taeos_mode: lite
+
+# commit message type 白名单
+commit_types:
+  - feat
+  - fix
+  - refactor
+  - test
+  - docs
+  - chore
+  - protocol
+  - eval
+  - replay

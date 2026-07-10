@@ -1,0 +1,42 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# GEO Studio runtime data
+geo-studio/backend/.env
+geo-studio/backend/node_modules/
+geo-studio/web/node_modules/
+geo-studio/**/prisma/*.db
+
+# Docker volumes and logs
+*.log
+tmp/
+temp/
+diag.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Evidence artifacts (register paths in ops/, do not commit raw dumps)
+ops/evidence/
+ops/screenshots/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,16 @@
+task_id: TASK-GEO-037
+spec_id: SPEC-GEO-019
+goal: "MatrixCell repository/service/controller CRUD API"
+
+files_to_touch:
+  - backend/src/matrix/matrix-cell.repository.ts
+  - backend/src/matrix/matrix-cell.service.ts
+  - backend/src/matrix/matrix.controller.ts
+  - backend/src/matrix/dto/create-matrix-cell.dto.ts
+  - backend/src/matrix/dto/update-matrix-cell.dto.ts
+  - backend/src/matrix/matrix-cell.service.test.ts
+
+validation:
+  - "npm --prefix backend test -- matrix-cell PASS"
+
+approval_required: false

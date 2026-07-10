@@ -1,0 +1,5 @@
+spec:
+  id: SPEC-GEO-013
+  version: v0.1.0
+  status: COMPLETED
+  feature_goal: "看板增强：GET /brands 列表、内嵌一键跑批、SVG 折线图时间轴、多品牌下拉切换"

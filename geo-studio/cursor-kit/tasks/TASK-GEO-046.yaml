@@ -1,0 +1,15 @@
+task_id: TASK-GEO-046
+spec_id: SPEC-GEO-022
+goal: "DistributionService.executeTask + POST execute API + e2e"
+
+files_to_touch:
+  - backend/src/distribution/distribution.service.ts
+  - backend/src/distribution/distribution.controller.ts
+  - backend/src/distribution/distribution.module.ts
+  - backend/src/distribution/distribution.service.test.ts
+  - backend/src/distribution/distribution.controller.e2e.test.ts
+
+validation:
+  - "npm --prefix backend test PASS"
+
+approval_required: false

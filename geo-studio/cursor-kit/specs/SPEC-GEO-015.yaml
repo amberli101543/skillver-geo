@@ -1,0 +1,33 @@
+spec:
+  id: SPEC-GEO-015
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "诊断明细持久化：跑批时将 Question / EngineTest / TestScore 与 DiagnosticRun 同一事务入库，并提供 GET 查询跑批明细 API"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/prisma/migrations/*/migration.sql
+    - backend/src/diagnostics/diagnostic-run-types.ts
+    - backend/src/diagnostics/diagnostic-run.repository.ts
+    - backend/src/diagnostics/diagnostic-run.service.ts
+    - backend/src/diagnostics/diagnostic-run.controller.ts
+    - backend/src/diagnostics/diagnostic-batch.controller.ts
+    - backend/src/diagnostics/diagnostic.module.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "POST diagnostic-runs 后 GET /brands/:id/diagnostic-runs/:runId 返回每题 engineTest + score"
+
+  replay_cases: []
+
+  notes: |
+    阶段 A-2。跑批写库从「仅 3 条 MetricSnapshot」扩展为完整明细链。
+    决策：
+    - Question 绑定 diagnosticRunId（每次跑批生成新题集，不复用历史题文本表）。
+    - EngineTest.sources 存 JSON 数组。
+    - persistFullRun 单事务：DiagnosticRun + MetricSnapshot + Question + EngineTest + TestScore。
+    - 看板 UI 展示留 GEO-018；本 SPEC 只交付 API。
+
+  approval_required: false

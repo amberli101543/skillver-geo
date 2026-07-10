@@ -1,0 +1,13 @@
+task_id: TASK-GEO-035
+spec_id: SPEC-GEO-018
+goal: "DiagnosticRunsPanel 跑批历史+明细；Dashboard 集成"
+
+files_to_touch:
+  - web/src/DiagnosticRunsPanel.tsx
+  - web/src/Dashboard.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+
+approval_required: false

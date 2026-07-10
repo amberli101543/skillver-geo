@@ -1,0 +1,48 @@
+{
+  "name": "geo-studio-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GEO Studio backend service",
+  "scripts": {
+    "prebuild": "prisma generate",
+    "build": "nest build",
+    "start": "nest start",
+    "start:prod": "node dist/main",
+    "start:worker:prod": "node dist/worker-main",
+    "start:worker:dev": "nest start --watch --entryFile worker-main",
+    "start:dev": "nest start --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "check:architecture": "node scripts/check-layer-boundaries.mjs",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "db:up": "docker compose up -d postgres redis"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.26",
+    "@nestjs/core": "^11.1.26",
+    "@nestjs/platform-express": "^11.1.26",
+    "@nestjs/schedule": "^6.1.3",
+    "@prisma/client": "^6.19.3",
+    "bullmq": "^5.78.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
+    "dotenv": "^17.4.2",
+    "ioredis": "^5.11.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.23",
+    "@nestjs/testing": "^11.1.26",
+    "@swc/core": "^1.15.41",
+    "@types/node": "^25.9.3",
+    "@types/supertest": "^7.2.0",
+    "prisma": "^6.19.3",
+    "supertest": "^7.2.2",
+    "typescript": "^6.0.3",
+    "unplugin-swc": "^1.5.9",
+    "vitest": "^4.1.8"
+  }
+}

@@ -1,0 +1,38 @@
+spec:
+  id: SPEC-GEO-006
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "定义引擎连接器抽象并实现代理引擎（路径 B）：输入诊断问题文本，输出 answer + sources；EngineTestService 可异步调用连接器并返回结构化结果（内存仓储，不含持久化）"
+
+  affected_files:
+    - backend/src/engine/engine-connector.ts
+    - backend/src/engine/engine-connector.test.ts
+    - backend/src/engine/proxy-engine-connector.ts
+    - backend/src/engine/engine-test-service.ts
+    - backend/src/engine/engine-test-service.test.ts
+    - backend/src/engine/engine.module.ts
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "ProxyEngineConnector 在无 API Key 时返回可预测 stub；有 Key 时可调用（integration 可选）"
+    - "EngineTestService.run(questionText) 返回 { answer, sources, engineId }"
+    - "eval/task_validation 下 2 张 task checklist 全部完成"
+    - "golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/engine/proxy-engine-001.json
+    - eval/golden_cases/engine/engine-test-run-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。对应产品方案第六节「路径 B — 代理引擎评估」。
+    本 SPEC 只做连接器 + 领域服务（内存），不含 Prisma 持久化 EngineTest 表、不含 HTTP 端点、不含评分流水线（留待后续 SPEC）。
+
+    决策点：
+    - 连接器接口：run(question: string) => Promise<EngineAnswer>，EngineAnswer = { answer, sources[], engineId }。
+    - ProxyEngineConnector：优先读 OPENAI_API_KEY（或兼容 env）；无 Key 时返回 deterministic stub（便于 CI/hermetic）。
+    - EngineTestService 注入 EngineConnector，run 方法包装调用并附加 runAt 时间戳。
+    - 真实 LLM 调用留 env 开关；单测/mock 不依赖外部网络。
+
+  approval_required: true

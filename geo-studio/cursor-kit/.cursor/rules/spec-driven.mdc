@@ -1,0 +1,35 @@
+---
+description: SPEC YAML structure and lifecycle — all work starts from specs/
+globs: specs/**
+alwaysApply: false
+---
+
+# SPEC-Driven Development
+
+## Entry rule
+
+No free-text requirements. Work starts from `specs/*.yaml` (use `SPEC-TEMPLATE.yaml`).
+
+## Required fields
+
+```yaml
+spec:
+  id: SPEC-<SCOPE>-<NNN>
+  version: v0.1.0
+  status: ACTIVE          # CREATE/DEPRECATED not dispatchable
+  type: feature           # feature|bugfix|refactor|docs|infra|...
+  feature_goal: ""        # one sentence, testable
+  affected_files: []      # planned paths; 1-9 total for SPEC
+  validation_rules: []    # e.g. "npm test PASS"
+  replay_cases: []        # ≥1 if business logic; [] only with replay_exempt note
+```
+
+## Lifecycle
+
+`ACTIVE → (tasks) → IMPLEMENTING → TESTING → DONE`
+
+Split into **≤3 tasks** per SPEC (`tasks/`). Each task ≤3 files.
+
+## Task card link
+
+Every implementation task must cite `spec_id` and live in `tasks/TASK-*.yaml`.

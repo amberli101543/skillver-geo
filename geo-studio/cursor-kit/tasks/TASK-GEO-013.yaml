@@ -1,0 +1,23 @@
+task_id: TASK-GEO-013
+spec_id: SPEC-GEO-005
+goal: "为诊断 API 写 hermetic e2e（Nest TestingModule + supertest，BrandRepository 用内存假实现），覆盖 200 / 404 / 400 与查询参数"
+
+files_to_touch:
+  - backend/src/diagnostics/diagnostic.controller.e2e.test.ts
+
+validation:
+  - "npm --prefix backend test PASS（含 diagnostic.controller e2e，无需 DB）"
+  - "npm --prefix backend run typecheck PASS"
+  - "eval/task_validation/TASK-GEO-013.checklist.md 全部勾选"
+  - "golden case diagnostics-api-001 复现一致（GET 200 含四类 + brandId / 未知 404 / 缺租户 400）"
+
+approval_required: true
+
+# 端到端 HTTP 行为 → 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-013.checklist.md
+  - eval/golden_cases/diagnostics/diagnostics-api-001.json
+
+# 依赖：TASK-GEO-012（controller/接线）；swc 元数据已在 TASK-GEO-010 配好（vitest.config.ts）
+# 预估 diff：~90 行（e2e 测试，仅 1 文件，无新依赖）（≤300）
+# service 边界：backend（单一 service，满足 R6）

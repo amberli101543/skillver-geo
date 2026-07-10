@@ -1,0 +1,38 @@
+spec:
+  id: SPEC-GEO-008
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "对 EngineTestResult 执行规则化评分：输出 mentioned、mentionPosition、sentiment、accuracy、sourcesCount；ScoringService 可注入调用（领域层，不含 HTTP）"
+
+  affected_files:
+    - backend/src/scoring/score.ts
+    - backend/src/scoring/score.test.ts
+    - backend/src/scoring/scoring-service.ts
+    - backend/src/scoring/scoring-service.test.ts
+    - backend/src/scoring/scoring.module.ts
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "scoreEngineTest 对含/不含品牌名的 answer 给出可复现分数"
+    - "eval/task_validation 下 2 张 task checklist 全部完成"
+    - "golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/scoring/score-001.json
+    - eval/golden_cases/scoring/scoring-service-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。对应产品方案「评分流水线」MVP 切片。
+    采用确定性规则引擎（非 LLM），便于 golden/replay；后续可迁 AI 编排层。
+
+    决策点：
+    - mentioned：answer 是否包含 brand.name（大小写不敏感）。
+    - mentionPosition：首次出现字符索引，未提及为 null。
+    - sentiment：关键词启发式（推荐/优秀/领先→positive；差/不推荐→negative；否则 neutral）。
+    - accuracy：0..1，提及且 answer 含 definition 片段则 0.8，仅提及 0.5，未提及 0.2。
+    - sourcesCount：EngineTestResult.sources.length。
+    - 不含 HTTP 端点、不含 Prisma 持久化 TestScore 表（留待后续 SPEC）。
+
+  approval_required: true

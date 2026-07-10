@@ -1,0 +1,27 @@
+spec:
+  id: SPEC-GEO-ARCH-003
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "在 ai/ 层实现 RAG 检索与向量 Repository，内容生成与评分可引用品牌资料片段"
+
+  parent_plan: phase-1-architecture
+
+  affected_files:
+    - backend/src/ai/rag/
+    - backend/prisma/schema.prisma
+    - backend/src/ai/content.facade.ts
+    - backend/src/ai/scoring.facade.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "RAG 逻辑仅在 backend/src/ai/ 下"
+    - "无 assertion 时行为与 v1 兼容"
+
+  replay_cases: []
+
+  notes: |
+    向量存储首选 pgvector 扩展或专用表；不在 content/scoring 模块散落检索逻辑。
+    依赖 ARCH-001 Facade 与 ARCH-002 异步生成路径。
+
+  approval_required: true

@@ -1,0 +1,20 @@
+spec:
+  id: SPEC-GEO-030
+  version: v0.1.0
+  status: DONE
+  type: infra
+  feature_goal: "BullMQ + Redis 替换纯内存/DB Job 轮询，Worker 可水平扩展"
+
+  parent_plan: phase-3-platform
+  depends_on: [SPEC-GEO-ARCH-002]
+
+  affected_files:
+    - backend/docker-compose.yml
+    - backend/src/worker/
+
+  validation_rules:
+    - "docker compose 含 redis"
+    - "Job 经队列消费，cron 仅作调度触发"
+
+  replay_cases: []
+  approval_required: true

@@ -1,0 +1,36 @@
+spec:
+  id: SPEC-GEO-047
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "运维可行动化：Job 失败时返回可执行处理建议，而不只显示原始 error"
+
+  parent_plan: phase-7-capability-depth
+  depends_on: [SPEC-GEO-042, SPEC-GEO-038]
+
+  affected_files:
+    - backend/src/worker/job-failure-advice.ts
+    - backend/src/worker/job-failure-advice.test.ts
+    - backend/src/worker/job.types.ts
+    - backend/src/worker/job.service.ts
+    - backend/src/worker/job.service.test.ts
+    - backend/src/worker/job.controller.e2e.test.ts
+    - web/src/api.ts
+    - web/src/JobQueuePanel.tsx
+    - web/src/styles.css
+    - docs/PROGRESS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS"
+    - "npm --prefix web run build PASS"
+    - "GET /jobs/stats 与 /jobs/:id 失败任务含 failureAdvice.actions"
+    - "JobQueuePanel 失败任务展示可执行建议"
+
+  replay_cases: []
+
+  notes: |
+    Phase 7 P2 — 不新增路由；在 JobRecord 响应上 computed failureAdvice。
+    按 error 关键词 + job.type 匹配建议（Redis/API Key/引擎/分发/超时等）。
+
+  approval_required: true

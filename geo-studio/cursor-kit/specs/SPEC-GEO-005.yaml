@@ -1,0 +1,34 @@
+spec:
+  id: SPEC-GEO-005
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "通过 HTTP 获取品牌诊断问题集：GET /brands/:id/questions 返回 200+四类问题（支持 competitors/attributes 查询参数），品牌不存在返回 404，并将 DiagnosticModule 接入运行时"
+
+  affected_files:
+    - backend/src/app.module.ts
+    - backend/src/diagnostics/diagnostic.module.ts
+    - backend/src/diagnostics/diagnostic.controller.ts
+    - backend/src/diagnostics/diagnostic.controller.e2e.test.ts
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "GET /brands/:id/questions（命中）→ 200 + 带 brandId 的问题集；未知品牌 → 404；缺 x-tenant-id → 400"
+    - "eval/task_validation 下 2 张 task checklist 全部完成"
+    - "诊断 API 的 golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/diagnostics/diagnostics-api-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。复用 SPEC-GEO-002 的 DiagnosticService、SPEC-GEO-001/003 的 Brand 栈。
+    把诊断生成跑成端到端，与 Brand「模型(001)→API(004)」分层一致。
+
+    决策点：
+    - 路由：GET /brands/:id/questions（嵌套在 brand 资源下，语义清晰）；租户走 x-tenant-id 头（占位，鉴权见后续 SPEC）。
+    - 入参：competitors / attributes 走逗号分隔查询参数（如 ?competitors=Beta,Gamma&attributes=价格,安全）。
+    - 错误映射：BrandNotFoundError → 404；缺租户头 → 400。
+    - e2e 用 Nest TestingModule 覆盖 BrandRepository 为内存假实现，hermetic（不依赖 DB）。
+
+  approval_required: true

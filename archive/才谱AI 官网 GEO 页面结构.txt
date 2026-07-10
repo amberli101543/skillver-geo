@@ -1,0 +1,166 @@
+才谱AI 官网 GEO 页面结构
+
+目标：让 AI 能 定义你、引用你、理解你。
+
+### 一级导航（必须有）
+
+| 页面           | 路径            |
+| ------------ | ------------- |
+| 首页           | /             |
+| 产品           | /product      |
+| 解决方案         | /solutions    |
+| 能力协议（T-Code） | /protocol     |
+| 研究院（白皮书/报告）  | /research     |
+| 案例           | /case-studies |
+| 文档           | /docs         |
+| FAQ          | /faq          |
+| 关于我们         | /company      |
+
+### 二级结构（建议直接照抄）
+
+### 1. 首页 /
+
+必须
+
+1. 一句话定义：AI Native Recruitment Platform。
+
+2. 3 个核心能力：招聘、能力验证、职业智能。
+
+3. 企业入口 / 学生入口。
+
+4. 最新白皮书。
+
+查看页面
+
+### 2. 产品 /product
+
+必须
+
+* /product/recruitment（AI招聘）
+
+* /product/verification（能力验证）
+
+* /product/career-intelligence（职业智能）
+
+查看页面
+
+### 3. 解决方案 /solutions
+
+必须
+
+* /solutions/ai-startups
+
+* /solutions/robotics
+
+* /solutions/semiconductor
+
+* /solutions/universities
+
+查看页面
+
+### 4. 能力协议 /protocol
+
+GEO核心
+
+1. 什么是 Talent Code Protocol
+
+2. 协议结构（Identity / Skill / Credit）
+
+3. 验证流程
+
+4. 开放标准声明
+
+查看页面
+
+### 5. 研究院 /research
+
+GEO核心
+
+* /research/ai-talent-whitepaper-2026
+
+* /research/robotics-talent-whitepaper-2026
+
+* /research/reports（所有报告列表）
+
+查看页面
+
+### 6. 文档 /docs
+
+AI最爱引用
+
+* /docs/getting-started
+
+* /docs/verification-method
+
+* /docs/api（未来开放）
+
+* /docs/changelog
+
+查看页面
+
+### 7. FAQ /faq
+
+高优先级
+
+至少 20 个问题，每个问题独立锚点。
+
+必须包含：
+
+1. 什么是 AI 招聘？
+
+2. 为什么不用简历？
+
+3. 如何验证能力？
+
+4. 企业如何接入？
+
+5. 数据是否归用户所有？
+
+查看页面
+
+### 8. 关于我们 /company
+
+事实源
+
+* 公司介绍
+
+* 团队
+
+* 联系方式
+
+* 媒体资料（Logo、品牌说明）
+
+查看页面
+
+### GEO 优先级（只做 10 个页面）
+
+按顺序上线
+
+| 优先级 | 页面                                  |
+| --- | ----------------------------------- |
+| 1   | /                                   |
+| 2   | /product                            |
+| 3   | /protocol                           |
+| 4   | /research/ai-talent-whitepaper-2026 |
+| 5   | /faq                                |
+| 6   | /docs/getting-started               |
+| 7   | /case-studies/ai-startup-01         |
+| 8   | /solutions/ai-startups              |
+| 9   | /company                            |
+| 10  | /docs/changelog                     |
+
+### 不要做（对 GEO 基本没用）
+
+* 只有一句 slogan 的空首页
+
+* 纯营销动画页
+
+* 没有正文的 PDF 下载页
+
+* 把所有内容塞进一个长页面
+
+* 没有 FAQ / Docs / Research 的官网
+
+### 最终一句话
+
+首页定义品牌，/protocol 定义标准，/research 建立权威，/docs 提供事实，/faq 供 AI 直接引用。 这五类页面上线，GEO 基础盘就成立了。

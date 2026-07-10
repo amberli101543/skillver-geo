@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo.skillver.local/schemas/question-set.schema.json",
+  "title": "Skillver GEO baseline question set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "status", "productState", "questions"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^v[0-9]+\\.[0-9]+$"
+    },
+    "status": {
+      "enum": ["draft", "approved", "retired"]
+    },
+    "productState": {
+      "const": "ICP封闭内测、邀请码准入"
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 32,
+      "maxItems": 32,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "category", "query", "passCriteria"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(B|I|T|C)[0-9]{2}$"
+          },
+          "category": {
+            "enum": ["brand", "entry", "term", "category"]
+          },
+          "query": {
+            "type": "string",
+            "minLength": 2
+          },
+          "passCriteria": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}

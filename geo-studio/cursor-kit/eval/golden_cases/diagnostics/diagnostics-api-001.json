@@ -1,0 +1,34 @@
+{
+  "id": "DIAGNOSTICS-API-001",
+  "task_id": "TASK-GEO-013",
+  "feature": "diagnostics",
+  "risk_type": "happy_path",
+  "input": {
+    "getHit": {
+      "method": "GET",
+      "path": "/brands/{brandId}/questions",
+      "headers": { "x-tenant-id": "t1" },
+      "query": { "competitors": "Beta,Gamma", "attributes": "价格" }
+    },
+    "getMiss": {
+      "method": "GET",
+      "path": "/brands/unknown-id/questions",
+      "headers": { "x-tenant-id": "t1" }
+    },
+    "getNoTenant": {
+      "method": "GET",
+      "path": "/brands/{brandId}/questions"
+    }
+  },
+  "expected_output": {
+    "getHit": {
+      "status": 200,
+      "everyQuestionHasBrandId": true,
+      "categoriesPresent": ["category", "brand", "attribute", "comparison"]
+    },
+    "getMiss": { "status": 404 },
+    "getNoTenant": { "status": 400 }
+  },
+  "notes": "Hermetic e2e via Nest TestingModule with BrandRepository overridden by in-memory fake (no DB).",
+  "replay_required": true
+}

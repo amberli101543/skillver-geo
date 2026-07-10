@@ -1,0 +1,25 @@
+task_id: TASK-GEO-015
+spec_id: SPEC-GEO-006
+goal: "实现 @Injectable EngineTestService.run(questionText)：注入 EngineConnector 调用并返回带 runAt 的结构化结果；提供 EngineModule"
+
+files_to_touch:
+  - backend/src/engine/engine-test-service.ts
+  - backend/src/engine/engine-test-service.test.ts
+  - backend/src/engine/engine.module.ts
+
+validation:
+  - "npm --prefix backend test -- engine-test-service PASS"
+  - "npm --prefix backend run typecheck PASS"
+  - "eval/task_validation/TASK-GEO-015.checklist.md 全部勾选"
+  - "golden case engine-test-run-001 复现一致"
+
+approval_required: true
+
+outputs:
+  - eval/task_validation/TASK-GEO-015.checklist.md
+  - eval/golden_cases/engine/engine-test-run-001.json
+
+# 依赖：TASK-GEO-014（EngineConnector / ProxyEngineConnector）
+# 单测注入 FakeEngineConnector，hermetic
+# 预估 diff：~100 行（≤300）
+# service 边界：backend（单一 service，满足 R6）

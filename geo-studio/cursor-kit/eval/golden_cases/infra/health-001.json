@@ -1,0 +1,15 @@
+{
+  "id": "HEALTH-001",
+  "task_id": "TASK-GEO-006",
+  "feature": "infra",
+  "risk_type": "happy_path",
+  "input": {
+    "method": "GET",
+    "path": "/health"
+  },
+  "expected_output": {
+    "status_code": 200,
+    "body": { "status": "ok", "service": "geo-studio-backend" }
+  },
+  "replay_required": true
+}

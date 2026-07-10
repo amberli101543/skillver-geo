@@ -1,0 +1,22 @@
+{
+  "id": "BRAND-PERSIST-001",
+  "task_id": "TASK-GEO-008",
+  "feature": "brand",
+  "risk_type": "happy_path",
+  "input": {
+    "create": { "tenantId": "t1", "name": "Acme", "definition": "A SaaS brand" },
+    "getSameTenant": { "tenantId": "t1" },
+    "getOtherTenant": { "tenantId": "other" },
+    "getUnknownId": { "tenantId": "t1", "id": "missing" },
+    "invalid": { "tenantId": "t1", "name": "", "definition": "" }
+  },
+  "expected_output": {
+    "createReturnsBrandWithGeneratedId": true,
+    "getSameTenant": "returns the created brand",
+    "getOtherTenant": "undefined",
+    "getUnknownId": "undefined",
+    "invalid": "rejects with BrandValidationError"
+  },
+  "notes": "Service depends on BrandRepository; verified via in-memory fake (hermetic). Prisma impl validated by typecheck + migrate.",
+  "replay_required": true
+}

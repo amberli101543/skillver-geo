@@ -1,0 +1,42 @@
+---
+description: Tests, golden cases, and replay requirements
+globs:
+  - tests/**
+  - eval/**
+  - "**/*.test.*"
+  - "**/*.spec.*"
+alwaysApply: false
+---
+
+# Testing & Replay
+
+## When tests are required
+
+- New feature or bugfix: add/update tests **with** the implementation
+- Prefer test-first; hotfix may follow up in next commit with note in SPEC
+
+## Golden / replay case
+
+Path: `eval/golden_cases/<feature>/<id>.json`
+
+Minimum fields:
+```json
+{
+  "id": "FEATURE-001",
+  "risk_type": "happy_path",
+  "input": {},
+  "expected_output": {},
+  "replay_required": true
+}
+```
+
+`risk_type`: `happy_path` | `failure` | `edge` | `hallucination` | `jailbreak`
+
+## Protection
+
+- Do not delete existing golden cases
+- Changing `expected_output` is a breaking change — flag for review
+
+## Commands
+
+Use `project.config.yaml` → `commands.test`. Report pass/fail in checklist.

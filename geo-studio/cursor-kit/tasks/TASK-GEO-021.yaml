@@ -1,0 +1,11 @@
+task_id: TASK-GEO-021
+spec_id: SPEC-GEO-010
+goal: "computeBaseline + DiagnosticBatchService 编排跑批"
+
+files_to_touch:
+  - backend/src/diagnostics/baseline.ts
+  - backend/src/diagnostics/baseline.test.ts
+  - backend/src/diagnostics/diagnostic-batch-service.ts
+  - backend/src/diagnostics/diagnostic-batch-service.test.ts
+
+approval_required: true

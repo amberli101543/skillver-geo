@@ -1,0 +1,25 @@
+task_id: TASK-GEO-004
+spec_id: SPEC-GEO-002
+goal: "定义 Question 类型与 generateQuestionSet(brand, {competitors, attributes})，输出四类诊断问题（类目/对比/品牌/属性）"
+
+files_to_touch:
+  - backend/src/diagnostics/question.ts
+  - backend/src/diagnostics/question.test.ts
+
+validation:
+  - "npm --prefix backend test -- question.test PASS"
+  - "npm --prefix backend run typecheck PASS"
+  - "eval/task_validation/TASK-GEO-004.checklist.md 全部勾选"
+  - "golden case questions-gen-001 复现一致（四类各 ≥1 条；无 competitors 时跳过对比类）"
+
+approval_required: true
+
+# 涉及业务生成逻辑 → 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-004.checklist.md
+  - eval/golden_cases/diagnostics/questions-gen-001.json
+
+# 依赖：SPEC-GEO-001 的 Brand 类型（import { type Brand } from "../brand/brand"）
+# 纯函数，无 Nest 依赖；可被 DiagnosticService 复用
+# 预估 diff：question.ts ~60 / question.test.ts ~45 = ~105 行（≤300，新限额）
+# service 边界：backend（单一 service，满足 R6）

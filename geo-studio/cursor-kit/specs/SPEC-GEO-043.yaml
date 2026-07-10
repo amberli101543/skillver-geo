@@ -1,0 +1,39 @@
+spec:
+  id: SPEC-GEO-043
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "诊断可信度分级：跑批结果标注 business-ready / partial / demo，并给出判定理由"
+
+  parent_plan: phase-7-capability-depth
+  depends_on: [SPEC-GEO-039, SPEC-GEO-035]
+
+  affected_files:
+    - backend/src/diagnostics/diagnostic-credibility.ts
+    - backend/src/diagnostics/diagnostic-credibility.test.ts
+    - backend/src/diagnostics/diagnostic-run-types.ts
+    - backend/src/diagnostics/diagnostic-run.service.ts
+    - backend/src/diagnostics/diagnostic-run.repository.ts
+    - backend/src/diagnostics/diagnostic-run.controller.e2e.test.ts
+    - web/src/api.ts
+    - web/src/DiagnosticRunsPanel.tsx
+    - web/src/styles.css
+    - docs/PROGRESS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS"
+    - "npm --prefix web run build PASS"
+    - "GET diagnostic-runs 与 detail 响应含 credibility.level 与 reasons"
+    - "跑批历史与明细展示可信度徽章（可决策 / 部分可用 / 演示模式）"
+
+  replay_cases: []
+
+  notes: |
+    Phase 7 P0 — 不扩 API 路由，在现有 diagnostic-runs 响应上附加 computed credibility。
+    判定维度：stub 引擎占比、评分模式（LLM/规则）、平均引用来源数。
+    - demo：stub 占比 ≥ 50%
+    - partial：存在 stub 或规则评分或平均来源 < 1
+    - business-ready：全 live 引擎 + LLM 评分 + 平均来源 ≥ 1
+
+  approval_required: true

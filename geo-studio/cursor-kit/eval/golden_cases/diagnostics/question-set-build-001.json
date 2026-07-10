@@ -1,0 +1,22 @@
+{
+  "id": "QUESTION-SET-BUILD-001",
+  "task_id": "TASK-GEO-005",
+  "feature": "diagnostics",
+  "risk_type": "happy_path",
+  "input": {
+    "seedBrand": { "tenantId": "t1", "name": "Acme", "definition": "项目管理 SaaS" },
+    "buildKnown": { "tenantId": "t1", "opts": { "competitors": ["Beta"], "attributes": ["价格"] } },
+    "buildUnknown": { "tenantId": "t1", "brandId": "missing" },
+    "buildCrossTenant": { "tenantId": "other" }
+  },
+  "expected_output": {
+    "buildKnown": {
+      "everyQuestionTaggedWithBrandId": true,
+      "categoriesPresent": ["category", "brand", "attribute", "comparison"]
+    },
+    "buildUnknown": "throws BrandNotFoundError",
+    "buildCrossTenant": "throws BrandNotFoundError"
+  },
+  "notes": "DiagnosticService injects BrandService; verified hermetically via in-memory FakeBrandRepository.",
+  "replay_required": true
+}

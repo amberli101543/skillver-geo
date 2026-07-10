@@ -1,0 +1,28 @@
+spec:
+  id: SPEC-GEO-023
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "监测告警：跑批后错误信息检测 + 指标阈值/跌幅告警；站内告警列表与日志"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/alert/alert-detector.ts
+    - backend/src/alert/alert.service.ts
+    - backend/src/alert/alert.controller.ts
+    - backend/src/alert/alert.module.ts
+    - backend/src/diagnostics/diagnostic-batch-service.ts
+    - web/src/AlertsPanel.tsx
+    - web/src/api.ts
+    - web/src/Dashboard.tsx
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "npm --prefix web run build PASS"
+    - "跑批后自动生成 misinformation / threshold / metric_drop 告警"
+    - "GET/PATCH /brands/:brandId/alerts + GET/PUT alert-thresholds"
+
+  replay_cases: []
+
+  approval_required: false

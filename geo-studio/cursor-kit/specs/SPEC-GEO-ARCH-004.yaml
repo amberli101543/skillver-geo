@@ -1,0 +1,28 @@
+spec:
+  id: SPEC-GEO-ARCH-004
+  version: v0.1.0
+  status: DONE
+  type: refactor
+  feature_goal: "引擎与发布连接器注册表：新增连接器仅注册，Diagnostic/Content 不修改核心循环"
+
+  parent_plan: phase-1-architecture
+
+  affected_files:
+    - backend/src/engine/engine-registry.ts
+    - backend/src/distribution/publish-registry.ts
+    - docs/CONNECTORS.md
+    - backend/src/engine/engine.module.ts
+    - backend/src/distribution/distribution.module.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "docs/CONNECTORS.md 列出各连接器能力与 stub/live 状态"
+    - "ProxyEngineConnector 经 registry 解析"
+
+  replay_cases:
+    - eval/golden_cases/engine/proxy-engine-001.json
+
+  notes: |
+    产出 CONNECTORS.md 能力矩阵，为 SPEC-GEO-028 真实引擎接入做准备。
+
+  approval_required: true

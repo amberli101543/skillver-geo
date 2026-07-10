@@ -1,0 +1,13 @@
+task_id: TASK-GEO-047
+spec_id: SPEC-GEO-022
+goal: "看板 DistributionPanel 执行发布/导出稿件"
+
+files_to_touch:
+  - web/src/api.ts
+  - web/src/DistributionPanel.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+
+approval_required: false

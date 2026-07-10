@@ -1,0 +1,18 @@
+task_id: TASK-GEO-055
+spec_id: SPEC-GEO-026
+goal: "EngineTestPanel 单题试跑 + AiSettingsPanel + 跑批明细评分来源展示"
+
+files_to_touch:
+  - web/src/api.ts
+  - web/src/EngineTestPanel.tsx
+  - web/src/AiSettingsPanel.tsx
+  - web/src/DiagnosticRunsPanel.tsx
+  - web/src/Dashboard.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+  - "单题 POST engine-tests 可看回答与 score"
+  - "AiSettings 展示 engineMode/scoringMode/promptVersions 与 env 说明"
+
+approval_required: false

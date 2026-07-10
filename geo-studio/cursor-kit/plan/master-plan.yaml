@@ -1,0 +1,293 @@
+# master-plan.yaml — 机器可读开发计划
+#
+# 与 docs/DEVELOPMENT-PLAN.md、docs/PROGRESS.md 保持同步。
+# 更新进度时：先改本文件，再改 PROGRESS.md 摘要。
+
+plan_version: "2026-06-13"
+project: geo-studio
+current_phase: phase-6-product-exposure
+
+constraints:
+  single_user: true
+  no_multi_tenant: true
+  no_rbac: true
+  spec_before_code: true
+  architecture_contract: docs/ARCHITECTURE.md
+
+phases:
+  - id: phase-0-v1
+    name: 产品 v1
+    status: done
+    completed_at: "2026-06-12"
+    specs:
+      - SPEC-GEO-001
+      - SPEC-GEO-002
+      - SPEC-GEO-003
+      - SPEC-GEO-004
+      - SPEC-GEO-005
+      - SPEC-GEO-006
+      - SPEC-GEO-007
+      - SPEC-GEO-008
+      - SPEC-GEO-009
+      - SPEC-GEO-010
+      - SPEC-GEO-011
+      - SPEC-GEO-012
+      - SPEC-GEO-013
+      - SPEC-GEO-014
+      - SPEC-GEO-015
+      - SPEC-GEO-016
+      - SPEC-GEO-017
+      - SPEC-GEO-018
+      - SPEC-GEO-019
+      - SPEC-GEO-020
+      - SPEC-GEO-021
+      - SPEC-GEO-022
+      - SPEC-GEO-023
+      - SPEC-GEO-024
+      - SPEC-GEO-025
+      - SPEC-GEO-PROD-001
+      - SPEC-GEO-026
+
+  - id: phase-1-architecture
+    name: 架构治理
+    status: done
+    completed_at: "2026-06-12"
+    goal: "落实 ARCHITECTURE.md 分层，消除 v1 技术债，建立 Job 与连接器注册表"
+    specs:
+      - id: SPEC-GEO-ARCH-001
+        title: Ai Facade 统一 LLM 出口
+        status: done
+        approved: true
+        depends_on: []
+        blocks: [SPEC-GEO-ARCH-002, SPEC-GEO-ARCH-003, SPEC-GEO-ARCH-004, SPEC-GEO-027]
+        spec_file: cursor-kit/specs/SPEC-GEO-ARCH-001.yaml
+        layers: [ai, engine, scoring, content]
+      - id: SPEC-GEO-ARCH-002
+        title: Job 抽象与跑批/生成/发布异步化
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-001]
+        blocks: [SPEC-GEO-ARCH-003, SPEC-GEO-030, SPEC-GEO-032]
+        spec_file: cursor-kit/specs/SPEC-GEO-ARCH-002.yaml
+        layers: [worker, diagnostics, content, distribution]
+      - id: SPEC-GEO-ARCH-004
+        title: 引擎与发布连接器注册表
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-001]
+        blocks: [SPEC-GEO-028]
+        spec_file: cursor-kit/specs/SPEC-GEO-ARCH-004.yaml
+        layers: [engine, distribution]
+      - id: SPEC-GEO-ARCH-003
+        title: RAG 与向量 Repository
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-001, SPEC-GEO-ARCH-002]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-ARCH-003.yaml
+        layers: [ai, prisma]
+
+  - id: phase-2-ai-engines
+    name: AI 与引擎能力
+    status: done
+    completed_at: "2026-06-12"
+    depends_on: phase-1-architecture
+    specs:
+      - id: SPEC-GEO-027
+        title: 多 LLM 路由
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-001]
+        spec_file: cursor-kit/specs/SPEC-GEO-027.yaml
+      - id: SPEC-GEO-028
+        title: 真实引擎连接器（首个）
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-004]
+        spec_file: cursor-kit/specs/SPEC-GEO-028.yaml
+      - id: SPEC-GEO-029
+        title: Prompt 版本 UI
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-001]
+        spec_file: cursor-kit/specs/SPEC-GEO-029.yaml
+
+  - id: phase-3-platform
+    name: 异步与可观测
+    status: done
+    completed_at: "2026-06-12"
+    depends_on: phase-1-architecture
+    specs:
+      - id: SPEC-GEO-030
+        title: BullMQ 任务队列
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-002]
+        spec_file: cursor-kit/specs/SPEC-GEO-030.yaml
+      - id: SPEC-GEO-031
+        title: 告警外推 Webhook/邮件
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-023]
+        spec_file: cursor-kit/specs/SPEC-GEO-031.yaml
+      - id: SPEC-GEO-032
+        title: ai/worker 独立部署入口
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-002, SPEC-GEO-030]
+        spec_file: cursor-kit/specs/SPEC-GEO-032.yaml
+
+  - id: phase-4-experience
+    name: 体验与设计
+    status: done
+    specs:
+      - id: SPEC-GEO-033
+        title: 设计系统与 Figma 对齐
+        status: done
+        approved: true
+        depends_on: []
+        spec_file: cursor-kit/specs/SPEC-GEO-033.yaml
+      - id: SPEC-GEO-034
+        title: 看板响应式
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-033]
+        spec_file: cursor-kit/specs/SPEC-GEO-034.yaml
+
+  - id: phase-5-platform-alignment
+    name: 架构对齐与平台能力
+    status: done
+    depends_on: phase-4-experience
+    goal: "缩小与产品架构图的差距：多引擎实测、RAG 产品化、异步补全、可观测基线"
+    specs:
+      - id: SPEC-GEO-035
+        title: 多引擎并行跑批
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-028, SPEC-GEO-ARCH-004]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-035.yaml
+        layers: [engine, diagnostics]
+      - id: SPEC-GEO-036
+        title: RAG 产品化与 pgvector
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-003]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-036.yaml
+        layers: [ai, prisma, brand]
+      - id: SPEC-GEO-037
+        title: 引擎单题试跑 Job 化
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-ARCH-002]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-037.yaml
+        layers: [worker, engine, web]
+      - id: SPEC-GEO-038
+        title: 可观测基线（Job 指标与日志）
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-030, SPEC-GEO-032]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-038.yaml
+        layers: [worker, docs]
+
+  - id: phase-6-product-exposure
+    name: 产品能力补全与体验
+    status: done
+    depends_on: phase-5-platform-alignment
+    goal: "把 Phase 5 后端能力暴露到看板：多引擎 UI、按引擎趋势、RAG 可见性、Job 运维面板"
+    specs:
+      - id: SPEC-GEO-039
+        title: 多引擎产品化 UI
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-035, SPEC-GEO-037, SPEC-GEO-028]
+        blocks: [SPEC-GEO-040]
+        spec_file: cursor-kit/specs/SPEC-GEO-039.yaml
+        layers: [web, diagnostics, engine]
+      - id: SPEC-GEO-040
+        title: 按引擎维度指标与趋势
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-035, SPEC-GEO-039]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-040.yaml
+        layers: [metrics, diagnostics, web]
+      - id: SPEC-GEO-041
+        title: RAG 引用可见性
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-036]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-041.yaml
+        layers: [ai, content, web]
+      - id: SPEC-GEO-042
+        title: Job/队列运维看板
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-038]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-042.yaml
+        layers: [web, worker]
+
+  - id: phase-7-capability-depth
+    name: 能力深度提升（不扩功能）
+    status: done
+    depends_on: phase-6-product-exposure
+    goal: "冻结功能面，提升诊断/评分/内容闭环的可信度与可解释性"
+    specs:
+      - id: SPEC-GEO-043
+        title: 诊断可信度分级
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-039, SPEC-GEO-035]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-043.yaml
+        layers: [diagnostics, web]
+      - id: SPEC-GEO-044
+        title: 评分解释力（低分可执行建议）
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-043]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-044.yaml
+        layers: [scoring, diagnostics, web]
+      - id: SPEC-GEO-045
+        title: 内容验证闭环
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-044, SPEC-GEO-037, SPEC-GEO-041]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-045.yaml
+        layers: [content, engine, web]
+      - id: SPEC-GEO-046
+        title: 分发效果对照
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-045, SPEC-GEO-040]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-046.yaml
+        layers: [distribution, metrics, web]
+      - id: SPEC-GEO-047
+        title: 运维可行动化（Job 失败建议）
+        status: done
+        approved: true
+        depends_on: [SPEC-GEO-042, SPEC-GEO-038]
+        blocks: []
+        spec_file: cursor-kit/specs/SPEC-GEO-047.yaml
+        layers: [worker, web]
+
+workflow:
+  entry_doc: docs/DEVELOPMENT-PLAN.md
+  progress_doc: docs/PROGRESS.md
+  on_task_start: "Update PROGRESS.md current focus + spec status IMPLEMENTING"
+  on_task_done: "Run test, typecheck, check:architecture; update PROGRESS + master-plan"
+  on_spec_done: "Set spec status DONE in specs/*.yaml and master-plan"
+
+validation_commands:
+  test: npm --prefix backend test
+  typecheck: npm --prefix backend run typecheck
+  architecture: npm --prefix backend run check:architecture
+  build: npm --prefix web run build

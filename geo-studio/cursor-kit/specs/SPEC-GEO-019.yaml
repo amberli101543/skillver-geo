@@ -1,0 +1,26 @@
+spec:
+  id: SPEC-GEO-019
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "语义矩阵 MatrixCell 持久化与 CRUD；基于最新诊断跑批识别缺口并 sync 到矩阵优先级"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/matrix/matrix-cell.ts
+    - backend/src/matrix/matrix-gap.ts
+    - backend/src/matrix/matrix-cell.repository.ts
+    - backend/src/matrix/matrix-cell.service.ts
+    - backend/src/matrix/matrix-gap.service.ts
+    - backend/src/matrix/matrix.controller.ts
+    - backend/src/matrix/matrix.module.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "GET/POST/PUT/DELETE /brands/:id/matrix-cells"
+    - "GET /brands/:id/matrix-gaps 与 POST sync-gaps 基于最新跑批"
+
+  replay_cases: []
+
+  approval_required: false

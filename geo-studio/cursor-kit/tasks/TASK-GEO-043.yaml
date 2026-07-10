@@ -1,0 +1,14 @@
+task_id: TASK-GEO-043
+spec_id: SPEC-GEO-021
+goal: "Source CRUD API + repository/service"
+
+files_to_touch:
+  - backend/src/distribution/source.repository.ts
+  - backend/src/distribution/source.service.ts
+  - backend/src/distribution/source.controller.ts
+  - backend/src/distribution/source.service.test.ts
+
+validation:
+  - "npm --prefix backend test -- source PASS"
+
+approval_required: false

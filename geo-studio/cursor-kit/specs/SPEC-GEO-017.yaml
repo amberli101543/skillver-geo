@@ -1,0 +1,26 @@
+spec:
+  id: SPEC-GEO-017
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "定时复测 Worker：RetestSchedule 持久化 + GET/PUT API；@nestjs/schedule 每分钟扫描到期品牌并调用 runAndPersist"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/worker/retest-schedule.ts
+    - backend/src/worker/retest-schedule.repository.ts
+    - backend/src/worker/retest-schedule.service.ts
+    - backend/src/worker/retest-schedule.controller.ts
+    - backend/src/worker/retest-worker.service.ts
+    - backend/src/worker/worker.module.ts
+    - backend/src/app.module.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "GET/PUT /brands/:brandId/retest-schedule"
+    - "到期 schedule 触发 runAndPersist 并更新 lastRunAt/nextRunAt"
+
+  replay_cases: []
+
+  approval_required: false

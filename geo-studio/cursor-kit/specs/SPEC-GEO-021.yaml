@@ -1,0 +1,29 @@
+spec:
+  id: SPEC-GEO-021
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "信源 Source CRUD + 品牌维度 DistributionTask / PublishRecord 持久化与 API"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/distribution/source.ts
+    - backend/src/distribution/distribution-task.ts
+    - backend/src/distribution/publish-record.ts
+    - backend/src/distribution/source.repository.ts
+    - backend/src/distribution/distribution.repository.ts
+    - backend/src/distribution/source.service.ts
+    - backend/src/distribution/distribution.service.ts
+    - backend/src/distribution/source.controller.ts
+    - backend/src/distribution/distribution.controller.ts
+    - backend/src/distribution/distribution.module.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "GET/POST/PUT/DELETE /sources"
+    - "品牌下 distribution-tasks 与 publish-records CRUD"
+
+  replay_cases: []
+
+  approval_required: false

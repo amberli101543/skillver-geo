@@ -1,0 +1,27 @@
+task_id: TASK-GEO-008
+spec_id: SPEC-GEO-003
+goal: "将 Brand 迁出内存：定义 BrandRepository 接口 + Prisma 实现，BrandService 改为依赖仓储（异步、按 tenantId 隔离），单测用内存假仓储保持 hermetic"
+
+files_to_touch:
+  - backend/src/brand/brand-repository.ts
+  - backend/src/brand/brand-service.ts
+  - backend/src/brand/brand-service.test.ts
+  - backend/src/brand/brand.module.ts
+
+validation:
+  - "npm --prefix backend test PASS（brand-service 用内存假仓储，无需 DB）"
+  - "npm --prefix backend run typecheck PASS（Prisma 实现类型校验通过）"
+  - "eval/task_validation/TASK-GEO-008.checklist.md 全部勾选"
+  - "golden case brand-persist-001 复现一致（create→get 经仓储；跨 tenant 不可见）"
+
+approval_required: true
+
+# 业务行为迁移（持久化路径 + 租户隔离）→ 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-008.checklist.md
+  - eval/golden_cases/brand/brand-persist-001.json
+
+# 依赖：TASK-GEO-006（DI/模块）+ TASK-GEO-007（PrismaService）
+# 复用 SPEC-GEO-001 的 validateBrand；id 改由 DB 生成（替换自增桩，呼应 GEO-003 review 建议）
+# 预估 diff：~200 行（repository 接口+impl、service 改造、测试改造、module 接线）（≤300）
+# service 边界：backend（单一 service，满足 R6）

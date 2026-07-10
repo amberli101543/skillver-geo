@@ -1,0 +1,40 @@
+spec:
+  id: SPEC-GEO-001
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "后端可创建并读取 Brand 实体（品牌唯一真相源）并校验必填字段，作为所有下游 GEO 模块的输入基线"
+
+  affected_files:
+    - backend/package.json
+    - backend/tsconfig.json
+    - backend/vitest.config.ts
+    - backend/src/brand/brand.ts
+    - backend/src/brand/brand.test.ts
+    - backend/src/brand/brand-service.ts
+    - backend/src/brand/brand-service.test.ts
+
+  validation_rules:
+    - "commands.test PASS（npm test，见 project.config.yaml）"
+    - "eval/task_validation 下 3 张 task checklist 全部完成"
+    - "Brand 校验与创建/读取的 golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/brand/brand-validate-001.json
+    - eval/golden_cases/brand/brand-create-get-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。本 SPEC 只实现 Brand 实体最小闭环，
+    不含 API 网关、诊断实测、内容矩阵、信源分发、监测告警等模块（留待后续 SPEC）。
+    选取 Brand 作为首个切片，因产品方案第三节将其定义为"所有下游模块的输入"。
+
+    决策点：
+    - 技术栈采用 Node.js + TypeScript + Vitest，以对齐 project.config.yaml 的 commands.test = npm test。
+    - project.config.yaml 目前仍为 cursor-kit 模板默认（project.name=my-project，
+      services=[backend, web, agent]）。本 SPEC 沿用 services 中的 backend 边界；
+      是否将 name 改为 geo-studio、是否调整 services，建议后续单独 task 处理，本轮不改。
+    - 持久化先用内存仓储（接口可替换），PostgreSQL 接入留待后续 SPEC。
+
+    TASK-GEO-001 为纯脚手架/构建配置，标注 replay_exempt。
+
+  approval_required: true

@@ -1,0 +1,38 @@
+{
+  "id": "ENGINE-TEST-API-001",
+  "task_id": "TASK-GEO-017",
+  "feature": "engine",
+  "risk_type": "happy_path",
+  "input": {
+    "postHit": {
+      "method": "POST",
+      "path": "/brands/{brandId}/engine-tests",
+      "headers": { "x-tenant-id": "t1" },
+      "body": { "question": "Acme 是什么？" }
+    },
+    "postMiss": {
+      "method": "POST",
+      "path": "/brands/unknown/engine-tests",
+      "headers": { "x-tenant-id": "t1" },
+      "body": { "question": "test" }
+    },
+    "postNoTenant": {
+      "method": "POST",
+      "path": "/brands/{brandId}/engine-tests",
+      "body": { "question": "test" }
+    },
+    "postInvalid": {
+      "method": "POST",
+      "path": "/brands/{brandId}/engine-tests",
+      "headers": { "x-tenant-id": "t1" },
+      "body": { "question": "" }
+    }
+  },
+  "expected_output": {
+    "postHit": { "status": 201, "hasEngineId": true, "hasRunAt": true },
+    "postMiss": { "status": 404 },
+    "postNoTenant": { "status": 400 },
+    "postInvalid": { "status": 400 }
+  },
+  "replay_required": true
+}

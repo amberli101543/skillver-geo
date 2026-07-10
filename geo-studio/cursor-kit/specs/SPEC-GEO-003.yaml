@@ -1,0 +1,52 @@
+spec:
+  id: SPEC-GEO-003
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "建立 backend 架构与持久化地基：NestJS 应用骨架 + Prisma/PostgreSQL，并将 Brand 从内存仓储迁移到数据库（按 tenant_id 隔离），健康检查与测试通过"
+
+  affected_files:
+    - backend/package.json
+    - backend/tsconfig.json
+    - backend/nest-cli.json
+    - backend/vitest.config.ts
+    - backend/src/main.ts
+    - backend/src/app.module.ts
+    - backend/src/health/health.controller.ts
+    - backend/prisma/schema.prisma
+    - backend/docker-compose.yml
+    - backend/.env.example
+    - backend/src/prisma/prisma.service.ts
+    - backend/src/prisma/prisma.module.ts
+    - backend/src/brand/brand-repository.ts
+    - backend/src/brand/brand-service.ts
+    - backend/src/brand/brand-service.test.ts
+    - backend/src/brand/brand.module.ts
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "应用可启动且 GET /health 返回 200"
+    - "prisma migrate 可生成 Brand 表；BrandService 经仓储读写"
+    - "eval/task_validation 下 3 张 task checklist 全部完成"
+    - "Brand 持久化的 golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/infra/health-001.json
+    - eval/golden_cases/brand/brand-persist-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。limits 已放宽至 ≤6 文件 / ≤300 行 / task。
+
+    技术栈决定（2026-06-11，可在批准前否决）：
+    - 框架：NestJS（贴合方案第四节"按服务边界拆分"，DI + 模块化，后端内部以 src/<module> 承载品牌·诊断·内容·分发）。
+    - ORM/DB：Prisma + PostgreSQL；本地用 docker-compose 起库，连接串走 .env（仅 .env.example 入库）。
+    - 多租户：共享库 + tenant_id 行级作用域；正式鉴权与租户上下文留待 SPEC-GEO-004（API 网关/鉴权/审计）。
+
+    测试策略：BrandService 依赖 BrandRepository 接口；单测用内存假实现（hermetic，无需 DB），
+    Prisma 实现由 typecheck + 可选集成测试覆盖，保证 CI 不强依赖数据库。
+
+    风险提示：NestJS 依赖装饰器（experimentalDecorators + reflect-metadata），
+    vitest 需经 swc/插件处理装饰器元数据；TASK-GEO-006 须在 vitest.config 中配置妥当。
+
+  approval_required: true

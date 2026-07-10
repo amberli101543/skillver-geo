@@ -1,0 +1,23 @@
+---
+description: 开发进度统筹 — 开工前读总计划与 PROGRESS，无 SPEC 不写代码
+alwaysApply: true
+---
+
+# Development Plan (mandatory)
+
+## Entry points
+
+1. **What to build next** → `docs/DEVELOPMENT-PLAN.md` + `docs/PROGRESS.md`
+2. **Backlog & dependencies** → `cursor-kit/plan/master-plan.yaml`
+3. **Layer rules** → `docs/ARCHITECTURE.md`
+
+## Rules
+
+- **No code without SPEC** — v1 frozen; new work needs `status: ACTIVE` SPEC in `cursor-kit/specs/`
+- **Update PROGRESS** when starting/finishing a Task
+- **PLANNED specs** cannot spawn tasks until user approves (`approved: true` in master-plan)
+- Phase 1 (ARCH-001~004) before feature sprawl in Phase 2+
+
+## After each task
+
+Update `docs/PROGRESS.md`, run validation from `project.config.yaml`, mark task done in progress tables.

@@ -1,0 +1,17 @@
+{
+  "id": "BRAND-VALIDATE-001",
+  "task_id": "TASK-GEO-002",
+  "feature": "brand",
+  "risk_type": "validation",
+  "input": {
+    "valid": { "tenantId": "t1", "name": "Acme", "definition": "A SaaS brand" },
+    "missingAll": {},
+    "whitespaceTenant": { "tenantId": "  ", "name": "Acme", "definition": "x" }
+  },
+  "expected_output": {
+    "valid": [],
+    "missingAll": ["definition", "name", "tenantId"],
+    "whitespaceTenant": [{ "field": "tenantId", "message": "tenantId is required" }]
+  },
+  "replay_required": true
+}

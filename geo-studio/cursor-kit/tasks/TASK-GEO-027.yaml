@@ -1,0 +1,13 @@
+task_id: TASK-GEO-027
+spec_id: SPEC-GEO-015
+goal: "Prisma Question/EngineTest/TestScore 模型 + migration + diagnostic-run-types"
+
+files_to_touch:
+  - backend/prisma/schema.prisma
+  - backend/prisma/migrations/20260612010000_diagnostic_details/migration.sql
+  - backend/src/diagnostics/diagnostic-run-types.ts
+
+validation:
+  - "npm --prefix backend run typecheck PASS"
+
+approval_required: false

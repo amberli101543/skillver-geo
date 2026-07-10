@@ -1,0 +1,22 @@
+spec:
+  id: SPEC-GEO-025
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "LLM 评分流水线：版本化 scoring prompt，有 Key 走 LLM，失败回退规则 stub"
+
+  affected_files:
+    - backend/src/scoring/scoring-pipeline.ts
+    - backend/src/scoring/scoring-service.ts
+    - backend/src/scoring/scoring.module.ts
+    - backend/src/diagnostics/diagnostic-batch-service.ts
+    - backend/src/engine/engine-test.controller.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "SCORING_MODE=rule 强制规则评分"
+    - "有 Key 且 SCORING_MODE=llm 时走 LLM 评分"
+
+  replay_cases: []
+
+  approval_required: false

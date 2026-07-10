@@ -1,0 +1,19 @@
+task_id: TASK-GEO-049
+spec_id: SPEC-GEO-023
+goal: "AlertService + API + 跑批后 evaluate + e2e"
+
+files_to_touch:
+  - backend/src/alert/alert.repository.ts
+  - backend/src/alert/alert.service.ts
+  - backend/src/alert/alert.controller.ts
+  - backend/src/alert/alert.module.ts
+  - backend/src/diagnostics/diagnostic-batch-service.ts
+  - backend/src/diagnostics/diagnostic.module.ts
+  - backend/src/app.module.ts
+  - backend/src/alert/alert.service.test.ts
+  - backend/src/alert/alert.controller.e2e.test.ts
+
+validation:
+  - "npm --prefix backend test PASS"
+
+approval_required: false

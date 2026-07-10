@@ -1,0 +1,23 @@
+task_id: TASK-GEO-014
+spec_id: SPEC-GEO-006
+goal: "定义 EngineConnector 抽象 + EngineAnswer 类型，并实现 ProxyEngineConnector（无 API Key 时返回 deterministic stub，便于 CI）"
+
+files_to_touch:
+  - backend/src/engine/engine-connector.ts
+  - backend/src/engine/engine-connector.test.ts
+  - backend/src/engine/proxy-engine-connector.ts
+
+validation:
+  - "npm --prefix backend test -- engine-connector PASS"
+  - "npm --prefix backend run typecheck PASS"
+  - "eval/task_validation/TASK-GEO-014.checklist.md 全部勾选"
+  - "golden case proxy-engine-001 复现一致（stub 模式返回含 answer+sources+engineId）"
+
+approval_required: true
+
+outputs:
+  - eval/task_validation/TASK-GEO-014.checklist.md
+  - eval/golden_cases/engine/proxy-engine-001.json
+
+# 预估 diff：~120 行（≤300）
+# service 边界：backend（单一 service，满足 R6）

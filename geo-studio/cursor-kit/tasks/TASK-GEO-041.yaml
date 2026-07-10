@@ -1,0 +1,14 @@
+task_id: TASK-GEO-041
+spec_id: SPEC-GEO-020
+goal: "MatrixPanel 看板 UI + api.ts + Dashboard 集成"
+
+files_to_touch:
+  - web/src/MatrixPanel.tsx
+  - web/src/api.ts
+  - web/src/Dashboard.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+
+approval_required: false

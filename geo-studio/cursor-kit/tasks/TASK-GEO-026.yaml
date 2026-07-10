@@ -1,0 +1,25 @@
+task_id: TASK-GEO-026
+spec_id: SPEC-GEO-014
+goal: "测试与前端去 tenant：更新全部 backend 单测/e2e（删除 tenant 头与隔离用例）；web api.ts/Dashboard/CreateBrandModal 移除 tenant 输入与请求头"
+
+files_to_touch:
+  - backend/src/brand/brand.test.ts
+  - backend/src/brand/brand-service.test.ts
+  - backend/src/brand/brand.controller.e2e.test.ts
+  - backend/src/diagnostics/diagnostic-service.test.ts
+  - backend/src/diagnostics/diagnostic-batch-service.test.ts
+  - backend/src/diagnostics/diagnostic.controller.e2e.test.ts
+  - backend/src/diagnostics/diagnostic-batch.controller.e2e.test.ts
+  - backend/src/engine/engine-test.controller.e2e.test.ts
+  - backend/src/metrics/metrics.service.test.ts
+  - web/src/api.ts
+  - web/src/Dashboard.tsx
+  - web/src/CreateBrandModal.tsx
+
+validation:
+  - "npm --prefix backend test PASS"
+  - "npm --prefix web run build PASS"
+
+approval_required: false
+
+# 依赖 TASK-GEO-025。放宽上限已获用户批准。

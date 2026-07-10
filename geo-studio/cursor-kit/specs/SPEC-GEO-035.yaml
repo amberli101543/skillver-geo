@@ -1,0 +1,32 @@
+spec:
+  id: SPEC-GEO-035
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "诊断跑批支持多引擎并行实测，每题可在多个 EngineConnector 上取回答并落库"
+
+  parent_plan: phase-5-platform-alignment
+  depends_on: [SPEC-GEO-028, SPEC-GEO-ARCH-004]
+
+  affected_files:
+    - backend/src/diagnostics/diagnostic-batch-service.ts
+    - backend/src/engine/engine-registry.ts
+    - backend/src/engine/engine-test-service.ts
+    - backend/prisma/schema.prisma
+    - docs/CONNECTORS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS"
+    - "单次跑批可对 ≥2 个已注册 engineId 产生 EngineTest 记录"
+    - "Diagnostic 核心循环不因新增引擎而 fork 逻辑（经 Registry resolve）"
+
+  replay_cases: []
+
+  notes: |
+    对齐产品方案「一键测多家引擎」与连接器层目标态。
+    - 跑批 payload 支持 engineIds[]；缺省为 registry 中全部 live 可用引擎或 env 配置列表
+    - EngineTest 持久化 engineId；baseline/趋势可按引擎维度聚合（最小：明细可查）
+    - 不改 EngineConnector 接口；并行度可配置（JOB_QUEUE_CONCURRENCY 或批内 limit）
+
+  approval_required: true

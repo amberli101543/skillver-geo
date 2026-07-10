@@ -1,0 +1,23 @@
+spec:
+  id: SPEC-EXAMPLE-001
+  version: v0.1.0
+  status: ACTIVE
+  type: feature
+  feature_goal: "用一句话描述可验证的目标（例如：用户可通过 API 创建 X 并收到 201）"
+
+  affected_files:
+    - src/example/service.ts
+    - src/example/service.test.ts
+
+  validation_rules:
+    - "commands.test PASS（见 project.config.yaml）"
+    - "eval/task_validation 中所有 task checklist 完成"
+
+  replay_cases:
+    - eval/golden_cases/example/example-001.json
+
+  notes: |
+    拆 task 前由 Planner 填写本 SPEC。
+    纯文档/配置变更可设 replay_cases: [] 并在此说明 replay_exempt。
+
+  approval_required: false

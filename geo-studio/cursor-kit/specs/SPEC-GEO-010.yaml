@@ -1,0 +1,9 @@
+spec:
+  id: SPEC-GEO-010
+  version: v0.1.0
+  status: COMPLETED
+  feature_goal: "一键诊断跑批：POST /brands/:id/diagnostic-runs 拉取问题集、逐题实测+评分，返回 items 与基线摘要（mentionRate/positiveRate/avgAccuracy/sentimentBreakdown）"
+
+  replay_cases:
+    - eval/golden_cases/diagnostics/diagnostic-batch-001.json
+    - eval/golden_cases/diagnostics/diagnostic-batch-api-001.json

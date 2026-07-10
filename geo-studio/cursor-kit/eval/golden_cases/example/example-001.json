@@ -1,0 +1,13 @@
+{
+  "id": "EXAMPLE-001",
+  "task_id": "TASK-EXAMPLE-001",
+  "feature": "example",
+  "risk_type": "happy_path",
+  "input": {
+    "description": "替换为真实输入"
+  },
+  "expected_output": {
+    "description": "替换为期望输出"
+  },
+  "replay_required": true
+}

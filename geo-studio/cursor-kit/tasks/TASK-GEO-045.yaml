@@ -1,0 +1,12 @@
+task_id: TASK-GEO-045
+spec_id: SPEC-GEO-022
+goal: "PublishConnector 抽象 + stub CMS / 导出稿件 + 单元测试"
+
+files_to_touch:
+  - backend/src/distribution/publish-connector.ts
+  - backend/src/distribution/publish-connector.test.ts
+
+validation:
+  - "npm --prefix backend test -- publish-connector PASS"
+
+approval_required: false

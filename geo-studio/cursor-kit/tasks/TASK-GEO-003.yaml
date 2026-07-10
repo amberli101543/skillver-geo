@@ -1,0 +1,23 @@
+task_id: TASK-GEO-003
+spec_id: SPEC-GEO-001
+goal: "实现内存版 BrandService.create/get：创建前调用 validateBrand、分配 id、按 tenant_id 隔离读取"
+
+files_to_touch:
+  - backend/src/brand/brand-service.ts
+  - backend/src/brand/brand-service.test.ts
+
+validation:
+  - "npm test -- brand-service.test PASS"
+  - "eval/task_validation/TASK-GEO-003.checklist.md 全部勾选"
+  - "golden case brand-create-get-001 复现一致（创建后可按 id+tenant 读回，跨 tenant 不可见）"
+
+approval_required: true
+
+# 涉及业务逻辑（创建/读取/租户隔离）→ 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-003.checklist.md
+  - eval/golden_cases/brand/brand-create-get-001.json
+
+# 依赖：TASK-GEO-002（复用 brand.ts 的 Brand 类型与 validateBrand）
+# 预估 diff：brand-service.ts ~50 / brand-service.test.ts ~40 = ~90 行（≤100）
+# service 边界：backend（单一 service，满足 R6）

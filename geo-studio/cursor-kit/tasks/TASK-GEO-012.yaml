@@ -1,0 +1,27 @@
+task_id: TASK-GEO-012
+spec_id: SPEC-GEO-005
+goal: "新增 DiagnosticController（GET /brands/:id/questions，租户走 x-tenant-id 头，competitors/attributes 走逗号分隔查询参数，BrandNotFoundError→404），并把 DiagnosticModule 接入 AppModule"
+
+files_to_touch:
+  - backend/src/app.module.ts
+  - backend/src/diagnostics/diagnostic.module.ts
+  - backend/src/diagnostics/diagnostic.controller.ts
+
+validation:
+  - "npm --prefix backend run typecheck PASS"
+  - "npm --prefix backend test PASS（现有 18 用例不回归）"
+  - "本地 docker 起库后：GET /brands/:id/questions(x-tenant-id) 命中→200；未知→404；缺租户头→400"
+  - "eval/task_validation/TASK-GEO-012.checklist.md 全部勾选"
+
+approval_required: true
+
+# 端到端 replay 由 TASK-GEO-013 的 e2e + golden 覆盖，避免重复
+replay_exempt: "HTTP 行为的 replay 在 TASK-GEO-013 的 e2e + golden 覆盖"
+
+outputs:
+  - eval/task_validation/TASK-GEO-012.checklist.md
+
+# DiagnosticModule 加 controller；AppModule imports DiagnosticModule
+# 依赖：SPEC-GEO-002 的 DiagnosticService/DiagnosticModule
+# 预估 diff：~120 行（controller + 接线）（≤300）
+# service 边界：backend（单一 service，满足 R6）

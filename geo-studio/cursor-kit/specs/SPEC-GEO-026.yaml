@@ -1,0 +1,59 @@
+spec:
+  id: SPEC-GEO-026
+  version: v1.0.0
+  status: DONE
+  type: feature
+  feature_goal: "产品 v1 收官：补齐全部已知前后端断点，AI 能力在用户旅程上可感知、可试跑、可编辑"
+
+  parent_spec: SPEC-GEO-PROD-001
+
+  affected_files:
+    - web/src/api.ts
+    - web/src/AssertionsPanel.tsx
+    - web/src/RetestPanel.tsx
+    - web/src/EngineTestPanel.tsx
+    - web/src/DraftEditor.tsx
+    - web/src/AiSettingsPanel.tsx
+    - web/src/DiagnosticRunsPanel.tsx
+    - web/src/MatrixPanel.tsx
+    - web/src/DistributionPanel.tsx
+    - web/src/Dashboard.tsx
+    - web/src/styles.css
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "npm --prefix web run build PASS"
+    - "断点清单 8/8 已接线或有明确 UI 入口（见 notes）"
+    - "用户旅程 DoD（SPEC-GEO-PROD-001）全部勾选"
+
+  replay_cases: []
+
+  notes: |
+    ## 固定断点清单（范围边界，不得扩充）
+
+    | # | 后端 API | 交付 UI / api.ts |
+    |---|----------|------------------|
+    | 1 | GET/POST/DELETE /brands/:id/assertions | AssertionsPanel |
+    | 2 | GET/PUT /brands/:id/retest-schedule | RetestPanel |
+    | 3 | POST /brands/:id/engine-tests | EngineTestPanel |
+    | 4 | PATCH content-drafts body | DraftEditor（MatrixPanel 集成） |
+    | 5 | PUT /brands/:id/matrix-cells/:cellId | MatrixPanel 行内编辑或 modal |
+    | 6 | PUT /sources/:sourceId | DistributionPanel 信源编辑 |
+    | 7 | DELETE /brands/:id/content-drafts/:draftId | MatrixPanel 删除草稿 |
+    | 8 | GET /brands/:id/questions | DiagnosticRunsPanel 或独立折叠「问题集预览」 |
+
+    ## AI 前台化（同 SPEC 交付，不另开 SPEC）
+
+    - AiSettingsPanel：展示 /ai/status 详情 + env 配置说明
+    - EngineTestPanel：单题试跑 + 答案/来源/评分
+    - DiagnosticRunsPanel：评分旁标注 scoringMode 或 rule/llm 提示
+    - MatrixPanel：无 assertion 时生成初稿前 warning
+
+    ## Task 拆分（≤3）
+
+    - TASK-GEO-054：品牌知识 + 自动化（Assertion + Retest + api）
+    - TASK-GEO-055：AI 试跑 + 设置（EngineTest + AiSettings + 明细标注）
+    - TASK-GEO-056：内容编辑 + API parity 余项（DraftEditor + matrix/source/draft/questions）
+
+  approval_required: false

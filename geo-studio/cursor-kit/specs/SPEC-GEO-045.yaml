@@ -1,0 +1,44 @@
+spec:
+  id: SPEC-GEO-045
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "内容验证闭环：初稿生成后引擎试跑验证，反馈提及/准确性方向并持久化"
+
+  parent_plan: phase-7-capability-depth
+  depends_on: [SPEC-GEO-044, SPEC-GEO-037, SPEC-GEO-041]
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/prisma/migrations/20260613030000_content_draft_verification/migration.sql
+    - backend/src/content/content-verification.ts
+    - backend/src/content/content-verification.test.ts
+    - backend/src/content/content-draft.ts
+    - backend/src/content/content-draft.repository.ts
+    - backend/src/content/content-draft.service.ts
+    - backend/src/content/content.controller.ts
+    - backend/src/content/content.module.ts
+    - backend/src/content/content-draft.service.test.ts
+    - backend/src/content/content.controller.e2e.test.ts
+    - web/src/api.ts
+    - web/src/DraftEditor.tsx
+    - web/src/DraftVerificationPanel.tsx
+    - web/src/styles.css
+    - docs/PROGRESS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS"
+    - "npm --prefix web run build PASS"
+    - "generate 完成后 draft 含 verification（direction / summary / hints）"
+    - "POST content-drafts/:id/verify 可重新验证"
+    - "DraftEditor 展示验证反馈"
+
+  replay_cases: []
+
+  notes: |
+    Phase 7 P1 — 基于矩阵单元构造验证问题，单题引擎试跑 + 评分。
+    verification 持久化于 content_drafts.verification JSONB；生成 Job 结束后自动验证。
+    direction: favorable | neutral | needs_improvement
+
+  approval_required: true

@@ -1,0 +1,48 @@
+spec:
+  id: SPEC-GEO-014
+  version: v0.1.0
+  status: COMPLETED
+  type: refactor
+  feature_goal: "单用户化：移除全栈 x-tenant-id / tenantId（Brand、诊断、引擎、指标、Prisma 三表及前端），保留一个用户管理多品牌；抽公共 CSV helper 消除控制器重复"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/prisma/migrations/*/migration.sql
+    - backend/src/brand/brand.ts
+    - backend/src/brand/brand-repository.ts
+    - backend/src/brand/brand-service.ts
+    - backend/src/brand/brand.controller.ts
+    - backend/src/diagnostics/diagnostic-service.ts
+    - backend/src/diagnostics/diagnostic.controller.ts
+    - backend/src/diagnostics/diagnostic-batch-service.ts
+    - backend/src/diagnostics/diagnostic-batch.controller.ts
+    - backend/src/engine/engine-test.controller.ts
+    - backend/src/metrics/metric-types.ts
+    - backend/src/metrics/metric-snapshot.repository.ts
+    - backend/src/metrics/metrics.service.ts
+    - backend/src/metrics/metrics.controller.ts
+    - backend/src/common/csv.ts
+    - web/src/api.ts
+    - web/src/Dashboard.tsx
+    - web/src/CreateBrandModal.tsx
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "npm --prefix web run build PASS"
+    - "无任何 x-tenant-id / tenantId 残留（rg 全仓为 0，除迁移历史 SQL）"
+    - "GET /brands、POST /brands、诊断/引擎/指标 API 均无需 tenant 头即可工作"
+
+  replay_cases: []
+
+  notes: |
+    单用户产品化第一步（地基）。对应完整产品规划的阶段 A-1。
+    决策：
+    - 彻底移除 tenant 概念（非默认值占位），简化领域模型与 API。
+    - Brand 仍可多条（一个用户多品牌），仅去掉租户隔离维度。
+    - 旧的 "without tenant header -> 400" 与 "tenant isolation" 测试一并删除/改写。
+    - Prisma 用新迁移 DROP 列与相关索引；本地无 DB 时迁移以 SQL 文件入库，
+      `prisma migrate deploy` 在 DB 可用时执行。
+    - splitCsv 在两个诊断控制器重复，抽到 backend/src/common/csv.ts。
+
+  approval_required: false

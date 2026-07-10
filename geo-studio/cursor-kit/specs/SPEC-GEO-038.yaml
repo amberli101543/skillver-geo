@@ -1,0 +1,33 @@
+spec:
+  id: SPEC-GEO-038
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "可观测基线：Job 队列指标、结构化任务日志、Worker 健康说明与部署文档对齐"
+
+  parent_plan: phase-5-platform-alignment
+  depends_on: [SPEC-GEO-030, SPEC-GEO-032]
+
+  affected_files:
+    - backend/src/worker/job.controller.ts
+    - backend/src/worker/job.service.ts
+    - backend/src/worker/job-queue.service.ts
+    - backend/src/bootstrap.ts
+    - docs/DEPLOYMENT.md
+    - docs/ARCHITECTURE.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "GET /jobs 或 /jobs/stats 返回 pending/running/completed/failed 计数"
+    - "JobRunner/JobQueue 关键事件有结构化 log（jobId, type, durationMs, status）"
+    - "DEPLOYMENT.md 与 worker 无 HTTP 监听行为一致"
+
+  replay_cases: []
+
+  notes: |
+    对齐产品方案技术选型中的「日志、指标」最小落地；不引入 Prometheus/OTel 全栈（留 Phase 6+）。
+    - API 进程暴露 queue depth + job 状态汇总（只读）
+    - Worker 进程启动/失败/完成统一 log 格式
+    - 文档修正 WORKER_PORT 健康检查描述（application context 模式）
+
+  approval_required: true

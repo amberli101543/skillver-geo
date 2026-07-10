@@ -1,0 +1,15 @@
+task_id: TASK-GEO-016
+spec_id: SPEC-GEO-007
+goal: "POST /brands/:id/engine-tests + RunEngineTestDto + 接入 AppModule/EngineModule"
+
+files_to_touch:
+  - backend/src/app.module.ts
+  - backend/src/engine/engine.module.ts
+  - backend/src/engine/engine-test.controller.ts
+  - backend/src/engine/dto/run-engine-test.dto.ts
+
+validation:
+  - "npm --prefix backend test PASS"
+  - "npm --prefix backend run typecheck PASS"
+
+approval_required: true

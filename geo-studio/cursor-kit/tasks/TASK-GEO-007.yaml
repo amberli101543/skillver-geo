@@ -1,0 +1,29 @@
+task_id: TASK-GEO-007
+spec_id: SPEC-GEO-003
+goal: "接入 Prisma + PostgreSQL：Brand schema、docker-compose 本地库、PrismaService/PrismaModule，prisma generate/migrate 可用"
+
+files_to_touch:
+  - backend/package.json
+  - backend/prisma/schema.prisma
+  - backend/docker-compose.yml
+  - backend/.env.example
+  - backend/src/prisma/prisma.service.ts
+  - backend/src/prisma/prisma.module.ts
+
+validation:
+  - "npm --prefix backend run typecheck PASS"
+  - "npx prisma generate 成功；prisma migrate dev 生成 Brand 表（id/tenantId/name/definition/positioning）"
+  - "docker compose up -d 起 postgres，PrismaService 可连接"
+  - "eval/task_validation/TASK-GEO-007.checklist.md 全部勾选"
+
+approval_required: true
+
+# 纯持久化基础设施（schema/连接/容器编排），无运行时业务逻辑：
+replay_exempt: "数据库 schema 与连接基础设施，无业务逻辑分支；行为验证在 TASK-GEO-008"
+
+outputs:
+  - eval/task_validation/TASK-GEO-007.checklist.md
+
+# 安全：仅 .env.example 入库，真实 .env 已被 .gitignore 忽略，不存任何密钥
+# 预估 diff：~150 行（schema + compose + prisma service/module + deps）（≤300）
+# service 边界：backend（单一 service，满足 R6）

@@ -1,0 +1,25 @@
+spec:
+  id: SPEC-GEO-PLAN-001
+  version: v1.0.0
+  status: DONE
+  type: docs
+  feature_goal: "建立开发总计划、进度活文档与 master-plan.yaml，统筹 v1 之后全部开发"
+
+  affected_files:
+    - docs/DEVELOPMENT-PLAN.md
+    - docs/PROGRESS.md
+    - cursor-kit/plan/master-plan.yaml
+    - cursor-kit/plan/README.md
+
+  validation_rules:
+    - "DEVELOPMENT-PLAN.md 含阶段、工作流、文档体系"
+    - "PROGRESS.md 含当前 Phase 与 SPEC 状态表"
+    - "master-plan.yaml 与 PROGRESS 阶段一致"
+
+  replay_cases: []
+
+  notes: |
+    v1 完成后开发入口统一为 docs/DEVELOPMENT-PLAN.md。
+    新功能必须：master-plan 登记 → SPEC ACTIVE → Task → 更新 PROGRESS。
+
+  approval_required: false

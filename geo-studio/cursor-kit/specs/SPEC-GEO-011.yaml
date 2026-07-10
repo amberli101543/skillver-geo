@@ -1,0 +1,8 @@
+spec:
+  id: SPEC-GEO-011
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "跑批基线指标写入 MetricSnapshot（PostgreSQL），GET /brands/:id/metrics 返回时序点支撑趋势"
+
+  approval_required: true

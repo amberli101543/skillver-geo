@@ -1,0 +1,13 @@
+spec:
+  id: SPEC-GEO-009
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "POST /brands/:id/engine-tests 响应附带 score（TestScore），一次调用完成实测+评分"
+
+  replay_cases:
+    - eval/golden_cases/engine/engine-test-api-scored-001.json
+
+  notes: |
+    无 runId 持久化阶段，在现有 POST 响应中合并 score，避免二次请求。
+    EngineModule imports ScoringModule；返回类型 EngineTestWithScore。

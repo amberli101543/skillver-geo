@@ -1,0 +1,32 @@
+spec:
+  id: SPEC-GEO-037
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "引擎单题试跑经 Job 异步化，HTTP 202 + 轮询，消除同步 LLM 长请求"
+
+  parent_plan: phase-5-platform-alignment
+  depends_on: [SPEC-GEO-ARCH-002]
+
+  affected_files:
+    - backend/src/engine/engine-test.controller.ts
+    - backend/src/worker/job.types.ts
+    - backend/src/worker/job-runner.service.ts
+    - web/src/api.ts
+    - web/src/EngineTestPanel.tsx
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "POST /brands/:id/engine-tests 返回 202 + jobId"
+    - "npm --prefix web run build PASS"
+    - "看板单题试跑可走 job 轮询完成"
+
+  replay_cases: []
+
+  notes: |
+    对齐 ARCHITECTURE「重活 >3s 走 Worker」；与跑批/生成/发布 Job 模式一致。
+    - 新增 JOB_TYPES.ENGINE_TEST（或复用 diagnostic 子类型，须在 job.types 明确）
+    - JobRunner 调用 EngineTestService + ScoringService，结果写入 job.result
+    - 前端 EngineTestPanel 复用 waitForJobResult 模式
+
+  approval_required: true

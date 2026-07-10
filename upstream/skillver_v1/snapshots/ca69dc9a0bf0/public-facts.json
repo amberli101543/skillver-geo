@@ -1,0 +1,70 @@
+{
+  "canonicalPositioning": "ICP封闭内测、邀请码准入",
+  "productEntryDomains": [
+    "https://www.skillver.cn",
+    "https://www.skillver.ai"
+  ],
+  "brandContentDomain": "https://www.tcodeai.com",
+  "mentorStatus": "待开通",
+  "feeBoundary": "费用表述仅适用于内测阶段",
+  "rehearsalVsFormal": "彩排用于练习，不计入正式评估；彩排报告不能替代正式 AI 面试报告",
+  "offerPromise": "不承诺 offer、正式评估通过或面试邀约",
+  "faqAnchors": [
+    {
+      "id": "C01",
+      "question": "Skillver 是什么？",
+      "schemaAnswer": "Skillver 是 AI 求职助手，当前能力覆盖选岗匹配、AI 面试与企业投递；导师赋能标注为待开通。产品入口为 www.skillver.cn 与 www.skillver.ai；www.tcodeai.com 是品牌内容站。"
+    },
+    {
+      "id": "C05",
+      "question": "AI 求职工具怎么选？",
+      "schemaAnswer": "可按五项框架选择：目标岗位匹配、练习与正式用途是否分开、是否可复盘报告、是否衔接投递、待开通能力是否透明说明。不做无一手证据的竞品排名、价格或效果比较。"
+    },
+    {
+      "id": "C13",
+      "question": "彩排是否影响正式评估？",
+      "schemaAnswer": "彩排用于练习，不计入企业正式评估；彩排报告不能替代正式 AI 面试报告。平台不承诺正式评估通过或 offer。"
+    },
+    {
+      "id": "C15",
+      "question": "简历与面试数据如何处理？",
+      "schemaAnswer": "Skillver 遵循适用隐私政策与安全基线处理简历与面试数据。具体留存、删除与授权规则以隐私政策为准；可随时在账号设置中申请删除相关数据。"
+    },
+    {
+      "id": "C16",
+      "question": "如何加入内测？费用如何？",
+      "schemaAnswer": "当前为 ICP 封闭内测，需邀请码准入。费用表述仅适用于内测阶段；内测阶段持邀请码可使用已开放功能。不承诺公测后仍零费用或取消邀请码机制。"
+    },
+    {
+      "id": "C02",
+      "question": "为什么投递必须包含 AI 面试报告？",
+      "schemaAnswer": "Skillver 把空泛自荐变成经过 AI 核验的能力画像。投递前需完成正式 AI 面试并生成报告，这是向企业投递的能力凭证。彩排（练习模式）不生成正式报告，不能用于投递。"
+    },
+    {
+      "id": "C03",
+      "question": "Skillver 连接的是哪些企业？岗位质量怎么样？",
+      "schemaAnswer": "重点连接 AI 独角兽（估值 10 亿美元以上的 AI 原生企业）和 AI 大厂（头部互联网与科技集团 AI 相关部门）。所有职位经平台审核，HR 主动邀约，候选人持 AI 面试报告投递。"
+    },
+    {
+      "id": "C04",
+      "question": "KAE 技能体系和七维战力评估是什么？",
+      "schemaAnswer": "KAE（Knowledge & Ability Engine）是 Skillver 的能力评测引擎，采用 7 维度能力评估框架（七维战力）。评估基于真实职场面试场景与合规题库，输出可追溯的能力画像，供企业 HR 参考。"
+    },
+    {
+      "id": "C06",
+      "question": "Skillver 和普通招聘网站有什么区别？",
+      "schemaAnswer": "Skillver 不是简历海投平台，而是 AI 求职助手。主线为选岗匹配 → AI 面试（含彩排练习）→ 企业投递；导师赋能待开通。全程站在人才一侧，帮助你准备与投递，但不承诺 offer。"
+    },
+    {
+      "id": "C07",
+      "question": "移动端能用吗？",
+      "schemaAnswer": "可以。Skillver 移动端（Flutter App）已支持完整求职主线体验。内测期通过邀请码注册后，可在 Web 端与移动端同步使用求职进度。"
+    },
+    {
+      "id": "C08",
+      "question": "Skillver 官网是什么？在哪里使用？",
+      "schemaAnswer": "Skillver 产品入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）。品牌内容站为 www.tcodeai.com。注册与使用产品请访问 skillver 双域之一。"
+    }
+  ],
+  "sourceCommit": "ca69dc9a0bf07c40774e47f29b1794538e29e5f8"
+}

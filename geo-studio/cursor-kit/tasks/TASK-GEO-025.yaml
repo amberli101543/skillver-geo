@@ -1,0 +1,28 @@
+task_id: TASK-GEO-025
+spec_id: SPEC-GEO-014
+goal: "后端去 tenant：Brand 领域/仓储/服务/控制器、诊断与引擎控制器、metrics 全链路移除 tenantId；Prisma 三表去 tenant_id + 新迁移；抽 common/csv.ts"
+
+files_to_touch:
+  - backend/prisma/schema.prisma
+  - backend/prisma/migrations/20260612000000_remove_tenant/migration.sql
+  - backend/src/brand/brand.ts
+  - backend/src/brand/brand-repository.ts
+  - backend/src/brand/brand-service.ts
+  - backend/src/brand/brand.controller.ts
+  - backend/src/diagnostics/diagnostic-service.ts
+  - backend/src/diagnostics/diagnostic.controller.ts
+  - backend/src/diagnostics/diagnostic-batch-service.ts
+  - backend/src/diagnostics/diagnostic-batch.controller.ts
+  - backend/src/engine/engine-test.controller.ts
+  - backend/src/metrics/metric-types.ts
+  - backend/src/metrics/metric-snapshot.repository.ts
+  - backend/src/metrics/metrics.service.ts
+  - backend/src/metrics/metrics.controller.ts
+  - backend/src/common/csv.ts
+
+validation:
+  - "npm --prefix backend run typecheck PASS"
+
+approval_required: false
+
+# 单 service（backend），R6 满足。放宽上限：本 task 文件数与行数超默认，已获用户批准按完整产品推进。

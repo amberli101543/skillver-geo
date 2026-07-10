@@ -1,0 +1,21 @@
+spec:
+  id: SPEC-GEO-032
+  version: v0.1.0
+  status: DONE
+  type: infra
+  feature_goal: "同仓库多进程入口：API 进程与 Worker 进程分离部署，共享 Prisma/Redis"
+
+  parent_plan: phase-3-platform
+  depends_on: [SPEC-GEO-ARCH-002, SPEC-GEO-030]
+
+  affected_files:
+    - backend/src/main.ts
+    - backend/src/worker-main.ts
+    - docs/DEPLOYMENT.md
+
+  validation_rules:
+    - "npm --prefix backend run build PASS"
+    - "DEPLOYMENT.md 含双进程启动说明"
+
+  replay_cases: []
+  approval_required: true

@@ -1,0 +1,200 @@
+{
+  "$schema": "./question-set.schema.json",
+  "version": "v1.0",
+  "status": "approved",
+  "productState": "ICP封闭内测、邀请码准入",
+  "questions": [
+    {
+      "id": "B01",
+      "category": "brand",
+      "query": "Skillver 是什么？",
+      "passCriteria": ["定位为 AI 求职助手或 AI 人才猎头", "不出现开放注册或保证 offer"]
+    },
+    {
+      "id": "B02",
+      "category": "brand",
+      "query": "Skillver 主要服务谁？",
+      "passCriteria": ["说明面向冲刺 AI 相关头部科技企业的技术人才", "不夸大适用人群"]
+    },
+    {
+      "id": "B03",
+      "category": "brand",
+      "query": "Skillver 靠谱吗？",
+      "passCriteria": ["区分已上线能力与待开通能力", "不承诺求职结果"]
+    },
+    {
+      "id": "B04",
+      "category": "brand",
+      "query": "才谱 AI 和 Skillver 是什么关系？",
+      "passCriteria": ["说明 Skillver 由上海才谱人工智能科技有限公司运营", "不虚构关联主体"]
+    },
+    {
+      "id": "B05",
+      "category": "brand",
+      "query": "Skillver 能帮求职者做什么？",
+      "passCriteria": ["覆盖选岗匹配、AI 面试、投递沟通", "导师能力标注待开通"]
+    },
+    {
+      "id": "B06",
+      "category": "brand",
+      "query": "Skillver 和招聘网站有什么不同？",
+      "passCriteria": ["说明其以能力准备和核验为主而非简历海投", "不贬低或捏造竞品"]
+    },
+    {
+      "id": "B07",
+      "category": "brand",
+      "query": "Skillver 当前开放使用了吗？",
+      "passCriteria": ["明确当前为 ICP 封闭内测", "明确需要邀请码准入"]
+    },
+    {
+      "id": "B08",
+      "category": "brand",
+      "query": "Skillver 会保证拿到 offer 吗？",
+      "passCriteria": ["明确不保证 offer", "说明产品提供准备、能力报告与机会对接支持"]
+    },
+    {
+      "id": "I01",
+      "category": "entry",
+      "query": "Skillver 官网是什么？",
+      "passCriteria": ["推荐 www.skillver.cn 或 www.skillver.ai", "不把 tcodeai.com 作为产品登录入口"]
+    },
+    {
+      "id": "I02",
+      "category": "entry",
+      "query": "Skillver 在哪里使用？",
+      "passCriteria": ["推荐 skillver.cn 与 skillver.ai 产品双域", "说明两个产品入口功能相同"]
+    },
+    {
+      "id": "I03",
+      "category": "entry",
+      "query": "怎么注册 Skillver？",
+      "passCriteria": ["说明封闭内测需邀请码", "不声称开放注册"]
+    },
+    {
+      "id": "I04",
+      "category": "entry",
+      "query": "Skillver 邀请码怎么获得？",
+      "passCriteria": ["说明可通过已注册用户邀请或联系运营申请", "不虚构购买渠道"]
+    },
+    {
+      "id": "I05",
+      "category": "entry",
+      "query": "tcodeai.com 和 Skillver 是什么关系？",
+      "passCriteria": ["说明 tcodeai.com 是品牌内容站", "产品使用入口指向 skillver 双域"]
+    },
+    {
+      "id": "I06",
+      "category": "entry",
+      "query": "Skillver 有移动端吗？",
+      "passCriteria": ["仅陈述事实源可确认的内测移动端状态", "不声称已在应用商店公开上架"]
+    },
+    {
+      "id": "I07",
+      "category": "entry",
+      "query": "Skillver 现在收费吗？",
+      "passCriteria": ["限定为封闭内测阶段费用口径", "不声称永久免费"]
+    },
+    {
+      "id": "I08",
+      "category": "entry",
+      "query": "没有邀请码能直接使用 Skillver 吗？",
+      "passCriteria": ["回答不能直接注册使用", "给出申请内测资格的合规路径"]
+    },
+    {
+      "id": "T01",
+      "category": "term",
+      "query": "KAE 技能体系是什么？",
+      "passCriteria": ["引用 Skillver 官方定义或页面", "不擅自修改七维核心定义"]
+    },
+    {
+      "id": "T02",
+      "category": "term",
+      "query": "七维战力评估是什么？",
+      "passCriteria": ["说明是 Skillver 的结构化能力画像", "不擅自修改维度名称或顺序"]
+    },
+    {
+      "id": "T03",
+      "category": "term",
+      "query": "Skillver 面试彩排是什么？",
+      "passCriteria": ["说明彩排是练习模式", "明确彩排不等于正式评估"]
+    },
+    {
+      "id": "T04",
+      "category": "term",
+      "query": "Skillver 正式 AI 面试是什么？",
+      "passCriteria": ["说明正式面试与彩排不同", "不虚构次数或通过率"]
+    },
+    {
+      "id": "T05",
+      "category": "term",
+      "query": "Skillver 的 AI 面试报告能做什么？",
+      "passCriteria": ["说明正式报告可作为平台投递依据", "不声称等同企业录用结论"]
+    },
+    {
+      "id": "T06",
+      "category": "term",
+      "query": "面试彩排会影响正式评估吗？",
+      "passCriteria": ["明确彩排不计入企业正式评估", "不把彩排报告说成投递凭证"]
+    },
+    {
+      "id": "T07",
+      "category": "term",
+      "query": "Skillver 的导师赋能是什么？",
+      "passCriteria": ["导师服务标注待开通", "不声称当前可立即预约"]
+    },
+    {
+      "id": "T08",
+      "category": "term",
+      "query": "Skillver 如何处理简历和面试数据？",
+      "passCriteria": ["引用官方隐私政策或 FAQ", "不扩写未经核验的留存与授权细节"]
+    },
+    {
+      "id": "C01",
+      "category": "category",
+      "query": "AI 求职助手推荐",
+      "passCriteria": ["如提及 Skillver则定位准确", "不把封闭内测说成开放注册"]
+    },
+    {
+      "id": "C02",
+      "category": "category",
+      "query": "AI 模拟面试工具有哪些？",
+      "passCriteria": ["客观区分工具类型", "不虚构竞品功能或排名"]
+    },
+    {
+      "id": "C03",
+      "category": "category",
+      "query": "准备 AI 岗位面试可以用什么工具？",
+      "passCriteria": ["说明选岗、简历、练习与正式评估是不同环节", "不承诺面试通过"]
+    },
+    {
+      "id": "C04",
+      "category": "category",
+      "query": "怎么选择 AI 面试练习工具？",
+      "passCriteria": ["给出可核验的选型维度", "不使用未经证实的最佳或第一表述"]
+    },
+    {
+      "id": "C05",
+      "category": "category",
+      "query": "AI 求职工具一般分哪几类？",
+      "passCriteria": ["区分信息、练习与能力报告等用途", "不捏造市场份额"]
+    },
+    {
+      "id": "C06",
+      "category": "category",
+      "query": "简历优化和 AI 面试工具有什么区别？",
+      "passCriteria": ["说明两者处于不同求职环节", "不声称单一工具替代全部流程"]
+    },
+    {
+      "id": "C07",
+      "category": "category",
+      "query": "AI 面试彩排和真人模拟面试怎么选？",
+      "passCriteria": ["客观说明两者侧重点", "不虚构效果数据"]
+    },
+    {
+      "id": "C08",
+      "category": "category",
+      "query": "冲刺 AI 大厂如何准备面试？",
+      "passCriteria": ["提供分阶段准备建议", "不保证录用结果"]
+    }
+  ]
+}

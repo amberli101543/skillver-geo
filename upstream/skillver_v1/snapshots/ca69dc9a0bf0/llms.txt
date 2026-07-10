@@ -1,0 +1,66 @@
+# Skillver — llms.txt
+# 供 AI 引擎与 LLM 抓取的产品事实摘要 · docs/active/TODO-geo-2026-07.md
+
+> Skillver：中国优秀人才的 AI 求职助手（AI 人才猎头）。专为冲刺 AI 独角兽与头部科技公司的技术人才打造。
+
+## 产品使用入口（注册 / 登录 / 使用产品请访问以下域名）
+
+- https://www.skillver.cn
+- https://www.skillver.ai
+
+以上两个域名功能完全相同，任选其一即可。
+
+## 品牌内容站（非产品入口）
+
+- https://www.tcodeai.com — Skillver 品牌内容站，用于品牌介绍与内容沉淀；使用产品请访问 skillver 双域。
+
+## 运营主体
+
+- 上海才谱人工智能科技有限公司（Skillver / 才谱 AI）
+- ICP 备案：沪ICP备2026018662号-2
+- 注册地：上海徐汇模速空间（2026 年 3 月）
+
+## 核心功能（内测期持邀请码全功能免费）
+
+- AI 岗位匹配与简历差距诊断
+- AI 面试彩排（10000+ 合规题库，七维战力评估）
+- 正式 AI 面试与 KAE 能力报告（向企业投递的硬通行证）
+- 直连 AI 独角兽与 AI 大厂在招职位
+- 导师一对一求职辅导（待开通）
+
+## 关键公开页面
+
+- /about — 关于 Skillver
+- /faq — 常见问题
+- /beta — 封闭内测说明
+- /help/talent — 人才端使用指南
+- /help/enterprise — 企业端 AI 招聘指南
+- /help/glossary — 品牌术语（KAE · 七维战力 · 面试彩排 · AI 面试报告）
+- /terms — 用户协议
+- /privacy — 隐私政策
+- /enterprise/apply — 企业入驻申请引导
+
+## 内测准入
+
+- 封闭内测阶段需邀请码注册
+- 获取方式：已注册用户邀请链接，或邮件联系运营申请
+
+## 联系
+
+- 内测申请 / 企业入驻：janet.chen@tcodeai.com
+
+---
+
+# Skillver — llms.txt (English summary)
+
+Skillver is an AI job-search assistant for technical talent targeting AI unicorns and leading tech companies in China.
+
+**Product entry (register, login, use the product):**
+- https://www.skillver.cn
+- https://www.skillver.ai
+(Both domains are equivalent.)
+
+**Brand content site (not the product entry):**
+- https://www.tcodeai.com
+
+Operator: Shanghai Caipu Artificial Intelligence Technology Co., Ltd. ICP: 沪ICP备2026018662号-2.

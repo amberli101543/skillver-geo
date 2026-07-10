@@ -1,0 +1,13 @@
+task_id: TASK-GEO-030
+spec_id: SPEC-GEO-017
+goal: "Prisma RetestSchedule 模型 + migration + retest-schedule 领域类型"
+
+files_to_touch:
+  - backend/prisma/schema.prisma
+  - backend/prisma/migrations/20260612030000_retest_schedule/migration.sql
+  - backend/src/worker/retest-schedule.ts
+
+validation:
+  - "npm --prefix backend run typecheck PASS"
+
+approval_required: false

@@ -1,0 +1,18 @@
+{
+  "id": "SCORE-001",
+  "task_id": "TASK-GEO-018",
+  "feature": "scoring",
+  "risk_type": "happy_path",
+  "input": {
+    "brand": { "id": "b1", "tenantId": "t1", "name": "Acme", "definition": "项目管理 SaaS" },
+    "mentionedPositive": { "answer": "Acme 是优秀的项目管理 SaaS，值得推荐。", "sourcesCount": 1 },
+    "notMentioned": { "answer": "这是一段未提及品牌的回答。", "sourcesCount": 1 },
+    "negative": { "answer": "Acme 体验差，不推荐使用。", "sourcesCount": 1 }
+  },
+  "expected_output": {
+    "mentionedPositive": { "mentioned": true, "mentionPosition": 0, "sentiment": "positive", "accuracy": 0.8 },
+    "notMentioned": { "mentioned": false, "mentionPosition": null, "accuracy": 0.2 },
+    "negative": { "sentiment": "negative", "accuracy": 0.5 }
+  },
+  "replay_required": true
+}

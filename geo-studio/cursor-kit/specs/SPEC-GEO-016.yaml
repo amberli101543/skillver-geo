@@ -1,0 +1,27 @@
+spec:
+  id: SPEC-GEO-016
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "品牌实体扩展：Assertion / Competitor 持久化与 CRUD API；跑批 orchestration 收拢为 runAndPersist；诊断题集自动合并品牌已存竞品"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/brand/assertion.ts
+    - backend/src/brand/competitor.ts
+    - backend/src/brand/brand-entity.repository.ts
+    - backend/src/brand/brand-entity.service.ts
+    - backend/src/brand/brand-entity.controller.ts
+    - backend/src/diagnostics/diagnostic-service.ts
+    - backend/src/diagnostics/diagnostic-batch-service.ts
+    - backend/src/diagnostics/diagnostic-batch.controller.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "POST/GET/DELETE assertions & competitors under /brands/:id"
+    - "跑批时未传 competitors 查询参数仍可使用已存竞品生成对比题"
+
+  replay_cases: []
+
+  approval_required: false

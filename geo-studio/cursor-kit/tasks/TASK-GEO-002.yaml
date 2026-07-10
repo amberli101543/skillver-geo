@@ -1,0 +1,23 @@
+task_id: TASK-GEO-002
+spec_id: SPEC-GEO-001
+goal: "定义 Brand 类型与 validateBrand：必填 name/definition/tenant_id 等，非法输入返回结构化错误列表"
+
+files_to_touch:
+  - backend/src/brand/brand.ts
+  - backend/src/brand/brand.test.ts
+
+validation:
+  - "npm test -- brand.test PASS"
+  - "eval/task_validation/TASK-GEO-002.checklist.md 全部勾选"
+  - "golden case brand-validate-001 复现一致（合法品牌通过、缺字段报错）"
+
+approval_required: true
+
+# 涉及业务校验逻辑 → 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-002.checklist.md
+  - eval/golden_cases/brand/brand-validate-001.json
+
+# 依赖：无（最先实现的领域模型）
+# 预估 diff：brand.ts ~45 / brand.test.ts ~40 = ~85 行（≤100）
+# service 边界：backend（单一 service，满足 R6）

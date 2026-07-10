@@ -1,0 +1,18 @@
+{
+  "id": "DIAGNOSTIC-BATCH-API-001",
+  "task_id": "TASK-GEO-060",
+  "feature": "diagnostics",
+  "risk_type": "happy_path",
+  "input": {
+    "postHit": {
+      "method": "POST",
+      "path": "/brands/{brandId}/diagnostic-runs"
+    },
+    "postMiss": { "path": "/brands/unknown/diagnostic-runs" }
+  },
+  "expected_output": {
+    "postHit": { "status": 202, "hasJobId": true, "jobCompletesWithBaseline": true },
+    "postMiss": { "status": 404 }
+  },
+  "replay_required": true
+}

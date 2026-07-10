@@ -1,0 +1,11 @@
+task_id: TASK-GEO-057
+spec_id: SPEC-GEO-ARCH-001
+goal: "新增 EngineAiFacade，ProxyEngineConnector 改经 Facade 调用 LLM"
+files_to_touch:
+  - backend/src/ai/engine.facade.ts
+  - backend/src/engine/proxy-engine-connector.ts
+  - backend/src/engine/engine.module.ts
+validation:
+  - "npm --prefix backend test PASS"
+  - "engine-connector.test.ts PASS"
+approval_required: false

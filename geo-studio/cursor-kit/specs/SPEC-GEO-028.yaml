@@ -1,0 +1,23 @@
+spec:
+  id: SPEC-GEO-028
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "接入第一个真实 AI 引擎连接器（非 OpenAI 代理），经 engine-registry 注册"
+
+  parent_plan: phase-2-ai-engines
+  depends_on: [SPEC-GEO-ARCH-004]
+
+  affected_files:
+    - backend/src/engine/connectors/
+    - docs/CONNECTORS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "CONNECTORS.md 标注 live 能力与 env 要求"
+
+  replay_cases: []
+  approval_required: true
+
+  notes: |
+    引擎选型待产品负责人确认（Phase 2 启动前决策）。

@@ -1,0 +1,33 @@
+---
+description: SPEC-first task workflow — startup sequence, R1-R8 limits, no scope creep
+alwaysApply: true
+---
+
+# Core Workflow (cursor-kit)
+
+## Before writing code
+
+1. Read `bridge/task_executor_rules.md` and `project.config.yaml`
+2. Confirm an approved **task card** in `tasks/` with `files_to_touch` (≤3)
+3. Output **plan + risk + affected_files + validation_checklist** if not done yet
+4. Wait for user approval when task or SPEC says `approval_required: true`
+
+## Hard limits (every task)
+
+- **≤3 files** — only paths in `files_to_touch`
+- **≤100 lines** total diff (add+change+delete)
+- **No** cross-service edits in one task (see `project.config.yaml` `services`)
+- **No** repo-wide rewrite, Composer cascade, or "fix while here"
+- **No** file deletes unless explicitly listed in the task card
+- **No** git commit unless the user explicitly asks
+
+## After implementation
+
+1. Write `eval/task_validation/<task_id>.checklist.md`
+2. Add ≥1 replay/golden case under `eval/golden_cases/` if behavior changed
+3. Run `project.config.yaml` `commands.test` (and lint if applicable)
+4. Optional: `python scripts/validate_task.py --task tasks/<id>.yaml`
+
+## Overflow
+
+Need a 4th file or >100 lines? **Stop** — split a new task card; do not expand scope.

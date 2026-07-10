@@ -1,0 +1,21 @@
+spec:
+  id: SPEC-GEO-027
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "LLM 路由层支持多提供商（OpenAI 以外），统一配额、重试与 fallback"
+
+  parent_plan: phase-2-ai-engines
+  depends_on: [SPEC-GEO-ARCH-001]
+
+  affected_files:
+    - backend/src/ai/llm-router.ts
+    - backend/src/ai/llm-config.ts
+    - web/src/AiSettingsPanel.tsx
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "至少 2 个 provider 可配置切换"
+
+  replay_cases: []
+  approval_required: true

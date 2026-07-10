@@ -1,0 +1,15 @@
+task_id: TASK-GEO-036
+spec_id: SPEC-GEO-019
+goal: "Prisma MatrixCell 模型 + migration + 领域类型与缺口分析纯函数"
+
+files_to_touch:
+  - backend/prisma/schema.prisma
+  - backend/prisma/migrations/20260612040000_matrix_cells/migration.sql
+  - backend/src/matrix/matrix-cell.ts
+  - backend/src/matrix/matrix-gap.ts
+  - backend/src/matrix/matrix-gap.test.ts
+
+validation:
+  - "npm --prefix backend test -- matrix-gap PASS"
+
+approval_required: false

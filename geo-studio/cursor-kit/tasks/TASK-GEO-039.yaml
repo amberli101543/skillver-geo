@@ -1,0 +1,15 @@
+task_id: TASK-GEO-039
+spec_id: SPEC-GEO-020
+goal: "Prisma ContentDraft + content-generator stub/LLM + repository"
+
+files_to_touch:
+  - backend/prisma/schema.prisma
+  - backend/prisma/migrations/20260612050000_content_drafts/migration.sql
+  - backend/src/content/content-draft.ts
+  - backend/src/content/content-generator.ts
+  - backend/src/content/content-draft.repository.ts
+
+validation:
+  - "npm --prefix backend test -- content-generator PASS"
+
+approval_required: false

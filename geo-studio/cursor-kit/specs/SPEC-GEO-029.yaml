@@ -1,0 +1,21 @@
+spec:
+  id: SPEC-GEO-029
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "看板可查看与切换 Prompt 版本（engine/scoring/content），与 prompt-registry 对齐"
+
+  parent_plan: phase-2-ai-engines
+  depends_on: [SPEC-GEO-ARCH-001]
+
+  affected_files:
+    - web/src/AiSettingsPanel.tsx
+    - backend/src/ai/ai.controller.ts
+    - backend/src/ai/prompt-registry.ts
+
+  validation_rules:
+    - "npm --prefix web run build PASS"
+    - "UI 展示当前三流水线 prompt 版本"
+
+  replay_cases: []
+  approval_required: true

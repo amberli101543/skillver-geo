@@ -1,0 +1,23 @@
+spec:
+  id: SPEC-GEO-018
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "看板明细与竞品对标：跑批历史列表、单次跑批每题评分详情、品牌竞品 CRUD UI"
+
+  affected_files:
+    - web/src/api.ts
+    - web/src/CompetitorPanel.tsx
+    - web/src/DiagnosticRunsPanel.tsx
+    - web/src/Dashboard.tsx
+    - web/src/styles.css
+
+  validation_rules:
+    - "npm --prefix web run build PASS"
+    - "npm --prefix backend test PASS"
+    - "看板可查看跑批历史并展开每题评分"
+    - "看板可管理品牌已存竞品"
+
+  replay_cases: []
+
+  approval_required: false

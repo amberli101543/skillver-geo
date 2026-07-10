@@ -1,0 +1,16 @@
+task_id: TASK-GEO-031
+spec_id: SPEC-GEO-017
+goal: "RetestSchedule repository/service/controller + GET/PUT API"
+
+files_to_touch:
+  - backend/src/worker/retest-schedule.repository.ts
+  - backend/src/worker/retest-schedule.service.ts
+  - backend/src/worker/retest-schedule.controller.ts
+  - backend/src/worker/dto/update-retest-schedule.dto.ts
+  - backend/src/worker/retest-schedule.service.test.ts
+  - backend/src/worker/retest-schedule.controller.e2e.test.ts
+
+validation:
+  - "npm --prefix backend test -- retest-schedule PASS"
+
+approval_required: false

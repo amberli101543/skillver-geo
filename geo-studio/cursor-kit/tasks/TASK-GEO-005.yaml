@@ -1,0 +1,28 @@
+task_id: TASK-GEO-005
+spec_id: SPEC-GEO-002
+goal: "实现 @Injectable DiagnosticService.buildQuestionSet(tenantId, brandId, opts)（异步）：注入 BrandService 读品牌→调 generateQuestionSet→给每条问题挂 brandId；品牌不存在抛 BrandNotFoundError。并提供 DiagnosticModule"
+
+files_to_touch:
+  - backend/src/diagnostics/diagnostic-service.ts
+  - backend/src/diagnostics/diagnostic.module.ts
+  - backend/src/diagnostics/diagnostic-service.test.ts
+
+validation:
+  - "npm --prefix backend test -- diagnostic-service.test PASS"
+  - "npm --prefix backend run typecheck PASS"
+  - "eval/task_validation/TASK-GEO-005.checklist.md 全部勾选"
+  - "golden case question-set-build-001 复现一致（已知品牌生成带 brandId 的问题集；未知品牌抛 BrandNotFoundError）"
+
+approval_required: true
+
+# 涉及业务逻辑（读取+组装+错误路径）→ 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-005.checklist.md
+  - eval/golden_cases/diagnostics/question-set-build-001.json
+
+# 刷新（NestJS 架构）：DiagnosticService 改为 @Injectable + async，注入 BrandService（现异步、依赖 BrandRepository）
+# DiagnosticModule imports BrandModule，exports DiagnosticService（暂不接 AppModule/HTTP，端点留待后续 API SPEC）
+# 单测用 new BrandService(FakeBrandRepository) 注入 DiagnosticService，hermetic
+# 依赖：TASK-GEO-004（generateQuestionSet）+ SPEC-GEO-001/003 的 BrandService/BrandModule
+# 预估 diff：diagnostic-service.ts ~55 / diagnostic.module.ts ~12 / diagnostic-service.test.ts ~55 = ~120 行（≤300）
+# service 边界：backend（单一 service，满足 R6）

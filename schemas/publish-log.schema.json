@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skillver.cn/schemas/geo/publish-log.schema.json",
+  "title": "Skillver GEO 发布台账",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "recordId",
+      "contentId",
+      "cellId",
+      "channel",
+      "title",
+      "url",
+      "status",
+      "publishedAt",
+      "verifiedAt",
+      "sourceRef"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "recordId": {
+        "type": "string",
+        "pattern": "^PUB-[0-9]{4}$"
+      },
+      "contentId": {
+        "type": "string",
+        "minLength": 1
+      },
+      "cellId": {
+        "type": "string",
+        "pattern": "^C(0[1-9]|1[0-6])$"
+      },
+      "channel": {
+        "type": "string",
+        "minLength": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "pattern": "^https://[^\\s]+$"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "待发布",
+          "已发布",
+          "已撤回"
+        ]
+      },
+      "publishedAt": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      },
+      "verifiedAt": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      },
+      "sourceRef": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

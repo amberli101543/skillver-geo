@@ -1,0 +1,25 @@
+---
+description: GEO Studio 分层架构契约 — 除多租户外必须遵守的逻辑边界
+alwaysApply: true
+---
+
+# Architecture Layers (mandatory)
+
+Read `docs/DEVELOPMENT-PLAN.md` and `docs/ARCHITECTURE.md` before backend changes.
+
+## Non-negotiables
+
+1. **No layer skipping** — pick a layer first; map to `backend/src/<module>/`.
+2. **AI only via `ai/`** — do NOT add `import ... from "../ai/llm-client"` outside `backend/src/ai/`. Use AiModule facades (`EngineAiFacade`, `ScoringAiFacade`, `ContentAiFacade`).
+3. **Connectors only** — external APIs live in `engine/` (EngineConnector) or `distribution/publish-connector.ts`.
+4. **Controllers are thin** — validate DTO → call Service → return; no LLM, no Prisma, no batch loops.
+5. **Heavy work → Worker** — batch/generate/publish >3s must go through `worker/` (or new Job abstraction), not expand sync HTTP loops.
+6. **Prisma in repositories** — Services use `*.repository.ts`, not `PrismaService` directly (except repositories).
+
+## Before finishing a task
+
+Run `npm --prefix backend run check:architecture`. Fix BLOCKERs or split task per SPEC.
+
+## Reviewer
+
+Reject diffs that add business logic to controllers, cross-layer imports upward, or new llm-client imports outside `ai/`.

@@ -1,0 +1,29 @@
+spec:
+  id: SPEC-GEO-020
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "ContentDraft 持久化 + 基于 MatrixCell 的 LLM/stub 初稿生成；看板语义矩阵与内容库 UI"
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/content/content-draft.ts
+    - backend/src/content/content-generator.ts
+    - backend/src/content/content-draft.repository.ts
+    - backend/src/content/content-draft.service.ts
+    - backend/src/content/content.controller.ts
+    - backend/src/content/content.module.ts
+    - web/src/MatrixPanel.tsx
+    - web/src/api.ts
+    - web/src/Dashboard.tsx
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "npm --prefix web run build PASS"
+    - "POST generate content draft per matrix cell"
+    - "看板可浏览矩阵、同步缺口、生成初稿"
+
+  replay_cases: []
+
+  approval_required: false

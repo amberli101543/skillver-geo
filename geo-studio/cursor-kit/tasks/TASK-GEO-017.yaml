@@ -1,0 +1,15 @@
+task_id: TASK-GEO-017
+spec_id: SPEC-GEO-007
+goal: "引擎实测 API hermetic e2e（201/404/400）"
+
+files_to_touch:
+  - backend/src/engine/engine-test.controller.e2e.test.ts
+
+validation:
+  - "npm --prefix backend test PASS"
+  - "golden engine-test-api-001"
+
+approval_required: true
+
+outputs:
+  - eval/golden_cases/engine/engine-test-api-001.json

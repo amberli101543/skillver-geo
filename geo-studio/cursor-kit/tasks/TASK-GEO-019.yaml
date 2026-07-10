@@ -1,0 +1,10 @@
+task_id: TASK-GEO-019
+spec_id: SPEC-GEO-008
+goal: "ScoringService + ScoringModule"
+
+files_to_touch:
+  - backend/src/scoring/scoring-service.ts
+  - backend/src/scoring/scoring-service.test.ts
+  - backend/src/scoring/scoring.module.ts
+
+approval_required: true

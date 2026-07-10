@@ -1,0 +1,40 @@
+{
+  "sourceCommit": "ca69dc9a0bf07c40774e47f29b1794538e29e5f8",
+  "items": [
+    {
+      "sourcePath": "docs/active/CP_COMMERCIAL_SPEC_V2.0.md",
+      "topic": "商业与费用边界",
+      "sha256": "a15144c2eec6b31afc26c37dac990ce70ee24e79dee0d90cbf42551ae33557e8",
+      "reviewRequired": true,
+      "allowedUse": "仅登记路径与 hash；正文不得复制到 skillver-geo 独立编辑"
+    },
+    {
+      "sourcePath": "docs/active/CP_SECURITY_SPEC_V2.0.md",
+      "topic": "隐私、授权与删除规则",
+      "sha256": "1e8cb9cada28ad2e61b7f0b898804bbac5d2bae93d7e14336c1ced43903cd446",
+      "reviewRequired": true,
+      "allowedUse": "仅登记路径与 hash；正文不得复制到 skillver-geo 独立编辑"
+    },
+    {
+      "sourcePath": "docs/active/CP_GLOSSARY_V2.0.md",
+      "topic": "七维战力对外定义",
+      "sha256": "9b6048d8e1adb0da3fa07339b4d9207172c40641f15a4afeafb15974fa4cb5df",
+      "reviewRequired": true,
+      "allowedUse": "仅登记路径与 hash；正文不得复制到 skillver-geo 独立编辑"
+    },
+    {
+      "sourcePath": "docs/active/CP_ALGORITHMS_V2.0.md",
+      "topic": "评分算法",
+      "sha256": "425ddb44da5d7855c654ae27846ded205538447a685ef07edafd038fe3173738",
+      "reviewRequired": true,
+      "allowedUse": "仅登记路径与 hash；正文不得复制到 skillver-geo 独立编辑"
+    },
+    {
+      "sourcePath": "docs/kae/skill-taxonomy-v0.1.md",
+      "topic": "KAE Skill Taxonomy",
+      "sha256": "98ee8fabf146095a87578e031bc3d7ed666ae2c8c2f7cd3a0ae2717e1e3a55e1",
+      "reviewRequired": true,
+      "allowedUse": "仅登记路径与 hash；正文不得复制到 skillver-geo 独立编辑"
+    }
+  ]
+}

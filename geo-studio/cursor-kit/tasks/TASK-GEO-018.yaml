@@ -1,0 +1,9 @@
+task_id: TASK-GEO-018
+spec_id: SPEC-GEO-008
+goal: "scoreEngineTest 纯函数：mentioned/mentionPosition/sentiment/accuracy/sourcesCount"
+
+files_to_touch:
+  - backend/src/scoring/score.ts
+  - backend/src/scoring/score.test.ts
+
+approval_required: true

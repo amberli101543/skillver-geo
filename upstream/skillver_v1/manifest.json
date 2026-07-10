@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "repository": "skillver_v1",
+  "repositoryStatus": "pinned",
+  "sourceCommit": "ca69dc9a0bf07c40774e47f29b1794538e29e5f8",
+  "sourceCommitMessage": "fix(geo): GEO-MAIN-2026-07-P0 sitemap 守护与 FAQ 事实纠偏",
+  "generatedAt": "2026-07-10T05:17:36+00:00",
+  "snapshotDir": "upstream/skillver_v1/snapshots/ca69dc9a0bf0",
+  "upstreamRoot": "C:\\Users\\pippi\\Documents\\Docs\\skillver_v1",
+  "items": [
+    {
+      "id": "LLMS_TXT",
+      "sourcePath": "web/public/llms.txt",
+      "snapshotPath": "upstream/skillver_v1/snapshots/ca69dc9a0bf0/llms.txt",
+      "protectionLevel": "public",
+      "factCategory": "llms",
+      "allowedUse": "离线口径核对与内容门禁；不得反向覆盖主仓 llms.txt",
+      "sha256": "0910acda8214769aaa3fc0aded7e6b7e67061ebd9e65debed897619bba8da83d",
+      "reviewRequired": false
+    },
+    {
+      "id": "SEO_CONTRACT",
+      "sourcePath": "web/src/lib/siteUrl.ts",
+      "snapshotPath": "upstream/skillver_v1/snapshots/ca69dc9a0bf0/seo-contract.json",
+      "protectionLevel": "derived",
+      "factCategory": "seo",
+      "allowedUse": "生成 seo-contract.json；不得复制为可编辑 TS 源码",
+      "sha256": "7666a61e799743338608db2d3f02a39ea7d3e8db5133c30b9a2ec37aad58fc8b",
+      "reviewRequired": false
+    },
+    {
+      "id": "PUBLIC_FACTS",
+      "sourcePath": "web/src/content/faqContent.ts",
+      "snapshotPath": "upstream/skillver_v1/snapshots/ca69dc9a0bf0/public-facts.json",
+      "protectionLevel": "derived",
+      "factCategory": "public-facts",
+      "allowedUse": "生成 public-facts.json；FAQ 实现仍以主仓 faqContent.ts 为准",
+      "sha256": "8b161e78ec290f66279a79ff17619616f7deb9a558002844c041352d074e265c",
+      "reviewRequired": false
+    },
+    {
+      "id": "GEO_IMPLEMENTATION_STATUS",
+      "sourcePath": "handoffs/SKILLVER-MAIN-REPO-GEO-DEVELOPMENT-2026-07.md",
+      "snapshotPath": "upstream/skillver_v1/snapshots/ca69dc9a0bf0/geo-implementation-status.json",
+      "protectionLevel": "derived",
+      "factCategory": "implementation-status",
+      "allowedUse": "记录代码完成与生产待验状态；生产回传后需重新导出",
+      "sha256": "1baa7a252043bf6bf7450355b921aea4177b33b2fbaf18cf72d02fff8ad385c5",
+      "reviewRequired": false
+    },
+    {
+      "id": "PROTECTED_SOURCES",
+      "sourcePath": "docs/active/CP_COMMERCIAL_SPEC_V2.0.md|docs/active/CP_SECURITY_SPEC_V2.0.md|docs/active/CP_GLOSSARY_V2.0.md|docs/active/CP_ALGORITHMS_V2.0.md|docs/kae/skill-taxonomy-v0.1.md",
+      "snapshotPath": "upstream/skillver_v1/snapshots/ca69dc9a0bf0/protected-sources.json",
+      "protectionLevel": "protected-metadata",
+      "factCategory": "protected-pointer",
+      "allowedUse": "仅保存路径、hash 与复核要求；禁止复制受保护正文到 skillver-geo",
+      "sha256": "5c4eb730c5c08eb72dbb09d0cdd1c93fd9f4ce2ef97f4fada7740796b925cfe8",
+      "reviewRequired": true
+    }
+  ]
+}

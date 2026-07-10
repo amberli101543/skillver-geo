@@ -1,0 +1,42 @@
+spec:
+  id: SPEC-GEO-002
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "后端可基于 Brand 自动生成四类（类目级/对比级/品牌级/属性级）诊断问题集，作为多引擎实测的输入"
+
+  affected_files:
+    - backend/src/diagnostics/question.ts
+    - backend/src/diagnostics/question.test.ts
+    - backend/src/diagnostics/diagnostic-service.ts
+    - backend/src/diagnostics/diagnostic.module.ts
+    - backend/src/diagnostics/diagnostic-service.test.ts
+
+  validation_rules:
+    - "commands.test PASS（npm test，见 project.config.yaml）"
+    - "npm run typecheck PASS"
+    - "eval/task_validation 下 2 张 task checklist 全部完成"
+    - "诊断问题生成的 golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/diagnostics/questions-gen-001.json
+    - eval/golden_cases/diagnostics/question-set-build-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。依赖 SPEC-GEO-001 的 Brand / BrandService。
+    对应产品方案第三节「2. 诊断与多引擎实测」中的「自动生成诊断问题集」一环；
+    本 SPEC 只做"问题集生成"，不含派发引擎、评分流水线、基线汇总（留待后续 SPEC）。
+
+    决策点：
+    - 四类问题模板内置为可版本化常量；competitors / attributes 作为显式入参传入，
+      不在本 SPEC 引入 Competitor 实体表（保持薄切片）。
+    - DiagnosticService 注入 BrandService 读取品牌；品牌不存在抛 BrandNotFoundError。
+    - 问题文案为中文模板占位，后续可迁移到 AI 编排层的提示词资产（非本 SPEC 范围）。
+
+    刷新（2026-06-11，NestJS/Prisma 落地后）：本 SPEC 起草早于框架接入。
+    - generateQuestionSet 保持纯函数；DiagnosticService 改为 @Injectable + async，注入现已异步的 BrandService。
+    - 新增 DiagnosticModule（imports BrandModule，exports DiagnosticService）。
+    - 仅做"生成逻辑 + 领域服务"；诊断 HTTP 端点（GET /brands/:id/questions）留待后续 API SPEC，
+      与 Brand 的「模型(GEO-001) → API(GEO-004)」分层一致。
+
+  approval_required: true

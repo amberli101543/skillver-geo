@@ -1,0 +1,29 @@
+---
+description: Task card format and execution boundaries for tasks/*.yaml
+globs: tasks/**
+alwaysApply: false
+---
+
+# Task Execution
+
+## Task card required fields
+
+```yaml
+task_id: TASK-<SCOPE>-<NNN>
+spec_id: SPEC-<SCOPE>-<NNN>
+goal: ""                 # one verifiable outcome
+files_to_touch: []       # ≤3 paths — ONLY these may be edited
+validation: []           # pass criteria
+approval_required: false
+```
+
+## Execution
+
+- Edit **only** `files_to_touch` paths
+- One task = one logical change; no drive-by refactors
+- Structural-only change (types/rename/comments): set `replay_exempt` in task notes
+- Business logic / API / prompts: add replay case per `eval/golden_cases/`
+
+## Completion artifact
+
+`eval/task_validation/<task_id>.checklist.md` — all items checked before calling task done.

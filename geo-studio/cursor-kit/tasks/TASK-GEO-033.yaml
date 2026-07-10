@@ -1,0 +1,11 @@
+task_id: TASK-GEO-033
+spec_id: SPEC-GEO-018
+goal: "web api.ts 补充 diagnostic-runs / competitors 类型与 fetch 函数"
+
+files_to_touch:
+  - web/src/api.ts
+
+validation:
+  - "npm --prefix web run build PASS"
+
+approval_required: false

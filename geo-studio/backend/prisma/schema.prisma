@@ -1,0 +1,336 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id          String   @id @default(uuid())
+  name        String
+  definition  String
+  positioning String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  diagnosticRuns  DiagnosticRun[]
+  metricSnapshots MetricSnapshot[]
+  questions       Question[]
+  assertions      Assertion[]
+  competitors     Competitor[]
+  retestSchedule      RetestSchedule?
+  matrixCells         MatrixCell[]
+  distributionTasks   DistributionTask[]
+  publishRecords      PublishRecord[]
+  alerts              Alert[]
+  alertThreshold      AlertThreshold?
+  alertNotifications  AlertNotificationSettings?
+  knowledgeChunks     BrandKnowledgeChunk[]
+
+  @@map("brands")
+}
+
+model DiagnosticRun {
+  id            String   @id @default(uuid())
+  brandId       String   @map("brand_id")
+  questionCount Int      @map("question_count")
+  scoringMode   String?  @map("scoring_mode")
+  capturedAt    DateTime @map("captured_at")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  brand           Brand            @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  metricSnapshots MetricSnapshot[]
+  questions       Question[]
+
+  @@index([brandId, capturedAt])
+  @@map("diagnostic_runs")
+}
+
+model MetricSnapshot {
+  id              String   @id @default(uuid())
+  brandId         String   @map("brand_id")
+  diagnosticRunId String?  @map("diagnostic_run_id")
+  metric          String
+  value           Float
+  capturedAt      DateTime @map("captured_at")
+
+  brand         Brand          @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  diagnosticRun DiagnosticRun? @relation(fields: [diagnosticRunId], references: [id], onDelete: SetNull)
+
+  @@index([brandId, metric, capturedAt])
+  @@map("metric_snapshots")
+}
+
+model Question {
+  id              String @id @default(uuid())
+  brandId         String @map("brand_id")
+  diagnosticRunId String @map("diagnostic_run_id")
+  category        String
+  text            String
+
+  brand         Brand         @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  diagnosticRun DiagnosticRun @relation(fields: [diagnosticRunId], references: [id], onDelete: Cascade)
+  engineTests   EngineTest[]
+
+  @@index([diagnosticRunId])
+  @@map("questions")
+}
+
+model EngineTest {
+  id         String   @id @default(uuid())
+  questionId String   @map("question_id")
+  engineId   String   @map("engine_id")
+  answer     String
+  sources    Json     @default("[]")
+  runAt      DateTime @map("run_at")
+
+  question Question   @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  score    TestScore?
+
+  @@unique([questionId, engineId])
+  @@map("engine_tests")
+}
+
+model TestScore {
+  id              String @id @default(uuid())
+  engineTestId    String @unique @map("engine_test_id")
+  mentioned       Boolean
+  mentionPosition Int?   @map("mention_position")
+  sentiment       String
+  accuracy        Float
+  sourcesCount    Int    @map("sources_count")
+
+  engineTest EngineTest @relation(fields: [engineTestId], references: [id], onDelete: Cascade)
+
+  @@map("test_scores")
+}
+
+model Assertion {
+  id        String   @id @default(uuid())
+  brandId   String   @map("brand_id")
+  text      String
+  evidence  String?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@index([brandId])
+  @@map("assertions")
+}
+
+model Competitor {
+  id        String   @id @default(uuid())
+  brandId   String   @map("brand_id")
+  name      String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@unique([brandId, name])
+  @@index([brandId])
+  @@map("competitors")
+}
+
+model RetestSchedule {
+  brandId       String    @id @map("brand_id")
+  enabled       Boolean   @default(false)
+  intervalHours Int       @map("interval_hours")
+  lastRunAt     DateTime? @map("last_run_at")
+  nextRunAt     DateTime? @map("next_run_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@index([enabled, nextRunAt])
+  @@map("retest_schedules")
+}
+
+model MatrixCell {
+  id        String   @id @default(uuid())
+  brandId   String   @map("brand_id")
+  intent    String
+  angle     String
+  stage     String   @default("全阶段")
+  audience  String   @default("通用受众")
+  title     String
+  priority  Int      @default(0)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  brand          Brand          @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  contentDrafts  ContentDraft[]
+
+  @@unique([brandId, intent, angle, stage, audience])
+  @@index([brandId, priority])
+  @@map("matrix_cells")
+}
+
+model ContentDraft {
+  id           String   @id @default(uuid())
+  cellId       String   @map("cell_id")
+  body         String
+  status       String   @default("draft")
+  version      Int      @default(1)
+  ragSnippets  Json?    @map("rag_snippets")
+  verification Json?    @map("verification")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  cell              MatrixCell         @relation(fields: [cellId], references: [id], onDelete: Cascade)
+  distributionTasks DistributionTask[]
+  publishRecords    PublishRecord[]
+
+  @@unique([cellId, version])
+  @@map("content_drafts")
+}
+
+model Source {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  tier        String
+  weight      Float    @default(1)
+  channelType String   @map("channel_type")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  distributionTasks DistributionTask[]
+  publishRecords    PublishRecord[]
+
+  @@map("sources")
+}
+
+model DistributionTask {
+  id             String   @id @default(uuid())
+  brandId        String   @map("brand_id")
+  contentDraftId String   @map("content_draft_id")
+  sourceId       String   @map("source_id")
+  priority       Int      @default(0)
+  status         String   @default("pending")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  brand         Brand          @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  contentDraft  ContentDraft   @relation(fields: [contentDraftId], references: [id], onDelete: Cascade)
+  source        Source         @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  publishRecords PublishRecord[]
+
+  @@unique([contentDraftId, sourceId])
+  @@index([brandId, status])
+  @@map("distribution_tasks")
+}
+
+model PublishRecord {
+  id                 String   @id @default(uuid())
+  brandId            String   @map("brand_id")
+  contentDraftId     String   @map("content_draft_id")
+  sourceId           String?  @map("source_id")
+  distributionTaskId String?  @map("distribution_task_id")
+  channel            String
+  externalUrl        String?  @map("external_url")
+  publishedAt        DateTime @map("published_at")
+  createdAt          DateTime @default(now()) @map("created_at")
+
+  brand            Brand             @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  contentDraft     ContentDraft      @relation(fields: [contentDraftId], references: [id], onDelete: Cascade)
+  source           Source?           @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  distributionTask DistributionTask? @relation(fields: [distributionTaskId], references: [id], onDelete: SetNull)
+
+  @@index([brandId, publishedAt])
+  @@map("publish_records")
+}
+
+model Alert {
+  id              String   @id @default(uuid())
+  brandId         String   @map("brand_id")
+  type            String
+  severity        String
+  title           String
+  message         String
+  status          String   @default("open")
+  diagnosticRunId String?  @map("diagnostic_run_id")
+  questionId      String?  @map("question_id")
+  metric          String?
+  metricValue     Float?   @map("metric_value")
+  threshold       Float?   @map("threshold")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@index([brandId, status, createdAt])
+  @@map("alerts")
+}
+
+model AlertThreshold {
+  brandId         String   @id @map("brand_id")
+  mentionRateMin  Float    @default(0.4) @map("mention_rate_min")
+  avgAccuracyMin  Float    @default(0.5) @map("avg_accuracy_min")
+  itemAccuracyMin Float    @default(0.5) @map("item_accuracy_min")
+  mentionDropMax  Float    @default(0.15) @map("mention_drop_max")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@map("alert_thresholds")
+}
+
+model AlertNotificationSettings {
+  brandId        String   @id @map("brand_id")
+  webhookEnabled Boolean  @default(false) @map("webhook_enabled")
+  webhookUrl     String?  @map("webhook_url")
+  emailEnabled   Boolean  @default(false) @map("email_enabled")
+  emailTo        String?  @map("email_to")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@map("alert_notification_settings")
+}
+
+model AppSettings {
+  id           String   @id @default("default")
+  engineMode   String?  @map("engine_mode")
+  scoringMode  String?  @map("scoring_mode")
+  contentMode  String?  @map("content_mode")
+  openAiModel  String?  @map("open_ai_model")
+  openAiApiKey String?  @map("open_ai_api_key")
+  modelCatalog String?  @map("model_catalog") @db.Text
+  promptVersions String? @map("prompt_versions") @db.Text
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("app_settings")
+}
+
+model BrandKnowledgeChunk {
+  id         String   @id @default(uuid())
+  brandId    String   @map("brand_id")
+  sourceType String   @map("source_type")
+  text       String   @db.Text
+  embedding  Unsupported("vector(1536)")?
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@index([brandId, sourceType])
+  @@map("brand_knowledge_chunks")
+}
+
+model Job {
+  id          String    @id @default(uuid())
+  type        String
+  brandId     String?   @map("brand_id")
+  status      String    @default("pending")
+  payload     Json
+  result      Json?
+  error       String?
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  startedAt   DateTime? @map("started_at")
+  completedAt DateTime? @map("completed_at")
+
+  @@index([status, createdAt])
+  @@map("jobs")
+}

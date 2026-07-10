@@ -1,0 +1,13 @@
+task_id: TASK-GEO-053
+spec_id: SPEC-GEO-024
+goal: "看板 AI 状态展示（引擎/评分模式 + prompt 版本）"
+
+files_to_touch:
+  - web/src/api.ts
+  - web/src/Dashboard.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+
+approval_required: false

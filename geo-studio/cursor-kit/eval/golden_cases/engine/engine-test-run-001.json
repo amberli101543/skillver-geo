@@ -1,0 +1,18 @@
+{
+  "id": "ENGINE-TEST-RUN-001",
+  "task_id": "TASK-GEO-015",
+  "feature": "engine",
+  "risk_type": "happy_path",
+  "input": {
+    "question": "Acme 是什么？"
+  },
+  "expected_output": {
+    "questionEchoed": true,
+    "engineId": "proxy-engine-stub",
+    "hasAnswer": true,
+    "hasSources": true,
+    "runAtIso8601": true
+  },
+  "notes": "EngineTestService injects FakeEngineConnector in unit tests; verifies runAt + delegation.",
+  "replay_required": true
+}

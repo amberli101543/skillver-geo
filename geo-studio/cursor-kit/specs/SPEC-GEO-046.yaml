@@ -1,0 +1,37 @@
+spec:
+  id: SPEC-GEO-046
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "分发效果对照：发布记录与前后跑批指标对比，展示方向性变化"
+
+  parent_plan: phase-7-capability-depth
+  depends_on: [SPEC-GEO-045, SPEC-GEO-040]
+
+  affected_files:
+    - backend/src/distribution/distribution-impact.ts
+    - backend/src/distribution/distribution-impact.test.ts
+    - backend/src/distribution/distribution.service.ts
+    - backend/src/distribution/distribution.controller.ts
+    - backend/src/distribution/distribution.module.ts
+    - backend/src/distribution/distribution.controller.e2e.test.ts
+    - web/src/api.ts
+    - web/src/DistributionPanel.tsx
+    - web/src/styles.css
+    - docs/PROGRESS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS"
+    - "npm --prefix web run build PASS"
+    - "GET /brands/:id/distribution-impact 返回每条发布的前后指标对照"
+    - "发布记录列表展示趋势方向徽章与摘要"
+
+  replay_cases: []
+
+  notes: |
+    Phase 7 P1 — 不新增导航；GET distribution-impact 只读聚合。
+    以 publishRecord.publishedAt 为界，取最近前序/后续 diagnostic run 聚合指标（MetricSnapshot）。
+    overallDirection: improved | declined | mixed | unchanged | pending | insufficient_data
+
+  approval_required: true

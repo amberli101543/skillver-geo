@@ -1,0 +1,17 @@
+{
+  "id": "DIAGNOSTIC-BATCH-001",
+  "task_id": "TASK-GEO-021",
+  "feature": "diagnostics",
+  "risk_type": "happy_path",
+  "input": {
+    "brand": { "tenantId": "t1", "name": "Acme", "definition": "项目管理 SaaS" },
+    "opts": { "competitors": ["Beta"], "attributes": ["价格"] }
+  },
+  "expected_output": {
+    "itemsMinLength": 1,
+    "everyItemHasScore": true,
+    "baselineHasMentionRate": true,
+    "baselineQuestionCountEqualsItems": true
+  },
+  "replay_required": true
+}

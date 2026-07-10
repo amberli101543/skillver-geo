@@ -1,0 +1,30 @@
+task_id: TASK-GEO-009
+spec_id: SPEC-GEO-004
+goal: "新增 BrandController（POST /brands、GET /brands/:id，租户走 x-tenant-id 头）+ CreateBrandDto 校验，并把 PrismaModule/BrandModule 接入 AppModule、main.ts 启用全局 ValidationPipe"
+
+files_to_touch:
+  - backend/package.json
+  - backend/src/main.ts
+  - backend/src/app.module.ts
+  - backend/src/brand/brand.module.ts
+  - backend/src/brand/brand.controller.ts
+  - backend/src/brand/dto/create-brand.dto.ts
+
+validation:
+  - "npm --prefix backend run typecheck PASS"
+  - "npm --prefix backend test PASS（现有 8 用例不回归）"
+  - "本地 docker 起库后：POST /brands(x-tenant-id) 返回 201；GET /brands/:id 返回 200/404；缺字段 400"
+  - "eval/task_validation/TASK-GEO-009.checklist.md 全部勾选"
+
+approval_required: true
+
+# 引入 HTTP 行为与错误映射 → 端到端 replay 由 TASK-GEO-010 落（本卡聚焦接线+实现）
+replay_exempt: "HTTP 行为的 replay 在 TASK-GEO-010 的 e2e + golden 覆盖，避免重复"
+
+outputs:
+  - eval/task_validation/TASK-GEO-009.checklist.md
+
+# app.module.ts 从 main.ts 内联抽出为独立文件，导入 PrismaModule(@Global)+BrandModule，并保留 HealthController
+# 新依赖：class-validator + class-transformer（ValidationPipe 所需）
+# 预估 diff：~190 行（controller/dto/接线/deps）（≤300）
+# service 边界：backend（单一 service，满足 R6）

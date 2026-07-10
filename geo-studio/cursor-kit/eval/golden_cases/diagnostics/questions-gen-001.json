@@ -1,0 +1,22 @@
+{
+  "id": "QUESTIONS-GEN-001",
+  "task_id": "TASK-GEO-004",
+  "feature": "diagnostics",
+  "risk_type": "happy_path",
+  "input": {
+    "brand": { "id": "b1", "tenantId": "t1", "name": "Acme", "definition": "项目管理 SaaS" },
+    "full": { "competitors": ["Beta", "Gamma", "  "], "attributes": ["价格"] },
+    "noCompetitors": { "attributes": ["价格"] },
+    "none": {}
+  },
+  "expected_output": {
+    "full": {
+      "categoriesPresent": ["category", "brand", "attribute", "comparison"],
+      "comparisonCount": 2,
+      "attributeCount": 1
+    },
+    "noCompetitors": { "hasComparison": false, "hasAttribute": true },
+    "none": { "hasCategory": true, "hasBrand": true, "embedsBrandName": true }
+  },
+  "replay_required": true
+}

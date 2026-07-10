@@ -1,0 +1,30 @@
+spec:
+  id: SPEC-GEO-ARCH-002
+  version: v0.1.0
+  status: DONE
+  type: refactor
+  feature_goal: "引入 Job 模型与 Worker 消费路径，诊断跑批/内容生成/发布不再在 HTTP 内同步大循环"
+
+  parent_plan: phase-1-architecture
+
+  affected_files:
+    - backend/prisma/schema.prisma
+    - backend/src/worker/job.types.ts
+    - backend/src/worker/job-runner.service.ts
+    - backend/src/diagnostics/diagnostic-batch.controller.ts
+    - backend/src/content/content.controller.ts
+    - backend/src/distribution/distribution.controller.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "POST 跑批/生成/发布返回 jobId，Worker 可完成并更新状态"
+    - "RetestWorker 复用同一 Job 执行路径"
+
+  replay_cases:
+    - eval/golden_cases/diagnostics/diagnostic-batch-api-001.json
+
+  notes: |
+    v1 可先 Job 表 + 同进程 Worker；BullMQ 留给 SPEC-GEO-030。
+    HTTP Controller 只：校验 → 创建 Job → 返回 202 + jobId。
+
+  approval_required: true

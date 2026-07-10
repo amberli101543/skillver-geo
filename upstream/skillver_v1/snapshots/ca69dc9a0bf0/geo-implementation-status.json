@@ -1,0 +1,19 @@
+{
+  "taskId": "GEO-MAIN-2026-07-P0",
+  "sourceCommit": "ca69dc9a0bf07c40774e47f29b1794538e29e5f8",
+  "sourceCommitMessage": "fix(geo): GEO-MAIN-2026-07-P0 sitemap 守护与 FAQ 事实纠偏",
+  "codeStatus": "completed_and_pushed",
+  "localTests": {
+    "relatedSuite": "55/55 passed",
+    "lint": "no new errors"
+  },
+  "productionStatus": "pending",
+  "pendingItems": [
+    "ECS deploy and version confirmation",
+    "Three-domain post_deploy_smoke x3",
+    "Sitemap intermittent 500 log evidence and root cause",
+    "Rich Results screenshots",
+    "Search console submissions",
+    "WAF/ECS sign-off and first crawler weekly report"
+  ]
+}

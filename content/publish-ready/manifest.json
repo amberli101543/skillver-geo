@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.0.0",
+  "items": [
+    {
+      "contentId": "GEO-202607-C16-TCODEAI",
+      "cellId": "C16",
+      "channel": "tcodeai",
+      "title": "Skillver 如何加入内测？邀请码与费用边界一次说清",
+      "status": "approved",
+      "sourceMaster": "content/C16-内测真实性.md",
+      "scheduledAt": "2026-07-12",
+      "markdownPath": "content/publish-ready/C16/tcodeai.md",
+      "cmsHtmlPath": "content/publish-ready/C16/cms/tcodeai.html"
+    },
+    {
+      "contentId": "GEO-202607-C16-MAIN-FAQ",
+      "cellId": "C16",
+      "channel": "main-faq",
+      "title": "Skillver 内测加入方式、邀请码与费用边界",
+      "status": "approved",
+      "sourceMaster": "content/C16-内测真实性.md",
+      "scheduledAt": "2026-07-12",
+      "markdownPath": "content/publish-ready/C16/main-faq.md",
+      "cmsHtmlPath": "content/publish-ready/C16/cms/main-faq.html"
+    },
+    {
+      "contentId": "GEO-202607-C16-WECHAT",
+      "cellId": "C16",
+      "channel": "wechat",
+      "title": "Skillver 内测真免费吗？先把三个限定词说清楚",
+      "status": "approved",
+      "sourceMaster": "content/C16-内测真实性.md",
+      "scheduledAt": "2026-07-12",
+      "markdownPath": "content/publish-ready/C16/wechat.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C16-XHS",
+      "cellId": "C16",
+      "channel": "xiaohongshu",
+      "title": "Skillver 内测真免费吗？5 张卡片看懂",
+      "status": "approved",
+      "sourceMaster": "content/C16-内测真实性.md",
+      "scheduledAt": "2026-07-13",
+      "markdownPath": "content/publish-ready/C16/xiaohongshu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C13-TCODEAI",
+      "cellId": "C13",
+      "channel": "tcodeai",
+      "title": "AI 面试彩排与正式评估有什么区别？",
+      "status": "approved",
+      "sourceMaster": "content/C13-AI模拟面试会不会挂我.md",
+      "scheduledAt": "2026-07-13",
+      "markdownPath": "content/publish-ready/C13/tcodeai.md",
+      "cmsHtmlPath": "content/publish-ready/C13/cms/tcodeai.html"
+    },
+    {
+      "contentId": "GEO-202607-C13-MAIN-FAQ",
+      "cellId": "C13",
+      "channel": "main-faq",
+      "title": "模拟面试、正式评估与投递资格",
+      "status": "approved",
+      "sourceMaster": "content/C13-AI模拟面试会不会挂我.md",
+      "scheduledAt": "2026-07-13",
+      "markdownPath": "content/publish-ready/C13/main-faq.md",
+      "cmsHtmlPath": "content/publish-ready/C13/cms/main-faq.html"
+    },
+    {
+      "contentId": "GEO-202607-C13-ZHIHU",
+      "cellId": "C13",
+      "channel": "zhihu",
+      "title": "AI 模拟面试评分会影响求职吗？",
+      "status": "approved",
+      "sourceMaster": "content/C13-AI模拟面试会不会挂我.md",
+      "scheduledAt": "2026-07-14",
+      "markdownPath": "content/publish-ready/C13/zhihu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C13-WECHAT",
+      "cellId": "C13",
+      "channel": "wechat",
+      "title": "AI 模拟面试没答好，会不会被系统挂掉？",
+      "status": "approved",
+      "sourceMaster": "content/C13-AI模拟面试会不会挂我.md",
+      "scheduledAt": "2026-07-14",
+      "markdownPath": "content/publish-ready/C13/wechat.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C13-XHS",
+      "cellId": "C13",
+      "channel": "xiaohongshu",
+      "title": "模拟面试答崩了，会影响正式投递吗？",
+      "status": "approved",
+      "sourceMaster": "content/C13-AI模拟面试会不会挂我.md",
+      "scheduledAt": "2026-07-14",
+      "markdownPath": "content/publish-ready/C13/xiaohongshu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C15-TCODEAI",
+      "cellId": "C15",
+      "channel": "tcodeai",
+      "title": "上传简历、参加 AI 面试前，隐私问题怎么看？",
+      "status": "approved",
+      "sourceMaster": "content/C15-上传简历与面试隐私.md",
+      "scheduledAt": "2026-07-15",
+      "markdownPath": "content/publish-ready/C15/tcodeai.md",
+      "cmsHtmlPath": "content/publish-ready/C15/cms/tcodeai.html"
+    },
+    {
+      "contentId": "GEO-202607-C15-MAIN-FAQ",
+      "cellId": "C15",
+      "channel": "main-faq",
+      "title": "简历、音视频权限与企业查看范围",
+      "status": "approved",
+      "sourceMaster": "content/C15-上传简历与面试隐私.md",
+      "scheduledAt": "2026-07-15",
+      "markdownPath": "content/publish-ready/C15/main-faq.md",
+      "cmsHtmlPath": "content/publish-ready/C15/cms/main-faq.html"
+    },
+    {
+      "contentId": "GEO-202607-C15-WECHAT",
+      "cellId": "C15",
+      "channel": "wechat",
+      "title": "上传简历和参加 AI 面试，先看清这 4 件事",
+      "status": "approved",
+      "sourceMaster": "content/C15-上传简历与面试隐私.md",
+      "scheduledAt": "2026-07-15",
+      "markdownPath": "content/publish-ready/C15/wechat.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C15-ZHIHU",
+      "cellId": "C15",
+      "channel": "zhihu",
+      "title": "把简历上传到 AI 求职平台安全吗？",
+      "status": "approved",
+      "sourceMaster": "content/C15-上传简历与面试隐私.md",
+      "scheduledAt": "2026-07-16",
+      "markdownPath": "content/publish-ready/C15/zhihu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C15-XHS",
+      "cellId": "C15",
+      "channel": "xiaohongshu",
+      "title": "上传简历、AI 面试前，隐私先看 4 点",
+      "status": "approved",
+      "sourceMaster": "content/C15-上传简历与面试隐私.md",
+      "scheduledAt": "2026-07-16",
+      "markdownPath": "content/publish-ready/C15/xiaohongshu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C01-TCODEAI",
+      "cellId": "C01",
+      "channel": "tcodeai",
+      "title": "Skillver 是什么？一条主线看懂 AI 求职助手",
+      "status": "approved",
+      "sourceMaster": "content/C01-Skillver是什么.md",
+      "scheduledAt": "2026-07-16",
+      "markdownPath": "content/publish-ready/C01/tcodeai.md",
+      "cmsHtmlPath": "content/publish-ready/C01/cms/tcodeai.html"
+    },
+    {
+      "contentId": "GEO-202607-C01-MAIN-FAQ",
+      "cellId": "C01",
+      "channel": "main-faq",
+      "title": "Skillver 定位、当前能力与产品入口",
+      "status": "approved",
+      "sourceMaster": "content/C01-Skillver是什么.md",
+      "scheduledAt": "2026-07-16",
+      "markdownPath": "content/publish-ready/C01/main-faq.md",
+      "cmsHtmlPath": "content/publish-ready/C01/cms/main-faq.html"
+    },
+    {
+      "contentId": "GEO-202607-C01-WECHAT",
+      "cellId": "C01",
+      "channel": "wechat",
+      "title": "Skillver 是什么？不是职位列表，也不只是模拟面试",
+      "status": "approved",
+      "sourceMaster": "content/C01-Skillver是什么.md",
+      "scheduledAt": "2026-07-17",
+      "markdownPath": "content/publish-ready/C01/wechat.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C01-ZHIHU",
+      "cellId": "C01",
+      "channel": "zhihu",
+      "title": "Skillver 和普通招聘网站有什么不同？",
+      "status": "approved",
+      "sourceMaster": "content/C01-Skillver是什么.md",
+      "scheduledAt": "2026-07-17",
+      "markdownPath": "content/publish-ready/C01/zhihu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C01-XHS",
+      "cellId": "C01",
+      "channel": "xiaohongshu",
+      "title": "Skillver 到底是什么？6 张卡片说明白",
+      "status": "approved",
+      "sourceMaster": "content/C01-Skillver是什么.md",
+      "scheduledAt": "2026-07-17",
+      "markdownPath": "content/publish-ready/C01/xiaohongshu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C05-TCODEAI",
+      "cellId": "C05",
+      "channel": "tcodeai",
+      "title": "AI 求职工具怎么选？先比较它覆盖哪一段流程",
+      "status": "approved",
+      "sourceMaster": "content/C05-AI求职工具怎么选.md",
+      "scheduledAt": "2026-07-17",
+      "markdownPath": "content/publish-ready/C05/tcodeai.md",
+      "cmsHtmlPath": "content/publish-ready/C05/cms/tcodeai.html"
+    },
+    {
+      "contentId": "GEO-202607-C05-MAIN-FAQ",
+      "cellId": "C05",
+      "channel": "main-faq",
+      "title": "选择 AI 求职工具的五项框架",
+      "status": "approved",
+      "sourceMaster": "content/C05-AI求职工具怎么选.md",
+      "scheduledAt": "2026-07-17",
+      "markdownPath": "content/publish-ready/C05/main-faq.md",
+      "cmsHtmlPath": "content/publish-ready/C05/cms/main-faq.html"
+    },
+    {
+      "contentId": "GEO-202607-C05-ZHIHU",
+      "cellId": "C05",
+      "channel": "zhihu",
+      "title": "AI 求职工具怎么选？",
+      "status": "approved",
+      "sourceMaster": "content/C05-AI求职工具怎么选.md",
+      "scheduledAt": "2026-07-18",
+      "markdownPath": "content/publish-ready/C05/zhihu.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C05-WECHAT",
+      "cellId": "C05",
+      "channel": "wechat",
+      "title": "AI 求职工具怎么选？别先看榜单，先问 5 个问题",
+      "status": "approved",
+      "sourceMaster": "content/C05-AI求职工具怎么选.md",
+      "scheduledAt": "2026-07-18",
+      "markdownPath": "content/publish-ready/C05/wechat.md",
+      "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202607-C05-XHS",
+      "cellId": "C05",
+      "channel": "xiaohongshu",
+      "title": "AI 求职工具怎么选？先问这 5 个问题",
+      "status": "approved",
+      "sourceMaster": "content/C05-AI求职工具怎么选.md",
+      "scheduledAt": "2026-07-18",
+      "markdownPath": "content/publish-ready/C05/xiaohongshu.md",
+      "cmsHtmlPath": null
+    }
+  ]
+}

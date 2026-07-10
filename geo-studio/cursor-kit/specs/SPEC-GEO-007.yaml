@@ -1,0 +1,29 @@
+spec:
+  id: SPEC-GEO-007
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "通过 HTTP 对品牌执行单题引擎实测：POST /brands/:id/engine-tests 返回 201+结构化结果（answer/sources/engineId/runAt），品牌不存在 404，非法请求 400，并将 EngineModule 接入运行时"
+
+  affected_files:
+    - backend/src/app.module.ts
+    - backend/src/engine/engine.module.ts
+    - backend/src/engine/engine-test.controller.ts
+    - backend/src/engine/dto/run-engine-test.dto.ts
+    - backend/src/engine/engine-test.controller.e2e.test.ts
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "POST /brands/:id/engine-tests 合法 → 201；未知品牌 → 404；缺租户/缺 question → 400"
+    - "eval/task_validation 下 2 张 task checklist 全部完成"
+    - "golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/engine/engine-test-api-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。复用 SPEC-GEO-006 EngineTestService + SPEC-GEO-001 BrandService。
+    把引擎实测跑成端到端；持久化 EngineTest 表留待后续 SPEC。
+
+  approval_required: true

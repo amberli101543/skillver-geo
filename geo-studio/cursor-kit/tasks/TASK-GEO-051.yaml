@@ -1,0 +1,20 @@
+task_id: TASK-GEO-051
+spec_id: SPEC-GEO-024
+goal: "共享 LLM 客户端 + 配置解析 + 版本化 prompt 注册表 + GET /ai/status"
+
+files_to_touch:
+  - backend/src/ai/llm-client.ts
+  - backend/src/ai/llm-config.ts
+  - backend/src/ai/prompt-registry.ts
+  - backend/src/ai/ai-status.ts
+  - backend/src/ai/ai.controller.ts
+  - backend/src/ai/ai.module.ts
+  - backend/src/ai/llm-config.test.ts
+  - backend/src/ai/ai.controller.e2e.test.ts
+  - backend/src/app.module.ts
+
+validation:
+  - "npm --prefix backend test -- llm-config PASS"
+  - "npm --prefix backend test -- ai.controller.e2e PASS"
+
+approval_required: false

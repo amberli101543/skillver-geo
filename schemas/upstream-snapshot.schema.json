@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skillver.cn/schemas/geo/upstream-snapshot.schema.json",
+  "title": "Skillver GEO 上游快照清单",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "repository",
+    "sourceCommit",
+    "sourceCommitMessage",
+    "generatedAt",
+    "snapshotDir",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "repository": {
+      "type": "string",
+      "enum": ["skillver_v1", "tcodeai"]
+    },
+    "repositoryStatus": {
+      "type": "string",
+      "enum": ["pinned", "unresolved"]
+    },
+    "sourceCommit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{7,40}$"
+    },
+    "sourceCommitMessage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T"
+    },
+    "snapshotDir": {
+      "type": "string",
+      "pattern": "^upstream/(skillver_v1|tcodeai)/snapshots/[0-9a-f]{7,40}$"
+    },
+    "upstreamRoot": {
+      "type": "string",
+      "minLength": 1
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "sourcePath",
+          "protectionLevel",
+          "factCategory",
+          "allowedUse",
+          "sha256"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_-]+$"
+          },
+          "sourcePath": {
+            "type": "string",
+            "minLength": 1
+          },
+          "snapshotPath": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "protectionLevel": {
+            "type": "string",
+            "enum": ["public", "derived", "protected-metadata"]
+          },
+          "factCategory": {
+            "type": "string",
+            "enum": [
+              "seo",
+              "public-facts",
+              "implementation-status",
+              "llms",
+              "protected-pointer"
+            ]
+          },
+          "allowedUse": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "reviewRequired": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

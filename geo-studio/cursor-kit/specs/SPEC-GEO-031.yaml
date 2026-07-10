@@ -1,0 +1,20 @@
+spec:
+  id: SPEC-GEO-031
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "告警外推：Webhook 与/或邮件，可配置 endpoint"
+
+  parent_plan: phase-3-platform
+  depends_on: [SPEC-GEO-023]
+
+  affected_files:
+    - backend/src/alert/
+    - web/src/AlertsPanel.tsx
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "新告警可触发 webhook（测试 stub）"
+
+  replay_cases: []
+  approval_required: true

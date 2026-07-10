@@ -1,0 +1,39 @@
+spec:
+  id: SPEC-GEO-ARCH-001
+  version: v0.1.0
+  status: DONE
+  type: refactor
+  feature_goal: "在 ai/ 层暴露 Engine/Scoring/Content Facade，消除 engine、scoring、content 对 llm-client 的直接依赖"
+
+  parent_plan: phase-1-architecture
+
+  affected_files:
+    - backend/src/ai/engine.facade.ts
+    - backend/src/ai/scoring.facade.ts
+    - backend/src/ai/content.facade.ts
+    - backend/src/ai/ai.module.ts
+    - backend/src/engine/proxy-engine-connector.ts
+    - backend/src/scoring/scoring-pipeline.ts
+    - backend/src/content/content-generator.ts
+    - backend/scripts/check-layer-boundaries.mjs
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS（grandfather 清单清空或仅 ai/ 内）"
+    - "engine/scoring/content 无 llm-client import"
+
+  replay_cases:
+    - eval/golden_cases/engine/proxy-engine-001.json
+    - eval/golden_cases/scoring/scoring-service-001.json
+
+  notes: |
+    ## 层归属
+    - 新增 Facade：ai/
+    - 迁移调用方：engine/, scoring/, content/
+
+    ## 预期 Task（≤3）
+    1. EngineFacade + 迁移 ProxyEngineConnector
+    2. ScoringFacade + 迁移 ProxyScoringPipeline
+    3. ContentFacade + 迁移 ProxyContentGenerator + 更新 boundary checker
+
+  approval_required: true

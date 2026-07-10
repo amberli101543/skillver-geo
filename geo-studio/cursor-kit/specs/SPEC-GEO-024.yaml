@@ -1,0 +1,23 @@
+spec:
+  id: SPEC-GEO-024
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "真实引擎连接器规范化：共享 LLM 客户端、版本化 prompt、stub/live 可观测"
+
+  affected_files:
+    - backend/src/ai/llm-client.ts
+    - backend/src/ai/llm-config.ts
+    - backend/src/ai/prompt-registry.ts
+    - backend/src/ai/ai.controller.ts
+    - backend/src/engine/proxy-engine-connector.ts
+    - backend/src/content/content-generator.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "GET /ai/status 返回 engineMode stub|live"
+    - "无 OPENAI_API_KEY 时引擎仍走 stub"
+
+  replay_cases: []
+
+  approval_required: false

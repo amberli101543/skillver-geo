@@ -1,0 +1,17 @@
+{
+  "id": "PROXY-ENGINE-001",
+  "task_id": "TASK-GEO-014",
+  "feature": "engine",
+  "risk_type": "happy_path",
+  "input": {
+    "question": "Acme 是什么？",
+    "mode": "stub (no OPENAI_API_KEY)"
+  },
+  "expected_output": {
+    "engineId": "proxy-engine-stub",
+    "answerContainsQuestion": true,
+    "sourcesMinLength": 1,
+    "deterministic": true
+  },
+  "replay_required": true
+}

@@ -1,0 +1,23 @@
+task_id: TASK-GEO-001
+spec_id: SPEC-GEO-001
+goal: "建立 backend 最小 TypeScript + Vitest 脚手架，使 npm test 在 backend 目录可运行"
+
+files_to_touch:
+  - backend/package.json
+  - backend/tsconfig.json
+  - backend/vitest.config.ts
+
+validation:
+  - "backend 目录下 npm install && npm test 可执行（含 1 个占位/冒烟用例 PASS）"
+  - "eval/task_validation/TASK-GEO-001.checklist.md 全部勾选"
+
+approval_required: true
+
+# 纯构建/脚手架配置，无运行时业务行为：
+replay_exempt: "纯项目脚手架与构建配置，无运行时业务逻辑变更"
+
+outputs:
+  - eval/task_validation/TASK-GEO-001.checklist.md
+
+# 预估 diff：package.json ~25 / tsconfig.json ~18 / vitest.config.ts ~10 = ~53 行（≤100）
+# service 边界：backend（单一 service，满足 R6）

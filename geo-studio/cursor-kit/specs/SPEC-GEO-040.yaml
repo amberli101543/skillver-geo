@@ -1,0 +1,34 @@
+spec:
+  id: SPEC-GEO-040
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "按 engineId 聚合可见度指标与趋势，支持多引擎横向对比（最小版）"
+
+  parent_plan: phase-6-product-exposure
+  depends_on: [SPEC-GEO-035, SPEC-GEO-039]
+
+  affected_files:
+    - backend/src/metrics/metrics.service.ts
+    - backend/src/metrics/metrics.controller.ts
+    - backend/src/metrics/metric-types.ts
+    - backend/src/diagnostics/diagnostic-run.repository.ts
+    - web/src/api.ts
+    - web/src/Dashboard.tsx
+    - docs/API-ENDPOINTS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix web run build PASS"
+    - "GET /brands/:id/metrics 支持 query engineId 或返回 per-engine 序列"
+    - "趋势图可按引擎切换或并排对比 mention_rate"
+
+  replay_cases: []
+
+  notes: |
+    方案 B：只读聚合 DiagnosticRun items，按 engineId 计算 run 级 baseline，不写新表。
+    - GET /brands/:id/metrics 返回 series（快照聚合）+ byEngine
+    - ?engineId= 过滤 primary series
+    - 看板趋势区引擎 Tab + 提及率多引擎对比折线图
+
+  approval_required: true

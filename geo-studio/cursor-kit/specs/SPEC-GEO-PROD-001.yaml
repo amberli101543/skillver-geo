@@ -1,0 +1,81 @@
+spec:
+  id: SPEC-GEO-PROD-001
+  version: v1.0.0
+  status: DONE
+  type: docs
+  feature_goal: "定义 GEO Studio 产品 v1 的完成标准（DoD），冻结模块式扩张，后续仅按用户旅程验收"
+
+  affected_files:
+    - cursor-kit/ROADMAP.md
+    - cursor-kit/specs/SPEC-GEO-026.yaml
+
+  validation_rules:
+    - "ROADMAP 含「产品 v1 DoD」与「v2 Backlog」两节"
+    - "SPEC-GEO-026 覆盖全部已知前后端断点清单"
+    - "完成 SPEC-GEO-026 后产品 v1 标记 DONE，不再新增 GEO-027+ 模块 SPEC"
+
+  replay_cases: []
+
+  notes: |
+    ## 背景
+
+    SPEC-GEO-001~025 以「后端模块 + 部分看板」交付，隐含「完整产品」但未写进验收，
+    导致 UI 断点、AI 前台化、体验债在 review 时反复显形，形成「需求不断扩充」的体感。
+
+    本 SPEC 不新增业务功能，只定义 **什么叫 v1 做完**。
+
+    ## 产品 v1 Definition of Done
+
+    ### 1. 用户旅程（必须端到端可操作）
+
+    以下旅程在 Web 看板可完成，且每步有 loading / error / 空态：
+
+    | 旅程步骤 | 用户动作 | 最低验收 |
+    |----------|----------|----------|
+    | 建品牌 | 创建品牌、切换品牌 | 已有 ✅ |
+    | 录入品牌知识 | 竞品、**断言 Assertion** | Assertion UI（GEO-026） |
+    | 诊断实测 | 一键跑批、**单题试跑**、查看明细 | 试跑面板（GEO-026） |
+    | 看缺口 | 同步缺口、矩阵管理 | 已有 ✅ |
+    | 生成内容 | LLM/stub 生成、**编辑初稿**、提交审核 | 编辑器（GEO-026） |
+    | 发布信源 | 分发任务、自动发布/导出 | 已有 ✅ |
+    | 定时复测 | **开关与间隔配置** | 复测面板（GEO-026） |
+    | 趋势与告警 | 趋势图、告警列表、阈值 | 已有 ✅ |
+
+    ### 2. 前后端一致（API Parity）
+
+    - 每个 `backend/src/**/**.controller.ts` 暴露的用户向端点，
+      在 `web/src/api.ts` 有对应 fetch 函数，且至少一处 UI 可触发（health 除外）。
+    - SPEC-GEO-026 附「断点清单」为固定范围；清单外 API 缺口不得单独开 SPEC，并入 v2 Backlog。
+
+    ### 3. AI 能力前台化
+
+    涉 AI 的功能必须满足：
+
+    - 看板可见当前模式：`GET /ai/status`（引擎 stub/live、评分 rule/llm、prompt 版本）。
+    - **AI 设置区**：说明如何配置 `OPENAI_API_KEY` 与各 `*_MODE` env（页内文案，非强制改 env UI）。
+    - 单题试跑可即时看到引擎回答 + 评分结果。
+    - 跑批明细中标注评分来源（rule / llm，若后端可区分则展示；否则展示当前 scoringMode）。
+    - 内容生成路径依赖 Assertion：无断言时 UI 提示「建议先录入断言以提升 LLM 初稿质量」。
+
+    ### 4. 工程质量（沿用 project.config.yaml）
+
+    - `npm --prefix backend test` PASS
+    - `npm --prefix backend run typecheck` PASS
+    - `npm --prefix web run build` PASS
+
+    ### 5. 明确不属于 v1（写入 Backlog，不得阻塞 v1）
+
+    - Figma / 高保真设计稿
+    - 告警邮件 / IM / Webhook 外推
+    - 多 LLM 提供商 / 多引擎切换
+    - ai / worker 独立进程部署
+    - 移动端响应式专项优化
+    - RBAC / 多租户
+
+    ## 范围冻结规则
+
+    1. **v1 仅再交付 SPEC-GEO-026**（UI 补全 + AI 前台化，一张 SPEC、≤3 task）。
+    2. SPEC-GEO-026 DONE 后，ROADMAP 标记「产品 v1 完成」。
+    3. 新想法一律进 ROADMAP「v2 Backlog」，需用户明确批准才开 SPEC-GEO-027+。
+
+  approval_required: false

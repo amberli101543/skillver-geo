@@ -1,0 +1,160 @@
+/**
+ * GEO Studio design tokens (SPEC-GEO-033)
+ * Canonical values from docs/designrefer.md — import via styles.css
+ */
+
+:root {
+  /* --- Colors: brand & primary --- */
+  --color-primary: #00ed64;
+  --color-primary-deep: #00b545;
+  --color-primary-pressed: #008c34;
+  --color-on-primary: #001e2b;
+  --color-brand-green: #00ed64;
+  --color-brand-green-dark: #00684a;
+  --color-brand-green-mid: #00a35c;
+  --color-brand-green-soft: #c3f0d2;
+  --color-brand-teal-deep: #001e2b;
+  --color-brand-teal: #003d4f;
+  --color-brand-teal-mid: #00684a;
+
+  /* --- Colors: accents --- */
+  --color-accent-purple: #7b3ff2;
+  --color-accent-orange: #fa6e39;
+  --color-accent-pink: #f06bb8;
+  --color-accent-blue: #3d4f9f;
+
+  /* --- Colors: semantic --- */
+  --color-semantic-warning-bg: #fff8e0;
+  --color-semantic-warning-text: #946f3f;
+  --color-semantic-error: #dc2626;
+  --color-semantic-error-bg: #fee2e2;
+  --color-semantic-error-text: #991b1b;
+
+  /* --- Colors: surfaces & lines --- */
+  --color-canvas: #ffffff;
+  --color-canvas-dark: #001e2b;
+  --color-surface: #f9fbfa;
+  --color-surface-soft: #f4f7f6;
+  --color-surface-feature: #e3fcef;
+  --color-hairline: #e1e5e8;
+  --color-hairline-soft: #eceff1;
+  --color-hairline-strong: #c1ccd6;
+  --color-hairline-dark: #1c2d38;
+
+  /* --- Colors: text --- */
+  --color-ink: #001e2b;
+  --color-charcoal: #1c2d38;
+  --color-slate: #3d4f5b;
+  --color-steel: #5c6c7a;
+  --color-stone: #7c8c9a;
+  --color-muted: #a8b3bc;
+  --color-on-dark: #ffffff;
+  --color-on-dark-muted: #a8b3bc;
+
+  /* Legacy aliases (existing styles.css references) */
+  --brand-green: var(--color-brand-green);
+  --primary-pressed: var(--color-primary-pressed);
+  --on-primary: var(--color-on-primary);
+  --brand-green-dark: var(--color-brand-green-dark);
+  --brand-green-soft: var(--color-brand-green-soft);
+  --brand-teal-deep: var(--color-brand-teal-deep);
+  --brand-teal: var(--color-brand-teal);
+  --brand-teal-mid: var(--color-brand-teal-mid);
+  --accent-purple: var(--color-accent-purple);
+  --accent-orange: var(--color-accent-orange);
+  --accent-pink: var(--color-accent-pink);
+  --accent-blue: var(--color-accent-blue);
+  --semantic-warning-bg: var(--color-semantic-warning-bg);
+  --semantic-warning-text: var(--color-semantic-warning-text);
+  --semantic-error: var(--color-semantic-error);
+  --semantic-error-bg: var(--color-semantic-error-bg);
+  --semantic-error-text: var(--color-semantic-error-text);
+  --canvas: var(--color-canvas);
+  --canvas-dark: var(--color-canvas-dark);
+  --surface: var(--color-surface);
+  --surface-soft: var(--color-surface-soft);
+  --surface-feature: var(--color-surface-feature);
+  --hairline: var(--color-hairline);
+  --hairline-soft: var(--color-hairline-soft);
+  --hairline-strong: var(--color-hairline-strong);
+  --hairline-dark: var(--color-hairline-dark);
+  --ink: var(--color-ink);
+  --charcoal: var(--color-charcoal);
+  --slate: var(--color-slate);
+  --steel: var(--color-steel);
+  --stone: var(--color-stone);
+  --muted-text: var(--color-muted);
+  --on-dark: var(--color-on-dark);
+  --on-dark-muted: var(--color-on-dark-muted);
+
+  /* --- Typography --- */
+  --font-display: "Euclid Circular A", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-code: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-hero-display-size: 4.5rem;
+  --text-display-lg-size: 3.5rem;
+  --text-heading-1-size: 3rem;
+  --text-heading-2-size: 2.25rem;
+  --text-heading-3-size: 1.75rem;
+  --text-heading-4-size: 1.375rem;
+  --text-heading-5-size: 1.125rem;
+  --text-subtitle-size: 1.125rem;
+  --text-body-md-size: 1rem;
+  --text-body-sm-size: 0.875rem;
+  --text-caption-size: 0.8125rem;
+  --text-micro-size: 0.75rem;
+  --text-micro-uppercase-size: 0.6875rem;
+  --text-button-md-size: 0.875rem;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-normal: 1.55;
+  --leading-relaxed: 1.5;
+
+  --tracking-tight: -0.02em;
+  --tracking-micro-upper: 0.08em;
+
+  /* --- Spacing --- */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --space-xxxl: 40px;
+  --space-section-sm: 48px;
+  --space-section: 64px;
+  --space-section-lg: 96px;
+  --space-hero: 120px;
+
+  /* --- Radius --- */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-xxl: 24px;
+  --radius-full: 9999px;
+
+  /* --- Elevation --- */
+  --elev-0: none;
+  --elev-1: rgba(0, 30, 43, 0.04) 0 1px 2px;
+  --elev-2: rgba(0, 30, 43, 0.08) 0 4px 12px;
+  --elev-3: rgba(0, 30, 43, 0.16) 0 16px 48px -8px;
+  --shadow-subtle: var(--elev-1);
+  --shadow-card: var(--elev-2);
+  --shadow-modal: var(--elev-3);
+
+  /* --- Breakpoints (reference only; use in media queries) --- */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
+  /* --- App shell defaults --- */
+  font-family: var(--font-display);
+  color: var(--ink);
+  background: var(--surface);
+  line-height: var(--leading-normal);
+}

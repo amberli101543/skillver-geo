@@ -1,0 +1,8 @@
+spec:
+  id: SPEC-GEO-012
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "web 可见度看板：展示品牌 mention_rate / positive_rate / avg_accuracy 趋势（React + Vite）"
+
+  approval_required: true

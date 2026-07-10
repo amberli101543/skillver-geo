@@ -1,0 +1,16 @@
+task_id: TASK-GEO-054
+spec_id: SPEC-GEO-026
+goal: "AssertionsPanel + RetestPanel + api.ts 断言/复测调度接线"
+
+files_to_touch:
+  - web/src/api.ts
+  - web/src/AssertionsPanel.tsx
+  - web/src/RetestPanel.tsx
+  - web/src/Dashboard.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+  - "Assertions CRUD 与 Retest GET/PUT 可在看板操作"
+
+approval_required: false

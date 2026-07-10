@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceDocuments": [
+    "01-strategy/GEO-语义及切片、发布平台、排期.md"
+  ],
+  "cells": [
+    {
+      "cellId": "C01",
+      "lifecycleStage": "认知期",
+      "contentAngle": "定义解释",
+      "topic": "AI 求职助手是什么",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "待产出"
+    },
+    {
+      "cellId": "C02",
+      "lifecycleStage": "认知期",
+      "contentAngle": "对比评测",
+      "topic": "与刷题、代投的区别",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "待产出"
+    },
+    {
+      "cellId": "C03",
+      "lifecycleStage": "认知期",
+      "contentAngle": "操作指南",
+      "topic": "第一次看差距",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "待产出"
+    },
+    {
+      "cellId": "C04",
+      "lifecycleStage": "认知期",
+      "contentAngle": "案例/数据",
+      "topic": "海投已读不回",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C05",
+      "lifecycleStage": "选型对比期",
+      "contentAngle": "定义解释",
+      "topic": "AI 工具横评",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C06",
+      "lifecycleStage": "选型对比期",
+      "contentAngle": "对比评测",
+      "topic": "与牛客、面试鸭等工具对比",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C07",
+      "lifecycleStage": "选型对比期",
+      "contentAngle": "操作指南",
+      "topic": "怎么选 AI 面试工具",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C08",
+      "lifecycleStage": "选型对比期",
+      "contentAngle": "案例/数据",
+      "topic": "真实体验",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "待产出"
+    },
+    {
+      "cellId": "C09",
+      "lifecycleStage": "使用场景期",
+      "contentAngle": "定义解释",
+      "topic": "差距诊断与七维战力",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#已发（仅-1-篇）"],
+      "publicationStatus": "已发布"
+    },
+    {
+      "cellId": "C10",
+      "lifecycleStage": "使用场景期",
+      "contentAngle": "对比评测",
+      "topic": "AI 模拟与真人模拟对比",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "待产出"
+    },
+    {
+      "cellId": "C11",
+      "lifecycleStage": "使用场景期",
+      "contentAngle": "操作指南",
+      "topic": "红绿灯怎么读",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "待产出"
+    },
+    {
+      "cellId": "C12",
+      "lifecycleStage": "使用场景期",
+      "contentAngle": "案例/数据",
+      "topic": "通过率",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C13",
+      "lifecycleStage": "信任顾虑期",
+      "contentAngle": "定义解释",
+      "topic": "AI 模拟面试会不会挂我",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C14",
+      "lifecycleStage": "信任顾虑期",
+      "contentAngle": "对比评测",
+      "topic": "导师值不值",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C15",
+      "lifecycleStage": "信任顾虑期",
+      "contentAngle": "操作指南",
+      "topic": "隐私保障",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    },
+    {
+      "cellId": "C16",
+      "lifecycleStage": "信任顾虑期",
+      "contentAngle": "案例/数据",
+      "topic": "内测真实性",
+      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
+      "publicationStatus": "草稿"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+task_id: TASK-GEO-010
+spec_id: SPEC-GEO-004
+goal: "为 Brand API 写 hermetic e2e 测试（Nest TestingModule + supertest，覆盖 BrandRepository 为内存假实现），覆盖 201 / 404 / 400 路径"
+
+files_to_touch:
+  - backend/package.json
+  - backend/src/brand/brand.controller.e2e.test.ts
+
+validation:
+  - "npm --prefix backend test PASS（含 brand.controller e2e，无需 DB）"
+  - "npm --prefix backend run typecheck PASS"
+  - "eval/task_validation/TASK-GEO-010.checklist.md 全部勾选"
+  - "golden case brand-api-001 复现一致（POST 201 / GET 200 / GET 404 / POST 400）"
+
+approval_required: true
+
+# 端到端 HTTP 行为 → 需 replay case（R8）
+outputs:
+  - eval/task_validation/TASK-GEO-010.checklist.md
+  - eval/golden_cases/brand/brand-api-001.json
+
+# 依赖：TASK-GEO-009（controller/接线）
+# 新依赖：supertest + @types/supertest（dev）
+# 预估 diff：~120 行（e2e 测试 + deps）（≤300）
+# service 边界：backend（单一 service，满足 R6）

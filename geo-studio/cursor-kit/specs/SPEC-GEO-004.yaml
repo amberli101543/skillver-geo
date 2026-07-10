@@ -1,0 +1,37 @@
+spec:
+  id: SPEC-GEO-004
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "通过 HTTP 创建并读取品牌：POST /brands 返回 201+品牌，GET /brands/:id 返回 200/404，非法请求体返回 400，并将 BrandModule/PrismaModule 接入运行时"
+
+  affected_files:
+    - backend/package.json
+    - backend/src/main.ts
+    - backend/src/app.module.ts
+    - backend/src/brand/brand.module.ts
+    - backend/src/brand/brand.controller.ts
+    - backend/src/brand/dto/create-brand.dto.ts
+    - backend/src/brand/brand.controller.e2e.test.ts
+
+  validation_rules:
+    - "commands.test PASS（npm --prefix backend test）"
+    - "npm --prefix backend run typecheck PASS"
+    - "POST /brands（合法）→ 201 + 含 id 的品牌；缺字段 → 400；GET /brands/:id 命中 → 200，未命中 → 404"
+    - "eval/task_validation 下 2 张 task checklist 全部完成"
+    - "Brand API 的 golden case 复现一致"
+
+  replay_cases:
+    - eval/golden_cases/brand/brand-api-001.json
+
+  notes: |
+    范围：仅 backend 单一 service（R6）。复用 SPEC-GEO-001/003 的 BrandService / BrandRepository / PrismaModule。
+    把已有地基跑成端到端：AppModule 导入 PrismaModule(@Global) + BrandModule，main.ts 启用全局 ValidationPipe。
+
+    决策点：
+    - 租户来源：暂用请求头 x-tenant-id（占位），真正的多租户鉴权/租户上下文留待 SPEC-GEO-005（API 网关/鉴权/审计）。
+    - 双层校验：HTTP 边界用 class-validator DTO（必填 name/definition）；领域层仍由 BrandService.validateBrand 兜底。
+    - 错误映射：BrandValidationError → 400；GET 未命中 → 404。
+    - e2e 测试用 Nest TestingModule 覆盖 BrandRepository 为内存假实现，保持 hermetic（CI 不依赖数据库）。
+
+  approval_required: true

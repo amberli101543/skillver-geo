@@ -1,0 +1,37 @@
+spec:
+  id: SPEC-GEO-044
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "评分解释力：低分项给出围绕提及/准确性/情感/信源/断言覆盖的可执行改写建议"
+
+  parent_plan: phase-7-capability-depth
+  depends_on: [SPEC-GEO-043]
+
+  affected_files:
+    - backend/src/scoring/scoring-advice.ts
+    - backend/src/scoring/scoring-advice.test.ts
+    - backend/src/diagnostics/diagnostic-run-types.ts
+    - backend/src/diagnostics/diagnostic-run.service.ts
+    - backend/src/diagnostics/diagnostic-run.service.test.ts
+    - backend/src/diagnostics/diagnostic-run.controller.e2e.test.ts
+    - web/src/api.ts
+    - web/src/DiagnosticRunsPanel.tsx
+    - web/src/styles.css
+    - docs/PROGRESS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run check:architecture PASS"
+    - "npm --prefix web run build PASS"
+    - "GET diagnostic-runs/:runId 低分项 items 含 scoreAdvice.actions"
+    - "跑批明细展开低分题目可见可执行建议列表"
+
+  replay_cases: []
+
+  notes: |
+    Phase 7 P0 — 不新增路由；在 diagnostic run detail items 上 computed scoreAdvice。
+    低分判定：未提及 / 准确性<0.5 / 负面情感 / 无信源；另检查品牌断言是否在回答中体现。
+    建议为可执行文案（写入哪类内容、补什么表述），非泛化告警。
+
+  approval_required: true

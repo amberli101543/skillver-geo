@@ -1,0 +1,21 @@
+task_id: TASK-EXAMPLE-001
+spec_id: SPEC-EXAMPLE-001
+goal: "本 task 的可验证结果（比 SPEC 更细一步）"
+
+files_to_touch:
+  - src/example/service.ts
+  - src/example/service.test.ts
+  # 最多 3 个路径；Agent 只能改这些文件
+
+validation:
+  - "npm test -- --grep example PASS"
+  - "eval/task_validation/TASK-EXAMPLE-001.checklist.md 全部勾选"
+
+approval_required: false
+
+# 仅结构变更（类型/重命名/注释）时填写：
+# replay_exempt: "无运行时行为变化"
+
+outputs:
+  - eval/task_validation/TASK-EXAMPLE-001.checklist.md
+  - eval/golden_cases/example/example-001.json

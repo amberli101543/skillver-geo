@@ -1,0 +1,14 @@
+task_id: TASK-GEO-050
+spec_id: SPEC-GEO-023
+goal: "AlertsPanel 看板 UI + Dashboard 集成"
+
+files_to_touch:
+  - web/src/api.ts
+  - web/src/AlertsPanel.tsx
+  - web/src/Dashboard.tsx
+  - web/src/styles.css
+
+validation:
+  - "npm --prefix web run build PASS"
+
+approval_required: false

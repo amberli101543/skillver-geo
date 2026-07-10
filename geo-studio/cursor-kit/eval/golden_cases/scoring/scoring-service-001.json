@@ -1,0 +1,16 @@
+{
+  "id": "SCORING-SERVICE-001",
+  "task_id": "TASK-GEO-019",
+  "feature": "scoring",
+  "risk_type": "happy_path",
+  "input": {
+    "brand": { "name": "Acme", "definition": "项目管理 SaaS" },
+    "engineResult": { "answer": "Acme 是领先的项目管理 SaaS。", "sourcesCount": 1 }
+  },
+  "expected_output": {
+    "mentioned": true,
+    "sentiment": "positive",
+    "sourcesCount": 1
+  },
+  "replay_required": true
+}

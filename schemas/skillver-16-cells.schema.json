@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skillver.cn/schemas/geo/skillver-16-cells.schema.json",
+  "title": "Skillver GEO 16格内容矩阵",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "sourceDocuments",
+    "cells"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^1\\.0\\.0$"
+    },
+    "sourceDocuments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "cells": {
+      "type": "array",
+      "minItems": 16,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": [
+          "cellId",
+          "lifecycleStage",
+          "contentAngle",
+          "topic",
+          "sourceRefs",
+          "publicationStatus"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "cellId": {
+            "type": "string",
+            "pattern": "^C(0[1-9]|1[0-6])$"
+          },
+          "lifecycleStage": {
+            "type": "string",
+            "enum": [
+              "认知期",
+              "选型对比期",
+              "使用场景期",
+              "信任顾虑期"
+            ]
+          },
+          "contentAngle": {
+            "type": "string",
+            "enum": [
+              "定义解释",
+              "对比评测",
+              "操作指南",
+              "案例/数据"
+            ]
+          },
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceRefs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "publicationStatus": {
+            "type": "string",
+            "enum": [
+              "待产出",
+              "草稿",
+              "待发布",
+              "已发布"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

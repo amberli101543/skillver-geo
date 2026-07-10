@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geo.skillver.local/schemas/result-record.schema.json",
+  "title": "Skillver GEO baseline result record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "roundId",
+    "capturedAt",
+    "engine",
+    "surface",
+    "questionId",
+    "answerEvidence",
+    "mentioned",
+    "positioningCorrect",
+    "entryUrlCorrect",
+    "officialSourceCited",
+    "staleNarrative",
+    "hallucination",
+    "reviewer"
+  ],
+  "properties": {
+    "roundId": {
+      "type": "string",
+      "pattern": "^R[0-9]+$"
+    },
+    "capturedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "engine": {
+      "enum": [
+        "doubao",
+        "kimi",
+        "deepseek",
+        "yuanbao",
+        "baidu-ai-search",
+        "metaso",
+        "chatgpt",
+        "perplexity",
+        "gemini",
+        "claude"
+      ]
+    },
+    "surface": {
+      "enum": ["api", "web", "app"]
+    },
+    "questionId": {
+      "type": "string",
+      "pattern": "^(B|I|T|C)[0-9]{2}$"
+    },
+    "answerEvidence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidenceUrlOrPath": {
+      "type": ["string", "null"]
+    },
+    "mentioned": {
+      "type": "boolean"
+    },
+    "positioningCorrect": {
+      "enum": ["yes", "partial", "no", "not-applicable"]
+    },
+    "entryUrlCorrect": {
+      "enum": ["yes", "partial", "no", "not-applicable"]
+    },
+    "officialSourceCited": {
+      "type": "boolean"
+    },
+    "staleNarrative": {
+      "type": "boolean"
+    },
+    "hallucination": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

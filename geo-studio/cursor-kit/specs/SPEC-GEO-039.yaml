@@ -1,0 +1,36 @@
+spec:
+  id: SPEC-GEO-039
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "多引擎产品化 UI：跑批可选 engineIds、诊断明细展示 engineId、单题试跑可选引擎"
+
+  parent_plan: phase-6-product-exposure
+  depends_on: [SPEC-GEO-035, SPEC-GEO-037, SPEC-GEO-028]
+
+  affected_files:
+    - web/src/DiagnosticRunsPanel.tsx
+    - web/src/EngineTestPanel.tsx
+    - web/src/Dashboard.tsx
+    - web/src/api.ts
+    - backend/src/diagnostics/diagnostic-batch.controller.ts
+    - backend/src/engine/engine-registry.controller.ts
+    - docs/API-ENDPOINTS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix web run build PASS"
+    - "看板跑批可勾选 ≥2 个已注册 engineId 并入队 Job"
+    - "诊断跑批明细每条 item 可见 engineId"
+    - "单题试跑可选择 engineId（缺省 registry 默认）"
+
+  replay_cases: []
+
+  notes: |
+    Phase 5 GEO-035 已在后端支持多引擎跑批；本 SPEC 把能力暴露到看板。
+    - GET /engines registry capabilities 供 UI 渲染引擎列表
+    - POST diagnostic-runs body 可选 engineIds[]，透传 Job payload
+    - DiagnosticRunsPanel 按 question+engineId 展示；同题多引擎分行
+    - EngineTestPanel 增加引擎下拉；POST engine-tests body engineId
+
+  approval_required: true

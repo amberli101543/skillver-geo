@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0.0",
+  "repository": "tcodeai",
+  "repositoryStatus": "unresolved",
+  "sourceCommit": null,
+  "sourceCommitMessage": null,
+  "generatedAt": "2026-07-10T04:15:00+00:00",
+  "snapshotDir": null,
+  "upstreamRoot": null,
+  "notes": "tcodeai 内容站仓库路径尚未登记。定位后按 upstream/skillver_v1 同样结构导出只读快照，不得复制整站代码。",
+  "items": []
+}

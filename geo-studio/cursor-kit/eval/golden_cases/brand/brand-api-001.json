@@ -1,0 +1,30 @@
+{
+  "id": "BRAND-API-001",
+  "task_id": "TASK-GEO-010",
+  "feature": "brand",
+  "risk_type": "happy_path",
+  "input": {
+    "createValid": {
+      "method": "POST",
+      "path": "/brands",
+      "headers": { "x-tenant-id": "t1" },
+      "body": { "name": "Acme", "definition": "A SaaS brand" }
+    },
+    "getHit": { "method": "GET", "path": "/brands/{createdId}", "headers": { "x-tenant-id": "t1" } },
+    "getMiss": { "method": "GET", "path": "/brands/unknown-id", "headers": { "x-tenant-id": "t1" } },
+    "createInvalid": {
+      "method": "POST",
+      "path": "/brands",
+      "headers": { "x-tenant-id": "t1" },
+      "body": { "name": "" }
+    }
+  },
+  "expected_output": {
+    "createValid": { "status": 201, "bodyHasId": true, "tenantId": "t1" },
+    "getHit": { "status": 200 },
+    "getMiss": { "status": 404 },
+    "createInvalid": { "status": 400 }
+  },
+  "notes": "Hermetic e2e via Nest TestingModule with BrandRepository overridden by an in-memory fake (no DB). Also verified live against Postgres in TASK-GEO-009.",
+  "replay_required": true
+}

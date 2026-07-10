@@ -1,0 +1,38 @@
+{
+  "canonicalOrigin": "https://www.skillver.cn",
+  "publicSitemapPaths": [
+    "/",
+    "/about",
+    "/faq",
+    "/beta",
+    "/terms",
+    "/privacy",
+    "/enterprise/apply",
+    "/help/talent",
+    "/help/enterprise",
+    "/help/glossary"
+  ],
+  "llmsTxtRequiredPaths": [
+    "/about",
+    "/faq",
+    "/beta",
+    "/terms",
+    "/privacy",
+    "/enterprise/apply",
+    "/help/talent",
+    "/help/enterprise",
+    "/help/glossary"
+  ],
+  "schemaTypes": [
+    "FAQPage",
+    "Organization",
+    "SoftwareApplication",
+    "DefinedTermSet"
+  ],
+  "productEntryDomains": [
+    "https://www.skillver.cn",
+    "https://www.skillver.ai"
+  ],
+  "brandContentDomain": "https://www.tcodeai.com",
+  "sourceCommit": "ca69dc9a0bf07c40774e47f29b1794538e29e5f8"
+}

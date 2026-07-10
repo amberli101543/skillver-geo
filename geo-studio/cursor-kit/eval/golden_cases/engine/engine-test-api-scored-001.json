@@ -1,0 +1,25 @@
+{
+  "id": "ENGINE-TEST-API-SCORED-001",
+  "task_id": "TASK-GEO-020",
+  "feature": "engine",
+  "risk_type": "happy_path",
+  "input": {
+    "post": {
+      "method": "POST",
+      "path": "/brands/{brandId}/engine-tests",
+      "headers": { "x-tenant-id": "t1" },
+      "body": { "question": "Acme 是什么？" }
+    }
+  },
+  "expected_output": {
+    "status": 201,
+    "hasEngineFields": true,
+    "score": {
+      "mentioned": "boolean",
+      "sentiment": "positive|neutral|negative",
+      "accuracy": "number",
+      "sourcesCount": "number"
+    }
+  },
+  "replay_required": true
+}

@@ -1,0 +1,20 @@
+spec:
+  id: SPEC-GEO-034
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "看板关键页面响应式布局，平板宽度可用"
+
+  parent_plan: phase-4-experience
+  depends_on: [SPEC-GEO-033]
+
+  affected_files:
+    - web/src/Dashboard.tsx
+    - web/src/styles.css
+
+  validation_rules:
+    - "npm --prefix web run build PASS"
+    - "768px 宽度下导航与主内容可访问"
+
+  replay_cases: []
+  approval_required: true

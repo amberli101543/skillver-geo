@@ -1,0 +1,36 @@
+spec:
+  id: SPEC-GEO-041
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "RAG 引用可见性：内容生成与评分流程展示检索到的知识片段"
+
+  parent_plan: phase-6-product-exposure
+  depends_on: [SPEC-GEO-036]
+
+  affected_files:
+    - backend/src/ai/content.facade.ts
+    - backend/src/ai/scoring.facade.ts
+    - backend/src/content/content-draft.service.ts
+    - web/src/api.ts
+    - web/src/DraftEditor.tsx
+    - web/src/EngineTestPanel.tsx
+    - web/src/RagSnippetsPanel.tsx
+    - docs/API-ENDPOINTS.md
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix web run build PASS"
+    - "内容生成 API 响应含 ragSnippets[]（可为空）"
+    - "单题试跑/评分结果可选展示 RAG 引用块"
+    - "RAG 逻辑仍在 ai/ 层，Controller 不直接调 RagService"
+
+  replay_cases: []
+
+  notes: |
+    GEO-036 已实现断言/品牌资料自动索引与 pgvector 检索；用户需能验证「AI 引用了哪些品牌事实」。
+    - Facade 返回 ragSnippets；初稿落库 rag_snippets JSONB
+    - 无 Key / 无 chunk 时 snippets 为空数组，UI 隐藏区块
+    - 不在 UI 暴露 embedding 或向量细节
+
+  approval_required: true

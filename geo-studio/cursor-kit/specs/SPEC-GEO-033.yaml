@@ -1,0 +1,18 @@
+spec:
+  id: SPEC-GEO-033
+  version: v0.1.0
+  status: DONE
+  type: feature
+  feature_goal: "建立设计系统 token 与组件规范，看板视觉对齐 designrefer.md / Figma"
+
+  parent_plan: phase-4-experience
+
+  affected_files:
+    - web/src/styles.css
+    - docs/designrefer.md
+
+  validation_rules:
+    - "npm --prefix web run build PASS"
+
+  replay_cases: []
+  approval_required: true

@@ -1,0 +1,25 @@
+spec:
+  id: SPEC-GEO-022
+  version: v0.1.0
+  status: COMPLETED
+  type: feature
+  feature_goal: "发布连接器：自有 CMS（api 渠道）自动发布 + export/manual 渠道导出稿件；看板一键执行"
+
+  affected_files:
+    - backend/src/distribution/publish-connector.ts
+    - backend/src/distribution/distribution.service.ts
+    - backend/src/distribution/distribution.controller.ts
+    - backend/src/distribution/distribution.module.ts
+    - web/src/DistributionPanel.tsx
+    - web/src/api.ts
+
+  validation_rules:
+    - "npm --prefix backend test PASS"
+    - "npm --prefix backend run typecheck PASS"
+    - "npm --prefix web run build PASS"
+    - "POST /brands/:brandId/distribution-tasks/:taskId/execute"
+    - "api 渠道自动创建 PublishRecord；export/manual 返回可下载稿件"
+
+  replay_cases: []
+
+  approval_required: false

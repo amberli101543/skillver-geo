@@ -1,0 +1,11 @@
+task_id: TASK-GEO-058
+spec_id: SPEC-GEO-ARCH-001
+goal: "新增 ScoringAiFacade + ContentAiFacade，迁移 scoring/content LLM 逻辑"
+files_to_touch:
+  - backend/src/ai/scoring.facade.ts
+  - backend/src/ai/content.facade.ts
+  - backend/src/scoring/scoring-pipeline.ts
+validation:
+  - "npm --prefix backend test PASS"
+  - "scoring-pipeline.test.ts PASS"
+approval_required: false
