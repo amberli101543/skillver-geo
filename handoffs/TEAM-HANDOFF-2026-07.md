@@ -19,7 +19,7 @@
 |------|------|--------|----------|----------|
 | **tcodeai 长文** | `tcodeai` | 5 篇 canonical 长文 | `content/publish-ready/<cellId>/tcodeai.md` + `cms/tcodeai.html` | 交付 tcodeai 站上线；正文用 HTML 片段 |
 | **主站 FAQ** | `main-faq` | 5 组问答锚点 | `content/publish-ready/<cellId>/main-faq.md` + `cms/main-faq.html` | 交付主站仓上线（handoff 文档） |
-| **微信公众号** | `wechat` | 5 篇完整解释 | `content/publish-ready/<cellId>/wechat.md` | 你直接发 |
+| **微信公众号** | `wechat` | 5 篇完整解释 | `content/publish-ready/<cellId>/wechat.md` | **本周可人工发**；草稿箱自动化见 `docs/WECHAT-DRAFT-AUTOMATION.md`（标题+正文进草稿箱，微信后台审核发表） |
 | **小红书** | `xiaohongshu` | 5 篇卡片文案 | `content/publish-ready/<cellId>/xiaohongshu.md` | 你直接发（需做图） |
 | **知乎** | `zhihu` | 4 篇挂靠回答 | `content/publish-ready/<cellId>/zhihu.md` | 你直接发；**挂靠已有真实问题，不自问自答** |
 

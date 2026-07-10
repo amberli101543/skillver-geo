@@ -17,12 +17,33 @@
 
 ## 一键配置
 
+脚本会：复制 `.env`（若不存在）→ 启动 PostgreSQL（5433）+ Redis（6379）→ 安装依赖 → Prisma 迁移 → 生成 Client。
+
+**macOS / Linux：**
+
+```bash
+cd "/path/to/skillver-geo-main/geo-studio"
+bash ./scripts/setup-local.sh
+```
+
+**Windows（PowerShell）：**
+
 ```powershell
-cd C:\Users\pippi\Desktop\skillver-geo\geo-studio
+cd C:\path\to\skillver-geo\geo-studio
 .\scripts\setup-local.ps1
 ```
 
-脚本会：启动 PostgreSQL（5433）+ Redis（6379）→ Prisma 迁移 → 生成 Client。
+配置完成后另开两个终端启动服务（见下方「启动服务」）。
+
+**国内网络拉镜像卡住 / TLS 超时（常见）：** 不要干等 Docker Hub。先取消卡住的 pull（终端 `Ctrl+C`），再执行：
+
+```bash
+cd "/path/to/skillver-geo-main/geo-studio"
+bash ./scripts/pull-images-cn.sh   # 从华为云镜像拉取并打回官方 tag
+bash ./scripts/setup-local.sh
+```
+
+Apple Silicon（arm64）会自动拉 `pg16-linuxarm64`。若该源也失败，可换手机热点，或在 Docker Engine 配置 `registry-mirrors` 后重试。
 
 ---
 
@@ -30,20 +51,23 @@ cd C:\Users\pippi\Desktop\skillver-geo\geo-studio
 
 ### 1. 环境变量
 
-```powershell
-cd C:\Users\pippi\Desktop\skillver-geo\geo-studio\backend
-copy .env.example .env   # 若尚无 .env
+在 `geo-studio` 根目录：
+
+```bash
+cp backend/.env.example backend/.env   # 若尚无 .env
 ```
 
-本地 `.env` 已预置：
+本地 `.env` 预置：
 - 看板登录：`admin` / `123456`
 - API Token：`dev-key`
-- `ENGINE_MODE=stub`（无 Key 也能跑通）
-- `DIAGNOSTIC_ENGINE_IDS` 列出全部 9 引擎
+- 无引擎 Key 时连接器自动走 stub
+- 可用 `DIAGNOSTIC_ENGINE_IDS` 控制跑批引擎与成本
 
 ### 2. 启动数据库
 
-```powershell
+在 `geo-studio` 根目录：
+
+```bash
 npm --prefix backend run db:up
 npm --prefix backend exec prisma migrate deploy
 npm --prefix backend run prisma:generate
@@ -51,15 +75,17 @@ npm --prefix backend run prisma:generate
 
 ### 3. 启动服务
 
+在 `geo-studio` 根目录开两个终端：
+
 **终端 1 — Backend（API + Worker）**
 
-```powershell
+```bash
 npm --prefix backend run start:dev
 ```
 
 **终端 2 — Web 看板**
 
-```powershell
+```bash
 npm --prefix web run dev
 ```
 
