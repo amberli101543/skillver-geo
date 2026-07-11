@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import tempfile
 import unittest
 from pathlib import Path
 import sys
@@ -8,10 +9,13 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from wechat_draft_publish import (  # noqa: E402
     build_digest,
+    expand_batch_patterns,
     extract_title,
+    format_wechat_error,
     markdown_to_wechat_html,
     parse_frontmatter,
     truncate_title,
+    warn_if_example_has_secrets,
 )
 
 
@@ -44,6 +48,22 @@ class WechatDraftPublishTests(unittest.TestCase):
     def test_truncate_title(self):
         long_title = "测" * 40
         self.assertEqual(len(truncate_title(long_title)), 32)
+
+    def test_format_wechat_error_ip_whitelist(self):
+        msg = format_wechat_error({"errcode": 40164, "errmsg": "invalid ip"})
+        self.assertIn("40164", msg)
+        self.assertIn("IP 白名单", msg)
+
+    def test_warn_example_secrets(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "wechat.env.example"
+            path.write_text("WECHAT_APP_ID=wxdemo\nWECHAT_APP_SECRET=secret\n", encoding="utf-8")
+            warn_if_example_has_secrets(path)
+
+    def test_expand_batch_patterns(self):
+        paths = expand_batch_patterns(["content/publish-ready/*/wechat.md"])
+        self.assertGreaterEqual(len(paths), 1)
+        self.assertTrue(all(p.name == "wechat.md" for p in paths))
 
 
 if __name__ == "__main__":

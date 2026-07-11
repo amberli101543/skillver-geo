@@ -43,10 +43,10 @@
 
 | # | 日期 | cellId | 渠道 | contentId | 标题 | 素材路径 | 审核 | 发布 | URL |
 |---|------|--------|------|-----------|------|----------|------|------|-----|
-| 1 | 7/12 | C16 | tcodeai | GEO-202607-C16-TCODEAI | Skillver 如何加入内测？邀请码与费用边界一次说清 | `C16/tcodeai.md` | [ ] | [ ] | |
-| 2 | 7/12 | C16 | main-faq | GEO-202607-C16-MAIN-FAQ | Skillver 内测加入方式、邀请码与费用边界 | `C16/main-faq.md` | [ ] | [ ] | |
-| 3 | 7/12 | C16 | wechat | GEO-202607-C16-WECHAT | Skillver 内测真免费吗？先把三个限定词说清楚 | `C16/wechat.md` | [ ] | [ ] | |
-| 4 | 7/13 | C16 | xiaohongshu | GEO-202607-C16-XHS | Skillver 内测真免费吗？5 张卡片看懂 | `C16/xiaohongshu.md` | [ ] | [ ] | |
+| 1 | 7/12 | C16 | tcodeai | GEO-202607-C16-TCODEAI | Skillver 如何加入内测？邀请码与费用边界一次说清 | `C16/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/skillver-closed-beta-guide/ （7/9 已上线） |
+| 2 | 7/12 | C16 | main-faq | GEO-202607-C16-MAIN-FAQ | Skillver 内测加入方式、邀请码与费用边界 | `C16/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （Q&A 已合并上线） |
+| 3 | 7/12 | C16 | wechat | GEO-202607-C16-WECHAT | Skillver 内测真免费吗？先把三个限定词说清楚 | `C16/wechat.md` | [x] | [x] | Skillver: https://mp.weixin.qq.com/s/GZ2CPzapmQeuhZHa16pWCw ；才谱AI: https://mp.weixin.qq.com/s/eztbi2tav-pmBmHEX2HfIw |
+| 4 | 7/13 | C16 | xiaohongshu | GEO-202607-C16-XHS | Skillver 内测真免费吗？5 张卡片看懂 | `C16/xiaohongshu.md` | [x] | [x] | 才谱AI: https://www.xiaohongshu.com/explore/6a51b2e60000000007023df0?xsec_token=ABnExfcIP_eyf7pxI8aamfF2XSfg7ymaTKPhzWx-2rL_c=&xsec_source=pc_user |
 | 5 | 7/13 | C13 | tcodeai | GEO-202607-C13-TCODEAI | AI 面试彩排与正式评估有什么区别？ | `C13/tcodeai.md` | [ ] | [ ] | |
 | 6 | 7/13 | C13 | main-faq | GEO-202607-C13-MAIN-FAQ | 模拟面试、正式评估与投递资格 | `C13/main-faq.md` | [ ] | [ ] | |
 | 7 | 7/14 | C13 | zhihu | GEO-202607-C13-ZHIHU | AI 模拟面试评分会影响求职吗？ | `C13/zhihu.md` | [ ] | [ ] | |

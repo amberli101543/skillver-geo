@@ -9,7 +9,7 @@
       "status": "current",
       "role": "geo-content-ssot",
       "upstreamSource": null,
-      "sha256": "f4b2408c275b2f52bbce133bbd688016b2dca216569e2e8d4d6b1a3dd279f27f",
+      "sha256": "4e3ecd3df3b276dbc25fb79dc10ad9f94802855416b0e5d1d2147d9a8b659c57",
       "notes": "GEO 母稿首要事实源；变更后需同步 content/ 与 publish-ready/"
     },
     {
@@ -17,7 +17,7 @@
       "status": "derived",
       "role": "geo-content-ssot",
       "upstreamSource": "skillver_v1/docs/active/v1/CP_USER_MANUAL_V1.0.md",
-      "sha256": "0e9f94d78833b17da3cb31262970c5928c7b93ac2a2793638fdfa03b1e68e976",
+      "sha256": "395c4a18bace8d631346b6f15cc3400c5fa87ccd0b963761aaf88fe344704ace",
       "notes": "与主仓用户手册存在漂移；涉及次数、配额、期限时以 upstream 快照与受保护指针复核"
     },
     {
@@ -25,7 +25,7 @@
       "status": "derived",
       "role": "geo-content-ssot",
       "upstreamSource": "03-content-assets/Skillver V1.0 用户使用手册.txt",
-      "sha256": "17d5b08ad757ab4687fc03f694d2d60fc4a8c150c16cf2ee79fd7419f597e1ba",
+      "sha256": "3970a3b2c0c72d45add7cbbe7b0254e06245f8cfab44ef4350ed5ea3f557d529",
       "notes": "手册精简派生版；不得作为独立产品 SSOT"
     },
     {
@@ -33,7 +33,7 @@
       "status": "current",
       "role": "authority-asset",
       "upstreamSource": null,
-      "sha256": "314e319ceb3298f061864b3e0550c06fff679b518fe4f06a7b742209a8b9b732",
+      "sha256": "d21002e52c98e42febb3f543c75065286f66f08efe0bd490dd0e51a21e7bd668",
       "notes": "权威内容母稿；发布 HTML 在 tcodeai/主站，不在此目录编辑页面壳"
     },
     {
@@ -41,7 +41,7 @@
       "status": "current",
       "role": "authority-asset",
       "upstreamSource": null,
-      "sha256": "e131072de22e6cc8f1e77314a8e28a37d5ec66e4b97f710580b8ad6572368117",
+      "sha256": "d7c54a163d62d71ed8f022a6b8203bdd63d56ff27bf5321a1520d43ae5555a0e",
       "notes": "权威内容母稿；发布 HTML 在 tcodeai/主站"
     },
     {
@@ -49,7 +49,7 @@
       "status": "current",
       "role": "brand-narrative",
       "upstreamSource": null,
-      "sha256": "f06b32427be1d81fcea3381e4e00ad28eb0313cde1cd7a55830d75a846e21115",
+      "sha256": "8a7247251ec683d973f23a5295a1d95058dda393acf75deb9ac841e398ecc5d4",
       "notes": "品牌叙事素材；不替代产品功能事实"
     }
   ]
