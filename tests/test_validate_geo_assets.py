@@ -194,7 +194,7 @@ class GeoAssetValidationTests(unittest.TestCase):
         matrix = valid_matrix()
         del matrix["cells"][0]["topic"]
         matrix["cells"][1]["cellId"] = "C17"
-        matrix["cells"][2]["topic"] = "开放注册，保证offer"
+        matrix["cells"][2]["topic"] = "邀请码准入，保证offer"
         matrix_path = self.root / "matrix.json"
         write_json(matrix_path, matrix)
 
@@ -202,7 +202,7 @@ class GeoAssetValidationTests(unittest.TestCase):
 
         self.assertTrue(any("topic" in error for error in errors))
         self.assertTrue(any("C17" in error or "cellId" in error for error in errors))
-        self.assertTrue(any("开放注册" in error for error in errors))
+        self.assertTrue(any("邀请码准入" in error for error in errors))
         self.assertTrue(any("保证offer" in error for error in errors))
 
     def test_negative_rejects_duplicate_url_and_invalid_log_cell(self):
@@ -253,7 +253,7 @@ class GeoAssetValidationTests(unittest.TestCase):
         first = manifest["items"][0]
         (self.root / first["markdownPath"]).write_text(
             (self.root / first["markdownPath"]).read_text(encoding="utf-8")
-            + "\n开放注册\n",
+            + "\n邀请码准入\n",
             encoding="utf-8",
         )
         html_item = next(item for item in manifest["items"] if item["channel"] == "tcodeai")
@@ -268,7 +268,7 @@ class GeoAssetValidationTests(unittest.TestCase):
 
         errors = validate_channel_manifest(manifest_path, CHANNEL_SCHEMA, self.root)
 
-        self.assertTrue(any("开放注册" in error for error in errors))
+        self.assertTrue(any("邀请码准入" in error for error in errors))
         self.assertTrue(any("文件不存在" in error for error in errors))
         self.assertTrue(any("<html>" in error for error in errors))
         self.assertTrue(any("<script>" in error for error in errors))

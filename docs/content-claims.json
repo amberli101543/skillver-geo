@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "canonicalPositioning": "封闭内测、邀请码准入",
+  "version": "1.1.0",
+  "canonicalPositioning": "全面开放注册；邀请码仅用于赛事参与",
   "scanPaths": [
     "README.md",
     "TODO-skillver-geo.md",
@@ -10,48 +10,59 @@
   ],
   "allowedClaims": [
     {
-      "id": "ALLOW_CLOSED_BETA",
-      "description": "当前唯一准入阶段为封闭内测。",
+      "id": "ALLOW_OPEN_SIGNUP",
+      "description": "网站已全面开放注册，用户可直接官网自助注册，注册不再需要邀请码。",
       "patterns": [
-        "封闭内测",
-        "内测中",
-        "内测阶段",
-        "内测期"
+        "全面开放注册",
+        "开放注册",
+        "公开注册",
+        "自助注册",
+        "可直接注册",
+        "无需邀请码即可注册",
+        "注册已开放",
+        "注册不再需要邀请码"
       ]
     },
     {
-      "id": "ALLOW_INVITE_ONLY",
-      "description": "用户必须通过邀请码或内测申请获得准入。",
+      "id": "ALLOW_EVENT_INVITE",
+      "description": "邀请码仅用于赛事/竞赛参与，不作为注册门槛。",
       "patterns": [
-        "邀请码准入",
-        "需要邀请码",
-        "持邀请码",
-        "内测申请",
-        "领邀请码"
+        "邀请码仅用于赛事",
+        "赛事邀请码",
+        "参赛邀请码",
+        "竞赛邀请码",
+        "赛事参与的邀请码"
       ]
     }
   ],
   "prohibitedClaims": [
     {
-      "id": "BLOCK_PUBLIC_RELEASE",
-      "description": "不得将当前阶段描述为公开版、公测或无内测过渡。",
+      "id": "BLOCK_INVITE_FOR_SIGNUP",
+      "description": "不得再将邀请码描述为注册或产品准入门槛。",
       "patterns": [
-        "公开版",
-        "公测",
-        "无内测过渡",
-        "跳过内测"
+        "邀请码准入",
+        "(?<!不)需要邀请码才能注册",
+        "(?<!不)需要邀请码才能进入",
+        "持邀请码即可注册",
+        "持邀请码注册",
+        "通过邀请码注册",
+        "实行邀请码准入",
+        "采用邀请码准入"
       ]
     },
     {
-      "id": "BLOCK_OPEN_SIGNUP",
-      "description": "不得声称开放、自由或免邀请注册。",
+      "id": "BLOCK_CLOSED_BETA_ACCESS",
+      "description": "不得将当前阶段描述为仍需封闭内测或邀请才能注册使用。",
       "patterns": [
-        "开放注册",
-        "公开注册",
-        "自由注册",
-        "无需邀请码",
-        "免邀请码",
-        "注册已开放"
+        "当前处于 ICP 封闭内测",
+        "当前处于封闭内测",
+        "当前是 ICP 封闭内测",
+        "处于 ICP 封闭内测",
+        "ICP 封闭内测，采用",
+        "ICP 封闭内测，实行",
+        "封闭内测、邀请码",
+        "封闭内测，邀请码",
+        "并未面向所有人公开开放"
       ]
     }
   ],

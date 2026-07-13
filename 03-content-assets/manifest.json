@@ -9,7 +9,7 @@
       "status": "current",
       "role": "geo-content-ssot",
       "upstreamSource": null,
-      "sha256": "4e3ecd3df3b276dbc25fb79dc10ad9f94802855416b0e5d1d2147d9a8b659c57",
+      "sha256": "e5de442581e69a6d4da0a1c665451b6d8e0832e47fe44ecee66f15aae6a74f7f",
       "notes": "GEO 母稿首要事实源；变更后需同步 content/ 与 publish-ready/"
     },
     {
@@ -17,7 +17,7 @@
       "status": "derived",
       "role": "geo-content-ssot",
       "upstreamSource": "skillver_v1/docs/active/v1/CP_USER_MANUAL_V1.0.md",
-      "sha256": "395c4a18bace8d631346b6f15cc3400c5fa87ccd0b963761aaf88fe344704ace",
+      "sha256": "f6a5f6c22285529225729c42fe4ba535a48bcf0569779d637be5de9a94f74e4c",
       "notes": "与主仓用户手册存在漂移；涉及次数、配额、期限时以 upstream 快照与受保护指针复核"
     },
     {
@@ -25,7 +25,7 @@
       "status": "derived",
       "role": "geo-content-ssot",
       "upstreamSource": "03-content-assets/Skillver V1.0 用户使用手册.txt",
-      "sha256": "3970a3b2c0c72d45add7cbbe7b0254e06245f8cfab44ef4350ed5ea3f557d529",
+      "sha256": "1068f530ef322a907e97d8b34ed9229778ade8521b42d68585d230d3eb7d1a44",
       "notes": "手册精简派生版；不得作为独立产品 SSOT"
     },
     {

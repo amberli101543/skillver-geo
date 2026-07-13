@@ -2,7 +2,7 @@
   "$schema": "./question-set.schema.json",
   "version": "v1.0",
   "status": "approved",
-  "productState": "ICP封闭内测、邀请码准入",
+  "productState": "全面开放注册；邀请码仅用于赛事参与",
   "questions": [
     {
       "id": "B01",
@@ -44,7 +44,7 @@
       "id": "B07",
       "category": "brand",
       "query": "Skillver 当前开放使用了吗？",
-      "passCriteria": ["明确当前为 ICP 封闭内测", "明确需要邀请码准入"]
+      "passCriteria": ["明确已全面开放注册", "说明邀请码仅用于赛事参与"]
     },
     {
       "id": "B08",
@@ -68,13 +68,13 @@
       "id": "I03",
       "category": "entry",
       "query": "怎么注册 Skillver？",
-      "passCriteria": ["说明封闭内测需邀请码", "不声称开放注册"]
+      "passCriteria": ["说明可直接官网自助注册", "说明注册不再需要邀请码"]
     },
     {
       "id": "I04",
       "category": "entry",
       "query": "Skillver 邀请码怎么获得？",
-      "passCriteria": ["说明可通过已注册用户邀请或联系运营申请", "不虚构购买渠道"]
+      "passCriteria": ["说明邀请码用于赛事参与而非注册", "不虚构购买渠道"]
     },
     {
       "id": "I05",
@@ -92,13 +92,13 @@
       "id": "I07",
       "category": "entry",
       "query": "Skillver 现在收费吗？",
-      "passCriteria": ["限定为封闭内测阶段费用口径", "不声称永久免费"]
+      "passCriteria": ["费用口径以官网当前说明为准", "不声称永久免费"]
     },
     {
       "id": "I08",
       "category": "entry",
       "query": "没有邀请码能直接使用 Skillver 吗？",
-      "passCriteria": ["回答不能直接注册使用", "给出申请内测资格的合规路径"]
+      "passCriteria": ["回答可以无邀请码直接注册", "说明邀请码仅用于赛事参与"]
     },
     {
       "id": "T01",
@@ -152,7 +152,7 @@
       "id": "C01",
       "category": "category",
       "query": "AI 求职助手推荐",
-      "passCriteria": ["如提及 Skillver则定位准确", "不把封闭内测说成开放注册"]
+      "passCriteria": ["如提及 Skillver则定位准确", "不把开放注册说成仍需邀请码准入"]
     },
     {
       "id": "C02",

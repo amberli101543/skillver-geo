@@ -12,8 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BANNED_CLAIMS = (
-    "开放注册",
-    "公开版",
+    "邀请码准入",
     "当前版本永久免费",
     "保证offer",
     "保证 offer",
@@ -119,7 +118,7 @@ def _banned_claim_errors(value):
         compact = re.sub(r"\s+", "", text).lower()
         for claim in BANNED_CLAIMS:
             if re.sub(r"\s+", "", claim).lower() in compact:
-                errors.append(f"{path}: 命中封闭内测禁语 {claim!r}")
+                errors.append(f"{path}: 命中过时准入禁语 {claim!r}")
     return errors
 
 

@@ -14,7 +14,7 @@
       "enum": ["draft", "approved", "retired"]
     },
     "productState": {
-      "const": "ICP封闭内测、邀请码准入"
+      "const": "全面开放注册；邀请码仅用于赛事参与"
     },
     "questions": {
       "type": "array",

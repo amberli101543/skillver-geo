@@ -49,7 +49,7 @@ class UpstreamSnapshotTests(unittest.TestCase):
         self.assertEqual(["/", "/faq"], contract["publicSitemapPaths"])
 
         faq_source = (
-            "{ id: 'C16', question: '如何加入内测？', schemaAnswer: '需邀请码准入。', sections: [] },"
+            "{ id: 'C16', question: '如何注册？', schemaAnswer: '已全面开放注册；邀请码仅用于赛事参与。', sections: [] },"
         )
         entries = parse_faq_public_facts(faq_source)
         self.assertEqual("C16", entries[0]["id"])
@@ -66,7 +66,7 @@ class UpstreamSnapshotTests(unittest.TestCase):
     def test_negative_marks_stale_sensitive_claims(self):
         findings = check_sensitive_claims("内测期零收费，导师已开放可预约", True)
         self.assertTrue(findings)
-        self.assertEqual([], check_sensitive_claims("封闭内测、邀请码准入", False))
+        self.assertEqual([], check_sensitive_claims("全面开放注册；邀请码仅用于赛事参与", False))
 
 
 class UpstreamDriftTests(unittest.TestCase):

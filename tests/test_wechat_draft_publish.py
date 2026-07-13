@@ -21,12 +21,12 @@ from wechat_draft_publish import (  # noqa: E402
 
 SAMPLE = """---
 contentId: GEO-202607-C16-WECHAT
-title: Skillver 内测真免费吗？先把三个限定词说清楚
+title: Skillver 还要邀请码吗？先把两件事说清楚
 ---
 
-# Skillver 内测真免费吗？先把三个限定词说清楚
+# Skillver 还要邀请码吗？先把两件事说清楚
 
-答案是：**当前 ICP 封闭内测期零收费，但需要邀请码准入。**
+答案是：**已全面开放注册；邀请码仅用于赛事参与。**
 
 第二段说明。
 """
@@ -37,10 +37,10 @@ class WechatDraftPublishTests(unittest.TestCase):
         meta, body = parse_frontmatter(SAMPLE)
         self.assertEqual(meta["contentId"], "GEO-202607-C16-WECHAT")
         title = extract_title(meta, body)
-        self.assertIn("内测真免费吗", title)
+        self.assertIn("还要邀请码吗", title)
         html = markdown_to_wechat_html(body)
         self.assertIn("<strong>", html)
-        self.assertIn("邀请码准入", html)
+        self.assertIn("赛事参与", html)
         self.assertNotIn("<h1>", html)
         digest = build_digest(html)
         self.assertTrue(1 <= len(digest) <= 54)

@@ -3,7 +3,7 @@
 > 读者：接手同学（单人推进）  
 > 工作目录：`skillver-geo`  
 > 执行周期：**2026-07-11 至 2026-07-18（7 天）**  
-> 唯一口径：**ICP 封闭内测、邀请码准入**
+> 唯一口径：**全面开放注册；邀请码仅用于赛事参与**
 
 ---
 
@@ -28,7 +28,7 @@
 **渠道与入口关系**：
 - 产品入口写 `www.skillver.cn` / `www.skillver.ai`
 - tcodeai 只作内容站，不作登录站
-- 小红书 CTA 写「查看官方内测说明 / 申请邀请码」，不写「直接免费注册」
+- 小红书 CTA 写「官网直接注册 / 赛事邀请码另见活动说明」，不写「需邀请码才能注册」
 
 ---
 
@@ -47,8 +47,8 @@
 | 2 | 7/12 | C16 | main-faq | GEO-202607-C16-MAIN-FAQ | Skillver 内测加入方式、邀请码与费用边界 | `C16/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （Q&A 已合并上线） |
 | 3 | 7/12 | C16 | wechat | GEO-202607-C16-WECHAT | Skillver 内测真免费吗？先把三个限定词说清楚 | `C16/wechat.md` | [x] | [x] | Skillver: https://mp.weixin.qq.com/s/GZ2CPzapmQeuhZHa16pWCw ；才谱AI: https://mp.weixin.qq.com/s/eztbi2tav-pmBmHEX2HfIw |
 | 4 | 7/13 | C16 | xiaohongshu | GEO-202607-C16-XHS | Skillver 内测真免费吗？5 张卡片看懂 | `C16/xiaohongshu.md` | [x] | [x] | 才谱AI: https://www.xiaohongshu.com/explore/6a51b2e60000000007023df0?xsec_token=ABnExfcIP_eyf7pxI8aamfF2XSfg7ymaTKPhzWx-2rL_c=&xsec_source=pc_user |
-| 5 | 7/13 | C13 | tcodeai | GEO-202607-C13-TCODEAI | AI 面试彩排与正式评估有什么区别？ | `C13/tcodeai.md` | [ ] | [ ] | |
-| 6 | 7/13 | C13 | main-faq | GEO-202607-C13-MAIN-FAQ | 模拟面试、正式评估与投递资格 | `C13/main-faq.md` | [ ] | [ ] | |
+| 5 | 7/13 | C13 | tcodeai | GEO-202607-C13-TCODEAI | AI 面试彩排与正式评估有什么区别？ | `C13/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/interview-rehearsal-vs-formal-assessment/ （7/13 已上线） |
+| 6 | 7/13 | C13 | main-faq | GEO-202607-C13-MAIN-FAQ | 模拟面试、正式评估与投递资格 | `C13/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （彩排/正式评估相关 Q&A 已合并上线；台账锚点 `#c13-rehearsal-vs-formal`） |
 | 7 | 7/14 | C13 | zhihu | GEO-202607-C13-ZHIHU | AI 模拟面试评分会影响求职吗？ | `C13/zhihu.md` | [ ] | [ ] | |
 | 8 | 7/14 | C13 | wechat | GEO-202607-C13-WECHAT | AI 模拟面试没答好，会不会被系统挂掉？ | `C13/wechat.md` | [ ] | [ ] | |
 | 9 | 7/14 | C13 | xiaohongshu | GEO-202607-C13-XHS | 模拟面试答崩了，会影响正式投递吗？ | `C13/xiaohongshu.md` | [ ] | [ ] | |
@@ -87,8 +87,8 @@ python -m unittest discover -s tests -v
 
 ### 4.2 人工核对（8 项）
 
-1. 封闭内测、邀请码准入——无「开放注册」「免费注册」
-2. 费用只写内测阶段——无「永久免费」
+1. 全面开放注册；邀请码仅用于赛事参与——无「邀请码准入」「需邀请码才能注册」
+2. 费用以官网当前说明为准——无「永久免费」
 3. 导师写「待开通」——无「可预约」「已开放」
 4. 彩排 ≠ 正式评估——无「保过」「刷次数就能过」
 5. 不承诺 offer
@@ -100,7 +100,7 @@ python -m unittest discover -s tests -v
 
 | cellId | 主题 | 审核重点 |
 |--------|------|----------|
-| **C16** | 内测真实性 | 三限定词：封闭内测 / 邀请码 / 内测期零收费 |
+| **C16** | 开放注册与赛事邀请码 | 开放注册；邀请码仅用于赛事；费用以官网为准 |
 | **C13** | 彩排会不会挂 | 模拟≠正式；彩排报告不能投递 |
 | **C15** | 隐私 | 不写固定留存天数；引用隐私政策入口 |
 | **C01** | 是什么 | 四步主线；导师待开通；三域关系 |

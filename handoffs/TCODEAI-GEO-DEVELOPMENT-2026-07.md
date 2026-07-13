@@ -22,7 +22,7 @@
 
 首页、FAQ、产品页、`llms.txt` 全量删除或改写：
 
-- “免费注册”“开放注册”“open registration”；
+- “邀请码准入”“需邀请码才能注册”“封闭内测准入”等旧叙事；
 - “当前版本永久免费”；
 - “导师当前可免费预约”；
 - 固定彩排/正式面试次数；
@@ -30,9 +30,9 @@
 
 统一为：
 
-- 当前处于 ICP 封闭内测；
-- 需要邀请码准入；
-- 内测费用边界以 Skillver 主站 `/beta` 与 `/faq` 为准；
+- 已全面开放注册，可直接官网自助注册；
+- 邀请码仅用于赛事参与，不是注册门槛；
+- 费用边界以 Skillver 主站当前说明与 `/faq` 为准；
 - 导师赋能待开通；
 - 产品使用入口为 `www.skillver.cn` 与 `www.skillver.ai`；
 - tcodeai.com 是品牌、研究和 GEO 内容站。
@@ -81,7 +81,7 @@ curl -fsSL https://www.tcodeai.com/robots.txt
 `llms.txt` 必须包含：
 
 1. Skillver 的准确定位；
-2. 封闭内测、邀请码准入；
+2. 全面开放注册；邀请码仅用于赛事参与；
 3. 产品双域与内容站角色；
 4. 已上线能力与导师待开通；
 5. 关键研究、FAQ、产品说明和五篇内容 URL；
@@ -162,7 +162,7 @@ curl -fsSL https://www.tcodeai.com/robots.txt
 
 1. 正例：五篇文章均出现在 sitemap 和 llms.txt；
 2. 边界：尾斜杠 canonical 唯一、无重复 URL；
-3. 反例：构建产物不得命中开放注册、永久免费、导师已开放、保证 offer；
+3. 反例：构建产物不得命中邀请码准入、永久免费、导师已开放、保证 offer；
 4. JSON-LD 可 `JSON.parse`，Article 的 `headline`、`datePublished`、`mainEntityOfPage` 完整；
 5. 所有产品 CTA 指向 skillver 双域；
 6. sitemap、robots、首页、五篇文章连续请求返回 200。

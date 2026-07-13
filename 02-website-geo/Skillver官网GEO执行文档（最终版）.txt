@@ -15,7 +15,7 @@
 | **文案 SSOT 已写好、URL 未建站** | About / FAQ(8题) / Beta → 仅在首页页脚**弹窗**（`landingAbout.ts` · `faqContent.ts`） |
 | **首页 GEO 正文** | `landingGeo.ts` 完整，但 `page.tsx` 刻意不挂载（登录页 CSR） |
 | **geo-website 规划的 9 页 IA** | `/product` `/protocol` `/research` `/solutions` `/case-studies` `/docs` `/faq` `/company` → **均未建站** |
-| **产品阶段** | ICP 封闭内测 · 邀请码准入 · 内测零收费（`BETA_HIDE_PAYMENT` / `BETA_HIDE_BIDS`） |
+| **产品阶段** | ICP 封闭内测 · 赛事邀请码 · 内测零收费（`BETA_HIDE_PAYMENT` / `BETA_HIDE_BIDS`） |
 | **最新发版** | `v1.0.0-beta.1` · 2026-07-01（`CHANGELOG_V1.0.md`） |
 
 **核心洞察**：Skillver 的 GEO 瓶颈不是「缺观点」，而是**缺 URL**。AI 爬虫索引的是 HTML，不是 Dialog 弹窗。第一优先级：把已有 SSOT 搬到独立 SSR 页面。
@@ -64,7 +64,7 @@
 | 长度 | 正文 | 来源 |
 |---|---|---|
 | **20 字** | Skillver：中国优秀人才的 AI 求职助手
-| **100 字** | Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手，专为冲刺头部企业的优秀人才打造。Tcode 七维战力评估 + 15+ AI Agent 协同，覆盖选岗、彩排、投递、导师全链路。内测期邀请码准入、全功能免费。 
+| **100 字** | Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手，专为冲刺头部企业的优秀人才打造。Tcode 七维战力评估 + 15+ AI Agent 协同，覆盖选岗、彩排、投递、导师全链路。内测期赛事邀请码、全功能免费。 
 | **300 字** | 见 §3 页面 9 `/company` 完整公司介绍 | 下文 |
 | **1000 字** | **【待补充】** 品牌故事长文 | — |
 
@@ -112,7 +112,7 @@ Knowledge & Ability Engine——Skillver 的能力评测引擎，采用 7 维度
 | Agent 数 | 1 元智能体 + 15+ 专责智能体编排」
 | 数据存储 | 中国大陆服务器 | 
 | 运营联系 | 邮件 `janet.chen@tcodeai.com`  | 
-| 内测政策 | 邀请码准入 · 全功能免费 | 
+| 内测政策 | 赛事邀请码 · 全功能免费 | 
 
 ### 2.5 合规信息（对外 FAQ / Company 页用）
 
@@ -650,7 +650,7 @@ KAE（Knowledge & Ability Engine）技能体系 · 7 维度 AI 评测框架（�
 **合规** ✅  
 - ICP：沪ICP备2026018662号-2（可查 beian.miit.gov.cn）  
 - PIPL：面试数据 30 天授权 · 可随时申请删除  
-- 内测：邀请码准入 · 全功能免费  
+- 内测：赛事邀请码 · 全功能免费  
 
 **联系方式** ✅  
 

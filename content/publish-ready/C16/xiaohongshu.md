@@ -2,20 +2,20 @@
 contentId: GEO-202607-C16-XHS
 cellId: C16
 channel: xiaohongshu
-title: Skillver 内测真免费吗？5 张卡片看懂
+title: Skillver 还要邀请码吗？5 张卡片看懂
 status: approved
 sourceMaster: content/C16-内测真实性.md
 scheduledAt: 2026-07-13
 ---
 
-# Skillver 内测真免费吗？5 张卡片看懂
+# Skillver 还要邀请码吗？5 张卡片看懂
 
 **封面**  
-Skillver 内测真免费吗？
+Skillver 还要邀请码吗？
 
 **卡 1｜结论**  
-当前是 ICP 封闭内测  
-邀请码准入｜内测期零收费
+已全面开放注册  
+开放注册｜赛事邀请码
 
 **卡 2｜能体验什么**  
 选岗匹配 → AI 面试  
@@ -33,8 +33,8 @@ Skillver 内测真免费吗？
 不承诺拿到 offer
 
 **卡 5｜提醒**  
-“内测期零收费”  
+费用以官网说明为准  
 不等于“永久免费”
 
 **配文**  
-想体验前，先确认自己是否接受邀请码准入和内测迭代状态。所有功能与资格以实际内测开放情况为准。
+想体验可直接官网注册；只有参赛才需要赛事邀请码。功能与资格以官网当前说明为准。
