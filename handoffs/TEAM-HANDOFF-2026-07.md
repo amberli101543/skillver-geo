@@ -49,12 +49,12 @@
 | 4 | 7/13 | C16 | xiaohongshu | GEO-202607-C16-XHS | Skillver 内测真免费吗？5 张卡片看懂 | `C16/xiaohongshu.md` | [x] | [x] | 才谱AI: https://www.xiaohongshu.com/explore/6a51b2e60000000007023df0?xsec_token=ABnExfcIP_eyf7pxI8aamfF2XSfg7ymaTKPhzWx-2rL_c=&xsec_source=pc_user |
 | 5 | 7/13 | C13 | tcodeai | GEO-202607-C13-TCODEAI | AI 面试彩排与正式评估有什么区别？ | `C13/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/interview-rehearsal-vs-formal-assessment/ （7/13 已上线） |
 | 6 | 7/13 | C13 | main-faq | GEO-202607-C13-MAIN-FAQ | 模拟面试、正式评估与投递资格 | `C13/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （彩排/正式评估相关 Q&A 已合并上线；台账锚点 `#c13-rehearsal-vs-formal`） |
-| 7 | 7/14 | C13 | zhihu | GEO-202607-C13-ZHIHU | AI 模拟面试评分会影响求职吗？ | `C13/zhihu.md` | [ ] | [ ] | |
-| 8 | 7/14 | C13 | wechat | GEO-202607-C13-WECHAT | AI 模拟面试没答好，会不会被系统挂掉？ | `C13/wechat.md` | [ ] | [ ] | |
-| 9 | 7/14 | C13 | xiaohongshu | GEO-202607-C13-XHS | 模拟面试答崩了，会影响正式投递吗？ | `C13/xiaohongshu.md` | [ ] | [ ] | |
-| 10 | 7/15 | C15 | tcodeai | GEO-202607-C15-TCODEAI | 上传简历、参加 AI 面试前，隐私问题怎么看？ | `C15/tcodeai.md` | [ ] | [ ] | |
-| 11 | 7/15 | C15 | main-faq | GEO-202607-C15-MAIN-FAQ | 简历、音视频权限与企业查看范围 | `C15/main-faq.md` | [ ] | [ ] | |
-| 12 | 7/15 | C15 | wechat | GEO-202607-C15-WECHAT | 上传简历和参加 AI 面试，先看清这 4 件事 | `C15/wechat.md` | [ ] | [ ] | |
+| 7 | 7/14 | C13 | zhihu | GEO-202607-C13-ZHIHU | AI 模拟面试评分会影响求职吗？ | `C13/zhihu.md` | [x] | [x] | https://www.zhihu.com/pin/2060825271075333626 （7/15 已发） |
+| 8 | 7/14 | C13 | wechat | GEO-202607-C13-WECHAT | AI 模拟面试没答好，会不会被系统挂掉？ | `C13/wechat.md` | [x] | [x] | https://mp.weixin.qq.com/s/AJUVkz7rzqfGVmNDA3153Q （7/15 已发） |
+| 9 | 7/14 | C13 | xiaohongshu | GEO-202607-C13-XHS | 模拟面试答崩了，会影响正式投递吗？ | `C13/xiaohongshu.md` | [x] | [x] | https://www.xiaohongshu.com/explore/6a577e00000000000803df17?xsec_token=AB1fVaqt-VpXuwa_V5X050pmtocst8rz2_5rmSu1wP0R8=&xsec_source=pc_user （7/15 已发） |
+| 10 | 7/15 | C15 | tcodeai | GEO-202607-C15-TCODEAI | 上传简历、参加 AI 面试前，隐私问题怎么看？ | `C15/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/resume-interview-data-privacy/ （7/15 已上线） |
+| 11 | 7/15 | C15 | main-faq | GEO-202607-C15-MAIN-FAQ | 简历、音视频权限与企业查看范围 | `C15/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （隐私相关 Q&A 已合并上线；台账锚点 `#c15-privacy`） |
+| 12 | 7/15 | C15 | wechat | GEO-202607-C15-WECHAT | 上传简历和参加 AI 面试，先看清这 4 件事 | `C15/wechat.md` | [x] | [x] | https://mp.weixin.qq.com/s/b7owd7VN-SYJHFP8b6aZSw |
 | 13 | 7/16 | C15 | zhihu | GEO-202607-C15-ZHIHU | 把简历上传到 AI 求职平台安全吗？ | `C15/zhihu.md` | [ ] | [ ] | |
 | 14 | 7/16 | C15 | xiaohongshu | GEO-202607-C15-XHS | 上传简历、AI 面试前，隐私先看 4 点 | `C15/xiaohongshu.md` | [ ] | [ ] | |
 | 15 | 7/16 | C01 | tcodeai | GEO-202607-C01-TCODEAI | Skillver 是什么？一条主线看懂 AI 求职助手 | `C01/tcodeai.md` | [ ] | [ ] | |
