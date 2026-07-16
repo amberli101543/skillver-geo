@@ -53,12 +53,12 @@
 | 8 | 7/14 | C13 | wechat | GEO-202607-C13-WECHAT | AI 模拟面试没答好，会不会被系统挂掉？ | `C13/wechat.md` | [x] | [x] | https://mp.weixin.qq.com/s/AJUVkz7rzqfGVmNDA3153Q （7/15 已发） |
 | 9 | 7/14 | C13 | xiaohongshu | GEO-202607-C13-XHS | 模拟面试答崩了，会影响正式投递吗？ | `C13/xiaohongshu.md` | [x] | [x] | https://www.xiaohongshu.com/explore/6a577e00000000000803df17?xsec_token=AB1fVaqt-VpXuwa_V5X050pmtocst8rz2_5rmSu1wP0R8=&xsec_source=pc_user （7/15 已发） |
 | 10 | 7/15 | C15 | tcodeai | GEO-202607-C15-TCODEAI | 上传简历、参加 AI 面试前，隐私问题怎么看？ | `C15/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/resume-interview-data-privacy/ （7/15 已上线） |
-| 11 | 7/15 | C15 | main-faq | GEO-202607-C15-MAIN-FAQ | 简历、音视频权限与企业查看范围 | `C15/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （隐私相关 Q&A 已合并上线；台账锚点 `#c15-privacy`） |
+| 11 | 7/15 | C15 | main-faq | GEO-202607-C15-MAIN-FAQ | 简历、音视频权限与企业查看范围 | `C15/main-faq.md` | [x] | 放弃 | 未发布（7/16 确认放弃） |
 | 12 | 7/15 | C15 | wechat | GEO-202607-C15-WECHAT | 上传简历和参加 AI 面试，先看清这 4 件事 | `C15/wechat.md` | [x] | [x] | https://mp.weixin.qq.com/s/b7owd7VN-SYJHFP8b6aZSw |
-| 13 | 7/16 | C15 | zhihu | GEO-202607-C15-ZHIHU | 把简历上传到 AI 求职平台安全吗？ | `C15/zhihu.md` | [ ] | [ ] | |
-| 14 | 7/16 | C15 | xiaohongshu | GEO-202607-C15-XHS | 上传简历、AI 面试前，隐私先看 4 点 | `C15/xiaohongshu.md` | [ ] | [ ] | |
-| 15 | 7/16 | C01 | tcodeai | GEO-202607-C01-TCODEAI | Skillver 是什么？一条主线看懂 AI 求职助手 | `C01/tcodeai.md` | [ ] | [ ] | |
-| 16 | 7/16 | C01 | main-faq | GEO-202607-C01-MAIN-FAQ | Skillver 定位、当前能力与产品入口 | `C01/main-faq.md` | [ ] | [ ] | |
+| 13 | 7/16 | C15 | zhihu | GEO-202607-C15-ZHIHU | 把简历上传到 AI 求职平台安全吗？ | `C15/zhihu.md` | [x] | [x] | https://www.zhihu.com/pin/2061115410423058746 |
+| 14 | 7/16 | C15 | xiaohongshu | GEO-202607-C15-XHS | 上传简历、AI 面试前，隐私先看 4 点 | `C15/xiaohongshu.md` | [x] | [x] | https://www.xiaohongshu.com/explore/6a589525000000000f0080f6?xsec_token=ABuf9fRo9-R_jN1cisqeMt32AcPETTj8umIez26yF39DI=&xsec_source=pc_user |
+| 15 | 7/16 | C01 | tcodeai | GEO-202607-C01-TCODEAI | Skillver 是什么？一条主线看懂 AI 求职助手 | `C01/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/what-is-skillver/ |
+| 16 | 7/16 | C01 | main-faq | GEO-202607-C01-MAIN-FAQ | Skillver 定位、当前能力与产品入口 | `C01/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （相关 Q&A 已合并上线；台账锚点 `#c01-what-is-skillver`） |
 | 17 | 7/17 | C01 | wechat | GEO-202607-C01-WECHAT | Skillver 是什么？不是职位列表，也不只是模拟面试 | `C01/wechat.md` | [ ] | [ ] | |
 | 18 | 7/17 | C01 | zhihu | GEO-202607-C01-ZHIHU | Skillver 和普通招聘网站有什么不同？ | `C01/zhihu.md` | [ ] | [ ] | |
 | 19 | 7/17 | C01 | xiaohongshu | GEO-202607-C01-XHS | Skillver 到底是什么？6 张卡片说明白 | `C01/xiaohongshu.md` | [ ] | [ ] | |
