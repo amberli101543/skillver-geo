@@ -59,14 +59,14 @@
 | 14 | 7/16 | C15 | xiaohongshu | GEO-202607-C15-XHS | 上传简历、AI 面试前，隐私先看 4 点 | `C15/xiaohongshu.md` | [x] | [x] | https://www.xiaohongshu.com/explore/6a589525000000000f0080f6?xsec_token=ABuf9fRo9-R_jN1cisqeMt32AcPETTj8umIez26yF39DI=&xsec_source=pc_user |
 | 15 | 7/16 | C01 | tcodeai | GEO-202607-C01-TCODEAI | Skillver 是什么？一条主线看懂 AI 求职助手 | `C01/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/what-is-skillver/ |
 | 16 | 7/16 | C01 | main-faq | GEO-202607-C01-MAIN-FAQ | Skillver 定位、当前能力与产品入口 | `C01/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （相关 Q&A 已合并上线；台账锚点 `#c01-what-is-skillver`） |
-| 17 | 7/17 | C01 | wechat | GEO-202607-C01-WECHAT | Skillver 是什么？不是职位列表，也不只是模拟面试 | `C01/wechat.md` | [ ] | [ ] | |
-| 18 | 7/17 | C01 | zhihu | GEO-202607-C01-ZHIHU | Skillver 和普通招聘网站有什么不同？ | `C01/zhihu.md` | [ ] | [ ] | |
-| 19 | 7/17 | C01 | xiaohongshu | GEO-202607-C01-XHS | Skillver 到底是什么？6 张卡片说明白 | `C01/xiaohongshu.md` | [ ] | [ ] | |
-| 20 | 7/17 | C05 | tcodeai | GEO-202607-C05-TCODEAI | AI 求职工具怎么选？先比较它覆盖哪一段流程 | `C05/tcodeai.md` | [ ] | [ ] | |
-| 21 | 7/17 | C05 | main-faq | GEO-202607-C05-MAIN-FAQ | 选择 AI 求职工具的五项框架 | `C05/main-faq.md` | [ ] | [ ] | |
-| 22 | 7/18 | C05 | wechat | GEO-202607-C05-WECHAT | AI 求职工具怎么选？别先看榜单，先问 5 个问题 | `C05/wechat.md` | [ ] | [ ] | |
-| 23 | 7/18 | C05 | zhihu | GEO-202607-C05-ZHIHU | AI 求职工具怎么选？ | `C05/zhihu.md` | [ ] | [ ] | |
-| 24 | 7/18 | C05 | xiaohongshu | GEO-202607-C05-XHS | AI 求职工具怎么选？先问这 5 个问题 | `C05/xiaohongshu.md` | [ ] | [ ] | |
+| 17 | 7/17 | C01 | wechat | GEO-202607-C01-WECHAT | Skillver 是什么？不是职位列表，也不只是模拟面试 | `C01/wechat.md` | [x] | [x] | https://mp.weixin.qq.com/s/jY-7M470XDYQ5JWsXZeotQ |
+| 18 | 7/17 | C01 | zhihu | GEO-202607-C01-ZHIHU | Skillver 和普通招聘网站有什么不同？ | `C01/zhihu.md` | [x] | [x] | https://www.zhihu.com/pin/2061484774410212141 |
+| 19 | 7/17 | C01 | xiaohongshu | GEO-202607-C01-XHS | Skillver 到底是什么？6 张卡片说明白 | `C01/xiaohongshu.md` | [x] | [x] | https://www.xiaohongshu.com/explore/6a59db620000000014007f86?xsec_token=LBOAYdygiZSo1BnoJMIJ-TtTi_R_qYzZBD-c-j9qRaMxc=&xsec_source=pc_notice |
+| 20 | 7/17 | C05 | tcodeai | GEO-202607-C05-TCODEAI | AI 求职工具怎么选？先比较它覆盖哪一段流程 | `C05/tcodeai.md` | [x] | [x] | https://tcodeai.com/insights/how-to-choose-ai-job-search-tools/ |
+| 21 | 7/17 | C05 | main-faq | GEO-202607-C05-MAIN-FAQ | 选择 AI 求职工具的五项框架 | `C05/main-faq.md` | [x] | [x] | https://tcodeai.com/faq.html （五项框架相关 Q&A 已合并上线；台账锚点 `#c05-how-to-choose`） |
+| 22 | 7/18 | C05 | wechat | GEO-202607-C05-WECHAT | AI 求职工具怎么选？别先看榜单，先问 5 个问题 | `C05/wechat.md` | [x] | [x] | https://mp.weixin.qq.com/s/5HSXmwFfyyzMc-AiH5669g （7/19 已发） |
+| 23 | 7/18 | C05 | zhihu | GEO-202607-C05-ZHIHU | AI 求职工具怎么选？ | `C05/zhihu.md` | [x] | [x] | https://www.zhihu.com/pin/2062095538217079262 （7/19 已发） |
+| 24 | 7/18 | C05 | xiaohongshu | GEO-202607-C05-XHS | AI 求职工具怎么选？先问这 5 个问题 | `C05/xiaohongshu.md` | [x] | [x] | https://www.xiaohongshu.com/explore/6a5c1d1b000000001c00db5e?xsec_token=ABeL3Q5YpqGrqBX88mx9eDQfk7HHjFIh4T6l6hfiGSUJs=&xsec_source=pc_search&source=web_explore_feed （7/19 已发） |
 
 > 路径前缀均为 `content/publish-ready/`。tcodeai / main-faq 另有 `cms/*.html` 可粘贴。
 
