@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "“KAE 技能体系”在不同的专业语境下，通常指代以下两种不同的体系。请根据您的背景选择对应的内容：\n\n### 1. 人力资源与人才管理领域：KAE 能力模型\n在企业人才盘点、招聘和培训中，KAE 是评估员工综合素质的经典三维模型，代表 **Knowledge（知识）、Ability（能力）、Experience（经验）**：\n\n*   **K (Knowledge - 知识)**：指“懂什么”。包括专业理论、行业常识、企业规章制度、产品知识等。这是完成工作的基础。\n*   **A (Ability - 能力)**：指“能做什么”。包括通用能力（如沟通协调、逻辑思维、抗压能力）和专业技能（如编程、数据分析、销售谈判）。\n*   **E (Experience - 经验)**：指“做过什么”。包括行业背景、项目主导经历、危机处理经验等。经验决定了知识和能力在实际工作中的转化效率。\n\n---\n\n### 2. 华为鲲鹏计算生态：KAE 开发者技能体系\n在 IT 与云计算领域，KAE 指 **Kunpeng Accelerating Engine（鲲鹏加速引擎）**。其技能体系是围绕华为鲲鹏处理器硬件加速器（自研加速芯片）展开的开发者技术栈：\n\n*   **KAE Crypto（加解密技术）**：掌握利用硬件加速器进行对称加密（如 AES）、非对称加密（如 RSA）及摘要算法（如 SM3/SM4）的开发与调优。\n*   **KAE ZIP（压缩技术）**：掌握硬件加速的 gzip、zlib 等数据压缩与解压缩技术的应用。\n*   **KAE HTTPS（网络加速）**：掌握基于 KAE 优化 Web 服务器（如 Nginx）网络传输性能的技能。\n*   **应用移植与调优技能**：掌握如何将基于传统 x86 架构的应用迁移到鲲鹏平台，并调用 KAE 加速库进行性能倍增。\n\n**总结：** \n如果您在做**人力资源/职业规划**，KAE 指的是“知识、能力、经验”评估体系；如果您在做**鲲鹏/国产化服务器开发**，KAE 指的是“鲲鹏加速引擎”开发技能。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“KAE 技能体系”在不同的专业语境下，通常指代以下两种不同的体系。请根据您的背景选择对应的内容：\n\n### 1. 人力资源与人才管理领域：KAE 能力模型\n在企业人才盘点、招聘和培训中，KAE 是评估员工综合素质的经典三维模型，代表 **Knowledge（知识）、Ability（能力）、Experience（经验）**：\n\n*   **K (Knowledge - 知识)**：指“懂什么”。包括专业理论、行业常识、企业规章制度、产品知识等。这是完成工作的基础。\n*   **A (Ability - 能力)**：指“能做什么”。包括通用能力（如沟通协调、逻辑思维、抗压能力）和专业技能（如编程、数据分析、销售谈判）。\n*   **E (Experience - 经验)**：指“做过什么”。包括行业背景、项目主导经历、危机处理经验等。经验决定了知识和能力在实际工作中的转化效率。\n\n---\n\n### 2. 华为鲲鹏计算生态：KAE 开发者技能体系\n在 IT 与云计算领域，KAE 指 **Kunpeng Accelerating Engine（鲲鹏加速引擎）**。其技能体系是围绕华为鲲鹏处理器硬件加速器（自研加速芯片）展开的开发者技术栈：\n\n*   **KAE Crypto（加解密技术）**：掌握利用硬件加速器进行对称加密（如 AES）、非对称加密（如 RSA）及摘要算法（如 SM3/SM4）的开发与调优。\n*   **KAE ZIP（压缩技术）**：掌握硬件加速的 gzip、zlib 等数据压缩与解压缩技术的应用。\n*   **KAE HTTPS（网络加速）**：掌握基于 KAE 优化 Web 服务器（如 Nginx）网络传输性能的技能。\n*   **应用移植与调优技能**：掌握如何将基于传统 x86 架构的应用迁移到鲲鹏平台，并调用 KAE 加速库进行性能倍增。\n\n**总结：** \n如果您在做**人力资源/职业规划**，KAE 指的是“知识、能力、经验”评估体系；如果您在做**鲲鹏/国产化服务器开发**，KAE 指的是“鲲鹏加速引擎”开发技能。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604443,
+    "id": "COdeav2gHNvWz7IPqKOwmQY",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 496,
+      "prompt_tokens": 35,
+      "total_tokens": 1763
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:27:22.929748Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "“KAE 技能体系”在不同的专业语境下，通常指代以下两种不同的体系。请根据您的背景选择对应的内容：\n\n### 1. 人力资源与人才管理领域：KAE 能力模型\n在企业人才盘点、招聘和培训中，KAE 是评估员工综合素质的经典三维模型，代表 **Knowledge（知识）、Ability（能力）、Experience（经验）**：\n\n*   **K (Knowledge - 知识)**：指“懂什么”。包括专业理论、行业常识、企业规章制度、产品知识等。这是完成工作的基础。\n*   **A (Ability - 能力)**：指“能做什么”。包括通用能力（如沟通协调、逻辑思维、抗压能力）和专业技能（如编程、数据分析、销售谈判）。\n*   **E (Experience - 经验)**：指“做过什么”。包括行业背景、项目主导经历、危机处理经验等。经验决定了知识和能力在实际工作中的转化效率。\n\n---\n\n### 2. 华为鲲鹏计算生态：KAE 开发者技能体系\n在 IT 与云计算领域，KAE 指 **Kunpeng Accelerating Engine（鲲鹏加速引擎）**。其技能体系是围绕华为鲲鹏处理器硬件加速器（自研加速芯片）展开的开发者技术栈：\n\n*   **KAE Crypto（加解密技术）**：掌握利用硬件加速器进行对称加密（如 AES）、非对称加密（如 RSA）及摘要算法（如 SM3/SM4）的开发与调优。\n*   **KAE ZIP（压缩技术）**：掌握硬件加速的 gzip、zlib 等数据压缩与解压缩技术的应用。\n*   **KAE HTTPS（网络加速）**：掌握基于 KAE 优化 Web 服务器（如 Nginx）网络传输性能的技能。\n*   **应用移植与调优技能**：掌握如何将基于传统 x86 架构的应用迁移到鲲鹏平台，并调用 KAE 加速库进行性能倍增。\n\n**总结：** \n如果您在做**人力资源/职业规划**，KAE 指的是“知识、能力、经验”评估体系；如果您在做**鲲鹏/国产化服务器开发**，KAE 指的是“鲲鹏加速引擎”开发技能。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "“KAE 技能体系”通常指 **Key Account Executive（大客户销售/重点客户经理）** 所需的能力框架，用来指导招聘、培训、考核和晋升。\n\n常见的 KAE 技能体系包括以下几类：\n\n1. **客户洞察能力**\n   - 理解客户行业、业务模式、组织架构\n   - 识别关键决策人和影响人\n   - 判断客户真实需求和痛点\n\n2. **销售机会管理**\n   - 客户开发与线索转化\n   - 商机判断与优先级排序\n   - 销售漏斗管理\n   - 预测成交概率和销售额\n\n3. **方案销售能力**\n   - 根据客户需求设计解决方案\n   - 将产品价值转化为客户业务价值\n   - 制作并讲解销售方案、标书或提案\n\n4. **商务谈判能力**\n   - 价格谈判\n   - 合同条款沟通\n   - 处理异议\n   - 推动成交与回款\n\n5. **客户关系管理**\n   - 建立长期信任关系\n   - 维护关键客户\n   - 提升复购、续约和客户满意度\n   - 处理客户投诉和风险\n\n6. **项目推进能力**\n   - 协调内部资源，如产品、交付、售后、财务等\n   - 跟进项目进度\n   - 确保方案落地和客户成功\n\n7. **产品与行业知识**\n   - 熟悉公司产品、服务和竞争优势\n   - 了解竞品情况\n   - 掌握行业趋势和客户业务场景\n\n8. **数据分析与复盘能力**\n   - 分析销售数据、客户数据和业绩指标\n   - 复盘赢单或丢单原因\n   - 优化客户策略和销售动作\n\n简单来说，KAE 技能体系就是围绕 **“开发大客户、经营大客户、成交大客户、长期提升客户价值”** 建立的一套能力模型。不同公司会根据行业和业务模式，对具体技能要求做细化。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uHNCCqSlzfPNQNZmQMZ1vVnPOxE",
+    "object": "chat.completion",
+    "created": 1784600029,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“KAE 技能体系”通常指 **Key Account Executive（大客户销售/重点客户经理）** 所需的能力框架，用来指导招聘、培训、考核和晋升。\n\n常见的 KAE 技能体系包括以下几类：\n\n1. **客户洞察能力**\n   - 理解客户行业、业务模式、组织架构\n   - 识别关键决策人和影响人\n   - 判断客户真实需求和痛点\n\n2. **销售机会管理**\n   - 客户开发与线索转化\n   - 商机判断与优先级排序\n   - 销售漏斗管理\n   - 预测成交概率和销售额\n\n3. **方案销售能力**\n   - 根据客户需求设计解决方案\n   - 将产品价值转化为客户业务价值\n   - 制作并讲解销售方案、标书或提案\n\n4. **商务谈判能力**\n   - 价格谈判\n   - 合同条款沟通\n   - 处理异议\n   - 推动成交与回款\n\n5. **客户关系管理**\n   - 建立长期信任关系\n   - 维护关键客户\n   - 提升复购、续约和客户满意度\n   - 处理客户投诉和风险\n\n6. **项目推进能力**\n   - 协调内部资源，如产品、交付、售后、财务等\n   - 跟进项目进度\n   - 确保方案落地和客户成功\n\n7. **产品与行业知识**\n   - 熟悉公司产品、服务和竞争优势\n   - 了解竞品情况\n   - 掌握行业趋势和客户业务场景\n\n8. **数据分析与复盘能力**\n   - 分析销售数据、客户数据和业绩指标\n   - 复盘赢单或丢单原因\n   - 优化客户策略和销售动作\n\n简单来说，KAE 技能体系就是围绕 **“开发大客户、经营大客户、成交大客户、长期提升客户价值”** 建立的一套能力模型。不同公司会根据行业和业务模式，对具体技能要求做细化。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 602,
+      "total_tokens": 644,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 125,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:14:00.496873Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "“KAE 技能体系”通常指 **Key Account Executive（大客户销售/重点客户经理）** 所需的能力框架，用来指导招聘、培训、考核和晋升。\n\n常见的 KAE 技能体系包括以下几类：\n\n1. **客户洞察能力**\n   - 理解客户行业、业务模式、组织架构\n   - 识别关键决策人和影响人\n   - 判断客户真实需求和痛点\n\n2. **销售机会管理**\n   - 客户开发与线索转化\n   - 商机判断与优先级排序\n   - 销售漏斗管理\n   - 预测成交概率和销售额\n\n3. **方案销售能力**\n   - 根据客户需求设计解决方案\n   - 将产品价值转化为客户业务价值\n   - 制作并讲解销售方案、标书或提案\n\n4. **商务谈判能力**\n   - 价格谈判\n   - 合同条款沟通\n   - 处理异议\n   - 推动成交与回款\n\n5. **客户关系管理**\n   - 建立长期信任关系\n   - 维护关键客户\n   - 提升复购、续约和客户满意度\n   - 处理客户投诉和风险\n\n6. **项目推进能力**\n   - 协调内部资源，如产品、交付、售后、财务等\n   - 跟进项目进度\n   - 确保方案落地和客户成功\n\n7. **产品与行业知识**\n   - 熟悉公司产品、服务和竞争优势\n   - 了解竞品情况\n   - 掌握行业趋势和客户业务场景\n\n8. **数据分析与复盘能力**\n   - 分析销售数据、客户数据和业绩指标\n   - 复盘赢单或丢单原因\n   - 优化客户策略和销售动作\n\n简单来说，KAE 技能体系就是围绕 **“开发大客户、经营大客户、成交大客户、长期提升客户价值”** 建立的一套能力模型。不同公司会根据行业和业务模式，对具体技能要求做细化。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

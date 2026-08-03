@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试时，以下工具和学习资源可以帮助你系统提升：\n\n**1. 基础知识复习：**\n- **书籍**：《深度学习》（花书）、《统计学习方法》（李航）、《机器学习》（周志华）\n- **视频课程**：吴恩达《机器学习》（Coursera）、李飞飞《CS231n》、李沐《动手学深度学习》\n\n**2. 编程与算法练习：**\n- **LeetCode**：刷算法题（重点是数组、树、图、动态规划）\n- **Kaggle**：做项目实战，熟悉数据处理、模型训练流程\n- **Hugging Face**：练习Transformer、BERT等模型使用\n\n**3. 数学与统计：**\n- **3Blue1Brown**：可视化理解线性代数、微积分、概率\n- **Khan Academy**：巩固基础数学\n\n**4. 模拟面试与经验：**\n- **Pramp / Interviewing.io**：AI方向的Mock Interview\n- **Levels.fyi / 牛客网**：查看面试题面经\n- **GitHub**：搜索`AI interview prep`、`ML-interview`等仓库\n\n**5. 论文阅读辅助：**\n- **Papers With Code**：了解最新论文和实现\n- **Arxiv Sanity**：筛选热门论文\n\n建议先掌握基础（ML常用算法、反向传播、优化器），再针对岗位方向（CV/NLP/推荐系统等）做专项准备。",
+  "sources": [],
+  "raw": {
+    "id": "67cbf26e-6ef6-4aa6-9cab-7808bbade70e",
+    "object": "chat.completion",
+    "created": 1784600440,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "准备 AI 岗位面试时，以下工具和学习资源可以帮助你系统提升：\n\n**1. 基础知识复习：**\n- **书籍**：《深度学习》（花书）、《统计学习方法》（李航）、《机器学习》（周志华）\n- **视频课程**：吴恩达《机器学习》（Coursera）、李飞飞《CS231n》、李沐《动手学深度学习》\n\n**2. 编程与算法练习：**\n- **LeetCode**：刷算法题（重点是数组、树、图、动态规划）\n- **Kaggle**：做项目实战，熟悉数据处理、模型训练流程\n- **Hugging Face**：练习Transformer、BERT等模型使用\n\n**3. 数学与统计：**\n- **3Blue1Brown**：可视化理解线性代数、微积分、概率\n- **Khan Academy**：巩固基础数学\n\n**4. 模拟面试与经验：**\n- **Pramp / Interviewing.io**：AI方向的Mock Interview\n- **Levels.fyi / 牛客网**：查看面试题面经\n- **GitHub**：搜索`AI interview prep`、`ML-interview`等仓库\n\n**5. 论文阅读辅助：**\n- **Papers With Code**：了解最新论文和实现\n- **Arxiv Sanity**：筛选热门论文\n\n建议先掌握基础（ML常用算法、反向传播、优化器），再针对岗位方向（CV/NLP/推荐系统等）做专项准备。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 312,
+      "total_tokens": 350,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:20:43.738630Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试时，以下工具和学习资源可以帮助你系统提升：\n\n**1. 基础知识复习：**\n- **书籍**：《深度学习》（花书）、《统计学习方法》（李航）、《机器学习》（周志华）\n- **视频课程**：吴恩达《机器学习》（Coursera）、李飞飞《CS231n》、李沐《动手学深度学习》\n\n**2. 编程与算法练习：**\n- **LeetCode**：刷算法题（重点是数组、树、图、动态规划）\n- **Kaggle**：做项目实战，熟悉数据处理、模型训练流程\n- **Hugging Face**：练习Transformer、BERT等模型使用\n\n**3. 数学与统计：**\n- **3Blue1Brown**：可视化理解线性代数、微积分、概率\n- **Khan Academy**：巩固基础数学\n\n**4. 模拟面试与经验：**\n- **Pramp / Interviewing.io**：AI方向的Mock Interview\n- **Levels.fyi / 牛客网**：查看面试题面经\n- **GitHub**：搜索`AI interview prep`、`ML-interview`等仓库\n\n**5. 论文阅读辅助：**\n- **Papers With Code**：了解最新论文和实现\n- **Arxiv Sanity**：筛选热门论文\n\n建议先掌握基础（ML常用算法、反向传播、优化器），再针对岗位方向（CV/NLP/推荐系统等）做专项准备。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

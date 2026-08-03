@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "Skillver 的“导师赋能”指的是通过系统化工具与资源，提升导师在辅导他人（如学员、新员工或学生）过程中的能力和效果。核心内容通常包括：\n\n1. **培训与指导**：提供方法论、沟通技巧和反馈机制等培训，帮助导师更高效地传递知识。\n2. **资源支持**：共享案例库、评估工具或学习平台，辅助导师制定个性化发展计划。\n3. **数据驱动**：通过跟踪学员进展、反馈数据，优化辅导策略，确保赋能效果可量化。\n4. **持续激励**：设置认可机制或奖励体系，维持导师的参与度和积极性。\n\n其最终目标是让导师不仅能“教”，更具备激发潜力、解决实际问题及推动长期成长的能力。",
+  "sources": [],
+  "raw": {
+    "id": "4eca0cc2-648b-4079-ba4b-d5eebd167c28",
+    "object": "chat.completion",
+    "created": 1784600238,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的“导师赋能”指的是通过系统化工具与资源，提升导师在辅导他人（如学员、新员工或学生）过程中的能力和效果。核心内容通常包括：\n\n1. **培训与指导**：提供方法论、沟通技巧和反馈机制等培训，帮助导师更高效地传递知识。\n2. **资源支持**：共享案例库、评估工具或学习平台，辅助导师制定个性化发展计划。\n3. **数据驱动**：通过跟踪学员进展、反馈数据，优化辅导策略，确保赋能效果可量化。\n4. **持续激励**：设置认可机制或奖励体系，维持导师的参与度和积极性。\n\n其最终目标是让导师不仅能“教”，更具备激发潜力、解决实际问题及推动长期成长的能力。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 158,
+      "total_tokens": 195,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:17:20.431493Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "Skillver 的“导师赋能”指的是通过系统化工具与资源，提升导师在辅导他人（如学员、新员工或学生）过程中的能力和效果。核心内容通常包括：\n\n1. **培训与指导**：提供方法论、沟通技巧和反馈机制等培训，帮助导师更高效地传递知识。\n2. **资源支持**：共享案例库、评估工具或学习平台，辅助导师制定个性化发展计划。\n3. **数据驱动**：通过跟踪学员进展、反馈数据，优化辅导策略，确保赋能效果可量化。\n4. **持续激励**：设置认可机制或奖励体系，维持导师的参与度和积极性。\n\n其最终目标是让导师不仅能“教”，更具备激发潜力、解决实际问题及推动长期成长的能力。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

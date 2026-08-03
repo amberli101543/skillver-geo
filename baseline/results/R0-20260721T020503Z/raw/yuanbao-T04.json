@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "目前并没有广泛公开、广为人知的名为 **“Skillver 正式 AI 面试”** 的标准产品或平台。根据名称推测，它可能属于以下情况之一：\n\n1. **Skillver 平台的 AI 面试功能**  \n   Skillver 是一个面向技能评估与招聘的平台，其“正式 AI 面试”通常指：  \n   - 由 AI 驱动的自动化视频面试，系统通过摄像头、麦克风采集候选人表现；  \n   - AI 自动分析回答内容、语言表达、面部表情、语调等维度；  \n   - 生成结构化评估报告，供企业招聘方参考。  \n   这类面试常用于校招、批量初筛或远程招聘场景。\n\n2. **企业定制化的 AI 面试流程**  \n   部分企业会在 Skillver 上定制“正式 AI 面试”环节，作为正式招聘流程的一部分，区别于练习或模拟面试。\n\n3. **可能的名称混淆**  \n   也有可能是将 **“Skillview”“Skillsoft”** 或其他类似名称的平台记混，或指某家公司的内部叫法。\n\n如果你是在某个招聘通知中看到该名称，建议：  \n- 查看邮件或招聘页面中的 **官方说明链接**；  \n- 直接联系 HR 确认平台入口、设备要求与面试流程。\n\n需要我帮你根据**具体公司或招聘场景**进一步解释吗？",
+  "sources": [],
+  "raw": {
+    "id": "b8a483fe-9158-4364-939c-555dc28093df",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600137,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前并没有广泛公开、广为人知的名为 **“Skillver 正式 AI 面试”** 的标准产品或平台。根据名称推测，它可能属于以下情况之一：\n\n1. **Skillver 平台的 AI 面试功能**  \n   Skillver 是一个面向技能评估与招聘的平台，其“正式 AI 面试”通常指：  \n   - 由 AI 驱动的自动化视频面试，系统通过摄像头、麦克风采集候选人表现；  \n   - AI 自动分析回答内容、语言表达、面部表情、语调等维度；  \n   - 生成结构化评估报告，供企业招聘方参考。  \n   这类面试常用于校招、批量初筛或远程招聘场景。\n\n2. **企业定制化的 AI 面试流程**  \n   部分企业会在 Skillver 上定制“正式 AI 面试”环节，作为正式招聘流程的一部分，区别于练习或模拟面试。\n\n3. **可能的名称混淆**  \n   也有可能是将 **“Skillview”“Skillsoft”** 或其他类似名称的平台记混，或指某家公司的内部叫法。\n\n如果你是在某个招聘通知中看到该名称，建议：  \n- 查看邮件或招聘页面中的 **官方说明链接**；  \n- 直接联系 HR 确认平台入口、设备要求与面试流程。\n\n需要我帮你根据**具体公司或招聘场景**进一步解释吗？"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 289,
+      "total_tokens": 338,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:15:43.385246Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "目前并没有广泛公开、广为人知的名为 **“Skillver 正式 AI 面试”** 的标准产品或平台。根据名称推测，它可能属于以下情况之一：\n\n1. **Skillver 平台的 AI 面试功能**  \n   Skillver 是一个面向技能评估与招聘的平台，其“正式 AI 面试”通常指：  \n   - 由 AI 驱动的自动化视频面试，系统通过摄像头、麦克风采集候选人表现；  \n   - AI 自动分析回答内容、语言表达、面部表情、语调等维度；  \n   - 生成结构化评估报告，供企业招聘方参考。  \n   这类面试常用于校招、批量初筛或远程招聘场景。\n\n2. **企业定制化的 AI 面试流程**  \n   部分企业会在 Skillver 上定制“正式 AI 面试”环节，作为正式招聘流程的一部分，区别于练习或模拟面试。\n\n3. **可能的名称混淆**  \n   也有可能是将 **“Skillview”“Skillsoft”** 或其他类似名称的平台记混，或指某家公司的内部叫法。\n\n如果你是在某个招聘通知中看到该名称，建议：  \n- 查看邮件或招聘页面中的 **官方说明链接**；  \n- 直接联系 HR 确认平台入口、设备要求与面试流程。\n\n需要我帮你根据**具体公司或招聘场景**进一步解释吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

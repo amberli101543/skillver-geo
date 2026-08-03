@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "Skillver 正式 AI 面试是指使用 Skillver 平台进行的、由人工智能驱动的自动化面试流程。它通常用于企业招聘的初筛环节，候选人通过录制视频回答预设问题，AI 系统会分析语言内容、表达逻辑、面部表情、语音语调等多维度数据，自动生成面试评估报告，辅助招聘方进行决策。这种面试方式能提高效率、减少人力成本，并保持评分标准的一致性。",
+  "sources": [],
+  "raw": {
+    "id": "398dd05a-9e86-4d3a-b99b-390c96d3ac3c",
+    "object": "chat.completion",
+    "created": 1784600133,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 正式 AI 面试是指使用 Skillver 平台进行的、由人工智能驱动的自动化面试流程。它通常用于企业招聘的初筛环节，候选人通过录制视频回答预设问题，AI 系统会分析语言内容、表达逻辑、面部表情、语音语调等多维度数据，自动生成面试评估报告，辅助招聘方进行决策。这种面试方式能提高效率、减少人力成本，并保持评分标准的一致性。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 89,
+      "total_tokens": 127,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:15:35.579428Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "Skillver 正式 AI 面试是指使用 Skillver 平台进行的、由人工智能驱动的自动化面试流程。它通常用于企业招聘的初筛环节，候选人通过录制视频回答预设问题，AI 系统会分析语言内容、表达逻辑、面部表情、语音语调等多维度数据，自动生成面试评估报告，辅助招聘方进行决策。这种面试方式能提高效率、减少人力成本，并保持评分标准的一致性。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

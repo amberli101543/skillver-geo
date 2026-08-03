@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "截至目前，关于 **Skillver**（通常指某款特定的 AI 辅助工具、智能体或学习平台）的公开服务状态，信息相对较少。\n\n其是否开放使用取决于其官方的最新发布计划：\n\n1. **如果是处于测试阶段的项目**：它可能目前处于 **内测（Closed Beta）** 或 **排队（Waitlist）** 阶段。您可以访问其官方网站，查看是否有“Sign Up”（注册）、“Join Waitlist”（加入候补名单）或“Get Started”（开始使用）的选项。\n2. **如果是开源或已公开发布的工具**：通常可以直接在其官网或 GitHub 等平台上注册或下载使用。\n\n**建议：**\n* 请直接访问 **Skillver 的官方网站** 或其官方 **Discord/X (Twitter)** 社区，获取最实时的开放状态和使用教程。\n* 如果您指的是其他知名工具（如 **SillyTavern**、**Silver** 等）的拼写错误，请提供更多上下文，我将为您作进一步解答。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "截至目前，关于 **Skillver**（通常指某款特定的 AI 辅助工具、智能体或学习平台）的公开服务状态，信息相对较少。\n\n其是否开放使用取决于其官方的最新发布计划：\n\n1. **如果是处于测试阶段的项目**：它可能目前处于 **内测（Closed Beta）** 或 **排队（Waitlist）** 阶段。您可以访问其官方网站，查看是否有“Sign Up”（注册）、“Join Waitlist”（加入候补名单）或“Get Started”（开始使用）的选项。\n2. **如果是开源或已公开发布的工具**：通常可以直接在其官网或 GitHub 等平台上注册或下载使用。\n\n**建议：**\n* 请直接访问 **Skillver 的官方网站** 或其官方 **Discord/X (Twitter)** 社区，获取最实时的开放状态和使用教程。\n* 如果您指的是其他知名工具（如 **SillyTavern**、**Silver** 等）的拼写错误，请提供更多上下文，我将为您作进一步解答。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EqIpCp8pARFNMg+pEqUkQN+wdjiS7B9eaiEf05sKET+XaV5fWRR48tDux5Jji1ZZWPEJnUiRdWYqxiPc8EXhBV4Xuc2EhhICXj7XCKDm+E+DyIap4JuGayo+ug/cs+ILz8v5NtezUHn3kC5aowbYb/YPfUEA/MY5IOgydWxp2be/wi/Rn6METOae+1+hTZ0MdjkR28EDfZuf00WKSQHN4MhIkVPUOw/WD0WyFMpIazLyxcTcMZzXYRfcf7JUgpe8tggVrBqtuXmisQhZsI2lUkxARkM3c8FqMG757ZTyT3WxlMz4cd1sMwwAVSzKFB/nysJiGhTVdVoh8MoGzAnOPMY6RXOOuuI6htHh/wLLbq1eHZfBIP5dG5E/CC37E1LUpBvs0j1P4cdm1yQVF63CGT+TZWrU/T6rHakvDgQNnfqp0/N+NkaCWna6iqqV/xsnVcb8Hj7Vn5IkP1PmCDasfePzJJqS1NY3y2yE7zhFthDzqvmphxo8uZT6ClxyJDX6PtMQiB+kMWw6aFp1mkHkT3P/N6slrLUYAhDy/DNYce9yU+r0e3Dm7FuslWl9ROJEURcC0LI//OhIvBHQGlvMmj2NbZJNg2JsBMMFyyPU66uZKkokaq2Aj1hBth7tE7u5fWNyI5BON0A3eu26wVQ+mezUxF3wIqol9w2XNyKj6uaif7O91Yo4EdBptVUdjza4E3UawaRp9hu7DU9CUJajJsCqBa0dVx1wuQCufbq59kLfCiSCBZ6EeDDFKQ9GTlw9NTKkkagii2nTMapX4swbzHhX3fxJIxw7E4Y3IfHATv2l1C1aZ4n3TwMldmTmChrAA9iRehQyhx025SCyLHQmEwup+q5pYLStmQeKvudWI1lsyWqr2DeFaquXIOJ+REAuywAhwmXf4DjlwmkOU1xTutoDO0BMi4PdLENe/KVumhKIdS+qbPv7wzA6wEQscBfd/QPl4SV+zHqzZ+oEkQCcMkeGp8cah3o0asNBgf46OZbg7ToL4P654Kw6Xx3OXr/QNL+sL0tmZVotcJuWopmfIDia8NS2hXDC/GkIsicNTgu7mB4jT7uLmLx/rZqz9IKSvjV0UEYpsS87GywtcxxEKknLI9U+VCw3CeFR1blS7OhYbOx3pfe14hlPoTZ9QX95jF43xtdNs+uu38ebc4vR8hJGcwZZUN0LrM22m8l3hciZBcA5t6nRHFme17byRicc5D1E5NSDBQrcSW2R1uNxdfCthuYmlAo5EWPdvEHJFcrMMOBh5AlhV67Unz0eGGKuNPwBmQM6UAl1HoYYn1MNJhgqgBPSBGYlC28L0dB+vDXLPhldqEZtzYUSSJNRpT27Vz0sLSUpxSozhSX/8wgrK6xO9RB97CVcUcoNWaBJpIVm7KaTlG5ghF2vbY7Ik9EULIVsNIsVp1JvdMhNjWr4ipKT/8e7NdBvwE7rHM8NXUaNJMvzLItw5XZfWFuGvOamQaKVYfam3zNHgNc6SuKsB2jbm9ZXNbO1u4daq0UnzBmiNSRyb/QCUID+FPnZ0k/fUz0v4E5K5JYp8+CLCFB5r0Rw6GxfC6nFroCtIeLq2vU+Ug1+2cWJfk5PhTZAQ45Z5UcxAW8Z+Fu1uy2O5GYcWpQZyVbilGiISMnhBoY0Z75EOiahuoDFSriM2fiTOf7HB9TmQofvDk5cw6Smh4z7sSVNuoCPX+Mp6XMklzdhsT7WqlTNfa/nciyAtFsXjqkcVjCLRVxoCNpNg+RvqimQoqzL02KOX7LbNglK+N5yKJK+QpxMpWaXZPOmSgH86x8Adg5bKv6jiWP/cilsM0Gsyb0lavmCAdP1D3x66YzbElEbbaiGZMMAfWvA9Dw5fU8n+d60+qeeGHCfMPYNFQz0pn/hczA4v/l3Yd8fAh3ojYZMm91QkPNd4hS7ir0+HUsHeIx1eBOCBVMzFSI/6VsfbFjQaO1mSNsZLEUbrspekLloiSOS1BqQ45hJZPhrfKEqF40uzdsTw8gOCy5vOFdB14rizIJwU3M/t4NQtj2tivGDbhoPfKMi/995QavW7W/V2x6bYMFOwCNKvPpxTx1vkJDzqEyWkePhnPkI1ZRtc3dBhO346sOdPv7oXllk70u0SELHzr3V+rENTHwWac/YLhruMBSNl+FrNkGDVuPPA41YG7jVzei4p1k336e0JmbCfILcRZgH8qX0AIPwRTY8HUQv9s4hWEinZ63C0XpZYzaVVgBjG7Gdm8G7/TNhq5icgkzI93j88fmNoTCn/uK0FFYmBMqWuezZu2gCdorpXHIkZ/WizexxQ5sAPy1T6RZIOU3kCX74K+lQjAh2O6QU0pMxgLUCVCn1wvv/u0zaDdWu4oajxsXlUf9mvacSl3hu+7hmd8JELQXBB8TghKjJGYf//KVdCPQC6FfynDxxrIiM99L+IXK+xauYbUKaKO831lRAJvoTIAkqPyOqfak0L0pkM6Rp4MonAow77NX5qrc1wSs5I5EGpck9X+W3wllfa9bJ22nFtgL/zSJDbOhAvI38/MetEZ/029pC9o8fQq/fpTMsTF/ZChXbwUb4uB+7s3nswzVvJH1lrLoveSgbAMcV9oxT5yu5ai5qU9ubg6zTLoQX99MuZGRXJUYn8hGt3vMp5zOoPAS2/ePjLHYVDNqRnToM7a4Bt/WftdA7P4/EFpL0Zfi6NNeSGGTW9tbf7ohnxMZxr78PkmZ4EFifVgSAcDDYZRDjXPJXPqo7K0VZ6pmbwZIbQAiCgb+cL7spIyuUVHKtiOp/2Zew+p6JAAEoRaLGWvRBg63UtoYkI+YuaIvdnmjBzs/X6TtEny3c8I09a2CeLdIbuiw0NV9ExEzXqSsj470uh+S/G77i2SReHGqitWRvSuCJOYhRRyRdSzpA2ASgUdgFL9CjKdV1cI4usrdBNyPWoS5dcocjS8TvsFDmEnMj250YPR83SK2AZW8Mtjncyc7JleYYvrKznrzopqHeMrWC8dv1GhMjcwUwRyuN2Ynplbv00JHhentt+oGXh5MsD2Y/w/5HtM91dmxKAE3/NFqhfCaWbL5/BlLmJvvVZAwM0SuwpNrQUHJLPngK2b4CP6bARkU9MmcVoCh+vQ8bBdffDMs3kU8OPcE4Pu7Fw//pO3N4y96v6e5AoDSCMTzRal3Ia7aY7YAfIZFqv5RSykzTXnc64qOCI97FKzVZDRcv0pvR27jEZphHh/CIGSjrEZAdf+1yfjLzxunSkPteEEYfVhVR93RKWyhsjQCGLS475sTYywsU2eeoMiBHNxZN/KjqODX9ky/zmDpzJBVAaq09CUS+a6taxTBO0EsJAX8OSSpfRWFcEZrrEYOm+rWVF13nrAubbCOkMC6Uru7ulZEIuZCfgteTij7Y4wa2npRSm5YSHdLG9kOJu+r5mGSBbAnCFbKuTw2+dRgmkspOHWnjj43t1dZDhU2oZDUvqml9NmSjRlHGHcV6rxumuj6HZ7xmMqEu3544ScZTsg14JeFiWuf5sZ7EBZG6BO5pxcKKw3XQ6ISL3mse3oAeb+3vzCFRCrAfW5uBMy1+W4HrhEHq2NuSdf1sDe4S4iZEQQfB+kXh/J7ueOzUG3YR22JthUPZzrHNAAf4C/NYw/5+rPZY2Eh+4k0q3ueUc0hMmWKMpCXXgx8K0kOYWizXNe/Egm3SaabfwadqWkkumsi3KNPNjA1MJgQDLMgCzElp+cCwXnEPNZ/SS3bYhYzHkQrDYPFw/6uYMt0t6aKyr6tY/Vqs2Fu+X3zXWMbzi1SED0JRXnODJgBk6QqqEMMkh82lM9xKmKfSuGZyo6XlofjSyrSmSfAiQYswVqvOpPznoChSt7Zo1UcOIplyxxB3bmNnJhL3vDTAE9okd1hddfpNbrldy+/pupjwq2RUM/CZyWnJc4iNDjlm1Ejl5Mw3L910nTsSM9HBsFn1dNINptwh4aVL9tqDSoX+L9sgMG3DuYH7n2TbjksT8Hu7Z+iNoRhmN6U3GiZf6S6zzrqrwiGK6B6qh0DL+VkBugkRSpnuBbu2acx/qFFRyIXpHmd8NDJZ9ZD8spfO8K6asDtiOdmR/3MNkNsR28Ll/eotifKl9PxNJqiH0TAVquUTZg4BXonxoXPe6g0TI57DWZC/w4GgNOc8t/raTwjLzHe1Ciy+zWzdwqIlAjLd0GnkQIzKmEg/7Q6DGYhiwjaYSV5PztjsH7c6OSAgsazRPBLOrkD7LoeuJDrBS7XTqeFu+ULmD2C9eAXvXEvqFxsWgwB2rN0wwhB6z4DRYG4tjarYDPGypE8OOwWR4PEYmso4nqE+PZ9W1TiuSGOL5zmt9OhKp9Lx4+VailHzeabfzyhmAH1QrupgJQJ9tlf6GdwrI8kNyW5pN15ARMc5IFRzm/RmayunfbNOmoNuzOdcBWaRiQuDGse9xRqUHU/Tcy/U4Tx9F03YOwoAjvOgiuNFKeYFg7mQLMW7p+UJL8EHgsT0p81jU6tFeDBvrcKWshJU/k5QWdnQ6sBbOKN2WZ+yARYqmp9Ihi7L3x5kTxoCYW6sSMwsvZyms77tnVYLylaDaWVSHmbbFFktjPKSyZRADb0jjCk4MrPQfIk/Mvo03rqtRJZXuuAzijKKvYM9VKZqwf5L7FdR30EZkZy15bnz58PpXsgNgZXfbHXA/+V8uuyshcvu+CNRXMmGi6es+yXhuO/WiYGuk6rlnevLNnkd3X3Bu+hThnM/iEO6IKdkNmAPidhxppThex65C/Ggfmcw2L0LEx3+XJPgwwF+dgnIlP4lsRfY+dEM0V/jQsHs53sMDIW4yA0Z0c2mc/aNtFDMbff0x2EMFKjHfJOkYDnqyV3J+D8dDnY1Eixcmwg4J6Wt0kLYYZkLg1sijAGTkkaSDRyCeekt2qlonW+DTOPCPl0EkKocKip92Pu50/OtIchKut0y9H4wl+kJEKdVcvwscLH7XB5nJMtfsTEcMTI5kROqmYsa0zP5KQ8TKGtvIX/zOr97IS252BmPmgLSfSymom3NUoBZw9T500UBedXgG7LmxSKSHQy0yhonJP+miNAi1FX683jo93ysflhdxQOxoMCG4HqGdu+oUqSsH7ZIkNiIEwVQSTYpbRGbo6OaJHMuUY7ZVusKdOYnSNntvoKYgo0hjxNBzm3wigiNKlGbasW7QYRLIdu/NmGDY9fTtNvA43ekZvxeZ/fHfqp/M9+9anGIeE/SO2sn3WoxEiU42oXo0AG0uGwvSoYuPyG0U4c+TPjK0aAoON8LQQ52TqpBjFvNKhhEM9yHiodbqS8I6SF9C/BRoHCja+ytLSZ9yD93KskXBXC0cZB9Q7TQsnTGVptiyUu22Q1AZMvUfkMZaYebf+ksWFzZeHm9oNfjR/2RrOY/8Wf2su3taA5C3NKZw021NBjjIZrSG8g66Jj6P5iScLXjYYmWoqqD6RJRXCEXZEKSaFMhNQmF0L14Ylhsq/9jiQTtmM/lAqRvwM9Y/RiYVWfO4rNNqyP0HAuM78yK92pkOI5sFcLrfjOIiZ7C1m0Uo65I+2vetS+jw1rgu5EruvIEtOqui2oyG2kDQox6sgMRSP933eUkw5Es3n1xVRpAJUDNFFEfd3WCueuhVF4HCU60nB2zx/L9AQGwKVyDAxr9W5uob2P8jH+yurzeI9ImKeaS1kHncL9StGU5IxRQ5OmolwJyxswlk2BrJKy7pFjzHm+GKuEK+m4HMiaNrZPjzG1HP66V7rwCtz3uf07KqrKwAjVP0CCqjVjQqGrLIscjR27mVIhUtzpTvYY4+3RroyKCxTwNz6NAxN1mcVcRn8Z83BsfBzRrw+qo7h2sP2qu6ap9mgA9lx/Xz12kzeqmKMf5eF2RuBBP/ingHejzIuprTjsVDO+IJiqRbu5yDVu+c2BbEBGxjZdcGouFhdTug+VkMaehsI8/vsFZAl14C2jeG5abLyRSW/IuJmY1v4JqaVQIjhyAmeI5/9fsr+kD83jL30QADZefHxiq7xRtk1Q73avSeQ4IqmLov12LuB0ZWz/T8xznMafF3ufHrRRa+sOFQuyCOuxuaZE0jfYS3i5Yz6Oovbnh5zcrJpd7m1LfKjrnkah7CIgmq2A4CkAy5nzDlRI1yQ0JFyrvUB/SregJdKdhJ37xLKdRcMuwZQyG40HXVb1Fb2Sc98sKo+SKtFgmBPGoz2s0J5kdAzimW//c/zBK9Mi1wVEUaI8ZR+EkxNl5YxH1Wo6m+Rj9lmhJDmTQQDkN6AOus04lMqOs/jEsMT8FZ7FEGLRDESgPfvnTAQswf4RHVY1Q3ZdRIRsl+n4JMtM1C1xoo6Luf9BsSO1caPBGwlCWOTHF8J5aFx3Pg/COEwSYJGS2iv6T2zR1Rgc7ZcehlrTWlfawCAhLzt/hVPxU+mtVObtd9sfrIsKJjpc5NEY1idroSnC6ub+FKOh2SIAnTBBqlE8X9Q1NQMp4wE5bkSLbSGwdfOxzyaC43Yfl8apX0ADa5TFlKkbHKGYtox1lIZND53a0Do83RpVi4AMuMwNFtx0O/8LdjDDKqNBIuXqcFhIEo2cvd9+VUOFmQkQ0UrXgJ0Oh6m9FiayC/S0WPkvZRUL9jKfC4qfoKnK+xTjYRY/j3vNwnkgSpk50qbhDrRCGHF2kKi64jyCTont2CXH2F3xqBHKxGM58Oq2tHnr2BjtzN0gDDwtD3Cbwdgg9LqU1FcImHosx4BCyyByuZ+ho3ljsWdM/euY+XKYOMli7M8Zhi9C0DPXVJE8uIRLb2C+ySSEU4/NS5DCfYVklUzyHIcpoi+DMAXsLM3J0u20OhdU1Ib4KBh1/uamwxK58XoE9krok5ASh4ZbzDW9T4AIC9OLeF+GEVLf6a7now/ms3jQPhoS8GEDU3q3XGAaWrSpAuHWQdLwydfeAwTJ4XdCp5IPaj7muhArRPWvJ1xeIAJWxfnaGMjNLE5Y9gCwxEBDGrbhxv6LbXGGcg9HNzkt71J08Yf/L8fXpLxCft3WiM6aJbZmtODUJvshtHsOnAv0ZTT7amGM8n/zHL2zOtHrQ2YgAO8SPuGkdwMgBoodXbI6ZpLWvYREq+hk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603918,
+    "id": "--ReaoSkLK_Xz7IPv8rl4Q8",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 226,
+      "prompt_tokens": 35,
+      "total_tokens": 1637
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:18:38.381370Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "截至目前，关于 **Skillver**（通常指某款特定的 AI 辅助工具、智能体或学习平台）的公开服务状态，信息相对较少。\n\n其是否开放使用取决于其官方的最新发布计划：\n\n1. **如果是处于测试阶段的项目**：它可能目前处于 **内测（Closed Beta）** 或 **排队（Waitlist）** 阶段。您可以访问其官方网站，查看是否有“Sign Up”（注册）、“Join Waitlist”（加入候补名单）或“Get Started”（开始使用）的选项。\n2. **如果是开源或已公开发布的工具**：通常可以直接在其官网或 GitHub 等平台上注册或下载使用。\n\n**建议：**\n* 请直接访问 **Skillver 的官方网站** 或其官方 **Discord/X (Twitter)** 社区，获取最实时的开放状态和使用教程。\n* 如果您指的是其他知名工具（如 **SillyTavern**、**Silver** 等）的拼写错误，请提供更多上下文，我将为您作进一步解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

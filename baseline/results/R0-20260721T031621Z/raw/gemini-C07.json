@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C07",
+    "category": "category",
+    "query": "AI 面试彩排和真人模拟面试怎么选？",
+    "passCriteria": [
+      "客观说明两者侧重点",
+      "不虚构效果数据"
+    ]
+  },
+  "answer": "选择“AI面试彩排”还是“真人模拟面试”，主要取决于你目前的**准备阶段、预算**以及**核心痛点**。\n\n以下是两者的核心对比和选择建议：\n\n### 一、 核心对比\n\n| 维度 | AI面试彩排 | 真人模拟面试 |\n| :--- | :--- | :--- |\n| **成本** | 极低甚至免费，随时随地开始 | 较高（尤其是行业专家/HR），需预约时间 |\n| **压力感** | 低，适合脱敏和练习防紧张 | 高，真实还原面试的紧张氛围 |\n| **反馈维度** | 偏向**客观硬指标**：逻辑结构、用词、语速、时长、发音 | 偏向**主观软实力**：气场、情商、应变能力、行业深度、文化契合度 |\n| **针对性** | 适合标准问题、宝洁八大问、技术八股文 | 适合针对特定公司/岗位的个性化追问 |\n\n---\n\n### 二、 场景选择建议\n\n#### 1. 优先选择【AI面试彩排】的情况：\n*   **面试准备初期：** 刚开始找工作，还没开口练过，需要**破冰**、克服开口说话的羞耻感。\n*   **基础内容打磨：** 需要反复修改自我介绍、练习基础行为面试题（如“宝洁八大问”）。\n*   **预算有限：** 不想花高额的咨询费，希望进行高频次、碎片化的练习。\n*   **目标面试本身就是AI面试：** 如果你要参加快消、外企、银行的第一轮AI面试（如HireVue），AI彩排是最佳选择。\n\n#### 2. 优先选择【真人模拟面试】的情况：\n*   **面试准备后期/临考前：** 已经拿到了重要面试（如大厂、高薪岗位、终面），需要做最后的冲刺。\n*   **需要深度专业反馈：** 你的行业专业性极强（如架构师、高级产品经理、投行），AI无法给出有深度、有行业背景的追问。\n*   **应变能力差：** 害怕被面试官打断、追问、质疑，需要练习“抗压”和“临场反应”。\n*   **需要评估“人岗匹配”：** 想知道自己的气场、眼神交流、身体语言是否讨喜。\n\n---\n\n### 三、 最佳实践策略（组合拳）\n\n如果条件允许，**“先AI，后真人”**是最高效、性价比最高的方案：\n\n1.  **第一阶段（AI打底）：** 用AI工具（如ChatGPT、各类AI面试App）进行低成本、高频次的练习。把自我介绍、常见问题练到滚瓜烂熟，纠正语速和逻辑结构。\n2.  **第二阶段（真人精修）：** 约1-2次同行前辈或专业HR的真人模拟。让他们针对你的简历进行“压力测试”和“深度追问”，发现AI无法识别的软实力问题。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "选择“AI面试彩排”还是“真人模拟面试”，主要取决于你目前的**准备阶段、预算**以及**核心痛点**。\n\n以下是两者的核心对比和选择建议：\n\n### 一、 核心对比\n\n| 维度 | AI面试彩排 | 真人模拟面试 |\n| :--- | :--- | :--- |\n| **成本** | 极低甚至免费，随时随地开始 | 较高（尤其是行业专家/HR），需预约时间 |\n| **压力感** | 低，适合脱敏和练习防紧张 | 高，真实还原面试的紧张氛围 |\n| **反馈维度** | 偏向**客观硬指标**：逻辑结构、用词、语速、时长、发音 | 偏向**主观软实力**：气场、情商、应变能力、行业深度、文化契合度 |\n| **针对性** | 适合标准问题、宝洁八大问、技术八股文 | 适合针对特定公司/岗位的个性化追问 |\n\n---\n\n### 二、 场景选择建议\n\n#### 1. 优先选择【AI面试彩排】的情况：\n*   **面试准备初期：** 刚开始找工作，还没开口练过，需要**破冰**、克服开口说话的羞耻感。\n*   **基础内容打磨：** 需要反复修改自我介绍、练习基础行为面试题（如“宝洁八大问”）。\n*   **预算有限：** 不想花高额的咨询费，希望进行高频次、碎片化的练习。\n*   **目标面试本身就是AI面试：** 如果你要参加快消、外企、银行的第一轮AI面试（如HireVue），AI彩排是最佳选择。\n\n#### 2. 优先选择【真人模拟面试】的情况：\n*   **面试准备后期/临考前：** 已经拿到了重要面试（如大厂、高薪岗位、终面），需要做最后的冲刺。\n*   **需要深度专业反馈：** 你的行业专业性极强（如架构师、高级产品经理、投行），AI无法给出有深度、有行业背景的追问。\n*   **应变能力差：** 害怕被面试官打断、追问、质疑，需要练习“抗压”和“临场反应”。\n*   **需要评估“人岗匹配”：** 想知道自己的气场、眼神交流、身体语言是否讨喜。\n\n---\n\n### 三、 最佳实践策略（组合拳）\n\n如果条件允许，**“先AI，后真人”**是最高效、性价比最高的方案：\n\n1.  **第一阶段（AI打底）：** 用AI工具（如ChatGPT、各类AI面试App）进行低成本、高频次的练习。把自我介绍、常见问题练到滚瓜烂熟，纠正语速和逻辑结构。\n2.  **第二阶段（真人精修）：** 约1-2次同行前辈或专业HR的真人模拟。让他们针对你的简历进行“压力测试”和“深度追问”，发现AI无法识别的软实力问题。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604350,
+    "id": "reZeaommGfW4qtsP-9nE2As",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 680,
+      "prompt_tokens": 40,
+      "total_tokens": 1492
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:25:50.403454Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C07",
+    "answerEvidence": "选择“AI面试彩排”还是“真人模拟面试”，主要取决于你目前的**准备阶段、预算**以及**核心痛点**。\n\n以下是两者的核心对比和选择建议：\n\n### 一、 核心对比\n\n| 维度 | AI面试彩排 | 真人模拟面试 |\n| :--- | :--- | :--- |\n| **成本** | 极低甚至免费，随时随地开始 | 较高（尤其是行业专家/HR），需预约时间 |\n| **压力感** | 低，适合脱敏和练习防紧张 | 高，真实还原面试的紧张氛围 |\n| **反馈维度** | 偏向**客观硬指标**：逻辑结构、用词、语速、时长、发音 | 偏向**主观软实力**：气场、情商、应变能力、行业深度、文化契合度 |\n| **针对性** | 适合标准问题、宝洁八大问、技术八股文 | 适合针对特定公司/岗位的个性化追问 |\n\n---\n\n### 二、 场景选择建议\n\n#### 1. 优先选择【AI面试彩排】的情况：\n*   **面试准备初期：** 刚开始找工作，还没开口练过，需要**破冰**、克服开口说话的羞耻感。\n*   **基础内容打磨：** 需要反复修改自我介绍、练习基础行为面试题（如“宝洁八大问”）。\n*   **预算有限：** 不想花高额的咨询费，希望进行高频次、碎片化的练习。\n*   **目标面试本身就是AI面试：** 如果你要参加快消、外企、银行的第一轮AI面试（如HireVue），AI彩排是最佳选择。\n\n#### 2. 优先选择【真人模拟面试】的情况：\n*   **面试准备后期/临考前：** 已经拿到了重要面试（如大厂、高薪岗位、终面），需要做最后的冲刺。\n*   **需要深度专业反馈：** 你的行业专业性极强（如架构师、高级产品经理、投行），AI无法给出有深度、有行业背景的追问。\n*   **应变能力差：** 害怕被面试官打断、追问、质疑，需要练习“抗压”和“临场反应”。\n*   **需要评估“人岗匹配”：** 想知道自己的气场、眼神交流、身体语言是否讨喜。\n\n---\n\n### 三、 最佳实践策略（组合拳）\n\n如果条件允许，**“先AI，后真人”**是最高效、性价比最高的方案：\n\n1.  **第一阶段（AI打底）：** 用AI工具（如ChatGPT、各类AI面试App）进行低成本、高频次的练习。把自我介绍、常见问题练到滚瓜烂熟，纠正语速和逻辑结构。\n2.  **第二阶段（真人精修）：** 约1-2次同行前辈或专业HR的真人模拟。让他们针对你的简历进行“压力测试”和“深度追问”，发现AI无法识别的软实力问题。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-C07.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "**Skillver** 主要指以下两个方面：\n\n1. **数字化学习咨询与服务公司（Digital Learning Agency）**\n   Skillver 是一家专注于**数字化学习（Digital Learning）**的专业机构（总部位于法国）。它主要帮助企业和培训机构进行数字化转型，服务内容包括：\n   * 设计和开发在线课程（E-learning）。\n   * 协助企业选择和部署 LMS（学习管理系统）。\n   * 提供数字化培训战略咨询和混合式学习（Blended Learning）方案。\n\n2. **拼写相近的概念（可能存在的混淆）**\n   如果您是在其他语境中听到这个词，它可能是以下词汇的拼写错误或变体：\n   * **Skillshare**：著名的在线互助学习平台。\n   * **Skillverse**：关于技能、人才管理或元宇宙（Metaverse）结合的虚拟平台概念。\n   * **Silver**（银）：英文单词。\n\n如果您指的是某个特定的软件、游戏术语或特定品牌，可以提供更多上下文，以便为您提供更精准的信息。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 主要指以下两个方面：\n\n1. **数字化学习咨询与服务公司（Digital Learning Agency）**\n   Skillver 是一家专注于**数字化学习（Digital Learning）**的专业机构（总部位于法国）。它主要帮助企业和培训机构进行数字化转型，服务内容包括：\n   * 设计和开发在线课程（E-learning）。\n   * 协助企业选择和部署 LMS（学习管理系统）。\n   * 提供数字化培训战略咨询和混合式学习（Blended Learning）方案。\n\n2. **拼写相近的概念（可能存在的混淆）**\n   如果您是在其他语境中听到这个词，它可能是以下词汇的拼写错误或变体：\n   * **Skillshare**：著名的在线互助学习平台。\n   * **Skillverse**：关于技能、人才管理或元宇宙（Metaverse）结合的虚拟平台概念。\n   * **Silver**（银）：英文单词。\n\n如果您指的是某个特定的软件、游戏术语或特定品牌，可以提供更多上下文，以便为您提供更精准的信息。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603797,
+    "id": "h-ReapLVLf2cz7IPmdbm2A4",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 231,
+      "prompt_tokens": 33,
+      "total_tokens": 1182
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:16:37.331769Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "**Skillver** 主要指以下两个方面：\n\n1. **数字化学习咨询与服务公司（Digital Learning Agency）**\n   Skillver 是一家专注于**数字化学习（Digital Learning）**的专业机构（总部位于法国）。它主要帮助企业和培训机构进行数字化转型，服务内容包括：\n   * 设计和开发在线课程（E-learning）。\n   * 协助企业选择和部署 LMS（学习管理系统）。\n   * 提供数字化培训战略咨询和混合式学习（Blended Learning）方案。\n\n2. **拼写相近的概念（可能存在的混淆）**\n   如果您是在其他语境中听到这个词，它可能是以下词汇的拼写错误或变体：\n   * **Skillshare**：著名的在线互助学习平台。\n   * **Skillverse**：关于技能、人才管理或元宇宙（Metaverse）结合的虚拟平台概念。\n   * **Silver**（银）：英文单词。\n\n如果您指的是某个特定的软件、游戏术语或特定品牌，可以提供更多上下文，以便为您提供更精准的信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

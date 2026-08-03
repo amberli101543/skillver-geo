@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "根据我的知识，**才谱 AI** 和 **Skillver** 之间的具体关系我没有足够的信息来准确回答。\n\n可能的情况是：\n- 它们是同一产品的**中英文名称**（才谱 AI 是中文名，Skillver 是英文名）\n- 或者存在某种**品牌关联**\n\n建议您直接访问相关官网或联系官方客服获取准确信息，以免我提供错误的说明。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPMH21fJAhffGYugGAW",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据我的知识，**才谱 AI** 和 **Skillver** 之间的具体关系我没有足够的信息来准确回答。\n\n可能的情况是：\n- 它们是同一产品的**中英文名称**（才谱 AI 是中文名，Skillver 是英文名）\n- 或者存在某种**品牌关联**\n\n建议您直接访问相关官网或联系官方客服获取准确信息，以免我提供错误的说明。"
+        }
+      }
+    ],
+    "created": 1784599642,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 56,
+      "total_tokens": 204
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:22.375494Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "根据我的知识，**才谱 AI** 和 **Skillver** 之间的具体关系我没有足够的信息来准确回答。\n\n可能的情况是：\n- 它们是同一产品的**中英文名称**（才谱 AI 是中文名，Skillver 是英文名）\n- 或者存在某种**品牌关联**\n\n建议您直接访问相关官网或联系官方客服获取准确信息，以免我提供错误的说明。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

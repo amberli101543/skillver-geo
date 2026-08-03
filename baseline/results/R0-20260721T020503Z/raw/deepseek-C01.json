@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "根据您的需求，以下是一些实用的AI求职助手推荐：\n\n1. **LinkedIn**：内置AI功能，可智能推荐职位、优化简历和匹配人脉。\n2. **Zety**：AI简历生成器，提供模板和个性化建议，帮助突出关键技能。\n3. **Jobscan**：AI分析简历与职位描述匹配度，优化关键词通过ATS筛选。\n4. **HireVue**：部分企业使用其AI面试系统，可模拟练习提升面试表现。\n5. **ChatGPT**：可辅助写求职信、模拟面试问答或整理职业规划建议。\n6. **Kickresume**：AI生成简历和求职信，支持多种行业模板。\n7. **MyPerfectResume**：AI指导简历制作，含500+专业模板。\n\n建议根据具体环节（如简历优化、面试模拟）选择对应工具，部分需付费升级高级功能。",
+  "sources": [],
+  "raw": {
+    "id": "41d71eaf-719f-46f0-8b24-a469a4012732",
+    "object": "chat.completion",
+    "created": 1784600324,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据您的需求，以下是一些实用的AI求职助手推荐：\n\n1. **LinkedIn**：内置AI功能，可智能推荐职位、优化简历和匹配人脉。\n2. **Zety**：AI简历生成器，提供模板和个性化建议，帮助突出关键技能。\n3. **Jobscan**：AI分析简历与职位描述匹配度，优化关键词通过ATS筛选。\n4. **HireVue**：部分企业使用其AI面试系统，可模拟练习提升面试表现。\n5. **ChatGPT**：可辅助写求职信、模拟面试问答或整理职业规划建议。\n6. **Kickresume**：AI生成简历和求职信，支持多种行业模板。\n7. **MyPerfectResume**：AI指导简历制作，含500+专业模板。\n\n建议根据具体环节（如简历优化、面试模拟）选择对应工具，部分需付费升级高级功能。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 190,
+      "total_tokens": 224,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:18:46.744016Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "根据您的需求，以下是一些实用的AI求职助手推荐：\n\n1. **LinkedIn**：内置AI功能，可智能推荐职位、优化简历和匹配人脉。\n2. **Zety**：AI简历生成器，提供模板和个性化建议，帮助突出关键技能。\n3. **Jobscan**：AI分析简历与职位描述匹配度，优化关键词通过ATS筛选。\n4. **HireVue**：部分企业使用其AI面试系统，可模拟练习提升面试表现。\n5. **ChatGPT**：可辅助写求职信、模拟面试问答或整理职业规划建议。\n6. **Kickresume**：AI生成简历和求职信，支持多种行业模板。\n7. **MyPerfectResume**：AI指导简历制作，含500+专业模板。\n\n建议根据具体环节（如简历优化、面试模拟）选择对应工具，部分需付费升级高级功能。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

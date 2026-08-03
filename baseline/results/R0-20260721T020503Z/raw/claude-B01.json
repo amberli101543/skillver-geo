@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "**Skillver** 是一个与技能评估或人才相关的平台/工具，但由于不同语境下可能有多种含义，以下是一些可能的解释：\n\n1. **Skillver（技能评估平台）**：可能是一个帮助用户展示、评估或验证职业技能的在线平台，类似于技能认证或人才匹配工具。\n\n2. **品牌/产品名称**：可能是某家公司的产品或服务名称，专注于技能培训、招聘或人力资源领域。\n\n---\n\n由于 **Skillver** 并非广为人知的主流平台，我目前没有关于它的详细准确信息。\n\n**建议您：**\n- 访问其官方网站查看详细介绍\n- 说明您是在哪个场景下看到这个词的，我可以给出更准确的解答 😊",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPDJwNmWxAnAJPvT6nr",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver** 是一个与技能评估或人才相关的平台/工具，但由于不同语境下可能有多种含义，以下是一些可能的解释：\n\n1. **Skillver（技能评估平台）**：可能是一个帮助用户展示、评估或验证职业技能的在线平台，类似于技能认证或人才匹配工具。\n\n2. **品牌/产品名称**：可能是某家公司的产品或服务名称，专注于技能培训、招聘或人力资源领域。\n\n---\n\n由于 **Skillver** 并非广为人知的主流平台，我目前没有关于它的详细准确信息。\n\n**建议您：**\n- 访问其官方网站查看详细介绍\n- 说明您是在哪个场景下看到这个词的，我可以给出更准确的解答 😊"
+        }
+      }
+    ],
+    "created": 1784599538,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 265,
+      "prompt_tokens": 45,
+      "total_tokens": 310
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:38.263637Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "**Skillver** 是一个与技能评估或人才相关的平台/工具，但由于不同语境下可能有多种含义，以下是一些可能的解释：\n\n1. **Skillver（技能评估平台）**：可能是一个帮助用户展示、评估或验证职业技能的在线平台，类似于技能认证或人才匹配工具。\n\n2. **品牌/产品名称**：可能是某家公司的产品或服务名称，专注于技能培训、招聘或人力资源领域。\n\n---\n\n由于 **Skillver** 并非广为人知的主流平台，我目前没有关于它的详细准确信息。\n\n**建议您：**\n- 访问其官方网站查看详细介绍\n- 说明您是在哪个场景下看到这个词的，我可以给出更准确的解答 😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

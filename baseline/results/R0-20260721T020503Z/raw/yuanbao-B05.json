@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 是一个面向求职者的AI职业辅助平台，主要能帮你做以下几件事：\n\n1. **简历优化**：用AI分析你的简历，针对具体岗位JD（职位描述）给出修改建议，提升关键词匹配度。\n2. **面试准备**：提供模拟面试、常见面试题及回答思路，帮你提前演练。\n3. **职业规划**：根据你的技能和兴趣，推荐合适的职业方向和发展路径。\n4. **技能提升**：推荐相关课程或学习资源，补齐求职短板。\n5. **岗位匹配**：结合你的背景，筛选更合适的职位机会。\n\n简单来说，它更像是一个“AI求职教练”，从简历到面试再到职业选择，帮你提高拿到offer的概率。",
+  "sources": [],
+  "raw": {
+    "id": "35ac51f0-45de-4b57-a7e1-5aee1d69746e",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599653,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个面向求职者的AI职业辅助平台，主要能帮你做以下几件事：\n\n1. **简历优化**：用AI分析你的简历，针对具体岗位JD（职位描述）给出修改建议，提升关键词匹配度。\n2. **面试准备**：提供模拟面试、常见面试题及回答思路，帮你提前演练。\n3. **职业规划**：根据你的技能和兴趣，推荐合适的职业方向和发展路径。\n4. **技能提升**：推荐相关课程或学习资源，补齐求职短板。\n5. **岗位匹配**：结合你的背景，筛选更合适的职位机会。\n\n简单来说，它更像是一个“AI求职教练”，从简历到面试再到职业选择，帮你提高拿到offer的概率。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 147,
+      "total_tokens": 195,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:37.073355Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 是一个面向求职者的AI职业辅助平台，主要能帮你做以下几件事：\n\n1. **简历优化**：用AI分析你的简历，针对具体岗位JD（职位描述）给出修改建议，提升关键词匹配度。\n2. **面试准备**：提供模拟面试、常见面试题及回答思路，帮你提前演练。\n3. **职业规划**：根据你的技能和兴趣，推荐合适的职业方向和发展路径。\n4. **技能提升**：推荐相关课程或学习资源，补齐求职短板。\n5. **岗位匹配**：结合你的背景，筛选更合适的职位机会。\n\n简单来说，它更像是一个“AI求职教练”，从简历到面试再到职业选择，帮你提高拿到offer的概率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

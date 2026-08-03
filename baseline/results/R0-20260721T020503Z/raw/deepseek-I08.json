@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "目前没有公开信息表明 Skillver 支持无邀请码直接使用。通常这类平台采用邀请制，你需要获得有效邀请码才能注册或使用主要功能。建议你访问其官网或联系官方客服确认最新政策。",
+  "sources": [],
+  "raw": {
+    "id": "e933874e-2501-408b-a964-006288d5c219",
+    "object": "chat.completion",
+    "created": 1784599987,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前没有公开信息表明 Skillver 支持无邀请码直接使用。通常这类平台采用邀请制，你需要获得有效邀请码才能注册或使用主要功能。建议你访问其官网或联系官方客服确认最新政策。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 47,
+      "total_tokens": 87,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 40
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:08.460763Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "目前没有公开信息表明 Skillver 支持无邀请码直接使用。通常这类平台采用邀请制，你需要获得有效邀请码才能注册或使用主要功能。建议你访问其官网或联系官方客服确认最新政策。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

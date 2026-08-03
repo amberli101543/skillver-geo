@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "Skillver 目前**基础功能免费**，但部分高级功能需要付费订阅。具体收费情况如下：\n\n- **免费版**：提供基础技能管理、简单简历生成、少量模板使用等核心功能，适合个人用户日常基础需求。  \n- **付费版（Premium）**：解锁高级模板、AI优化建议、多格式导出（如PDF高清版、ATS友好格式）、无广告体验、更多存储空间等增值服务。  \n\n建议直接访问 Skillver 官网查看最新定价（可能随版本更新调整），或关注其官方公告获取实时信息。",
+  "sources": [],
+  "raw": {
+    "id": "cec297ba-94cb-4e5e-9230-1c34286e3e11",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599966,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 目前**基础功能免费**，但部分高级功能需要付费订阅。具体收费情况如下：\n\n- **免费版**：提供基础技能管理、简单简历生成、少量模板使用等核心功能，适合个人用户日常基础需求。  \n- **付费版（Premium）**：解锁高级模板、AI优化建议、多格式导出（如PDF高清版、ATS友好格式）、无广告体验、更多存储空间等增值服务。  \n\n建议直接访问 Skillver 官网查看最新定价（可能随版本更新调整），或关注其官方公告获取实时信息。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 121,
+      "total_tokens": 168,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:49.413715Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "Skillver 目前**基础功能免费**，但部分高级功能需要付费订阅。具体收费情况如下：\n\n- **免费版**：提供基础技能管理、简单简历生成、少量模板使用等核心功能，适合个人用户日常基础需求。  \n- **付费版（Premium）**：解锁高级模板、AI优化建议、多格式导出（如PDF高清版、ATS友好格式）、无广告体验、更多存储空间等增值服务。  \n\n建议直接访问 Skillver 官网查看最新定价（可能随版本更新调整），或关注其官方公告获取实时信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

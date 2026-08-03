@@ -135,7 +135,7 @@ def parse_faq_public_facts(source: str) -> list[dict]:
 
 def build_public_facts(faq_entries: list[dict]) -> dict:
     return {
-        "canonicalPositioning": "全面开放注册；邀请码仅用于赛事参与",
+        "canonicalPositioning": "全面开放注册；邀请码仅用于社群参与",
         "productEntryDomains": ["https://www.skillver.cn", "https://www.skillver.ai"],
         "brandContentDomain": "https://www.tcodeai.com",
         "mentorStatus": "待开通",

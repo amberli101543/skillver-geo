@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "Skillver 是一个技能交换与学习平台，目前**没有公开的独立注册入口**，它通常通过以下方式使用：\n\n1. **通过合作平台或邀请注册**  \n   Skillver 可能以功能模块形式嵌入其他教育/职业平台，或由机构统一开通账号。建议确认你是从哪个渠道了解到该服务的。\n\n2. **访问官网或官方渠道**  \n   可尝试访问 `skillver.com`（若域名有效）或搜索其官方社交媒体账号，查看最新注册指引。\n\n3. **联系客服或支持团队**  \n   若需直接注册，建议通过官方提供的联系邮箱或表单提交申请。\n\n**注意**：目前公开信息较少，请警惕非官方链接，避免个人信息泄露。如需进一步帮助，可提供更多背景信息（如你所在的地区或使用场景）。",
+  "sources": [],
+  "raw": {
+    "id": "04ba05b3-a15f-4cb1-b8cc-acf823799769",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599847,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个技能交换与学习平台，目前**没有公开的独立注册入口**，它通常通过以下方式使用：\n\n1. **通过合作平台或邀请注册**  \n   Skillver 可能以功能模块形式嵌入其他教育/职业平台，或由机构统一开通账号。建议确认你是从哪个渠道了解到该服务的。\n\n2. **访问官网或官方渠道**  \n   可尝试访问 `skillver.com`（若域名有效）或搜索其官方社交媒体账号，查看最新注册指引。\n\n3. **联系客服或支持团队**  \n   若需直接注册，建议通过官方提供的联系邮箱或表单提交申请。\n\n**注意**：目前公开信息较少，请警惕非官方链接，避免个人信息泄露。如需进一步帮助，可提供更多背景信息（如你所在的地区或使用场景）。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 167,
+      "total_tokens": 212,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:51.202535Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "Skillver 是一个技能交换与学习平台，目前**没有公开的独立注册入口**，它通常通过以下方式使用：\n\n1. **通过合作平台或邀请注册**  \n   Skillver 可能以功能模块形式嵌入其他教育/职业平台，或由机构统一开通账号。建议确认你是从哪个渠道了解到该服务的。\n\n2. **访问官网或官方渠道**  \n   可尝试访问 `skillver.com`（若域名有效）或搜索其官方社交媒体账号，查看最新注册指引。\n\n3. **联系客服或支持团队**  \n   若需直接注册，建议通过官方提供的联系邮箱或表单提交申请。\n\n**注意**：目前公开信息较少，请警惕非官方链接，避免个人信息泄露。如需进一步帮助，可提供更多背景信息（如你所在的地区或使用场景）。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

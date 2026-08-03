@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "面试彩排通常不会直接影响正式评估的结果，反而可能带来积极效果。彩排能帮助你熟悉流程、优化表达、缓解紧张，从而在正式面试中表现更自然流畅。但需注意：若彩排过度追求“完美答案”导致回答显得生硬或缺乏真诚，可能会间接影响评估者的印象。关键是将彩排作为自我提升的工具，而非机械模仿标准答案。正式评估仍以实际能力和临场反应为核心。",
+  "sources": [],
+  "raw": {
+    "id": "3d956be7-a2f1-49fe-8744-96c138661beb",
+    "object": "chat.completion",
+    "created": 1784600203,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "面试彩排通常不会直接影响正式评估的结果，反而可能带来积极效果。彩排能帮助你熟悉流程、优化表达、缓解紧张，从而在正式面试中表现更自然流畅。但需注意：若彩排过度追求“完美答案”导致回答显得生硬或缺乏真诚，可能会间接影响评估者的印象。关键是将彩排作为自我提升的工具，而非机械模仿标准答案。正式评估仍以实际能力和临场反应为核心。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 94,
+      "total_tokens": 131,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:45.007160Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "面试彩排通常不会直接影响正式评估的结果，反而可能带来积极效果。彩排能帮助你熟悉流程、优化表达、缓解紧张，从而在正式面试中表现更自然流畅。但需注意：若彩排过度追求“完美答案”导致回答显得生硬或缺乏真诚，可能会间接影响评估者的印象。关键是将彩排作为自我提升的工具，而非机械模仿标准答案。正式评估仍以实际能力和临场反应为核心。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

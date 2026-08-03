@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "很抱歉，目前我没有找到关于“Skillver”的明确信息。这可能是一个不常见的专有名词、拼写变体或新兴品牌/产品/平台。如果你能提供更多上下文（例如：它属于哪个领域、与什么相关等），我可以更准确地为你解答。",
+  "sources": [],
+  "raw": {
+    "id": "53f7202d-4429-4936-af14-29c623885714",
+    "object": "chat.completion",
+    "created": 1784599086,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "很抱歉，目前我没有找到关于“Skillver”的明确信息。这可能是一个不常见的专有名词、拼写变体或新兴品牌/产品/平台。如果你能提供更多上下文（例如：它属于哪个领域、与什么相关等），我可以更准确地为你解答。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 59,
+      "total_tokens": 93,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T01:58:07.774490Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "很抱歉，目前我没有找到关于“Skillver”的明确信息。这可能是一个不常见的专有名词、拼写变体或新兴品牌/产品/平台。如果你能提供更多上下文（例如：它属于哪个领域、与什么相关等），我可以更准确地为你解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T015759Z/raw/deepseek-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

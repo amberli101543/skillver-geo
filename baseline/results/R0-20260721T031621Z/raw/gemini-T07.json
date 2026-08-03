@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "**Skillver**（通常指一家专注于高端求职和职业规划的咨询/教育机构）的**“导师赋能”**，是指该平台通过链接来自全球顶尖行业（如咨询、投行、科技、快消等）的精英导师，为学员提供全方位的职业发展支持和能力提升。\n\n其核心内容主要包括以下几个方面：\n\n1. **行业洞察与经验传授**\n   * **实战经验分享：** 导师利用自身的从业经历，向学员传授真实的行业生态、工作流程以及最新的行业趋势。\n   * **消除信息差：** 帮助学员了解目标岗位最真实的技能需求和招聘偏好。\n\n2. **个性化求职辅导**\n   * **职业规划：** 导师根据学员的背景和特长，量身定制求职路径和时间线。\n   * **简历与面试精修：** 提供一对一的简历修改、求职信撰写指导以及深度模拟面试（Mock Interview），针对性提升求职竞争力。\n\n3. **核心专业技能提升（Hard & Soft Skills）**\n   * **硬技能辅导：** 传授具体岗位所需的专业工具、估值模型、Case analysis（案例分析）等实操技能。\n   * **软实力培养：** 提升学员的职场沟通、逻辑表达、问题解决和项目管理能力。\n\n4. **人脉拓展与资源链接（Networking）**\n   * **人脉搭建：** 帮助学员建立与行业资深人士的联系。\n   * **内推机会：** 部分导师能够为优秀学员提供企业内部推荐（内推）机会，打破传统简历筛选的壁垒。\n\n**总结来说：**\nSkillver 的“导师赋能”本质上是一种**“精英带教”模式**。它通过将学术理论与职场实操无缝链接，帮助留学生或职场新人快速弥补能力短板，实现从“学生”到“高竞争力职场人”的转变。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver**（通常指一家专注于高端求职和职业规划的咨询/教育机构）的**“导师赋能”**，是指该平台通过链接来自全球顶尖行业（如咨询、投行、科技、快消等）的精英导师，为学员提供全方位的职业发展支持和能力提升。\n\n其核心内容主要包括以下几个方面：\n\n1. **行业洞察与经验传授**\n   * **实战经验分享：** 导师利用自身的从业经历，向学员传授真实的行业生态、工作流程以及最新的行业趋势。\n   * **消除信息差：** 帮助学员了解目标岗位最真实的技能需求和招聘偏好。\n\n2. **个性化求职辅导**\n   * **职业规划：** 导师根据学员的背景和特长，量身定制求职路径和时间线。\n   * **简历与面试精修：** 提供一对一的简历修改、求职信撰写指导以及深度模拟面试（Mock Interview），针对性提升求职竞争力。\n\n3. **核心专业技能提升（Hard & Soft Skills）**\n   * **硬技能辅导：** 传授具体岗位所需的专业工具、估值模型、Case analysis（案例分析）等实操技能。\n   * **软实力培养：** 提升学员的职场沟通、逻辑表达、问题解决和项目管理能力。\n\n4. **人脉拓展与资源链接（Networking）**\n   * **人脉搭建：** 帮助学员建立与行业资深人士的联系。\n   * **内推机会：** 部分导师能够为优秀学员提供企业内部推荐（内推）机会，打破传统简历筛选的壁垒。\n\n**总结来说：**\nSkillver 的“导师赋能”本质上是一种**“精英带教”模式**。它通过将学术理论与职场实操无缝链接，帮助留学生或职场新人快速弥补能力短板，实现从“学生”到“高竞争力职场人”的转变。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604212,
+    "id": "J-ZeaqOdGLfUz7IP0vS_0QY",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 441,
+      "prompt_tokens": 36,
+      "total_tokens": 1411
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:23:32.429927Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "**Skillver**（通常指一家专注于高端求职和职业规划的咨询/教育机构）的**“导师赋能”**，是指该平台通过链接来自全球顶尖行业（如咨询、投行、科技、快消等）的精英导师，为学员提供全方位的职业发展支持和能力提升。\n\n其核心内容主要包括以下几个方面：\n\n1. **行业洞察与经验传授**\n   * **实战经验分享：** 导师利用自身的从业经历，向学员传授真实的行业生态、工作流程以及最新的行业趋势。\n   * **消除信息差：** 帮助学员了解目标岗位最真实的技能需求和招聘偏好。\n\n2. **个性化求职辅导**\n   * **职业规划：** 导师根据学员的背景和特长，量身定制求职路径和时间线。\n   * **简历与面试精修：** 提供一对一的简历修改、求职信撰写指导以及深度模拟面试（Mock Interview），针对性提升求职竞争力。\n\n3. **核心专业技能提升（Hard & Soft Skills）**\n   * **硬技能辅导：** 传授具体岗位所需的专业工具、估值模型、Case analysis（案例分析）等实操技能。\n   * **软实力培养：** 提升学员的职场沟通、逻辑表达、问题解决和项目管理能力。\n\n4. **人脉拓展与资源链接（Networking）**\n   * **人脉搭建：** 帮助学员建立与行业资深人士的联系。\n   * **内推机会：** 部分导师能够为优秀学员提供企业内部推荐（内推）机会，打破传统简历筛选的壁垒。\n\n**总结来说：**\nSkillver 的“导师赋能”本质上是一种**“精英带教”模式**。它通过将学术理论与职场实操无缝链接，帮助留学生或职场新人快速弥补能力短板，实现从“学生”到“高竞争力职场人”的转变。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

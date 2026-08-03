@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "“七维战力评估”是**军事领域**常用的一种综合战力分析框架，暂无统一官方定义，不同场景下的维度划分略有差异，核心是从多个维度全面衡量作战能力。\n\n### 常见维度（参考）\n多数语境下包含以下7个维度：\n1. **指挥控制**：指挥体系、决策效率、协同能力\n2. **火力打击**：武器射程、精度、毁伤能力\n3. **机动能力**：兵力/装备的部署、转移、投送速度\n4. **防护生存**：防御工事、抗打击、隐蔽伪装能力\n5. **信息感知**：侦察、预警、情报获取与处理能力\n6. **综合保障**：后勤补给、装备维修、人员保障\n7. **体系对抗**：多军兵种协同、联合作战、抗干扰能力\n\n### 其他可能\n- 部分游戏/科幻设定中也会借用该概念，维度会调整为**攻击、防御、机动、续航、技能、资源、成长**等。\n- 若你指的是特定领域（如游戏、某国军方标准），可补充说明，以便更精准解答。",
+  "sources": [],
+  "raw": {
+    "id": "b8b671a3-6bf7-48e6-a0c1-9a088ad13ed0",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600070,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“七维战力评估”是**军事领域**常用的一种综合战力分析框架，暂无统一官方定义，不同场景下的维度划分略有差异，核心是从多个维度全面衡量作战能力。\n\n### 常见维度（参考）\n多数语境下包含以下7个维度：\n1. **指挥控制**：指挥体系、决策效率、协同能力\n2. **火力打击**：武器射程、精度、毁伤能力\n3. **机动能力**：兵力/装备的部署、转移、投送速度\n4. **防护生存**：防御工事、抗打击、隐蔽伪装能力\n5. **信息感知**：侦察、预警、情报获取与处理能力\n6. **综合保障**：后勤补给、装备维修、人员保障\n7. **体系对抗**：多军兵种协同、联合作战、抗干扰能力\n\n### 其他可能\n- 部分游戏/科幻设定中也会借用该概念，维度会调整为**攻击、防御、机动、续航、技能、资源、成长**等。\n- 若你指的是特定领域（如游戏、某国军方标准），可补充说明，以便更精准解答。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 240,
+      "total_tokens": 287,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:14:34.728091Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "“七维战力评估”是**军事领域**常用的一种综合战力分析框架，暂无统一官方定义，不同场景下的维度划分略有差异，核心是从多个维度全面衡量作战能力。\n\n### 常见维度（参考）\n多数语境下包含以下7个维度：\n1. **指挥控制**：指挥体系、决策效率、协同能力\n2. **火力打击**：武器射程、精度、毁伤能力\n3. **机动能力**：兵力/装备的部署、转移、投送速度\n4. **防护生存**：防御工事、抗打击、隐蔽伪装能力\n5. **信息感知**：侦察、预警、情报获取与处理能力\n6. **综合保障**：后勤补给、装备维修、人员保障\n7. **体系对抗**：多军兵种协同、联合作战、抗干扰能力\n\n### 其他可能\n- 部分游戏/科幻设定中也会借用该概念，维度会调整为**攻击、防御、机动、续航、技能、资源、成长**等。\n- 若你指的是特定领域（如游戏、某国军方标准），可补充说明，以便更精准解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

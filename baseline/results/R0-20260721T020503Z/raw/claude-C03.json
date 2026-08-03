@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "# 准备 AI 岗位面试的工具推荐\n\n## 📚 学习与知识储备\n\n| 工具 | 用途 |\n|------|------|\n| **Coursera / edX** | 系统学习 ML/DL 课程 |\n| **fast.ai** | 实践导向的深度学习课程 |\n| **Papers with Code** | 了解最新论文和 SOTA 方法 |\n| **Arxiv** | 跟踪前沿研究 |\n\n## 💻 编程与算法练习\n\n- **LeetCode** — 刷算法题（重点：数组、动态规划、图）\n- **Kaggle** — 实战项目 + 竞赛经验\n- **GitHub** — 整理个人项目代码\n\n## 🤖 AI 辅助备考\n\n- **ChatGPT / Claude** — 模拟面试、解释概念、生成练习题\n- **Notion AI** — 整理笔记和知识体系\n- **Anki** — 制作记忆卡片（公式、概念）\n\n## 🎯 面试专项练习\n\n- **Pramp** — 免费模拟技术面试\n- **interviewing.io** — 匿名模拟面试\n- **ML Interview 题库** — 如《百面机器学习》\n\n## 📊 重点准备内容\n\n- [ ] 机器学习基础（损失函数、正则化、优化器）\n- [ ] 深度学习（CNN、RNN、Transformer）\n- [ ] 统计与概率\n- [ ] Python / SQL 编程\n- [ ] 项目经验表达（STAR 法则）\n\n---\n\n**建议**：结合 **Kaggle 实战 + LeetCode 刷题 + ChatGPT 模拟问答** 效果最佳。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQQpN7SMWN9QxePGnwX",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 准备 AI 岗位面试的工具推荐\n\n## 📚 学习与知识储备\n\n| 工具 | 用途 |\n|------|------|\n| **Coursera / edX** | 系统学习 ML/DL 课程 |\n| **fast.ai** | 实践导向的深度学习课程 |\n| **Papers with Code** | 了解最新论文和 SOTA 方法 |\n| **Arxiv** | 跟踪前沿研究 |\n\n## 💻 编程与算法练习\n\n- **LeetCode** — 刷算法题（重点：数组、动态规划、图）\n- **Kaggle** — 实战项目 + 竞赛经验\n- **GitHub** — 整理个人项目代码\n\n## 🤖 AI 辅助备考\n\n- **ChatGPT / Claude** — 模拟面试、解释概念、生成练习题\n- **Notion AI** — 整理笔记和知识体系\n- **Anki** — 制作记忆卡片（公式、概念）\n\n## 🎯 面试专项练习\n\n- **Pramp** — 免费模拟技术面试\n- **interviewing.io** — 匿名模拟面试\n- **ML Interview 题库** — 如《百面机器学习》\n\n## 📊 重点准备内容\n\n- [ ] 机器学习基础（损失函数、正则化、优化器）\n- [ ] 深度学习（CNN、RNN、Transformer）\n- [ ] 统计与概率\n- [ ] Python / SQL 编程\n- [ ] 项目经验表达（STAR 法则）\n\n---\n\n**建议**：结合 **Kaggle 实战 + LeetCode 刷题 + ChatGPT 模拟问答** 效果最佳。"
+        }
+      }
+    ],
+    "created": 1784600483,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 516,
+      "prompt_tokens": 56,
+      "total_tokens": 572
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:21:23.359938Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "# 准备 AI 岗位面试的工具推荐\n\n## 📚 学习与知识储备\n\n| 工具 | 用途 |\n|------|------|\n| **Coursera / edX** | 系统学习 ML/DL 课程 |\n| **fast.ai** | 实践导向的深度学习课程 |\n| **Papers with Code** | 了解最新论文和 SOTA 方法 |\n| **Arxiv** | 跟踪前沿研究 |\n\n## 💻 编程与算法练习\n\n- **LeetCode** — 刷算法题（重点：数组、动态规划、图）\n- **Kaggle** — 实战项目 + 竞赛经验\n- **GitHub** — 整理个人项目代码\n\n## 🤖 AI 辅助备考\n\n- **ChatGPT / Claude** — 模拟面试、解释概念、生成练习题\n- **Notion AI** — 整理笔记和知识体系\n- **Anki** — 制作记忆卡片（公式、概念）\n\n## 🎯 面试专项练习\n\n- **Pramp** — 免费模拟技术面试\n- **interviewing.io** — 匿名模拟面试\n- **ML Interview 题库** — 如《百面机器学习》\n\n## 📊 重点准备内容\n\n- [ ] 机器学习基础（损失函数、正则化、优化器）\n- [ ] 深度学习（CNN、RNN、Transformer）\n- [ ] 统计与概率\n- [ ] Python / SQL 编程\n- [ ] 项目经验表达（STAR 法则）\n\n---\n\n**建议**：结合 **Kaggle 实战 + LeetCode 刷题 + ChatGPT 模拟问答** 效果最佳。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "我无法直接确认 Skillver 的具体数据处理规则，除非你提供其隐私政策或相关说明。一般来说，简历和面试数据通常会按以下方式处理：\n\n1. **收集数据**  \n   包括简历内容、联系方式、教育/工作经历、技能、面试录音/录像、面试文字记录、测评结果等。\n\n2. **用于招聘或评估**  \n   可能用于候选人筛选、岗位匹配、面试评估、技能分析、生成报告等。\n\n3. **AI 分析**  \n   如果 Skillver 使用 AI，可能会对简历和面试内容进行解析、评分、总结或匹配推荐。需要确认这些数据是否会被用于训练模型。\n\n4. **数据存储与安全**  \n   合规平台通常会采取加密、访问控制、权限管理等方式保护数据。\n\n5. **数据共享**  \n   数据可能会分享给招聘方、企业客户或第三方服务商。你应重点查看是否会未经同意向其他方出售或共享数据。\n\n6. **保留与删除**  \n   应说明数据会保存多久，以及用户是否可以申请删除、导出或更正自己的数据。\n\n建议你查看 Skillver 的 **隐私政策、用户协议或数据处理协议**，重点关注：是否用于 AI 训练、数据保存期限、第三方共享、删除机制和用户授权范围。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uLeTJ27RBvtvqbfz81EMbwjP3RL",
+    "object": "chat.completion",
+    "created": 1784600294,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我无法直接确认 Skillver 的具体数据处理规则，除非你提供其隐私政策或相关说明。一般来说，简历和面试数据通常会按以下方式处理：\n\n1. **收集数据**  \n   包括简历内容、联系方式、教育/工作经历、技能、面试录音/录像、面试文字记录、测评结果等。\n\n2. **用于招聘或评估**  \n   可能用于候选人筛选、岗位匹配、面试评估、技能分析、生成报告等。\n\n3. **AI 分析**  \n   如果 Skillver 使用 AI，可能会对简历和面试内容进行解析、评分、总结或匹配推荐。需要确认这些数据是否会被用于训练模型。\n\n4. **数据存储与安全**  \n   合规平台通常会采取加密、访问控制、权限管理等方式保护数据。\n\n5. **数据共享**  \n   数据可能会分享给招聘方、企业客户或第三方服务商。你应重点查看是否会未经同意向其他方出售或共享数据。\n\n6. **保留与删除**  \n   应说明数据会保存多久，以及用户是否可以申请删除、导出或更正自己的数据。\n\n建议你查看 Skillver 的 **隐私政策、用户协议或数据处理协议**，重点关注：是否用于 AI 训练、数据保存期限、第三方共享、删除机制和用户授权范围。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 489,
+      "total_tokens": 535,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 172,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:18:24.207161Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "我无法直接确认 Skillver 的具体数据处理规则，除非你提供其隐私政策或相关说明。一般来说，简历和面试数据通常会按以下方式处理：\n\n1. **收集数据**  \n   包括简历内容、联系方式、教育/工作经历、技能、面试录音/录像、面试文字记录、测评结果等。\n\n2. **用于招聘或评估**  \n   可能用于候选人筛选、岗位匹配、面试评估、技能分析、生成报告等。\n\n3. **AI 分析**  \n   如果 Skillver 使用 AI，可能会对简历和面试内容进行解析、评分、总结或匹配推荐。需要确认这些数据是否会被用于训练模型。\n\n4. **数据存储与安全**  \n   合规平台通常会采取加密、访问控制、权限管理等方式保护数据。\n\n5. **数据共享**  \n   数据可能会分享给招聘方、企业客户或第三方服务商。你应重点查看是否会未经同意向其他方出售或共享数据。\n\n6. **保留与删除**  \n   应说明数据会保存多久，以及用户是否可以申请删除、导出或更正自己的数据。\n\n建议你查看 Skillver 的 **隐私政策、用户协议或数据处理协议**，重点关注：是否用于 AI 训练、数据保存期限、第三方共享、删除机制和用户授权范围。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

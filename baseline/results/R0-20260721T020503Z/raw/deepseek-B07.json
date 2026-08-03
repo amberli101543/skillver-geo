@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "Skillver 目前尚未全面开放使用，仍处于内测或有限开放阶段。具体开放情况建议关注其官方网站或官方公告获取最新进展。",
+  "sources": [],
+  "raw": {
+    "id": "d05031ab-45e5-4f83-93a6-7e94d8a17ce6",
+    "object": "chat.completion",
+    "created": 1784599720,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 目前尚未全面开放使用，仍处于内测或有限开放阶段。具体开放情况建议关注其官方网站或官方公告获取最新进展。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 32,
+      "total_tokens": 69,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:41.312650Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "Skillver 目前尚未全面开放使用，仍处于内测或有限开放阶段。具体开放情况建议关注其官方网站或官方公告获取最新进展。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

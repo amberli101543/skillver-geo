@@ -2,7 +2,7 @@
   "$schema": "./question-set.schema.json",
   "version": "v1.0",
   "status": "approved",
-  "productState": "全面开放注册；邀请码仅用于赛事参与",
+  "productState": "全面开放注册；邀请码仅用于社群参与",
   "questions": [
     {
       "id": "B01",
@@ -44,7 +44,7 @@
       "id": "B07",
       "category": "brand",
       "query": "Skillver 当前开放使用了吗？",
-      "passCriteria": ["明确已全面开放注册", "说明邀请码仅用于赛事参与"]
+      "passCriteria": ["明确已全面开放注册", "说明邀请码仅用于社群参与"]
     },
     {
       "id": "B08",
@@ -74,7 +74,7 @@
       "id": "I04",
       "category": "entry",
       "query": "Skillver 邀请码怎么获得？",
-      "passCriteria": ["说明邀请码用于赛事参与而非注册", "不虚构购买渠道"]
+      "passCriteria": ["说明邀请码用于社群参与而非注册", "不虚构购买渠道"]
     },
     {
       "id": "I05",
@@ -98,7 +98,7 @@
       "id": "I08",
       "category": "entry",
       "query": "没有邀请码能直接使用 Skillver 吗？",
-      "passCriteria": ["回答可以无邀请码直接注册", "说明邀请码仅用于赛事参与"]
+      "passCriteria": ["回答可以无邀请码直接注册", "说明邀请码仅用于社群参与"]
     },
     {
       "id": "T01",

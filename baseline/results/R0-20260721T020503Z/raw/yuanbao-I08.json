@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "Skillver 的具体访问政策可能会随时间调整，但根据常见情况：  \n目前 Skillver 通常需要邀请码才能注册使用。若没有邀请码，暂时无法直接注册新账号。  \n\n你可以尝试以下途径获取邀请码：  \n1. 关注 Skillver 的官方社交媒体或社区（如 Discord、Twitter），官方可能不定期发放邀请。  \n2. 向已注册的用户请求邀请（部分平台支持老用户生成邀请链接）。  \n3. 等待平台开放公测或注册限制解除。  \n\n建议直接访问 Skillver 官方网站查看最新公告，以获取最准确的访问信息。",
+  "sources": [],
+  "raw": {
+    "id": "74bc20f1-1364-4003-9513-32ad49521a42",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599990,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的具体访问政策可能会随时间调整，但根据常见情况：  \n目前 Skillver 通常需要邀请码才能注册使用。若没有邀请码，暂时无法直接注册新账号。  \n\n你可以尝试以下途径获取邀请码：  \n1. 关注 Skillver 的官方社交媒体或社区（如 Discord、Twitter），官方可能不定期发放邀请。  \n2. 向已注册的用户请求邀请（部分平台支持老用户生成邀请链接）。  \n3. 等待平台开放公测或注册限制解除。  \n\n建议直接访问 Skillver 官方网站查看最新公告，以获取最准确的访问信息。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 127,
+      "total_tokens": 177,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:14.289420Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "Skillver 的具体访问政策可能会随时间调整，但根据常见情况：  \n目前 Skillver 通常需要邀请码才能注册使用。若没有邀请码，暂时无法直接注册新账号。  \n\n你可以尝试以下途径获取邀请码：  \n1. 关注 Skillver 的官方社交媒体或社区（如 Discord、Twitter），官方可能不定期发放邀请。  \n2. 向已注册的用户请求邀请（部分平台支持老用户生成邀请链接）。  \n3. 等待平台开放公测或注册限制解除。  \n\n建议直接访问 Skillver 官方网站查看最新公告，以获取最准确的访问信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

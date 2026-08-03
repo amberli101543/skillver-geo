@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "## 关于 Skillver 邀请码\n\n根据我目前掌握的信息，**Skillver** 是一款需要邀请码才能注册使用的平台/应用。\n\n**通常情况下：**\n- ❌ 没有邀请码**无法直接注册**使用\n- 需要通过现有用户获得邀请码，或者加入候补名单等待官方邀请\n\n**建议您可以尝试：**\n1. 访问 Skillver 官网，查看是否有**候补名单（Waitlist）**可以申请\n2. 在社交媒体（如 Twitter、Reddit、Discord）上寻找邀请码\n3. 联系官方客服询问获取方式\n\n---\n\n⚠️ **注意：** 我的知识有截止日期，Skillver 的注册政策可能已有变化，建议直接访问其**官方网站**获取最新信息。\n\n请问您需要其他帮助吗？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPpAg27Wje8HbEU5PeE",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 关于 Skillver 邀请码\n\n根据我目前掌握的信息，**Skillver** 是一款需要邀请码才能注册使用的平台/应用。\n\n**通常情况下：**\n- ❌ 没有邀请码**无法直接注册**使用\n- 需要通过现有用户获得邀请码，或者加入候补名单等待官方邀请\n\n**建议您可以尝试：**\n1. 访问 Skillver 官网，查看是否有**候补名单（Waitlist）**可以申请\n2. 在社交媒体（如 Twitter、Reddit、Discord）上寻找邀请码\n3. 联系官方客服询问获取方式\n\n---\n\n⚠️ **注意：** 我的知识有截止日期，Skillver 的注册政策可能已有变化，建议直接访问其**官方网站**获取最新信息。\n\n请问您需要其他帮助吗？"
+        }
+      }
+    ],
+    "created": 1784600009,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 285,
+      "prompt_tokens": 57,
+      "total_tokens": 342
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:29.349357Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "## 关于 Skillver 邀请码\n\n根据我目前掌握的信息，**Skillver** 是一款需要邀请码才能注册使用的平台/应用。\n\n**通常情况下：**\n- ❌ 没有邀请码**无法直接注册**使用\n- 需要通过现有用户获得邀请码，或者加入候补名单等待官方邀请\n\n**建议您可以尝试：**\n1. 访问 Skillver 官网，查看是否有**候补名单（Waitlist）**可以申请\n2. 在社交媒体（如 Twitter、Reddit、Discord）上寻找邀请码\n3. 联系官方客服询问获取方式\n\n---\n\n⚠️ **注意：** 我的知识有截止日期，Skillver 的注册政策可能已有变化，建议直接访问其**官方网站**获取最新信息。\n\n请问您需要其他帮助吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

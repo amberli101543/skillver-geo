@@ -1,0 +1,214 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "**是的，Skillver 有移动端**。\n\nSkillver 已推出基于 **Flutter** 开发的移动端 App，支持**完整的求职主线体验**（包括注册、登录、AI 面试、岗位匹配等功能）[1]。\n\n**关键细节**：\n*   **多端同步**：注册后，用户在 Web 端与移动端可以**同步使用求职进度** [1]。\n*   **使用入口**：移动端 App 与 Web 端（www.skillver.cn 或 www.skillver.ai）功能一致，均为官方产品入口 [1]。\n*   **注意区分**：搜索结果中出现的 \"SKILL-VERSE\"、\"Skillveri\" 或 \"Skiller\" 等应用属于其他不同产品，并非 Skillver（AI 求职助手）[2][3][4]。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/us/app/skill-%E4%BB%A3%E7%A0%81%E5%BE%AE%E5%AD%A6%E4%B9%A0/id1671574321?l=zh-Hans-CN",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2623829",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/skill-%E4%BB%A3%E7%A0%81%E5%BE%AE%E5%AD%A6%E4%B9%A0/id1671574321?l=zh-Hans-CN",
+      "title": "Skill: 代码微学习- App Store"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2623829",
+      "title": "火爆全网的Skills，终于有了最简单的打开方式。 - 腾讯云"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK",
+      "title": "Skill App - Google Play 應用程式"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh",
+      "title": "Skill App - Google Play 上的应用"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**是的，Skillver 有移动端**。\n\nSkillver 已推出基于 **Flutter** 开发的移动端 App，支持**完整的求职主线体验**（包括注册、登录、AI 面试、岗位匹配等功能）[1]。\n\n**关键细节**：\n*   **多端同步**：注册后，用户在 Web 端与移动端可以**同步使用求职进度** [1]。\n*   **使用入口**：移动端 App 与 Web 端（www.skillver.cn 或 www.skillver.ai）功能一致，均为官方产品入口 [1]。\n*   **注意区分**：搜索结果中出现的 \"SKILL-VERSE\"、\"Skillveri\" 或 \"Skiller\" 等应用属于其他不同产品，并非 Skillver（AI 求职助手）[2][3][4]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://meta.appinn.net/t/topic/84427",
+      "https://apps.apple.com/us/app/skill-%E4%BB%A3%E7%A0%81%E5%BE%AE%E5%AD%A6%E4%B9%A0/id1671574321?l=zh-Hans-CN",
+      "https://cloud.tencent.com/developer/article/2623829",
+      "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK",
+      "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh"
+    ],
+    "created": 1784599961,
+    "id": "a0dedb11-8421-41ff-8023-760db4680896",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品使用入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）；www.tcodeai.com 是品牌内容站，用于品牌介绍与内容沉淀。\n...\n人才端（求职者）已开放注册，无需邀请码：\n...\n## 移动端能用吗？\n可以。Skillver 移动端（Flutter App）已支持完整求职主线体验。注册后可在 Web 端与移动端同步使用求职进度。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai——两个域名功能完全相同，任选其一即可。\nwww.tcodeai.com 是...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "SKILL-VERSE - Google Play 上的应用\n# SKILL-VERSE\n...\n支持团队邮箱\nsupport@classplus.co\n...\nBUNCH MICROTECHNOLOGIES PRIVATE LIMITED\npsupdates@classplus.co\nFirst Floor, D-8, Sector-3, Noida\nGautam Budh Nagar, Uttar Pradesh 201301\nIndia\n+91 72900 85267",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "L'application d'assistance Skillveri est un guichet unique pour tous vos besoins Skillveri.\nAvec cette application, vous pouvez facilement accéder aux descriptions de produits, aux actualités sur Skillveri, ainsi qu'à l'assistance et aux informations pour les utilisateurs.\n...\nL'application d'assist...",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-04-23",
+        "last_updated": "2026-05-07",
+        "place_metadata": null,
+        "snippet": "## 应用平台\n- Windows\n- MacOS\n- Linux",
+        "source": "web",
+        "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具",
+        "url": "https://meta.appinn.net/t/topic/84427"
+      },
+      {
+        "date": "2023-09-27",
+        "last_updated": "2026-02-18",
+        "place_metadata": null,
+        "snippet": "仅适用于 iPhone\n免费 · App 内购买 · 专为 iPhone 设计\n...\n• Swift 与 Swift Advanced：使用 Apple 的语言构建 iOS 应用。\n• Kotlin：Google 首选的 Android 开发语言。\n...\n• 离线与移动端：随时随地学编程——完全支持离线使用。\n• 无广告、自主节奏：无干扰，无压力。按照自己的速度学习。\n...\n## 设备需装有 iOS 16.0 或更高版本。\n**iPhone**\n设备需装有 iOS 16.0 或更高版本。",
+        "source": "web",
+        "title": "Skill: 代码微学习- App Store",
+        "url": "https://apps.apple.com/us/app/skill-%E4%BB%A3%E7%A0%81%E5%BE%AE%E5%AD%A6%E4%B9%A0/id1671574321?l=zh-Hans-CN"
+      },
+      {
+        "date": "2026-01-26",
+        "last_updated": "2026-04-15",
+        "place_metadata": null,
+        "snippet": "它只能在你开着扣子的网页时，才能弹通知给你，扣子的APP端还不支持。",
+        "source": "web",
+        "title": "火爆全网的Skills，终于有了最简单的打开方式。 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2623829"
+      },
+      {
+        "date": "2026-01-13",
+        "last_updated": "2026-01-17",
+        "place_metadata": null,
+        "snippet": "Skill App - Google Play 應用程式\n...\n7. AI驅動的職業援助人才應用程式基於用戶的人才和認證，該應用程式使用人工智慧驅動的技術來提供工作推薦、履歷幫助和職業指導。8.\n跨裝置的可訪問性在技​​術應用程式的幫助下，學生可以從任何位置存取他們的課程隨時在各種裝置上，包括桌上型電腦、平板電腦和智慧型手機。\n...\n電話號碼\n+918851920153\n支援電郵地址\nsupport@edtechinnovate.com\n...\nEDTECH INNOVATE PRIVATE LIMITED\ntechnology@edtechinnovate.com\nB-127, Firs...",
+        "source": "web",
+        "title": "Skill App - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK"
+      },
+      {
+        "date": "2026-01-11",
+        "last_updated": "2026-01-13",
+        "place_metadata": null,
+        "snippet": "8. 跨设备的可访问性\n在技能应用程序的帮助下，学生可以从任何位置访问他们的课程\n随时在各种设备上，包括台式电脑、平板电脑和\n智能手机。\n...\n电话号码\n+918851920153\nemail\n支持团队邮箱\nsupport@edtechinnovate.com\nshield\n...\nEDTECH INNOVATE PRIVATE LIMITED\ntechnology@edtechinnovate.com\nB-127, First Floor, F-03, Sector-2 Noida, Uttar Pradesh 201301 India\n+91 88519 20153\nflag",
+        "source": "web",
+        "title": "Skill App - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 193,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00019,
+        "request_cost": 0.005,
+        "total_cost": 0.00523
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 225
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:41.409590Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "**是的，Skillver 有移动端**。\n\nSkillver 已推出基于 **Flutter** 开发的移动端 App，支持**完整的求职主线体验**（包括注册、登录、AI 面试、岗位匹配等功能）[1]。\n\n**关键细节**：\n*   **多端同步**：注册后，用户在 Web 端与移动端可以**同步使用求职进度** [1]。\n*   **使用入口**：移动端 App 与 Web 端（www.skillver.cn 或 www.skillver.ai）功能一致，均为官方产品入口 [1]。\n*   **注意区分**：搜索结果中出现的 \"SKILL-VERSE\"、\"Skillveri\" 或 \"Skiller\" 等应用属于其他不同产品，并非 Skillver（AI 求职助手）[2][3][4]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

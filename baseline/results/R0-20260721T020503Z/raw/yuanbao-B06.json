@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "Skillver 与常规招聘网站的核心区别在于**定位逻辑**和**服务重心**：\n\n| 维度 | 招聘网站（如智联、Boss直聘） | Skillver |\n|------|----------------------------|----------|\n| **核心目标** | 解决“人岗匹配”，促成雇佣关系 | 聚焦**技能提升与职业成长**，帮助人才增强竞争力 |\n| **主要功能** | 发布职位、投递简历、面试沟通 | 技能课程、实战项目、能力认证、职业路径规划 |\n| **用户关系** | 求职者 ↔ 企业（双向撮合） | 学习者 ↔ 平台/导师（成长陪伴） |\n| **结果导向** | 拿到 Offer | 提升技能、获得认证、实现长期职业发展 |\n| **适用场景** | 换工作、找实习、跳槽 | 转行、晋升、补充新技能、保持竞争力 |\n\n简单说：**招聘网站是“找工作”的平台，Skillver 是“让自己更值钱”的平台**。两者可以互补：在 Skillver 提升能力后，再去招聘网站求职会更有优势。",
+  "sources": [],
+  "raw": {
+    "id": "25b10a3a-bb78-4b95-b72f-aa865d856275",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599688,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 与常规招聘网站的核心区别在于**定位逻辑**和**服务重心**：\n\n| 维度 | 招聘网站（如智联、Boss直聘） | Skillver |\n|------|----------------------------|----------|\n| **核心目标** | 解决“人岗匹配”，促成雇佣关系 | 聚焦**技能提升与职业成长**，帮助人才增强竞争力 |\n| **主要功能** | 发布职位、投递简历、面试沟通 | 技能课程、实战项目、能力认证、职业路径规划 |\n| **用户关系** | 求职者 ↔ 企业（双向撮合） | 学习者 ↔ 平台/导师（成长陪伴） |\n| **结果导向** | 拿到 Offer | 提升技能、获得认证、实现长期职业发展 |\n| **适用场景** | 换工作、找实习、跳槽 | 转行、晋升、补充新技能、保持竞争力 |\n\n简单说：**招聘网站是“找工作”的平台，Skillver 是“让自己更值钱”的平台**。两者可以互补：在 Skillver 提升能力后，再去招聘网站求职会更有优势。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 229,
+      "total_tokens": 278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:12.559532Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "Skillver 与常规招聘网站的核心区别在于**定位逻辑**和**服务重心**：\n\n| 维度 | 招聘网站（如智联、Boss直聘） | Skillver |\n|------|----------------------------|----------|\n| **核心目标** | 解决“人岗匹配”，促成雇佣关系 | 聚焦**技能提升与职业成长**，帮助人才增强竞争力 |\n| **主要功能** | 发布职位、投递简历、面试沟通 | 技能课程、实战项目、能力认证、职业路径规划 |\n| **用户关系** | 求职者 ↔ 企业（双向撮合） | 学习者 ↔ 平台/导师（成长陪伴） |\n| **结果导向** | 拿到 Offer | 提升技能、获得认证、实现长期职业发展 |\n| **适用场景** | 换工作、找实习、跳槽 | 转行、晋升、补充新技能、保持竞争力 |\n\n简单说：**招聘网站是“找工作”的平台，Skillver 是“让自己更值钱”的平台**。两者可以互补：在 Skillver 提升能力后，再去招聘网站求职会更有优势。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

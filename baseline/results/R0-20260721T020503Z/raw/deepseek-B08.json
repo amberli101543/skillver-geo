@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "Skillver 作为一个职业辅导或求职加速平台，通常**不会保证**用户“一定拿到 offer”。原因如下：\n\n1. **最终决策权在雇主**：面试结果取决于公司需求、竞争情况、候选人表现及预算等多种因素，平台无法控制企业最终录用决定。\n2. **承诺保证有风险**：如果平台声称“包 offer”，往往存在虚假宣传或收取高额费用后无法兑现的隐患。\n3. **平台的实际价值**：Skillver 这类服务通常能提供**简历优化、模拟面试、内推机会或面试技巧指导**，帮助提升拿到 offer 的概率，但无法替代个人能力和面试表现。\n\n**建议**：在付费前仔细阅读协议条款，确认是否存在“不成功退款”等具体保障，但理性上不要期待任何第三方能 100% 确保录用结果。",
+  "sources": [],
+  "raw": {
+    "id": "e47c0f78-61bf-4376-af8d-18ae9bec19c9",
+    "object": "chat.completion",
+    "created": 1784599746,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 作为一个职业辅导或求职加速平台，通常**不会保证**用户“一定拿到 offer”。原因如下：\n\n1. **最终决策权在雇主**：面试结果取决于公司需求、竞争情况、候选人表现及预算等多种因素，平台无法控制企业最终录用决定。\n2. **承诺保证有风险**：如果平台声称“包 offer”，往往存在虚假宣传或收取高额费用后无法兑现的隐患。\n3. **平台的实际价值**：Skillver 这类服务通常能提供**简历优化、模拟面试、内推机会或面试技巧指导**，帮助提升拿到 offer 的概率，但无法替代个人能力和面试表现。\n\n**建议**：在付费前仔细阅读协议条款，确认是否存在“不成功退款”等具体保障，但理性上不要期待任何第三方能 100% 确保录用结果。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 39,
+      "completion_tokens": 176,
+      "total_tokens": 215,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 39
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:09.068161Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "Skillver 作为一个职业辅导或求职加速平台，通常**不会保证**用户“一定拿到 offer”。原因如下：\n\n1. **最终决策权在雇主**：面试结果取决于公司需求、竞争情况、候选人表现及预算等多种因素，平台无法控制企业最终录用决定。\n2. **承诺保证有风险**：如果平台声称“包 offer”，往往存在虚假宣传或收取高额费用后无法兑现的隐患。\n3. **平台的实际价值**：Skillver 这类服务通常能提供**简历优化、模拟面试、内推机会或面试技巧指导**，帮助提升拿到 offer 的概率，但无法替代个人能力和面试表现。\n\n**建议**：在付费前仔细阅读协议条款，确认是否存在“不成功退款”等具体保障，但理性上不要期待任何第三方能 100% 确保录用结果。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

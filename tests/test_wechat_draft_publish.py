@@ -26,7 +26,7 @@ title: Skillver 还要邀请码吗？先把两件事说清楚
 
 # Skillver 还要邀请码吗？先把两件事说清楚
 
-答案是：**已全面开放注册；邀请码仅用于赛事参与。**
+答案是：**已全面开放注册；邀请码仅用于社群参与。**
 
 第二段说明。
 """
@@ -40,7 +40,7 @@ class WechatDraftPublishTests(unittest.TestCase):
         self.assertIn("还要邀请码吗", title)
         html = markdown_to_wechat_html(body)
         self.assertIn("<strong>", html)
-        self.assertIn("赛事参与", html)
+        self.assertIn("社群参与", html)
         self.assertNotIn("<h1>", html)
         digest = build_digest(html)
         self.assertTrue(1 <= len(digest) <= 54)

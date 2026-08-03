@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "“Skillver” 目前并非一个广泛认知的通用平台或工具，因此无法给出确切的使用场景。建议您确认名称拼写是否正确，或补充更多背景信息（如所属领域、相关功能等），以便我为您提供更准确的答案。\n\n如果您指的是其他类似名称的工具（如技能学习、职业发展的平台），也可以进一步说明，我会尽力协助！ 😊",
+  "sources": [],
+  "raw": {
+    "id": "fb631ed4-6f56-40c0-972f-882489d06b67",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599816,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 目前并非一个广泛认知的通用平台或工具，因此无法给出确切的使用场景。建议您确认名称拼写是否正确，或补充更多背景信息（如所属领域、相关功能等），以便我为您提供更准确的答案。\n\n如果您指的是其他类似名称的工具（如技能学习、职业发展的平台），也可以进一步说明，我会尽力协助！ 😊"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 77,
+      "total_tokens": 123,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:19.376784Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "“Skillver” 目前并非一个广泛认知的通用平台或工具，因此无法给出确切的使用场景。建议您确认名称拼写是否正确，或补充更多背景信息（如所属领域、相关功能等），以便我为您提供更准确的答案。\n\n如果您指的是其他类似名称的工具（如技能学习、职业发展的平台），也可以进一步说明，我会尽力协助！ 😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试，可以结合以下工具从**知识复习、代码练习、项目实操、面试模拟**四个维度进行准备：\n\n### 一、基础知识复习\n- **LeetCode**：刷算法题（重点：动态规划、图论、数组/字符串），AI 岗常考中等难度题。\n- **牛客网**：国内 AI/算法岗真题、面经汇总，含大厂（字节、腾讯、阿里）真实面试题。\n- **Coursera / 吴恩达《机器学习》《深度学习》**：系统复习核心理论（反向传播、损失函数、优化器等）。\n- **Papers with Code**：了解前沿模型（Transformer、Diffusion、LLM）的论文与代码实现。\n\n### 二、代码与工程能力\n- **Kaggle**：做实战项目（如图像分类、NLP 情感分析），积累可写进简历的项目经验。\n- **Hugging Face**：熟悉主流预训练模型（BERT、GPT、CLIP）的调用与微调，大厂常考。\n- **GitHub**：整理自己的项目代码，学习优秀开源项目的工程规范。\n- **PyTorch 官方教程 / TensorFlow 文档**：巩固框架使用细节（张量操作、自动求导、模型保存加载）。\n\n### 三、面试模拟与表达\n- **Interviewing.io**：模拟技术面试（含 AI/ML 方向），有面试官反馈。\n- **知乎 / 小红书**：看 AI 岗面经，总结高频问题（如“Transformer 为什么用多头注意力？”“过拟合怎么解决？”）。\n- **ChatGPT / 文心一言**：模拟面试官提问，练习回答逻辑。\n\n### 四、其他辅助\n- **Notion / 飞书文档**：整理知识点、项目笔记、面试题库。\n- **VisuAlgo**：可视化算法过程，辅助理解复杂模型（如神经网络前向/反向传播）。\n\n### 建议优先级\n1. 先刷 **LeetCode 算法题 + 牛客网面经**，覆盖基础与高频问题。\n2. 用 **Hugging Face + Kaggle** 做实项目，补充简历亮点。\n3. 最后用 **Interviewing.io / ChatGPT** 模拟面试，优化表达逻辑。",
+  "sources": [],
+  "raw": {
+    "id": "55a361cc-fd7a-4ad2-9685-a448b9047b1a",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600446,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "准备 AI 岗位面试，可以结合以下工具从**知识复习、代码练习、项目实操、面试模拟**四个维度进行准备：\n\n### 一、基础知识复习\n- **LeetCode**：刷算法题（重点：动态规划、图论、数组/字符串），AI 岗常考中等难度题。\n- **牛客网**：国内 AI/算法岗真题、面经汇总，含大厂（字节、腾讯、阿里）真实面试题。\n- **Coursera / 吴恩达《机器学习》《深度学习》**：系统复习核心理论（反向传播、损失函数、优化器等）。\n- **Papers with Code**：了解前沿模型（Transformer、Diffusion、LLM）的论文与代码实现。\n\n### 二、代码与工程能力\n- **Kaggle**：做实战项目（如图像分类、NLP 情感分析），积累可写进简历的项目经验。\n- **Hugging Face**：熟悉主流预训练模型（BERT、GPT、CLIP）的调用与微调，大厂常考。\n- **GitHub**：整理自己的项目代码，学习优秀开源项目的工程规范。\n- **PyTorch 官方教程 / TensorFlow 文档**：巩固框架使用细节（张量操作、自动求导、模型保存加载）。\n\n### 三、面试模拟与表达\n- **Interviewing.io**：模拟技术面试（含 AI/ML 方向），有面试官反馈。\n- **知乎 / 小红书**：看 AI 岗面经，总结高频问题（如“Transformer 为什么用多头注意力？”“过拟合怎么解决？”）。\n- **ChatGPT / 文心一言**：模拟面试官提问，练习回答逻辑。\n\n### 四、其他辅助\n- **Notion / 飞书文档**：整理知识点、项目笔记、面试题库。\n- **VisuAlgo**：可视化算法过程，辅助理解复杂模型（如神经网络前向/反向传播）。\n\n### 建议优先级\n1. 先刷 **LeetCode 算法题 + 牛客网面经**，覆盖基础与高频问题。\n2. 用 **Hugging Face + Kaggle** 做实项目，补充简历亮点。\n3. 最后用 **Interviewing.io / ChatGPT** 模拟面试，优化表达逻辑。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 483,
+      "total_tokens": 532,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:20:54.240057Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试，可以结合以下工具从**知识复习、代码练习、项目实操、面试模拟**四个维度进行准备：\n\n### 一、基础知识复习\n- **LeetCode**：刷算法题（重点：动态规划、图论、数组/字符串），AI 岗常考中等难度题。\n- **牛客网**：国内 AI/算法岗真题、面经汇总，含大厂（字节、腾讯、阿里）真实面试题。\n- **Coursera / 吴恩达《机器学习》《深度学习》**：系统复习核心理论（反向传播、损失函数、优化器等）。\n- **Papers with Code**：了解前沿模型（Transformer、Diffusion、LLM）的论文与代码实现。\n\n### 二、代码与工程能力\n- **Kaggle**：做实战项目（如图像分类、NLP 情感分析），积累可写进简历的项目经验。\n- **Hugging Face**：熟悉主流预训练模型（BERT、GPT、CLIP）的调用与微调，大厂常考。\n- **GitHub**：整理自己的项目代码，学习优秀开源项目的工程规范。\n- **PyTorch 官方教程 / TensorFlow 文档**：巩固框架使用细节（张量操作、自动求导、模型保存加载）。\n\n### 三、面试模拟与表达\n- **Interviewing.io**：模拟技术面试（含 AI/ML 方向），有面试官反馈。\n- **知乎 / 小红书**：看 AI 岗面经，总结高频问题（如“Transformer 为什么用多头注意力？”“过拟合怎么解决？”）。\n- **ChatGPT / 文心一言**：模拟面试官提问，练习回答逻辑。\n\n### 四、其他辅助\n- **Notion / 飞书文档**：整理知识点、项目笔记、面试题库。\n- **VisuAlgo**：可视化算法过程，辅助理解复杂模型（如神经网络前向/反向传播）。\n\n### 建议优先级\n1. 先刷 **LeetCode 算法题 + 牛客网面经**，覆盖基础与高频问题。\n2. 用 **Hugging Face + Kaggle** 做实项目，补充简历亮点。\n3. 最后用 **Interviewing.io / ChatGPT** 模拟面试，优化表达逻辑。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "目前，**Skillver（技能交换平台）** 并没有推出官方的移动端 App。  \n用户只能通过 **网页版（Web）** 访问和使用其服务。\n\n建议你留意其官网或官方公告，未来可能会推出移动端应用。",
+  "sources": [],
+  "raw": {
+    "id": "447064ef-50f7-4873-89a7-2faac2557153",
+    "object": "chat.completion",
+    "created": 1784599937,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前，**Skillver（技能交换平台）** 并没有推出官方的移动端 App。  \n用户只能通过 **网页版（Web）** 访问和使用其服务。\n\n建议你留意其官网或官方公告，未来可能会推出移动端应用。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 53,
+      "total_tokens": 90,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:18.387562Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "目前，**Skillver（技能交换平台）** 并没有推出官方的移动端 App。  \n用户只能通过 **网页版（Web）** 访问和使用其服务。\n\n建议你留意其官网或官方公告，未来可能会推出移动端应用。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

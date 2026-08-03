@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "# Skillver 面试彩排\n\n**Skillver 面试彩排**是 Skillver 平台提供的一项功能，帮助求职者在真实面试前进行**模拟练习和准备**。\n\n## 主要特点通常包括：\n\n- 🎯 **模拟真实面试场景** — 模拟实际面试对话流程\n- 🤖 **AI 驱动反馈** — 对回答内容、表达方式等提供智能点评\n- 📝 **针对性问题练习** — 根据目标岗位生成相关面试题\n- 🔄 **反复练习** — 可多次彩排，不断优化表现\n- 📊 **表现评估** — 分析回答质量，给出改进建议\n\n## 适合人群：\n- 即将参加面试的求职者\n- 希望提升面试技巧的职场人士\n- 需要练习中/英文表达的候选人\n\n---\n\n如果您想了解更具体的功能细节，建议直接访问 **Skillver 官网**或联系其客服获取最新信息，因为产品功能可能持续更新。\n\n您有具体想了解的方面吗？😊",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPxmgAXq2SRZuSqjY4J",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 面试彩排\n\n**Skillver 面试彩排**是 Skillver 平台提供的一项功能，帮助求职者在真实面试前进行**模拟练习和准备**。\n\n## 主要特点通常包括：\n\n- 🎯 **模拟真实面试场景** — 模拟实际面试对话流程\n- 🤖 **AI 驱动反馈** — 对回答内容、表达方式等提供智能点评\n- 📝 **针对性问题练习** — 根据目标岗位生成相关面试题\n- 🔄 **反复练习** — 可多次彩排，不断优化表现\n- 📊 **表现评估** — 分析回答质量，给出改进建议\n\n## 适合人群：\n- 即将参加面试的求职者\n- 希望提升面试技巧的职场人士\n- 需要练习中/英文表达的候选人\n\n---\n\n如果您想了解更具体的功能细节，建议直接访问 **Skillver 官网**或联系其客服获取最新信息，因为产品功能可能持续更新。\n\n您有具体想了解的方面吗？😊"
+        }
+      }
+    ],
+    "created": 1784600126,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 361,
+      "prompt_tokens": 50,
+      "total_tokens": 411
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:15:26.726158Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "# Skillver 面试彩排\n\n**Skillver 面试彩排**是 Skillver 平台提供的一项功能，帮助求职者在真实面试前进行**模拟练习和准备**。\n\n## 主要特点通常包括：\n\n- 🎯 **模拟真实面试场景** — 模拟实际面试对话流程\n- 🤖 **AI 驱动反馈** — 对回答内容、表达方式等提供智能点评\n- 📝 **针对性问题练习** — 根据目标岗位生成相关面试题\n- 🔄 **反复练习** — 可多次彩排，不断优化表现\n- 📊 **表现评估** — 分析回答质量，给出改进建议\n\n## 适合人群：\n- 即将参加面试的求职者\n- 希望提升面试技巧的职场人士\n- 需要练习中/英文表达的候选人\n\n---\n\n如果您想了解更具体的功能细节，建议直接访问 **Skillver 官网**或联系其客服获取最新信息，因为产品功能可能持续更新。\n\n您有具体想了解的方面吗？😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

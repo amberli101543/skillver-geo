@@ -1,0 +1,304 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "您提到的 **\"Skillver\"** 目前**没有明确信息表明已开放使用**，搜索结果中更常见的相关名称是 **\"Skillveri\"** 或 **\"人人 Skill\"**（rrskill.ai），以及 AI 技能生态中的通用概念 **\"Skill\"**（由 Anthropic 推出）。\n\n以下是关键区分与现状说明：\n\n---\n\n### 1. **Skillveri**（非 Skillver）\n- 是一家位于印度的培训解决方案公司（Skillveri Training Solutions Private Limited），提供技能培训课程。\n- 其支持邮箱为 `support@skillveri.com`，已在 Google Play 上架 Support 应用 [3]。\n- **未提及\"Skillver\"**，也**无开放注册或 AI 工具**信息。\n\n---\n\n### 2. **人人 Skill（rrskill.ai）**（中国用户专属 AI 技能商店）\n- 于 **2026 年 3 月 27 日**在中国正式上线，**已开放公测**，支持免费注册体验 [5]。\n- 用户可以零门槛使用商店内 Skill，也可创建和发布自己的 Skill。\n- 官网：[www.rrskill.ai](https://www.rrskill.ai)（非 Skillver）。\n\n---\n\n### 3. **AI \"Skill\" 通用生态**（非特定产品）\n- **Anthropic** 于 2025 年 10 月为 **Claude** 推出 **Skills** 功能，并于 2025 年 12 月将其发布为**开放标准** [6][7]。\n- 截至 **2026 年 1 月**，全球已有**超过 6 万个公开可用 Skill**，主流工具（Cursor、VS Code、GitHub Copilot）已全面支持 [11][12]。\n- 但 **Skill 生态仍高度碎片化**，不同平台间不完全通用 [7][8][9]。\n\n---\n\n### 结论\n- 若您指的是 **\"Skillveri\"**：它是培训公司，**非 AI 开放工具**。\n- 若您指的是 **\"人人 Skill\"**：**已开放公测**，可立即注册使用 [5]。\n- 若确为 **\"Skillver\"**：目前**无公开信息证明其存在或开放使用**，可能是名称混淆或尚未上线的新产品。\n\n建议确认具体名称，或访问 [rrskill.ai](https://www.rrskill.ai) 获取已开放的 AI Skill 服务。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": ""
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1728899",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2695805",
+      "title": ""
+    },
+    {
+      "url": "https://news.cnyes.com/news/print/6399620",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/hogwarts/p/19881979",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "title": ""
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260410A0101Q00?adChannelId=news?",
+      "title": ""
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.doit.com.cn/p/554731.html",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/wmyskxz/p/19854791",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamhv3446056.d.html?vt=4&wm=1224?pagetag",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": "行业人才研究院 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1728899",
+      "title": "Skiller：一款跨平台的Skills管理工具 - 阿里云开发者社区"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2695805",
+      "title": "Vercel发布skills 1.1.1：让Skills跨平台共享 - 腾讯云"
+    },
+    {
+      "url": "https://news.cnyes.com/news/print/6399620",
+      "title": "人人skill正式上線：專為中國用戶打造的AI技能商店 - 鉅亨網"
+    },
+    {
+      "url": "https://www.cnblogs.com/hogwarts/p/19881979",
+      "title": "同事.Skill刷屏出圈，AI“技能蒸馏”的底层规则"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "title": "把你的同事炼化成Skill？| Github爆火项目 | 职场打工人 | 什么是Skill | Anthropic | 提示词 | 开放标准格式 | 反蒸馏 | 版权问题 | 静态快照"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260410A0101Q00?adChannelId=news?",
+      "title": "用Skill炼化员工，这个春天最荒诞的技术神话 - 腾讯新闻"
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": "将同事「封装」「炼化」，Skill到底在干什么？"
+    },
+    {
+      "url": "https://www.doit.com.cn/p/554731.html",
+      "title": "鹅厂养虾又放大招！上线“中国专供”SkillHub，为官方社区提供 ..."
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    },
+    {
+      "url": "https://www.cnblogs.com/wmyskxz/p/19854791",
+      "title": "你能被装进一个文件里吗？——7 万人把同事\"蒸馏\"成了AI"
+    },
+    {
+      "url": "https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamhv3446056.d.html?vt=4&wm=1224?pagetag",
+      "title": "对话李曼玲：OpenClaw之后，重新理解Skill"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您提到的 **\"Skillver\"** 目前**没有明确信息表明已开放使用**，搜索结果中更常见的相关名称是 **\"Skillveri\"** 或 **\"人人 Skill\"**（rrskill.ai），以及 AI 技能生态中的通用概念 **\"Skill\"**（由 Anthropic 推出）。\n\n以下是关键区分与现状说明：\n\n---\n\n### 1. **Skillveri**（非 Skillver）\n- 是一家位于印度的培训解决方案公司（Skillveri Training Solutions Private Limited），提供技能培训课程。\n- 其支持邮箱为 `support@skillveri.com`，已在 Google Play 上架 Support 应用 [3]。\n- **未提及\"Skillver\"**，也**无开放注册或 AI 工具**信息。\n\n---\n\n### 2. **人人 Skill（rrskill.ai）**（中国用户专属 AI 技能商店）\n- 于 **2026 年 3 月 27 日**在中国正式上线，**已开放公测**，支持免费注册体验 [5]。\n- 用户可以零门槛使用商店内 Skill，也可创建和发布自己的 Skill。\n- 官网：[www.rrskill.ai](https://www.rrskill.ai)（非 Skillver）。\n\n---\n\n### 3. **AI \"Skill\" 通用生态**（非特定产品）\n- **Anthropic** 于 2025 年 10 月为 **Claude** 推出 **Skills** 功能，并于 2025 年 12 月将其发布为**开放标准** [6][7]。\n- 截至 **2026 年 1 月**，全球已有**超过 6 万个公开可用 Skill**，主流工具（Cursor、VS Code、GitHub Copilot）已全面支持 [11][12]。\n- 但 **Skill 生态仍高度碎片化**，不同平台间不完全通用 [7][8][9]。\n\n---\n\n### 结论\n- 若您指的是 **\"Skillveri\"**：它是培训公司，**非 AI 开放工具**。\n- 若您指的是 **\"人人 Skill\"**：**已开放公测**，可立即注册使用 [5]。\n- 若确为 **\"Skillver\"**：目前**无公开信息证明其存在或开放使用**，可能是名称混淆或尚未上线的新产品。\n\n建议确认具体名称，或访问 [rrskill.ai](https://www.rrskill.ai) 获取已开放的 AI Skill 服务。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/research/",
+      "https://developer.aliyun.com/article/1728899",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://cloud.tencent.com/developer/article/2695805",
+      "https://news.cnyes.com/news/print/6399620",
+      "https://www.cnblogs.com/hogwarts/p/19881979",
+      "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "https://news.qq.com/rain/a/20260410A0101Q00?adChannelId=news?",
+      "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "https://www.doit.com.cn/p/554731.html",
+      "https://cloud.tencent.com/developer/article/2625397",
+      "https://www.cnblogs.com/wmyskxz/p/19854791",
+      "https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamhv3446056.d.html?vt=4&wm=1224?pagetag"
+    ],
+    "created": 1784599744,
+    "id": "baf06a2e-d77c-47ad-9735-d489b9f3352e",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "以下页面由上海才谱人工智能科技有限公司审核，明确区分稳定事实与开放注册后的动态规则。",
+        "source": "web",
+        "title": "行业人才研究院 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/research/"
+      },
+      {
+        "date": "2026-04-21",
+        "last_updated": "2026-05-03",
+        "place_metadata": null,
+        "snippet": "### 开源信息\n- **开源地址**：GitHub\n- **许可证**：MIT License\n- **版本**：v0.1.0",
+        "source": "web",
+        "title": "Skiller：一款跨平台的Skills管理工具 - 阿里云开发者社区",
+        "url": "https://developer.aliyun.com/article/1728899"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-06-23",
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "npx skills试图改变这种局面，建立开放的技能生态系统，让技能可以跨27种不同的AI助手共享。\n...\n项目完全开源，技能规范很简单——带有YAML前言的SKILL.md文件，包含名称和描述。",
+        "source": "web",
+        "title": "Vercel发布skills 1.1.1：让Skills跨平台共享 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2695805"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "人人skill 正式宣布於2026年3月27日在中國市場推出，這是一個專為中國用戶設計的AI技能（Skill）商店。無論你是AI新手還是進階玩家，都可以在這裡零門檻使用商店內收錄的Skill，還可以隨心所欲創作和發布屬於自己的Skill，讓AI真正成為每個人工作、生活和學習的超級助手。\n...\n人人Skill現已開放中國用戶公測，歡迎所有對AI感興趣的朋友免費註冊體驗。無論是想快速解決工作痛點、使用現成Skill，還是希望分享創意、成為Skill創作者，這裡都是你的最佳起點。\n立即加入人人skill：訪問 www.rrskill.ai，或關注微信公眾號：人人skill，一鍵開啟你的AI大神之路...",
+        "source": "web",
+        "title": "人人skill正式上線：專為中國用戶打造的AI技能商店 - 鉅亨網",
+        "url": "https://news.cnyes.com/news/print/6399620"
+      },
+      {
+        "date": "2026-04-17",
+        "last_updated": "2026-06-19",
+        "place_metadata": null,
+        "snippet": "2025年10月，Anthropic为Claude正式发布Skills功能。两个月后，Anthropic将Agent Skills发布为开放标准，微软、OpenAI、Cursor、GitHub相继采纳。\n...\n它和你在对话框里手写的Prompt之间，不存在智能程度的质变。区别仅在三个工程维度：第一，Skill可以被AI自动发现和按需加载，不用每次手动粘贴；第二，它能携带参考文档和脚本，形成一个自包含的指令包；第三，它遵循开放标准格式，理论上可跨平台复用。\n...\nSkill协议被Anthropic开源后，Cursor和GitHub也宣布支持。这意味着Skill正在成为一种跨平台的“技能格式标...",
+        "source": "web",
+        "title": "同事.Skill刷屏出圈，AI“技能蒸馏”的底层规则",
+        "url": "https://www.cnblogs.com/hogwarts/p/19881979"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-07-04",
+        "place_metadata": null,
+        "snippet": "{ts:171} Anthropic正式宣布为旗下Claude大模型推出了Skills功能 这个功能上线之后 在当时并没有立刻引爆全网\n{ts:179} 只是在AI开发者小圈子里流传 直到两个月之后 也就是2025年12月18日\n{ts:185} Anthropic做了一个关键动作 把Agent Skills正式发布为开放标准 在agentskills.io上官方托管\n{ts:194} 随后微软、OpenAI、代码编辑器Cursor、GitHub等全球主流科技平台 相继宣布采纳这套标准 这条时间线非常重要\n...\n{ts:350} 移植、分享、部署都更加方便 第三，Skill遵循统一的开放标准...",
+        "source": "web",
+        "title": "把你的同事炼化成Skill？| Github爆火项目 | 职场打工人 | 什么是Skill | Anthropic | 提示词 | 开放标准格式 | 反蒸馏 | 版权问题 | 静态快照",
+        "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4"
+      },
+      {
+        "date": "2026-04-10",
+        "last_updated": "2026-04-11",
+        "place_metadata": null,
+        "snippet": "2025年10月16日，Anthropic为旗下Claude正式发布了Skills功能。两个月后的12月18日，Anthropic将Agent Skills发布为开放标准，规范托管在agentskills.io，微软、OpenAI、Cursor、GitHub等相继采纳。这条时间线很重要，因为它说明Skill并非横空出世的新物种。从发布到爆火，中间隔了将近半年，真正让它在国内出圈是“炼化同事”这个戏剧性的叙事。\n...\n**说白了，Skill的本质就是结构化的提示词（Prompt）。** 它和你在对话框里手写的Prompt之间，不存在智能程度的质变，区别仅在三个工程维度：第一，Skill可以被A...",
+        "source": "web",
+        "title": "用Skill炼化员工，这个春天最荒诞的技术神话 - 腾讯新闻",
+        "url": "https://news.qq.com/rain/a/20260410A0101Q00?adChannelId=news?"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-16",
+        "place_metadata": null,
+        "snippet": "Jing表示，当前Skills生态仍处于初始发展阶段，存在标准化程度不足、平台适配性差的问题，不同Agent平台的Skills无法通用，开发者需要针对不同平台反复调试。\n...\n在Jing看来，APP生态已经极度成熟，分发、支付、安全、维权体系完整。与之相比，Skills生态几乎是空白：没有官方分发平台，做出来没人知道；支付环节不通，无法直接变现；安全漏洞极大，Skill大多开源，极易被抄袭，用户隐私数据也无法保障。",
+        "source": "web",
+        "title": "将同事「封装」「炼化」，Skill到底在干什么？",
+        "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html"
+      },
+      {
+        "date": "2023-07-14",
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "腾讯云Lighthouse团队表示，始终聚焦用户真实需求，未来SkillHub将持续扩容技能库、完善社区功能，支持自主上传分享技能，助力中国用户和企业抢占AIAgent赛道先机。即日起，广大用户可通过SkillHub官网（https://skillhub.tencent.com/）体验服务。",
+        "source": "web",
+        "title": "鹅厂养虾又放大招！上线“中国专供”SkillHub，为官方社区提供 ...",
+        "url": "https://www.doit.com.cn/p/554731.html"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-05-04",
+        "place_metadata": null,
+        "snippet": "**Skills 已拥有多个专门的聚合网站和社区平台**。自 2025 年底 Anthropic、Cursor、Antigravity 等主流 AI 编程平台将 **Skills 标准化并开放生态** 后，围绕 Skills 的发现、分享、评测与分发迅速形成了一个活跃的开源与商业市场。\n截至 **2026 年 1 月**，全球已有 **超过 6 万个公开可用的 Skills**，分布在 GitHub、专用市场及开发者社区中。以下是最权威、最活跃的 **Skills 聚合网站**，以及基于综合热度（GitHub Stars + 激活次数 + 社区评分）去重后整理出的 **TOP 20 热门 Sk...",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      },
+      {
+        "date": "2026-04-12",
+        "last_updated": "2026-06-23",
+        "place_metadata": null,
+        "snippet": "- **2025 年 10 月**，Anthropic（开发 AI 对话助手 Claude 的公司，可以理解为 ChatGPT 的主要竞争者之一）发布了 Agent Skills 功能，让用户可以给 AI 写技能包\n- **2025 年 12 月**，Anthropic 把 Skill 发布为开放标准，意味着任何 AI 工具都可以读取和使用同一份 Skill 文件\n- **2026 年 1 月**，主流开发工具——Cursor、VS Code、Codex CLI（这些都是程序员日常写代码用的软件）全面支持 Skill 格式，Skills Marketplace 收录超过 70 万个技能包\n- ...",
+        "source": "web",
+        "title": "你能被装进一个文件里吗？——7 万人把同事\"蒸馏\"成了AI",
+        "url": "https://www.cnblogs.com/wmyskxz/p/19854791"
+      },
+      {
+        "date": "2026-03-24",
+        "last_updated": "2026-03-25",
+        "place_metadata": null,
+        "snippet": "2025 年下半年，Anthropic 将 Agent Skills 规范作为开放标准发布，Claude Code、Cursor、Gemini CLI 等主流 agent 相继支持同一套 SKILL.md 格式，Skill 从单一产品的功能变成了跨平台的能力描述协议。不过在那个阶段，Skill 的使用者和编写者基本局限在写代码的开发者给写代码的 agent 写 Skill，圈子不大。",
+        "source": "web",
+        "title": "对话李曼玲：OpenClaw之后，重新理解Skill",
+        "url": "https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamhv3446056.d.html?vt=4&wm=1224?pagetag"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 562,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00056,
+        "request_cost": 0.005,
+        "total_cost": 0.0056
+      },
+      "prompt_tokens": 34,
+      "search_context_size": "low",
+      "total_tokens": 596
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:04.484890Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "您提到的 **\"Skillver\"** 目前**没有明确信息表明已开放使用**，搜索结果中更常见的相关名称是 **\"Skillveri\"** 或 **\"人人 Skill\"**（rrskill.ai），以及 AI 技能生态中的通用概念 **\"Skill\"**（由 Anthropic 推出）。\n\n以下是关键区分与现状说明：\n\n---\n\n### 1. **Skillveri**（非 Skillver）\n- 是一家位于印度的培训解决方案公司（Skillveri Training Solutions Private Limited），提供技能培训课程。\n- 其支持邮箱为 `support@skillveri.com`，已在 Google Play 上架 Support 应用 [3]。\n- **未提及\"Skillver\"**，也**无开放注册或 AI 工具**信息。\n\n---\n\n### 2. **人人 Skill（rrskill.ai）**（中国用户专属 AI 技能商店）\n- 于 **2026 年 3 月 27 日**在中国正式上线，**已开放公测**，支持免费注册体验 [5]。\n- 用户可以零门槛使用商店内 Skill，也可创建和发布自己的 Skill。\n- 官网：[www.rrskill.ai](https://www.rrskill.ai)（非 Skillver）。\n\n---\n\n### 3. **AI \"Skill\" 通用生态**（非特定产品）\n- **Anthropic** 于 2025 年 10 月为 **Claude** 推出 **Skills** 功能，并于 2025 年 12 月将其发布为**开放标准** [6][7]。\n- 截至 **2026 年 1 月**，全球已有**超过 6 万个公开可用 Skill**，主流工具（Cursor、VS Code、GitHub Copilot）已全面支持 [11][12]。\n- 但 **Skill 生态仍高度碎片化**，不同平台间不完全通用 [7][8][9]。\n\n---\n\n### 结论\n- 若您指的是 **\"Skillveri\"**：它是培训公司，**非 AI 开放工具**。\n- 若您指的是 **\"人人 Skill\"**：**已开放公测**，可立即注册使用 [5]。\n- 若确为 **\"Skillver\"**：目前**无公开信息证明其存在或开放使用**，可能是名称混淆或尚未上线的新产品。\n\n建议确认具体名称，或访问 [rrskill.ai](https://www.rrskill.ai) 获取已开放的 AI Skill 服务。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

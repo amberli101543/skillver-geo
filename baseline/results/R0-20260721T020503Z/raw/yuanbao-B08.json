@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "Skillver 是专注于技能提升与求职辅导的平台，**无法保证用户一定能拿到 offer**。求职结果受个人能力、岗位匹配度、面试表现、市场行情等多重因素影响，平台的作用是通过课程、模拟面试、内推资源等方式提升你的竞争力，但不能承诺 100% 录取。\n\n建议结合平台资源认真准备，同时多投递、多积累面试经验，提高成功率。",
+  "sources": [],
+  "raw": {
+    "id": "31f451e1-0d58-4bb5-a6cd-2d95aed8b0d2",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599751,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是专注于技能提升与求职辅导的平台，**无法保证用户一定能拿到 offer**。求职结果受个人能力、岗位匹配度、面试表现、市场行情等多重因素影响，平台的作用是通过课程、模拟面试、内推资源等方式提升你的竞争力，但不能承诺 100% 录取。\n\n建议结合平台资源认真准备，同时多投递、多积累面试经验，提高成功率。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 83,
+      "total_tokens": 133,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:13.784112Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "Skillver 是专注于技能提升与求职辅导的平台，**无法保证用户一定能拿到 offer**。求职结果受个人能力、岗位匹配度、面试表现、市场行情等多重因素影响，平台的作用是通过课程、模拟面试、内推资源等方式提升你的竞争力，但不能承诺 100% 录取。\n\n建议结合平台资源认真准备，同时多投递、多积累面试经验，提高成功率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

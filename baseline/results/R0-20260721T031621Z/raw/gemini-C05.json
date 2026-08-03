@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具主要可以分为以下五大类：\n\n### 1. 简历制作与优化类（Resume Builders & Optimizers）\n* **核心功能**：帮助求职者从零撰写简历，或对已有简历进行润色。最重要的是**针对 ATS（求职者追踪系统）进行关键词优化**，提高简历被HR看到的概率。\n* **代表工具**：Kickresume, Rezi, Resume.io, 简历（国内）。\n\n### 2. 求职信与自荐信生成类（Cover Letter & Communication Gen AI）\n* **核心功能**：根据目标岗位描述（JD）和个人简历，一键生成定制化的求职信（Cover Letter）、向HR打招呼的常用语或领英开发信（Cold Email）。\n* **代表工具**：ChatGPT, Jasper, Copy.ai。\n\n### 3. 智能职位匹配与管理类（Job Matching & Tracking）\n* **核心功能**：分析用户的简历和偏好，自动在全网匹配最合适的岗位；同时提供求职看板，追踪每一份投递的进度。\n* **代表工具**：Teal, Huntr, 领英（LinkedIn）的AI推荐功能。\n\n### 4. 模拟面试与反馈类（AI Mock Interview & Coaching）\n* **核心功能**：扮演面试官，通过语音、视频或文字与求职者进行模拟面试。AI 会对回答内容、逻辑、语速甚至面部表情进行打分，并给出改进建议。\n* **代表工具**：Google Interview Warmup, Yoodli, Prepper。\n\n### 5. 自动投递与表单填充类（Auto-Apply & Form Fillers）\n* **核心功能**：在求职网站上自动提取简历信息并填充申请表单，实现“一键投递”，省去重复手动填写的繁琐步骤。\n* **代表工具**：Simplify, LazyApply, Sonara。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "AI 求职工具主要可以分为以下五大类：\n\n### 1. 简历制作与优化类（Resume Builders & Optimizers）\n* **核心功能**：帮助求职者从零撰写简历，或对已有简历进行润色。最重要的是**针对 ATS（求职者追踪系统）进行关键词优化**，提高简历被HR看到的概率。\n* **代表工具**：Kickresume, Rezi, Resume.io, 简历（国内）。\n\n### 2. 求职信与自荐信生成类（Cover Letter & Communication Gen AI）\n* **核心功能**：根据目标岗位描述（JD）和个人简历，一键生成定制化的求职信（Cover Letter）、向HR打招呼的常用语或领英开发信（Cold Email）。\n* **代表工具**：ChatGPT, Jasper, Copy.ai。\n\n### 3. 智能职位匹配与管理类（Job Matching & Tracking）\n* **核心功能**：分析用户的简历和偏好，自动在全网匹配最合适的岗位；同时提供求职看板，追踪每一份投递的进度。\n* **代表工具**：Teal, Huntr, 领英（LinkedIn）的AI推荐功能。\n\n### 4. 模拟面试与反馈类（AI Mock Interview & Coaching）\n* **核心功能**：扮演面试官，通过语音、视频或文字与求职者进行模拟面试。AI 会对回答内容、逻辑、语速甚至面部表情进行打分，并给出改进建议。\n* **代表工具**：Google Interview Warmup, Yoodli, Prepper。\n\n### 5. 自动投递与表单填充类（Auto-Apply & Form Fillers）\n* **核心功能**：在求职网站上自动提取简历信息并填充申请表单，实现“一键投递”，省去重复手动填写的繁琐步骤。\n* **代表工具**：Simplify, LazyApply, Sonara。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604312,
+    "id": "huZeavmtJsqGz7IPydeE0QI",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 426,
+      "prompt_tokens": 38,
+      "total_tokens": 1244
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:25:12.105972Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具主要可以分为以下五大类：\n\n### 1. 简历制作与优化类（Resume Builders & Optimizers）\n* **核心功能**：帮助求职者从零撰写简历，或对已有简历进行润色。最重要的是**针对 ATS（求职者追踪系统）进行关键词优化**，提高简历被HR看到的概率。\n* **代表工具**：Kickresume, Rezi, Resume.io, 简历（国内）。\n\n### 2. 求职信与自荐信生成类（Cover Letter & Communication Gen AI）\n* **核心功能**：根据目标岗位描述（JD）和个人简历，一键生成定制化的求职信（Cover Letter）、向HR打招呼的常用语或领英开发信（Cold Email）。\n* **代表工具**：ChatGPT, Jasper, Copy.ai。\n\n### 3. 智能职位匹配与管理类（Job Matching & Tracking）\n* **核心功能**：分析用户的简历和偏好，自动在全网匹配最合适的岗位；同时提供求职看板，追踪每一份投递的进度。\n* **代表工具**：Teal, Huntr, 领英（LinkedIn）的AI推荐功能。\n\n### 4. 模拟面试与反馈类（AI Mock Interview & Coaching）\n* **核心功能**：扮演面试官，通过语音、视频或文字与求职者进行模拟面试。AI 会对回答内容、逻辑、语速甚至面部表情进行打分，并给出改进建议。\n* **代表工具**：Google Interview Warmup, Yoodli, Prepper。\n\n### 5. 自动投递与表单填充类（Auto-Apply & Form Fillers）\n* **核心功能**：在求职网站上自动提取简历信息并填充申请表单，实现“一键投递”，省去重复手动填写的繁琐步骤。\n* **代表工具**：Simplify, LazyApply, Sonara。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

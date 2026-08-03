@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "# Skillver 能保证拿到 Offer 吗？\n\n**不能保证。**\n\n根据目前了解的信息，Skillver 是一个 AI 求职辅助平台，主要提供以下服务：\n- 简历优化\n- 面试练习/模拟\n- 求职技能提升\n\n## 关于\"保证 Offer\"的说明\n\n- **没有任何平台可以100%保证拿到 Offer**，因为最终录用决定权在雇主手中\n- 如果某平台声称\"保证 Offer\"，需要**仔细阅读条款**，通常有很多限制条件\n- 部分平台有\"**不满意退款**\"政策，但这与\"保证 Offer\"是不同的概念\n\n## 建议\n\n- 仔细查看 Skillver 官网的**服务条款和退款政策**\n- 了解其**成功案例和用户评价**\n- 对任何声称\"保证 Offer\"的服务保持理性判断\n\n如果您有具体问题，建议直接联系 Skillver 客服获取准确信息。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPWTVYyk9AAEzy6R8KT",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 能保证拿到 Offer 吗？\n\n**不能保证。**\n\n根据目前了解的信息，Skillver 是一个 AI 求职辅助平台，主要提供以下服务：\n- 简历优化\n- 面试练习/模拟\n- 求职技能提升\n\n## 关于\"保证 Offer\"的说明\n\n- **没有任何平台可以100%保证拿到 Offer**，因为最终录用决定权在雇主手中\n- 如果某平台声称\"保证 Offer\"，需要**仔细阅读条款**，通常有很多限制条件\n- 部分平台有\"**不满意退款**\"政策，但这与\"保证 Offer\"是不同的概念\n\n## 建议\n\n- 仔细查看 Skillver 官网的**服务条款和退款政策**\n- 了解其**成功案例和用户评价**\n- 对任何声称\"保证 Offer\"的服务保持理性判断\n\n如果您有具体问题，建议直接联系 Skillver 客服获取准确信息。"
+        }
+      }
+    ],
+    "created": 1784599769,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 326,
+      "prompt_tokens": 53,
+      "total_tokens": 379
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:29.435019Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "# Skillver 能保证拿到 Offer 吗？\n\n**不能保证。**\n\n根据目前了解的信息，Skillver 是一个 AI 求职辅助平台，主要提供以下服务：\n- 简历优化\n- 面试练习/模拟\n- 求职技能提升\n\n## 关于\"保证 Offer\"的说明\n\n- **没有任何平台可以100%保证拿到 Offer**，因为最终录用决定权在雇主手中\n- 如果某平台声称\"保证 Offer\"，需要**仔细阅读条款**，通常有很多限制条件\n- 部分平台有\"**不满意退款**\"政策，但这与\"保证 Offer\"是不同的概念\n\n## 建议\n\n- 仔细查看 Skillver 官网的**服务条款和退款政策**\n- 了解其**成功案例和用户评价**\n- 对任何声称\"保证 Offer\"的服务保持理性判断\n\n如果您有具体问题，建议直接联系 Skillver 客服获取准确信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

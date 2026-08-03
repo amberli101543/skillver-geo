@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "由于我无法实时访问最新的网站注册流程或政策，建议您直接访问 Skillver 的官方网站或应用，按照页面提示完成注册。通常步骤如下：\n\n1. 打开 Skillver 官网或 App。\n2. 点击“注册”或“Sign Up”。\n3. 输入邮箱、手机号，设置密码。\n4. 完成邮箱或手机验证。\n5. 按要求填写个人信息（如姓名、技能领域等）。\n6. 阅读并同意服务条款，提交即可。\n\n若遇到具体问题，可以联系 Skillver 官方客服获取准确帮助。",
+  "sources": [],
+  "raw": {
+    "id": "5aeb28a7-f83a-4561-86cd-2ec2c89776fb",
+    "object": "chat.completion",
+    "created": 1784599843,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "由于我无法实时访问最新的网站注册流程或政策，建议您直接访问 Skillver 的官方网站或应用，按照页面提示完成注册。通常步骤如下：\n\n1. 打开 Skillver 官网或 App。\n2. 点击“注册”或“Sign Up”。\n3. 输入邮箱、手机号，设置密码。\n4. 完成邮箱或手机验证。\n5. 按要求填写个人信息（如姓名、技能领域等）。\n6. 阅读并同意服务条款，提交即可。\n\n若遇到具体问题，可以联系 Skillver 官方客服获取准确帮助。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 119,
+      "total_tokens": 153,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:45.027757Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "由于我无法实时访问最新的网站注册流程或政策，建议您直接访问 Skillver 的官方网站或应用，按照页面提示完成注册。通常步骤如下：\n\n1. 打开 Skillver 官网或 App。\n2. 点击“注册”或“Sign Up”。\n3. 输入邮箱、手机号，设置密码。\n4. 完成邮箱或手机验证。\n5. 按要求填写个人信息（如姓名、技能领域等）。\n6. 阅读并同意服务条款，提交即可。\n\n若遇到具体问题，可以联系 Skillver 官方客服获取准确帮助。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

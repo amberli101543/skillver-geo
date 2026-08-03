@@ -1,0 +1,358 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "\"Skillver\" 主要在中国作为**AI 求职助手**使用，帮助用户进行岗位匹配、简历核验和企业沟通。\n\n**具体使用场景与方式：**\n\n*   **核心功能**：\n    *   **选岗匹配**：基于 49 个标准岗位，上传简历后自动生成匹配报告（不限次数）[1]。\n    *   **企业沟通**：浏览在招职位，结构化跟进投递、约面及 Offer 进度 [1]。\n    *   **简历核验**：上传简历进行专业核验 [1]。\n*   **使用平台**：\n    *   **Web 端**：访问官网 `www.skillver.cn` 或 `www.skillver.ai` 免费注册 [1]。\n    *   **移动端**：提供 App 版本，Web 与 App 功能对齐、进度互通 [1]。\n*   **适用人群**：\n    *   主要针对**中国优秀人才**进行求职辅助 [1]。\n    *   企业 HR 可通过“企业入驻申请”入口使用其企业版服务 [1]。\n\n**注意区分**：搜索结果中还存在名为 \"Skillveri\"（印度培训解决方案公司，涉及油漆喷涂 VR 技术）和 \"Skiller\"（AI 技能管理工具）等其他相似名称产品，若您询问的是非求职类场景（如油漆行业 VR 或 AI 开发工具），请确认名称是否拼写有误 [2][5][7]。若确指求职工具，则仅在上述中国求职平台使用 [1]。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://actualites.airless-discounter.de/simulateur-peinture-skillveri-chroma-x/",
+      "title": ""
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": ""
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1729895",
+      "title": ""
+    },
+    {
+      "url": "https://support.huaweicloud.com/usermanual-codeartssnap/codeartsdoer_ug_0024.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.woshipm.com/ai/6373970.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PuqX3Kv2ino",
+      "title": ""
+    },
+    {
+      "url": "https://www.douyin.com/shipin/7603921135792736291",
+      "title": ""
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260525A09ONS00",
+      "title": ""
+    },
+    {
+      "url": "https://www.xmsumi.com/detail/2331",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "开始使用Skillver — AI 求职助手"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": "Skillveri Support - Google Play 上的应用"
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://actualites.airless-discounter.de/simulateur-peinture-skillveri-chroma-x/",
+      "title": "Simulateurs de pulvérisation Chroma"
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具"
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1729895",
+      "title": "一文带你看懂，火爆全网的Skills到底是个啥 - 阿里云开发者社区"
+    },
+    {
+      "url": "https://support.huaweicloud.com/usermanual-codeartssnap/codeartsdoer_ug_0024.html",
+      "title": "技能- 华为云码道（CodeArts）代码智能体"
+    },
+    {
+      "url": "https://www.woshipm.com/ai/6373970.html",
+      "title": "Skill：AI工具里的”瑞士军刀” - 人人都是产品经理"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PuqX3Kv2ino",
+      "title": "Skill 實戰教學，從製作到維護的完整指南"
+    },
+    {
+      "url": "https://www.douyin.com/shipin/7603921135792736291",
+      "title": "find-skills教程- 抖音"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260525A09ONS00",
+      "title": "清华同一天发表两篇Skill力作，捅破了Agent技能自进化的天花板！_腾讯新闻"
+    },
+    {
+      "url": "https://www.xmsumi.com/detail/2331",
+      "title": "10个必装Skills，从新手小白到技能大神的进阶指南"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "\"Skillver\" 主要在中国作为**AI 求职助手**使用，帮助用户进行岗位匹配、简历核验和企业沟通。\n\n**具体使用场景与方式：**\n\n*   **核心功能**：\n    *   **选岗匹配**：基于 49 个标准岗位，上传简历后自动生成匹配报告（不限次数）[1]。\n    *   **企业沟通**：浏览在招职位，结构化跟进投递、约面及 Offer 进度 [1]。\n    *   **简历核验**：上传简历进行专业核验 [1]。\n*   **使用平台**：\n    *   **Web 端**：访问官网 `www.skillver.cn` 或 `www.skillver.ai` 免费注册 [1]。\n    *   **移动端**：提供 App 版本，Web 与 App 功能对齐、进度互通 [1]。\n*   **适用人群**：\n    *   主要针对**中国优秀人才**进行求职辅助 [1]。\n    *   企业 HR 可通过“企业入驻申请”入口使用其企业版服务 [1]。\n\n**注意区分**：搜索结果中还存在名为 \"Skillveri\"（印度培训解决方案公司，涉及油漆喷涂 VR 技术）和 \"Skiller\"（AI 技能管理工具）等其他相似名称产品，若您询问的是非求职类场景（如油漆行业 VR 或 AI 开发工具），请确认名称是否拼写有误 [2][5][7]。若确指求职工具，则仅在上述中国求职平台使用 [1]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/beta.html",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "https://linktr.ee/Skillver.Academy",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://cloud.tencent.com/developer/article/2655651",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://actualites.airless-discounter.de/simulateur-peinture-skillveri-chroma-x/",
+      "https://meta.appinn.net/t/topic/84427",
+      "https://developer.aliyun.com/article/1729895",
+      "https://support.huaweicloud.com/usermanual-codeartssnap/codeartsdoer_ug_0024.html",
+      "https://www.woshipm.com/ai/6373970.html",
+      "https://www.youtube.com/watch?v=PuqX3Kv2ino",
+      "https://www.douyin.com/shipin/7603921135792736291",
+      "https://news.qq.com/rain/a/20260525A09ONS00",
+      "https://www.xmsumi.com/detail/2331",
+      "https://cloud.tencent.com/developer/article/2625397"
+    ],
+    "created": 1784599841,
+    "id": "f993232b-718f-4196-bf35-772853afc6cc",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是中国优秀人才的 AI 求职助手，已完成 ICP 备案（沪ICP备2026018662号-2），现已开放公共用户注册。Web 与 App 功能对齐、进度互通。\n...\n- **选岗匹配**：49 个标准岗位，上传简历核验，产出匹配报告（不限次数）\n...\n- **企业沟通**：浏览在招职位，结构化跟进投递、约面、offer\n...\n访问 www.skillver.cn 或 www.skillver.ai 完成免费注册。\n企业 HR 请访问 企业入驻申请。",
+        "source": "web",
+        "title": "开始使用Skillver — AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "SKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave\nNo #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet\nChennai, Tamil Nadu 600083\nIndia\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "Grow and engage your audience everywhere",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-10",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款跨平台 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2655651"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "SKILL-VERSE - Google Play 上的应用\n...\nsupport@classplus.co\n...\nFirst Floor, D-8, Sector-3, Noida\nGautam Budh Nagar, Uttar Pradesh 201301\nIndia\n+91 72900 85267",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2023-08-18",
+        "last_updated": "2024-12-24",
+        "place_metadata": null,
+        "snippet": "**Skillveri** apporte la dernière technologie de réalité virtuelle à l’industrie de la peinture par pulvérisation.\n...\nPulvérisez un mur, une porte de voiture, un tuyau industriel et plus encore avec le simulateur de peinture XR eXtended Reality.\n...\nContactez-nous du lundi au vendredi de 8h30 à 17h...",
+        "source": "web",
+        "title": "Simulateurs de pulvérisation Chroma",
+        "url": "https://actualites.airless-discounter.de/simulateur-peinture-skillveri-chroma-x/"
+      },
+      {
+        "date": "2026-04-23",
+        "last_updated": "2026-05-07",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款多平台可用的 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具",
+        "url": "https://meta.appinn.net/t/topic/84427"
+      },
+      {
+        "date": "2026-04-22",
+        "last_updated": "2026-05-02",
+        "place_metadata": null,
+        "snippet": "织信内置了13个AI智能体Skills，覆盖从数据管理到自动化运营的全场景。",
+        "source": "web",
+        "title": "一文带你看懂，火爆全网的Skills到底是个啥 - 阿里云开发者社区",
+        "url": "https://developer.aliyun.com/article/1729895"
+      },
+      {
+        "date": "2025-09-24",
+        "last_updated": "2026-06-22",
+        "place_metadata": null,
+        "snippet": "|本地|项目级|仅针对当前项目生效，存储在本地。存储路径：项目根目录的“./.codeartsdoer/skills/”|\n|本地|个人级|针对当前用户下的所有项目生效，存储在本地。存储路径：本地“%USERPROFILE%/.codeartsdoer/skills”|\n...\n在华为云码道聊天窗口的输入框中，输入以下内容，单击发送图标 。\n   ```",
+        "source": "web",
+        "title": "技能- 华为云码道（CodeArts）代码智能体",
+        "url": "https://support.huaweicloud.com/usermanual-codeartssnap/codeartsdoer_ug_0024.html"
+      },
+      {
+        "date": "2026-04-09",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "• **专业化输出**：日报、测评文章、数据报告——有Skill加持，AI直接给你专业级成品\n• **效率倍增**：一次Prompt搞定的事，不需要反复修改\n• **风格稳定**：Skill定义了输出标准，每次结果都是统一的\n• **降低门槛**：不懂某领域？没关系，Skill帮你搞定专业细节\n...\n在AI Agent系统中，Skill（技能）是一种可扩展的能力模块，它封装了特定领域的工作流程、工具调用和输出模板，使AI能够针对特定任务提供专业级的执行能力。",
+        "source": "web",
+        "title": "Skill：AI工具里的”瑞士军刀” - 人人都是产品经理",
+        "url": "https://www.woshipm.com/ai/6373970.html"
+      },
+      {
+        "date": "2026-04-25",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "{ts:74} 只需要大概 100 個 token 讓它知道我有這個 skill 可以用這樣就好 第二層，當對話內容觸發到某個 skill\n{ts:81} 才會載入它完整的 SKILL 文件 第三層是 references 跟 scripts 只有在真的需要的時候才載入\n{ts:87} 沒用到的話就是完全不會佔據你的 context window 這就是為什麼你可以掛很多個 skill 在系統裡 但 agent 的 context 不會被塞爆，好\n...\n{ts:113} 第一個，重複性高，步驟固定 如果你發現有同一類型的任務會一再出現 而且每次的執行流程幾乎相同\n{ts:120} 需要在不同...",
+        "source": "web",
+        "title": "Skill 實戰教學，從製作到維護的完整指南",
+        "url": "https://www.youtube.com/watch?v=PuqX3Kv2ino"
+      },
+      {
+        "date": "2026-02-07",
+        "last_updated": "2026-02-09",
+        "place_metadata": null,
+        "snippet": "呃，到目前为止，这个 skill 已经被使用安装技能，像 a m p。\n呃，这些什么 cloud code 呀， cloud bot 呀， code 叉呀， cursor 啊，啊， gmail 啊这种等等，它已经被这些使用了。\n...\n我们该如何使用这个 sku 呢？我们直接在聊天窗口中指定使用 sku 做什么事情，比如帮我们把 pdf 转成 word 吹，就会自动调用 pdf sku， 使用 ai 大 模型自动把 pdf 转成 word 格式的文档。\n...\n好在现在已经有了 excel 表 skill， 我 们可以让 ai 大 模型直接帮我们绘制流程图。我们在 skill 点 mp 网站直...",
+        "source": "web",
+        "title": "find-skills教程- 抖音",
+        "url": "https://www.douyin.com/shipin/7603921135792736291"
+      },
+      {
+        "date": "2026-05-25",
+        "last_updated": "2026-07-12",
+        "place_metadata": null,
+        "snippet": "**SkillEvolver提出元技能驱动的在线学习框架，通过策略多样化探索、对比式更新和独立审计三阶段，让一个CLI-Agent为下游Agent生成可复用技能。** **\n...\nSkillEvolver 本身被定义为一项通用**元技能**，是一套标准化指导AI创作、修订、审核各类领域技能的程序性体系。该框架轻量化、可插拔、无需模型微调，能够适配各类CLI智能体，实现跨场景的技能自主进化。整个流程包含三个阶段。\n...\n在数字场景中，SkillEvolver可以通过“写作AI+执行AI”角色分离，暴露技能缺陷、实现精准迭代。但在机器人、具身交互等真实物理场景中，这套逻辑不再成立。",
+        "source": "web",
+        "title": "清华同一天发表两篇Skill力作，捅破了Agent技能自进化的天花板！_腾讯新闻",
+        "url": "https://news.qq.com/rain/a/20260525A09ONS00"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-04-01",
+        "place_metadata": null,
+        "snippet": "### 方式二：手动安装\n把Skill文件夹放到以下路径之一：\n- **个人技能：** ~/.claude/skills/（所有项目可用）\n- **项目技能：**.claude/skills/（仅当前项目可用）",
+        "source": "web",
+        "title": "10个必装Skills，从新手小白到技能大神的进阶指南",
+        "url": "https://www.xmsumi.com/detail/2331"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-05-04",
+        "place_metadata": null,
+        "snippet": "|1.\n...\n|1|UniversalCodeReviewer|ai-skills-hub|跨语言代码审查（安全/性能/风格）|Python, Java, Go, JS, TS|4.8k|28,500+|\n...\n### 三、如何快速试用这些热门 Skills？\n#### 方法 1：通过 SkillsMP.com 一键复制\n1. 访问 https://skillsmp.com/\n2. 搜索技能名（如 “UniversalCodeReviewer”）\n3. 点击 “Copy to Clipboard” → 粘贴到本地 `.cursor/skills/` 或 `～/.gemini/antigra...",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 383,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00038,
+        "request_cost": 0.005,
+        "total_cost": 0.00541
+      },
+      "prompt_tokens": 31,
+      "search_context_size": "low",
+      "total_tokens": 414
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:41.820964Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "\"Skillver\" 主要在中国作为**AI 求职助手**使用，帮助用户进行岗位匹配、简历核验和企业沟通。\n\n**具体使用场景与方式：**\n\n*   **核心功能**：\n    *   **选岗匹配**：基于 49 个标准岗位，上传简历后自动生成匹配报告（不限次数）[1]。\n    *   **企业沟通**：浏览在招职位，结构化跟进投递、约面及 Offer 进度 [1]。\n    *   **简历核验**：上传简历进行专业核验 [1]。\n*   **使用平台**：\n    *   **Web 端**：访问官网 `www.skillver.cn` 或 `www.skillver.ai` 免费注册 [1]。\n    *   **移动端**：提供 App 版本，Web 与 App 功能对齐、进度互通 [1]。\n*   **适用人群**：\n    *   主要针对**中国优秀人才**进行求职辅助 [1]。\n    *   企业 HR 可通过“企业入驻申请”入口使用其企业版服务 [1]。\n\n**注意区分**：搜索结果中还存在名为 \"Skillveri\"（印度培训解决方案公司，涉及油漆喷涂 VR 技术）和 \"Skiller\"（AI 技能管理工具）等其他相似名称产品，若您询问的是非求职类场景（如油漆行业 VR 或 AI 开发工具），请确认名称是否拼写有误 [2][5][7]。若确指求职工具，则仅在上述中国求职平台使用 [1]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

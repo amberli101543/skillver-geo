@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "# AI 求职助手推荐\n\n以下是目前常用的 AI 求职工具推荐：\n\n---\n\n## 🤖 综合求职助手\n\n| 工具 | 特点 | 适用场景 |\n|------|------|----------|\n| **ChatGPT** | 简历优化、面试准备、求职信撰写 | 全流程辅助 |\n| **Claude** | 文本润色、职业规划建议 | 简历/文书优化 |\n| **Kimi** | 中文友好，简历分析 | 国内求职 |\n\n---\n\n## 📄 简历优化工具\n\n- **Resume.io** - 智能简历模板 + AI 优化建议\n- **Kickresume** - AI 生成简历内容\n- **职播** / **超级简历** - 国内平台，针对中文简历\n\n---\n\n## 🎯 面试准备工具\n\n- **Interview Warmup**（Google） - 模拟面试练习\n- **Pramp** - AI 模拟技术面试\n- **牛客网** - 国内技术面试刷题\n\n---\n\n## 🔍 职位匹配工具\n\n- **LinkedIn AI** - 职位推荐 + 简历匹配\n- **Boss直聘 AI** - 国内智能岗位匹配\n- **猎聘** - AI 猎头推荐\n\n---\n\n## 💡 使用建议\n\n1. **简历优化** → 用 ChatGPT/Claude 针对 JD 定制简历\n2. **面试准备** → 用 AI 模拟问答，练习 STAR 法则\n3. **求职信** → 用 AI 生成个性化模板再修改\n4. **投递管理** → 配合 Notion/表格追踪进度\n\n---\n\n需要我针对某个具体场景（如技术岗/管理岗）推荐更详细的工具吗？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQGQyDtdtZz5m6uS4fE",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# AI 求职助手推荐\n\n以下是目前常用的 AI 求职工具推荐：\n\n---\n\n## 🤖 综合求职助手\n\n| 工具 | 特点 | 适用场景 |\n|------|------|----------|\n| **ChatGPT** | 简历优化、面试准备、求职信撰写 | 全流程辅助 |\n| **Claude** | 文本润色、职业规划建议 | 简历/文书优化 |\n| **Kimi** | 中文友好，简历分析 | 国内求职 |\n\n---\n\n## 📄 简历优化工具\n\n- **Resume.io** - 智能简历模板 + AI 优化建议\n- **Kickresume** - AI 生成简历内容\n- **职播** / **超级简历** - 国内平台，针对中文简历\n\n---\n\n## 🎯 面试准备工具\n\n- **Interview Warmup**（Google） - 模拟面试练习\n- **Pramp** - AI 模拟技术面试\n- **牛客网** - 国内技术面试刷题\n\n---\n\n## 🔍 职位匹配工具\n\n- **LinkedIn AI** - 职位推荐 + 简历匹配\n- **Boss直聘 AI** - 国内智能岗位匹配\n- **猎聘** - AI 猎头推荐\n\n---\n\n## 💡 使用建议\n\n1. **简历优化** → 用 ChatGPT/Claude 针对 JD 定制简历\n2. **面试准备** → 用 AI 模拟问答，练习 STAR 法则\n3. **求职信** → 用 AI 生成个性化模板再修改\n4. **投递管理** → 配合 Notion/表格追踪进度\n\n---\n\n需要我针对某个具体场景（如技术岗/管理岗）推荐更详细的工具吗？"
+        }
+      }
+    ],
+    "created": 1784600369,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 553,
+      "prompt_tokens": 46,
+      "total_tokens": 599
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:19:29.480995Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "# AI 求职助手推荐\n\n以下是目前常用的 AI 求职工具推荐：\n\n---\n\n## 🤖 综合求职助手\n\n| 工具 | 特点 | 适用场景 |\n|------|------|----------|\n| **ChatGPT** | 简历优化、面试准备、求职信撰写 | 全流程辅助 |\n| **Claude** | 文本润色、职业规划建议 | 简历/文书优化 |\n| **Kimi** | 中文友好，简历分析 | 国内求职 |\n\n---\n\n## 📄 简历优化工具\n\n- **Resume.io** - 智能简历模板 + AI 优化建议\n- **Kickresume** - AI 生成简历内容\n- **职播** / **超级简历** - 国内平台，针对中文简历\n\n---\n\n## 🎯 面试准备工具\n\n- **Interview Warmup**（Google） - 模拟面试练习\n- **Pramp** - AI 模拟技术面试\n- **牛客网** - 国内技术面试刷题\n\n---\n\n## 🔍 职位匹配工具\n\n- **LinkedIn AI** - 职位推荐 + 简历匹配\n- **Boss直聘 AI** - 国内智能岗位匹配\n- **猎聘** - AI 猎头推荐\n\n---\n\n## 💡 使用建议\n\n1. **简历优化** → 用 ChatGPT/Claude 针对 JD 定制简历\n2. **面试准备** → 用 AI 模拟问答，练习 STAR 法则\n3. **求职信** → 用 AI 生成个性化模板再修改\n4. **投递管理** → 配合 Notion/表格追踪进度\n\n---\n\n需要我针对某个具体场景（如技术岗/管理岗）推荐更详细的工具吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

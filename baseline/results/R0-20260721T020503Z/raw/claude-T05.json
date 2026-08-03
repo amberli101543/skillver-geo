@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "# Skillver AI 面试报告功能\n\nSkillver 的 AI 面试报告通常可以提供以下功能：\n\n## 📊 评估与分析\n- **表现评分** – 对面试整体表现进行量化评分\n- **技能评估** – 分析候选人的专业技能和软技能\n- **回答质量分析** – 评估每个问题的回答深度和准确性\n\n## 💡 反馈与建议\n- **详细反馈** – 针对每个回答提供具体改进建议\n- **优劣势分析** – 指出表现突出和需要提升的方面\n- **改进方向** – 提供针对性的学习和练习建议\n\n## 🎯 其他功能\n- **录音/录像回顾** – 回放面试过程以便自我检查\n- **关键词分析** – 检测回答中的关键词使用情况\n- **对比基准** – 与行业标准或岗位要求进行对比\n\n---\n\n> ⚠️ **注意**：具体功能可能因版本或订阅计划不同而有所差异，建议访问 **Skillver 官网**或查看其最新文档获取准确信息。\n\n如需了解某个具体功能，欢迎进一步提问！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQ3o3ALo4yZgFM6PkLz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver AI 面试报告功能\n\nSkillver 的 AI 面试报告通常可以提供以下功能：\n\n## 📊 评估与分析\n- **表现评分** – 对面试整体表现进行量化评分\n- **技能评估** – 分析候选人的专业技能和软技能\n- **回答质量分析** – 评估每个问题的回答深度和准确性\n\n## 💡 反馈与建议\n- **详细反馈** – 针对每个回答提供具体改进建议\n- **优劣势分析** – 指出表现突出和需要提升的方面\n- **改进方向** – 提供针对性的学习和练习建议\n\n## 🎯 其他功能\n- **录音/录像回顾** – 回放面试过程以便自我检查\n- **关键词分析** – 检测回答中的关键词使用情况\n- **对比基准** – 与行业标准或岗位要求进行对比\n\n---\n\n> ⚠️ **注意**：具体功能可能因版本或订阅计划不同而有所差异，建议访问 **Skillver 官网**或查看其最新文档获取准确信息。\n\n如需了解某个具体功能，欢迎进一步提问！"
+        }
+      }
+    ],
+    "created": 1784600195,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 384,
+      "prompt_tokens": 54,
+      "total_tokens": 438
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:35.444523Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "# Skillver AI 面试报告功能\n\nSkillver 的 AI 面试报告通常可以提供以下功能：\n\n## 📊 评估与分析\n- **表现评分** – 对面试整体表现进行量化评分\n- **技能评估** – 分析候选人的专业技能和软技能\n- **回答质量分析** – 评估每个问题的回答深度和准确性\n\n## 💡 反馈与建议\n- **详细反馈** – 针对每个回答提供具体改进建议\n- **优劣势分析** – 指出表现突出和需要提升的方面\n- **改进方向** – 提供针对性的学习和练习建议\n\n## 🎯 其他功能\n- **录音/录像回顾** – 回放面试过程以便自我检查\n- **关键词分析** – 检测回答中的关键词使用情况\n- **对比基准** – 与行业标准或岗位要求进行对比\n\n---\n\n> ⚠️ **注意**：具体功能可能因版本或订阅计划不同而有所差异，建议访问 **Skillver 官网**或查看其最新文档获取准确信息。\n\n如需了解某个具体功能，欢迎进一步提问！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

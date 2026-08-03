@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "Skillver 的 AI 面试报告通常用于帮助面试者或招聘方快速了解一场 AI 面试的表现，主要可以做这些事：\n\n1. **生成面试表现总结**  \n   概括候选人在面试中的整体表现、回答质量和匹配度。\n\n2. **多维度评分**  \n   可能从表达能力、逻辑性、岗位匹配度、专业能力、沟通能力等维度进行评估。\n\n3. **分析回答内容**  \n   识别回答是否完整、是否切题、是否有关键经验或能力支撑。\n\n4. **指出优势与不足**  \n   帮助候选人了解自己表现好的地方，以及需要改进的地方。\n\n5. **提供改进建议**  \n   比如如何优化回答结构、补充案例、提升表达清晰度等。\n\n6. **辅助招聘决策**  \n   对招聘方来说，可以作为初筛、复盘或对比候选人的参考材料。\n\n简单来说，Skillver 的 AI 面试报告可以把面试过程转化为结构化的评估结果，帮助更快判断候选人的表现和岗位适配度。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uJoviAHaGyiCPRQWxuf6DzjxnJM",
+    "object": "chat.completion",
+    "created": 1784600180,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的 AI 面试报告通常用于帮助面试者或招聘方快速了解一场 AI 面试的表现，主要可以做这些事：\n\n1. **生成面试表现总结**  \n   概括候选人在面试中的整体表现、回答质量和匹配度。\n\n2. **多维度评分**  \n   可能从表达能力、逻辑性、岗位匹配度、专业能力、沟通能力等维度进行评估。\n\n3. **分析回答内容**  \n   识别回答是否完整、是否切题、是否有关键经验或能力支撑。\n\n4. **指出优势与不足**  \n   帮助候选人了解自己表现好的地方，以及需要改进的地方。\n\n5. **提供改进建议**  \n   比如如何优化回答结构、补充案例、提升表达清晰度等。\n\n6. **辅助招聘决策**  \n   对招聘方来说，可以作为初筛、复盘或对比候选人的参考材料。\n\n简单来说，Skillver 的 AI 面试报告可以把面试过程转化为结构化的评估结果，帮助更快判断候选人的表现和岗位适配度。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 336,
+      "total_tokens": 382,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 73,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:26.661365Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "Skillver 的 AI 面试报告通常用于帮助面试者或招聘方快速了解一场 AI 面试的表现，主要可以做这些事：\n\n1. **生成面试表现总结**  \n   概括候选人在面试中的整体表现、回答质量和匹配度。\n\n2. **多维度评分**  \n   可能从表达能力、逻辑性、岗位匹配度、专业能力、沟通能力等维度进行评估。\n\n3. **分析回答内容**  \n   识别回答是否完整、是否切题、是否有关键经验或能力支撑。\n\n4. **指出优势与不足**  \n   帮助候选人了解自己表现好的地方，以及需要改进的地方。\n\n5. **提供改进建议**  \n   比如如何优化回答结构、补充案例、提升表达清晰度等。\n\n6. **辅助招聘决策**  \n   对招聘方来说，可以作为初筛、复盘或对比候选人的参考材料。\n\n简单来说，Skillver 的 AI 面试报告可以把面试过程转化为结构化的评估结果，帮助更快判断候选人的表现和岗位适配度。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

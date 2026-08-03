@@ -1,0 +1,268 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "目前**没有公开信息表明存在名为\"Skillver\"的项目或产品**，搜索结果中也没有直接提及\"Skillver 的导师赋能”这一具体概念。\n\n不过，根据发音和拼写相近性，你可能是指以下两个项目中与“导师赋能”（即把导师能力转化为 AI 技能）高度相关的概念：\n\n### 1. **mentor-skill / X导师.skill**（最可能匹配）\n这是将真人导师“蒸馏”成可调用 AI Skill 的项目，核心是**导师赋能**的系统化实现：\n\n- **核心定义**：把导师的**思维方式、反馈风格、知识体系**和**指导习惯**蒸馏为可调用的 AI Skill，让导师即使离开（如翘课、毕业、忙碌）后，其判断力仍可被持续调用 [1][6]。\n- **赋能场景**：\n  - 开题报告打磨、答辩追问预判\n  - 作业批改、答疑支持\n  - 期末预习、研究方向整理 [1]\n- **价值**：让“导师再次伟大”，将隐性知识转化为**人人可用的 AI 工具**，实现全天候科研副导师 [1][2]。\n\n### 2. **Supervisor-Skills**（博导经验 AI 化）\n将博导十年科研经验（发表、审稿、学术直觉）进行“蒸馏”，封装为结构化 AI Skills，覆盖从 Idea 构思到论文投稿全流程 [2]。\n\n---\n\n### 如果你确实指的是\"Skillver\"：\n- 可能是拼写误差（如应为 **Skillveri**、**Skillver**、**Skillevolver** 等）；\n- **Skillveri** 是一家印度教育科技公司（[7]），但其官网未提及“导师赋能”功能；\n- **Skillevolver** 是一项关于“元技能学习”的论文（[11]），也未涉及导师赋能。\n\n---\n\n✅ **建议**：  \n请确认你指的是否是 **mentor-skill**、**X导师.skill** 或 **Supervisor-Skills** 项目。如果是，其“导师赋能”即指：**将真人导师的指导能力转化为可复用、可调用、全天候的 AI Skill，实现知识传承与效率提升**。\n\n如你能提供更多上下文（如项目链接、功能描述），我可以进一步精准定位。",
+  "sources": [
+    {
+      "url": "https://titanwings.github.io/colleague-skill-site/gallery/",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19490",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2624914",
+      "title": ""
+    },
+    {
+      "url": "https://news.futunn.com/post/55047108/multiverse-and-skillable-launch-partnership-to-enhance-hands-on-job",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/KPLPQAGT0511N33R.html?clickfrom=w_tech",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "title": ""
+    },
+    {
+      "url": "https://www.growsedu.cn/course/584fc64a87044033ae6ad23aef825dc1",
+      "title": ""
+    },
+    {
+      "url": "https://openskills.cc/zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill",
+      "title": ""
+    },
+    {
+      "url": "https://titanwings.github.io/colleague-skill-site/gallery/",
+      "title": "Skill Gallery — colleague-skill"
+    },
+    {
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills",
+      "title": "Supervisor-Skills: 将博导十年科研经验，炼化为你的AI 副导师。"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19490",
+      "title": "【Skill 创作】AI 导师（ai-guider）—— 让AI 用\"人话\"给你讲清楚 ..."
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2624914",
+      "title": "科研效率翻倍！保姆级教程教你学会使用skills"
+    },
+    {
+      "url": "https://news.futunn.com/post/55047108/multiverse-and-skillable-launch-partnership-to-enhance-hands-on-job",
+      "title": "Multiverse与Skillable启动合作，旨在大规模提升职业实践学习。"
+    },
+    {
+      "url": "https://www.163.com/dy/article/KPLPQAGT0511N33R.html?clickfrom=w_tech",
+      "title": "当同事、老板、前任都被做成Skill：人类正在被重新定价 - 网易"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "title": "alchaincyf/x-mentor-skill: X导师.skill — 女娲的第一个「非 ..."
+    },
+    {
+      "url": "https://www.growsedu.cn/course/584fc64a87044033ae6ad23aef825dc1",
+      "title": "师行有道®️校招新人导师带教训练营"
+    },
+    {
+      "url": "https://openskills.cc/zh",
+      "title": "发现精选智能体技能 - Open Skills"
+    },
+    {
+      "url": "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill",
+      "title": "[论文评述] SkillEvolver: Skill Learning as a Meta-Skill"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前**没有公开信息表明存在名为\"Skillver\"的项目或产品**，搜索结果中也没有直接提及\"Skillver 的导师赋能”这一具体概念。\n\n不过，根据发音和拼写相近性，你可能是指以下两个项目中与“导师赋能”（即把导师能力转化为 AI 技能）高度相关的概念：\n\n### 1. **mentor-skill / X导师.skill**（最可能匹配）\n这是将真人导师“蒸馏”成可调用 AI Skill 的项目，核心是**导师赋能**的系统化实现：\n\n- **核心定义**：把导师的**思维方式、反馈风格、知识体系**和**指导习惯**蒸馏为可调用的 AI Skill，让导师即使离开（如翘课、毕业、忙碌）后，其判断力仍可被持续调用 [1][6]。\n- **赋能场景**：\n  - 开题报告打磨、答辩追问预判\n  - 作业批改、答疑支持\n  - 期末预习、研究方向整理 [1]\n- **价值**：让“导师再次伟大”，将隐性知识转化为**人人可用的 AI 工具**，实现全天候科研副导师 [1][2]。\n\n### 2. **Supervisor-Skills**（博导经验 AI 化）\n将博导十年科研经验（发表、审稿、学术直觉）进行“蒸馏”，封装为结构化 AI Skills，覆盖从 Idea 构思到论文投稿全流程 [2]。\n\n---\n\n### 如果你确实指的是\"Skillver\"：\n- 可能是拼写误差（如应为 **Skillveri**、**Skillver**、**Skillevolver** 等）；\n- **Skillveri** 是一家印度教育科技公司（[7]），但其官网未提及“导师赋能”功能；\n- **Skillevolver** 是一项关于“元技能学习”的论文（[11]），也未涉及导师赋能。\n\n---\n\n✅ **建议**：  \n请确认你指的是否是 **mentor-skill**、**X导师.skill** 或 **Supervisor-Skills** 项目。如果是，其“导师赋能”即指：**将真人导师的指导能力转化为可复用、可调用、全天候的 AI Skill，实现知识传承与效率提升**。\n\n如你能提供更多上下文（如项目链接、功能描述），我可以进一步精准定位。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://titanwings.github.io/colleague-skill-site/gallery/",
+      "https://github.com/HKUSTDial/Supervisor-Skills",
+      "https://forum.trae.cn/t/topic/19490",
+      "https://cloud.tencent.com/developer/article/2624914",
+      "https://news.futunn.com/post/55047108/multiverse-and-skillable-launch-partnership-to-enhance-hands-on-job",
+      "https://www.163.com/dy/article/KPLPQAGT0511N33R.html?clickfrom=w_tech",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://github.com/alchaincyf/x-mentor-skill",
+      "https://www.growsedu.cn/course/584fc64a87044033ae6ad23aef825dc1",
+      "https://openskills.cc/zh",
+      "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill"
+    ],
+    "created": 1784600278,
+    "id": "8e0941a4-cea5-4c72-89e7-7ff2275400ff",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-05-25",
+        "last_updated": "2026-05-26",
+        "place_metadata": null,
+        "snippet": "整合多位社交媒体创作者的写作策略与增长方法论，形成统一的导师 Skill。帮你找到独特视角、提升内容影响力。\nIntegrates multiple social media creators' writing and growth strategies into a unified mentor skill.\nFind your unique angle and amplify your content impact.\n...\n科研路上的导师视角。帮你打磨开题报告、预判答辩追问、整理研究方向—— 在真正见导师之前，先过一遍这关。\nSimulates your academic advisor...",
+        "source": "web",
+        "title": "Skill Gallery — colleague-skill",
+        "url": "https://titanwings.github.io/colleague-skill-site/gallery/"
+      },
+      {
+        "date": "2026-04-19",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "为此，我发起了 Supervisor-Skills 项目。我们将过去十年在数据科学与人工智能顶级会议（如 SIGMOD, VLDB, ICML, NeurIPS）中积累的发表、审稿经验与学术直觉，进行\"蒸馏\"与\"锻造\"，最终封装成一套结构化的、可被大语言模型（如 Claude, GPT-4）精确执行的 **AI技能 (AI Skills)**。\n我们的愿景很简单：**将资深科研者的隐性知识，转化为人人可用的 AI 工具，让 AI 成为你真正的、全天候在线的科研副导师**\n...\n将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。",
+        "source": "web",
+        "title": "Supervisor-Skills: 将博导十年科研经验，炼化为你的AI 副导师。",
+        "url": "https://github.com/HKUSTDial/Supervisor-Skills"
+      },
+      {
+        "date": "2026-05-26",
+        "last_updated": "2026-06-09",
+        "place_metadata": null,
+        "snippet": "**ai-guider** 是一个 AI 导师 Skill。每次 AI 帮你完成一个任务（修 bug、写功能、重构代码等）之后，它会用人类易懂的语言，像坐在你旁边的导师一样，讲解刚才做了什么、为什么这么做、背后的决策逻辑，以及你能从中学到什么。\n它不是冷冰冰的\"已完成\"——而是把 AI 的思考过程摊开给你看，适合想边用 AI 边学编程的开发者、刚入门的新手，以及任何想知道\"AI 到底是怎么想的\"的人。\n...\n不用再追问\"你为什么这么改\"——每次任务完成，导师讲解自动跟上，像有一个真人导师在旁边逐帧解说。",
+        "source": "web",
+        "title": "【Skill 创作】AI 导师（ai-guider）—— 让AI 用\"人话\"给你讲清楚 ...",
+        "url": "https://forum.trae.cn/t/topic/19490"
+      },
+      {
+        "date": "2026-01-28",
+        "last_updated": "2026-07-13",
+        "place_metadata": null,
+        "snippet": "现在，一种叫 **Skill.md** 的方法正在改变这个局面。它不是什么新软件，而是一种**工程化的思路**——把一次性的、模糊的聊天提示，变成一份可复用、可验收的“标准作业程序”。\n简单说，**Skill.md就是AI的岗位说明书**。\n...\nSkill.md就是为了解决这些痛点而生的。它通过一个结构化的Markdown文件，把任务逻辑固定下来。一旦创建好，它就变成了一个**可复用的资产**。\n...\n最务实的做法就是：**找一个现成能跑通的Skill作为底座，然后把里面的验证标准和步骤，替换成你自己课题组的规范**。这样，你就能在半小时内，拥有一个结果可控的“专属科研助理”。\n...\n...",
+        "source": "web",
+        "title": "科研效率翻倍！保姆级教程教你学会使用skills",
+        "url": "https://cloud.tencent.com/developer/article/2624914"
+      },
+      {
+        "date": "2025-04-02",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "Multiverse是一家科技公司，通过个性化的在职学习来发现、缩小和防止技能差距。他们与美国和英国的1500多家公司合作，提供使业务转型和经济机会得以实现的技能。其重点领域包括人工智能、科技和数据技能，适用于任何年龄和职业阶段的人士。Multiverse的学习者为其雇主带来了超过20亿美元的回报率，利用他们所学的技能提高生产力和可衡量的绩效。",
+        "source": "web",
+        "title": "Multiverse与Skillable启动合作，旨在大规模提升职业实践学习。",
+        "url": "https://news.futunn.com/post/55047108/multiverse-and-skillable-launch-partnership-to-enhance-hands-on-job"
+      },
+      {
+        "date": "2026-04-04",
+        "last_updated": "2026-04-04",
+        "place_metadata": null,
+        "snippet": "现在，连导师也开始被做成 skill 了。比如 导师.skill 这个项目，首页就直接写着：“**把导师蒸馏成随时可问的 AI Skill**”。它瞄准的痛点非常具体：如果你是学生，导师太忙抓不到人；如果你是老师，则要一遍遍向学生重复介绍自己的研究方向、学术风格和经验方法。\n这种“指导”“点拨”“传帮带”原本高度依赖真人在场的关系，也开始被重写成一套可封装、可随时访问的能力包。",
+        "source": "web",
+        "title": "当同事、老板、前任都被做成Skill：人类正在被重新定价 - 网易",
+        "url": "https://www.163.com/dy/article/KPLPQAGT0511N33R.html?clickfrom=w_tech"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "support@skillveri.com\n...\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-04-06",
+        "last_updated": "2026-05-31",
+        "place_metadata": null,
+        "snippet": "装好后，告诉你的 agent：「帮我写条推文」「X策略」「推特怎么涨粉」「帮我审阅这条tweet」「分析我的X账号」即可激活。\n...\n|维度|人物Skill（如乔布斯.skill）|主题Skill（X导师.skill）|\n|--|--|--|\n|蒸馏对象|一个人的思维方式|一个领域的方法论|\n|信息来源|围绕一个人的6维度调研|6位顶级从业者 + 平台算法数据|\n|输出风格|模拟该人语气回答|中性专业，给操作手册|\n|核心价值|用别人的眼睛看你的问题|给你可直接执行的行动计划|",
+        "source": "web",
+        "title": "alchaincyf/x-mentor-skill: X导师.skill — 女娲的第一个「非 ...",
+        "url": "https://github.com/alchaincyf/x-mentor-skill"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-05",
+        "place_metadata": null,
+        "snippet": "导师使能\"1+1+1\"模式，融合了**角色感知、知识学习、带教规划** 三大模块，并配以训前感知任务，让导师快速适应角色，高效上手带教工作。\n...\n- **阶段三带教规划工作坊**，通过具体的带教任务设计以及专家讲师的工作坊带领，帮助导师厘清\"导师带教落地难\"的问题，迅速提升实操技能。\n导师使能\"1+1+1\"模式，兼具系统化传授知识和锻炼带教技能的优势，将直接输出富有执行力的导师团队，有效解决企业新生代培养的痛点，助力企业持续高效发展。\n**《师行有道：成为陪跑型导师》训练营**，针对导师在实际工作中面临的障碍与需求进行设计，从理论基础到实际应用，从导师自身建设到新人培养，覆盖导师的完整的能...",
+        "source": "web",
+        "title": "师行有道®️校招新人导师带教训练营",
+        "url": "https://www.growsedu.cn/course/584fc64a87044033ae6ad23aef825dc1"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-06",
+        "place_metadata": null,
+        "snippet": "x-mastery-mentor\n$10K/hr级X/Twitter运营导师。基于Nicolas Cole、Dickie Bush、Sahil Bloom、Justin Welsh、Dan Koe、Alex Hormozi六位顶级创作者的方法论 + X开源算法深度分析 + AI/科技赛道专精策略，提炼6个核心心智模型、10条决策启发式、完整的选题-写作-增长操作手册。\n通用方法论为底座，AI/科技赛道为专精。\n...\n一种轻量级、开放的格式，用于通过专业知识和工作流扩展 AI 智能体的能力。",
+        "source": "web",
+        "title": "发现精选智能体技能 - Open Skills",
+        "url": "https://openskills.cc/zh"
+      },
+      {
+        "date": "2026-05-13",
+        "last_updated": "2026-07-09",
+        "place_metadata": null,
+        "snippet": "本论文提出了SkillEvolver，一种轻量级、即插即用的在线技能学习解决方案。该方案通过一个单一的“元技能”（meta-skill）迭代地创作、部署和优化特定领域的技能。SkillEvolver的学习目标是技能的\n...\n。1.\n**元技能（Meta-Skill）概念** SkillEvolver本身是一个元技能，它不直接解决目标任务，而是指导\n…",
+        "source": "web",
+        "title": "[论文评述] SkillEvolver: Skill Learning as a Meta-Skill",
+        "url": "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 608,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00061,
+        "request_cost": 0.005,
+        "total_cost": 0.00564
+      },
+      "prompt_tokens": 35,
+      "search_context_size": "low",
+      "total_tokens": 643
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:17:58.445041Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "目前**没有公开信息表明存在名为\"Skillver\"的项目或产品**，搜索结果中也没有直接提及\"Skillver 的导师赋能”这一具体概念。\n\n不过，根据发音和拼写相近性，你可能是指以下两个项目中与“导师赋能”（即把导师能力转化为 AI 技能）高度相关的概念：\n\n### 1. **mentor-skill / X导师.skill**（最可能匹配）\n这是将真人导师“蒸馏”成可调用 AI Skill 的项目，核心是**导师赋能**的系统化实现：\n\n- **核心定义**：把导师的**思维方式、反馈风格、知识体系**和**指导习惯**蒸馏为可调用的 AI Skill，让导师即使离开（如翘课、毕业、忙碌）后，其判断力仍可被持续调用 [1][6]。\n- **赋能场景**：\n  - 开题报告打磨、答辩追问预判\n  - 作业批改、答疑支持\n  - 期末预习、研究方向整理 [1]\n- **价值**：让“导师再次伟大”，将隐性知识转化为**人人可用的 AI 工具**，实现全天候科研副导师 [1][2]。\n\n### 2. **Supervisor-Skills**（博导经验 AI 化）\n将博导十年科研经验（发表、审稿、学术直觉）进行“蒸馏”，封装为结构化 AI Skills，覆盖从 Idea 构思到论文投稿全流程 [2]。\n\n---\n\n### 如果你确实指的是\"Skillver\"：\n- 可能是拼写误差（如应为 **Skillveri**、**Skillver**、**Skillevolver** 等）；\n- **Skillveri** 是一家印度教育科技公司（[7]），但其官网未提及“导师赋能”功能；\n- **Skillevolver** 是一项关于“元技能学习”的论文（[11]），也未涉及导师赋能。\n\n---\n\n✅ **建议**：  \n请确认你指的是否是 **mentor-skill**、**X导师.skill** 或 **Supervisor-Skills** 项目。如果是，其“导师赋能”即指：**将真人导师的指导能力转化为可复用、可调用、全天候的 AI Skill，实现知识传承与效率提升**。\n\n如你能提供更多上下文（如项目链接、功能描述），我可以进一步精准定位。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "目前市面上常见的 AI 模拟面试工具包括：\n\n1. **HireVue**：使用 AI 分析候选人面试回答的语言、语调和表情，广泛应用于大型企业。\n2. **Interviewer.AI**：提供基于自然语言处理和计算机视觉的模拟面试，并生成评估报告。\n3. **Yoodli**：专注于提升沟通技巧，提供实时反馈和练习场景。\n4. **Pramp**：提供免费的同级模拟面试，但结合了 AI 匹配和反馈功能。\n5. **面试模拟（牛客网、赛码等国内平台）**：结合 AI 题库和语音识别，模拟技术类和综合类面试。\n6. **Google Interview Warmup**：Google 官方的免费工具，模拟常见面试问题并分析回答内容。\n\n这些工具各有侧重，适合不同行业和面试环节。你可以根据自身需求（如行业、技术/行为面试、语言等）选择试用。",
+  "sources": [],
+  "raw": {
+    "id": "81059f08-95ec-4416-ae47-8bb95028d6e3",
+    "object": "chat.completion",
+    "created": 1784600382,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前市面上常见的 AI 模拟面试工具包括：\n\n1. **HireVue**：使用 AI 分析候选人面试回答的语言、语调和表情，广泛应用于大型企业。\n2. **Interviewer.AI**：提供基于自然语言处理和计算机视觉的模拟面试，并生成评估报告。\n3. **Yoodli**：专注于提升沟通技巧，提供实时反馈和练习场景。\n4. **Pramp**：提供免费的同级模拟面试，但结合了 AI 匹配和反馈功能。\n5. **面试模拟（牛客网、赛码等国内平台）**：结合 AI 题库和语音识别，模拟技术类和综合类面试。\n6. **Google Interview Warmup**：Google 官方的免费工具，模拟常见面试问题并分析回答内容。\n\n这些工具各有侧重，适合不同行业和面试环节。你可以根据自身需求（如行业、技术/行为面试、语言等）选择试用。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 195,
+      "total_tokens": 232,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:19:45.112256Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "目前市面上常见的 AI 模拟面试工具包括：\n\n1. **HireVue**：使用 AI 分析候选人面试回答的语言、语调和表情，广泛应用于大型企业。\n2. **Interviewer.AI**：提供基于自然语言处理和计算机视觉的模拟面试，并生成评估报告。\n3. **Yoodli**：专注于提升沟通技巧，提供实时反馈和练习场景。\n4. **Pramp**：提供免费的同级模拟面试，但结合了 AI 匹配和反馈功能。\n5. **面试模拟（牛客网、赛码等国内平台）**：结合 AI 题库和语音识别，模拟技术类和综合类面试。\n6. **Google Interview Warmup**：Google 官方的免费工具，模拟常见面试问题并分析回答内容。\n\n这些工具各有侧重，适合不同行业和面试环节。你可以根据自身需求（如行业、技术/行为面试、语言等）选择试用。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

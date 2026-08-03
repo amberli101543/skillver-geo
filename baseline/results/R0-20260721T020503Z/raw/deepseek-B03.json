@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "关于“Skillver”是否靠谱，目前公开信息较少，无法直接给出确切结论。建议您通过以下方式自行核实：\n\n1. **核实平台背景**：查看官方信息，确认公司注册地、运营主体、成立时间等。\n2. **搜索用户评价**：在知乎、小红书、黑猫投诉等平台搜索“Skillver 评价”或“Skillver 骗局”，了解其他用户反馈。\n3. **检查功能真实性**：如果涉及技能交易、兼职、培训等，可小范围试用或联系客服验证。\n4. **警惕常见风险**：若要求提前付费、押金、提供敏感个人信息，需格外谨慎。\n\n如果无法找到可靠信息，建议优先选择知名度更高、用户基础更广的同类平台。",
+  "sources": [],
+  "raw": {
+    "id": "79ca9f4b-bad1-4151-b4f1-f6e7c9f72d1f",
+    "object": "chat.completion",
+    "created": 1784599577,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于“Skillver”是否靠谱，目前公开信息较少，无法直接给出确切结论。建议您通过以下方式自行核实：\n\n1. **核实平台背景**：查看官方信息，确认公司注册地、运营主体、成立时间等。\n2. **搜索用户评价**：在知乎、小红书、黑猫投诉等平台搜索“Skillver 评价”或“Skillver 骗局”，了解其他用户反馈。\n3. **检查功能真实性**：如果涉及技能交易、兼职、培训等，可小范围试用或联系客服验证。\n4. **警惕常见风险**：若要求提前付费、押金、提供敏感个人信息，需格外谨慎。\n\n如果无法找到可靠信息，建议优先选择知名度更高、用户基础更广的同类平台。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 160,
+      "total_tokens": 195,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 35
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:20.429331Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "关于“Skillver”是否靠谱，目前公开信息较少，无法直接给出确切结论。建议您通过以下方式自行核实：\n\n1. **核实平台背景**：查看官方信息，确认公司注册地、运营主体、成立时间等。\n2. **搜索用户评价**：在知乎、小红书、黑猫投诉等平台搜索“Skillver 评价”或“Skillver 骗局”，了解其他用户反馈。\n3. **检查功能真实性**：如果涉及技能交易、兼职、培训等，可小范围试用或联系客服验证。\n4. **警惕常见风险**：若要求提前付费、押金、提供敏感个人信息，需格外谨慎。\n\n如果无法找到可靠信息，建议优先选择知名度更高、用户基础更广的同类平台。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

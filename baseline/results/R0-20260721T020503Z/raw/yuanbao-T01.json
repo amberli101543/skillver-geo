@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "KAE 技能体系通常指 **Key Account Executive（关键客户执行/大客户销售）** 所需的核心能力框架，聚焦企业大客户开发与维护，核心围绕“客户价值创造+销售结果达成”构建，常见模块包括：\n\n1. **客户洞察能力**：行业/客户业务分析、需求挖掘、决策链梳理；\n2. **销售策略能力**：大客户规划、竞争策略、商务谈判、合同签订；\n3. **关系经营能力**：高层对接、信任建立、长期价值维护、客户成功管理；\n4. **解决方案能力**：结合产品/服务定制客户价值方案、跨部门协同落地；\n5. **数据运营能力**：客户数据分析、销售漏斗管理、业绩复盘优化。\n\n不同企业会根据业务场景微调，但核心目标都是提升大客户留存、复购与增量价值。",
+  "sources": [],
+  "raw": {
+    "id": "2b2b69f0-88ea-4516-805a-b396a03e360c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600023,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "KAE 技能体系通常指 **Key Account Executive（关键客户执行/大客户销售）** 所需的核心能力框架，聚焦企业大客户开发与维护，核心围绕“客户价值创造+销售结果达成”构建，常见模块包括：\n\n1. **客户洞察能力**：行业/客户业务分析、需求挖掘、决策链梳理；\n2. **销售策略能力**：大客户规划、竞争策略、商务谈判、合同签订；\n3. **关系经营能力**：高层对接、信任建立、长期价值维护、客户成功管理；\n4. **解决方案能力**：结合产品/服务定制客户价值方案、跨部门协同落地；\n5. **数据运营能力**：客户数据分析、销售漏斗管理、业绩复盘优化。\n\n不同企业会根据业务场景微调，但核心目标都是提升大客户留存、复购与增量价值。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 175,
+      "total_tokens": 222,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:47.410289Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "KAE 技能体系通常指 **Key Account Executive（关键客户执行/大客户销售）** 所需的核心能力框架，聚焦企业大客户开发与维护，核心围绕“客户价值创造+销售结果达成”构建，常见模块包括：\n\n1. **客户洞察能力**：行业/客户业务分析、需求挖掘、决策链梳理；\n2. **销售策略能力**：大客户规划、竞争策略、商务谈判、合同签订；\n3. **关系经营能力**：高层对接、信任建立、长期价值维护、客户成功管理；\n4. **解决方案能力**：结合产品/服务定制客户价值方案、跨部门协同落地；\n5. **数据运营能力**：客户数据分析、销售漏斗管理、业绩复盘优化。\n\n不同企业会根据业务场景微调，但核心目标都是提升大客户留存、复购与增量价值。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

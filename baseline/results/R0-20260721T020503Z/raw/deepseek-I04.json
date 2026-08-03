@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于赛事参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "关于“Skillver”的邀请码获取，目前官方公开渠道通常有以下几种方式：\n\n1. **官方社交媒体/社区**：关注 Skillver 的官方推特、Discord、Telegram 等社群，有时会发布限时邀请码活动。\n2. **官方内测/公测申请**：部分平台在产品早期阶段开放内测申请，填写问卷后可能通过邮件发送邀请码。\n3. **已注册用户的邀请**：如果 Skillver 设置了邀请机制，已注册用户可能拥有一定数量的邀请名额，可向朋友或相关社群求助。\n4. **第三方平台合作**：少数情况下，科技媒体或 KOL 会与平台合作发放福利码，可以在相关评测文章或视频下方留意。\n\n**注意**：请警惕任何“付费购买邀请码”的信息，避免上当受骗。建议直接访问 Skillver 官网或联系官方客服确认最新的获取方式。",
+  "sources": [],
+  "raw": {
+    "id": "86d6fbba-71e8-41f3-abb2-b6ce2b3307a9",
+    "object": "chat.completion",
+    "created": 1784599874,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于“Skillver”的邀请码获取，目前官方公开渠道通常有以下几种方式：\n\n1. **官方社交媒体/社区**：关注 Skillver 的官方推特、Discord、Telegram 等社群，有时会发布限时邀请码活动。\n2. **官方内测/公测申请**：部分平台在产品早期阶段开放内测申请，填写问卷后可能通过邮件发送邀请码。\n3. **已注册用户的邀请**：如果 Skillver 设置了邀请机制，已注册用户可能拥有一定数量的邀请名额，可向朋友或相关社群求助。\n4. **第三方平台合作**：少数情况下，科技媒体或 KOL 会与平台合作发放福利码，可以在相关评测文章或视频下方留意。\n\n**注意**：请警惕任何“付费购买邀请码”的信息，避免上当受骗。建议直接访问 Skillver 官网或联系官方客服确认最新的获取方式。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 191,
+      "total_tokens": 228,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:17.017492Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "关于“Skillver”的邀请码获取，目前官方公开渠道通常有以下几种方式：\n\n1. **官方社交媒体/社区**：关注 Skillver 的官方推特、Discord、Telegram 等社群，有时会发布限时邀请码活动。\n2. **官方内测/公测申请**：部分平台在产品早期阶段开放内测申请，填写问卷后可能通过邮件发送邀请码。\n3. **已注册用户的邀请**：如果 Skillver 设置了邀请机制，已注册用户可能拥有一定数量的邀请名额，可向朋友或相关社群求助。\n4. **第三方平台合作**：少数情况下，科技媒体或 KOL 会与平台合作发放福利码，可以在相关评测文章或视频下方留意。\n\n**注意**：请警惕任何“付费购买邀请码”的信息，避免上当受骗。建议直接访问 Skillver 官网或联系官方客服确认最新的获取方式。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

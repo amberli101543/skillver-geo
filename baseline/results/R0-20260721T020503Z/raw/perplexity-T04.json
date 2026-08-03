@@ -1,0 +1,304 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "Skillver 的**正式 AI 面试**是平台向求职者（特别是头部科技企业）提供的一种**能力核验与评估环节**，其核心目的是生成一份**不可替代的正式报告**，作为向企业投递简历的“硬通行证”[1][2]。\n\n与用于练习的“彩排”（模拟面试）不同，正式 AI 面试具备以下关键特征：\n\n| 特征维度 | 正式 AI 面试 | 彩排/模拟面试 |\n| :--- | :--- | :--- |\n| **主要用途** | **能力核验**，生成正式评估报告 | **练习表达**、熟悉题型，不计入评估 [1][2] |\n| **报告效力** | **投递必需**：是向头部企业投递的硬通行证，HR 查看申请时必附此报告 [1][3] | **无效**：彩排报告不能替代正式报告，也不能用于投递 [1] |\n| **评估机制** | 基于**KAE 七维战力**（知识 & 能力引擎）生成客观数据画像 [1] | 由 15+ AI Agent 协同编排，但**不生成正式报告** [3] |\n| **题目标准** | 对齐头部科技企业真实岗位要求，采用合规题库 [3] | 题目与评分标准亦对齐真实要求，但仅用于复盘 [3] |\n\n**核心机制说明：**\n1.  **投递门槛**：在 Skillver 平台投递某个岗位前，求职者**必须至少完成 1 次正式 AI 面试**并生成对应报告，这是保障企业筛选质量的核心机制 [1]。\n2.  **评估内容**：正式报告包含**七维战力能力雷达**、各维度分数与说明、以及面试对话回顾等内容 [2]。\n3.  **非承诺性质**：平台明确说明，完成正式评估**不承诺**通过面试、获得邀约或直接拿到 Offer，报告仅作为能力凭证供 HR 参考 [1]。\n\n简而言之，Skillver 的正式 AI 面试是将空泛的自荐信转化为**经 AI 核验的客观能力画像**的关键步骤，是求职者进入头部科技企业面试流程的必要前置条件 [1][3]。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.dayee.com/html/newsDetail-443.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.mind-interview.com/zh-CN/articles/ai-interview-coach-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://www.cake.me/resources/interview-guide/ai-interview-guide-tips",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7570793903848833039",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2505?urlSource=sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2626?urlSource=sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://www.beisen.com/res/2060.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/",
+      "title": ""
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/1764895087168089.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.moseeker.com/ai/ai-interview/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.dayee.com/html/newsDetail-443.html",
+      "title": "什么是AI面试?深入了解AI面试工具"
+    },
+    {
+      "url": "https://www.mind-interview.com/zh-CN/articles/ai-interview-coach-guide/",
+      "title": "AI 面试教练指南：用模拟面试与结构化反馈提升求职与升学表现"
+    },
+    {
+      "url": "https://www.cake.me/resources/interview-guide/ai-interview-guide-tips",
+      "title": "AI 面試是什麼？求職者該如何應對AI 面試、有什麼面試技巧？ - Cake"
+    },
+    {
+      "url": "https://juejin.cn/post/7570793903848833039",
+      "title": "AI 面试官：掀起招聘效率革命，重塑人才甄选新生态 - 稀土掘金"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2505?urlSource=sitemap",
+      "title": "AI面试流程：招聘提效与控偏落地方案2025年9月 - 牛客企业版"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2626?urlSource=sitemap",
+      "title": "AI面试流程2025年9月合规高效实施指南 - 牛客"
+    },
+    {
+      "url": "https://www.beisen.com/res/2060.html",
+      "title": "AI 面试是什么- 北森HRSaaS"
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/",
+      "title": "AI求职面试准备完整指南：从两周前到面试后的分阶段实操手册"
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/1764895087168089.html",
+      "title": "上千题喂出来的AI面试官，是如何淘汰应聘者的？"
+    },
+    {
+      "url": "https://www.moseeker.com/ai/ai-interview/",
+      "title": "AI面试- 仟寻MoSeeker - 500强企业都在用"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的**正式 AI 面试**是平台向求职者（特别是头部科技企业）提供的一种**能力核验与评估环节**，其核心目的是生成一份**不可替代的正式报告**，作为向企业投递简历的“硬通行证”[1][2]。\n\n与用于练习的“彩排”（模拟面试）不同，正式 AI 面试具备以下关键特征：\n\n| 特征维度 | 正式 AI 面试 | 彩排/模拟面试 |\n| :--- | :--- | :--- |\n| **主要用途** | **能力核验**，生成正式评估报告 | **练习表达**、熟悉题型，不计入评估 [1][2] |\n| **报告效力** | **投递必需**：是向头部企业投递的硬通行证，HR 查看申请时必附此报告 [1][3] | **无效**：彩排报告不能替代正式报告，也不能用于投递 [1] |\n| **评估机制** | 基于**KAE 七维战力**（知识 & 能力引擎）生成客观数据画像 [1] | 由 15+ AI Agent 协同编排，但**不生成正式报告** [3] |\n| **题目标准** | 对齐头部科技企业真实岗位要求，采用合规题库 [3] | 题目与评分标准亦对齐真实要求，但仅用于复盘 [3] |\n\n**核心机制说明：**\n1.  **投递门槛**：在 Skillver 平台投递某个岗位前，求职者**必须至少完成 1 次正式 AI 面试**并生成对应报告，这是保障企业筛选质量的核心机制 [1]。\n2.  **评估内容**：正式报告包含**七维战力能力雷达**、各维度分数与说明、以及面试对话回顾等内容 [2]。\n3.  **非承诺性质**：平台明确说明，完成正式评估**不承诺**通过面试、获得邀约或直接拿到 Offer，报告仅作为能力凭证供 HR 参考 [1]。\n\n简而言之，Skillver 的正式 AI 面试是将空泛的自荐信转化为**经 AI 核验的客观能力画像**的关键步骤，是求职者进入头部科技企业面试流程的必要前置条件 [1][3]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/faq.html",
+      "https://www.dayee.com/html/newsDetail-443.html",
+      "https://www.mind-interview.com/zh-CN/articles/ai-interview-coach-guide/",
+      "https://www.cake.me/resources/interview-guide/ai-interview-guide-tips",
+      "https://juejin.cn/post/7570793903848833039",
+      "https://hr.nowcoder.com/article/2505?urlSource=sitemap",
+      "https://hr.nowcoder.com/article/2626?urlSource=sitemap",
+      "https://www.beisen.com/res/2060.html",
+      "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/",
+      "https://m.bjnews.com.cn/detail/1764895087168089.html",
+      "https://www.moseeker.com/ai/ai-interview/"
+    ],
+    "created": 1784600168,
+    "id": "34cc1921-ee66-45fd-844f-64afd538355e",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n...\n- 彩排不计入企业正式评估；\n- 彩排报告不能替代正式 AI 面试报告，也不能用于投递；\n- 正式 AI 面试完成后生成的报告，才是向企业投递所需的能力凭证；\n- 平台不承诺正式评估通过、面试邀约或 offer。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个岗位前，需至少完成 1 次正式 AI 面试并生成对应报告——这是保障企业筛选质量的核心机制。\nHR 看到的每一份申请都附有客观的 KAE 七维战力数据，而不是单纯的简历关...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "AI 面试分为模拟与正式两种用途。模拟面试用于练习表达、熟悉题型，不能作为正式面试或投递凭证；正式 AI 面试用于能力核验并生成正式报告。报告可包含七维战力能力雷达、维度分数与说明、面试对话回顾等内容。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "与普通模拟面试的区别： - 彩排由 15+ 专责 AI Agent 协同编排，题目与评分标准对齐头部科技企业真实岗位要求 - 可反复练习（当前版本 **具体使用额度以 Skillver 主站 /faq 为准**），不计入企业评估 - 正式 AI 面试报告是向头部企业投递的硬通行证——彩排本身不生成可投递报告\n...\n不可以。模拟面试用于练习，不是正式面试或投递凭证；平台投递链路要求对应岗位下已有正式 AI 面试报告。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个**岗位** 前，需至少完成 1 次**正式** AI 面试并生成对应报告——这是向头部科技企业...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": "2024-03-21",
+        "last_updated": "2026-05-15",
+        "place_metadata": null,
+        "snippet": "简单回答一下“什么是AI面试?”——AI面试是一种前沿的方法，它利用AI来简化和加强招聘过程中对候选人的筛选和评估。",
+        "source": "web",
+        "title": "什么是AI面试?深入了解AI面试工具",
+        "url": "https://www.dayee.com/html/newsDetail-443.html"
+      },
+      {
+        "date": "2026-04-22",
+        "last_updated": "2026-06-08",
+        "place_metadata": null,
+        "snippet": "**Key Summary：** 求职者与在校生专用：通过自我介绍评分、定制追问与 STAR 结构练习，在正式面试前积累刻意练习与可执行改进建议。\n帮助企业以统一标准完成筛选、面试与决策，提升录用质量与招聘效率。",
+        "source": "web",
+        "title": "AI 面试教练指南：用模拟面试与结构化反馈提升求职与升学表现",
+        "url": "https://www.mind-interview.com/zh-CN/articles/ai-interview-coach-guide/"
+      },
+      {
+        "date": "2024-12-16",
+        "last_updated": "2026-07-15",
+        "place_metadata": null,
+        "snippet": "AI 面試是透過人工智慧技術輔助或執行面試流程的招募方式，對於頂尖企業，每年動輒上萬份的履歷，AI 面試能夠在短時間內完成初步篩選，大幅提升招募效率。根據 LinkedIn 最新數據顯示，已有 62% 的企業招募人員導入 AI 面試技術，較去年增長 8%。從 IBM、Amazon 到 Delta Air Lines 等國際企業，都已成功運用 AI 技術來提升招募效率。\n...\n#### AI 聊天機器人 面試（AI Chatbot Interview）\n完全自動化的面試形式，由 AI 聊天機器人根據職位要求和應試者回答動態調整問題，AI Chatbot 面試適合進行初步篩選，效率最高，能在短時...",
+        "source": "web",
+        "title": "AI 面試是什麼？求職者該如何應對AI 面試、有什麼面試技巧？ - Cake",
+        "url": "https://www.cake.me/resources/interview-guide/ai-interview-guide-tips"
+      },
+      {
+        "date": "2025-11-11",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "这款 AI 面试智能体并非简单的 “高级筛选工具”，而是具备专业判断力的 AI 面试专家。\n...\n这不是单一功能的自动消息助手，而是一套闭环式招聘自动化系统。\n其操作便捷性与自动化程度远超传统工具：仅需 30-60 秒完成企业招聘需求设置、筛选条件配置等初始化操作，即可自动启动服务；AI 通过自主页面操作，按照企业预设的岗位要求、任职资格等条件，自动筛选\n海量简历，快速锁定匹配人选；针对筛选通过的候选人，AI 会模拟人类自然语气发起沟通，通过问答式互动进一步了解候选人意向与适配度；同时，它能自动遍历所有未读消息，逐条",
+        "source": "web",
+        "title": "AI 面试官：掀起招聘效率革命，重塑人才甄选新生态 - 稀土掘金",
+        "url": "https://juejin.cn/post/7570793903848833039"
+      },
+      {
+        "date": "2025-09-10",
+        "last_updated": "2026-01-01",
+        "place_metadata": null,
+        "snippet": "**AI面试流程**与治理框架，覆盖JD解析、人岗画像、预筛、在线视频面试、结构化评分、偏差校验到录用决策全链路，配套关键指标、合规基线与实施清单。核心观点：1）以岗位能力模型为流程主线与评分锚；2）评分工具与数据审计并行，显著提升一致性；3）AI只做决策支持，确保“人负最终责任”。\n...\nAI在流程中的定位是“协同者”，提供题库抽取、转写记录、要点提炼、评分校准与偏差监控，帮助面试官把更多精力放在追问与判断上。GDPR与国内隐私法规都强调“不可仅依赖自动化决策”，这意味着AI用于决策支持而非最终裁定。",
+        "source": "web",
+        "title": "AI面试流程：招聘提效与控偏落地方案2025年9月 - 牛客企业版",
+        "url": "https://hr.nowcoder.com/article/2505?urlSource=sitemap"
+      },
+      {
+        "date": "2025-09-11",
+        "last_updated": "2026-03-20",
+        "place_metadata": null,
+        "snippet": "实践中建议以“岗位建模→题库与维度→候选人评估→视频面试→评分合议→风险复核→决策与归档”的主线推进，并将“数据合规、质量监控、人类监督”嵌入每一步。典型角色包括：招聘负责人（流程与合规）、用人经理（胜任力口径）、面试官（执行与反馈）、数据治理/法务（合规审查）、HRBP（业务闭环）。\n...\n1. **岗位建模：** 聚焦3–5个关键胜任力维度（如：问题解决、协作影响、客户导向、技术深度）。沉淀行为指标与优秀表现样例。\n2. **题库与锚定：** 为每维度准备3–5道STAR/半开放题；为每题设计1–5分的行为锚定（举证点、负面信号）。",
+        "source": "web",
+        "title": "AI面试流程2025年9月合规高效实施指南 - 牛客",
+        "url": "https://hr.nowcoder.com/article/2626?urlSource=sitemap"
+      },
+      {
+        "date": "2025-11-18",
+        "last_updated": "2026-05-27",
+        "place_metadata": null,
+        "snippet": "AI 面试是一款基于大模型研发的数字人模拟真人面试的创新型产品。它能够实现和候选人智能提问和追问、智能答疑等双向互动，并进行多维度评估，让人岗智配更精准，提高招聘流程的效率和人才评估的质量。",
+        "source": "web",
+        "title": "AI 面试是什么- 北森HRSaaS",
+        "url": "https://www.beisen.com/res/2060.html"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "**面试前准备型AI** — 在面试之前使用的工具。用于研究公司、生成练习题、录制模拟面试、获取答题反馈。AI驱动的模拟面试应用、用ChatGPT或Claude做公司分析、STAR答题结构化练习平台，都属于这一类。\n**实时辅助型AI** — 在面试进行中使用的工具。实时捕获面试官的问题，并在屏幕上生成答题建议。AceRound AI属于这一类。\n...\n取决于目的。做有反馈的结构化模拟面试，专用平台比通用ChatGPT更合适。视频面试中的实时支援，AceRound AI是专为这个场景设计的。做公司研究和STAR素材构建，任何能力较强的AI助手都可以。",
+        "source": "web",
+        "title": "AI求职面试准备完整指南：从两周前到面试后的分阶段实操手册",
+        "url": "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/"
+      },
+      {
+        "date": "2025-12-05",
+        "last_updated": "2026-06-08",
+        "place_metadata": null,
+        "snippet": "今年，张竹所在的公司也用起了AI面试官，这是整个招聘流程里的第一个环节，“用来初步考察求职者的英语口语能力。”通过后，才能与业务部门约面。\n...\n面试时，面试者会随机抽到三道题，用英语回答，随后由AI打分。每道题都是五分制，综合评分达到三分即为通过。",
+        "source": "web",
+        "title": "上千题喂出来的AI面试官，是如何淘汰应聘者的？",
+        "url": "https://m.bjnews.com.cn/detail/1764895087168089.html"
+      },
+      {
+        "date": "2025-11-27",
+        "last_updated": "2025-12-05",
+        "place_metadata": null,
+        "snippet": "仟寻 AI 面试可实现线上自助面试，帮助用人组织高效率地考察候选人能力，兼顾公正性和准确性。它能够对接市面上常见的 ATS 和 HRM 系统，无论大规模的校招，亦或流程较长的社招，均可应付裕如。招聘人员只需要提前做好设置，候选人便能随时随地开启面试，自行完成整个流程。AI 算法会对候选人表现进行多维度评估，辅助 HR 快速筛选人才。",
+        "source": "web",
+        "title": "AI面试- 仟寻MoSeeker - 500强企业都在用",
+        "url": "https://www.moseeker.com/ai/ai-interview/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 570,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00057,
+        "request_cost": 0.005,
+        "total_cost": 0.0056
+      },
+      "prompt_tokens": 34,
+      "search_context_size": "low",
+      "total_tokens": 604
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:08.762267Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "Skillver 的**正式 AI 面试**是平台向求职者（特别是头部科技企业）提供的一种**能力核验与评估环节**，其核心目的是生成一份**不可替代的正式报告**，作为向企业投递简历的“硬通行证”[1][2]。\n\n与用于练习的“彩排”（模拟面试）不同，正式 AI 面试具备以下关键特征：\n\n| 特征维度 | 正式 AI 面试 | 彩排/模拟面试 |\n| :--- | :--- | :--- |\n| **主要用途** | **能力核验**，生成正式评估报告 | **练习表达**、熟悉题型，不计入评估 [1][2] |\n| **报告效力** | **投递必需**：是向头部企业投递的硬通行证，HR 查看申请时必附此报告 [1][3] | **无效**：彩排报告不能替代正式报告，也不能用于投递 [1] |\n| **评估机制** | 基于**KAE 七维战力**（知识 & 能力引擎）生成客观数据画像 [1] | 由 15+ AI Agent 协同编排，但**不生成正式报告** [3] |\n| **题目标准** | 对齐头部科技企业真实岗位要求，采用合规题库 [3] | 题目与评分标准亦对齐真实要求，但仅用于复盘 [3] |\n\n**核心机制说明：**\n1.  **投递门槛**：在 Skillver 平台投递某个岗位前，求职者**必须至少完成 1 次正式 AI 面试**并生成对应报告，这是保障企业筛选质量的核心机制 [1]。\n2.  **评估内容**：正式报告包含**七维战力能力雷达**、各维度分数与说明、以及面试对话回顾等内容 [2]。\n3.  **非承诺性质**：平台明确说明，完成正式评估**不承诺**通过面试、获得邀约或直接拿到 Offer，报告仅作为能力凭证供 HR 参考 [1]。\n\n简而言之，Skillver 的正式 AI 面试是将空泛的自荐信转化为**经 AI 核验的客观能力画像**的关键步骤，是求职者进入头部科技企业面试流程的必要前置条件 [1][3]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

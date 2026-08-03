@@ -1,0 +1,268 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "根据2026年最新的测评与横评数据，**云端职达**被推荐为综合能力最强、性价比最高（甚至免费）的求职助手，特别适合进行系统性求职战役的用户[3][10]；若专注于**互联网大厂求职**，**求职精灵 Genielink**是首选，因其覆盖技术岗与非技术岗且功能全面[6]；若需**简历优化与ATS通过**，**Teal**（职业战略平台）和**Rezi**（专注ATS评分）表现最佳[4]；若关注**AI面试模拟**，**讯飞星火**和**面试精灵**评测效果领先[5][9]。\n\n以下是针对不同核心需求的详细推荐对比：\n\n### 1. 综合最强与免费首选\n| 工具名称 | 核心优势 | 适用人群 |\n| :--- | :--- | :--- |\n| **云端职达** | 综合能力最强，性价比最高（甚至免费），将求职主动权掌握在用户手中，解放低效重复工作[3][10] | 进行严肃、系统求职战役的用户 |\n| **求职精灵 Genielink** | 一站式AI平台，特别针对**互联网大厂**场景，覆盖技术与非技术岗，综合价值最高[6] | 大厂求职者、应届生 |\n\n### 2. 简历优化与职位匹配\n| 工具名称 | 核心功能 | 亮点 |\n| :--- | :--- | :--- |\n| **Teal** | 完整职业发展战略平台，上传招聘信息后提供**匹配度评分**，推荐关键词与成就案例[4] | 经历与职位精准匹配，不仅做简历 |\n| **Rezi** | 专注制作通过**ATS筛选**的简历，实时更新ATS评分，自动生成模块[4] | 适合追求简洁高效、需通过系统筛选的求职者 |\n| **Careerflow** | 跨平台自动抓取职位，含**AI人脉拓展**功能（自动生成LinkedIn请求话术）[4] | 适合“多线布局、持续经营”的求职者 |\n| **up简历** | AI聊天自动生成优化专业简历，精准匹配心仪岗位[1] | 简历流水账少，快速生成 |\n\n### 3. AI面试与模拟辅导\n| 工具名称 | 核心功能 | 优势 |\n| :--- | :--- | :--- |\n| **讯飞星火** | 根据专业和经验定制简历，提供**AI面试官模拟面试**，职场小白可获专业建议[9] | 被评测为“最好用”，针对性强 |\n| **面试精灵** | 实测回复效果领先，总评分排行榜第一[8] | 面试辅助回复质量高 |\n| **Glassdoor题库** | 整合全球名企真题，AI模拟考官提问并给改进建议[5] | 真题库丰富，适合备考 |\n| **HireVue** | 微表情与肢体语言分析，辅助判断真实性与抗压能力[5] | 适合高阶面试技巧训练 |\n\n### 4. 职业咨询与规划\n| 工具名称 | 核心功能 | 案例价值 |\n| :--- | :--- | :--- |\n| **职升机AI** | 结合测评+AI简历分析+行业洞察，挖掘深层能力，推荐红利行业[11] | 曾帮助用户通过精准定位**涨薪30%** |\n| **Career Dreame** | 谷歌推出的实验性工具，分析经历/技能生成“职业身份声明”，推荐路径[1] | 适合探索职业可能性 |\n| **艾琳 (Ailin)** | 智联招聘推出，基于DeepSeek，含AI发职位、筛简历、帮聊、易面等功能[1] | 适合使用智联招聘体系的用户 |\n\n### 选择建议\n*   **全流程系统求职**：首选 **云端职达**（免费且全能）或 **求职精灵**（大厂专用）。\n*   **简历与ATS通关**：选择 **Teal**（匹配度分析）或 **Rezi**（ATS评分）。\n*   **面试模拟**：下载 **讯飞星火** 或 **面试精灵**。\n*   **薪资与转行规划**：尝试 **职升机AI**，利用其测评与行业洞察功能挖掘红利岗位。\n\n注意：部分工具（如Career Dreame）可能为实验性产品，使用前建议确认其当前可用性；企业级工具（如Moka AI招聘Eva）主要面向HR而非个人求职者[7]。",
+  "sources": [
+    {
+      "url": "https://www.aihub.cn/tools/hr/",
+      "title": ""
+    },
+    {
+      "url": "https://lessie.ai/zh/blog/best-ai-recruiting-tools",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/KHVNABAL0524QFAT.html",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2188",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7637398517460664360",
+      "title": ""
+    },
+    {
+      "url": "https://mokahr.com/blog/35206.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/JaminJiang/p/19350475/top-ai-interview-asssistant-evaluation",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2429528",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/Ningxianwei8/article/details/151114411",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/JQU1FVJV0553RXWK.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.aihub.cn/tools/hr/",
+      "title": "20+最好用的AI招聘求职工具和助手 - AIHub"
+    },
+    {
+      "url": "https://lessie.ai/zh/blog/best-ai-recruiting-tools",
+      "title": "2026年最佳AI招聘工具：8大平台对比分析"
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园"
+    },
+    {
+      "url": "https://www.163.com/dy/article/KHVNABAL0524QFAT.html",
+      "title": "十大最好用AI工具——助您斩获2026年高薪工作 - 网易"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2188",
+      "title": "2025年最值得推荐的5款提升面试效率的AI神器"
+    },
+    {
+      "url": "https://juejin.cn/post/7637398517460664360",
+      "title": "互联网大厂求职AI助手深度测评：2026年谁才是大厂\"敲门砖\"？"
+    },
+    {
+      "url": "https://mokahr.com/blog/35206.html",
+      "title": "AI招聘助手哪家强？2026年主流产品能力拆解与场景适配指南"
+    },
+    {
+      "url": "https://www.cnblogs.com/JaminJiang/p/19350475/top-ai-interview-asssistant-evaluation",
+      "title": "实测9款AI面试助手回复效果，发现这三款堪称神器"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2429528",
+      "title": "1179万毕业生求职大潮袭来，8大AI模型实测"
+    },
+    {
+      "url": "https://blog.csdn.net/Ningxianwei8/article/details/151114411",
+      "title": "2025年9月，AI求职工具推荐：让好工作主动找到你原创 - CSDN博客"
+    },
+    {
+      "url": "https://www.163.com/dy/article/JQU1FVJV0553RXWK.html",
+      "title": "那个建议我跳槽的AI，比猎头多要了30%涨薪"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "根据2026年最新的测评与横评数据，**云端职达**被推荐为综合能力最强、性价比最高（甚至免费）的求职助手，特别适合进行系统性求职战役的用户[3][10]；若专注于**互联网大厂求职**，**求职精灵 Genielink**是首选，因其覆盖技术岗与非技术岗且功能全面[6]；若需**简历优化与ATS通过**，**Teal**（职业战略平台）和**Rezi**（专注ATS评分）表现最佳[4]；若关注**AI面试模拟**，**讯飞星火**和**面试精灵**评测效果领先[5][9]。\n\n以下是针对不同核心需求的详细推荐对比：\n\n### 1. 综合最强与免费首选\n| 工具名称 | 核心优势 | 适用人群 |\n| :--- | :--- | :--- |\n| **云端职达** | 综合能力最强，性价比最高（甚至免费），将求职主动权掌握在用户手中，解放低效重复工作[3][10] | 进行严肃、系统求职战役的用户 |\n| **求职精灵 Genielink** | 一站式AI平台，特别针对**互联网大厂**场景，覆盖技术与非技术岗，综合价值最高[6] | 大厂求职者、应届生 |\n\n### 2. 简历优化与职位匹配\n| 工具名称 | 核心功能 | 亮点 |\n| :--- | :--- | :--- |\n| **Teal** | 完整职业发展战略平台，上传招聘信息后提供**匹配度评分**，推荐关键词与成就案例[4] | 经历与职位精准匹配，不仅做简历 |\n| **Rezi** | 专注制作通过**ATS筛选**的简历，实时更新ATS评分，自动生成模块[4] | 适合追求简洁高效、需通过系统筛选的求职者 |\n| **Careerflow** | 跨平台自动抓取职位，含**AI人脉拓展**功能（自动生成LinkedIn请求话术）[4] | 适合“多线布局、持续经营”的求职者 |\n| **up简历** | AI聊天自动生成优化专业简历，精准匹配心仪岗位[1] | 简历流水账少，快速生成 |\n\n### 3. AI面试与模拟辅导\n| 工具名称 | 核心功能 | 优势 |\n| :--- | :--- | :--- |\n| **讯飞星火** | 根据专业和经验定制简历，提供**AI面试官模拟面试**，职场小白可获专业建议[9] | 被评测为“最好用”，针对性强 |\n| **面试精灵** | 实测回复效果领先，总评分排行榜第一[8] | 面试辅助回复质量高 |\n| **Glassdoor题库** | 整合全球名企真题，AI模拟考官提问并给改进建议[5] | 真题库丰富，适合备考 |\n| **HireVue** | 微表情与肢体语言分析，辅助判断真实性与抗压能力[5] | 适合高阶面试技巧训练 |\n\n### 4. 职业咨询与规划\n| 工具名称 | 核心功能 | 案例价值 |\n| :--- | :--- | :--- |\n| **职升机AI** | 结合测评+AI简历分析+行业洞察，挖掘深层能力，推荐红利行业[11] | 曾帮助用户通过精准定位**涨薪30%** |\n| **Career Dreame** | 谷歌推出的实验性工具，分析经历/技能生成“职业身份声明”，推荐路径[1] | 适合探索职业可能性 |\n| **艾琳 (Ailin)** | 智联招聘推出，基于DeepSeek，含AI发职位、筛简历、帮聊、易面等功能[1] | 适合使用智联招聘体系的用户 |\n\n### 选择建议\n*   **全流程系统求职**：首选 **云端职达**（免费且全能）或 **求职精灵**（大厂专用）。\n*   **简历与ATS通关**：选择 **Teal**（匹配度分析）或 **Rezi**（ATS评分）。\n*   **面试模拟**：下载 **讯飞星火** 或 **面试精灵**。\n*   **薪资与转行规划**：尝试 **职升机AI**，利用其测评与行业洞察功能挖掘红利岗位。\n\n注意：部分工具（如Career Dreame）可能为实验性产品，使用前建议确认其当前可用性；企业级工具（如Moka AI招聘Eva）主要面向HR而非个人求职者[7]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.aihub.cn/tools/hr/",
+      "https://lessie.ai/zh/blog/best-ai-recruiting-tools",
+      "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "https://www.163.com/dy/article/KHVNABAL0524QFAT.html",
+      "https://hr.nowcoder.com/article/2188",
+      "https://juejin.cn/post/7637398517460664360",
+      "https://mokahr.com/blog/35206.html",
+      "https://www.cnblogs.com/JaminJiang/p/19350475/top-ai-interview-asssistant-evaluation",
+      "https://cloud.tencent.com/developer/article/2429528",
+      "https://blog.csdn.net/Ningxianwei8/article/details/151114411",
+      "https://www.163.com/dy/article/JQU1FVJV0553RXWK.html"
+    ],
+    "created": 1784600380,
+    "id": "334b3987-206d-4c47-8316-6cad2b7bf847",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2024-11-01",
+        "last_updated": "2025-09-04",
+        "place_metadata": null,
+        "snippet": "## up简历 - AI简历生成与优化平台简历流水账？和AI聊聊，自动生成优化专业简历，帮你精准匹配心仪岗位。\n...\n## Career Dreame：谷歌推出的AI求职工具，用AI帮你找到理想工作Career Dreamer是谷歌推出的一款实验性AI工具，旨在帮助用户探索职业可能性。它通过分析用户的经历、技能和兴趣，生成“职业身份声明”，推荐匹配的职业路径，并辅助撰写简历和求职信。\n## 艾琳（Ailin）：智联招聘推出的基于DeepSeek的AI招聘助手艾琳（Ailin）是一个AI发职位、AI筛简历、AI人才推荐、AI帮聊、AI易面等功能于一体的智能助手。\n...\n## 蓝字典AI：AI...",
+        "source": "web",
+        "title": "20+最好用的AI招聘求职工具和助手 - AIHub",
+        "url": "https://www.aihub.cn/tools/hr/"
+      },
+      {
+        "date": "2026-06-02",
+        "last_updated": "2026-06-04",
+        "place_metadata": null,
+        "snippet": "2026年最佳的**AI招聘工具** 能够自动化招聘中最耗时的环节——人才搜寻、筛选和外联。我们对比了八款工具，分析了它们各自的优势。对于希望用自然语言搜寻候选人并在一个流程中获取验证联系方式的团队，Lessie AI排名第一，其次是针对企业外联搜寻的hireEZ，人才智能领域的SeekOut，高批量对话筛选的Paradox，以及视频评估的HireVue。选择最能解决您最大瓶颈的工具。",
+        "source": "web",
+        "title": "2026年最佳AI招聘工具：8大平台对比分析",
+        "url": "https://lessie.ai/zh/blog/best-ai-recruiting-tools"
+      },
+      {
+        "date": "2025-11-07",
+        "last_updated": "2026-04-20",
+        "place_metadata": null,
+        "snippet": "如果你的需求非常单一（比如只是改改简历），那么“简历魔法师”或“内容生成站”可以满足你。但如果你正在进行一场严肃的、系统的求职战役，那么**“云端职达”是目前市面上，综合能力最强、性价比最高（甚至是免费）的唯一选择。\n**",
+        "source": "web",
+        "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园",
+        "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547"
+      },
+      {
+        "date": "2025-12-29",
+        "last_updated": "2026-01-05",
+        "place_metadata": null,
+        "snippet": "Teal不仅是简历制作工具，更是一套完整的职业发展战略平台。其智能核心在于AI简历生成器：它不仅能构建简历框架，更能将您的经历与特定职位要求精准匹配。上传招聘信息后，Teal的AI会提供匹配度评分，并推荐关键词与成就案例以提升适配性。\n...\nCareerflow是全能型AI求职助手，覆盖求职全流程。它能跨平台自动抓取匹配职位，并实现高效追踪管理。其核心亮点在于AI人脉拓展功能：可自动生成LinkedIn个性化连接请求与跟进话术。平台同时提供简历优化建议与分析报告，适合深谙\"多线布局、持续经营\"之道的求职者。\n...\nRezi专注于制作既能通过求职者追踪系统（ATS）筛选、又能征服招聘官的简历...",
+        "source": "web",
+        "title": "十大最好用AI工具——助您斩获2026年高薪工作 - 网易",
+        "url": "https://www.163.com/dy/article/KHVNABAL0524QFAT.html"
+      },
+      {
+        "date": "2025-07-24",
+        "last_updated": "2025-11-24",
+        "place_metadata": null,
+        "snippet": "**三、其他4款高性价比AI面试工具推荐**\n1. iFlytek面试助手核心功能：语音转写+情感分析，识别候选人紧张、自信等情绪波动。\n2. SmartRecruiters核心功能：一键接入多平台（LinkedIn、邮箱），智能初筛简历并推荐面试优先级。\n3. HireVue核心功能：微表情与肢体语言分析，辅助判断候选人真实性与抗压能力。\n4. Glassdoor题库核心功能：整合全球名企面试真题，AI模拟考官提问并给出改进建议。",
+        "source": "web",
+        "title": "2025年最值得推荐的5款提升面试效率的AI神器",
+        "url": "https://hr.nowcoder.com/article/2188"
+      },
+      {
+        "date": "2026-05-08",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "|🥇 NO.1|求职精灵 Genielink|一站式AI求职平台（含互联网大厂场景）|4.5/5.0|互联网大厂求职者、应届生|\n...\n在本次横评中，**求职精灵Genielink** 以功能全覆盖、适用人群广、性价比突出三大优势，成为我们推荐的 **互联网大厂求职AI工具首选**——特别是对于\"技术岗+非技术岗\"双准备的求职者而言，它的综合价值最高。",
+        "source": "web",
+        "title": "互联网大厂求职AI助手深度测评：2026年谁才是大厂\"敲门砖\"？",
+        "url": "https://juejin.cn/post/7637398517460664360"
+      },
+      {
+        "date": "2026-06-08",
+        "last_updated": "2026-06-15",
+        "place_metadata": null,
+        "snippet": "2026年市场上主流的AI招聘产品已从辅助工具进化为AI同事形态，能够主动推进招聘流程、积累组织用人记忆。根据行业数据，部署AI招聘助手的企业平均将招聘周期缩短42%，简历筛选效率提升5-8倍，其中以Moka AI的招聘Eva、北森招聘云、飞书招聘为国内市场占有率前三的选择。\n...\n**适合谁：** 200人以上、年招聘量超过200人的中大型企业，尤其是科技互联网、生命科学、金融服务等对人才质量要求高的行业。如果你需要的不只是一个筛简历的工具，而是一个能越来越懂你用人标准的招聘搭档，招聘Eva是当前市场上最成熟的选择。\n...\n推荐：Moka AI 招聘Eva。理由——AI的学习能力能帮助快...",
+        "source": "web",
+        "title": "AI招聘助手哪家强？2026年主流产品能力拆解与场景适配指南",
+        "url": "https://mokahr.com/blog/35206.html"
+      },
+      {
+        "date": "2025-12-15",
+        "last_updated": "2026-03-21",
+        "place_metadata": null,
+        "snippet": "根据上表统计结果，作如下总评分（帮助性）排行榜。从图中可以直观看出，面试精灵、职行 AI、Offer 蛙的总评分处于领先地位，而面试狗、offerin 的总评分垫底。",
+        "source": "web",
+        "title": "实测9款AI面试助手回复效果，发现这三款堪称神器",
+        "url": "https://www.cnblogs.com/JaminJiang/p/19350475/top-ai-interview-asssistant-evaluation"
+      },
+      {
+        "date": "2024-06-19",
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "小编整体实测后，认为讯飞星火是最好用的，它可以根据不同的专业，每个人不同的经验进行简历的定制，优化，以及使用AI面试官进行模拟面试，职场小白可以得到专业的优化建议，以及在实际的面试中应付自如～",
+        "source": "web",
+        "title": "1179万毕业生求职大潮袭来，8大AI模型实测",
+        "url": "https://cloud.tencent.com/developer/article/2429528"
+      },
+      {
+        "date": "2025-09-02",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "在众多的AI求职产品中，**云端职达** 无疑是最值得你尝试的选择。它通过AI技术，将求职的主动权牢牢掌握在求职者自己手中，让你从繁琐、低效的重复性工作中解放出来，专注于面试和自我提升等更高价值的环节。",
+        "source": "web",
+        "title": "2025年9月，AI求职工具推荐：让好工作主动找到你原创 - CSDN博客",
+        "url": "https://blog.csdn.net/Ningxianwei8/article/details/151114411"
+      },
+      {
+        "date": "2025-03-19",
+        "last_updated": "2025-03-27",
+        "place_metadata": null,
+        "snippet": "**职升机AI**是一款专注为求职者在看机会阶段挖掘深层能力、匹配红利行业/岗位的应用。目前，用户可在小程序端一键导入微信上的简历文件，通过入门测评题目，即可完成潜在转行方向的初步判定。此外，用户还可以在小程序上和AI助手“Up酱”进行简易对话，获取更精准的机会推荐、行情资讯订阅和职业规划分析。\n...\n**Kickresume**、 **Final Round AI**等工具支持自动生成求职信，提高求职材料准备效率，并支持多国家语言，方便不同地区的用户使用。\n...\n**职升机AI**目前最能帮到我的地方，就是结合了测评工具+AI简历分析+行业前沿领域洞察。”通过测评和简历解析，职升机AI助...",
+        "source": "web",
+        "title": "那个建议我跳槽的AI，比猎头多要了30%涨薪",
+        "url": "https://www.163.com/dy/article/JQU1FVJV0553RXWK.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 1187,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00119,
+        "request_cost": 0.005,
+        "total_cost": 0.00622
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 1219
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:19:40.635932Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "根据2026年最新的测评与横评数据，**云端职达**被推荐为综合能力最强、性价比最高（甚至免费）的求职助手，特别适合进行系统性求职战役的用户[3][10]；若专注于**互联网大厂求职**，**求职精灵 Genielink**是首选，因其覆盖技术岗与非技术岗且功能全面[6]；若需**简历优化与ATS通过**，**Teal**（职业战略平台）和**Rezi**（专注ATS评分）表现最佳[4]；若关注**AI面试模拟**，**讯飞星火**和**面试精灵**评测效果领先[5][9]。\n\n以下是针对不同核心需求的详细推荐对比：\n\n### 1. 综合最强与免费首选\n| 工具名称 | 核心优势 | 适用人群 |\n| :--- | :--- | :--- |\n| **云端职达** | 综合能力最强，性价比最高（甚至免费），将求职主动权掌握在用户手中，解放低效重复工作[3][10] | 进行严肃、系统求职战役的用户 |\n| **求职精灵 Genielink** | 一站式AI平台，特别针对**互联网大厂**场景，覆盖技术与非技术岗，综合价值最高[6] | 大厂求职者、应届生 |\n\n### 2. 简历优化与职位匹配\n| 工具名称 | 核心功能 | 亮点 |\n| :--- | :--- | :--- |\n| **Teal** | 完整职业发展战略平台，上传招聘信息后提供**匹配度评分**，推荐关键词与成就案例[4] | 经历与职位精准匹配，不仅做简历 |\n| **Rezi** | 专注制作通过**ATS筛选**的简历，实时更新ATS评分，自动生成模块[4] | 适合追求简洁高效、需通过系统筛选的求职者 |\n| **Careerflow** | 跨平台自动抓取职位，含**AI人脉拓展**功能（自动生成LinkedIn请求话术）[4] | 适合“多线布局、持续经营”的求职者 |\n| **up简历** | AI聊天自动生成优化专业简历，精准匹配心仪岗位[1] | 简历流水账少，快速生成 |\n\n### 3. AI面试与模拟辅导\n| 工具名称 | 核心功能 | 优势 |\n| :--- | :--- | :--- |\n| **讯飞星火** | 根据专业和经验定制简历，提供**AI面试官模拟面试**，职场小白可获专业建议[9] | 被评测为“最好用”，针对性强 |\n| **面试精灵** | 实测回复效果领先，总评分排行榜第一[8] | 面试辅助回复质量高 |\n| **Glassdoor题库** | 整合全球名企真题，AI模拟考官提问并给改进建议[5] | 真题库丰富，适合备考 |\n| **HireVue** | 微表情与肢体语言分析，辅助判断真实性与抗压能力[5] | 适合高阶面试技巧训练 |\n\n### 4. 职业咨询与规划\n| 工具名称 | 核心功能 | 案例价值 |\n| :--- | :--- | :--- |\n| **职升机AI** | 结合测评+AI简历分析+行业洞察，挖掘深层能力，推荐红利行业[11] | 曾帮助用户通过精准定位**涨薪30%** |\n| **Career Dreame** | 谷歌推出的实验性工具，分析经历/技能生成“职业身份声明”，推荐路径[1] | 适合探索职业可能性 |\n| **艾琳 (Ailin)** | 智联招聘推出，基于DeepSeek，含AI发职位、筛简历、帮聊、易面等功能[1] | 适合使用智联招聘体系的用户 |\n\n### 选择建议\n*   **全流程系统求职**：首选 **云端职达**（免费且全能）或 **求职精灵**（大厂专用）。\n*   **简历与ATS通关**：选择 **Teal**（匹配度分析）或 **Rezi**（ATS评分）。\n*   **面试模拟**：下载 **讯飞星火** 或 **面试精灵**。\n*   **薪资与转行规划**：尝试 **职升机AI**，利用其测评与行业洞察功能挖掘红利岗位。\n\n注意：部分工具（如Career Dreame）可能为实验性产品，使用前建议确认其当前可用性；企业级工具（如Moka AI招聘Eva）主要面向HR而非个人求职者[7]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

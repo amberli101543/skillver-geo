@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "下面按用途推荐一些 **AI 求职助手/工具组合**，适合写简历、改简历、投递和面试准备。\n\n## 1. 通用 AI 助手：最灵活\n- **ChatGPT / Claude / Gemini / 通义千问 / Kimi / 文心一言**\n  - 适合：简历润色、岗位 JD 分析、求职信、面试题模拟、职业规划。\n  - 推荐用法：把目标岗位 JD + 你的经历发给它，让它帮你提炼匹配点和优化表达。\n\n## 2. 简历制作与优化\n- **超级简历 WonderCV**\n  - 中文简历模板较成熟，适合应届生、职场新人。\n- **Canva**\n  - 适合做视觉较好看的简历，但要避免过度花哨。\n- **Kickresume / Rezi**\n  - 英文简历较强，适合外企、海外岗位。\n- **Jobscan**\n  - 适合对照 JD 做 ATS 关键词匹配，尤其英文岗位。\n\n## 3. 求职平台自带 AI 功能\n- **BOSS 直聘**\n  - 适合互联网、运营、销售、产品、技术等岗位，沟通效率高。\n- **猎聘**\n  - 适合中高端岗位、跳槽人群。\n- **智联招聘 / 前程无忧**\n  - 传统岗位覆盖广。\n- **脉脉**\n  - 适合了解公司评价、内推机会、互联网岗位信息。\n- **LinkedIn**\n  - 适合外企、海外岗位、国际化职位。\n\n## 4. 面试准备\n- **ChatGPT / Claude**\n  - 可让它扮演面试官，模拟行为面、技术面、HR 面。\n- **牛客网**\n  - 适合互联网笔试、面经、技术面准备。\n- **LeetCode / CodeTop**\n  - 适合算法岗、开发岗。\n- **Interview Warmup by Google**\n  - 英文面试练习不错。\n\n## 5. 不同人群推荐组合\n\n### 应届生 / 实习生\n推荐：  \n**超级简历 + BOSS 直聘 + 牛客 + ChatGPT**\n\n### 社招跳槽\n推荐：  \n**ChatGPT/Claude + 猎聘 + BOSS 直聘 + 脉脉**\n\n### 外企 / 英文岗位\n推荐：  \n**ChatGPT/Claude + LinkedIn + Jobscan + Rezi/Kickresume**\n\n### 程序员\n推荐：  \n**牛客 + LeetCode/CodeTop + BOSS 直聘 + ChatGPT**\n\n## 6. 一个实用的 AI 求职 Prompt\n\n你可以直接复制给 AI：\n\n> 我正在申请【岗位名称】，这是岗位 JD：【粘贴 JD】。  \n> 这是我的经历：【粘贴简历/项目经历】。  \n> 请帮我：  \n> 1. 分析岗位最看重的能力；  \n> 2. 找出我简历中最匹配的经历；  \n> 3. 优化简历中的项目描述；  \n> 4. 生成一版针对该岗位的自我介绍；  \n> 5. 模拟 10 个可能的面试问题和参考回答。\n\n## 7. 注意事项\n- 不要直接上传身份证、手机号、薪资流水、合同等敏感信息。\n- AI 改简历要保持真实，不要编造经历。\n- 简历最好针对不同岗位分别调整，不要一份简历海投所有岗位。\n\n如果你告诉我你的 **行业、岗位方向、工作年限、是否应届、目标城市**，我可以帮你推荐更具体的工具组合和求职方案。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uMNW7nnATsshUR6bUxhTYKohojS",
+    "object": "chat.completion",
+    "created": 1784600339,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "下面按用途推荐一些 **AI 求职助手/工具组合**，适合写简历、改简历、投递和面试准备。\n\n## 1. 通用 AI 助手：最灵活\n- **ChatGPT / Claude / Gemini / 通义千问 / Kimi / 文心一言**\n  - 适合：简历润色、岗位 JD 分析、求职信、面试题模拟、职业规划。\n  - 推荐用法：把目标岗位 JD + 你的经历发给它，让它帮你提炼匹配点和优化表达。\n\n## 2. 简历制作与优化\n- **超级简历 WonderCV**\n  - 中文简历模板较成熟，适合应届生、职场新人。\n- **Canva**\n  - 适合做视觉较好看的简历，但要避免过度花哨。\n- **Kickresume / Rezi**\n  - 英文简历较强，适合外企、海外岗位。\n- **Jobscan**\n  - 适合对照 JD 做 ATS 关键词匹配，尤其英文岗位。\n\n## 3. 求职平台自带 AI 功能\n- **BOSS 直聘**\n  - 适合互联网、运营、销售、产品、技术等岗位，沟通效率高。\n- **猎聘**\n  - 适合中高端岗位、跳槽人群。\n- **智联招聘 / 前程无忧**\n  - 传统岗位覆盖广。\n- **脉脉**\n  - 适合了解公司评价、内推机会、互联网岗位信息。\n- **LinkedIn**\n  - 适合外企、海外岗位、国际化职位。\n\n## 4. 面试准备\n- **ChatGPT / Claude**\n  - 可让它扮演面试官，模拟行为面、技术面、HR 面。\n- **牛客网**\n  - 适合互联网笔试、面经、技术面准备。\n- **LeetCode / CodeTop**\n  - 适合算法岗、开发岗。\n- **Interview Warmup by Google**\n  - 英文面试练习不错。\n\n## 5. 不同人群推荐组合\n\n### 应届生 / 实习生\n推荐：  \n**超级简历 + BOSS 直聘 + 牛客 + ChatGPT**\n\n### 社招跳槽\n推荐：  \n**ChatGPT/Claude + 猎聘 + BOSS 直聘 + 脉脉**\n\n### 外企 / 英文岗位\n推荐：  \n**ChatGPT/Claude + LinkedIn + Jobscan + Rezi/Kickresume**\n\n### 程序员\n推荐：  \n**牛客 + LeetCode/CodeTop + BOSS 直聘 + ChatGPT**\n\n## 6. 一个实用的 AI 求职 Prompt\n\n你可以直接复制给 AI：\n\n> 我正在申请【岗位名称】，这是岗位 JD：【粘贴 JD】。  \n> 这是我的经历：【粘贴简历/项目经历】。  \n> 请帮我：  \n> 1. 分析岗位最看重的能力；  \n> 2. 找出我简历中最匹配的经历；  \n> 3. 优化简历中的项目描述；  \n> 4. 生成一版针对该岗位的自我介绍；  \n> 5. 模拟 10 个可能的面试问题和参考回答。\n\n## 7. 注意事项\n- 不要直接上传身份证、手机号、薪资流水、合同等敏感信息。\n- AI 改简历要保持真实，不要编造经历。\n- 简历最好针对不同岗位分别调整，不要一份简历海投所有岗位。\n\n如果你告诉我你的 **行业、岗位方向、工作年限、是否应届、目标城市**，我可以帮你推荐更具体的工具组合和求职方案。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 1042,
+      "total_tokens": 1082,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 202,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:19:17.702467Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "下面按用途推荐一些 **AI 求职助手/工具组合**，适合写简历、改简历、投递和面试准备。\n\n## 1. 通用 AI 助手：最灵活\n- **ChatGPT / Claude / Gemini / 通义千问 / Kimi / 文心一言**\n  - 适合：简历润色、岗位 JD 分析、求职信、面试题模拟、职业规划。\n  - 推荐用法：把目标岗位 JD + 你的经历发给它，让它帮你提炼匹配点和优化表达。\n\n## 2. 简历制作与优化\n- **超级简历 WonderCV**\n  - 中文简历模板较成熟，适合应届生、职场新人。\n- **Canva**\n  - 适合做视觉较好看的简历，但要避免过度花哨。\n- **Kickresume / Rezi**\n  - 英文简历较强，适合外企、海外岗位。\n- **Jobscan**\n  - 适合对照 JD 做 ATS 关键词匹配，尤其英文岗位。\n\n## 3. 求职平台自带 AI 功能\n- **BOSS 直聘**\n  - 适合互联网、运营、销售、产品、技术等岗位，沟通效率高。\n- **猎聘**\n  - 适合中高端岗位、跳槽人群。\n- **智联招聘 / 前程无忧**\n  - 传统岗位覆盖广。\n- **脉脉**\n  - 适合了解公司评价、内推机会、互联网岗位信息。\n- **LinkedIn**\n  - 适合外企、海外岗位、国际化职位。\n\n## 4. 面试准备\n- **ChatGPT / Claude**\n  - 可让它扮演面试官，模拟行为面、技术面、HR 面。\n- **牛客网**\n  - 适合互联网笔试、面经、技术面准备。\n- **LeetCode / CodeTop**\n  - 适合算法岗、开发岗。\n- **Interview Warmup by Google**\n  - 英文面试练习不错。\n\n## 5. 不同人群推荐组合\n\n### 应届生 / 实习生\n推荐：  \n**超级简历 + BOSS 直聘 + 牛客 + ChatGPT**\n\n### 社招跳槽\n推荐：  \n**ChatGPT/Claude + 猎聘 + BOSS 直聘 + 脉脉**\n\n### 外企 / 英文岗位\n推荐：  \n**ChatGPT/Claude + LinkedIn + Jobscan + Rezi/Kickresume**\n\n### 程序员\n推荐：  \n**牛客 + LeetCode/CodeTop + BOSS 直聘 + ChatGPT**\n\n## 6. 一个实用的 AI 求职 Prompt\n\n你可以直接复制给 AI：\n\n> 我正在申请【岗位名称】，这是岗位 JD：【粘贴 JD】。  \n> 这是我的经历：【粘贴简历/项目经历】。  \n> 请帮我：  \n> 1. 分析岗位最看重的能力；  \n> 2. 找出我简历中最匹配的经历；  \n> 3. 优化简历中的项目描述；  \n> 4. 生成一版针对该岗位的自我介绍；  \n> 5. 模拟 10 个可能的面试问题和参考回答。\n\n## 7. 注意事项\n- 不要直接上传身份证、手机号、薪资流水、合同等敏感信息。\n- AI 改简历要保持真实，不要编造经历。\n- 简历最好针对不同岗位分别调整，不要一份简历海投所有岗位。\n\n如果你告诉我你的 **行业、岗位方向、工作年限、是否应届、目标城市**，我可以帮你推荐更具体的工具组合和求职方案。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

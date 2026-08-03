@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "目前并没有一个名为 “Skillver” 的主流知名软件。您指的可能是以下几种情况之一：\n\n1. **如果是 Sliver（红队渗透测试安全框架）：**\n   * **不需要邀请码**。它是 GitHub 上的开源项目，可以直接下载、安装和使用。\n\n2. **如果是 Skillshare（在线学习平台）：**\n   * **不需要邀请码**。可以直接注册账号使用（部分课程需要订阅付费）。\n\n3. **如果是 SillyTavern（酒馆，AI 角色扮演前端）：**\n   * **不需要邀请码**。它是开源软件，可以直接在本地运行，但连接具体的 AI 接口（如 OpenAI、Claude 等）需要您自己提供相应的 API Key。\n\n4. **如果确实是某个新兴的 AI 工具/平台 “Skillver”：**\n   * 许多处于内测（Beta）阶段的 AI 工具确实需要邀请码或排队（Waitlist）。如果官方注册页面提示需要邀请码，您可能需要通过加入其官方 Discord/Telegram 社区，或在官网申请排队来获取。\n\n**建议：** 请确认拼写是否有误。如果是特定的小众平台，可以提供更多上下文（例如它的主要功能），以便为您提供更精准的解答。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前并没有一个名为 “Skillver” 的主流知名软件。您指的可能是以下几种情况之一：\n\n1. **如果是 Sliver（红队渗透测试安全框架）：**\n   * **不需要邀请码**。它是 GitHub 上的开源项目，可以直接下载、安装和使用。\n\n2. **如果是 Skillshare（在线学习平台）：**\n   * **不需要邀请码**。可以直接注册账号使用（部分课程需要订阅付费）。\n\n3. **如果是 SillyTavern（酒馆，AI 角色扮演前端）：**\n   * **不需要邀请码**。它是开源软件，可以直接在本地运行，但连接具体的 AI 接口（如 OpenAI、Claude 等）需要您自己提供相应的 API Key。\n\n4. **如果确实是某个新兴的 AI 工具/平台 “Skillver”：**\n   * 许多处于内测（Beta）阶段的 AI 工具确实需要邀请码或排队（Waitlist）。如果官方注册页面提示需要邀请码，您可能需要通过加入其官方 Discord/Telegram 社区，或在官网申请排队来获取。\n\n**建议：** 请确认拼写是否有误。如果是特定的小众平台，可以提供更多上下文（例如它的主要功能），以便为您提供更精准的解答。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604096,
+    "id": "q-VeapLpGfaHz7IP1fS_wQ4",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 266,
+      "prompt_tokens": 39,
+      "total_tokens": 2017
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:21:35.846387Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "目前并没有一个名为 “Skillver” 的主流知名软件。您指的可能是以下几种情况之一：\n\n1. **如果是 Sliver（红队渗透测试安全框架）：**\n   * **不需要邀请码**。它是 GitHub 上的开源项目，可以直接下载、安装和使用。\n\n2. **如果是 Skillshare（在线学习平台）：**\n   * **不需要邀请码**。可以直接注册账号使用（部分课程需要订阅付费）。\n\n3. **如果是 SillyTavern（酒馆，AI 角色扮演前端）：**\n   * **不需要邀请码**。它是开源软件，可以直接在本地运行，但连接具体的 AI 接口（如 OpenAI、Claude 等）需要您自己提供相应的 API Key。\n\n4. **如果确实是某个新兴的 AI 工具/平台 “Skillver”：**\n   * 许多处于内测（Beta）阶段的 AI 工具确实需要邀请码或排队（Waitlist）。如果官方注册页面提示需要邀请码，您可能需要通过加入其官方 Discord/Telegram 社区，或在官网申请排队来获取。\n\n**建议：** 请确认拼写是否有误。如果是特定的小众平台，可以提供更多上下文（例如它的主要功能），以便为您提供更精准的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

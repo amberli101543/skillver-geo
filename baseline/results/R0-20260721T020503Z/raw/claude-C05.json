@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "# AI 求职工具分类\n\nAI 求职工具大致可以分为以下几类：\n\n## 1. 简历优化工具\n- 自动生成、润色简历内容\n- 关键词匹配（ATS 系统优化）\n- 格式排版建议\n- 代表工具：Kickresume、Resume.io、Teal\n\n## 2. 职位匹配与搜索工具\n- 根据技能/经历智能推荐岗位\n- 多平台聚合职位信息\n- 代表工具：LinkedIn AI、Indeed、Jobscan\n\n## 3. 求职信/自我介绍生成工具\n- 根据岗位描述自动撰写 Cover Letter\n- 个性化定制内容\n- 代表工具：ChatGPT、Rezi\n\n## 4. 面试辅导工具\n- 模拟面试对话练习\n- 提供答题技巧和反馈\n- 代表工具：Interview Warmup（Google）、Final Round AI、Pramp\n\n## 5. 职业规划与技能分析工具\n- 分析技能差距\n- 推荐学习路径和职业方向\n- 代表工具：LinkedIn Career Explorer、Coursera Career\n\n## 6. 求职流程管理工具\n- 追踪投递状态、面试安排\n- 代表工具：Teal、Huntr\n\n---\n这几类工具既可独立使用，也常有平台整合多种功能于一体。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQYWxq2K6JDWCSsJUfF",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# AI 求职工具分类\n\nAI 求职工具大致可以分为以下几类：\n\n## 1. 简历优化工具\n- 自动生成、润色简历内容\n- 关键词匹配（ATS 系统优化）\n- 格式排版建议\n- 代表工具：Kickresume、Resume.io、Teal\n\n## 2. 职位匹配与搜索工具\n- 根据技能/经历智能推荐岗位\n- 多平台聚合职位信息\n- 代表工具：LinkedIn AI、Indeed、Jobscan\n\n## 3. 求职信/自我介绍生成工具\n- 根据岗位描述自动撰写 Cover Letter\n- 个性化定制内容\n- 代表工具：ChatGPT、Rezi\n\n## 4. 面试辅导工具\n- 模拟面试对话练习\n- 提供答题技巧和反馈\n- 代表工具：Interview Warmup（Google）、Final Round AI、Pramp\n\n## 5. 职业规划与技能分析工具\n- 分析技能差距\n- 推荐学习路径和职业方向\n- 代表工具：LinkedIn Career Explorer、Coursera Career\n\n## 6. 求职流程管理工具\n- 追踪投递状态、面试安排\n- 代表工具：Teal、Huntr\n\n---\n这几类工具既可独立使用，也常有平台整合多种功能于一体。"
+        }
+      }
+    ],
+    "created": 1784600585,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 424,
+      "prompt_tokens": 51,
+      "total_tokens": 475
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:23:06.156288Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "# AI 求职工具分类\n\nAI 求职工具大致可以分为以下几类：\n\n## 1. 简历优化工具\n- 自动生成、润色简历内容\n- 关键词匹配（ATS 系统优化）\n- 格式排版建议\n- 代表工具：Kickresume、Resume.io、Teal\n\n## 2. 职位匹配与搜索工具\n- 根据技能/经历智能推荐岗位\n- 多平台聚合职位信息\n- 代表工具：LinkedIn AI、Indeed、Jobscan\n\n## 3. 求职信/自我介绍生成工具\n- 根据岗位描述自动撰写 Cover Letter\n- 个性化定制内容\n- 代表工具：ChatGPT、Rezi\n\n## 4. 面试辅导工具\n- 模拟面试对话练习\n- 提供答题技巧和反馈\n- 代表工具：Interview Warmup（Google）、Final Round AI、Pramp\n\n## 5. 职业规划与技能分析工具\n- 分析技能差距\n- 推荐学习路径和职业方向\n- 代表工具：LinkedIn Career Explorer、Coursera Career\n\n## 6. 求职流程管理工具\n- 追踪投递状态、面试安排\n- 代表工具：Teal、Huntr\n\n---\n这几类工具既可独立使用，也常有平台整合多种功能于一体。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

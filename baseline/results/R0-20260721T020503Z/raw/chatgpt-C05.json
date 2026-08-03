@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具一般可分为以下几类：\n\n1. **简历优化类**\n   - 帮助生成、润色、排版简历\n   - 根据岗位 JD 优化关键词\n   - 提高 ATS 简历筛选通过率  \n   - 例如：简历改写、英文简历优化、简历评分\n\n2. **求职信 / 邮件生成类**\n   - 生成 Cover Letter\n   - 撰写投递邮件、内推私信、LinkedIn 消息\n   - 根据公司和岗位定制内容\n\n3. **岗位匹配与推荐类**\n   - 根据简历、技能、经验推荐合适岗位\n   - 分析岗位匹配度\n   - 提醒适合投递的机会\n\n4. **面试准备类**\n   - 模拟面试\n   - 生成常见面试题\n   - 帮助优化回答，如 STAR 法则\n   - 提供语音、视频面试反馈\n\n5. **笔试 / 技能测评辅助类**\n   - 编程题练习\n   - 数据分析、产品案例、咨询 Case 练习\n   - 语言、逻辑、性格测评准备\n\n6. **职业规划类**\n   - 分析个人背景适合的职业方向\n   - 给出转行路径、技能补足建议\n   - 制定学习和求职计划\n\n7. **投递管理与自动化类**\n   - 管理已投岗位、面试进度\n   - 自动填写申请表\n   - 批量投递或提醒跟进\n\n8. **薪资与市场分析类**\n   - 查询岗位薪资范围\n   - 分析行业趋势、公司招聘情况\n   - 辅助薪资谈判\n\n简单来说，AI 求职工具主要围绕 **“找岗位、改简历、写材料、练面试、管进度、做规划”** 这几个环节展开。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uQ3bz00iwG53Z3SPfxsXBoShSvQ",
+    "object": "chat.completion",
+    "created": 1784600567,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI 求职工具一般可分为以下几类：\n\n1. **简历优化类**\n   - 帮助生成、润色、排版简历\n   - 根据岗位 JD 优化关键词\n   - 提高 ATS 简历筛选通过率  \n   - 例如：简历改写、英文简历优化、简历评分\n\n2. **求职信 / 邮件生成类**\n   - 生成 Cover Letter\n   - 撰写投递邮件、内推私信、LinkedIn 消息\n   - 根据公司和岗位定制内容\n\n3. **岗位匹配与推荐类**\n   - 根据简历、技能、经验推荐合适岗位\n   - 分析岗位匹配度\n   - 提醒适合投递的机会\n\n4. **面试准备类**\n   - 模拟面试\n   - 生成常见面试题\n   - 帮助优化回答，如 STAR 法则\n   - 提供语音、视频面试反馈\n\n5. **笔试 / 技能测评辅助类**\n   - 编程题练习\n   - 数据分析、产品案例、咨询 Case 练习\n   - 语言、逻辑、性格测评准备\n\n6. **职业规划类**\n   - 分析个人背景适合的职业方向\n   - 给出转行路径、技能补足建议\n   - 制定学习和求职计划\n\n7. **投递管理与自动化类**\n   - 管理已投岗位、面试进度\n   - 自动填写申请表\n   - 批量投递或提醒跟进\n\n8. **薪资与市场分析类**\n   - 查询岗位薪资范围\n   - 分析行业趋势、公司招聘情况\n   - 辅助薪资谈判\n\n简单来说，AI 求职工具主要围绕 **“找岗位、改简历、写材料、练面试、管进度、做规划”** 这几个环节展开。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 507,
+      "total_tokens": 552,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 68,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:22:56.167621Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具一般可分为以下几类：\n\n1. **简历优化类**\n   - 帮助生成、润色、排版简历\n   - 根据岗位 JD 优化关键词\n   - 提高 ATS 简历筛选通过率  \n   - 例如：简历改写、英文简历优化、简历评分\n\n2. **求职信 / 邮件生成类**\n   - 生成 Cover Letter\n   - 撰写投递邮件、内推私信、LinkedIn 消息\n   - 根据公司和岗位定制内容\n\n3. **岗位匹配与推荐类**\n   - 根据简历、技能、经验推荐合适岗位\n   - 分析岗位匹配度\n   - 提醒适合投递的机会\n\n4. **面试准备类**\n   - 模拟面试\n   - 生成常见面试题\n   - 帮助优化回答，如 STAR 法则\n   - 提供语音、视频面试反馈\n\n5. **笔试 / 技能测评辅助类**\n   - 编程题练习\n   - 数据分析、产品案例、咨询 Case 练习\n   - 语言、逻辑、性格测评准备\n\n6. **职业规划类**\n   - 分析个人背景适合的职业方向\n   - 给出转行路径、技能补足建议\n   - 制定学习和求职计划\n\n7. **投递管理与自动化类**\n   - 管理已投岗位、面试进度\n   - 自动填写申请表\n   - 批量投递或提醒跟进\n\n8. **薪资与市场分析类**\n   - 查询岗位薪资范围\n   - 分析行业趋势、公司招聘情况\n   - 辅助薪资谈判\n\n简单来说，AI 求职工具主要围绕 **“找岗位、改简历、写材料、练面试、管进度、做规划”** 这几个环节展开。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -25,7 +25,7 @@ class BaselineAssetTests(unittest.TestCase):
         self.assertEqual(32, len({item["id"] for item in questions}))
 
     def test_negative_rejects_non_beta_product_state(self):
-        self.assertEqual("全面开放注册；邀请码仅用于赛事参与", self.payload["productState"])
+        self.assertEqual("全面开放注册；邀请码仅用于社群参与", self.payload["productState"])
         self.assertEqual("approved", self.payload["status"])
 
 

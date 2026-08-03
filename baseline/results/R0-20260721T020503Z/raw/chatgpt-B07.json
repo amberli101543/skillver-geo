@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "我无法实时确认 Skillver 目前是否已开放使用。建议你通过以下方式核实：\n\n1. 查看 Skillver 官网或官方公告  \n2. 尝试注册 / 登录入口是否开放  \n3. 关注其官方社媒、社区或邮件通知  \n4. 如果你有 Skillver 的链接或截图，也可以发给我，我可以帮你判断其开放状态说明。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uCWR7WOv68h3hVJXIzuKkJnsbaa",
+    "object": "chat.completion",
+    "created": 1784599728,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我无法实时确认 Skillver 目前是否已开放使用。建议你通过以下方式核实：\n\n1. 查看 Skillver 官网或官方公告  \n2. 尝试注册 / 登录入口是否开放  \n3. 关注其官方社媒、社区或邮件通知  \n4. 如果你有 Skillver 的链接或截图，也可以发给我，我可以帮你判断其开放状态说明。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 264,
+      "total_tokens": 306,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 172,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:53.050122Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "我无法实时确认 Skillver 目前是否已开放使用。建议你通过以下方式核实：\n\n1. 查看 Skillver 官网或官方公告  \n2. 尝试注册 / 登录入口是否开放  \n3. 关注其官方社媒、社区或邮件通知  \n4. 如果你有 Skillver 的链接或截图，也可以发给我，我可以帮你判断其开放状态说明。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

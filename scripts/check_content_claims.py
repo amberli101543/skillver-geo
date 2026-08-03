@@ -29,8 +29,8 @@ def validate_claim_list(name, claims):
 
 def validate_policy(policy):
     errors = []
-    if policy.get("canonicalPositioning") != "全面开放注册；邀请码仅用于赛事参与":
-        errors.append("canonicalPositioning must be 全面开放注册；邀请码仅用于赛事参与")
+    if policy.get("canonicalPositioning") != "全面开放注册；邀请码仅用于社群参与":
+        errors.append("canonicalPositioning must be 全面开放注册；邀请码仅用于社群参与")
     if not re.fullmatch(r"\d+\.\d+\.\d+", str(policy.get("version", ""))):
         errors.append("version must use semantic versioning")
     if not policy.get("scanPaths"):

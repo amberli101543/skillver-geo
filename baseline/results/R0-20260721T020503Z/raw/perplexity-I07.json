@@ -1,0 +1,322 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "根据现有搜索结果，**Skillver（更准确名称为 Skillver AI）目前支持免费注册和使用**，但部分高级功能或特定技能可能需要付费。\n\n具体来说：\n- **免费版**：可以免费注册，提供基础求职助手功能，每周更新免费技能，部分付费技能首周可免费试用 [1]。\n- **付费会员**：\n  - **月度会员**：139元/月，包含全站技能免费、每月赠送1万积分、客户端远程访问和自动化任务等 [3]。\n  - **年度会员**：1399元/年（比月付省17%），权益与月度会员相同 [3]。\n\n需要注意的是，搜索结果中提到的“Skillver”主要指向**Skillver AI 求职助手**（行业人才研究院项目）[1]，而非其他名称相似的产品（如 Skillveri、Skillshare 等）[2][4][13]。如果您指的是其他\"Skillver\"产品，请提供更多背景信息以便确认。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": ""
+    },
+    {
+      "url": "https://www.meta.com/experiences/skillveri-metaverse-workshop/5404217376359920/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skills.fan/pricing",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.53ai.com/news/tishicijiqiao/2026071654367.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.53ai.com/news/gerentixiao/2026011327851.html",
+      "title": ""
+    },
+    {
+      "url": "https://challenwang.com/essays/skill-not-product-but-interface-20260425.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/aspnetx/p/19680407",
+      "title": ""
+    },
+    {
+      "url": "https://www.infoobs.com/article/20260604/71469.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillboss.co/zh/pricing",
+      "title": ""
+    },
+    {
+      "url": "https://wallstreetcn.com/articles/3774208",
+      "title": ""
+    },
+    {
+      "url": "https://developer.cloud.tencent.com/article/2697648",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillshare.com/en/",
+      "title": ""
+    },
+    {
+      "url": "https://skillingcn.com/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": "行业人才研究院 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.meta.com/experiences/skillveri-metaverse-workshop/5404217376359920/",
+      "title": "Skillveri Metaverse Workshop on Meta Quest"
+    },
+    {
+      "url": "https://www.skills.fan/pricing",
+      "title": "价格页"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.53ai.com/news/tishicijiqiao/2026071654367.html",
+      "title": "Skill 开始走向商业化了"
+    },
+    {
+      "url": "https://www.53ai.com/news/gerentixiao/2026011327851.html",
+      "title": "技能范：面向知识工作者的Skills 社区"
+    },
+    {
+      "url": "https://challenwang.com/essays/skill-not-product-but-interface-20260425.html",
+      "title": "Skill 不值钱之后，什么开始值钱"
+    },
+    {
+      "url": "https://www.cnblogs.com/aspnetx/p/19680407",
+      "title": "OpenClaw必装Skill全指南- 哥本哈士奇(aspnetx) - 博客园"
+    },
+    {
+      "url": "https://www.infoobs.com/article/20260604/71469.html",
+      "title": "腾讯、阿里、字节，混战Skill商店"
+    },
+    {
+      "url": "https://www.skillboss.co/zh/pricing",
+      "title": "定价- 按需付费AI平台 - skillboss.co"
+    },
+    {
+      "url": "https://wallstreetcn.com/articles/3774208",
+      "title": "ŚįŹÁļĘšĻ¶šłäÁļŅRED Skill AIśó∂šĽ£ÁöĄŚŹĎÁéįŚÖ•ŚŹ£šĻčšļČ - ŚćéŚįĒŤ°óŤßĀťóĽ"
+    },
+    {
+      "url": "https://developer.cloud.tencent.com/article/2697648",
+      "title": "SkillHub 技能收费吗？免费与付费技能完整说明 - 腾讯云开发者社区"
+    },
+    {
+      "url": "https://www.skillshare.com/en/",
+      "title": "Skillshare: Online Classes for Creatives"
+    },
+    {
+      "url": "https://skillingcn.com/",
+      "title": "Skilling"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "根据现有搜索结果，**Skillver（更准确名称为 Skillver AI）目前支持免费注册和使用**，但部分高级功能或特定技能可能需要付费。\n\n具体来说：\n- **免费版**：可以免费注册，提供基础求职助手功能，每周更新免费技能，部分付费技能首周可免费试用 [1]。\n- **付费会员**：\n  - **月度会员**：139元/月，包含全站技能免费、每月赠送1万积分、客户端远程访问和自动化任务等 [3]。\n  - **年度会员**：1399元/年（比月付省17%），权益与月度会员相同 [3]。\n\n需要注意的是，搜索结果中提到的“Skillver”主要指向**Skillver AI 求职助手**（行业人才研究院项目）[1]，而非其他名称相似的产品（如 Skillveri、Skillshare 等）[2][4][13]。如果您指的是其他\"Skillver\"产品，请提供更多背景信息以便确认。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/research/",
+      "https://www.meta.com/experiences/skillveri-metaverse-workshop/5404217376359920/",
+      "https://www.skills.fan/pricing",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.53ai.com/news/tishicijiqiao/2026071654367.html",
+      "https://www.53ai.com/news/gerentixiao/2026011327851.html",
+      "https://challenwang.com/essays/skill-not-product-but-interface-20260425.html",
+      "https://www.cnblogs.com/aspnetx/p/19680407",
+      "https://www.infoobs.com/article/20260604/71469.html",
+      "https://www.skillboss.co/zh/pricing",
+      "https://wallstreetcn.com/articles/3774208",
+      "https://developer.cloud.tencent.com/article/2697648",
+      "https://www.skillshare.com/en/",
+      "https://skillingcn.com/"
+    ],
+    "created": 1784599985,
+    "id": "b4ba9a75-758f-483a-aba8-d3dadc5b7ff0",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "### Skillver 现在可以免费注册吗？",
+        "source": "web",
+        "title": "行业人才研究院 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/research/"
+      },
+      {
+        "date": "2023-05-13",
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "Please note that you need a license to use this product.\nRequest a trial license by clicking on \"request for trial\" button after launching the app.",
+        "source": "web",
+        "title": "Skillveri Metaverse Workshop on Meta Quest",
+        "url": "https://www.meta.com/experiences/skillveri-metaverse-workshop/5404217376359920/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-05",
+        "place_metadata": null,
+        "snippet": "### 免费\n¥0\n免费技能下载\n技能每周更新\n付费技能首周免费\n### 月度会员\n¥139/月\n全站技能免费\n每月赠送 1 万积分\n客户端远程访问\n客户端自动化任务\n积分可用于 AI 模型算力\n### 年度会员\n¥1399/年\n全站技能免费\n每月赠送 1 万积分（当月有效）\n客户端远程访问\n客户端自动化任务\n积分可用于 AI 模型算力\n年付省 17%",
+        "source": "web",
+        "title": "价格页",
+        "url": "https://www.skills.fan/pricing"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-07-17",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "现在付费方式很简单：Skill 里必须配置一个 API key 才能调用，而这个 key 需要用户按月或者按次去订阅。\n...\n腾讯的 SkillHub，已经推出了 Skill Pay。\n它的思路是给 AI Agent 装一个自动付款的能力。\n开发者把自己的 Skill 升级成「Pay Skill」，当某个 Agent 在执行任务、需要调用这个 Skill 时，通过绑定的微信支付「AI 专属卡」自动完成扣费，中间不需要人停下来手动付钱。\n...\n**你的 Agent 替你干活时，能自己掏钱去调用别人的专业 Skill，即用即付，全程不用你插手。**\n...\n这是他们官网上线的 Skill ，明...",
+        "source": "web",
+        "title": "Skill 开始走向商业化了",
+        "url": "https://www.53ai.com/news/tishicijiqiao/2026071654367.html"
+      },
+      {
+        "date": "2026-01-24",
+        "last_updated": "2026-01-27",
+        "place_metadata": null,
+        "snippet": "技能范：专为知识工作者打造的AI技能库，帮你把重复工作一键自动化，效率提升看得见。\n核心内容： 1.\n技能范的定位与价值：面向非编程人员的Skills聚合站 2.\n商业模式与用户权益：免费+付费双轨制，付费解锁永久技能 3.\n发展计划与用户承诺：春节前扩充至100+技能，7天无理由退款\n...\n技能范采用免费 + 付费的模式，这里坦诚地跟大家说清楚\n我们从开源社区收录的技能，永久免费\n我们自己开发的技能，上线第一周限时免费\n如果你不想付费，完全可以每周过来看看我们更新了什么新技能，白嫖最新的限免内容\n如果你想永久解锁所有技能，包括历史上的付费技能，可以购买技能范的增值服务\n当前价格是 399 ...",
+        "source": "web",
+        "title": "技能范：面向知识工作者的Skills 社区",
+        "url": "https://www.53ai.com/news/gerentixiao/2026011327851.html"
+      },
+      {
+        "date": "2026-04-25",
+        "last_updated": "2026-07-05",
+        "place_metadata": null,
+        "snippet": "这和开源世界很像。代码可以免费，但围绕代码的稳定发行版、企业支持、安全审计、集成服务、责任主体，仍然可以收费。Skill 也类似。Skill 本体会变便宜，但围绕 Skill 的运行系统，反而可能开始变贵。\n...\n所以未来真正可收费的，可能不是 Skill，而是 SkillOps：目录、审计、认证、权限、沙箱、版本、评测、回滚、责任链。\n...\n这时候 Skill 不赚钱也没关系。它可以像 SDK、API 文档、开源库、案例模板一样，成为分发和信任入口。真正收费发生在后面：API、托管、企业版、审计、服务、培训、私有部署、结果交付。\n...\n我不会把 Skill 看成一个要不要收费的小商品。...",
+        "source": "web",
+        "title": "Skill 不值钱之后，什么开始值钱",
+        "url": "https://challenwang.com/essays/skill-not-product-but-interface-20260425.html"
+      },
+      {
+        "date": "2026-03-07",
+        "last_updated": "2026-07-03",
+        "place_metadata": null,
+        "snippet": "1. **ClawHub平台特性**：ClawHub官方注册表中**95%以上的Skills都是免费开源的**，仅少数高价值垂直场景技能需要付费（如专业数据订阅类）\n2. **免费Skill限制**：大多数免费Skill无功能限制，但部分对接第三方服务的Skill（如tavily-search）可能有**免费额度+付费升级** 模式\n3. **开源协议**：免费Skill主要采用MIT、Apache 2.0等开源协议，允许个人和商业使用",
+        "source": "web",
+        "title": "OpenClaw必装Skill全指南- 哥本哈士奇(aspnetx) - 博客园",
+        "url": "https://www.cnblogs.com/aspnetx/p/19680407"
+      },
+      {
+        "date": "2026-06-04",
+        "last_updated": "2026-07-16",
+        "place_metadata": null,
+        "snippet": "但除了字节扣子试水了Skill付费，其余平台上挂的都是免费版。不赚钱的“商店”，各家为什么还要抢？\n...\n阿里在旗下JVS Claw Agent助手里内置了“虾小宝”Skill市场，用户挑选的Skill可一键同步到工具中使用。Skill市场本身不收费，但用户调用Skill就要消耗算力，算力是阿里的云业务收入。\n...\n三类玩家的逻辑是一致的：Skill商店本身不赚钱，但它是获取和留住用户的入口。真正的收入，在Skill之外。\n...\n目前，只有字节的扣子支持Skill交易，创作者可以给自己的Skill定价出售。其他平台几乎都是免费分发。真正称得上“交易”的，反倒是有人在闲鱼上利用信息差，把开...",
+        "source": "web",
+        "title": "腾讯、阿里、字节，混战Skill商店",
+        "url": "https://www.infoobs.com/article/20260604/71469.html"
+      },
+      {
+        "date": "2024-01-01",
+        "last_updated": "2026-07-06",
+        "place_metadata": null,
+        "snippet": "$20 credits + $0.88 processing fee · You pay $20.88 at checkout\n...\nSkillBoss采用按需付费模式，无需订阅。您可以从$5开始为您的钱包充值，并在所有1000+项服务中使用余额。所有基础设施（网站托管、数据库、身份验证、支付、文件存储、电子邮件发送）均免费提供。\n...\n您可以随时从仪表板为您的钱包充值。可选择$7.50、$12.50、$20.00或$28.00的充值包。您的余额永不失效。",
+        "source": "web",
+        "title": "定价- 按需付费AI平台 - skillboss.co",
+        "url": "https://www.skillboss.co/zh/pricing"
+      },
+      {
+        "date": "2026-06-09",
+        "last_updated": "2026-07-17",
+        "place_metadata": null,
+        "snippet": "•ŚõīŚľÄŚŹĎŤÄÖŤŅõŤ°ĆšļÜ48ŚįŹśó∂ŚįĀťó≠ŚľÄŚŹĎ„ÄāŚÖ∂šł≠Ť∂ÖŤŅá60%šłļ00ŚźéÔľĆŚĻīťĺĄśúÄŚįŹÁöĄŚŹāŤĶõŤÄÖŚŹ™śúČ13Ś≤Ā„Äā",
+        "source": "web",
+        "title": "ŚįŹÁļĘšĻ¶šłäÁļŅRED Skill AIśó∂šĽ£ÁöĄŚŹĎÁéįŚÖ•ŚŹ£šĻčšļČ - ŚćéŚįĒŤ°óŤßĀťóĽ",
+        "url": "https://wallstreetcn.com/articles/3774208"
+      },
+      {
+        "date": "2026-06-25",
+        "last_updated": "2026-07-01",
+        "place_metadata": null,
+        "snippet": "SkillHub 平台上的技能既有免费资源，也有付费资源。本文介绍 SkillHub 的收费模式、如何判断一个技能是否免费、付费技能的获取方式，以及企业用户在选型时的费用考量因素。\n...\nSkillHub 的收费模式分为两部分：平台收费和技能收费。\n**平台收费**：SkillHub 平台的基础功能免费，用户无需支付费用即可使用。\n**技能收费**：平台上的技能由开发者自行决定是否收费。有免费技能，也有付费技能。\n...\nSkillHub 平台的基础功能免费，包括：\n...\n部分技能由开发者设置为付费资源。用户需要支付一定费用才能安装和使用这些技能。\n...\n在 SkillHub 平台上，安...",
+        "source": "web",
+        "title": "SkillHub 技能收费吗？免费与付费技能完整说明 - 腾讯云开发者社区",
+        "url": "https://developer.cloud.tencent.com/article/2697648"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-14",
+        "place_metadata": null,
+        "snippet": "As a Skillshare member, you’ll have unlimited access to all Skillshare classes to watch when and where you want, and additional features such as offline viewing, access to a vibrant community of lifelong learners, and so much more.\n...\nAfter your trial ends, your annual Skillshare membership begins....",
+        "source": "web",
+        "title": "Skillshare: Online Classes for Creatives",
+        "url": "https://www.skillshare.com/en/"
+      },
+      {
+        "date": "2024-01-01",
+        "last_updated": "2025-03-09",
+        "place_metadata": null,
+        "snippet": "在选定的金融工具上，Skilling 提供零佣金和无加价的交易服务，帮助交易者降低交易成本。\n...\nSkilling 提供行业领先的交易条件，点差低至 0.1 点，且无隐藏费用，完全透明。",
+        "source": "web",
+        "title": "Skilling",
+        "url": "https://skillingcn.com/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 248,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00025,
+        "request_cost": 0.005,
+        "total_cost": 0.00528
+      },
+      "prompt_tokens": 33,
+      "search_context_size": "low",
+      "total_tokens": 281
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:05.867709Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "根据现有搜索结果，**Skillver（更准确名称为 Skillver AI）目前支持免费注册和使用**，但部分高级功能或特定技能可能需要付费。\n\n具体来说：\n- **免费版**：可以免费注册，提供基础求职助手功能，每周更新免费技能，部分付费技能首周可免费试用 [1]。\n- **付费会员**：\n  - **月度会员**：139元/月，包含全站技能免费、每月赠送1万积分、客户端远程访问和自动化任务等 [3]。\n  - **年度会员**：1399元/年（比月付省17%），权益与月度会员相同 [3]。\n\n需要注意的是，搜索结果中提到的“Skillver”主要指向**Skillver AI 求职助手**（行业人才研究院项目）[1]，而非其他名称相似的产品（如 Skillveri、Skillshare 等）[2][4][13]。如果您指的是其他\"Skillver\"产品，请提供更多背景信息以便确认。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

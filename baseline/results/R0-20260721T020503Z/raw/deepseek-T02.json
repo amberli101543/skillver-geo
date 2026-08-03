@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "“七维战力评估”并非一个标准的通用术语，通常在特定领域（如军事、游戏、企业竞争分析或科幻作品）中有不同定义。以下是几种常见解释：\n\n1. **军事/国防领域**：可能指从七个维度综合评估部队或系统的作战能力，例如：火力、防护、机动、信息、指挥、保障、心理/士气等。\n\n2. **游戏/体育竞技**：用于角色或团队能力数值化，常见维度包括：攻击、防御、速度、智力、耐力、技巧、精神等。\n\n3. **商业/竞争分析**：评估企业或产品的竞争力，维度包括：技术、市场、资源、团队、品牌、创新、资本等。\n\n**若无具体上下文**，无法确定其确切含义。请提供更多领域或来源信息，以便给出精准解释。",
+  "sources": [],
+  "raw": {
+    "id": "551a598e-1c51-4412-90bc-a1252d63fada",
+    "object": "chat.completion",
+    "created": 1784600063,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“七维战力评估”并非一个标准的通用术语，通常在特定领域（如军事、游戏、企业竞争分析或科幻作品）中有不同定义。以下是几种常见解释：\n\n1. **军事/国防领域**：可能指从七个维度综合评估部队或系统的作战能力，例如：火力、防护、机动、信息、指挥、保障、心理/士气等。\n\n2. **游戏/体育竞技**：用于角色或团队能力数值化，常见维度包括：攻击、防御、速度、智力、耐力、技巧、精神等。\n\n3. **商业/竞争分析**：评估企业或产品的竞争力，维度包括：技术、市场、资源、团队、品牌、创新、资本等。\n\n**若无具体上下文**，无法确定其确切含义。请提供更多领域或来源信息，以便给出精准解释。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 172,
+      "total_tokens": 207,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 35
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:14:25.601382Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "“七维战力评估”并非一个标准的通用术语，通常在特定领域（如军事、游戏、企业竞争分析或科幻作品）中有不同定义。以下是几种常见解释：\n\n1. **军事/国防领域**：可能指从七个维度综合评估部队或系统的作战能力，例如：火力、防护、机动、信息、指挥、保障、心理/士气等。\n\n2. **游戏/体育竞技**：用于角色或团队能力数值化，常见维度包括：攻击、防御、速度、智力、耐力、技巧、精神等。\n\n3. **商业/竞争分析**：评估企业或产品的竞争力，维度包括：技术、市场、资源、团队、品牌、创新、资本等。\n\n**若无具体上下文**，无法确定其确切含义。请提供更多领域或来源信息，以便给出精准解释。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

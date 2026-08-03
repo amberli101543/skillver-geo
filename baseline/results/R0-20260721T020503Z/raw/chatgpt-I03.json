@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "注册 Skillver 通常可以按以下步骤：\n\n1. 打开 Skillver 官网或下载 Skillver App  \n2. 点击 **Sign up / 注册 / Create account**  \n3. 输入邮箱或手机号，设置密码  \n4. 按提示完成邮箱/短信验证码验证  \n5. 填写个人资料，例如姓名、头像、技能/兴趣等  \n6. 如果需要邀请码或组织代码，按页面提示填写  \n7. 提交后登录账号即可使用\n\n如果你把 Skillver 的网址或截图发给我，我可以根据具体页面一步步帮你操作。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uEXWDqP6G7gCWGHKTKnMyapSFPU",
+    "object": "chat.completion",
+    "created": 1784599853,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "注册 Skillver 通常可以按以下步骤：\n\n1. 打开 Skillver 官网或下载 Skillver App  \n2. 点击 **Sign up / 注册 / Create account**  \n3. 输入邮箱或手机号，设置密码  \n4. 按提示完成邮箱/短信验证码验证  \n5. 填写个人资料，例如姓名、头像、技能/兴趣等  \n6. 如果需要邀请码或组织代码，按页面提示填写  \n7. 提交后登录账号即可使用\n\n如果你把 Skillver 的网址或截图发给我，我可以根据具体页面一步步帮你操作。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 215,
+      "total_tokens": 255,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 84,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:56.578164Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "注册 Skillver 通常可以按以下步骤：\n\n1. 打开 Skillver 官网或下载 Skillver App  \n2. 点击 **Sign up / 注册 / Create account**  \n3. 输入邮箱或手机号，设置密码  \n4. 按提示完成邮箱/短信验证码验证  \n5. 填写个人资料，例如姓名、头像、技能/兴趣等  \n6. 如果需要邀请码或组织代码，按页面提示填写  \n7. 提交后登录账号即可使用\n\n如果你把 Skillver 的网址或截图发给我，我可以根据具体页面一步步帮你操作。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

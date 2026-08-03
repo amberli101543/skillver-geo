@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "“Skillver” 目前并非一个广泛知名或标准化的术语，根据现有信息，它可能是以下情况之一：\n\n1. **拼写误差或变体**：可能是 **Skillshare**（知名在线技能学习平台）的误写，或是类似名称的初创产品/服务。\n2. **小众工具/平台**：可能指某个垂直领域的技能管理、学习或协作工具（例如企业内部培训系统、技能匹配平台等），但目前无公开主流信息。\n3. **品牌或项目名**：可能是某个公司、开源项目或产品的名称，需结合具体上下文进一步确认。\n\n如果您能提供更多背景（例如使用场景、相关领域或来源），我可以帮您更精准地解答！ 😊",
+  "sources": [],
+  "raw": {
+    "id": "284a8a08-d0ed-43dc-b036-79f02d5003c0",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599509,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 目前并非一个广泛知名或标准化的术语，根据现有信息，它可能是以下情况之一：\n\n1. **拼写误差或变体**：可能是 **Skillshare**（知名在线技能学习平台）的误写，或是类似名称的初创产品/服务。\n2. **小众工具/平台**：可能指某个垂直领域的技能管理、学习或协作工具（例如企业内部培训系统、技能匹配平台等），但目前无公开主流信息。\n3. **品牌或项目名**：可能是某个公司、开源项目或产品的名称，需结合具体上下文进一步确认。\n\n如果您能提供更多背景（例如使用场景、相关领域或来源），我可以帮您更精准地解答！ 😊"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 148,
+      "total_tokens": 193,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:12.092465Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "“Skillver” 目前并非一个广泛知名或标准化的术语，根据现有信息，它可能是以下情况之一：\n\n1. **拼写误差或变体**：可能是 **Skillshare**（知名在线技能学习平台）的误写，或是类似名称的初创产品/服务。\n2. **小众工具/平台**：可能指某个垂直领域的技能管理、学习或协作工具（例如企业内部培训系统、技能匹配平台等），但目前无公开主流信息。\n3. **品牌或项目名**：可能是某个公司、开源项目或产品的名称，需结合具体上下文进一步确认。\n\n如果您能提供更多背景（例如使用场景、相关领域或来源），我可以帮您更精准地解答！ 😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

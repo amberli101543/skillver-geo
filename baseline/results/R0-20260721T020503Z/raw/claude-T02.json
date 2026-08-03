@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "# 七维战力评估\n\n**七维战力评估**是一种对军事力量或作战能力进行综合评估的框架体系，通常从**七个维度**对战斗力进行系统性分析和量化评估。\n\n## 常见的七个维度\n\n不同语境下具体维度可能有所差异，常见版本包括：\n\n1. **人员（People）** - 兵力数量、素质、士气\n2. **装备（Equipment）** - 武器装备的数量与技术水平\n3. **训练（Training）** - 训练水平与实战能力\n4. **指挥（Command）** - 指挥控制与领导能力\n5. **情报（Intelligence）** - 情报获取与分析能力\n6. **后勤（Logistics）** - 补给与保障能力\n7. **协同（Coordination）** - 联合作战与协同配合能力\n\n## 应用场景\n\n- 军事战略分析\n- 战役推演与兵棋推演\n- 军事游戏/策略游戏设定\n- 国防政策研究\n\n---\n\n> **注意**：如果您是在特定游戏（如策略游戏）或特定文献中看到这个概念，具体维度定义可能不同，建议结合具体上下文理解。\n\n请问您是在哪个具体场景下看到这个概念的？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPvGd7wsK9x4ikYuEYL",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 七维战力评估\n\n**七维战力评估**是一种对军事力量或作战能力进行综合评估的框架体系，通常从**七个维度**对战斗力进行系统性分析和量化评估。\n\n## 常见的七个维度\n\n不同语境下具体维度可能有所差异，常见版本包括：\n\n1. **人员（People）** - 兵力数量、素质、士气\n2. **装备（Equipment）** - 武器装备的数量与技术水平\n3. **训练（Training）** - 训练水平与实战能力\n4. **指挥（Command）** - 指挥控制与领导能力\n5. **情报（Intelligence）** - 情报获取与分析能力\n6. **后勤（Logistics）** - 补给与保障能力\n7. **协同（Coordination）** - 联合作战与协同配合能力\n\n## 应用场景\n\n- 军事战略分析\n- 战役推演与兵棋推演\n- 军事游戏/策略游戏设定\n- 国防政策研究\n\n---\n\n> **注意**：如果您是在特定游戏（如策略游戏）或特定文献中看到这个概念，具体维度定义可能不同，建议结合具体上下文理解。\n\n请问您是在哪个具体场景下看到这个概念的？"
+        }
+      }
+    ],
+    "created": 1784600094,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 403,
+      "prompt_tokens": 48,
+      "total_tokens": 451
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:14:54.764270Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "# 七维战力评估\n\n**七维战力评估**是一种对军事力量或作战能力进行综合评估的框架体系，通常从**七个维度**对战斗力进行系统性分析和量化评估。\n\n## 常见的七个维度\n\n不同语境下具体维度可能有所差异，常见版本包括：\n\n1. **人员（People）** - 兵力数量、素质、士气\n2. **装备（Equipment）** - 武器装备的数量与技术水平\n3. **训练（Training）** - 训练水平与实战能力\n4. **指挥（Command）** - 指挥控制与领导能力\n5. **情报（Intelligence）** - 情报获取与分析能力\n6. **后勤（Logistics）** - 补给与保障能力\n7. **协同（Coordination）** - 联合作战与协同配合能力\n\n## 应用场景\n\n- 军事战略分析\n- 战役推演与兵棋推演\n- 军事游戏/策略游戏设定\n- 国防政策研究\n\n---\n\n> **注意**：如果您是在特定游戏（如策略游戏）或特定文献中看到这个概念，具体维度定义可能不同，建议结合具体上下文理解。\n\n请问您是在哪个具体场景下看到这个概念的？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "**Skillver** 和 **才谱 AI**（通常指人力资源科技领域的“才谱 Type”）是**同一家公司/团队在不同发展阶段或不同产品线上的延续与升级关系**。\n\n具体关系如下：\n\n1. **母体与子品牌/新一代产品的关系**：\n   * **才谱（Type）**：是国内深耕多年的知名人力资源科技（HR Tech）与人才测评服务商，在人才画像、岗位胜任力建模和人才测评领域积累了深厚的数据和专业经验。\n   * **Skillver**：是才谱团队在 AIGC（生成式人工智能）时代推出的**全新 AI 原生（AI-Native）人才管理与招聘品牌**。\n\n2. **技术与定位的升级**：\n   * 才谱传统上侧重于专业的人才测评和 HR SaaS 解决方案。\n   * **Skillver** 则专注于利用大语言模型（LLM）技术，提供 AI 面试官、AI 简历解析、技能图谱（Skill Graph）构建以及 AI 招聘助手等前沿功能，是“才谱”在 AI 时代的技术演进和品牌重构。\n\n**总结：**\nSkillver 是才谱（Type）面向 AI 时代推出的全新大模型 HR 产品/品牌，两者背后的核心团队、技术积累和行业底蕴是一脉相承的。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 和 **才谱 AI**（通常指人力资源科技领域的“才谱 Type”）是**同一家公司/团队在不同发展阶段或不同产品线上的延续与升级关系**。\n\n具体关系如下：\n\n1. **母体与子品牌/新一代产品的关系**：\n   * **才谱（Type）**：是国内深耕多年的知名人力资源科技（HR Tech）与人才测评服务商，在人才画像、岗位胜任力建模和人才测评领域积累了深厚的数据和专业经验。\n   * **Skillver**：是才谱团队在 AIGC（生成式人工智能）时代推出的**全新 AI 原生（AI-Native）人才管理与招聘品牌**。\n\n2. **技术与定位的升级**：\n   * 才谱传统上侧重于专业的人才测评和 HR SaaS 解决方案。\n   * **Skillver** 则专注于利用大语言模型（LLM）技术，提供 AI 面试官、AI 简历解析、技能图谱（Skill Graph）构建以及 AI 招聘助手等前沿功能，是“才谱”在 AI 时代的技术演进和品牌重构。\n\n**总结：**\nSkillver 是才谱（Type）面向 AI 时代推出的全新大模型 HR 产品/品牌，两者背后的核心团队、技术积累和行业底蕴是一脉相承的。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603858,
+    "id": "xuReapyUBbuGqtsPu4nWiQo",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 298,
+      "prompt_tokens": 38,
+      "total_tokens": 1182
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:17:38.231539Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "**Skillver** 和 **才谱 AI**（通常指人力资源科技领域的“才谱 Type”）是**同一家公司/团队在不同发展阶段或不同产品线上的延续与升级关系**。\n\n具体关系如下：\n\n1. **母体与子品牌/新一代产品的关系**：\n   * **才谱（Type）**：是国内深耕多年的知名人力资源科技（HR Tech）与人才测评服务商，在人才画像、岗位胜任力建模和人才测评领域积累了深厚的数据和专业经验。\n   * **Skillver**：是才谱团队在 AIGC（生成式人工智能）时代推出的**全新 AI 原生（AI-Native）人才管理与招聘品牌**。\n\n2. **技术与定位的升级**：\n   * 才谱传统上侧重于专业的人才测评和 HR SaaS 解决方案。\n   * **Skillver** 则专注于利用大语言模型（LLM）技术，提供 AI 面试官、AI 简历解析、技能图谱（Skill Graph）构建以及 AI 招聘助手等前沿功能，是“才谱”在 AI 时代的技术演进和品牌重构。\n\n**总结：**\nSkillver 是才谱（Type）面向 AI 时代推出的全新大模型 HR 产品/品牌，两者背后的核心团队、技术积累和行业底蕴是一脉相承的。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

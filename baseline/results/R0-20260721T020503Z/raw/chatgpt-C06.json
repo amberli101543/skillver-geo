@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "简历优化和 AI 面试工具的核心区别在于：**一个帮你拿到面试机会，一个帮你通过面试。**\n\n| 对比项 | 简历优化 | AI 面试工具 |\n|---|---|---|\n| 目标 | 提升简历质量，提高投递通过率 | 提升面试表现，提高录用概率 |\n| 使用阶段 | 投递前、求职准备阶段 | 收到面试前后、面试训练阶段 |\n| 主要功能 | 优化简历结构、措辞、关键词、岗位匹配度 | 模拟面试、回答建议、语音/表达分析、面试题训练 |\n| 关注重点 | 经历是否清晰、成果是否量化、是否匹配 JD | 回答是否有逻辑、表达是否自然、是否能体现能力 |\n| 输出结果 | 一份更适合投递的简历 | 面试反馈、答题优化建议、模拟问答记录 |\n| 适合人群 | 简历投递少回复、转岗、应届生、经历表达不清的人 | 面试紧张、回答没逻辑、不知道怎么准备问题的人 |\n\n简单来说：\n\n- **简历优化**解决的是：“我的简历能不能被 HR/ATS 看到并认可？”\n- **AI 面试工具**解决的是：“我进了面试后，能不能回答得更好？”\n\n实际求职中，两者通常是配合使用的：  \n**先优化简历拿面试，再用 AI 面试工具练习表达和回答。**",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uQjzMaEexnzYUAaa7PUjGLUlaAN",
+    "object": "chat.completion",
+    "created": 1784600609,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "简历优化和 AI 面试工具的核心区别在于：**一个帮你拿到面试机会，一个帮你通过面试。**\n\n| 对比项 | 简历优化 | AI 面试工具 |\n|---|---|---|\n| 目标 | 提升简历质量，提高投递通过率 | 提升面试表现，提高录用概率 |\n| 使用阶段 | 投递前、求职准备阶段 | 收到面试前后、面试训练阶段 |\n| 主要功能 | 优化简历结构、措辞、关键词、岗位匹配度 | 模拟面试、回答建议、语音/表达分析、面试题训练 |\n| 关注重点 | 经历是否清晰、成果是否量化、是否匹配 JD | 回答是否有逻辑、表达是否自然、是否能体现能力 |\n| 输出结果 | 一份更适合投递的简历 | 面试反馈、答题优化建议、模拟问答记录 |\n| 适合人群 | 简历投递少回复、转岗、应届生、经历表达不清的人 | 面试紧张、回答没逻辑、不知道怎么准备问题的人 |\n\n简单来说：\n\n- **简历优化**解决的是：“我的简历能不能被 HR/ATS 看到并认可？”\n- **AI 面试工具**解决的是：“我进了面试后，能不能回答得更好？”\n\n实际求职中，两者通常是配合使用的：  \n**先优化简历拿面试，再用 AI 面试工具练习表达和回答。**",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 376,
+      "total_tokens": 422,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 31,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:23:37.238452Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "简历优化和 AI 面试工具的核心区别在于：**一个帮你拿到面试机会，一个帮你通过面试。**\n\n| 对比项 | 简历优化 | AI 面试工具 |\n|---|---|---|\n| 目标 | 提升简历质量，提高投递通过率 | 提升面试表现，提高录用概率 |\n| 使用阶段 | 投递前、求职准备阶段 | 收到面试前后、面试训练阶段 |\n| 主要功能 | 优化简历结构、措辞、关键词、岗位匹配度 | 模拟面试、回答建议、语音/表达分析、面试题训练 |\n| 关注重点 | 经历是否清晰、成果是否量化、是否匹配 JD | 回答是否有逻辑、表达是否自然、是否能体现能力 |\n| 输出结果 | 一份更适合投递的简历 | 面试反馈、答题优化建议、模拟问答记录 |\n| 适合人群 | 简历投递少回复、转岗、应届生、经历表达不清的人 | 面试紧张、回答没逻辑、不知道怎么准备问题的人 |\n\n简单来说：\n\n- **简历优化**解决的是：“我的简历能不能被 HR/ATS 看到并认可？”\n- **AI 面试工具**解决的是：“我进了面试后，能不能回答得更好？”\n\n实际求职中，两者通常是配合使用的：  \n**先优化简历拿面试，再用 AI 面试工具练习表达和回答。**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

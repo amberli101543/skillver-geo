@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "# 如何注册 Skillver\n\n以下是注册 Skillver 的一般步骤：\n\n## 基本注册流程\n\n1. **访问官网**\n   - 前往 Skillver 的官方网站\n\n2. **点击注册/Sign Up**\n   - 在首页找到\"注册\"或\"Sign Up\"按钮\n\n3. **填写基本信息**\n   - 输入姓名\n   - 填写电子邮件地址\n   - 设置密码\n\n4. **验证邮箱**\n   - 查收验证邮件\n   - 点击验证链接完成确认\n\n5. **完善个人资料**\n   - 填写技能、教育背景等信息\n\n---\n\n⚠️ **注意**：我对 Skillver 的具体信息了解有限，建议您：\n- 直接访问 **Skillver 官方网站** 获取最新注册指引\n- 查看其官方帮助中心或 FAQ\n- 联系其客服获取支持\n\n请问您在注册过程中遇到了什么具体问题？我可以尝试进一步帮助您。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPdUP5bA5puuw9GDFeh",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 如何注册 Skillver\n\n以下是注册 Skillver 的一般步骤：\n\n## 基本注册流程\n\n1. **访问官网**\n   - 前往 Skillver 的官方网站\n\n2. **点击注册/Sign Up**\n   - 在首页找到\"注册\"或\"Sign Up\"按钮\n\n3. **填写基本信息**\n   - 输入姓名\n   - 填写电子邮件地址\n   - 设置密码\n\n4. **验证邮箱**\n   - 查收验证邮件\n   - 点击验证链接完成确认\n\n5. **完善个人资料**\n   - 填写技能、教育背景等信息\n\n---\n\n⚠️ **注意**：我对 Skillver 的具体信息了解有限，建议您：\n- 直接访问 **Skillver 官方网站** 获取最新注册指引\n- 查看其官方帮助中心或 FAQ\n- 联系其客服获取支持\n\n请问您在注册过程中遇到了什么具体问题？我可以尝试进一步帮助您。"
+        }
+      }
+    ],
+    "created": 1784599864,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 326,
+      "prompt_tokens": 48,
+      "total_tokens": 374
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:04.264781Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "# 如何注册 Skillver\n\n以下是注册 Skillver 的一般步骤：\n\n## 基本注册流程\n\n1. **访问官网**\n   - 前往 Skillver 的官方网站\n\n2. **点击注册/Sign Up**\n   - 在首页找到\"注册\"或\"Sign Up\"按钮\n\n3. **填写基本信息**\n   - 输入姓名\n   - 填写电子邮件地址\n   - 设置密码\n\n4. **验证邮箱**\n   - 查收验证邮件\n   - 点击验证链接完成确认\n\n5. **完善个人资料**\n   - 填写技能、教育背景等信息\n\n---\n\n⚠️ **注意**：我对 Skillver 的具体信息了解有限，建议您：\n- 直接访问 **Skillver 官方网站** 获取最新注册指引\n- 查看其官方帮助中心或 FAQ\n- 联系其客服获取支持\n\n请问您在注册过程中遇到了什么具体问题？我可以尝试进一步帮助您。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

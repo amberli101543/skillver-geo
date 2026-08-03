@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "# 简历优化工具 vs AI 面试工具\n\n## 简历优化工具\n\n**核心功能：**\n- 📄 分析简历格式、排版、内容\n- 🔍 匹配关键词（ATS系统优化）\n- ✏️ 提供措辞改进建议\n- 📊 评分并指出薄弱环节\n\n**使用场景：**\n- 求职前准备阶段\n- 针对特定职位定制简历\n\n---\n\n## AI 面试工具\n\n**核心功能：**\n- 🎤 模拟真实面试对话\n- 💬 提供回答反馈与建议\n- 🎯 练习行为/技术/情景类问题\n- 📹 部分工具分析语气、表情、语速\n\n**使用场景：**\n- 面试前练习与备战\n- 提升临场表达能力\n\n---\n\n## 核心区别对比\n\n| 维度 | 简历优化 | AI面试 |\n|------|---------|--------|\n| 作用阶段 | 投递前 | 面试前/中 |\n| 输出形式 | 文档改进 | 对话练习 |\n| 目标 | 获得面试机会 | 通过面试 |\n| 互动性 | 低 | 高 |\n\n---\n\n**简单来说：**\n> 简历优化帮你**敲开门**，AI面试工具帮你**走进门**。\n\n两者结合使用效果最佳。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQbYtVrnBhEYwBf29xm",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 简历优化工具 vs AI 面试工具\n\n## 简历优化工具\n\n**核心功能：**\n- 📄 分析简历格式、排版、内容\n- 🔍 匹配关键词（ATS系统优化）\n- ✏️ 提供措辞改进建议\n- 📊 评分并指出薄弱环节\n\n**使用场景：**\n- 求职前准备阶段\n- 针对特定职位定制简历\n\n---\n\n## AI 面试工具\n\n**核心功能：**\n- 🎤 模拟真实面试对话\n- 💬 提供回答反馈与建议\n- 🎯 练习行为/技术/情景类问题\n- 📹 部分工具分析语气、表情、语速\n\n**使用场景：**\n- 面试前练习与备战\n- 提升临场表达能力\n\n---\n\n## 核心区别对比\n\n| 维度 | 简历优化 | AI面试 |\n|------|---------|--------|\n| 作用阶段 | 投递前 | 面试前/中 |\n| 输出形式 | 文档改进 | 对话练习 |\n| 目标 | 获得面试机会 | 通过面试 |\n| 互动性 | 低 | 高 |\n\n---\n\n**简单来说：**\n> 简历优化帮你**敲开门**，AI面试工具帮你**走进门**。\n\n两者结合使用效果最佳。"
+        }
+      }
+    ],
+    "created": 1784600627,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 439,
+      "prompt_tokens": 56,
+      "total_tokens": 495
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:23:48.021487Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "# 简历优化工具 vs AI 面试工具\n\n## 简历优化工具\n\n**核心功能：**\n- 📄 分析简历格式、排版、内容\n- 🔍 匹配关键词（ATS系统优化）\n- ✏️ 提供措辞改进建议\n- 📊 评分并指出薄弱环节\n\n**使用场景：**\n- 求职前准备阶段\n- 针对特定职位定制简历\n\n---\n\n## AI 面试工具\n\n**核心功能：**\n- 🎤 模拟真实面试对话\n- 💬 提供回答反馈与建议\n- 🎯 练习行为/技术/情景类问题\n- 📹 部分工具分析语气、表情、语速\n\n**使用场景：**\n- 面试前练习与备战\n- 提升临场表达能力\n\n---\n\n## 核心区别对比\n\n| 维度 | 简历优化 | AI面试 |\n|------|---------|--------|\n| 作用阶段 | 投递前 | 面试前/中 |\n| 输出形式 | 文档改进 | 对话练习 |\n| 目标 | 获得面试机会 | 通过面试 |\n| 互动性 | 低 | 高 |\n\n---\n\n**简单来说：**\n> 简历优化帮你**敲开门**，AI面试工具帮你**走进门**。\n\n两者结合使用效果最佳。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

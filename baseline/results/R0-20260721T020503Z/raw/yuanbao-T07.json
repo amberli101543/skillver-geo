@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "“Skillver” 目前并非一个广泛知名、有公开权威定义的通用品牌或平台名称，因此“导师赋能”的具体含义需要结合其官方定义或具体业务场景来理解。\n\n通常来说，在职业发展、技能培训或教育科技领域，“导师赋能”一般指通过系统化的支持（如培训、工具、资源、反馈机制等），提升导师的辅导能力、教学效率或影响力，使其能更有效地帮助学员成长。例如：\n- 为导师提供教学方法培训、课程设计工具；\n- 搭建导师与学员的匹配平台或沟通渠道；\n- 提供数据反馈帮助导师优化辅导策略等。\n\n若你指的是某个特定机构（如某企业、培训平台或社群）的“Skillver”，建议参考其官方介绍或联系相关方获取准确信息。",
+  "sources": [],
+  "raw": {
+    "id": "6ab7e523-b0d7-4706-9fbd-d0aa24bfd3a6",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600243,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 目前并非一个广泛知名、有公开权威定义的通用品牌或平台名称，因此“导师赋能”的具体含义需要结合其官方定义或具体业务场景来理解。\n\n通常来说，在职业发展、技能培训或教育科技领域，“导师赋能”一般指通过系统化的支持（如培训、工具、资源、反馈机制等），提升导师的辅导能力、教学效率或影响力，使其能更有效地帮助学员成长。例如：\n- 为导师提供教学方法培训、课程设计工具；\n- 搭建导师与学员的匹配平台或沟通渠道；\n- 提供数据反馈帮助导师优化辅导策略等。\n\n若你指的是某个特定机构（如某企业、培训平台或社群）的“Skillver”，建议参考其官方介绍或联系相关方获取准确信息。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 167,
+      "total_tokens": 215,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:17:26.928542Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "“Skillver” 目前并非一个广泛知名、有公开权威定义的通用品牌或平台名称，因此“导师赋能”的具体含义需要结合其官方定义或具体业务场景来理解。\n\n通常来说，在职业发展、技能培训或教育科技领域，“导师赋能”一般指通过系统化的支持（如培训、工具、资源、反馈机制等），提升导师的辅导能力、教学效率或影响力，使其能更有效地帮助学员成长。例如：\n- 为导师提供教学方法培训、课程设计工具；\n- 搭建导师与学员的匹配平台或沟通渠道；\n- 提供数据反馈帮助导师优化辅导策略等。\n\n若你指的是某个特定机构（如某企业、培训平台或社群）的“Skillver”，建议参考其官方介绍或联系相关方获取准确信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

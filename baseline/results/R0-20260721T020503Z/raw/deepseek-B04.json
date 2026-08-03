@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "才谱 AI 和 Skillver 没有公开的关联关系。它们是两家独立的初创公司，可能都在人才招聘或技能评估领域使用 AI 技术，但不存在官方宣布的合作、投资或隶属关系。",
+  "sources": [],
+  "raw": {
+    "id": "9e3c4e5c-9904-4f21-873a-d7947d950c30",
+    "object": "chat.completion",
+    "created": 1784599618,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "才谱 AI 和 Skillver 没有公开的关联关系。它们是两家独立的初创公司，可能都在人才招聘或技能评估领域使用 AI 技术，但不存在官方宣布的合作、投资或隶属关系。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 44,
+      "total_tokens": 84,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 40
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:59.212180Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "才谱 AI 和 Skillver 没有公开的关联关系。它们是两家独立的初创公司，可能都在人才招聘或技能评估领域使用 AI 技术，但不存在官方宣布的合作、投资或隶属关系。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "**Skillver 的 AI 面试报告**主要用于辅助 HR 和用人部门高效筛选、评估和对比候选人。它通过分析候选人在 AI 视频/语音面试中的表现，生成多维度的量化评估。\n\n其主要功能和作用包括：\n\n1. **多维度能力量化评估**：\n   * 针对岗位需求，从**专业技能、软实力**（如沟通表达、逻辑思维、抗压能力、解决问题能力）以及**职业价值观**等维度进行自动评分。\n\n2. **人岗匹配度预测**：\n   * 基于企业自定义的岗位模型（JD），自动计算候选人与岗位的匹配百分比，帮助 HR 快速筛选出高潜力人才，减少初筛时间。\n\n3. **核心内容智能总结**：\n   * 自动将面试音视频转写为文字，并提炼候选人回答的**核心要点**。\n   * 标记候选人的**亮点**（如优秀案例）和**潜在风险点**（如表述矛盾、答非所问）。\n\n4. **候选人综合画像**：\n   * 分析候选人的语言风格、行为特征，生成直观的雷达图或性格画像，帮助面试官快速建立对候选人的整体认知。\n\n5. **辅助决策与后续面试建议**：\n   * 提供清晰的筛选建议（如：强烈推荐、通过、待定、淘汰）。\n   * 针对候选人的薄弱环节，**自动生成下一轮人工面试的追问建议**（QA Guide），帮助复试官进行精准提问。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver 的 AI 面试报告**主要用于辅助 HR 和用人部门高效筛选、评估和对比候选人。它通过分析候选人在 AI 视频/语音面试中的表现，生成多维度的量化评估。\n\n其主要功能和作用包括：\n\n1. **多维度能力量化评估**：\n   * 针对岗位需求，从**专业技能、软实力**（如沟通表达、逻辑思维、抗压能力、解决问题能力）以及**职业价值观**等维度进行自动评分。\n\n2. **人岗匹配度预测**：\n   * 基于企业自定义的岗位模型（JD），自动计算候选人与岗位的匹配百分比，帮助 HR 快速筛选出高潜力人才，减少初筛时间。\n\n3. **核心内容智能总结**：\n   * 自动将面试音视频转写为文字，并提炼候选人回答的**核心要点**。\n   * 标记候选人的**亮点**（如优秀案例）和**潜在风险点**（如表述矛盾、答非所问）。\n\n4. **候选人综合画像**：\n   * 分析候选人的语言风格、行为特征，生成直观的雷达图或性格画像，帮助面试官快速建立对候选人的整体认知。\n\n5. **辅助决策与后续面试建议**：\n   * 提供清晰的筛选建议（如：强烈推荐、通过、待定、淘汰）。\n   * 针对候选人的薄弱环节，**自动生成下一轮人工面试的追问建议**（QA Guide），帮助复试官进行精准提问。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604178,
+    "id": "_OVeaoD_H7rOz7IPiaOI0AU",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 342,
+      "prompt_tokens": 38,
+      "total_tokens": 1098
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:22:58.017897Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "**Skillver 的 AI 面试报告**主要用于辅助 HR 和用人部门高效筛选、评估和对比候选人。它通过分析候选人在 AI 视频/语音面试中的表现，生成多维度的量化评估。\n\n其主要功能和作用包括：\n\n1. **多维度能力量化评估**：\n   * 针对岗位需求，从**专业技能、软实力**（如沟通表达、逻辑思维、抗压能力、解决问题能力）以及**职业价值观**等维度进行自动评分。\n\n2. **人岗匹配度预测**：\n   * 基于企业自定义的岗位模型（JD），自动计算候选人与岗位的匹配百分比，帮助 HR 快速筛选出高潜力人才，减少初筛时间。\n\n3. **核心内容智能总结**：\n   * 自动将面试音视频转写为文字，并提炼候选人回答的**核心要点**。\n   * 标记候选人的**亮点**（如优秀案例）和**潜在风险点**（如表述矛盾、答非所问）。\n\n4. **候选人综合画像**：\n   * 分析候选人的语言风格、行为特征，生成直观的雷达图或性格画像，帮助面试官快速建立对候选人的整体认知。\n\n5. **辅助决策与后续面试建议**：\n   * 提供清晰的筛选建议（如：强烈推荐、通过、待定、淘汰）。\n   * 针对候选人的薄弱环节，**自动生成下一轮人工面试的追问建议**（QA Guide），帮助复试官进行精准提问。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

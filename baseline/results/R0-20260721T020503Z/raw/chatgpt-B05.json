@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 可以帮助求职者更好地展示和提升自己的求职竞争力，主要包括：\n\n1. **梳理个人技能与经验**  \n   帮助求职者把过往经历、项目经验和能力整理成更清晰的职业画像。\n\n2. **优化简历和求职材料**  \n   根据目标岗位，辅助优化简历内容、关键词和表达方式。\n\n3. **匹配适合的岗位方向**  \n   根据技能、经验和职业目标，帮助判断更适合申请哪些岗位。\n\n4. **发现能力差距**  \n   对比目标岗位要求，指出当前技能上的不足，给出提升方向。\n\n5. **提供学习和成长建议**  \n   推荐需要补强的技能、项目实践或学习路径。\n\n6. **辅助面试准备**  \n   帮助准备自我介绍、项目讲解、常见面试问题和回答思路。\n\n简单来说，Skillver 可以帮助求职者从“我会什么”转化为“我适合什么岗位、该如何展示自己、下一步该提升什么”。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uBPcBPJ7yY49MsvQ9qxTuS61sdP",
+    "object": "chat.completion",
+    "created": 1784599659,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 可以帮助求职者更好地展示和提升自己的求职竞争力，主要包括：\n\n1. **梳理个人技能与经验**  \n   帮助求职者把过往经历、项目经验和能力整理成更清晰的职业画像。\n\n2. **优化简历和求职材料**  \n   根据目标岗位，辅助优化简历内容、关键词和表达方式。\n\n3. **匹配适合的岗位方向**  \n   根据技能、经验和职业目标，帮助判断更适合申请哪些岗位。\n\n4. **发现能力差距**  \n   对比目标岗位要求，指出当前技能上的不足，给出提升方向。\n\n5. **提供学习和成长建议**  \n   推荐需要补强的技能、项目实践或学习路径。\n\n6. **辅助面试准备**  \n   帮助准备自我介绍、项目讲解、常见面试问题和回答思路。\n\n简单来说，Skillver 可以帮助求职者从“我会什么”转化为“我适合什么岗位、该如何展示自己、下一步该提升什么”。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 439,
+      "total_tokens": 484,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 193,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:46.880950Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 可以帮助求职者更好地展示和提升自己的求职竞争力，主要包括：\n\n1. **梳理个人技能与经验**  \n   帮助求职者把过往经历、项目经验和能力整理成更清晰的职业画像。\n\n2. **优化简历和求职材料**  \n   根据目标岗位，辅助优化简历内容、关键词和表达方式。\n\n3. **匹配适合的岗位方向**  \n   根据技能、经验和职业目标，帮助判断更适合申请哪些岗位。\n\n4. **发现能力差距**  \n   对比目标岗位要求，指出当前技能上的不足，给出提升方向。\n\n5. **提供学习和成长建议**  \n   推荐需要补强的技能、项目实践或学习路径。\n\n6. **辅助面试准备**  \n   帮助准备自我介绍、项目讲解、常见面试问题和回答思路。\n\n简单来说，Skillver 可以帮助求职者从“我会什么”转化为“我适合什么岗位、该如何展示自己、下一步该提升什么”。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

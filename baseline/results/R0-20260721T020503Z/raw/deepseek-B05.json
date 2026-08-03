@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 能帮助求职者：\n\n1. **智能简历优化**：分析岗位描述，提供关键词匹配建议，提升简历通过率。\n2. **技能评估与匹配**：识别用户技能水平，推荐匹配度高的职位。\n3. **面试模拟**：生成行业常见面试题，提供 AI 反馈改进回答。\n4. **职业路径规划**：根据经验与目标，推荐学习资源和晋升路线。\n5. **薪资洞察**：提供目标岗位的市场薪资范围，辅助谈判决策。",
+  "sources": [],
+  "raw": {
+    "id": "03947910-598b-4faa-b3e4-40f987cc62b2",
+    "object": "chat.completion",
+    "created": 1784599649,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 能帮助求职者：\n\n1. **智能简历优化**：分析岗位描述，提供关键词匹配建议，提升简历通过率。\n2. **技能评估与匹配**：识别用户技能水平，推荐匹配度高的职位。\n3. **面试模拟**：生成行业常见面试题，提供 AI 反馈改进回答。\n4. **职业路径规划**：根据经验与目标，推荐学习资源和晋升路线。\n5. **薪资洞察**：提供目标岗位的市场薪资范围，辅助谈判决策。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 107,
+      "total_tokens": 145,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:31.641969Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 能帮助求职者：\n\n1. **智能简历优化**：分析岗位描述，提供关键词匹配建议，提升简历通过率。\n2. **技能评估与匹配**：识别用户技能水平，推荐匹配度高的职位。\n3. **面试模拟**：生成行业常见面试题，提供 AI 反馈改进回答。\n4. **职业路径规划**：根据经验与目标，推荐学习资源和晋升路线。\n5. **薪资洞察**：提供目标岗位的市场薪资范围，辅助谈判决策。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

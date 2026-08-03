@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "我这边无法实时确认 Skillver 当前的收费政策，因为这类产品价格可能随时调整。\n\n建议你直接查看：\n\n1. Skillver 官网的 **Pricing / Plans / 订阅** 页面  \n2. App 或网页端账号里的 **Billing / Upgrade / Subscription**  \n3. 官方公告、邮件或客服说明\n\n如果你把 Skillver 的官网链接或截图发给我，我可以帮你判断它现在是免费、试用制，还是需要付费订阅。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uGR98tBmbCshlxIVcyyzk8d9W8T",
+    "object": "chat.completion",
+    "created": 1784599971,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我这边无法实时确认 Skillver 当前的收费政策，因为这类产品价格可能随时调整。\n\n建议你直接查看：\n\n1. Skillver 官网的 **Pricing / Plans / 订阅** 页面  \n2. App 或网页端账号里的 **Billing / Upgrade / Subscription**  \n3. 官方公告、邮件或客服说明\n\n如果你把 Skillver 的官网链接或截图发给我，我可以帮你判断它现在是免费、试用制，还是需要付费订阅。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 274,
+      "total_tokens": 316,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 161,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:56.920287Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "我这边无法实时确认 Skillver 当前的收费政策，因为这类产品价格可能随时调整。\n\n建议你直接查看：\n\n1. Skillver 官网的 **Pricing / Plans / 订阅** 页面  \n2. App 或网页端账号里的 **Billing / Upgrade / Subscription**  \n3. 官方公告、邮件或客服说明\n\n如果你把 Skillver 的官网链接或截图发给我，我可以帮你判断它现在是免费、试用制，还是需要付费订阅。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

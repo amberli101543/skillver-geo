@@ -1,0 +1,376 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "Skillver 的 AI 面试报告是**向企业（尤其是头部科技企业）投递简历时必需的“能力凭证”和“硬通行证”**，它核心能将空泛的自荐信转化为**经过 AI 核验的客观能力画像**[1][2]。\n\n具体功能与作用如下：\n\n**1. 作为投递的必备凭证**\n*   **硬性门槛**：在投递平台上的 49 个标准岗位前，候选人必须至少完成 1 次**正式**AI 面试并生成报告，否则无法完成投递[1][2]。\n*   **非练习替代**：彩排（练习模式）生成的报告不能用于投递，只有正式面试报告具备效力[1]。\n\n**2. 提供客观的量化数据（KAE 七维战力）**\n*   **数据呈现**：报告中包含**KAE 七维战力数据**，替代了传统简历中单纯的关键词匹配，向 HR 展示更客观的能力维度[1]。\n*   **能力画像**：报告将候选人的能力转化为可视化的画像，涵盖专业技能、沟通能力等维度，帮助 HR 快速识别优势与短板[16]。\n\n**3. 辅助 HR 进行高效筛选与决策**\n*   **筛选依据**：HR 看到的每一份申请都附带该报告，作为筛选质量的核心机制，避免仅凭简历关键词误判[1]。\n*   **风险提示**：报告通常包含**优势标注、风险提示**及关键证据，帮助用人部门判断候选人的适配度与潜在风险[10][3]。\n\n简而言之，Skillver 的 AI 面试报告不仅是**求职的“入场券”**，更是企业评估候选人**真实能力**的**标准化数据依据**。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2457?urlSource=sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://skillsllm.com/skill/interview-skills",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2477",
+      "title": ""
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/Snailclimb/interview-guide",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2442?urlSource=sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2560",
+      "title": ""
+    },
+    {
+      "url": "https://worktile.com/kb/p/3953587",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2455",
+      "title": ""
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2468",
+      "title": ""
+    },
+    {
+      "url": "https://www.interviewhunter.net/zh",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2381?urlSource=sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/mokahr/article/details/146477086",
+      "title": ""
+    },
+    {
+      "url": "https://m.baigua.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2457?urlSource=sitemap",
+      "title": "AI面试工具评测2025年9月秋招提效方案"
+    },
+    {
+      "url": "https://skillsllm.com/skill/interview-skills",
+      "title": "interview-skills - AI Agents on GitHub | SkillsLLM"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2477",
+      "title": "AI面试工具测评：2025年9月秋招效率与风控"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "title": "有了这个skill我再也没手动改过简历 - 牛客网"
+    },
+    {
+      "url": "https://github.com/Snailclimb/interview-guide",
+      "title": "Snailclimb/interview-guide: 基于Spring Boot 4.0 + Java 21 ... - GitHub"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2442?urlSource=sitemap",
+      "title": "AI面试工具测评与落地指南2025年9月秋招痛点 - 牛客企业版"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2560",
+      "title": "AI面试流程2025年9月HR痛点与落地方案"
+    },
+    {
+      "url": "https://worktile.com/kb/p/3953587",
+      "title": "2025 年必备的9 款AI 面试工具，深度评测精准避坑！ - Worktile"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2455",
+      "title": "AI面试工具评测：2025年9月秋招痛点与落地方案"
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "title": "GitHub - jennifer88huang/interview-skills: 大厂 AI 模拟面试官 Skill。AI mock interview: generate personalized interview questions from JD and resume, with follow-up practice for Big Tech interviews."
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2468",
+      "title": "AI面试工具测评：2025年9月秋招提效与合规攻略"
+    },
+    {
+      "url": "https://www.interviewhunter.net/zh",
+      "title": "您的AI Offer Hunter - Interview Hunter"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2381?urlSource=sitemap",
+      "title": "AI面试工具评测：2025年9月秋招降本提效与合规方案"
+    },
+    {
+      "url": "https://blog.csdn.net/mokahr/article/details/146477086",
+      "title": "从视频流到评估报告：AI 面试工具全流程自动化核心技术揭秘"
+    },
+    {
+      "url": "https://m.baigua.com/",
+      "title": "白瓜面试- AI面试助手,辅助笔试面试神器"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的 AI 面试报告是**向企业（尤其是头部科技企业）投递简历时必需的“能力凭证”和“硬通行证”**，它核心能将空泛的自荐信转化为**经过 AI 核验的客观能力画像**[1][2]。\n\n具体功能与作用如下：\n\n**1. 作为投递的必备凭证**\n*   **硬性门槛**：在投递平台上的 49 个标准岗位前，候选人必须至少完成 1 次**正式**AI 面试并生成报告，否则无法完成投递[1][2]。\n*   **非练习替代**：彩排（练习模式）生成的报告不能用于投递，只有正式面试报告具备效力[1]。\n\n**2. 提供客观的量化数据（KAE 七维战力）**\n*   **数据呈现**：报告中包含**KAE 七维战力数据**，替代了传统简历中单纯的关键词匹配，向 HR 展示更客观的能力维度[1]。\n*   **能力画像**：报告将候选人的能力转化为可视化的画像，涵盖专业技能、沟通能力等维度，帮助 HR 快速识别优势与短板[16]。\n\n**3. 辅助 HR 进行高效筛选与决策**\n*   **筛选依据**：HR 看到的每一份申请都附带该报告，作为筛选质量的核心机制，避免仅凭简历关键词误判[1]。\n*   **风险提示**：报告通常包含**优势标注、风险提示**及关键证据，帮助用人部门判断候选人的适配度与潜在风险[10][3]。\n\n简而言之，Skillver 的 AI 面试报告不仅是**求职的“入场券”**，更是企业评估候选人**真实能力**的**标准化数据依据**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/faq.html",
+      "https://hr.nowcoder.com/article/2457?urlSource=sitemap",
+      "https://skillsllm.com/skill/interview-skills",
+      "https://hr.nowcoder.com/article/2477",
+      "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "https://github.com/Snailclimb/interview-guide",
+      "https://hr.nowcoder.com/article/2442?urlSource=sitemap",
+      "https://hr.nowcoder.com/article/2560",
+      "https://worktile.com/kb/p/3953587",
+      "https://hr.nowcoder.com/article/2455",
+      "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "https://hr.nowcoder.com/article/2468",
+      "https://www.interviewhunter.net/zh",
+      "https://hr.nowcoder.com/article/2381?urlSource=sitemap",
+      "https://blog.csdn.net/mokahr/article/details/146477086",
+      "https://m.baigua.com/"
+    ],
+    "created": 1784600201,
+    "id": "d2312787-5bde-42cd-a2ba-ffd136981b4a",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "- 彩排报告不能替代正式 AI 面试报告，也不能用于投递；\n- 正式 AI 面试完成后生成的报告，才是向企业投递所需的能力凭证；\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个岗位前，需至少完成 1 次正式 AI 面试并生成对应报告——这是保障企业筛选质量的核心机制。\nHR 看到的每一份申请都附有客观的 KAE 七维战力数据，而不是单纯的简历关键词。彩排（练习模式）不生成正式报告，不能用于投递。\n...\n所有在招职位均经平台审核。HR 通过「招聘助手」发布岗位并主动邀约，候选人持 AI 面试报告投递。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个**岗位** 前，需至少完成 1 次**正式** AI 面试并生成对应报告——这是向头部科技企业投递的硬通行证。**岗位** 是平台 49 个标准岗名，**职位** 是企业发布的具体在招条目（含 JD、薪资等）。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": "2025-09-09",
+        "last_updated": "2026-03-19",
+        "place_metadata": null,
+        "snippet": "在秋招高并发场景中，AI面试工具的价值体现在前置筛选、批量标准化评估、与用人部门协作的可视化报告上。以下流程可作为落地样板。\n...\n面向用人部门的报告建议采用“维度雷达+关键证据+风险提示”的三段式，避免只给分不解释。报告应支持按岗位、学校、地区、批次进行聚合分析，输出通过率、维度短板与题目区分度，为下一轮题库迭代提供依据。",
+        "source": "web",
+        "title": "AI面试工具评测2025年9月秋招提效方案",
+        "url": "https://hr.nowcoder.com/article/2457?urlSource=sitemap"
+      },
+      {
+        "date": "2026-06-05",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "输出：10道题 + 每题难度 + 参考答案提示 + 追问方向\n+ JD vs 简历匹配度分析 + 备考建议\n...\nInterview Skills is an AI mock interview coach for job seekers.\nIt generates targeted mock interview questions from a real job description and a candidate resume.\nThis skill simulates company-specific interview styles across technical rounds,...",
+        "source": "web",
+        "title": "interview-skills - AI Agents on GitHub | SkillsLLM",
+        "url": "https://skillsllm.com/skill/interview-skills"
+      },
+      {
+        "date": "2025-09-10",
+        "last_updated": "2025-10-04",
+        "place_metadata": null,
+        "snippet": "**AI面试工具**需要具备：岗位级能力词典与可视化Rubric、行为证据自动提取、结构化评分+可解释理由、人机协同复核、偏差监控看板、与ATS/测评/笔试系统的数据打通。了解更多落地能力与场景演示，可访问AI 面试工具。",
+        "source": "web",
+        "title": "AI面试工具测评：2025年9月秋招效率与风控",
+        "url": "https://hr.nowcoder.com/article/2477"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-23",
+        "place_metadata": null,
+        "snippet": "友好复盘或高压追问两种模式可选，结束后出复盘报告。",
+        "source": "web",
+        "title": "有了这个skill我再也没手动改过简历 - 牛客网",
+        "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f"
+      },
+      {
+        "date": "2026-01-03",
+        "last_updated": "2026-05-31",
+        "place_metadata": null,
+        "snippet": "- **报告一键导出**：支持异步生成并导出详细的 PDF 模拟面试评估报告。",
+        "source": "web",
+        "title": "Snailclimb/interview-guide: 基于Spring Boot 4.0 + Java 21 ... - GitHub",
+        "url": "https://github.com/Snailclimb/interview-guide"
+      },
+      {
+        "date": "2025-09-09",
+        "last_updated": "2025-10-04",
+        "place_metadata": null,
+        "snippet": "**AI面试工具**，以结构化面试评分、数据可追溯、合规控制为核心，构建可复用的岗位化评估体系。观点：\n...\n采用“灰盒”解释报告：维度得分、关键证据摘要、正负向言语片段映射、Rubric对齐提示，满足复核与复议的可追溯需求。避免“黑盒建议”，以\n**结构化面试**的行为证据作为评分依据。",
+        "source": "web",
+        "title": "AI面试工具测评与落地指南2025年9月秋招痛点 - 牛客企业版",
+        "url": "https://hr.nowcoder.com/article/2442?urlSource=sitemap"
+      },
+      {
+        "date": "2025-09-11",
+        "last_updated": "2026-03-05",
+        "place_metadata": null,
+        "snippet": "主旨：生成可分享的候选人报告，包含维度分、要点证据、短视频切片、追问建议与风险提示。支持与ATS/HRIS集成并保留溯源链路（谁在何时基于何证据做出何决策）。",
+        "source": "web",
+        "title": "AI面试流程2025年9月HR痛点与落地方案",
+        "url": "https://hr.nowcoder.com/article/2560"
+      },
+      {
+        "date": "2025-12-04",
+        "last_updated": "2025-12-12",
+        "place_metadata": null,
+        "snippet": "核心功能直击刚需：AI 简历初筛（关键词匹配、技能等级评估）、标准化视频面试（支持自定义题库、10 分钟快速面试）、自动生成评估报告（重点标注优势与风险点）。支持一键发送面试链接至微信 / 邮箱，候选人无需下载 APP，通过浏览器即可完成面试。\n...\n核心功能全面覆盖：AI 简历解析、视频面试、在线考试、AI 评分、人才库管理。支持三种面试模式（实时互动、异步录制、群面评估），满足不同招聘场景需求；提供 5000 + 行业通用题库与 100 + 岗位专属题库，支持自定义添加企业特色题目；自动生成可视化评估报告，重点标注候选人适配度、优势能力与改进建议。\n...\n核心功能围绕高端人才选拔设计：...",
+        "source": "web",
+        "title": "2025 年必备的9 款AI 面试工具，深度评测精准避坑！ - Worktile",
+        "url": "https://worktile.com/kb/p/3953587"
+      },
+      {
+        "date": "2025-09-09",
+        "last_updated": "2026-03-15",
+        "place_metadata": null,
+        "snippet": "将语音转写为文本，使用混合式算法对照Rubric打分，并把每一条结论绑定“可点击的证据片段+时间轴”。关键是“以证据释分”，而非“以分代证据”。系统应导出面试摘要、胜任力雷达、亮点/风险提示与复核建议，并保留音视频与转写留痕（遵守数据最小化）。\n...\n- · 能力：提供样例Rubric、证据回引截图、同答一致性报告；语音转写WED/CER指标；异常检测与反作弊召回/准确率。",
+        "source": "web",
+        "title": "AI面试工具评测：2025年9月秋招痛点与落地方案",
+        "url": "https://hr.nowcoder.com/article/2455"
+      },
+      {
+        "date": "2026-04-05",
+        "last_updated": "2026-06-22",
+        "place_metadata": null,
+        "snippet": "生成专属面试问题，模拟更接近真实大厂风格的技术面、HR 面与薪资谈判。现已支持国内外大厂，如字节、腾讯、阿里、美团、Google、Meta、Amazon、Microsoft 等。\n...\n- **JD + 简历双锚**：题目根据你的 JD 要求和个人简历定制，不是通用题库，不是别人的面经\n...\n- **匹配度分析**：自动对比 JD 需求 vs 简历现状，输出强匹配 / 需补强 / 简历弱点\n- **10 问全套信息**：每道题附难度、考察点、参考答案方向、追问路径，让你知道面试官后面往哪走\n...\n- **好答案 vs 差答案对比**：卡在某一题时，可直接查看高分示范答法、低分踩坑示例与点...",
+        "source": "web",
+        "title": "GitHub - jennifer88huang/interview-skills: 大厂 AI 模拟面试官 Skill。AI mock interview: generate personalized interview questions from JD and resume, with follow-up practice for Big Tech interviews.",
+        "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills"
+      },
+      {
+        "date": "2025-09-09",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "生成式与判别式模型的引入，为面试信息采集、自动转写、要点抽取、胜任力维度打分、风险提示等环节提供了自动化能力。实践中，**AI面试评估** 并非替代面试官，而是通过结构化、标准化与数据化能力，帮助HR把人力投入在更高价值的环节，如候选人深度沟通、组织宣讲与offer转化。\n...\n围绕校招批量评估，工具能力可拆解为：**结构化面试** 题库与胜任力模型、自动转写与语义理解、量化打分与可解释反馈、反作弊与风控、数据安全与权限治理、与ATS/录用系统打通的流程编排。每一项能力，都需要可度量、可复核与可落地。\n...\n- · 打分与解释：维度级分数、证据片段回链、自然语言理由生成；与人工复核一致性可...",
+        "source": "web",
+        "title": "AI面试工具测评：2025年9月秋招提效与合规攻略",
+        "url": "https://hr.nowcoder.com/article/2468"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-15",
+        "place_metadata": null,
+        "snippet": "在面试过程中获得即时、情境化的回答。AI聆听对话并实时提供相关建议——对其他人完全不可见。\n...\n查看过往面试的完整记录和AI回答。跟踪您的进步，回顾关键时刻。\n...\n面试结束后，与AI讨论您的会话。分析您的回答，获取关于优势和改进方面的反馈，为下一轮做更好的准备。",
+        "source": "web",
+        "title": "您的AI Offer Hunter - Interview Hunter",
+        "url": "https://www.interviewhunter.net/zh"
+      },
+      {
+        "date": "2025-09-08",
+        "last_updated": "2025-10-27",
+        "place_metadata": null,
+        "snippet": "**AI面试工具**通过结构化流程、实时反作弊与自动评分，帮助用人部门在不增加人力前提下提升筛选速度与一致性。",
+        "source": "web",
+        "title": "AI面试工具评测：2025年9月秋招降本提效与合规方案",
+        "url": "https://hr.nowcoder.com/article/2381?urlSource=sitemap"
+      },
+      {
+        "date": "2025-03-24",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "1. **全面的评估维度**：Moka EVA 生成的评估报告涵盖候选人的专业技能、沟通能力、情绪稳定性等多个维度。以销售岗位为例，报告不仅评估候选人的销售技巧，还会分析其与客户沟通时的情绪把控能力。\n2. **可视化呈现**：将评估结果以直观的可视化方式呈现，如图表、雷达图等。企业招聘人员能快速了解候选人的优势与不足，便于做出决策。",
+        "source": "web",
+        "title": "从视频流到评估报告：AI 面试工具全流程自动化核心技术揭秘",
+        "url": "https://blog.csdn.net/mokahr/article/details/146477086"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-21",
+        "place_metadata": null,
+        "snippet": "智能解析问答脉络，提炼优势亮点与改进空间，将每次对话转化为提升路径。",
+        "source": "web",
+        "title": "白瓜面试- AI面试助手,辅助笔试面试神器",
+        "url": "https://m.baigua.com/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 470,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00047,
+        "request_cost": 0.005,
+        "total_cost": 0.00551
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 506
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:41.373345Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "Skillver 的 AI 面试报告是**向企业（尤其是头部科技企业）投递简历时必需的“能力凭证”和“硬通行证”**，它核心能将空泛的自荐信转化为**经过 AI 核验的客观能力画像**[1][2]。\n\n具体功能与作用如下：\n\n**1. 作为投递的必备凭证**\n*   **硬性门槛**：在投递平台上的 49 个标准岗位前，候选人必须至少完成 1 次**正式**AI 面试并生成报告，否则无法完成投递[1][2]。\n*   **非练习替代**：彩排（练习模式）生成的报告不能用于投递，只有正式面试报告具备效力[1]。\n\n**2. 提供客观的量化数据（KAE 七维战力）**\n*   **数据呈现**：报告中包含**KAE 七维战力数据**，替代了传统简历中单纯的关键词匹配，向 HR 展示更客观的能力维度[1]。\n*   **能力画像**：报告将候选人的能力转化为可视化的画像，涵盖专业技能、沟通能力等维度，帮助 HR 快速识别优势与短板[16]。\n\n**3. 辅助 HR 进行高效筛选与决策**\n*   **筛选依据**：HR 看到的每一份申请都附带该报告，作为筛选质量的核心机制，避免仅凭简历关键词误判[1]。\n*   **风险提示**：报告通常包含**优势标注、风险提示**及关键证据，帮助用人部门判断候选人的适配度与潜在风险[10][3]。\n\n简而言之，Skillver 的 AI 面试报告不仅是**求职的“入场券”**，更是企业评估候选人**真实能力**的**标准化数据依据**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

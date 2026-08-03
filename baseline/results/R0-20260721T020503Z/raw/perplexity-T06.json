@@ -1,0 +1,232 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "面试彩排（预演或模拟面试）**通常不会直接影响正式评估的录用结果**，因为正式评估主要依据候选人在真实面试中的表现，而非之前的彩排内容；但彩排若导致你在正式面试中**过度依赖套路、显得不自然或暴露紧张**，则可能**间接影响**面试官对你的主观评价。\n\n关键影响机制如下：\n\n- **面试顺序与对比效应**：正式评估中，面试官的评分容易受前一位候选人素质影响。若你彩排后表现虽好，但紧接着遇到更优秀的候选人，你的评分可能因“对比效应”被压低，录取概率下降约10%[5]。\n- **面试官心理能量与顺序偏差**：研究显示，当天**第一个面试者成绩通常最高**，后续随面试数量增加而递减，最后一名显著偏低[1]。彩排若让你被安排在不利顺序（如最后），可能间接受损。\n- **主观性与标准不一**：若面试官缺乏统一评估标准（如未使用结构化问题或行为锚定），彩排带来的“表演感”可能被误判为不真诚，反而降低评分[2][6]。\n- **彩排的正面作用**：若彩排帮助你熟悉流程、减少紧张、明确表达逻辑，则能提升正式表现，从而**提高评估分数**[3]。\n\n**结论**：彩排本身不直接计入评分，但通过影响你的**正式表现质量**和**被面试的顺序/对比环境**，可能间接影响结果。 optimal strategy 是：彩排用于**提升真实能力与表达流畅度**，而非 memorize 答案；同时争取**较优面试顺序**（如上午或中间时段）以规避心理偏差[1][5]。",
+  "sources": [
+    {
+      "url": "https://opinion.cw.com.tw/blog/profile/222/article/1686",
+      "title": ""
+    },
+    {
+      "url": "https://wiki.mbalib.com/zh-tw/%E9%9D%A2%E8%AF%95%E6%95%88%E5%BA%94",
+      "title": ""
+    },
+    {
+      "url": "https://www.zhihu.com/question/622555808",
+      "title": ""
+    },
+    {
+      "url": "https://om.taom.org.tw/download.php?dir=paper_content&filename=bb27458afa770a65542ebd87a1d30673.pdf&title=%E9%9D%A2%E8%A9%A6%E5%AE%98%E7%9A%84%E5%A4%B1%E8%AA%A4%E6%86%82%E6%85%AE%E5%B0%8D%E7%B5%A6%E4%BA%88%E6%87%89%E5%BE%B5%E8%80%85%E8%A1%A8%E7%8F%BE+%E8%A9%95%E5%83%B9%E4%B9%8B%E5%BD%B1%E9%9F%BF%EF%BC%9A++%E8%A6%96%E8%A8%8A%E9%9D%A2%E8%AB%87%E8%88%87%E7%8F%BE%E5%A0%B4%E9%9D%A2%E8%AB%87%E4%B9%8B%E6%AF%94%E8%BC%83",
+      "title": ""
+    },
+    {
+      "url": "https://www.ealegal.cn/nd.jsp?id=139",
+      "title": ""
+    },
+    {
+      "url": "https://cn.nytimes.com/opinion/20170412/the-utter-uselessness-of-job-interviews/",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/",
+      "title": ""
+    },
+    {
+      "url": "https://w3fs.tainan.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjU1L3JlbGZpbGUvMjY5ODkvMTY3NTQvNzY1ZWRlNDUtMzFhMi00ZTYyLTllZjktZjgwOGU5YWI2NDAwLnBkZg==&n=ZDIwMjUwNTA4MTM1NDE1Xzg0Ni5wZGY=",
+      "title": ""
+    },
+    {
+      "url": "https://www.processon.com/knowledge/mianshijiqiao",
+      "title": ""
+    },
+    {
+      "url": "https://opinion.cw.com.tw/blog/profile/222/article/1686",
+      "title": "甄選面談的入場順序會影響到錄取的機率嗎？｜陳世哲／顛覆人力資源管理｜獨立評論"
+    },
+    {
+      "url": "https://wiki.mbalib.com/zh-tw/%E9%9D%A2%E8%AF%95%E6%95%88%E5%BA%94",
+      "title": "面試效應"
+    },
+    {
+      "url": "https://www.zhihu.com/question/622555808",
+      "title": "面试第一个进去会成为炮灰吗，面试顺序是否对成绩有影响？"
+    },
+    {
+      "url": "https://om.taom.org.tw/download.php?dir=paper_content&filename=bb27458afa770a65542ebd87a1d30673.pdf&title=%E9%9D%A2%E8%A9%A6%E5%AE%98%E7%9A%84%E5%A4%B1%E8%AA%A4%E6%86%82%E6%85%AE%E5%B0%8D%E7%B5%A6%E4%BA%88%E6%87%89%E5%BE%B5%E8%80%85%E8%A1%A8%E7%8F%BE+%E8%A9%95%E5%83%B9%E4%B9%8B%E5%BD%B1%E9%9F%BF%EF%BC%9A++%E8%A6%96%E8%A8%8A%E9%9D%A2%E8%AB%87%E8%88%87%E7%8F%BE%E5%A0%B4%E9%9D%A2%E8%AB%87%E4%B9%8B%E6%AF%94%E8%BC%83",
+      "title": "面試官的失誤憂慮對給予應徵者表現評價之影響"
+    },
+    {
+      "url": "https://www.ealegal.cn/nd.jsp?id=139",
+      "title": "实证研究| 录用概率取决于面试顺序？ - 我的网站 - 法律和经济科学"
+    },
+    {
+      "url": "https://cn.nytimes.com/opinion/20170412/the-utter-uselessness-of-job-interviews/",
+      "title": "工作面试骗了我们 - 纽约时报"
+    },
+    {
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/",
+      "title": "How do you personally assess a candidate when conducting a technical screen?"
+    },
+    {
+      "url": "https://w3fs.tainan.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjU1L3JlbGZpbGUvMjY5ODkvMTY3NTQvNzY1ZWRlNDUtMzFhMi00ZTYyLTllZjktZjgwOGU5YWI2NDAwLnBkZg==&n=ZDIwMjUwNTA4MTM1NDE1Xzg0Ni5wZGY=",
+      "title": "3/4的面試"
+    },
+    {
+      "url": "https://www.processon.com/knowledge/mianshijiqiao",
+      "title": "面试技巧提升打造金牌面试官"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "面试彩排（预演或模拟面试）**通常不会直接影响正式评估的录用结果**，因为正式评估主要依据候选人在真实面试中的表现，而非之前的彩排内容；但彩排若导致你在正式面试中**过度依赖套路、显得不自然或暴露紧张**，则可能**间接影响**面试官对你的主观评价。\n\n关键影响机制如下：\n\n- **面试顺序与对比效应**：正式评估中，面试官的评分容易受前一位候选人素质影响。若你彩排后表现虽好，但紧接着遇到更优秀的候选人，你的评分可能因“对比效应”被压低，录取概率下降约10%[5]。\n- **面试官心理能量与顺序偏差**：研究显示，当天**第一个面试者成绩通常最高**，后续随面试数量增加而递减，最后一名显著偏低[1]。彩排若让你被安排在不利顺序（如最后），可能间接受损。\n- **主观性与标准不一**：若面试官缺乏统一评估标准（如未使用结构化问题或行为锚定），彩排带来的“表演感”可能被误判为不真诚，反而降低评分[2][6]。\n- **彩排的正面作用**：若彩排帮助你熟悉流程、减少紧张、明确表达逻辑，则能提升正式表现，从而**提高评估分数**[3]。\n\n**结论**：彩排本身不直接计入评分，但通过影响你的**正式表现质量**和**被面试的顺序/对比环境**，可能间接影响结果。 optimal strategy 是：彩排用于**提升真实能力与表达流畅度**，而非 memorize 答案；同时争取**较优面试顺序**（如上午或中间时段）以规避心理偏差[1][5]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://opinion.cw.com.tw/blog/profile/222/article/1686",
+      "https://wiki.mbalib.com/zh-tw/%E9%9D%A2%E8%AF%95%E6%95%88%E5%BA%94",
+      "https://www.zhihu.com/question/622555808",
+      "https://om.taom.org.tw/download.php?dir=paper_content&filename=bb27458afa770a65542ebd87a1d30673.pdf&title=%E9%9D%A2%E8%A9%A6%E5%AE%98%E7%9A%84%E5%A4%B1%E8%AA%A4%E6%86%82%E6%85%AE%E5%B0%8D%E7%B5%A6%E4%BA%88%E6%87%89%E5%BE%B5%E8%80%85%E8%A1%A8%E7%8F%BE+%E8%A9%95%E5%83%B9%E4%B9%8B%E5%BD%B1%E9%9F%BF%EF%BC%9A++%E8%A6%96%E8%A8%8A%E9%9D%A2%E8%AB%87%E8%88%87%E7%8F%BE%E5%A0%B4%E9%9D%A2%E8%AB%87%E4%B9%8B%E6%AF%94%E8%BC%83",
+      "https://www.ealegal.cn/nd.jsp?id=139",
+      "https://cn.nytimes.com/opinion/20170412/the-utter-uselessness-of-job-interviews/",
+      "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/",
+      "https://w3fs.tainan.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjU1L3JlbGZpbGUvMjY5ODkvMTY3NTQvNzY1ZWRlNDUtMzFhMi00ZTYyLTllZjktZjgwOGU5YWI2NDAwLnBkZg==&n=ZDIwMjUwNTA4MTM1NDE1Xzg0Ni5wZGY=",
+      "https://www.processon.com/knowledge/mianshijiqiao"
+    ],
+    "created": 1784600236,
+    "id": "c20c9cba-5b25-4581-9a35-02661308ca09",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2014-08-01",
+        "last_updated": "2025-07-18",
+        "place_metadata": null,
+        "snippet": "一個很有趣的發現是，在一天的面談中，第一個被面談者的成績通常是最高的，第二個之後的被面談者，成績便隨之遞減。這個研究顯示，當天最後一個被面談者的成績顯著的低於之前的被面談者。\n...\n應徵者會因為何時被面談而影響到錄取與否，同樣地，犯人如果想要被假釋，何時開庭也會影響到犯人被假釋的機率。\n...\n公司企業應該要知道人的心理能量是有限的，長時間的決策對於決策品質是有不利的影響，一連串的面試可能會讓公司錯失優秀人才，因為優秀人才不一定都會被排在早上面試。公司或許會為了評分的一致性，同一個面試官要連續面談多位應徵者，如何讓面試官隨時保有充足能量，也是公司要考量的課題，才能真正錄取到優秀的人才。",
+        "source": "web",
+        "title": "甄選面談的入場順序會影響到錄取的機率嗎？｜陳世哲／顛覆人力資源管理｜獨立評論",
+        "url": "https://opinion.cw.com.tw/blog/profile/222/article/1686"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-06-30",
+        "place_metadata": null,
+        "snippet": "考官在對多名應聘者一次進行評定時，往往會受面試順序的影響而不能客觀評定考生的情況。例如，一個考官在面試了三個很不理想的考生之後，第四位即使很一般，考官也會對他產生比前三位好得多的印象。反之，如果一位考官連續面試了三五很理想的應聘者，即是第四位水平一般，考官也會認為他的水平差。\n...\n如某人一貫表現平平，突然做了一件好事或工作上有好的表現，領導就會對他刮目相看。反方向效應表現為領導者發現某人近期的缺點或工作中的失誤。改變以往對他的好印象，這種情況若出現在面試中，表現為考官忽視評定的特定場景，導致測評誤差。",
+        "source": "web",
+        "title": "面試效應",
+        "url": "https://wiki.mbalib.com/zh-tw/%E9%9D%A2%E8%AF%95%E6%95%88%E5%BA%94"
+      },
+      {
+        "date": null,
+        "last_updated": "2023-11-30",
+        "place_metadata": null,
+        "snippet": "说实话，有影响，但也是优势。\n说有影响，是因为面试官对先入场的几位应聘者，评判标准大都偏于保守。\n...\n这个结论是：从大体来看，最先进场的人，最后得分第一的不太多，但成绩大多在中等偏上。\n因为面试的评分是相对的、带主观性的，在既定范围内选，而不是在全人类中选。\n最初阶段没有参考标准，稍偏保守是正常现象，但评分一定不会太低。\n...\n如果每个面试官心里都有一把标准尺子，能用科学严谨专业的态度，衡量每一个面试者的条件和能力，那自然是一视同仁，面试顺序豪不影响成绩。\n...\n所以，在强者面前，面试顺序根本算不了啥，你若要避免成为炮灰，就让自己变得优秀吧。",
+        "source": "web",
+        "title": "面试第一个进去会成为炮灰吗，面试顺序是否对成绩有影响？",
+        "url": "https://www.zhihu.com/question/622555808"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-09",
+        "place_metadata": null,
+        "snippet": "構性可以降低面試前印象對面試官評量的影響；陳建丞（2007）也證實面談結\n...\n表4的模式2分析結果顯示，面試官失才憂慮對其給予應徵者表現評價具有\n顯著正向影響（β = .34，p < .001），意即面試官的失才憂慮傾向愈高則給予應\n...\n故本研究假說2也獲得實證資料支持。模式6的交互作用分析結果顯示，面試官\n失才憂慮與面談媒介對應徵者表現評價具有顯著的交互作用影響（β = .18，p\n< .05）。交互作用的示意圖如圖1所示。觀察圖1可以發現，現場面談情況下，\n面試官失才憂慮傾向對給予應徵者表現評價的正向影響程度高於視訊面談情",
+        "source": "web",
+        "title": "面試官的失誤憂慮對給予應徵者表現評價之影響",
+        "url": "https://om.taom.org.tw/download.php?dir=paper_content&filename=bb27458afa770a65542ebd87a1d30673.pdf&title=%E9%9D%A2%E8%A9%A6%E5%AE%98%E7%9A%84%E5%A4%B1%E8%AA%A4%E6%86%82%E6%85%AE%E5%B0%8D%E7%B5%A6%E4%BA%88%E6%87%89%E5%BE%B5%E8%80%85%E8%A1%A8%E7%8F%BE+%E8%A9%95%E5%83%B9%E4%B9%8B%E5%BD%B1%E9%9F%BF%EF%BC%9A++%E8%A6%96%E8%A8%8A%E9%9D%A2%E8%AB%87%E8%88%87%E7%8F%BE%E5%A0%B4%E9%9D%A2%E8%AB%87%E4%B9%8B%E6%AF%94%E8%BC%83"
+      },
+      {
+        "date": "2025-03-13",
+        "last_updated": "2026-05-25",
+        "place_metadata": null,
+        "snippet": "通过严谨的计量经济学分析，研究实证揭示了面试评估中存在显著的序列依赖效应，即对当前候选人的评估会受到同序列中其他候选人、特别是前一位候选人素质的直接影响。\n...\n研究发现，前一位候选人的素质对评估结果具有显著负面影响，且这种影响随评估者经验及后续候选人相似性的变化而波动。进一步，我们探讨了基于联想回忆的对比效应模型对实证发现的解释力，并评估了其他潜在机制。最后，我们提出了减轻对比效应对招聘与录取决策影响的政策建议。\n...\n结果显示，与更优秀候选人一同面试的个体评价会降低，且其他候选人的影响取决于其在面试顺序中的位置。紧邻前一位候选人的影响力是其他候选人的三倍。前一位候选人素质指标提高一个标...",
+        "source": "web",
+        "title": "实证研究| 录用概率取决于面试顺序？ - 我的网站 - 法律和经济科学",
+        "url": "https://www.ealegal.cn/nd.jsp?id=139"
+      },
+      {
+        "date": "2017-04-12",
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "这是一个普遍存在的问题。雇主们喜欢通过随意的、闲聊式的面试来“了解”应聘者。这种面试也越来越受到一些大学招生负责人的欢迎，他们想要告别考试分数和其他标准化的学生素质衡量指标。然而，就像我朋友的例子一样，面试者往往会对应试者形成强烈但并不合理的印象，其中更多揭示的是他们自身，而非求职者的情况。广告\n...\n换句话说，面试官们的看法没有给录取程序增添任何有意义的内容。我和同事展开的研究显示，这些面试的问题还不止于无关紧要：它们有可能损害和削弱有关应试者的其他更有价值的信息的影响。\n...\n那我们该怎么做？一种选择是对面试进行安排，让所有的应试者接到同样的问题，这是一种被证明可以让面试更可靠、也略微...",
+        "source": "web",
+        "title": "工作面试骗了我们 - 纽约时报",
+        "url": "https://cn.nytimes.com/opinion/20170412/the-utter-uselessness-of-job-interviews/"
+      },
+      {
+        "date": null,
+        "last_updated": "2024-08-11",
+        "place_metadata": null,
+        "snippet": "ask about past projects.\nYou can get some idea of seniority based on the scope of the projects and how they talk about them.\nI usually ask them to pick a component they know well and ask a deep-dive questions to get an idea of how hands-on they are.\nask about what they're interested in and what they...",
+        "source": "web",
+        "title": "How do you personally assess a candidate when conducting a technical screen?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-12-09",
+        "place_metadata": null,
+        "snippet": "• 面試與成功錄取之間，絕對有關，但並非絕對\n5",
+        "source": "web",
+        "title": "3/4的面試",
+        "url": "https://w3fs.tainan.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvMjU1L3JlbGZpbGUvMjY5ODkvMTY3NTQvNzY1ZWRlNDUtMzFhMi00ZTYyLTllZjktZjgwOGU5YWI2NDAwLnBkZg==&n=ZDIwMjUwNTA4MTM1NDE1Xzg0Ni5wZGY="
+      },
+      {
+        "date": "2024-09-02",
+        "last_updated": "2026-07-14",
+        "place_metadata": null,
+        "snippet": "**评价标准：** 客观评价应聘者优劣势，尽可能及时记录应聘者的反应，将应聘者的反应与工作所需要的行为联系起来，重点关注每个场景下应聘者确切的行为，评论基于观察而客观得到的，不能凭主观印象或其他偏见来给应聘者随意贴标签。",
+        "source": "web",
+        "title": "面试技巧提升打造金牌面试官",
+        "url": "https://www.processon.com/knowledge/mianshijiqiao"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 487,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00049,
+        "request_cost": 0.005,
+        "total_cost": 0.00552
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 523
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:17:16.595202Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "面试彩排（预演或模拟面试）**通常不会直接影响正式评估的录用结果**，因为正式评估主要依据候选人在真实面试中的表现，而非之前的彩排内容；但彩排若导致你在正式面试中**过度依赖套路、显得不自然或暴露紧张**，则可能**间接影响**面试官对你的主观评价。\n\n关键影响机制如下：\n\n- **面试顺序与对比效应**：正式评估中，面试官的评分容易受前一位候选人素质影响。若你彩排后表现虽好，但紧接着遇到更优秀的候选人，你的评分可能因“对比效应”被压低，录取概率下降约10%[5]。\n- **面试官心理能量与顺序偏差**：研究显示，当天**第一个面试者成绩通常最高**，后续随面试数量增加而递减，最后一名显著偏低[1]。彩排若让你被安排在不利顺序（如最后），可能间接受损。\n- **主观性与标准不一**：若面试官缺乏统一评估标准（如未使用结构化问题或行为锚定），彩排带来的“表演感”可能被误判为不真诚，反而降低评分[2][6]。\n- **彩排的正面作用**：若彩排帮助你熟悉流程、减少紧张、明确表达逻辑，则能提升正式表现，从而**提高评估分数**[3]。\n\n**结论**：彩排本身不直接计入评分，但通过影响你的**正式表现质量**和**被面试的顺序/对比环境**，可能间接影响结果。 optimal strategy 是：彩排用于**提升真实能力与表达流畅度**，而非 memorize 答案；同时争取**较优面试顺序**（如上午或中间时段）以规避心理偏差[1][5]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

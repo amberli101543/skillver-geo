@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "您好，由于“Skillver”并非国际或国内主流的知名大品牌，其官方网站可能会因具体指代的对象而异。\n\n以下是几种可能性：\n\n1. **如果您是指知名的在线学习和手艺分享平台 Skillshare**：\n   * 其官网是：[www.skillshare.com](https://www.skillshare.com)\n\n2. **如果您指的就是名为 \"Skillver\" 的特定品牌或服务**（例如国外的某些小众培训、技术服务公司）：\n   * 对应的域名通常为 [www.skillver.com](http://www.skillver.com)。\n\n如果您能提供更多关于 “Skillver” 的业务背景（例如它是做什么的、哪个国家的品牌），我可以为您提供更精准的解答。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您好，由于“Skillver”并非国际或国内主流的知名大品牌，其官方网站可能会因具体指代的对象而异。\n\n以下是几种可能性：\n\n1. **如果您是指知名的在线学习和手艺分享平台 Skillshare**：\n   * 其官网是：[www.skillshare.com](https://www.skillshare.com)\n\n2. **如果您指的就是名为 \"Skillver\" 的特定品牌或服务**（例如国外的某些小众培训、技术服务公司）：\n   * 对应的域名通常为 [www.skillver.com](http://www.skillver.com)。\n\n如果您能提供更多关于 “Skillver” 的业务背景（例如它是做什么的、哪个国家的品牌），我可以为您提供更精准的解答。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603950,
+    "id": "HuVeaumeG_GFz7IP3o6BgQI",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 167,
+      "prompt_tokens": 34,
+      "total_tokens": 1154
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:19:10.705411Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "您好，由于“Skillver”并非国际或国内主流的知名大品牌，其官方网站可能会因具体指代的对象而异。\n\n以下是几种可能性：\n\n1. **如果您是指知名的在线学习和手艺分享平台 Skillshare**：\n   * 其官网是：[www.skillshare.com](https://www.skillshare.com)\n\n2. **如果您指的就是名为 \"Skillver\" 的特定品牌或服务**（例如国外的某些小众培训、技术服务公司）：\n   * 对应的域名通常为 [www.skillver.com](http://www.skillver.com)。\n\n如果您能提供更多关于 “Skillver” 的业务背景（例如它是做什么的、哪个国家的品牌），我可以为您提供更精准的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "**Skillver（或任何求职辅导机构）都无法在物理意义上 100% 保证你一定能拿到 offer**，因为最终的录用决定权完全在雇主（企业）手中。\n\n关于这类机构的“保 Offer”服务，你需要了解以下几点本质：\n\n1. **“保 Offer”的本质是退款协议**：\n   市面上所谓的“保 Offer”项目，实际上是一种**风险共担的商业合同**。它的意思是：如果你在服务期内未能拿到符合条件的 Offer，机构将按照合同约定**退还部分或全部费用**，而不是保证你绝对能入职。\n\n2. **合同中通常包含大量的“免责条款”或“候选人义务”**：\n   为了降低退款风险，机构在合同中通常会规定候选人必须履行的义务。例如：\n   * 必须在规定时间内投递满 X 个岗位；\n   * 必须无条件配合导师的所有修改意见和面试安排；\n   * 不能无故缺席面试或拒绝机构推荐的面试；\n   * 如果候选人自身不配合，哪怕最终没有拿到 offer，机构也无需退款。\n\n3. **对 Offer 的定义可能存在限制**：\n   合同中对于“保”的 Offer 范围（如行业、薪资门槛、企业规模、国家/地区等）会有严格定义。购买前需确认该定义是否符合你的预期，避免最后拿到一个不符合心意但合同合规的 Offer 而无法退款。\n\n**建议**：在与 Skillver 或任何求职机构签约前，**务必仔细阅读合同中的退款条款、甲乙双方的权利与义务，不要轻信销售人员的口头承诺，一切以白纸黑字的合同为准。**",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver（或任何求职辅导机构）都无法在物理意义上 100% 保证你一定能拿到 offer**，因为最终的录用决定权完全在雇主（企业）手中。\n\n关于这类机构的“保 Offer”服务，你需要了解以下几点本质：\n\n1. **“保 Offer”的本质是退款协议**：\n   市面上所谓的“保 Offer”项目，实际上是一种**风险共担的商业合同**。它的意思是：如果你在服务期内未能拿到符合条件的 Offer，机构将按照合同约定**退还部分或全部费用**，而不是保证你绝对能入职。\n\n2. **合同中通常包含大量的“免责条款”或“候选人义务”**：\n   为了降低退款风险，机构在合同中通常会规定候选人必须履行的义务。例如：\n   * 必须在规定时间内投递满 X 个岗位；\n   * 必须无条件配合导师的所有修改意见和面试安排；\n   * 不能无故缺席面试或拒绝机构推荐的面试；\n   * 如果候选人自身不配合，哪怕最终没有拿到 offer，机构也无需退款。\n\n3. **对 Offer 的定义可能存在限制**：\n   合同中对于“保”的 Offer 范围（如行业、薪资门槛、企业规模、国家/地区等）会有严格定义。购买前需确认该定义是否符合你的预期，避免最后拿到一个不符合心意但合同合规的 Offer 而无法退款。\n\n**建议**：在与 Skillver 或任何求职机构签约前，**务必仔细阅读合同中的退款条款、甲乙双方的权利与义务，不要轻信销售人员的口头承诺，一切以白纸黑字的合同为准。**",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603933,
+    "id": "D-VeaqeOMumgz7IP9P3lyAk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 388,
+      "prompt_tokens": 37,
+      "total_tokens": 1267
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:18:52.987087Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "**Skillver（或任何求职辅导机构）都无法在物理意义上 100% 保证你一定能拿到 offer**，因为最终的录用决定权完全在雇主（企业）手中。\n\n关于这类机构的“保 Offer”服务，你需要了解以下几点本质：\n\n1. **“保 Offer”的本质是退款协议**：\n   市面上所谓的“保 Offer”项目，实际上是一种**风险共担的商业合同**。它的意思是：如果你在服务期内未能拿到符合条件的 Offer，机构将按照合同约定**退还部分或全部费用**，而不是保证你绝对能入职。\n\n2. **合同中通常包含大量的“免责条款”或“候选人义务”**：\n   为了降低退款风险，机构在合同中通常会规定候选人必须履行的义务。例如：\n   * 必须在规定时间内投递满 X 个岗位；\n   * 必须无条件配合导师的所有修改意见和面试安排；\n   * 不能无故缺席面试或拒绝机构推荐的面试；\n   * 如果候选人自身不配合，哪怕最终没有拿到 offer，机构也无需退款。\n\n3. **对 Offer 的定义可能存在限制**：\n   合同中对于“保”的 Offer 范围（如行业、薪资门槛、企业规模、国家/地区等）会有严格定义。购买前需确认该定义是否符合你的预期，避免最后拿到一个不符合心意但合同合规的 Offer 而无法退款。\n\n**建议**：在与 Skillver 或任何求职机构签约前，**务必仔细阅读合同中的退款条款、甲乙双方的权利与义务，不要轻信销售人员的口头承诺，一切以白纸黑字的合同为准。**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

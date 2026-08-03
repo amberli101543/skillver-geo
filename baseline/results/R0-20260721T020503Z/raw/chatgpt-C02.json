@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "常见的 **AI 模拟面试工具** 可以按用途分几类：\n\n### 1. 综合类模拟面试\n- **Google Interview Warmup**：适合英文面试练习，会分析回答中的关键词和表达。\n- **Big Interview**：视频模拟面试，提供回答反馈，偏求职训练。\n- **Huru**：根据岗位生成面试问题，可进行语音/视频练习。\n- **Final Round AI**：提供模拟面试、实时面试辅助、题库等功能。\n- **Yoodli**：偏口语表达和演讲反馈，也可用于面试练习。\n\n### 2. 编程 / 技术面试类\n- **LeetCode**：算法题和面试题训练，适合技术岗。\n- **HackerRank**：编程测评和技术面试练习。\n- **CodeSignal**：技术评估和编程面试训练。\n- **Interviewing.io**：偏真实技术模拟面试，部分场景有AI辅助。\n\n### 3. 中文求职 / 国内平台\n- **牛客网**：有大量面经、题库和部分AI面试/模拟面试功能，适合互联网、校招。\n- **智联招聘、BOSS直聘、前程无忧等招聘平台**：部分岗位或服务会提供AI面试/测评。\n- **一些简历优化/求职辅导工具**：如部分AI简历工具也提供“模拟面试”“岗位问答训练”。\n\n### 4. 英语面试练习\n- **Yoodli**\n- **Google Interview Warmup**\n- **Elsa Speak**：更偏英语发音和口语，但可辅助英文面试。\n- **Speak / Cambly 等口语平台**：不一定是AI面试，但适合练英文表达。\n\n### 选择建议\n如果你是：\n\n- **互联网/技术岗**：优先看 LeetCode、牛客、HackerRank、CodeSignal。\n- **英文面试**：Google Interview Warmup、Yoodli、Huru 比较合适。\n- **通用求职面试**：Big Interview、Final Round AI、Huru 可尝试。\n- **国内校招/互联网岗**：牛客网比较实用。\n\n使用这类工具时注意：不要上传过多隐私信息，如身份证号、完整手机号、公司内部项目细节等。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uNLz9kuxHaJNxLXlxAYkurA4MTv",
+    "object": "chat.completion",
+    "created": 1784600399,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "常见的 **AI 模拟面试工具** 可以按用途分几类：\n\n### 1. 综合类模拟面试\n- **Google Interview Warmup**：适合英文面试练习，会分析回答中的关键词和表达。\n- **Big Interview**：视频模拟面试，提供回答反馈，偏求职训练。\n- **Huru**：根据岗位生成面试问题，可进行语音/视频练习。\n- **Final Round AI**：提供模拟面试、实时面试辅助、题库等功能。\n- **Yoodli**：偏口语表达和演讲反馈，也可用于面试练习。\n\n### 2. 编程 / 技术面试类\n- **LeetCode**：算法题和面试题训练，适合技术岗。\n- **HackerRank**：编程测评和技术面试练习。\n- **CodeSignal**：技术评估和编程面试训练。\n- **Interviewing.io**：偏真实技术模拟面试，部分场景有AI辅助。\n\n### 3. 中文求职 / 国内平台\n- **牛客网**：有大量面经、题库和部分AI面试/模拟面试功能，适合互联网、校招。\n- **智联招聘、BOSS直聘、前程无忧等招聘平台**：部分岗位或服务会提供AI面试/测评。\n- **一些简历优化/求职辅导工具**：如部分AI简历工具也提供“模拟面试”“岗位问答训练”。\n\n### 4. 英语面试练习\n- **Yoodli**\n- **Google Interview Warmup**\n- **Elsa Speak**：更偏英语发音和口语，但可辅助英文面试。\n- **Speak / Cambly 等口语平台**：不一定是AI面试，但适合练英文表达。\n\n### 选择建议\n如果你是：\n\n- **互联网/技术岗**：优先看 LeetCode、牛客、HackerRank、CodeSignal。\n- **英文面试**：Google Interview Warmup、Yoodli、Huru 比较合适。\n- **通用求职面试**：Big Interview、Final Round AI、Huru 可尝试。\n- **国内校招/互联网岗**：牛客网比较实用。\n\n使用这类工具时注意：不要上传过多隐私信息，如身份证号、完整手机号、公司内部项目细节等。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 928,
+      "total_tokens": 971,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 390,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:20:19.045081Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "常见的 **AI 模拟面试工具** 可以按用途分几类：\n\n### 1. 综合类模拟面试\n- **Google Interview Warmup**：适合英文面试练习，会分析回答中的关键词和表达。\n- **Big Interview**：视频模拟面试，提供回答反馈，偏求职训练。\n- **Huru**：根据岗位生成面试问题，可进行语音/视频练习。\n- **Final Round AI**：提供模拟面试、实时面试辅助、题库等功能。\n- **Yoodli**：偏口语表达和演讲反馈，也可用于面试练习。\n\n### 2. 编程 / 技术面试类\n- **LeetCode**：算法题和面试题训练，适合技术岗。\n- **HackerRank**：编程测评和技术面试练习。\n- **CodeSignal**：技术评估和编程面试训练。\n- **Interviewing.io**：偏真实技术模拟面试，部分场景有AI辅助。\n\n### 3. 中文求职 / 国内平台\n- **牛客网**：有大量面经、题库和部分AI面试/模拟面试功能，适合互联网、校招。\n- **智联招聘、BOSS直聘、前程无忧等招聘平台**：部分岗位或服务会提供AI面试/测评。\n- **一些简历优化/求职辅导工具**：如部分AI简历工具也提供“模拟面试”“岗位问答训练”。\n\n### 4. 英语面试练习\n- **Yoodli**\n- **Google Interview Warmup**\n- **Elsa Speak**：更偏英语发音和口语，但可辅助英文面试。\n- **Speak / Cambly 等口语平台**：不一定是AI面试，但适合练英文表达。\n\n### 选择建议\n如果你是：\n\n- **互联网/技术岗**：优先看 LeetCode、牛客、HackerRank、CodeSignal。\n- **英文面试**：Google Interview Warmup、Yoodli、Huru 比较合适。\n- **通用求职面试**：Big Interview、Final Round AI、Huru 可尝试。\n- **国内校招/互联网岗**：牛客网比较实用。\n\n使用这类工具时注意：不要上传过多隐私信息，如身份证号、完整手机号、公司内部项目细节等。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

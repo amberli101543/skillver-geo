@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "## Skillver 的导师赋能\n\nSkillver 是一个职涯发展平台，其**导师赋能（Mentor Empowerment）** 功能主要包括以下几个方面：\n\n1. **匹配系统** – 将求职者/学员与具有相关行业经验的导师进行智能匹配，帮助双方建立有效的指导关系。\n\n2. **职涯辅导工具** – 提供结构化的辅导框架，让导师能够更有效地协助学员规划职业发展路径。\n\n3. **履历与面试准备** – 导师可协助学员优化简历、进行模拟面试，提升求职竞争力。\n\n4. **知识与经验传承** – 让有经验的专业人士将实战经验分享给新人，缩短学习曲线。\n\n---\n\n> ⚠️ **注意**：如果您需要 Skillver 平台上**最新、最准确**的导师赋能功能详情，建议直接访问 [Skillver 官方网站](https://www.skillver.io) 或联系其客服团队，以获取第一手资讯。\n\n请问您对 Skillver 的哪个功能最感兴趣？我可以进一步协助您！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQ9HEC7u26xNQ9RXMqu",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## Skillver 的导师赋能\n\nSkillver 是一个职涯发展平台，其**导师赋能（Mentor Empowerment）** 功能主要包括以下几个方面：\n\n1. **匹配系统** – 将求职者/学员与具有相关行业经验的导师进行智能匹配，帮助双方建立有效的指导关系。\n\n2. **职涯辅导工具** – 提供结构化的辅导框架，让导师能够更有效地协助学员规划职业发展路径。\n\n3. **履历与面试准备** – 导师可协助学员优化简历、进行模拟面试，提升求职竞争力。\n\n4. **知识与经验传承** – 让有经验的专业人士将实战经验分享给新人，缩短学习曲线。\n\n---\n\n> ⚠️ **注意**：如果您需要 Skillver 平台上**最新、最准确**的导师赋能功能详情，建议直接访问 [Skillver 官方网站](https://www.skillver.io) 或联系其客服团队，以获取第一手资讯。\n\n请问您对 Skillver 的哪个功能最感兴趣？我可以进一步协助您！"
+        }
+      }
+    ],
+    "created": 1784600270,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 375,
+      "prompt_tokens": 51,
+      "total_tokens": 426
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:17:49.979811Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "## Skillver 的导师赋能\n\nSkillver 是一个职涯发展平台，其**导师赋能（Mentor Empowerment）** 功能主要包括以下几个方面：\n\n1. **匹配系统** – 将求职者/学员与具有相关行业经验的导师进行智能匹配，帮助双方建立有效的指导关系。\n\n2. **职涯辅导工具** – 提供结构化的辅导框架，让导师能够更有效地协助学员规划职业发展路径。\n\n3. **履历与面试准备** – 导师可协助学员优化简历、进行模拟面试，提升求职竞争力。\n\n4. **知识与经验传承** – 让有经验的专业人士将实战经验分享给新人，缩短学习曲线。\n\n---\n\n> ⚠️ **注意**：如果您需要 Skillver 平台上**最新、最准确**的导师赋能功能详情，建议直接访问 [Skillver 官方网站](https://www.skillver.io) 或联系其客服团队，以获取第一手资讯。\n\n请问您对 Skillver 的哪个功能最感兴趣？我可以进一步协助您！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

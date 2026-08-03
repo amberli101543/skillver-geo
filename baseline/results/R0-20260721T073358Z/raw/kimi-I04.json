@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于赛事参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "Skillver 的邀请码通常可通过以下几种方式获得：\n\n1. **官方渠道申请**：访问 Skillver 官网或 App，查看是否有“申请内测/加入 Waitlist”入口，直接填写资料申请。\n2. **老用户邀请**：如果平台已开放注册，已注册用户通常会有邀请名额，可以请朋友发送邀请链接或邀请码。\n3. **官方社群/活动**：关注 Skillver 的官方微信公众号、LinkedIn、Twitter 或相关社群，官方有时会通过活动限量发放。\n4. **企业/校园合作**：部分技能验证或招聘类平台会通过合作企业、学校或猎头渠道分发邀请资格。\n\n**建议**：由于各阶段开放策略不同，最准确的方式是直接联系 Skillver 官方客服或在其官网查询当前注册政策。同时注意甄别来源，避免在第三方平台购买来路不明的“邀请码”，以防诈骗。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f2247c827bc3cfb6f348d",
+    "object": "chat.completion",
+    "created": 1784619591,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的邀请码通常可通过以下几种方式获得：\n\n1. **官方渠道申请**：访问 Skillver 官网或 App，查看是否有“申请内测/加入 Waitlist”入口，直接填写资料申请。\n2. **老用户邀请**：如果平台已开放注册，已注册用户通常会有邀请名额，可以请朋友发送邀请链接或邀请码。\n3. **官方社群/活动**：关注 Skillver 的官方微信公众号、LinkedIn、Twitter 或相关社群，官方有时会通过活动限量发放。\n4. **企业/校园合作**：部分技能验证或招聘类平台会通过合作企业、学校或猎头渠道分发邀请资格。\n\n**建议**：由于各阶段开放策略不同，最准确的方式是直接联系 Skillver 官方客服或在其官网查询当前注册政策。同时注意甄别来源，避免在第三方平台购买来路不明的“邀请码”，以防诈骗。",
+          "reasoning_content": "用户问的是 \"Skillver 邀请码怎么获得？\"。这是一个关于特定产品/服务（Skillver）的问题。我需要基于已有知识提供信息。\n\n首先，我需要确认 Skillver 是什么。根据我的知识，Skillver 似乎是一个与技能验证、招聘或职业发展相关的平台，但我不确定它是否是一个非常知名的大众平台，或者是否有特定的邀请机制。\n\n考虑到我的知识截止日期，如果 Skillver 是一个较新的或小众的平台，我可能没有具体的信息。但是，一般来说，邀请码的获取方式通常包括：\n1. 官方网站/APP注册页面申请\n2. 现有用户邀请（邀请好友获得邀请码）\n3. 官方社交媒体活动发放\n4. 合作伙伴或企业渠道\n5. 等待列表（waitlist）申请\n\n由于我不确定 Skillver 的具体细节，我应该：\n- 说明一般获取邀请码的常见途径\n- 建议直接通过官方渠道获取最准确的信息\n- 避免编造具体的邀请码或虚假的获取方式\n\n让我再想想，Skillver 是不是指某个特定的产品？可能是 Skillver 这个求职技能验证平台？如果是的话，我需要谨慎，因为具体机制可能在我知识范围之外或之后更新。\n\n最安全的做法是：\n1. 承认对于 Skillver 具体的邀请码机制，建议查看官方渠道\n2. 提供一般性的邀请码获取建议（官网、社交媒体、老用户邀请等）\n3. 保持简洁 factual\n\n用中文回答，因为问题是中文。\n\n结构：\n- 直接回答：通常可以通过哪些渠道\n- 具体建议：官方渠道最可靠\n- 提醒：警惕诈骗\n\n具体内容：\n1. 官方渠道：访问 Skillver 官网或 APP，查看是否有\"申请邀请码\"或\"加入等待列表\"入口。\n2. 用户邀请：询问已注册的朋友是否有邀请名额。\n3. 社交媒体：关注 Skillver 官方微信、微博、LinkedIn 等，参与官方活动可能发放。\n4. 企业/校园合作：如果是 B 端产品，可能通过公司或学校内推获得。\n\n注意：我不确定 Skillver 是否确实存在邀请码机制，所以应该用\"如果该平台采用邀请制\"或一般性建议。\n\n最终回答要简洁。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 638,
+      "total_tokens": 682,
+      "completion_tokens_details": {
+        "reasoning_tokens": 455
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:40:11.841902Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "Skillver 的邀请码通常可通过以下几种方式获得：\n\n1. **官方渠道申请**：访问 Skillver 官网或 App，查看是否有“申请内测/加入 Waitlist”入口，直接填写资料申请。\n2. **老用户邀请**：如果平台已开放注册，已注册用户通常会有邀请名额，可以请朋友发送邀请链接或邀请码。\n3. **官方社群/活动**：关注 Skillver 的官方微信公众号、LinkedIn、Twitter 或相关社群，官方有时会通过活动限量发放。\n4. **企业/校园合作**：部分技能验证或招聘类平台会通过合作企业、学校或猎头渠道分发邀请资格。\n\n**建议**：由于各阶段开放策略不同，最准确的方式是直接联系 Skillver 官方客服或在其官网查询当前注册政策。同时注意甄别来源，避免在第三方平台购买来路不明的“邀请码”，以防诈骗。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

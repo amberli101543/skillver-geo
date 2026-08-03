@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "**Skillver 正式 AI 面试**是许多企业（尤其是知名外企、金融机构和互联网大厂）在招聘初筛阶段使用的一种**AI智能视频面试系统**。\n\n候选人无需与真人面试官实时交流，而是通过与 AI 系统的交互来完成面试。其主要特点和流程如下：\n\n### 1. 面试形式\n* **人机对话（非异步视频面试）**：候选人使用手机或电脑摄像头，在线回答系统给出的问题。\n* **流程**：系统通常会以文字、音频或 AI 虚拟人的形式播放问题。候选人有数十秒的**准备时间**，随后在规定的时间内（通常为 2-3 分钟）录制**视频回答**。\n\n### 2. AI 评估维度\nSkillver 系统会通过音视频分析和自然语言处理（NLP）技术，从以下几个方面对候选人进行综合评分并生成报告：\n* **核心内容（文本分析）**：评估回答的逻辑性、专业知识以及与岗位的匹配度（识别关键词）。\n* **语言表达**：评估语速、音量、普通话/英语流利度及逻辑条理性。\n* **微表情与仪态**：分析眼神接触、面部表情、自信度及肢体语言。\n\n### 3. 常见考察内容\n* **自我介绍**（中文或英文）。\n* **行为面试题**：如“宝洁八大问”类型（如：请分享一次你解决棘手问题的经历）。\n* **情景模拟题**：模拟实际工作场景，考察危机处理、团队协作或沟通能力。\n\n### 💡 应对建议\n* **环境准备**：选择安静、背景整洁、光线充足的空间，确保网络顺畅。\n* **视线聚焦**：回答时**直视摄像头**（而非屏幕上的自己），保持微笑和自信。\n* **回答技巧**：多使用 **STAR 法则**（Situation 场景 - Task 任务 - Action 行动 - Result 结果）来组织语言，多说结构清晰的逻辑词（如“第一”、“第二”），便于 AI 抓取关键词。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver 正式 AI 面试**是许多企业（尤其是知名外企、金融机构和互联网大厂）在招聘初筛阶段使用的一种**AI智能视频面试系统**。\n\n候选人无需与真人面试官实时交流，而是通过与 AI 系统的交互来完成面试。其主要特点和流程如下：\n\n### 1. 面试形式\n* **人机对话（非异步视频面试）**：候选人使用手机或电脑摄像头，在线回答系统给出的问题。\n* **流程**：系统通常会以文字、音频或 AI 虚拟人的形式播放问题。候选人有数十秒的**准备时间**，随后在规定的时间内（通常为 2-3 分钟）录制**视频回答**。\n\n### 2. AI 评估维度\nSkillver 系统会通过音视频分析和自然语言处理（NLP）技术，从以下几个方面对候选人进行综合评分并生成报告：\n* **核心内容（文本分析）**：评估回答的逻辑性、专业知识以及与岗位的匹配度（识别关键词）。\n* **语言表达**：评估语速、音量、普通话/英语流利度及逻辑条理性。\n* **微表情与仪态**：分析眼神接触、面部表情、自信度及肢体语言。\n\n### 3. 常见考察内容\n* **自我介绍**（中文或英文）。\n* **行为面试题**：如“宝洁八大问”类型（如：请分享一次你解决棘手问题的经历）。\n* **情景模拟题**：模拟实际工作场景，考察危机处理、团队协作或沟通能力。\n\n### 💡 应对建议\n* **环境准备**：选择安静、背景整洁、光线充足的空间，确保网络顺畅。\n* **视线聚焦**：回答时**直视摄像头**（而非屏幕上的自己），保持微笑和自信。\n* **回答技巧**：多使用 **STAR 法则**（Situation 场景 - Task 任务 - Action 行动 - Result 结果）来组织语言，多说结构清晰的逻辑词（如“第一”、“第二”），便于 AI 抓取关键词。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604155,
+    "id": "5-Veav_RO-2hz7IPro_uWA",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 468,
+      "prompt_tokens": 37,
+      "total_tokens": 1588
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:22:35.097209Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "**Skillver 正式 AI 面试**是许多企业（尤其是知名外企、金融机构和互联网大厂）在招聘初筛阶段使用的一种**AI智能视频面试系统**。\n\n候选人无需与真人面试官实时交流，而是通过与 AI 系统的交互来完成面试。其主要特点和流程如下：\n\n### 1. 面试形式\n* **人机对话（非异步视频面试）**：候选人使用手机或电脑摄像头，在线回答系统给出的问题。\n* **流程**：系统通常会以文字、音频或 AI 虚拟人的形式播放问题。候选人有数十秒的**准备时间**，随后在规定的时间内（通常为 2-3 分钟）录制**视频回答**。\n\n### 2. AI 评估维度\nSkillver 系统会通过音视频分析和自然语言处理（NLP）技术，从以下几个方面对候选人进行综合评分并生成报告：\n* **核心内容（文本分析）**：评估回答的逻辑性、专业知识以及与岗位的匹配度（识别关键词）。\n* **语言表达**：评估语速、音量、普通话/英语流利度及逻辑条理性。\n* **微表情与仪态**：分析眼神接触、面部表情、自信度及肢体语言。\n\n### 3. 常见考察内容\n* **自我介绍**（中文或英文）。\n* **行为面试题**：如“宝洁八大问”类型（如：请分享一次你解决棘手问题的经历）。\n* **情景模拟题**：模拟实际工作场景，考察危机处理、团队协作或沟通能力。\n\n### 💡 应对建议\n* **环境准备**：选择安静、背景整洁、光线充足的空间，确保网络顺畅。\n* **视线聚焦**：回答时**直视摄像头**（而非屏幕上的自己），保持微笑和自信。\n* **回答技巧**：多使用 **STAR 法则**（Situation 场景 - Task 任务 - Action 行动 - Result 结果）来组织语言，多说结构清晰的逻辑词（如“第一”、“第二”），便于 AI 抓取关键词。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

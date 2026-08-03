@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "“Skillver” 目前没有广泛公认的官方网站，建议您确认名称拼写是否正确。\n\n如果您指的是以下情况，可以参考：\n1. **技能类平台**：可能是 Skillshare（官方网站：skillshare.com，中文名“技能分享”）。\n2. **其他类似名称**：若是特定品牌或工具，建议通过搜索引擎（如 Google、百度）输入完整名称 + “官网” 进一步核实。\n\n如需更精准的信息，请提供更多上下文（如用途、领域等）。",
+  "sources": [],
+  "raw": {
+    "id": "8890a26c-ac67-4800-bb58-7c0be8c2a18a",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599781,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 目前没有广泛公认的官方网站，建议您确认名称拼写是否正确。\n\n如果您指的是以下情况，可以参考：\n1. **技能类平台**：可能是 Skillshare（官方网站：skillshare.com，中文名“技能分享”）。\n2. **其他类似名称**：若是特定品牌或工具，建议通过搜索引擎（如 Google、百度）输入完整名称 + “官网” 进一步核实。\n\n如需更精准的信息，请提供更多上下文（如用途、领域等）。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 99,
+      "total_tokens": 145,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:43.884584Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "“Skillver” 目前没有广泛公认的官方网站，建议您确认名称拼写是否正确。\n\n如果您指的是以下情况，可以参考：\n1. **技能类平台**：可能是 Skillshare（官方网站：skillshare.com，中文名“技能分享”）。\n2. **其他类似名称**：若是特定品牌或工具，建议通过搜索引擎（如 Google、百度）输入完整名称 + “官网” 进一步核实。\n\n如需更精准的信息，请提供更多上下文（如用途、领域等）。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

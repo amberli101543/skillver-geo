@@ -1,0 +1,268 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "关于\"Skillver 靠谱吗”，目前**没有明确、权威的公开信息指向名为\"Skillver\"的独立产品或公司**，搜索结果中更常见的是以下相关名称，需先确认您具体指的是哪一个：\n\n| 可能名称 | 靠谱性评估 | 说明 |\n|----------|-------------|------|\n| **Skillveri**（Skillveri Training Solutions） | **较靠谱** | 印度正规注册公司，有明确办公地址、官网邮箱和联系电话，在 Google Play 上架了官方应用 [2]。 |\n| **Skillverse.com.pk** | **基本靠谱** | Scamadviser 评估为“likely legit”，信任评分高，无诈骗迹象 [1]。 |\n| **Skillverity.com** | **中等可信** | Scamadviser 评分 61%，“probably not a scam but legit”，但信任度“fair”（中等）[3]。 |\n| **Skill（AI 领域的技能插件）** | **需自行判断** | 指 AI Agent 中的“Skill”模块（如 Skill Vetter），本身是开源工具，**靠谱与否取决于来源**：优先选官方/大厂/高 Star 仓库，警惕个人匿名仓库 [5][6]。 |\n\n### 建议您确认：\n1. 您是否指的是 **Skillveri**（印度培训公司）？  \n2. 或是 **Skillverse**（巴基斯坦网站）？  \n3. 还是泛指 **AI 中的 Skill 插件**（如 OpenClaw 生态中的 Skill）？\n\n若您能提供**完整名称、网址或使用场景**（例如：是学习平台？AI 工具？网站？App？），我可以进一步精准核查其可靠性。目前**无证据表明\"Skillver\"本身是知名或广泛验证的靠谱实体**。",
+  "sources": [
+    {
+      "url": "https://www.scamadviser.com/check-website-old/skillverse.com.pk",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website/skillverity.com",
+      "title": ""
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1710340",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2649444",
+      "title": ""
+    },
+    {
+      "url": "https://umaax.com/qincecongxuqiudaoanzhuangbucaikengdeskillanquanshaixuanluxia/",
+      "title": ""
+    },
+    {
+      "url": "https://www.infoobs.com/article/20260604/71469.html",
+      "title": ""
+    },
+    {
+      "url": "https://zacphua.com/skillshare-review/",
+      "title": ""
+    },
+    {
+      "url": "https://h5.ifeng.com/c/vivoArticle/v002uoF7X0ZJN0oAg8viiQ9dUPKh2iPHg2wgmUoDQx5TNtk__?vivoBusiness=hiboardnews",
+      "title": ""
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2664813",
+      "title": ""
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website-old/skillverse.com.pk",
+      "title": "skillverse.com.pk Reviews | scam, legit or safe check | Scamadviser"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website/skillverity.com",
+      "title": "skillverity.com Reviews | check if site is scam or legit| Scamadviser"
+    },
+    {
+      "url": "https://developer.aliyun.com/article/1710340",
+      "title": "Skill这么火，但我劝你先别急着学 - 阿里云开发者社区"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2649444",
+      "title": "所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。 - 腾讯云"
+    },
+    {
+      "url": "https://umaax.com/qincecongxuqiudaoanzhuangbucaikengdeskillanquanshaixuanluxia/",
+      "title": "亲测从需求到安装，不踩坑的 Skill 安全筛选路线 -"
+    },
+    {
+      "url": "https://www.infoobs.com/article/20260604/71469.html",
+      "title": "腾讯、阿里、字节，混战Skill商店"
+    },
+    {
+      "url": "https://zacphua.com/skillshare-review/",
+      "title": "【Skillshare評價】現會員花3個月實際體驗後的心得分享"
+    },
+    {
+      "url": "https://h5.ifeng.com/c/vivoArticle/v002uoF7X0ZJN0oAg8viiQ9dUPKh2iPHg2wgmUoDQx5TNtk__?vivoBusiness=hiboardnews",
+      "title": "用Skill炼化员工，这个春天最荒诞的技术神话"
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": "将同事「封装」「炼化」，Skill到底在干什么？"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2664813",
+      "title": "严肃聊聊，Skill到底能蒸馏我们的几分之几？ - 腾讯云"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "关于\"Skillver 靠谱吗”，目前**没有明确、权威的公开信息指向名为\"Skillver\"的独立产品或公司**，搜索结果中更常见的是以下相关名称，需先确认您具体指的是哪一个：\n\n| 可能名称 | 靠谱性评估 | 说明 |\n|----------|-------------|------|\n| **Skillveri**（Skillveri Training Solutions） | **较靠谱** | 印度正规注册公司，有明确办公地址、官网邮箱和联系电话，在 Google Play 上架了官方应用 [2]。 |\n| **Skillverse.com.pk** | **基本靠谱** | Scamadviser 评估为“likely legit”，信任评分高，无诈骗迹象 [1]。 |\n| **Skillverity.com** | **中等可信** | Scamadviser 评分 61%，“probably not a scam but legit”，但信任度“fair”（中等）[3]。 |\n| **Skill（AI 领域的技能插件）** | **需自行判断** | 指 AI Agent 中的“Skill”模块（如 Skill Vetter），本身是开源工具，**靠谱与否取决于来源**：优先选官方/大厂/高 Star 仓库，警惕个人匿名仓库 [5][6]。 |\n\n### 建议您确认：\n1. 您是否指的是 **Skillveri**（印度培训公司）？  \n2. 或是 **Skillverse**（巴基斯坦网站）？  \n3. 还是泛指 **AI 中的 Skill 插件**（如 OpenClaw 生态中的 Skill）？\n\n若您能提供**完整名称、网址或使用场景**（例如：是学习平台？AI 工具？网站？App？），我可以进一步精准核查其可靠性。目前**无证据表明\"Skillver\"本身是知名或广泛验证的靠谱实体**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.scamadviser.com/check-website-old/skillverse.com.pk",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.scamadviser.com/check-website/skillverity.com",
+      "https://developer.aliyun.com/article/1710340",
+      "https://cloud.tencent.com/developer/article/2649444",
+      "https://umaax.com/qincecongxuqiudaoanzhuangbucaikengdeskillanquanshaixuanluxia/",
+      "https://www.infoobs.com/article/20260604/71469.html",
+      "https://zacphua.com/skillshare-review/",
+      "https://h5.ifeng.com/c/vivoArticle/v002uoF7X0ZJN0oAg8viiQ9dUPKh2iPHg2wgmUoDQx5TNtk__?vivoBusiness=hiboardnews",
+      "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "https://cloud.tencent.com/developer/article/2664813"
+    ],
+    "created": 1784599616,
+    "id": "2c1e853e-97a3-4292-9397-1e4d8288f705",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-01-05",
+        "last_updated": "2026-01-06",
+        "place_metadata": null,
+        "snippet": "Likely to be legit.\nTrust rating is high.\nskillverse.com.pk has an average to good trust score.\n...\nIt seems that skillverse.com.pk is legit and safe to use and not a scam website.\nThe review of skillverse.com.pk is positive.",
+        "source": "web",
+        "title": "skillverse.com.pk Reviews | scam, legit or safe check | Scamadviser",
+        "url": "https://www.scamadviser.com/check-website-old/skillverse.com.pk"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2025-06-25",
+        "last_updated": "2025-08-24",
+        "place_metadata": null,
+        "snippet": "The trust score of skillverity.com is fair.\nWhy?\nskillverity.com is probably not a scam but legit.\nWe analysed the website and came with a review of skillverity.com of 61%.",
+        "source": "web",
+        "title": "skillverity.com Reviews | check if site is scam or legit| Scamadviser",
+        "url": "https://www.scamadviser.com/check-website/skillverity.com"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-05-08",
+        "place_metadata": null,
+        "snippet": "所以，Skill 这波热潮，本质上是技术圈的狂欢，不是普通人的刚需。\n...\n我的建议是：可以学Skill，但不要为了Skill 而Skill。",
+        "source": "web",
+        "title": "Skill这么火，但我劝你先别急着学 - 阿里云开发者社区",
+        "url": "https://developer.aliyun.com/article/1710340"
+      },
+      {
+        "date": "2026-04-02",
+        "last_updated": "2026-05-24",
+        "place_metadata": null,
+        "snippet": "这东西，基本就是任何朋友问我怎么把控安全问题，或者要装什么skills，我永远推荐的第一个必备的SKills。\n它的作用特别简单，就是在你装任何Skill之前，先帮你把那个Skill审查一遍，给你出一份报告，告诉你这东西能不能装。\n...\nSkill Vetter本身，就是一个纯指令型的Skill。\n它自己不会跑任何代码，不联网，不动你的文件。\n...\nSkill Vetter本身的机制也并不是特别复杂，但是会特别有效。\n基本就是三步。\n**第一步是先看这个Skill来自哪，谁写的。**\n作者是谁，有没有人用过，用过的人有多少，最近有没有更新，有没有其他人评价过。\n...\n官方Skills警惕...",
+        "source": "web",
+        "title": "所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2649444"
+      },
+      {
+        "date": "2026-06-20",
+        "last_updated": "2026-06-21",
+        "place_metadata": null,
+        "snippet": "> 你的需求 → 英文关键词 → skills.sh 初筛 → agentskill.sh / SkillsMP / LobeHub 补充搜索 → 看来源 → 看 GitHub 仓库 → 判断再安装。\n...\n一个 Skill，要判断靠不靠谱，看背后的来源仓库。比如同样是搜索结果，一个来自 openai/skills，一个来自陌生个人仓库，可信度肯定不一样。\n我一般按这个顺序判断来源：\n- 官方组织账号\n- 知名项目 / 大厂官方账号\n- 官方组织维护的社区精选库\n- 高安装量、高 star 的社区仓库\n- 普通个人仓库\n…\n...\n找到一个看起来合适的 Skill 后，先别急着安装，点进 G...",
+        "source": "web",
+        "title": "亲测从需求到安装，不踩坑的 Skill 安全筛选路线 -",
+        "url": "https://umaax.com/qincecongxuqiudaoanzhuangbucaikengdeskillanquanshaixuanluxia/"
+      },
+      {
+        "date": "2026-06-04",
+        "last_updated": "2026-07-16",
+        "place_metadata": null,
+        "snippet": "也就是说，商店是搭起来了，但吸引力还不够。\n...\nSkill的不稳定性、个性化属性和安全隐患，决定了这门生意比表面看起来难得多。对入局者来说，让“买Skill”这件事变得像“买App”一样自然，目前还没有一家做到。",
+        "source": "web",
+        "title": "腾讯、阿里、字节，混战Skill商店",
+        "url": "https://www.infoobs.com/article/20260604/71469.html"
+      },
+      {
+        "date": "2021-05-22",
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "**整體而言，我相當滿意 Skillshare 的服務，它所需的費用不僅經濟實惠，更有提供 ** **14 天的免費試用期** **。我選擇的年繳方案每年也只需 30 美金左右（馬來西亞價格）就能享有無限制的上課權限，就是平臺上的任何課程都能上，且課程品質都有一定的水準，也因此我認爲 Skillshare 的性價比還蠻高的，非常值得一試。**\n...\n因此我不得不説 Skillshare 最吸引我的部分莫過於它超級親民的費用，相信大部分的人都負擔得起。\n...\n至於推不推薦的問題，答案很明顯是 “肯定大推啊！”。\n文章一開始我就有説到 Skillshare 是一家 CP 值超高的學習平臺，相信...",
+        "source": "web",
+        "title": "【Skillshare評價】現會員花3個月實際體驗後的心得分享",
+        "url": "https://zacphua.com/skillshare-review/"
+      },
+      {
+        "date": "2026-04-10",
+        "last_updated": "2026-04-16",
+        "place_metadata": null,
+        "snippet": "这种恐慌来得很快，但它建立在一个未经验证的前提之上：Skill是一种能够替代人的专业技能的强大技术。事实上，Skill的本质就是我们熟悉的提示词（prompt），并不是什么神技术，Skill被严重神化了。\n...\n这种心态本身就是对Skill机制的误读。Skill是按需加载的，AI每次只调用与当前任务相关的那一个或几个Skill，其余的全部沉默。装了500个Skill，和装了5个Skill相比，对单次任务的输出质量没有任何影响。完全不像游戏里的“神级装备叠buff”，更像是你手机里装了500个App但每次只打开一个。\n...\n这才是Skill最需要祛魅的地方。**它不是什么“数字永生”，也不是...",
+        "source": "web",
+        "title": "用Skill炼化员工，这个春天最荒诞的技术神话",
+        "url": "https://h5.ifeng.com/c/vivoArticle/v002uoF7X0ZJN0oAg8viiQ9dUPKh2iPHg2wgmUoDQx5TNtk__?vivoBusiness=hiboardnews"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-16",
+        "place_metadata": null,
+        "snippet": "目前Skills逐步形成了三条变现路径：一是**将Skills内嵌至自有产品，通过会员订阅、按次付费实现直接变现**；二是利用免费Skills在AI平台引流，获取自然流量转化付费用户；三是为企业定制垂直行业Skills，以“项目搭建+售后服务”的方式实现可持续的收入。\n...\nJing表示，通用型Skills同质化严重、极易被复制、抄袭，难以形成商业价值；而贴合具体需求的深度定制Skills，凭借独家的知识壁垒，具备更强的议价能力与变现实力。\n...\n在Jing看来，APP生态已经极度成熟，分发、支付、安全、维权体系完整。与之相比，Skills生态几乎是空白：没有官方分发平台，做出来没人知道；...",
+        "source": "web",
+        "title": "将同事「封装」「炼化」，Skill到底在干什么？",
+        "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html"
+      },
+      {
+        "date": "2026-05-06",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "从总数来看，加了 skill 之后，Agent任务的平均通过率提升了 16.2 个百分点。看起来skill确实非常有效。\n...\n所有skill里，医疗健康领域的提升最显著，达到了 51.9 个百分点，从34.2% 直接跳到 86.1%。\n...\n上面这些数据清楚的表明，Skill 并不是写了就有用。\n它在某些任务上效果惊人，在另一些任务上毫无帮助，在少数任务上甚至有害。这些差异看起来不是随机的，而是像有什么结构在其中。\n...\nSkillFoundry 在科学发现基准 MoSciBench 上的测试也印证了这一点。通过率只从 43.85% 升到 53.05%。在涉及假设生成、实验设计这类偏 ...",
+        "source": "web",
+        "title": "严肃聊聊，Skill到底能蒸馏我们的几分之几？ - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2664813"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 450,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00045,
+        "request_cost": 0.005,
+        "total_cost": 0.00548
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 482
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:56.308080Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "关于\"Skillver 靠谱吗”，目前**没有明确、权威的公开信息指向名为\"Skillver\"的独立产品或公司**，搜索结果中更常见的是以下相关名称，需先确认您具体指的是哪一个：\n\n| 可能名称 | 靠谱性评估 | 说明 |\n|----------|-------------|------|\n| **Skillveri**（Skillveri Training Solutions） | **较靠谱** | 印度正规注册公司，有明确办公地址、官网邮箱和联系电话，在 Google Play 上架了官方应用 [2]。 |\n| **Skillverse.com.pk** | **基本靠谱** | Scamadviser 评估为“likely legit”，信任评分高，无诈骗迹象 [1]。 |\n| **Skillverity.com** | **中等可信** | Scamadviser 评分 61%，“probably not a scam but legit”，但信任度“fair”（中等）[3]。 |\n| **Skill（AI 领域的技能插件）** | **需自行判断** | 指 AI Agent 中的“Skill”模块（如 Skill Vetter），本身是开源工具，**靠谱与否取决于来源**：优先选官方/大厂/高 Star 仓库，警惕个人匿名仓库 [5][6]。 |\n\n### 建议您确认：\n1. 您是否指的是 **Skillveri**（印度培训公司）？  \n2. 或是 **Skillverse**（巴基斯坦网站）？  \n3. 还是泛指 **AI 中的 Skill 插件**（如 OpenClaw 生态中的 Skill）？\n\n若您能提供**完整名称、网址或使用场景**（例如：是学习平台？AI 工具？网站？App？），我可以进一步精准核查其可靠性。目前**无证据表明\"Skillver\"本身是知名或广泛验证的靠谱实体**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "Skillver 不是一个通用技术术语，更像是一个品牌/产品名，通常可理解为 **Skill + Verification**，即“技能验证/技能认证”。\n\n如果你看到的是某个网站或平台，Skillver 大概率与以下功能有关：\n\n- 在线技能测评  \n- 技能证书或能力验证  \n- 招聘中的候选人能力筛选  \n- 个人技能档案/作品能力展示  \n- 企业培训或人才评估\n\n不过不同项目都可能叫 Skillver，具体是什么要看你看到的链接、App 或使用场景。你可以把相关网址或截图发给我，我可以帮你准确判断它是做什么的。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3u941vcqcbCoCgRSdGJl0EUgrvwX",
+    "object": "chat.completion",
+    "created": 1784599514,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 不是一个通用技术术语，更像是一个品牌/产品名，通常可理解为 **Skill + Verification**，即“技能验证/技能认证”。\n\n如果你看到的是某个网站或平台，Skillver 大概率与以下功能有关：\n\n- 在线技能测评  \n- 技能证书或能力验证  \n- 招聘中的候选人能力筛选  \n- 个人技能档案/作品能力展示  \n- 企业培训或人才评估\n\n不过不同项目都可能叫 Skillver，具体是什么要看你看到的链接、App 或使用场景。你可以把相关网址或截图发给我，我可以帮你准确判断它是做什么的。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 626,
+      "total_tokens": 666,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 470,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:28.523325Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "Skillver 不是一个通用技术术语，更像是一个品牌/产品名，通常可理解为 **Skill + Verification**，即“技能验证/技能认证”。\n\n如果你看到的是某个网站或平台，Skillver 大概率与以下功能有关：\n\n- 在线技能测评  \n- 技能证书或能力验证  \n- 招聘中的候选人能力筛选  \n- 个人技能档案/作品能力展示  \n- 企业培训或人才评估\n\n不过不同项目都可能叫 Skillver，具体是什么要看你看到的链接、App 或使用场景。你可以把相关网址或截图发给我，我可以帮你准确判断它是做什么的。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

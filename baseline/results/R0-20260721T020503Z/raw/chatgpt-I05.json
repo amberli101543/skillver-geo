@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "tcodeai.com 通常是 **TCode AI 的官网/服务入口**；**Skillver** 则应是其背后的公司、运营主体或品牌方。\n\n简单说：\n\n> **Skillver 运营/提供 TCode AI，tcodeai.com 是该产品或服务的网站域名。**\n\n如果你是出于付款、合同、数据合规或公司背景核验目的，建议以 tcodeai.com 上的 **Terms of Service、Privacy Policy、发票主体或公司注册信息** 为准。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uFWIInuxKOyj5OUrZv0dT25Nt8v",
+    "object": "chat.completion",
+    "created": 1784599914,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "tcodeai.com 通常是 **TCode AI 的官网/服务入口**；**Skillver** 则应是其背后的公司、运营主体或品牌方。\n\n简单说：\n\n> **Skillver 运营/提供 TCode AI，tcodeai.com 是该产品或服务的网站域名。**\n\n如果你是出于付款、合同、数据合规或公司背景核验目的，建议以 tcodeai.com 上的 **Terms of Service、Privacy Policy、发票主体或公司注册信息** 为准。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 550,
+      "total_tokens": 596,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 429,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:04.476668Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "tcodeai.com 通常是 **TCode AI 的官网/服务入口**；**Skillver** 则应是其背后的公司、运营主体或品牌方。\n\n简单说：\n\n> **Skillver 运营/提供 TCode AI，tcodeai.com 是该产品或服务的网站域名。**\n\n如果你是出于付款、合同、数据合规或公司背景核验目的，建议以 tcodeai.com 上的 **Terms of Service、Privacy Policy、发票主体或公司注册信息** 为准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

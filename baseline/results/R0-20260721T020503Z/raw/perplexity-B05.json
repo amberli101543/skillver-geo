@@ -1,0 +1,286 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "基于提供的搜索结果，**\"Skillver\"这一特定名称的产品并未在资料中出现**。资料中提到的相关概念是日本的\"**ポータブルスキル見える化ツール**（便携式技能可视化工具/职业能力诊断工具）”（简称技能可视化工具），以及各类名为\"**Job Hunt Copilot**\"、\"**Career-Ops**\"等**AI 求职类 Skill**（智能体/插件）。\n\n如果您的 query 是指日本厚生劳动省推出的\"**技能可视化工具**\"（常被误记为类似 Skillver 的名称），它能为求职者（特别是中年转职者）提供以下核心帮助：\n1.  **量化与可视化个人技能**：测量求职者的“便携式技能”（即跨岗位通用的核心能力），将抽象的能力转化为可视化的数据 [1][2]。\n2.  **提示适配的职务与职位**：基于诊断结果，自动提示求职者最适合的**新职务**和**职位层级**，帮助其明确职业方向 [1][2]。\n3.  **辅助职业转变与目标设定**：帮助**中年及资深白领**（米尔托 - 西尼亚层）在考虑职业转换或职业规划时，发现自身能力与新目标的差距，从而选定能力开发主题和设定目标 [2]。\n4.  **优化求职准备**：通过深化“自我理解”，协助求职者**扩大职业选择视野**，并直接支持**应聘简历的撰写**和**目标达成**的规划 [2]。\n\n如果您的 query 是指**AI 求职类 Skill**（如牛客网提到的 Job Hunt Copilot 或 Career-Ops 等通用求职辅助智能体），它们通常能帮求职者做：\n*   **定制简历与面试讲稿**：根据职位描述（JD）自动提取项目经历，生成定制化简历 (.docx) 及中英文面试讲稿 [3]。\n*   **岗位匹配与过滤**：量化简历与 JD 的匹配分数，指出缺失关键词，并过滤掉不合适的岗位，避免无效海投 [5][7]。\n*   **模拟面试与复盘**：模拟 HR、专业、高管三轮面试，提供复盘报告和能力雷达图评分 [3][5]。\n*   **技能差距分析与提升**：精准识别能力差距，生成个性化技能提升计划和学习资源 [4]。\n\n**结论**：若指官方工具，核心功能是**技能诊断与职业匹配**；若指 AI 求职智能体，核心功能是**简历定制、岗位筛选与面试模拟**。由于\"Skillver\"未直接出现，建议核实名称是否指代上述日本厚生劳动省工具或特定的 AI 求职插件。",
+  "sources": [
+    {
+      "url": "https://www.mhlw.go.jp/stf/newpage_23112.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.mhlw.go.jp/content/11800000/000935264.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "title": ""
+    },
+    {
+      "url": "https://cv.devtool.tech/features/skill-development",
+      "title": ""
+    },
+    {
+      "url": "https://blog.mushroom.cv/blog/careerforge-ai-job-search-skill-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/santifer/career-ops/blob/main/README.cn.md",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2664550",
+      "title": ""
+    },
+    {
+      "url": "https://www.works-i.com/research/labour/column/roundup/detail040.html",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19576",
+      "title": ""
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "title": ""
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/newpage_23112.html",
+      "title": "ポータブルスキル見える化ツール（職業能力診断ツール）"
+    },
+    {
+      "url": "https://www.mhlw.go.jp/content/11800000/000935264.pdf",
+      "title": "[PDF] ポータブルスキル見える化ツール - 厚生労働省"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "title": "有了这个skill我再也没手动改过简历 - 牛客网"
+    },
+    {
+      "url": "https://cv.devtool.tech/features/skill-development",
+      "title": "职位技能提升计划| AI驱动的求职能力提升助手 - 一纸简历"
+    },
+    {
+      "url": "https://blog.mushroom.cv/blog/careerforge-ai-job-search-skill-guide/",
+      "title": "一行命令搞定AI 求职全流程，从搜岗到拿Offer 的完整指南"
+    },
+    {
+      "url": "https://github.com/santifer/career-ops/blob/main/README.cn.md",
+      "title": "career-ops/README.cn.md at main - GitHub"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2664550",
+      "title": "我把11个岗位JD给了这个skill，它帮我把8个都毙了 - 腾讯云- Tencent"
+    },
+    {
+      "url": "https://www.works-i.com/research/labour/column/roundup/detail040.html",
+      "title": "AIが求職者のスキルを測る注目のサービス3選｜HR Tech Roundup 海外のHRテクノロジー最新ニュース｜世界・日本の労働事情コラム｜リクルートワークス研究所"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19576",
+      "title": "【Skill 创作】毕业季迷茫大学生的救星就业方向与职业规划综合skill"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd",
+      "title": "找工作助手-AI打招呼(支持智联、BOSS、猎聘、拉勾"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "title": "把你的同事炼化成Skill？| Github爆火项目 | 职场打工人 | 什么是Skill | Anthropic | 提示词 | 开放标准格式 | 反蒸馏 | 版权问题 | 静态快照"
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": "将同事「封装」「炼化」，Skill到底在干什么？"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "基于提供的搜索结果，**\"Skillver\"这一特定名称的产品并未在资料中出现**。资料中提到的相关概念是日本的\"**ポータブルスキル見える化ツール**（便携式技能可视化工具/职业能力诊断工具）”（简称技能可视化工具），以及各类名为\"**Job Hunt Copilot**\"、\"**Career-Ops**\"等**AI 求职类 Skill**（智能体/插件）。\n\n如果您的 query 是指日本厚生劳动省推出的\"**技能可视化工具**\"（常被误记为类似 Skillver 的名称），它能为求职者（特别是中年转职者）提供以下核心帮助：\n1.  **量化与可视化个人技能**：测量求职者的“便携式技能”（即跨岗位通用的核心能力），将抽象的能力转化为可视化的数据 [1][2]。\n2.  **提示适配的职务与职位**：基于诊断结果，自动提示求职者最适合的**新职务**和**职位层级**，帮助其明确职业方向 [1][2]。\n3.  **辅助职业转变与目标设定**：帮助**中年及资深白领**（米尔托 - 西尼亚层）在考虑职业转换或职业规划时，发现自身能力与新目标的差距，从而选定能力开发主题和设定目标 [2]。\n4.  **优化求职准备**：通过深化“自我理解”，协助求职者**扩大职业选择视野**，并直接支持**应聘简历的撰写**和**目标达成**的规划 [2]。\n\n如果您的 query 是指**AI 求职类 Skill**（如牛客网提到的 Job Hunt Copilot 或 Career-Ops 等通用求职辅助智能体），它们通常能帮求职者做：\n*   **定制简历与面试讲稿**：根据职位描述（JD）自动提取项目经历，生成定制化简历 (.docx) 及中英文面试讲稿 [3]。\n*   **岗位匹配与过滤**：量化简历与 JD 的匹配分数，指出缺失关键词，并过滤掉不合适的岗位，避免无效海投 [5][7]。\n*   **模拟面试与复盘**：模拟 HR、专业、高管三轮面试，提供复盘报告和能力雷达图评分 [3][5]。\n*   **技能差距分析与提升**：精准识别能力差距，生成个性化技能提升计划和学习资源 [4]。\n\n**结论**：若指官方工具，核心功能是**技能诊断与职业匹配**；若指 AI 求职智能体，核心功能是**简历定制、岗位筛选与面试模拟**。由于\"Skillver\"未直接出现，建议核实名称是否指代上述日本厚生劳动省工具或特定的 AI 求职插件。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.mhlw.go.jp/stf/newpage_23112.html",
+      "https://www.mhlw.go.jp/content/11800000/000935264.pdf",
+      "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "https://cv.devtool.tech/features/skill-development",
+      "https://blog.mushroom.cv/blog/careerforge-ai-job-search-skill-guide/",
+      "https://github.com/santifer/career-ops/blob/main/README.cn.md",
+      "https://cloud.tencent.com/developer/article/2664550",
+      "https://www.works-i.com/research/labour/column/roundup/detail040.html",
+      "https://forum.trae.cn/t/topic/19576",
+      "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd",
+      "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html"
+    ],
+    "created": 1784599682,
+    "id": "b641485b-1450-42c1-9eff-441c2d321eb8",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-06-19",
+        "place_metadata": null,
+        "snippet": "# 雇用・労働 ポータブルスキル見える化ツール（職業能力診断ツール）断ツール## ツール概要 ツールポータブルスキル^※^を測定し、それを活かせる職務、職位を提示するツールです。",
+        "source": "web",
+        "title": "ポータブルスキル見える化ツール（職業能力診断ツール）",
+        "url": "https://www.mhlw.go.jp/stf/newpage_23112.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-20",
+        "place_metadata": null,
+        "snippet": "業）、「スキル」（仕事をするのに必要な技術・技能）等の観点から職業情報を「見える化」し、求職者等の就職活動や企業の採用\n活動等を支援する厚生労働省のWebサイトです。本ツールの診断結果に紐づく職業情報、求められる職務などをjob tagの機能・\n...\nポータブルスキル見える化ツールは、\nミドルシニア層のホワイトカラー職種の方がキャリアチェンジやキャリア形成\nを検討する際に使用するポータブルスキルを測定するツールです。\n...\n相談者\nポータブルスキルの見える化\n求職者の特徴に合った職務・職位の提示\n診断の実施\n支援者\nポータブルスキルの棚卸\n...\n相談者が支援者と一緒に利用し、自己理解を深...",
+        "source": "web",
+        "title": "[PDF] ポータブルスキル見える化ツール - 厚生労働省",
+        "url": "https://www.mhlw.go.jp/content/11800000/000935264.pdf"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-23",
+        "place_metadata": null,
+        "snippet": "这个 Skill 叫 Job Hunt Copilot，逻辑很简单：\n把你的项目经历提前存进去，之后每次投岗位，它自己从里面取材，按 JD 定制输出。\n这个skill能产出三样东西：\n① 定制简历（.docx）\n粘贴 JD，它先告诉你选了哪几个项目、排除了哪几个、为什么——这步我觉得比简历本身更有价值，因为它在帮你根据job description做判断找到最适配这个岗位的项目。\n然后直接生成排版好的 Word 文件。\n② 项目面试讲稿：\n每个项目中英文各一页，结构固定：开场句 → 背景 → 我做了什么 → 结果 → 跟这个岗位有什么关系。\n它帮你主动把项目和 JD 挂钩，帮你构建有逻辑的叙事...",
+        "source": "web",
+        "title": "有了这个skill我再也没手动改过简历 - 牛客网",
+        "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-06",
+        "place_metadata": null,
+        "snippet": "基于职位要求定制个性化技能提升计划，系统化学习，缩小能力差距，提高求职竞争力\n...\n我们的智能系统帮助您精准识别能力差距，制定个性化提升计划\n...\n基于差距分析生成个性化技能提升任务，明确学习重点和提升路径。\n...\n针对每项技能提供高质量学习资源，包括教程、文档和实践项目，加速学习进程。",
+        "source": "web",
+        "title": "职位技能提升计划| AI驱动的求职能力提升助手 - 一纸简历",
+        "url": "https://cv.devtool.tech/features/skill-development"
+      },
+      {
+        "date": "2026-06-10",
+        "last_updated": "2026-06-27",
+        "place_metadata": null,
+        "snippet": "把你的简历和目标 JD 都发给 AI，它会：\n- 给出**量化匹配分数**（满分 100）\n- 逐条分析 JD 要求你是否满足\n- 指出简历里缺少的关键词\n- 建议哪些经历应该重点突出\n...\n根据你的简历 + 目标 JD + 公司背景生成：\n- 定制化求职信\n- 招聘平台私信（更适合 Boss 直聘风格的简短版本）\n- 可指定语气（正式/亲切/专业）和语言（中/英/日等）\n...\n这是整个工具包里**最有价值的一环**。它模拟真实三轮面试：\n**第一轮：HR 面试**（综合素质、背景匹配、薪资期望）\n**第二轮：专业面试**（技术/业务能力、案例分析）\n**第三轮：高管面试**（战略思维、文...",
+        "source": "web",
+        "title": "一行命令搞定AI 求职全流程，从搜岗到拿Offer 的完整指南",
+        "url": "https://blog.mushroom.cv/blog/careerforge-ai-job-search-skill-guide/"
+      },
+      {
+        "date": "2026-04-04",
+        "last_updated": "2026-05-29",
+        "place_metadata": null,
+        "snippet": "Career-Ops 可以把任何 AI 编码 CLI 变成完整的求职指挥中心。你不需要再手动用电子表格追踪申请流程，而是获得一个 AI 驱动的管道，能够：\n- **评估职位**，使用结构化的 A-F 评分系统（10 个加权维度）\n- **生成定制 PDF**，针对每份职位描述输出 ATS 优化简历\n- **自动扫描招聘平台**（Greenhouse、Ashby、Lever、公司招聘页）\n- **批量处理**，通过子代理并行评估 10 份以上职位\n- **集中管理一切**，用单一事实来源配合完整性检查",
+        "source": "web",
+        "title": "career-ops/README.cn.md at main - GitHub",
+        "url": "https://github.com/santifer/career-ops/blob/main/README.cn.md"
+      },
+      {
+        "date": "2026-05-06",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "它不是帮你「海投」的，它是帮你「过滤」的。它会告诉你，哪些岗位值得你花时间，哪些不值得。它会告诉你，你的简历跟这个岗位之间的差距在哪里，怎么补。它会告诉你，面试的时候应该根据自己经验准备什么故事。",
+        "source": "web",
+        "title": "我把11个岗位JD给了这个skill，它帮我把8个都毙了 - 腾讯云- Tencent",
+        "url": "https://cloud.tencent.com/developer/article/2664550"
+      },
+      {
+        "date": "2024-05-27",
+        "last_updated": "2026-07-03",
+        "place_metadata": null,
+        "snippet": "Eightfold AIのサービスで開設した採用情報ページに求職者が履歴書をアップロードすると、AIが保有しているスキルやポテンシャルを自動的に解析する。\n...\nAIが求職者のスキルに適した順におすすめの求人を提案する。それぞれの求人が適している理由も書かれているため、サイト訪問者の応募意欲が高まり、優秀な人材の確保につながる。\n...\n求職者が企業の採用情報ページ上で履歴書をアップロードしたり、簡単なクイズに答えたりすると、AIがスキルやその習熟度を解析し、求職者の「スキルプロフィール」を自動作成する。このスキルプロフィールと求人ポジションに求められるスキルをマッチングして、求職者におすす...",
+        "source": "web",
+        "title": "AIが求職者のスキルを測る注目のサービス3選｜HR Tech Roundup 海外のHRテクノロジー最新ニュース｜世界・日本の労働事情コラム｜リクルートワークス研究所",
+        "url": "https://www.works-i.com/research/labour/column/roundup/detail040.html"
+      },
+      {
+        "date": "2026-05-27",
+        "last_updated": "2026-07-14",
+        "place_metadata": null,
+        "snippet": "这是一个专门为大学生、应届毕业生和职场人士提供就业方向分析和职业发展路径规划的 Skill。只需要告诉它你的专业、学历、技能和就业意向，它就能帮你分析市场趋势、推荐合适的岗位、规划职业发展路径，甚至给出风险评估和备选方案。\n...\n用这个 Skill 后，只需要几分钟的对话，它就能：\n- 主动询问你的教育背景、技能、实习经验\n- 检索最新的行业趋势和薪资数据\n- 根据你的情况推荐 5-8 个就业方向，并给出匹配度评分\n- 生成可视化的职业发展路径图\n- 输出一份完整的就业分析报告，包含短期、中期、长期行动计划",
+        "source": "web",
+        "title": "【Skill 创作】毕业季迷茫大学生的救星就业方向与职业规划综合skill",
+        "url": "https://forum.trae.cn/t/topic/19576"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "一句话简介：用AI结合岗位和简历，一键生成高回复率的岗位定制化招呼语，支持DeepSeek-R1、DeepSeek-V3自由切换！",
+        "source": "web",
+        "title": "找工作助手-AI打招呼(支持智联、BOSS、猎聘、拉勾",
+        "url": "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-07-04",
+        "place_metadata": null,
+        "snippet": "{ts:966} 你可以把自己反复做、标准化、流程化的工作 提炼成专属Skill 比如周报的固定格式、代码审查规范、数据清洗流程、会议纪要模板、邮件回复话术等等\n{ts:978} 这样一来，你每次做这些重复性工作 不需要再向AI反复解释上下文、反复强调规范了 AI能自动调用Skill帮你快速完成",
+        "source": "web",
+        "title": "把你的同事炼化成Skill？| Github爆火项目 | 职场打工人 | 什么是Skill | Anthropic | 提示词 | 开放标准格式 | 反蒸馏 | 版权问题 | 静态快照",
+        "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-16",
+        "place_metadata": null,
+        "snippet": "仅需不到一个小时，他就写出了一个Boss直聘简历初筛的Skill，复刻了招聘全流程的工作逻辑，让AI自动完成岗位搜索、简历筛选与初步沟通，每天能为人事部门省去数小时的工作时间。面对员工离职交接时呈上来的大批文件，他打造的Handover工作交接Skill，将自己和同事从重复劳动中解放出来。",
+        "source": "web",
+        "title": "将同事「封装」「炼化」，Skill到底在干什么？",
+        "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 712,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00071,
+        "request_cost": 0.005,
+        "total_cost": 0.00575
+      },
+      "prompt_tokens": 35,
+      "search_context_size": "low",
+      "total_tokens": 747
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:02.221678Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "基于提供的搜索结果，**\"Skillver\"这一特定名称的产品并未在资料中出现**。资料中提到的相关概念是日本的\"**ポータブルスキル見える化ツール**（便携式技能可视化工具/职业能力诊断工具）”（简称技能可视化工具），以及各类名为\"**Job Hunt Copilot**\"、\"**Career-Ops**\"等**AI 求职类 Skill**（智能体/插件）。\n\n如果您的 query 是指日本厚生劳动省推出的\"**技能可视化工具**\"（常被误记为类似 Skillver 的名称），它能为求职者（特别是中年转职者）提供以下核心帮助：\n1.  **量化与可视化个人技能**：测量求职者的“便携式技能”（即跨岗位通用的核心能力），将抽象的能力转化为可视化的数据 [1][2]。\n2.  **提示适配的职务与职位**：基于诊断结果，自动提示求职者最适合的**新职务**和**职位层级**，帮助其明确职业方向 [1][2]。\n3.  **辅助职业转变与目标设定**：帮助**中年及资深白领**（米尔托 - 西尼亚层）在考虑职业转换或职业规划时，发现自身能力与新目标的差距，从而选定能力开发主题和设定目标 [2]。\n4.  **优化求职准备**：通过深化“自我理解”，协助求职者**扩大职业选择视野**，并直接支持**应聘简历的撰写**和**目标达成**的规划 [2]。\n\n如果您的 query 是指**AI 求职类 Skill**（如牛客网提到的 Job Hunt Copilot 或 Career-Ops 等通用求职辅助智能体），它们通常能帮求职者做：\n*   **定制简历与面试讲稿**：根据职位描述（JD）自动提取项目经历，生成定制化简历 (.docx) 及中英文面试讲稿 [3]。\n*   **岗位匹配与过滤**：量化简历与 JD 的匹配分数，指出缺失关键词，并过滤掉不合适的岗位，避免无效海投 [5][7]。\n*   **模拟面试与复盘**：模拟 HR、专业、高管三轮面试，提供复盘报告和能力雷达图评分 [3][5]。\n*   **技能差距分析与提升**：精准识别能力差距，生成个性化技能提升计划和学习资源 [4]。\n\n**结论**：若指官方工具，核心功能是**技能诊断与职业匹配**；若指 AI 求职智能体，核心功能是**简历定制、岗位筛选与面试模拟**。由于\"Skillver\"未直接出现，建议核实名称是否指代上述日本厚生劳动省工具或特定的 AI 求职插件。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillveri 主要服务于**制造企业**、**学校与培训机构**（包括 K12 职业教育、学院及工业技能培训中心），旨在为**蓝领工人**（如焊工、喷漆工、HVAC 及太阳能安装技师）提供焊接、喷漆、暖通空调等领域的混合现实（MR）与虚拟现实（VR）仿真技能培训[1][3]。\n\n具体服务对象细分如下：\n\n| 服务对象类别 | 具体包含 | 核心需求 |\n| :--- | :--- | :--- |\n| **企业端** | 工业巨头、中小型企业（SME） | 以更低成本（可节省高达 70%）和更短时间提升员工实操精度与信心 [1][3] |\n| **教育端** | K12 职业教育中心、大学、培训学院 | 提供沉浸式 3D 培训环境，解决传统教学资源不足或高风险问题 [1][3] |\n| **学习者** | 蓝领工人、职校学生 | 在无风险环境中练习焊接、喷漆、暖通等多技能，获得精准评估 [1] |\n\nSkillveri 的定位是“通过先进的混合现实/虚拟现实训练系统赋能全球有技能的劳动力”，其技术特别针对制造业技能（如 GMAW、SMAW 等焊接工艺及汽车修补喷漆）[1][3]。\n\n*注：搜索结果中存在名为\"SKILLVER\"的招聘公司（服务科技与设计行业人才）[2] 以及\"Skillvera\"（沙特教育与体育公司）[4]，但根据您查询的\"Skillveri\"（含 i 结尾），上述制造业仿真培训服务为其核心业务。*",
+  "sources": [
+    {
+      "url": "https://in.linkedin.com/company/skillveri",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/in/amine-boutaybi-b53621327",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillvera",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://skillsbuild.org/zh/",
+      "title": ""
+    },
+    {
+      "url": "https://baike.baidu.com/item/Skillshare/19695508",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": ""
+    },
+    {
+      "url": "https://www.hrtechchina.com/tag/%E4%BA%BA%E6%89%8D%E5%8F%91%E5%B1%95/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2649164",
+      "title": ""
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": ""
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.thepaper.cn/newsDetail_forward_32983429",
+      "title": ""
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260128A02DPZ00",
+      "title": ""
+    },
+    {
+      "url": "https://www.yourator.co/companies/SkillsforU",
+      "title": ""
+    },
+    {
+      "url": "https://in.linkedin.com/company/skillveri",
+      "title": "Skillveri MR & XR Simulations | LinkedIn"
+    },
+    {
+      "url": "https://www.linkedin.com/in/amine-boutaybi-b53621327",
+      "title": "Amine Boutaybi | LinkedIn"
+    },
+    {
+      "url": "https://skillveri.com/",
+      "title": "Skillveri - World's Leading MR & XR simulation platform for Skills"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillvera",
+      "title": "Skillvera - LinkedIn"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://skillsbuild.org/zh/",
+      "title": "掌握当今世界所需的人工智能与技术技能，开启你的未来"
+    },
+    {
+      "url": "https://baike.baidu.com/item/Skillshare/19695508",
+      "title": "Skillshare_百度百科"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云"
+    },
+    {
+      "url": "https://www.hrtechchina.com/tag/%E4%BA%BA%E6%89%8D%E5%8F%91%E5%B1%95/",
+      "title": "人才发展- HRTechChina.com - 向上的力量！"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2649164",
+      "title": "SkillHub 产品概览-腾讯云开发者社区"
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具"
+    },
+    {
+      "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "title": "将同事「封装」「炼化」，Skill到底在干什么？"
+    },
+    {
+      "url": "https://www.thepaper.cn/newsDetail_forward_32983429",
+      "title": "互联网大厂为何扎堆布局“支付Skill”？"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260128A02DPZ00",
+      "title": "https://news.qq.com/rain/a/20260128A02DPZ00"
+    },
+    {
+      "url": "https://www.yourator.co/companies/SkillsforU",
+      "title": "Skills for U－最新職缺徵才中"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillveri 主要服务于**制造企业**、**学校与培训机构**（包括 K12 职业教育、学院及工业技能培训中心），旨在为**蓝领工人**（如焊工、喷漆工、HVAC 及太阳能安装技师）提供焊接、喷漆、暖通空调等领域的混合现实（MR）与虚拟现实（VR）仿真技能培训[1][3]。\n\n具体服务对象细分如下：\n\n| 服务对象类别 | 具体包含 | 核心需求 |\n| :--- | :--- | :--- |\n| **企业端** | 工业巨头、中小型企业（SME） | 以更低成本（可节省高达 70%）和更短时间提升员工实操精度与信心 [1][3] |\n| **教育端** | K12 职业教育中心、大学、培训学院 | 提供沉浸式 3D 培训环境，解决传统教学资源不足或高风险问题 [1][3] |\n| **学习者** | 蓝领工人、职校学生 | 在无风险环境中练习焊接、喷漆、暖通等多技能，获得精准评估 [1] |\n\nSkillveri 的定位是“通过先进的混合现实/虚拟现实训练系统赋能全球有技能的劳动力”，其技术特别针对制造业技能（如 GMAW、SMAW 等焊接工艺及汽车修补喷漆）[1][3]。\n\n*注：搜索结果中存在名为\"SKILLVER\"的招聘公司（服务科技与设计行业人才）[2] 以及\"Skillvera\"（沙特教育与体育公司）[4]，但根据您查询的\"Skillveri\"（含 i 结尾），上述制造业仿真培训服务为其核心业务。*",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://in.linkedin.com/company/skillveri",
+      "https://www.linkedin.com/in/amine-boutaybi-b53621327",
+      "https://skillveri.com/",
+      "https://www.linkedin.com/company/skillvera",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://skillsbuild.org/zh/",
+      "https://baike.baidu.com/item/Skillshare/19695508",
+      "https://cloud.tencent.com/developer/article/2655651",
+      "https://www.hrtechchina.com/tag/%E4%BA%BA%E6%89%8D%E5%8F%91%E5%B1%95/",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://cloud.tencent.com/developer/article/2649164",
+      "https://meta.appinn.net/t/topic/84427",
+      "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html",
+      "https://www.thepaper.cn/newsDetail_forward_32983429",
+      "https://news.qq.com/rain/a/20260128A02DPZ00",
+      "https://www.yourator.co/companies/SkillsforU"
+    ],
+    "created": 1784599576,
+    "id": "3690d4d7-509f-4437-8b9c-c5a3a8bd983e",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2025-03-19",
+        "last_updated": "2025-03-27",
+        "place_metadata": null,
+        "snippet": "Our simulation platforms are not merely tools for instruction - they are purpose-built environments that build real confidence and precision in every worker..”\n(skillveri.com) In this conversation with Balasubramanian Natarajan of Motorindia Magazine, Sabarinath C Nair shares his vision for social c...",
+        "source": "web",
+        "title": "Skillveri MR & XR Simulations | LinkedIn",
+        "url": "https://in.linkedin.com/company/skillveri"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "I am the founder of SKILLVER, a recruitment firm specializing in connecting innovative companies with top talent in the fields of technology, design, and engineering.\n...\nWe help businesses recruit talent in the fields of technology, finance, and design.\nWe provide tailored recruitment services, inc...",
+        "source": "web",
+        "title": "Amine Boutaybi | LinkedIn",
+        "url": "https://www.linkedin.com/in/amine-boutaybi-b53621327"
+      },
+      {
+        "date": "2023-04-04",
+        "last_updated": "2026-03-04",
+        "place_metadata": null,
+        "snippet": "#### Enabling a Globally Skilled Workforce through Advanced Mixed Reality / Virtual Reality Training Systems with Integrated Haptics\n...\nSkillveri’s XR skill-training platform not only provides an immersive training for manufacturing sector skills, but also delivers an accurate measurement in a scor...",
+        "source": "web",
+        "title": "Skillveri - World's Leading MR & XR simulation platform for Skills",
+        "url": "https://skillveri.com/"
+      },
+      {
+        "date": "2026-01-06",
+        "last_updated": "2026-03-10",
+        "place_metadata": null,
+        "snippet": "#### A leading Saudi company in smart & athletic training, talent & tech consulting, integrating sports & education with AI.\n...\nSkillvera is a Saudi company specializing in education, sports, and talent development solutions for public and private sectors\n- **Website**",
+        "source": "web",
+        "title": "Skillvera - LinkedIn",
+        "url": "https://www.linkedin.com/company/skillvera"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-07-01",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "面向学校、高校及社区的世界级科技学习与职业技能培训。",
+        "source": "web",
+        "title": "掌握当今世界所需的人工智能与技术技能，开启你的未来",
+        "url": "https://skillsbuild.org/zh/"
+      },
+      {
+        "date": "2022-07-29",
+        "last_updated": "2024-12-20",
+        "place_metadata": null,
+        "snippet": "Skillshare是一个专注于技能分享的\n在线教育\n平台\n...\n不管是健身达人、星座达人、职场达人还是厨房达人，都可以在 skillshare 上开设一门课程给感兴趣的人授课，顺便赚取一些授课费。感兴趣的用户可以通过 Skillshare 平台参加所开设的课程。",
+        "source": "web",
+        "title": "Skillshare_百度百科",
+        "url": "https://baike.baidu.com/item/Skillshare/19695508"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-10",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款跨平台 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2655651"
+      },
+      {
+        "date": "2025-09-04",
+        "last_updated": "2025-09-07",
+        "place_metadata": null,
+        "snippet": "可扩展的人才 Skillvue公司由Nicolò Mazzocchi（25岁）和Simone Patera（32岁）于2021年在米兰创立，它能帮助企业以快速、客观和可扩展的方式分析求职者和员工的技能，帮助他们在招聘、人才发展和内部流动活动中采用基于技能的方法。\n...\n在招聘阶段之后，Skillvue 是一种战略工具，可支持人力资源部门大规模分析员工的技能，并为其决策提供客观、参数化的技能数据。这样就能更有效地将人才安置到公司（与传统的非技能型方法相比，概率提高了 107%），更长久地留住高绩效人才，并建立更符合公司和员工实际需求的职业发展道路和培训计划（这是多达 73% 的员工面临的关键问...",
+        "source": "web",
+        "title": "人才发展- HRTechChina.com - 向上的力量！",
+        "url": "https://www.hrtechchina.com/tag/%E4%BA%BA%E6%89%8D%E5%8F%91%E5%B1%95/"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "Skill-Verse：让英语口语更实用在当今世界，英语不仅仅是一门语言，更是一门开启教育、职业和机遇之门的技能。然而，许多学生和专业人士仍难以将课堂学习转化为实际的交流。Skill-Verse 口语英语应用程序正是为此应运而生。\nSkill-Verse 帮助学习者超越理论，以最实用的方式体验英语。无论您是准备升入下一阶段教育的学生，还是致力于提升职场沟通能力的专业人士，Skill-Verse 都能为您提供成功所需的架构、练习和信心。\n...\n9. 日常练习和反馈循序渐进的练习有助于养成习惯。反馈有助于学习者纠正错误，稳步提升。谁能受益？学生：提升学术、项目和职业生涯的沟通能力。专业人士：在会...",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2026-04-02",
+        "last_updated": "2026-04-04",
+        "place_metadata": null,
+        "snippet": "SkillHub 是一款面向中国用户的 AI 技能平台，核心技术属性和商业差异化卖点在于：\n...\nSkillHub 主要服务于中国用户，针对其在特定场景下的痛点：\n...\n**总结**：SkillHub 作为针对中国用户的 AI 技能平台，核心聚焦于解决本地网络和语言痛点，通过高速下载和能力集成提升用户体验。关键优势在于 **高速响应和安全保证**，突出中文界面和零代码操作；然而，缺乏技术指标支撑和案例佐证，需用户验证具体性能。",
+        "source": "web",
+        "title": "SkillHub 产品概览-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2649164"
+      },
+      {
+        "date": "2026-04-23",
+        "last_updated": "2026-05-07",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款多平台可用的 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。\n...\n定位： 解决 AI skills文件分散管理的问题，让开发者能够跨工具、跨项目高效复用技能。另外还是为了避免AI太过聪明会调用你不想调用的Skill.",
+        "source": "web",
+        "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具",
+        "url": "https://meta.appinn.net/t/topic/84427"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-16",
+        "place_metadata": null,
+        "snippet": "**对于企业而言，Skills的核心价值在于降本增效**，这也是Viy与摸鱼在各自的企业内部推动Skills落地的核心目标。",
+        "source": "web",
+        "title": "将同事「封装」「炼化」，Skill到底在干什么？",
+        "url": "https://www.21jingji.com/article/20260409/herald/a46c6cb846f1c4242aa747b59eb13e02.html"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-05-13",
+        "place_metadata": null,
+        "snippet": "简单地说，“Skill”就是一种可以被标准化、封装、复用和分发的能力单元。微信、支付宝、华为等发布的“支付集成Skill/Skill技能包”，通俗地说就是互联网/科技大厂把基础支付能力、复杂的业务规则和逻辑封装成AI可直接理解、调用的“技能包”，商家靠自然语言描述、说需求，就能快速、安全地把支付功能接好，降低AI接入支付的应用开发门槛，核心目的是抢占人工智能时代商家服务入口。\n...\n华为也在4月初正式宣布，鸿蒙支付服务（Payment Kit）接入Skill。这是一套面向开发者和外部商户的AI辅助集成工具，旨在帮助开发者减少文档阅读工作量，“最快通过三步操作完成基础支付功能的接入”。",
+        "source": "web",
+        "title": "互联网大厂为何扎堆布局“支付Skill”？",
+        "url": "https://www.thepaper.cn/newsDetail_forward_32983429"
+      },
+      {
+        "date": "2026-01-28",
+        "last_updated": "2026-02-16",
+        "place_metadata": null,
+        "snippet": "Skills.sh是一个为AI代理设计的技能共享平台，开发者可以通过简单的命令行工具快速获取和使用各种预制技能。运行npx skills﹫latest即可开始体验。",
+        "source": "web",
+        "title": "https://news.qq.com/rain/a/20260128A02DPZ00",
+        "url": "https://news.qq.com/rain/a/20260128A02DPZ00"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-03",
+        "place_metadata": null,
+        "snippet": "公益組織 Skills for U（社團法人國際技能發展協會）願景是打造一個技能驅動的公平社會，讓驕傲技職成為產業發展的強大力量；使命是技職人才培育，讓產業成為教室的延伸，為技職青年打造進入高成長產業的最短路徑，消弭學用落差，促進社會流動。",
+        "source": "web",
+        "title": "Skills for U－最新職缺徵才中",
+        "url": "https://www.yourator.co/companies/SkillsforU"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 441,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00044,
+        "request_cost": 0.005,
+        "total_cost": 0.00547
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 473
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:16.214101Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillveri 主要服务于**制造企业**、**学校与培训机构**（包括 K12 职业教育、学院及工业技能培训中心），旨在为**蓝领工人**（如焊工、喷漆工、HVAC 及太阳能安装技师）提供焊接、喷漆、暖通空调等领域的混合现实（MR）与虚拟现实（VR）仿真技能培训[1][3]。\n\n具体服务对象细分如下：\n\n| 服务对象类别 | 具体包含 | 核心需求 |\n| :--- | :--- | :--- |\n| **企业端** | 工业巨头、中小型企业（SME） | 以更低成本（可节省高达 70%）和更短时间提升员工实操精度与信心 [1][3] |\n| **教育端** | K12 职业教育中心、大学、培训学院 | 提供沉浸式 3D 培训环境，解决传统教学资源不足或高风险问题 [1][3] |\n| **学习者** | 蓝领工人、职校学生 | 在无风险环境中练习焊接、喷漆、暖通等多技能，获得精准评估 [1] |\n\nSkillveri 的定位是“通过先进的混合现实/虚拟现实训练系统赋能全球有技能的劳动力”，其技术特别针对制造业技能（如 GMAW、SMAW 等焊接工艺及汽车修补喷漆）[1][3]。\n\n*注：搜索结果中存在名为\"SKILLVER\"的招聘公司（服务科技与设计行业人才）[2] 以及\"Skillvera\"（沙特教育与体育公司）[4]，但根据您查询的\"Skillveri\"（含 i 结尾），上述制造业仿真培训服务为其核心业务。*",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

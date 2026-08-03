@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务于**企业和组织的人才相关需求**，包括招聘筛选、技能评估、员工培训与能力发展等；同时也可帮助个人展示、验证和提升自己的技能。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3u9jFmK56UhzkOSiUVAsxWD1qERn",
+    "object": "chat.completion",
+    "created": 1784599555,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务于**企业和组织的人才相关需求**，包括招聘筛选、技能评估、员工培训与能力发展等；同时也可帮助个人展示、验证和提升自己的技能。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 372,
+      "total_tokens": 414,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 318,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:03.994967Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务于**企业和组织的人才相关需求**，包括招聘筛选、技能评估、员工培训与能力发展等；同时也可帮助个人展示、验证和提升自己的技能。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

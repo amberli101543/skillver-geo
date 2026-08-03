@@ -14,7 +14,7 @@
       "enum": ["draft", "approved", "retired"]
     },
     "productState": {
-      "const": "全面开放注册；邀请码仅用于赛事参与"
+      "const": "全面开放注册；邀请码仅用于社群参与"
     },
     "questions": {
       "type": "array",

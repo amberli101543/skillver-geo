@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "Skillver 处理简历和面试数据通常涉及以下环节：\n\n1. **简历解析**：通过自然语言处理（NLP）技术，自动提取简历中的关键信息（如教育背景、工作经历、技能、联系方式等），并将其结构化存储。\n2. **数据匹配**：将解析后的简历数据与职位要求进行匹配，评估候选人的适合度，生成排名或评分。\n3. **面试数据采集**：在面试过程中，记录音频、视频或文字内容，可能通过语音识别将对话转为文本，并提取关键回答、技术表现、沟通能力等特征。\n4. **分析与评估**：利用机器学习模型对面试数据进行分析，评估候选人的技能、文化匹配度、潜在风险等，辅助招聘决策。\n5. **数据存储与安全**：按照隐私法规（如GDPR）加密存储简历和面试数据，控制访问权限，并支持后续检索、统计或导出报告。\n\n具体实现细节可能因产品版本或客户定制而异。如有特定功能疑问，建议查阅官方文档或联系技术支持。",
+  "sources": [],
+  "raw": {
+    "id": "97bda6e1-f3dd-463e-a102-d0b815aea952",
+    "object": "chat.completion",
+    "created": 1784600280,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 处理简历和面试数据通常涉及以下环节：\n\n1. **简历解析**：通过自然语言处理（NLP）技术，自动提取简历中的关键信息（如教育背景、工作经历、技能、联系方式等），并将其结构化存储。\n2. **数据匹配**：将解析后的简历数据与职位要求进行匹配，评估候选人的适合度，生成排名或评分。\n3. **面试数据采集**：在面试过程中，记录音频、视频或文字内容，可能通过语音识别将对话转为文本，并提取关键回答、技术表现、沟通能力等特征。\n4. **分析与评估**：利用机器学习模型对面试数据进行分析，评估候选人的技能、文化匹配度、潜在风险等，辅助招聘决策。\n5. **数据存储与安全**：按照隐私法规（如GDPR）加密存储简历和面试数据，控制访问权限，并支持后续检索、统计或导出报告。\n\n具体实现细节可能因产品版本或客户定制而异。如有特定功能疑问，建议查阅官方文档或联系技术支持。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 219,
+      "total_tokens": 257,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:18:02.179335Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "Skillver 处理简历和面试数据通常涉及以下环节：\n\n1. **简历解析**：通过自然语言处理（NLP）技术，自动提取简历中的关键信息（如教育背景、工作经历、技能、联系方式等），并将其结构化存储。\n2. **数据匹配**：将解析后的简历数据与职位要求进行匹配，评估候选人的适合度，生成排名或评分。\n3. **面试数据采集**：在面试过程中，记录音频、视频或文字内容，可能通过语音识别将对话转为文本，并提取关键回答、技术表现、沟通能力等特征。\n4. **分析与评估**：利用机器学习模型对面试数据进行分析，评估候选人的技能、文化匹配度、潜在风险等，辅助招聘决策。\n5. **数据存储与安全**：按照隐私法规（如GDPR）加密存储简历和面试数据，控制访问权限，并支持后续检索、统计或导出报告。\n\n具体实现细节可能因产品版本或客户定制而异。如有特定功能疑问，建议查阅官方文档或联系技术支持。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

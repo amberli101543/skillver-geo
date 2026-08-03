@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "您问的“**Skillver**”可能是以下某个软件或平台的拼写错误。以下是几个常见相关工具的收费情况：\n\n1. **如果是 Sliver（网络安全/红队C2框架）**：\n   * **免费**。Sliver 是一个开源的跨平台后渗透（C2）测试框架，完全免费。\n\n2. **如果是 Skillshare（在线学习平台）**：\n   * **收费**。这是一个付费的订阅制在线学习平台（提供免费试用，但长期观看课程需要付费订阅）。\n\n3. **如果是 SillyTavern（酒馆 - AI 角色扮演前端）**：\n   * **软件本身免费**。SillyTavern 是开源且免费的，但如果你在后台连接需要付费的 AI 接口（如 OpenAI、Claude 等 API），则需要为这些 API 支付费用。\n\n如果您指的是其他特定的产品或服务，请提供更多背景信息，以便我为您准确查询。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您问的“**Skillver**”可能是以下某个软件或平台的拼写错误。以下是几个常见相关工具的收费情况：\n\n1. **如果是 Sliver（网络安全/红队C2框架）**：\n   * **免费**。Sliver 是一个开源的跨平台后渗透（C2）测试框架，完全免费。\n\n2. **如果是 Skillshare（在线学习平台）**：\n   * **收费**。这是一个付费的订阅制在线学习平台（提供免费试用，但长期观看课程需要付费订阅）。\n\n3. **如果是 SillyTavern（酒馆 - AI 角色扮演前端）**：\n   * **软件本身免费**。SillyTavern 是开源且免费的，但如果你在后台连接需要付费的 AI 接口（如 OpenAI、Claude 等 API），则需要为这些 API 支付费用。\n\n如果您指的是其他特定的产品或服务，请提供更多背景信息，以便我为您准确查询。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604074,
+    "id": "l-VeapuzGP-mqtsPgpj1-Qk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 34,
+      "total_tokens": 1385
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:21:14.011424Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "您问的“**Skillver**”可能是以下某个软件或平台的拼写错误。以下是几个常见相关工具的收费情况：\n\n1. **如果是 Sliver（网络安全/红队C2框架）**：\n   * **免费**。Sliver 是一个开源的跨平台后渗透（C2）测试框架，完全免费。\n\n2. **如果是 Skillshare（在线学习平台）**：\n   * **收费**。这是一个付费的订阅制在线学习平台（提供免费试用，但长期观看课程需要付费订阅）。\n\n3. **如果是 SillyTavern（酒馆 - AI 角色扮演前端）**：\n   * **软件本身免费**。SillyTavern 是开源且免费的，但如果你在后台连接需要付费的 AI 接口（如 OpenAI、Claude 等 API），则需要为这些 API 支付费用。\n\n如果您指的是其他特定的产品或服务，请提供更多背景信息，以便我为您准确查询。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

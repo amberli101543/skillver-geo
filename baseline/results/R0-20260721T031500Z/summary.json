@@ -1,0 +1,30 @@
+{
+  "roundId": "R0",
+  "productState": "全面开放注册；邀请码仅用于赛事参与",
+  "startedAt": "20260721T031500Z",
+  "finishedAt": "2026-07-21T03:15:20.481122Z",
+  "engines": [
+    "gemini"
+  ],
+  "missingKeys": [],
+  "questionCount": 1,
+  "successCount": 1,
+  "errorCount": 0,
+  "errors": [],
+  "metrics": {
+    "total": 1,
+    "engines": {
+      "gemini": {
+        "n": 1,
+        "mentionRate": 1.0,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0,
+        "positioningYesRate": 0.0,
+        "entryYesRate": null
+      }
+    },
+    "overallMentionRate": 1.0,
+    "overallStaleNarrativeRate": 0.0
+  },
+  "note": "API surface only; App/Web 端需人工补测。hallucination 字段需人工复核。"
+}

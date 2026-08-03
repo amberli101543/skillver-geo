@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "**简历优化工具**和**AI面试工具**是求职/招聘流程中两个不同阶段的辅助工具，其核心区别在于**应用阶段、处理介质和核心功能**的不同：\n\n### 1. 简历优化工具 (Resume Optimization Tools)\n*   **适用阶段**：求职前期（投递简历前）。\n*   **处理介质**：文字、文档（PDF/Word）。\n*   **核心目标**：帮助求职者**获得面试机会**（即通过HR或ATS系统的初筛）。\n*   **主要功能**：\n    *   **ATS匹配（关键词优化）**：分析目标岗位的招聘需求（JD），检测简历中的关键词匹配度，避免被系统的自动筛选过滤。\n    *   **内容润色**：利用AI（如GPT）润色工作描述，使其更具专业度和结果导向性（如使用“STAR法则”）。\n    *   **格式和排版**：自动纠正语法错误，提供标准、美观的简历模板。\n\n### 2. AI面试工具 (AI Interview Tools)\n*   **适用阶段**：求职中后期（面试准备或企业筛选阶段）。\n*   **处理介质**：语音、视频、实时交互。\n*   **核心目标**：\n    *   *对求职者*：**模拟真实面试**，提升表达和应变能力。\n    *   *对企业HR*：**快速筛选候选人**，降低面试的时间和人力成本。\n*   **主要功能**：\n    *   **模拟/练习（求职者端）**：AI扮演面试官提出专业或行为面试题，求职者语音回答，AI根据回答的逻辑性、流畅度、表情和语气给出评分和改进建议。\n    *   **初筛评估（企业端）**：企业让候选人录制视频回答问题，AI通过NLP（自然语言处理）和视觉算法，评估候选人的专业技能、性格特质、甚至诚实度。\n\n---\n\n### 对比总结\n\n| 特性 | 简历优化工具 | AI 面试工具 |\n| :--- | :--- | :--- |\n| **解决的问题** | “我的简历写得好不好？能不能过初筛？” | “我表现得怎么样？能不能拿到Offer？” |\n| **交互方式** | 单向的文本输入与修改 | 双向的语音/视频模拟或考核 |\n| **关注指标** | 关键词匹配度、语法、排版、经历完整度 | 表达逻辑、专业知识、情绪表情、沟通技巧 |\n| **典型代表** | Jobscan, Resumake, 各种AI简历生成器 | HireVue（企业端）, 各种AI模拟面试小程序 |\n\n**一句话总结**：**简历优化工具**帮你拿到“面试入场券”；而**AI面试工具**则帮你（或帮企业）决定能不能“通过面试”。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**简历优化工具**和**AI面试工具**是求职/招聘流程中两个不同阶段的辅助工具，其核心区别在于**应用阶段、处理介质和核心功能**的不同：\n\n### 1. 简历优化工具 (Resume Optimization Tools)\n*   **适用阶段**：求职前期（投递简历前）。\n*   **处理介质**：文字、文档（PDF/Word）。\n*   **核心目标**：帮助求职者**获得面试机会**（即通过HR或ATS系统的初筛）。\n*   **主要功能**：\n    *   **ATS匹配（关键词优化）**：分析目标岗位的招聘需求（JD），检测简历中的关键词匹配度，避免被系统的自动筛选过滤。\n    *   **内容润色**：利用AI（如GPT）润色工作描述，使其更具专业度和结果导向性（如使用“STAR法则”）。\n    *   **格式和排版**：自动纠正语法错误，提供标准、美观的简历模板。\n\n### 2. AI面试工具 (AI Interview Tools)\n*   **适用阶段**：求职中后期（面试准备或企业筛选阶段）。\n*   **处理介质**：语音、视频、实时交互。\n*   **核心目标**：\n    *   *对求职者*：**模拟真实面试**，提升表达和应变能力。\n    *   *对企业HR*：**快速筛选候选人**，降低面试的时间和人力成本。\n*   **主要功能**：\n    *   **模拟/练习（求职者端）**：AI扮演面试官提出专业或行为面试题，求职者语音回答，AI根据回答的逻辑性、流畅度、表情和语气给出评分和改进建议。\n    *   **初筛评估（企业端）**：企业让候选人录制视频回答问题，AI通过NLP（自然语言处理）和视觉算法，评估候选人的专业技能、性格特质、甚至诚实度。\n\n---\n\n### 对比总结\n\n| 特性 | 简历优化工具 | AI 面试工具 |\n| :--- | :--- | :--- |\n| **解决的问题** | “我的简历写得好不好？能不能过初筛？” | “我表现得怎么样？能不能拿到Offer？” |\n| **交互方式** | 单向的文本输入与修改 | 双向的语音/视频模拟或考核 |\n| **关注指标** | 关键词匹配度、语法、排版、经历完整度 | 表达逻辑、专业知识、情绪表情、沟通技巧 |\n| **典型代表** | Jobscan, Resumake, 各种AI简历生成器 | HireVue（企业端）, 各种AI模拟面试小程序 |\n\n**一句话总结**：**简历优化工具**帮你拿到“面试入场券”；而**AI面试工具**则帮你（或帮企业）决定能不能“通过面试”。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604331,
+    "id": "meZeaunBKdmGz7IPtcu2yAI",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 639,
+      "prompt_tokens": 39,
+      "total_tokens": 1427
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:25:31.154573Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "**简历优化工具**和**AI面试工具**是求职/招聘流程中两个不同阶段的辅助工具，其核心区别在于**应用阶段、处理介质和核心功能**的不同：\n\n### 1. 简历优化工具 (Resume Optimization Tools)\n*   **适用阶段**：求职前期（投递简历前）。\n*   **处理介质**：文字、文档（PDF/Word）。\n*   **核心目标**：帮助求职者**获得面试机会**（即通过HR或ATS系统的初筛）。\n*   **主要功能**：\n    *   **ATS匹配（关键词优化）**：分析目标岗位的招聘需求（JD），检测简历中的关键词匹配度，避免被系统的自动筛选过滤。\n    *   **内容润色**：利用AI（如GPT）润色工作描述，使其更具专业度和结果导向性（如使用“STAR法则”）。\n    *   **格式和排版**：自动纠正语法错误，提供标准、美观的简历模板。\n\n### 2. AI面试工具 (AI Interview Tools)\n*   **适用阶段**：求职中后期（面试准备或企业筛选阶段）。\n*   **处理介质**：语音、视频、实时交互。\n*   **核心目标**：\n    *   *对求职者*：**模拟真实面试**，提升表达和应变能力。\n    *   *对企业HR*：**快速筛选候选人**，降低面试的时间和人力成本。\n*   **主要功能**：\n    *   **模拟/练习（求职者端）**：AI扮演面试官提出专业或行为面试题，求职者语音回答，AI根据回答的逻辑性、流畅度、表情和语气给出评分和改进建议。\n    *   **初筛评估（企业端）**：企业让候选人录制视频回答问题，AI通过NLP（自然语言处理）和视觉算法，评估候选人的专业技能、性格特质、甚至诚实度。\n\n---\n\n### 对比总结\n\n| 特性 | 简历优化工具 | AI 面试工具 |\n| :--- | :--- | :--- |\n| **解决的问题** | “我的简历写得好不好？能不能过初筛？” | “我表现得怎么样？能不能拿到Offer？” |\n| **交互方式** | 单向的文本输入与修改 | 双向的语音/视频模拟或考核 |\n| **关注指标** | 关键词匹配度、语法、排版、经历完整度 | 表达逻辑、专业知识、情绪表情、沟通技巧 |\n| **典型代表** | Jobscan, Resumake, 各种AI简历生成器 | HireVue（企业端）, 各种AI模拟面试小程序 |\n\n**一句话总结**：**简历优化工具**帮你拿到“面试入场券”；而**AI面试工具**则帮你（或帮企业）决定能不能“通过面试”。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

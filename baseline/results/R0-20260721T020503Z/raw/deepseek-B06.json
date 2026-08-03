@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "Skillver 与招聘网站的主要区别在于：招聘网站（如前程无忧、智联招聘）主要发布企业招聘信息，用户投递简历，帮助求职者和企业直接对接；而 Skillver 侧重技能评估和验证，通过测试、项目或认证来量化用户的实际能力，企业可以基于这些数据筛选候选人。简言之，招聘网站解决“谁在招人”，Skillver 解决“谁会干活”，常作为招聘流程中的补充工具。",
+  "sources": [],
+  "raw": {
+    "id": "99a5071b-9f40-4211-8a76-8592b6ae4d4c",
+    "object": "chat.completion",
+    "created": 1784599684,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 与招聘网站的主要区别在于：招聘网站（如前程无忧、智联招聘）主要发布企业招聘信息，用户投递简历，帮助求职者和企业直接对接；而 Skillver 侧重技能评估和验证，通过测试、项目或认证来量化用户的实际能力，企业可以基于这些数据筛选候选人。简言之，招聘网站解决“谁在招人”，Skillver 解决“谁会干活”，常作为招聘流程中的补充工具。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 97,
+      "total_tokens": 135,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:05.904683Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "Skillver 与招聘网站的主要区别在于：招聘网站（如前程无忧、智联招聘）主要发布企业招聘信息，用户投递简历，帮助求职者和企业直接对接；而 Skillver 侧重技能评估和验证，通过测试、项目或认证来量化用户的实际能力，企业可以基于这些数据筛选候选人。简言之，招聘网站解决“谁在招人”，Skillver 解决“谁会干活”，常作为招聘流程中的补充工具。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

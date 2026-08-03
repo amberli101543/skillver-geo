@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "**Skillver** 是一个**技能评估和认证平台**，主要用于以下场景：\n\n1. **求职/招聘** – 求职者可以展示经过验证的技能，雇主可以更准确地评估候选人能力。\n\n2. **技能验证** – 通过测试和评估来证明个人在某一领域的专业能力。\n\n3. **职业发展** – 帮助用户了解自己的技能差距，规划职业成长路径。\n\n4. **企业人才管理** – 企业用于内部员工技能评估和培训需求分析。\n\n---\n\n如果您指的是其他含义的 \"Skillver\"，请提供更多背景信息，我可以给出更准确的回答。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPbYJQw9TXZKuJ8m3dA",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver** 是一个**技能评估和认证平台**，主要用于以下场景：\n\n1. **求职/招聘** – 求职者可以展示经过验证的技能，雇主可以更准确地评估候选人能力。\n\n2. **技能验证** – 通过测试和评估来证明个人在某一领域的专业能力。\n\n3. **职业发展** – 帮助用户了解自己的技能差距，规划职业成长路径。\n\n4. **企业人才管理** – 企业用于内部员工技能评估和培训需求分析。\n\n---\n\n如果您指的是其他含义的 \"Skillver\"，请提供更多背景信息，我可以给出更准确的回答。"
+        }
+      }
+    ],
+    "created": 1784599836,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 223,
+      "prompt_tokens": 48,
+      "total_tokens": 271
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:36.682624Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "**Skillver** 是一个**技能评估和认证平台**，主要用于以下场景：\n\n1. **求职/招聘** – 求职者可以展示经过验证的技能，雇主可以更准确地评估候选人能力。\n\n2. **技能验证** – 通过测试和评估来证明个人在某一领域的专业能力。\n\n3. **职业发展** – 帮助用户了解自己的技能差距，规划职业成长路径。\n\n4. **企业人才管理** – 企业用于内部员工技能评估和培训需求分析。\n\n---\n\n如果您指的是其他含义的 \"Skillver\"，请提供更多背景信息，我可以给出更准确的回答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于赛事参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "关于\"Skillver 邀请码”的获取方式，目前**搜索结果中并未发现名为\"Skillver\"的特定平台或服务的官方邀请码获取指南**。\n\n这可能是因为：\n1. **名称拼写误差**：您可能指的是 **Skillveri**（一家位于印度的教育/培训科技公司，提供考试模拟应用），其 Google Play 应用名为\"Skillveri Support\"[6]。如果是 Skillveri，通常**不需要邀请码**即可注册使用，若需联系支持可直接发送邮件至 `support@skillveri.com` 或 `skillveri@skillveri.com`[6]。\n2. **混淆了其他平台**：搜索结果中包含大量关于其他平台（如 SD 钢弹 G 世代、Sora2、OKX 欧易、安全团队贡献平台等）的邀请码攻略[1][2][5][8][9]，这些与\"Skillver\"无关。\n\n**建议采取以下步骤：**\n- **确认名称**：请再次确认您想查询的平台全称是否为 **Skillver**、**Skillveri** 或其他名称（例如是否有前后缀）。\n- **直接联系官方**：如果确实是 Skillveri，建议直接访问其官网或应用内联系官方客服确认注册流程。\n- **检查社区/论坛**：如果该平台是新兴工具或内部测试项目，邀请码可能仅在特定社区（如 Discord、Reddit、Twitter/X）由用户分享，您可以尝试在社交媒体搜索\"Skillver invite code\"。\n\n如果您能提供该平台的**具体用途**（例如：是游戏、AI 工具、考试系统还是论坛）或**官网链接**，我可以为您进行更精准的查找。",
+  "sources": [
+    {
+      "url": "https://forum.gamer.com.tw/C.php?bsn=74906&snA=1030",
+      "title": ""
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%82%80%E8%AF%B7%E7%A0%81/1018810",
+      "title": ""
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve",
+      "title": ""
+    },
+    {
+      "url": "http://caoliushequz.site44.com/qiangmajiqiao.html",
+      "title": ""
+    },
+    {
+      "url": "https://wiki.shikangsi.com/announcements/17/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/%E6%B3%A8%E5%86%8C%E9%82%80%E8%AF%B7%E7%A0%81%E5%8A%A9%E6%89%8B/ndmlflmkmohjoechiepcpflbljadmemp?hl=zh-CN",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3If2d0XmaS4",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/rangling/sora2-invite-guide",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/yxysuanfa/p/19123992",
+      "title": ""
+    },
+    {
+      "url": "https://forum.gamer.com.tw/C.php?bsn=74906&snA=1030",
+      "title": "【攻略】關於【邀請好友】1500鑽的解法 @SD 鋼彈 G 世代 永恆 哈啦板 - 巴哈姆特"
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E9%82%80%E8%AF%B7%E7%A0%81/1018810",
+      "title": "邀请码"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve",
+      "title": "Get Skill Version | Claude API Reference"
+    },
+    {
+      "url": "http://caoliushequz.site44.com/qiangmajiqiao.html",
+      "title": "邀请码注册活动抢码小技巧"
+    },
+    {
+      "url": "https://wiki.shikangsi.com/announcements/17/",
+      "title": "20240228-邀请码获取方式 - 安全团队贡献平台"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/%E6%B3%A8%E5%86%8C%E9%82%80%E8%AF%B7%E7%A0%81%E5%8A%A9%E6%89%8B/ndmlflmkmohjoechiepcpflbljadmemp?hl=zh-CN",
+      "title": "注册邀请码助手 - Chrome 应用商店"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3If2d0XmaS4",
+      "title": "欧易 OKX 新手教程：安卓和苹果手机注册、认证、安全设置、邀请码获取，零基础也能看懂"
+    },
+    {
+      "url": "https://github.com/rangling/sora2-invite-guide",
+      "title": "【2026最新】Sora2 邀请码获取与使用教程| 购买/分享指南(9.9元起)"
+    },
+    {
+      "url": "https://www.cnblogs.com/yxysuanfa/p/19123992",
+      "title": "Sora2万能邀请码使用教程之Sora2入门体验详细教程- 实践- yxysuanfa"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "关于\"Skillver 邀请码”的获取方式，目前**搜索结果中并未发现名为\"Skillver\"的特定平台或服务的官方邀请码获取指南**。\n\n这可能是因为：\n1. **名称拼写误差**：您可能指的是 **Skillveri**（一家位于印度的教育/培训科技公司，提供考试模拟应用），其 Google Play 应用名为\"Skillveri Support\"[6]。如果是 Skillveri，通常**不需要邀请码**即可注册使用，若需联系支持可直接发送邮件至 `support@skillveri.com` 或 `skillveri@skillveri.com`[6]。\n2. **混淆了其他平台**：搜索结果中包含大量关于其他平台（如 SD 钢弹 G 世代、Sora2、OKX 欧易、安全团队贡献平台等）的邀请码攻略[1][2][5][8][9]，这些与\"Skillver\"无关。\n\n**建议采取以下步骤：**\n- **确认名称**：请再次确认您想查询的平台全称是否为 **Skillver**、**Skillveri** 或其他名称（例如是否有前后缀）。\n- **直接联系官方**：如果确实是 Skillveri，建议直接访问其官网或应用内联系官方客服确认注册流程。\n- **检查社区/论坛**：如果该平台是新兴工具或内部测试项目，邀请码可能仅在特定社区（如 Discord、Reddit、Twitter/X）由用户分享，您可以尝试在社交媒体搜索\"Skillver invite code\"。\n\n如果您能提供该平台的**具体用途**（例如：是游戏、AI 工具、考试系统还是论坛）或**官网链接**，我可以为您进行更精准的查找。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://forum.gamer.com.tw/C.php?bsn=74906&snA=1030",
+      "https://baike.baidu.com/item/%E9%82%80%E8%AF%B7%E7%A0%81/1018810",
+      "https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve",
+      "http://caoliushequz.site44.com/qiangmajiqiao.html",
+      "https://wiki.shikangsi.com/announcements/17/",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://chromewebstore.google.com/detail/%E6%B3%A8%E5%86%8C%E9%82%80%E8%AF%B7%E7%A0%81%E5%8A%A9%E6%89%8B/ndmlflmkmohjoechiepcpflbljadmemp?hl=zh-CN",
+      "https://www.youtube.com/watch?v=3If2d0XmaS4",
+      "https://github.com/rangling/sora2-invite-guide",
+      "https://www.cnblogs.com/yxysuanfa/p/19123992"
+    ],
+    "created": 1784599902,
+    "id": "e36124d4-053c-493b-9245-de8720db771e",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2025-04-23",
+        "last_updated": "2026-05-06",
+        "place_metadata": null,
+        "snippet": "只能輸入別人的邀請碼一次，而且邀請是單向的，就是你輸入別人的邀請碼那個人不會出現在你的邀請清單上，也就是說你拿不到你輸入邀請碼人的PT獎勵。\n每位邀請人最多拿100PT，這活動要1000PT。我想到了2種解法\n1.找10位願意單方面輸入你的邀請碼且練到20級\n2.創小號輸入本體的邀請碼，用略過練到10級，這樣可以拿40PT，要重複25次。\n第2種方式流程:新帳號->略過新手關卡，可以自由動之後->選單的好友邀請輸入本尊的邀請碼->回主會面點出擊(這樣可以跳過一段教程)->一直用略過刷1-2(用鑽石補充略過次數和體力)->練到10級->回標題畫面刪除使用者資料。重複25次\n...\n直接刷好首抽 ...",
+        "source": "web",
+        "title": "【攻略】關於【邀請好友】1500鑽的解法 @SD 鋼彈 G 世代 永恆 哈啦板 - 巴哈姆特",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=74906&snA=1030"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-02-05",
+        "place_metadata": null,
+        "snippet": "1.已经注册的会员通过在论坛活动（如发帖，回帖等），获得论坛币后，当你的权限和论坛币达到购买条件时，在需要的时候就可以支付一定的论坛币，购买邀请码，然后再将邀请码通过QQ、邮件等方式发送给想要注册论坛的人，你也可以到其它论坛上出售或者交换成其他论坛的论坛币，当然卖成RMB也可。\n2.没有邀请码的可以找论坛中认识的人赠送。一般的邀请码是需要购买的，一些可以用其他论坛的邀请码交换，或者用其他论坛的论坛币购买，也可以在一些交易网站（如淘宝网）上用RMB购买，不同论坛的邀请码价格不同。\n3.有的论坛可能会定期免费发放邀请码；也有的论坛会在某些特定的时间（如节日[一般集中在五一、十一、春节等大型节日期间...",
+        "source": "web",
+        "title": "邀请码",
+        "url": "https://baike.baidu.com/item/%E9%82%80%E8%AF%B7%E7%A0%81/1018810"
+      },
+      {
+        "date": "2024-09-24",
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "##### Get Skill Version\n/v1/skills/{skill_id}/versions/{version}?beta=true\nGet Skill Version\n...\n##### Get Skill Version\ncURL\n```\ncurl https://api.anthropic.com/v1/skills/$SKILL_ID/versions/$VERSION?beta=true \\\n-H \"X-Api-Key: $ANTHROPIC_API_KEY\"\n```",
+        "source": "web",
+        "title": "Get Skill Version | Claude API Reference",
+        "url": "https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-01",
+        "place_metadata": null,
+        "snippet": "邀请码来源： CL300积分可以换一枚邀请码，300积分就是贡献值 大家浏览社区的时候可以看到有些大大会员下面的贡献值都很高 那他们就可以买很多 但是如果发了很多码的话 可能会触及版规 这也就是为什么 大家求邀请码的时候 很多大大都不能给你的原因 版规很重要\n...\n说远了，那么邀请码主要途径就是社区 所以大家要经常关注社区，特别是1，11，21号晚上\n途径1：逢1发码，意思就是每个月1号，11号，21号晚上10点，记住时间（如有变换时间我会更新，目前都是以这个为准） 版主会在技术讨论区发布一个帖子 标题一般为：《每月逢1举行发码活动，跟贴发码每码加10-15威望，本次发码时间为 11月21日...",
+        "source": "web",
+        "title": "邀请码注册活动抢码小技巧",
+        "url": "http://caoliushequz.site44.com/qiangmajiqiao.html"
+      },
+      {
+        "date": "2024-02-28",
+        "last_updated": "2025-10-10",
+        "place_metadata": null,
+        "snippet": "获取邀请码方式https://wiki.shikangsi.com/\n1、任意漏洞报告（自行打码）\n2、任意大赛任意题目write up（附名字）\n3、任意技术分享文章（建议为原创，转载请注明出处）\n~~4、通过（80分及以上）以下测试http://exam.shikangsi.cn/www/index.php?ctg=lesson_info&lessons_ID=19~~\n~~5、其他合理理由。~~\n~~markdown格式，邮件发送至admin@sg95.cn，通过后并入用户名下。~~\n~~6、联系以下合作伙伴获取，微信公众号：墨雪飘影、明暗安全、F12sec~~\n~~其中第四项请自行使用...",
+        "source": "web",
+        "title": "20240228-邀请码获取方式 - 安全团队贡献平台",
+        "url": "https://wiki.shikangsi.com/announcements/17/"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2024-12-18",
+        "last_updated": "2025-01-06",
+        "place_metadata": null,
+        "snippet": "使用步驟： 1.\n打開注冊頁 2.\n點擊擴展圖標 3.\n輸入含*號的邀請碼，以空格分隔 4.\n點擊開始篩選 彈框自定義掩碼規則： * : 星號將被替換為 0-9 以及 a-f 16 個 字符 [abcd]: 將被分別替換為a、b、c、d [x-y]: 將",
+        "source": "web",
+        "title": "注册邀请码助手 - Chrome 应用商店",
+        "url": "https://chromewebstore.google.com/detail/%E6%B3%A8%E5%86%8C%E9%82%80%E8%AF%B7%E7%A0%81%E5%8A%A9%E6%89%8B/ndmlflmkmohjoechiepcpflbljadmemp?hl=zh-CN"
+      },
+      {
+        "date": "2026-05-27",
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "Click the \"Register\" button in the middle, then \"Register Now.\"\n...\n{ts:406} \" Confirm your residential address.\nNext, enter your email address.\nThe next step is crucial;\n{ts:412} there 's an invitation code field . Make sure to enter this invitation code.\nHere, I'll enter my invitation code: 9813.\n...",
+        "source": "web",
+        "title": "欧易 OKX 新手教程：安卓和苹果手机注册、认证、安全设置、邀请码获取，零基础也能看懂",
+        "url": "https://www.youtube.com/watch?v=3If2d0XmaS4"
+      },
+      {
+        "date": "2026-05-11",
+        "last_updated": "2025-10-20",
+        "place_metadata": null,
+        "snippet": "在各种社交媒体和论坛，很多热心网友在免费分享 Sora2 邀请码。你可以在 X (推特) 上搜 “Sora invite code”，常常会看到有人发文放出邀请码可使用。外国的 Reddit 等社区也有人分享邀请码列表，可能一下你就抓到了。\n...\n加入 OpenAI 的官方 Discord 社区，在 Sora2 交流频道中有很多人分享邀请码。只要在群里看到有人发布邀请码，就赶紧复制去使用。此外，一些科技社区的 Discord 群组里也会有人集体发码。注意，国内用户需要 VPN 进行跨墙才能使用 Discord。",
+        "source": "web",
+        "title": "【2026最新】Sora2 邀请码获取与使用教程| 购买/分享指南(9.9元起)",
+        "url": "https://github.com/rangling/sora2-invite-guide"
+      },
+      {
+        "date": "2025-10-02",
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "> **万能邀请码：A85AN6，已被 6k+ Sora2 用户使用，来自于 OpenAI 员工。**",
+        "source": "web",
+        "title": "Sora2万能邀请码使用教程之Sora2入门体验详细教程- 实践- yxysuanfa",
+        "url": "https://www.cnblogs.com/yxysuanfa/p/19123992"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 421,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00042,
+        "request_cost": 0.005,
+        "total_cost": 0.00546
+      },
+      "prompt_tokens": 34,
+      "search_context_size": "low",
+      "total_tokens": 455
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:42.748885Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "关于\"Skillver 邀请码”的获取方式，目前**搜索结果中并未发现名为\"Skillver\"的特定平台或服务的官方邀请码获取指南**。\n\n这可能是因为：\n1. **名称拼写误差**：您可能指的是 **Skillveri**（一家位于印度的教育/培训科技公司，提供考试模拟应用），其 Google Play 应用名为\"Skillveri Support\"[6]。如果是 Skillveri，通常**不需要邀请码**即可注册使用，若需联系支持可直接发送邮件至 `support@skillveri.com` 或 `skillveri@skillveri.com`[6]。\n2. **混淆了其他平台**：搜索结果中包含大量关于其他平台（如 SD 钢弹 G 世代、Sora2、OKX 欧易、安全团队贡献平台等）的邀请码攻略[1][2][5][8][9]，这些与\"Skillver\"无关。\n\n**建议采取以下步骤：**\n- **确认名称**：请再次确认您想查询的平台全称是否为 **Skillver**、**Skillveri** 或其他名称（例如是否有前后缀）。\n- **直接联系官方**：如果确实是 Skillveri，建议直接访问其官网或应用内联系官方客服确认注册流程。\n- **检查社区/论坛**：如果该平台是新兴工具或内部测试项目，邀请码可能仅在特定社区（如 Discord、Reddit、Twitter/X）由用户分享，您可以尝试在社交媒体搜索\"Skillver invite code\"。\n\n如果您能提供该平台的**具体用途**（例如：是游戏、AI 工具、考试系统还是论坛）或**官网链接**，我可以为您进行更精准的查找。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "目前我没有可靠信息确认 Skillver 是否有独立的移动端 App。建议你查看 Skillver 官网或在 App Store / 应用商店搜索“Skillver”。\n\n如果只是想在手机上使用，也可以先尝试通过手机浏览器访问其网页版。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uG0D9bi4FhIylrVV4Uqf6EK3Q1s",
+    "object": "chat.completion",
+    "created": 1784599944,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前我没有可靠信息确认 Skillver 是否有独立的移动端 App。建议你查看 Skillver 官网或在 App Store / 应用商店搜索“Skillver”。\n\n如果只是想在手机上使用，也可以先尝试通过手机浏览器访问其网页版。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 370,
+      "total_tokens": 412,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 304,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:31.993254Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "目前我没有可靠信息确认 Skillver 是否有独立的移动端 App。建议你查看 Skillver 官网或在 App Store / 应用商店搜索“Skillver”。\n\n如果只是想在手机上使用，也可以先尝试通过手机浏览器访问其网页版。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

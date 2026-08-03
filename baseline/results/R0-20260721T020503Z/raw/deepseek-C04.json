@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C04",
+    "category": "category",
+    "query": "怎么选择 AI 面试练习工具？",
+    "passCriteria": [
+      "给出可核验的选型维度",
+      "不使用未经证实的最佳或第一表述"
+    ]
+  },
+  "answer": "选择AI面试练习工具时，可从以下几个核心维度评估：\n\n1. **题库覆盖**：确保行业（如互联网、金融）和职位（技术、产品、销售）对口，题量充足且更新及时。\n2. **AI模拟真实度**：测试交互是否流畅、追问是否合理、能否模拟HR压力面试节奏。\n3. **反馈质量**：优秀工具会从**表达逻辑、语速、关键词命中、表情/肢体**（如果开摄像头）多维度评分，而非只给总分。\n4. **行业针对性**：部分工具专攻技术岗（LeetCode风格算法题），有的侧重行为面试（STAR原则），需按需选择。\n5. **随机性**：避免题库固定，好的工具会随机抽题或根据你简历生成个性化问题，防死记硬背。\n6. **历史记录与复盘**：支持回放、逐题重练，便于识别常见错误。\n7. **性价比**：先试用免费版，关注付费是否包含无限练习次数、详细报告等。\n\n**推荐尝试**：牛客网（互联网大厂题库）、ShowMeBug（技术岗真实coding面试）、HireVue（外企常见，侧重软技能）。选择前用免费模式摸清工具风格，再决定是否付费。",
+  "sources": [],
+  "raw": {
+    "id": "0914de1f-f3eb-4140-a22a-c64d89e07b21",
+    "object": "chat.completion",
+    "created": 1784600493,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "选择AI面试练习工具时，可从以下几个核心维度评估：\n\n1. **题库覆盖**：确保行业（如互联网、金融）和职位（技术、产品、销售）对口，题量充足且更新及时。\n2. **AI模拟真实度**：测试交互是否流畅、追问是否合理、能否模拟HR压力面试节奏。\n3. **反馈质量**：优秀工具会从**表达逻辑、语速、关键词命中、表情/肢体**（如果开摄像头）多维度评分，而非只给总分。\n4. **行业针对性**：部分工具专攻技术岗（LeetCode风格算法题），有的侧重行为面试（STAR原则），需按需选择。\n5. **随机性**：避免题库固定，好的工具会随机抽题或根据你简历生成个性化问题，防死记硬背。\n6. **历史记录与复盘**：支持回放、逐题重练，便于识别常见错误。\n7. **性价比**：先试用免费版，关注付费是否包含无限练习次数、详细报告等。\n\n**推荐尝试**：牛客网（互联网大厂题库）、ShowMeBug（技术岗真实coding面试）、HireVue（外企常见，侧重软技能）。选择前用免费模式摸清工具风格，再决定是否付费。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 273,
+      "total_tokens": 310,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:21:37.142317Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C04",
+    "answerEvidence": "选择AI面试练习工具时，可从以下几个核心维度评估：\n\n1. **题库覆盖**：确保行业（如互联网、金融）和职位（技术、产品、销售）对口，题量充足且更新及时。\n2. **AI模拟真实度**：测试交互是否流畅、追问是否合理、能否模拟HR压力面试节奏。\n3. **反馈质量**：优秀工具会从**表达逻辑、语速、关键词命中、表情/肢体**（如果开摄像头）多维度评分，而非只给总分。\n4. **行业针对性**：部分工具专攻技术岗（LeetCode风格算法题），有的侧重行为面试（STAR原则），需按需选择。\n5. **随机性**：避免题库固定，好的工具会随机抽题或根据你简历生成个性化问题，防死记硬背。\n6. **历史记录与复盘**：支持回放、逐题重练，便于识别常见错误。\n7. **性价比**：先试用免费版，关注付费是否包含无限练习次数、详细报告等。\n\n**推荐尝试**：牛客网（互联网大厂题库）、ShowMeBug（技术岗真实coding面试）、HireVue（外企常见，侧重软技能）。选择前用免费模式摸清工具风格，再决定是否付费。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C04.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

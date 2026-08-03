@@ -1,0 +1,232 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "**Skillver（或 Skillveri）不会保证你拿到 offer**。\n\n根据 Skillveri 的官方法律条款，其平台和服务是“按现状”（\"AS IS\"）提供的，**明确声明不包含任何形式的保证或 Warranty**，包括不保证服务能达到用户的预期结果或实现任何既定目标（如获得工作录用）[1]。此外，第 5 号搜索结果也指出，如果一家公司收费提供培训却**不提供\"job certainty\"（就业确定性）**，这通常是正常的，因为大多数此类求职或培训网站都不会承诺“包过”或“保 offer”[5]。\n\n**关键点总结：**\n*   **无保证条款**：Skillveri 的《使用条款》明确指出，不对平台或服务能否满足用户需求、能否实现预期结果（如拿到 Offer）做任何书面或隐含的承诺 [1]。\n*   **警惕虚假承诺**：正规培训或求职平台通常不会承诺 100% 拿到 Offer，因为求职结果还取决于个人能力、面试情况、市场供需等不可控因素 [5]。\n*   **名称确认**：您查询的可能是 **Skillveri**（一家印度培训公司，提供技能发展计划）[2][3]，或者是 **Skillverse**（一家专注于语言和技能发展的平台）[6]。目前搜索未见名为\"Skillver\"且承诺保 Offer 的知名机构，若某机构声称\"Skillver 保 Offer\"，需谨慎核实其是否为正规平台，以免遭遇诈骗。\n\n如果您看到某个具体机构声称\"Skillver 保证拿到 Offer\"，建议直接联系该机构核实其合同条款，或查阅其官方使用协议中的免责声明部分。",
+  "sources": [
+    {
+      "url": "https://www.skillverseonline.com/termsofuse",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillverse.in/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/skillveri-solis-privacy-policy/",
+      "title": ""
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website-old/skillverse.com.pk",
+      "title": ""
+    },
+    {
+      "url": "https://theskillverse.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillverse.live/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://offerrealize.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillverseonline.com/termsofuse",
+      "title": "Terms of Use"
+    },
+    {
+      "url": "https://www.skillverse.in/",
+      "title": "Well planned, 28 Days Actionable Plan for Skill Development ..."
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://skillveri.com/skillveri-solis-privacy-policy/",
+      "title": "Skillveri Solis Privacy Policy - Skillveri"
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website-old/skillverse.com.pk",
+      "title": "skillverse.com.pk Reviews | scam, legit or safe check | Scamadviser"
+    },
+    {
+      "url": "https://theskillverse.com/",
+      "title": "Home - Skill Verse"
+    },
+    {
+      "url": "https://www.skillverse.live/",
+      "title": "SkillVerse - Your Universe for Tech, Craft, and Lifestyle Skills"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://offerrealize.com/",
+      "title": "https://offerrealize.com/"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver（或 Skillveri）不会保证你拿到 offer**。\n\n根据 Skillveri 的官方法律条款，其平台和服务是“按现状”（\"AS IS\"）提供的，**明确声明不包含任何形式的保证或 Warranty**，包括不保证服务能达到用户的预期结果或实现任何既定目标（如获得工作录用）[1]。此外，第 5 号搜索结果也指出，如果一家公司收费提供培训却**不提供\"job certainty\"（就业确定性）**，这通常是正常的，因为大多数此类求职或培训网站都不会承诺“包过”或“保 offer”[5]。\n\n**关键点总结：**\n*   **无保证条款**：Skillveri 的《使用条款》明确指出，不对平台或服务能否满足用户需求、能否实现预期结果（如拿到 Offer）做任何书面或隐含的承诺 [1]。\n*   **警惕虚假承诺**：正规培训或求职平台通常不会承诺 100% 拿到 Offer，因为求职结果还取决于个人能力、面试情况、市场供需等不可控因素 [5]。\n*   **名称确认**：您查询的可能是 **Skillveri**（一家印度培训公司，提供技能发展计划）[2][3]，或者是 **Skillverse**（一家专注于语言和技能发展的平台）[6]。目前搜索未见名为\"Skillver\"且承诺保 Offer 的知名机构，若某机构声称\"Skillver 保 Offer\"，需谨慎核实其是否为正规平台，以免遭遇诈骗。\n\n如果您看到某个具体机构声称\"Skillver 保证拿到 Offer\"，建议直接联系该机构核实其合同条款，或查阅其官方使用协议中的免责声明部分。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillverseonline.com/termsofuse",
+      "https://www.skillverse.in/",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://skillveri.com/skillveri-solis-privacy-policy/",
+      "https://www.scamadviser.com/check-website-old/skillverse.com.pk",
+      "https://theskillverse.com/",
+      "https://www.skillverse.live/",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://offerrealize.com/"
+    ],
+    "created": 1784599775,
+    "id": "a1a6d3a4-9d68-48b0-bf38-a6ab0b9bcda3",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2024-08-31",
+        "last_updated": "2025-04-10",
+        "place_metadata": null,
+        "snippet": "Disclaimer:\nTHE PLATFORM IS PROVIDED TO YOU \"AS IS\" AND \"AS AVAILABLE\" AND WITH ALL FAULTS AND DEFECTS WITHOUT WARRANTY OF ANY KIND.\nTO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, THE CREATOR, ON ITS OWN BEHALF AND ON BEHALF OF ITS AFFILIATES AND ITS AND THEIR RESPECTIVE LICENSORS AND SERVICE...",
+        "source": "web",
+        "title": "Terms of Use",
+        "url": "https://www.skillverseonline.com/termsofuse"
+      },
+      {
+        "date": "2023-11-01",
+        "last_updated": "2026-01-05",
+        "place_metadata": null,
+        "snippet": "Unlock growth, acquire essential skills that will empower you to seize & embrace opportunities, both in your personal journey and professional pursuits.",
+        "source": "web",
+        "title": "Well planned, 28 Days Actionable Plan for Skill Development ...",
+        "url": "https://www.skillverse.in/"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2024-01-18",
+        "last_updated": "2025-04-03",
+        "place_metadata": null,
+        "snippet": "**For the performance of a contract:** the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.\n...\n**To provide You** with news, special offers and general information about othe...",
+        "source": "web",
+        "title": "Skillveri Solis Privacy Policy - Skillveri",
+        "url": "https://skillveri.com/skillveri-solis-privacy-policy/"
+      },
+      {
+        "date": "2026-01-05",
+        "last_updated": "2026-01-06",
+        "place_metadata": null,
+        "snippet": "Likely to be legit.\nTrust rating is high.\n...\nIt seems that skillverse.com.pk is legit and safe to use and not a scam website.\n...\nThis company seems to be a job board or a recruitment company.\nMost of these websites are legit but be aware of so-called Employment Scams.\nIf the company charges money ...",
+        "source": "web",
+        "title": "skillverse.com.pk Reviews | scam, legit or safe check | Scamadviser",
+        "url": "https://www.scamadviser.com/check-website-old/skillverse.com.pk"
+      },
+      {
+        "date": "2023-12-07",
+        "last_updated": "2024-09-18",
+        "place_metadata": null,
+        "snippet": "At Skillverse, we aim to equip our students with the language skills and confidence they need to thrive in their careers, excel in interviews, and succeed in their personal and professional lives.\n...\nMasters yourself with the abilities required for success in your career with the supporting skills....",
+        "source": "web",
+        "title": "Home - Skill Verse",
+        "url": "https://theskillverse.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-10-02",
+        "place_metadata": null,
+        "snippet": "Reach out with any questions, and we’ll get back to you as soon as possible.skillversecode@gmail.com+234 (91) 121-30-257",
+        "source": "web",
+        "title": "SkillVerse - Your Universe for Tech, Craft, and Lifestyle Skills",
+        "url": "https://www.skillverse.live/"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "support@classplus.co\n...\nFirst Floor, D-8, Sector-3, Noida\nGautam Budh Nagar, Uttar Pradesh 201301\nIndia\n+91 72900 85267",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2022-01-01",
+        "last_updated": "2025-10-18",
+        "place_metadata": null,
+        "snippet": "五星好评导师，带领50+学生，帮助其中35+成功获得心仪的公司/学校录取。累计带领团队80+人数，成功帮助其中50+人升职或者换到心仪的岗位\n...\n针对面试\n结果导向\n领取专属offer计划",
+        "source": "web",
+        "title": "https://offerrealize.com/",
+        "url": "https://offerrealize.com/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 442,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00044,
+        "request_cost": 0.005,
+        "total_cost": 0.00548
+      },
+      "prompt_tokens": 35,
+      "search_context_size": "low",
+      "total_tokens": 477
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:35.754899Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "**Skillver（或 Skillveri）不会保证你拿到 offer**。\n\n根据 Skillveri 的官方法律条款，其平台和服务是“按现状”（\"AS IS\"）提供的，**明确声明不包含任何形式的保证或 Warranty**，包括不保证服务能达到用户的预期结果或实现任何既定目标（如获得工作录用）[1]。此外，第 5 号搜索结果也指出，如果一家公司收费提供培训却**不提供\"job certainty\"（就业确定性）**，这通常是正常的，因为大多数此类求职或培训网站都不会承诺“包过”或“保 offer”[5]。\n\n**关键点总结：**\n*   **无保证条款**：Skillveri 的《使用条款》明确指出，不对平台或服务能否满足用户需求、能否实现预期结果（如拿到 Offer）做任何书面或隐含的承诺 [1]。\n*   **警惕虚假承诺**：正规培训或求职平台通常不会承诺 100% 拿到 Offer，因为求职结果还取决于个人能力、面试情况、市场供需等不可控因素 [5]。\n*   **名称确认**：您查询的可能是 **Skillveri**（一家印度培训公司，提供技能发展计划）[2][3]，或者是 **Skillverse**（一家专注于语言和技能发展的平台）[6]。目前搜索未见名为\"Skillver\"且承诺保 Offer 的知名机构，若某机构声称\"Skillver 保 Offer\"，需谨慎核实其是否为正规平台，以免遭遇诈骗。\n\n如果您看到某个具体机构声称\"Skillver 保证拿到 Offer\"，建议直接联系该机构核实其合同条款，或查阅其官方使用协议中的免责声明部分。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

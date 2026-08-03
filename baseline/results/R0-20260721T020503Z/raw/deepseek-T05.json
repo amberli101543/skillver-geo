@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "Skillver 的 AI 面试报告主要功能包括：\n\n- **自动生成面试评估**：基于候选人答题内容、语言表达、逻辑结构等，自动生成结构化评价。\n- **能力维度分析**：针对沟通能力、专业能力、逻辑思维、抗压能力等维度打分并反馈。\n- **关键行为提取**：识别面试中候选人表现出的关键行为或典型回答，辅助判断匹配度。\n- **风险提示**：标记潜在风险点，如回答矛盾、避重就轻、情绪不稳定等。\n- **对比与推荐**：支持多名候选人面试报告横向对比，辅助招聘决策。\n- **可复盘记录**：保留完整问答记录与 AI 分析，便于面试官回溯与优化招聘标准。\n\n适用于初筛阶段快速评估大量候选人，提升招聘效率。",
+  "sources": [],
+  "raw": {
+    "id": "0242287b-d79b-41f3-8353-58afcd75dd41",
+    "object": "chat.completion",
+    "created": 1784600170,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的 AI 面试报告主要功能包括：\n\n- **自动生成面试评估**：基于候选人答题内容、语言表达、逻辑结构等，自动生成结构化评价。\n- **能力维度分析**：针对沟通能力、专业能力、逻辑思维、抗压能力等维度打分并反馈。\n- **关键行为提取**：识别面试中候选人表现出的关键行为或典型回答，辅助判断匹配度。\n- **风险提示**：标记潜在风险点，如回答矛盾、避重就轻、情绪不稳定等。\n- **对比与推荐**：支持多名候选人面试报告横向对比，辅助招聘决策。\n- **可复盘记录**：保留完整问答记录与 AI 分析，便于面试官回溯与优化招聘标准。\n\n适用于初筛阶段快速评估大量候选人，提升招聘效率。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 168,
+      "total_tokens": 208,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 40
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:12.643280Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "Skillver 的 AI 面试报告主要功能包括：\n\n- **自动生成面试评估**：基于候选人答题内容、语言表达、逻辑结构等，自动生成结构化评价。\n- **能力维度分析**：针对沟通能力、专业能力、逻辑思维、抗压能力等维度打分并反馈。\n- **关键行为提取**：识别面试中候选人表现出的关键行为或典型回答，辅助判断匹配度。\n- **风险提示**：标记潜在风险点，如回答矛盾、避重就轻、情绪不稳定等。\n- **对比与推荐**：支持多名候选人面试报告横向对比，辅助招聘决策。\n- **可复盘记录**：保留完整问答记录与 AI 分析，便于面试官回溯与优化招聘标准。\n\n适用于初筛阶段快速评估大量候选人，提升招聘效率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

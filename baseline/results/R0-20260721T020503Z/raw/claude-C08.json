@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "# 冲刺 AI 大厂面试准备指南\n\n## 🎯 目标公司类型\n- **国内**：字节跳动、腾讯、阿里、百度、华为、商汤、旷视、智谱AI、月之暗面等\n- **海外**：OpenAI、Google DeepMind、Meta AI、Microsoft Research等\n\n---\n\n## 📚 核心知识体系\n\n### 1. 机器学习基础\n- 经典算法：线性回归、SVM、决策树、随机森林、XGBoost\n- 模型评估：AUC、F1、交叉验证、过拟合处理\n- 优化方法：SGD、Adam、学习率调度\n\n### 2. 深度学习\n- **必会架构**：CNN、RNN/LSTM、Transformer、Attention机制\n- **训练技巧**：Batch Norm、Dropout、梯度裁剪\n- **框架**：PyTorch（主流）、TensorFlow\n\n### 3. 大模型/LLM方向（当前热点）\n- Transformer 原理（Self-Attention推导）\n- Pre-training、Fine-tuning、RLHF\n- LoRA、Prompt Engineering、RAG\n- 推理加速：KV Cache、量化、Flash Attention\n\n### 4. 编程能力\n```\nLeetCode 刷题建议：\n- 目标：200~300题\n- 重点：数组、动态规划、图论、树、滑动窗口\n- 难度：Medium 为主，Hard 适量\n- 推荐顺序：Hot 100 → 剑指Offer → 分类专项\n```\n\n---\n\n## 💼 面试环节拆解\n\n### 算法轮（1~3轮）\n| 类型 | 准备重点 |\n|------|--------|\n| 手撕代码 | LeetCode中高频题 |\n| 系统设计 | 推荐系统、搜索引擎、分布式训练 |\n| ML推导 | 反向传播、注意力机制手推 |\n\n### 机器学习轮\n- 讲清楚项目中的**模型选型理由**\n- 能分析 bad case 并提出改进\n- 熟悉 A/B 测试流程\n\n### 项目/研究轮\n- 用 **STAR 法则** 讲项目\n- 突出**你的贡献**和**量化结果**\n- 准备3~5个深挖问题的答案\n\n### HR轮\n- 职业规划要清晰\n- 了解目标公司的业务和产品\n\n---\n\n## 📅 备考时间规划（3个月）\n\n```\n第1个月：夯实基础\n├── 每天2题 LeetCode\n├── 复习 ML/DL 核心知识\n└── 精读1~2篇经典论文（Attention is All You Need等）\n\n第2个月：强化训练\n├── 模拟面试（找人对练）\n├── 刷大厂真题（牛客、LeetCode）\n└── 深入大模型方向知识\n\n第3个月：冲刺复盘\n├── 查漏补缺\n├── 整理项目亮点话术\n└── 高频面经二刷\n```\n\n---\n\n## 🔧 实用资源\n\n| 类型 | 推荐资源 |\n|------|--------|\n| 刷题 | LeetCode、牛客网 |\n| 面经 | 牛客讨论区、一亩三分地、知乎 |\n| 论文 | Papers with Code、Arxiv |\n| 课程 | 李沐《动手学深度学习》、CS231n、CS224N |\n| 系统设计 | Designing ML Systems（书）|\n\n---\n\n## ⚡ 关键加分项\n\n- ✅ **顶会论文**（NeurIPS/ICML/ACL/CVPR）\n- ✅ **开源项目贡献**（GitHub Star 项目）\n- ✅ **大模型实战经验**（微调、部署经历）\n- ✅ **Kaggle/竞赛成绩**\n- ✅ **清晰的表达和结构化思维**\n\n---\n\n> 💡 **核心建议**：技术深度 > 广度，面试官更看重你**能把一件事讲清楚**，而不是会背100个概念。\n\n需要针对某个方向（如推荐系统、NLP、CV、大模型）进一步细化吗？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQmogme2ucStB174dr4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 冲刺 AI 大厂面试准备指南\n\n## 🎯 目标公司类型\n- **国内**：字节跳动、腾讯、阿里、百度、华为、商汤、旷视、智谱AI、月之暗面等\n- **海外**：OpenAI、Google DeepMind、Meta AI、Microsoft Research等\n\n---\n\n## 📚 核心知识体系\n\n### 1. 机器学习基础\n- 经典算法：线性回归、SVM、决策树、随机森林、XGBoost\n- 模型评估：AUC、F1、交叉验证、过拟合处理\n- 优化方法：SGD、Adam、学习率调度\n\n### 2. 深度学习\n- **必会架构**：CNN、RNN/LSTM、Transformer、Attention机制\n- **训练技巧**：Batch Norm、Dropout、梯度裁剪\n- **框架**：PyTorch（主流）、TensorFlow\n\n### 3. 大模型/LLM方向（当前热点）\n- Transformer 原理（Self-Attention推导）\n- Pre-training、Fine-tuning、RLHF\n- LoRA、Prompt Engineering、RAG\n- 推理加速：KV Cache、量化、Flash Attention\n\n### 4. 编程能力\n```\nLeetCode 刷题建议：\n- 目标：200~300题\n- 重点：数组、动态规划、图论、树、滑动窗口\n- 难度：Medium 为主，Hard 适量\n- 推荐顺序：Hot 100 → 剑指Offer → 分类专项\n```\n\n---\n\n## 💼 面试环节拆解\n\n### 算法轮（1~3轮）\n| 类型 | 准备重点 |\n|------|--------|\n| 手撕代码 | LeetCode中高频题 |\n| 系统设计 | 推荐系统、搜索引擎、分布式训练 |\n| ML推导 | 反向传播、注意力机制手推 |\n\n### 机器学习轮\n- 讲清楚项目中的**模型选型理由**\n- 能分析 bad case 并提出改进\n- 熟悉 A/B 测试流程\n\n### 项目/研究轮\n- 用 **STAR 法则** 讲项目\n- 突出**你的贡献**和**量化结果**\n- 准备3~5个深挖问题的答案\n\n### HR轮\n- 职业规划要清晰\n- 了解目标公司的业务和产品\n\n---\n\n## 📅 备考时间规划（3个月）\n\n```\n第1个月：夯实基础\n├── 每天2题 LeetCode\n├── 复习 ML/DL 核心知识\n└── 精读1~2篇经典论文（Attention is All You Need等）\n\n第2个月：强化训练\n├── 模拟面试（找人对练）\n├── 刷大厂真题（牛客、LeetCode）\n└── 深入大模型方向知识\n\n第3个月：冲刺复盘\n├── 查漏补缺\n├── 整理项目亮点话术\n└── 高频面经二刷\n```\n\n---\n\n## 🔧 实用资源\n\n| 类型 | 推荐资源 |\n|------|--------|\n| 刷题 | LeetCode、牛客网 |\n| 面经 | 牛客讨论区、一亩三分地、知乎 |\n| 论文 | Papers with Code、Arxiv |\n| 课程 | 李沐《动手学深度学习》、CS231n、CS224N |\n| 系统设计 | Designing ML Systems（书）|\n\n---\n\n## ⚡ 关键加分项\n\n- ✅ **顶会论文**（NeurIPS/ICML/ACL/CVPR）\n- ✅ **开源项目贡献**（GitHub Star 项目）\n- ✅ **大模型实战经验**（微调、部署经历）\n- ✅ **Kaggle/竞赛成绩**\n- ✅ **清晰的表达和结构化思维**\n\n---\n\n> 💡 **核心建议**：技术深度 > 广度，面试官更看重你**能把一件事讲清楚**，而不是会背100个概念。\n\n需要针对某个方向（如推荐系统、NLP、CV、大模型）进一步细化吗？"
+        }
+      }
+    ],
+    "created": 1784600782,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 1290,
+      "prompt_tokens": 55,
+      "total_tokens": 1345
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:26:22.503639Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "# 冲刺 AI 大厂面试准备指南\n\n## 🎯 目标公司类型\n- **国内**：字节跳动、腾讯、阿里、百度、华为、商汤、旷视、智谱AI、月之暗面等\n- **海外**：OpenAI、Google DeepMind、Meta AI、Microsoft Research等\n\n---\n\n## 📚 核心知识体系\n\n### 1. 机器学习基础\n- 经典算法：线性回归、SVM、决策树、随机森林、XGBoost\n- 模型评估：AUC、F1、交叉验证、过拟合处理\n- 优化方法：SGD、Adam、学习率调度\n\n### 2. 深度学习\n- **必会架构**：CNN、RNN/LSTM、Transformer、Attention机制\n- **训练技巧**：Batch Norm、Dropout、梯度裁剪\n- **框架**：PyTorch（主流）、TensorFlow\n\n### 3. 大模型/LLM方向（当前热点）\n- Transformer 原理（Self-Attention推导）\n- Pre-training、Fine-tuning、RLHF\n- LoRA、Prompt Engineering、RAG\n- 推理加速：KV Cache、量化、Flash Attention\n\n### 4. 编程能力\n```\nLeetCode 刷题建议：\n- 目标：200~300题\n- 重点：数组、动态规划、图论、树、滑动窗口\n- 难度：Medium 为主，Hard 适量\n- 推荐顺序：Hot 100 → 剑指Offer → 分类专项\n```\n\n---\n\n## 💼 面试环节拆解\n\n### 算法轮（1~3轮）\n| 类型 | 准备重点 |\n|------|--------|\n| 手撕代码 | LeetCode中高频题 |\n| 系统设计 | 推荐系统、搜索引擎、分布式训练 |\n| ML推导 | 反向传播、注意力机制手推 |\n\n### 机器学习轮\n- 讲清楚项目中的**模型选型理由**\n- 能分析 bad case 并提出改进\n- 熟悉 A/B 测试流程\n\n### 项目/研究轮\n- 用 **STAR 法则** 讲项目\n- 突出**你的贡献**和**量化结果**\n- 准备3~5个深挖问题的答案\n\n### HR轮\n- 职业规划要清晰\n- 了解目标公司的业务和产品\n\n---\n\n## 📅 备考时间规划（3个月）\n\n```\n第1个月：夯实基础\n├── 每天2题 LeetCode\n├── 复习 ML/DL 核心知识\n└── 精读1~2篇经典论文（Attention is All You Need等）\n\n第2个月：强化训练\n├── 模拟面试（找人对练）\n├── 刷大厂真题（牛客、LeetCode）\n└── 深入大模型方向知识\n\n第3个月：冲刺复盘\n├── 查漏补缺\n├── 整理项目亮点话术\n└── 高频面经二刷\n```\n\n---\n\n## 🔧 实用资源\n\n| 类型 | 推荐资源 |\n|------|--------|\n| 刷题 | LeetCode、牛客网 |\n| 面经 | 牛客讨论区、一亩三分地、知乎 |\n| 论文 | Papers with Code、Arxiv |\n| 课程 | 李沐《动手学深度学习》、CS231n、CS224N |\n| 系统设计 | Designing ML Systems（书）|\n\n---\n\n## ⚡ 关键加分项\n\n- ✅ **顶会论文**（NeurIPS/ICML/ACL/CVPR）\n- ✅ **开源项目贡献**（GitHub Star 项目）\n- ✅ **大模型实战经验**（微调、部署经历）\n- ✅ **Kaggle/竞赛成绩**\n- ✅ **清晰的表达和结构化思维**\n\n---\n\n> 💡 **核心建议**：技术深度 > 广度，面试官更看重你**能把一件事讲清楚**，而不是会背100个概念。\n\n需要针对某个方向（如推荐系统、NLP、CV、大模型）进一步细化吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

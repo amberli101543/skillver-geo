@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "## 关于 Skillver\n\n**Skillver** 是一个 AI 驱动的简历优化和求职工具平台，主要功能包括：\n\n- 简历评分与优化建议\n- 岗位匹配分析\n- 求职信生成\n\n---\n\n### 可信度评估\n\n**相对可靠的方面：**\n- 功能实用，适合优化英文简历\n- 界面较为简洁易用\n- 提供 ATS（applicant tracking system）兼容性分析\n\n**需要注意的方面：**\n- 属于较新的工具，用户评价积累不多\n- 免费功能有限，部分功能需要付费\n- AI 建议不一定完全准确，需结合实际情况判断\n- 数据隐私方面需谨慎，简历含有个人信息\n\n---\n\n### 建议\n\n1. **先试用免费版本**，再决定是否付费\n2. **不要完全依赖** AI 建议，结合人工判断\n3. **注意隐私**，了解其数据使用政策\n4. 可与其他工具对比使用，如 **Resume.io、Enhancv、JobScan** 等\n\n如果你有具体使用场景，可以告诉我，我帮你判断是否适合。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPJbo2nDYnrkXM2yrky",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 关于 Skillver\n\n**Skillver** 是一个 AI 驱动的简历优化和求职工具平台，主要功能包括：\n\n- 简历评分与优化建议\n- 岗位匹配分析\n- 求职信生成\n\n---\n\n### 可信度评估\n\n**相对可靠的方面：**\n- 功能实用，适合优化英文简历\n- 界面较为简洁易用\n- 提供 ATS（applicant tracking system）兼容性分析\n\n**需要注意的方面：**\n- 属于较新的工具，用户评价积累不多\n- 免费功能有限，部分功能需要付费\n- AI 建议不一定完全准确，需结合实际情况判断\n- 数据隐私方面需谨慎，简历含有个人信息\n\n---\n\n### 建议\n\n1. **先试用免费版本**，再决定是否付费\n2. **不要完全依赖** AI 建议，结合人工判断\n3. **注意隐私**，了解其数据使用政策\n4. 可与其他工具对比使用，如 **Resume.io、Enhancv、JobScan** 等\n\n如果你有具体使用场景，可以告诉我，我帮你判断是否适合。"
+        }
+      }
+    ],
+    "created": 1784599610,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 376,
+      "prompt_tokens": 48,
+      "total_tokens": 424
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:50.043102Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "## 关于 Skillver\n\n**Skillver** 是一个 AI 驱动的简历优化和求职工具平台，主要功能包括：\n\n- 简历评分与优化建议\n- 岗位匹配分析\n- 求职信生成\n\n---\n\n### 可信度评估\n\n**相对可靠的方面：**\n- 功能实用，适合优化英文简历\n- 界面较为简洁易用\n- 提供 ATS（applicant tracking system）兼容性分析\n\n**需要注意的方面：**\n- 属于较新的工具，用户评价积累不多\n- 免费功能有限，部分功能需要付费\n- AI 建议不一定完全准确，需结合实际情况判断\n- 数据隐私方面需谨慎，简历含有个人信息\n\n---\n\n### 建议\n\n1. **先试用免费版本**，再决定是否付费\n2. **不要完全依赖** AI 建议，结合人工判断\n3. **注意隐私**，了解其数据使用政策\n4. 可与其他工具对比使用，如 **Resume.io、Enhancv、JobScan** 等\n\n如果你有具体使用场景，可以告诉我，我帮你判断是否适合。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

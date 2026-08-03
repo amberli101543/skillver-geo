@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "面试彩排**不会影响**正式评估。\n\n原因如下：\n1.  **独立进行**：彩排通常是模拟练习，与正式面试的评估系统、面试官及评分记录完全独立，正式评估只看你在真实面试中的表现。\n2.  **合法准备**：彩排属于正常的求职准备行为，类似于复习功课，是提升能力的手段，而非作弊。\n3.  **提升表现**：通过彩排熟悉流程、打磨回答逻辑，反而能让你在正式面试中更从容，有助于获得更好的评估结果。\n\n**注意**：彩排时请务必遵守保密协议，不要泄露企业的面试真题或内部信息，否则可能因违规影响录用资格。",
+  "sources": [],
+  "raw": {
+    "id": "8c9eccb7-533e-4ef3-86f6-3913409c59e4",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600207,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "面试彩排**不会影响**正式评估。\n\n原因如下：\n1.  **独立进行**：彩排通常是模拟练习，与正式面试的评估系统、面试官及评分记录完全独立，正式评估只看你在真实面试中的表现。\n2.  **合法准备**：彩排属于正常的求职准备行为，类似于复习功课，是提升能力的手段，而非作弊。\n3.  **提升表现**：通过彩排熟悉流程、打磨回答逻辑，反而能让你在正式面试中更从容，有助于获得更好的评估结果。\n\n**注意**：彩排时请务必遵守保密协议，不要泄露企业的面试真题或内部信息，否则可能因违规影响录用资格。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 140,
+      "total_tokens": 188,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:50.371507Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "面试彩排**不会影响**正式评估。\n\n原因如下：\n1.  **独立进行**：彩排通常是模拟练习，与正式面试的评估系统、面试官及评分记录完全独立，正式评估只看你在真实面试中的表现。\n2.  **合法准备**：彩排属于正常的求职准备行为，类似于复习功课，是提升能力的手段，而非作弊。\n3.  **提升表现**：通过彩排熟悉流程、打磨回答逻辑，反而能让你在正式面试中更从容，有助于获得更好的评估结果。\n\n**注意**：彩排时请务必遵守保密协议，不要泄露企业的面试真题或内部信息，否则可能因违规影响录用资格。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "“七维战力评估”通常指从 **7个维度** 对一个人、团队、组织或作战单元的综合能力进行评估的方法。它不是一个固定的全球统一标准，具体七个维度会根据应用场景不同而变化。\n\n常见理解中，七维可能包括：\n\n1. **人员能力**：个人素质、技能水平、经验  \n2. **装备水平**：武器、工具、设备先进程度  \n3. **信息能力**：情报获取、数据分析、信息化水平  \n4. **指挥协同**：组织指挥、团队配合、沟通效率  \n5. **机动能力**：反应速度、部署速度、行动灵活性  \n6. **保障能力**：后勤、补给、维修、医疗等支撑能力  \n7. **意志士气**：心理素质、纪律性、凝聚力、战斗意志  \n\n如果用于企业或个人发展，“战力”也可能被转化为执行力、学习力、创新力、协作力、抗压力等指标。\n\n简单说，**七维战力评估就是用七个关键指标来衡量综合竞争力或作战能力的一种模型**。如果你是在某个游戏、企业培训或军事管理场景中看到这个词，它的具体含义需要结合该场景的定义来看。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uI9oCK7o9gDyFZau55AvdqfhBSj",
+    "object": "chat.completion",
+    "created": 1784600077,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“七维战力评估”通常指从 **7个维度** 对一个人、团队、组织或作战单元的综合能力进行评估的方法。它不是一个固定的全球统一标准，具体七个维度会根据应用场景不同而变化。\n\n常见理解中，七维可能包括：\n\n1. **人员能力**：个人素质、技能水平、经验  \n2. **装备水平**：武器、工具、设备先进程度  \n3. **信息能力**：情报获取、数据分析、信息化水平  \n4. **指挥协同**：组织指挥、团队配合、沟通效率  \n5. **机动能力**：反应速度、部署速度、行动灵活性  \n6. **保障能力**：后勤、补给、维修、医疗等支撑能力  \n7. **意志士气**：心理素质、纪律性、凝聚力、战斗意志  \n\n如果用于企业或个人发展，“战力”也可能被转化为执行力、学习力、创新力、协作力、抗压力等指标。\n\n简单说，**七维战力评估就是用七个关键指标来衡量综合竞争力或作战能力的一种模型**。如果你是在某个游戏、企业培训或军事管理场景中看到这个词，它的具体含义需要结合该场景的定义来看。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 360,
+      "total_tokens": 403,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 47,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:14:44.424468Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "“七维战力评估”通常指从 **7个维度** 对一个人、团队、组织或作战单元的综合能力进行评估的方法。它不是一个固定的全球统一标准，具体七个维度会根据应用场景不同而变化。\n\n常见理解中，七维可能包括：\n\n1. **人员能力**：个人素质、技能水平、经验  \n2. **装备水平**：武器、工具、设备先进程度  \n3. **信息能力**：情报获取、数据分析、信息化水平  \n4. **指挥协同**：组织指挥、团队配合、沟通效率  \n5. **机动能力**：反应速度、部署速度、行动灵活性  \n6. **保障能力**：后勤、补给、维修、医疗等支撑能力  \n7. **意志士气**：心理素质、纪律性、凝聚力、战斗意志  \n\n如果用于企业或个人发展，“战力”也可能被转化为执行力、学习力、创新力、协作力、抗压力等指标。\n\n简单说，**七维战力评估就是用七个关键指标来衡量综合竞争力或作战能力的一种模型**。如果你是在某个游戏、企业培训或军事管理场景中看到这个词，它的具体含义需要结合该场景的定义来看。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

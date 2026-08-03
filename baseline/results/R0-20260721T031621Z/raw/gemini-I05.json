@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "**tcodeai.com（Tcode）** 是 **Skillver（西弗科技）** 旗下开发并运营的一款 AI 编程学习产品。\n\n两者具体关系如下：\n\n1. **所属关系**：**Skillver** 是背后的研发团队/公司，而 **tcodeai.com** 是该团队推出的核心产品（Tcode）的官方网站。\n2. **定位与功能**：\n   * **Skillver** 是一家专注于 AI 原生教育（AI-native education）的科技团队。\n   * **Tcode**（tcodeai.com）是他们推出的一款 AI 辅助编程学习平台，旨在通过 AI 导师的即时答疑、代码交互和个性化教学，帮助零基础或初学者更高效地学习编程。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**tcodeai.com（Tcode）** 是 **Skillver（西弗科技）** 旗下开发并运营的一款 AI 编程学习产品。\n\n两者具体关系如下：\n\n1. **所属关系**：**Skillver** 是背后的研发团队/公司，而 **tcodeai.com** 是该团队推出的核心产品（Tcode）的官方网站。\n2. **定位与功能**：\n   * **Skillver** 是一家专注于 AI 原生教育（AI-native education）的科技团队。\n   * **Tcode**（tcodeai.com）是他们推出的一款 AI 辅助编程学习平台，旨在通过 AI 导师的即时答疑、代码交互和个性化教学，帮助零基础或初学者更高效地学习编程。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvQUCvEUARFNMg8QVHGSR1d0SgWE2i2ibnakmqV4Twc6+frehky1vOk86ZWkanqsYXMxdKJ8LH2NTwku/2Ne3H4Nl1KIoXPrRvqnLTCZirRJfxfkw/8KqLtgtp9h45nb61t/mbS2meFLxj5MoFu6FQ6Ue36ZMQeOPNH2/722YkOiq0/MuttyngDXjZ2lxy3iC8kfvZkHPuNbynvK4338tKwob3vHZX9c+LJqIMZ+AX+So7LuIzV0apXNoSrsvOtWy3xhnXj/aZKWfaSQ9llFetBaPfkrTynlhUBkHegFJnrZdHg16FpaCxXWh3EboHRjQCoEcjdxGkN47jt6CeyQRPT3lemoKOD2Y12CCOhkRWjtaeVHnVKrRyF9b/0WjUJaKPGvHiOBkvJjFuIrDJv9rRrNGebPaJOONilEKU+53JDgQAkNsk/RjbPiDi3yWldzOTzrX9Pi2L+kzffOVz04i1iMon/s7BjQHUUJwSxzagEwRS0RIAY89AacMGJnZx1e+3Ty0sij6l03XJCZRgAqP9D4+yZJZe+etbkRmO5PxvTKuADku7TjwDLTUC/xEy5XYX74DvrSC0qW+5UjUrtQcaiAnZHIhyDf6afw4wSq5VkUFFCJK+1Mtn3oABnMsXJS3R9Uw01HliZm3L/g1JLL6yEBjmCH19EQbj1++FvVzcEi07mM14HjmS6+OT9slKVswfk1yzt510SLpsAURtJdfLtcMphaZ11Y5gp6+szRjsa6uip4jJv5zPdSBu5Ikq6ccdz7BwDDMPAgrUqM0j46ss1IwsfescQKKWVc9C2houph/lw/GlYWT6eF3DIzZKfaPBNoW42cab6yy1Okm3Y/tLm72396IbmrQCeCfFFb8zGoFVMs8AJeYOr+EwHfAxq9BbUh2YpPSnpT+zFSl9V+YAJMpQrbxSB99zQ7rp48KbNXNGHDLxHnnhjPn/uAKnWFa1EuRqBFGbK6hEkfcbpnDbO/677MF+u8WbSPyoH2wkUBY+3C7nHC9yDoN+NZ7WF2pUUnEBOD+0lmHNJppqIdSz0sYLS6gJO8yRgenk7FCnli92kGXwXlBAiukyEukhDnYo9F6k2DTzHnyL9FVPIVIbT2KKY+wzkwwnGDKmF5P5Yr+ge8SowKDMI47q5W0BMa3wxu76HoVF4d90oPOiv2NivVf69SssMFS/3ipZXeRKfa3OIK1BvMMd4C41w2p+lDrJruGtmsenZLhDZxfwHVacVRmfHTaE/TGJE4aBL0Drg1Z0P3h+CIYHhvr+4RI4D/okXZMTHPIhEDorgehUspM87tZMEh14Uo11QWwdzHn3XL1bdEq2vFAEDRKLZGjdCtkG00CVKTCuFPIt+4nPuU/j02vSnt9gOXl5ZgAviQ6xN1yliwqusomskrnavcMUcM/SvQWCrxa1O2+IjJ/5irwNn3sNd2xz/zLZFgZbrcYrEk7L0FuVo5uEkk9Jjakps166qMIMmy1NrrLi/+W7plScx9Jfxj6A4UGN0SjW738Y9agdsXo1AuqNH3ynLSs+XPedy5lFtOXi9+vDrDa0cXwpD85GtMcp3NWTaaKtKjMeI27Jp3e1CIN/pznwsNMAuungvopXRJhCiSMksSVsSvRjMNGYzrP8bi5BbsSueHnW7LxB2YdhIU9FwQA1y8ttG1ykWoZaqvtL1i8a7tQ1j/kIE6ZAeGND9kceXJm2gnHnjoT01Bqon41i1oTcTZVBsukBWlMe/miYXt5+nCz2yB0j8D0nnL6Q0+01MW4ZyAq5fETRyDDBbyOhTbWjczb8RTyBsAILOIYSu7/4gXC428DS366qKVppzi0FTBcew3PaNIgDlCY4A/WjfyvV9nIq8zcvbiIsJWui+J9l02YKhza6P/Up2UnvigXowaGvtIwQNxd3ZXwQpTDkIkNjLhyahmHi0LANYnwRaxFJIhNLUIjogLtkUAaltXowZk461JCZ+Rm3o0vS8nGBEt+Eom/kE483d1a3dQy11pbOzUmluuOTL6xo5l3DvomOQLy5z5csr6krOxi35lqCinJRLdM/8GOzd8U9bADkbYpV4kiPvnmYmC1qBjZnELQS6JwXX8Af585okauSRamszKkulZmjNnnAhKiWNQJ4D9mVOvWx/fkD4qy3XVlkcjRKOEe8UNkL1v+yX3SRqAidqNXCWTnMEJIfN+9VEmAK0SVzuBKxnmS4HsB5DZlEujusLX1yQKlP8LdU5GsFg9N6yxL1iSHbPCOuYgFpnnB06m+HvB3amHArr7Ya3sOLdHeIzkgqYTQRtk4BNj8+8l3/m2VM/Hah8wbcOSFSr85WL+YB1C2n5+znT9eGXuwWhoRgVaIVd2FfzP4d4443iMeY42P4jSxAGdxt/v6TLq2DeOTyrsiQ77b6zsJCLO5PfvTtnYVGao5ap7uo46wO0A5WUS8ijvAtKSHg80kyNGUDMFC0me5tmx53q7cZ2lWD2nqSzZa8rWFlEZI6g6hWfylHZN/MEJzOdbCXibY/qdqgzHHqTL83shoeTnI7oknU8+cfqgqsv6bep3/nRQ9f0eFuUzivH5s+tWCZRg+st0T6UqRDTY8XohaSTkucoGH8ZzMZnM2yuqn2SOxbMtroxQaW8cMRh4xwE6R8fBm/wnneJS8zN6XNp+bWx+GOxvagBSbOlFxsMNXMomtR6d1pZIt0dYgFrE/MGXn0LSFsu4zMDjCnrvrpXM5zliePNUA8LBraJ5c6KYitJlWZsK6JNv1wMeuxHOGIugSlAHJpI7MqU6tCzArPoPdqrP8bUs0cYIl2IgEYuiQcpstL1i8b5HnHcqQBQd+76VZqEV05Q6ORTdXkx91JuEOFllegJJDeL/gb0QtTGJR8m7sm+0HnCqf2cE/vGW7ZzVkZhlkfoACnrMMua1yLvNBq+epEYm6OCE9S6QtqQBkULjZYxrpSvI0Lt1epilmJfi5tTbsh/k7BLW+Zx40AHEYkp7nVtwkcy4CM05KadVOy0rY8mfDHh9xXysEnWJ0G6AGadqawiX6bQX3Q8SA+YCQkG/DcVmr3Rzr/YqpzU5ZWojjhn5EtQmNdXCFrDBMFgW2+EoQKaBZVY1plBGVw0jfEzmKWF3bf8kNUpK2JJG0JvzEc7mKRjVgALBv09y+943f2ZuC1KbQ2368pIs1sXteVhBxIwbsamJxS/Cau2sjY+3LDXns40Ajz4XqYURw8YL2bIAJfeCTv18+k5HookD6nr4AiFHLIDQ+yCXHeg8I+iSO4vOLe5YS2x5e6ygvYFovapiwlnOrlKxVEU6aizJi4nprmnchkc36LrUJxfeLhemc5VcNP8Lt8bbWpjuOnPs8z/BlM1Y7MHB+ICLvBY1/RzuUKbreT6f+zLWjlhbVYe4LYgKSit0ao6mAnm09LgIsTQ1y0FO6LDIsc/9JOyhX7f7UfPYeWDMC6IG1SCzjtvLvObiB/TjnmT04tyLgwX2gM6MvfUqTQUfSRmZVEQzRBlTR1BnexURKMrkobX7NHgwnd0DMp/w44ffluOuOws+WgnT/+4n5i6Ay40djjpI7YC+xqsebbQcBSRHInEXK5XuMYnbIAgA"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604037,
+    "id": "cuVeatDHN_6Cz7IPibK56QU",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 171,
+      "prompt_tokens": 40,
+      "total_tokens": 933
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:20:37.296734Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "**tcodeai.com（Tcode）** 是 **Skillver（西弗科技）** 旗下开发并运营的一款 AI 编程学习产品。\n\n两者具体关系如下：\n\n1. **所属关系**：**Skillver** 是背后的研发团队/公司，而 **tcodeai.com** 是该团队推出的核心产品（Tcode）的官方网站。\n2. **定位与功能**：\n   * **Skillver** 是一家专注于 AI 原生教育（AI-native education）的科技团队。\n   * **Tcode**（tcodeai.com）是他们推出的一款 AI 辅助编程学习平台，旨在通过 AI 导师的即时答疑、代码交互和个性化教学，帮助零基础或初学者更高效地学习编程。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

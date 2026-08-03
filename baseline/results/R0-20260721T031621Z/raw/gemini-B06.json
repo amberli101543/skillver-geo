@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "**Skillver** 与传统的**招聘网站**（如 Boss直聘、猎聘、前程无忧、LinkedIn 等）有本质的区别，主要体现在定位、交互方式和核心功能上：\n\n### 1. 核心定位不同\n*   **Skillver**：是一个 **AI 驱动的面试模拟与技能评估平台**。它侧重于“**准备与评估**”，帮助求职者在实际面试前进行演练，或帮助企业在招聘前期进行 AI 筛选。\n*   **招聘网站**：是一个 **信息撮合与双向选择平台**。它侧重于“**连接与匹配**”，主要功能是发布职位、投递简历、建立企业与求职者的联系。\n\n### 2. 交互模式不同\n*   **Skillver**：主要是**人机交互**。求职者面对的是 AI 面试官，通过语音或文字进行模拟面试，系统根据表现给出即时的量化评分、多维度反馈和改进建议。\n*   **招聘网站**：主要是**人与人交互**。求职者直接与企业的 HR、部门主管或猎头进行沟通、约面。\n\n### 3. 解决的痛点不同\n*   **Skillver 解决的是“能力提升与筛选效率”**：\n    *   对求职者：解决“不知道怎么面试、缺乏实战经验”的痛点。\n    *   对企业：解决“简历水分大、初筛耗费大量人力”的痛点（利用 AI 进行第一轮标准化筛查）。\n*   **招聘网站 解决的是“信息不对称”**：\n    *   解决“求职者找不到合适岗位，企业找不到求职者”的问题。\n\n### 总结\n简单来说，**招聘网站是“商场”**，帮你找到工作的机会；而 **Skillver 是“模拟考场/教练”**，帮你在去商场面试前做好充分的准备，或者帮商场老板先用自动设备筛选一遍顾客。两者在求职链路中属于不同的阶段。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 与传统的**招聘网站**（如 Boss直聘、猎聘、前程无忧、LinkedIn 等）有本质的区别，主要体现在定位、交互方式和核心功能上：\n\n### 1. 核心定位不同\n*   **Skillver**：是一个 **AI 驱动的面试模拟与技能评估平台**。它侧重于“**准备与评估**”，帮助求职者在实际面试前进行演练，或帮助企业在招聘前期进行 AI 筛选。\n*   **招聘网站**：是一个 **信息撮合与双向选择平台**。它侧重于“**连接与匹配**”，主要功能是发布职位、投递简历、建立企业与求职者的联系。\n\n### 2. 交互模式不同\n*   **Skillver**：主要是**人机交互**。求职者面对的是 AI 面试官，通过语音或文字进行模拟面试，系统根据表现给出即时的量化评分、多维度反馈和改进建议。\n*   **招聘网站**：主要是**人与人交互**。求职者直接与企业的 HR、部门主管或猎头进行沟通、约面。\n\n### 3. 解决的痛点不同\n*   **Skillver 解决的是“能力提升与筛选效率”**：\n    *   对求职者：解决“不知道怎么面试、缺乏实战经验”的痛点。\n    *   对企业：解决“简历水分大、初筛耗费大量人力”的痛点（利用 AI 进行第一轮标准化筛查）。\n*   **招聘网站 解决的是“信息不对称”**：\n    *   解决“求职者找不到合适岗位，企业找不到求职者”的问题。\n\n### 总结\n简单来说，**招聘网站是“商场”**，帮你找到工作的机会；而 **Skillver 是“模拟考场/教练”**，帮你在去商场面试前做好充分的准备，或者帮商场老板先用自动设备筛选一遍顾客。两者在求职链路中属于不同的阶段。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603898,
+    "id": "4eReauDXHfaHz7IP1fS_wQ4",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 36,
+      "total_tokens": 1810
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:18:18.211113Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "**Skillver** 与传统的**招聘网站**（如 Boss直聘、猎聘、前程无忧、LinkedIn 等）有本质的区别，主要体现在定位、交互方式和核心功能上：\n\n### 1. 核心定位不同\n*   **Skillver**：是一个 **AI 驱动的面试模拟与技能评估平台**。它侧重于“**准备与评估**”，帮助求职者在实际面试前进行演练，或帮助企业在招聘前期进行 AI 筛选。\n*   **招聘网站**：是一个 **信息撮合与双向选择平台**。它侧重于“**连接与匹配**”，主要功能是发布职位、投递简历、建立企业与求职者的联系。\n\n### 2. 交互模式不同\n*   **Skillver**：主要是**人机交互**。求职者面对的是 AI 面试官，通过语音或文字进行模拟面试，系统根据表现给出即时的量化评分、多维度反馈和改进建议。\n*   **招聘网站**：主要是**人与人交互**。求职者直接与企业的 HR、部门主管或猎头进行沟通、约面。\n\n### 3. 解决的痛点不同\n*   **Skillver 解决的是“能力提升与筛选效率”**：\n    *   对求职者：解决“不知道怎么面试、缺乏实战经验”的痛点。\n    *   对企业：解决“简历水分大、初筛耗费大量人力”的痛点（利用 AI 进行第一轮标准化筛查）。\n*   **招聘网站 解决的是“信息不对称”**：\n    *   解决“求职者找不到合适岗位，企业找不到求职者”的问题。\n\n### 总结\n简单来说，**招聘网站是“商场”**，帮你找到工作的机会；而 **Skillver 是“模拟考场/教练”**，帮你在去商场面试前做好充分的准备，或者帮商场老板先用自动设备筛选一遍顾客。两者在求职链路中属于不同的阶段。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

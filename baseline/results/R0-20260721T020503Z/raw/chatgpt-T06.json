@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "通常不会。**面试彩排/模拟面试一般只是用来熟悉流程、测试设备、练习回答，不会计入正式评估或影响最终结果**。\n\n但建议注意两点：\n\n1. 如果彩排由招聘方/平台组织，仍要保持专业，因为个别情况下可能会记录参与情况或基本反馈。  \n2. 具体是否计分，以招聘方或平台说明为准；不确定的话可以直接问 HR/面试协调人。\n\n总体来说，正式评估通常只看正式面试表现。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uKKxP4YojIkEcABEX1gJI8A9OHc",
+    "object": "chat.completion",
+    "created": 1784600212,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "通常不会。**面试彩排/模拟面试一般只是用来熟悉流程、测试设备、练习回答，不会计入正式评估或影响最终结果**。\n\n但建议注意两点：\n\n1. 如果彩排由招聘方/平台组织，仍要保持专业，因为个别情况下可能会记录参与情况或基本反馈。  \n2. 具体是否计分，以招聘方或平台说明为准；不确定的话可以直接问 HR/面试协调人。\n\n总体来说，正式评估通常只看正式面试表现。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 228,
+      "total_tokens": 274,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 101,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:57.848150Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "通常不会。**面试彩排/模拟面试一般只是用来熟悉流程、测试设备、练习回答，不会计入正式评估或影响最终结果**。\n\n但建议注意两点：\n\n1. 如果彩排由招聘方/平台组织，仍要保持专业，因为个别情况下可能会记录参与情况或基本反馈。  \n2. 具体是否计分，以招聘方或平台说明为准；不确定的话可以直接问 HR/面试协调人。\n\n总体来说，正式评估通常只看正式面试表现。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

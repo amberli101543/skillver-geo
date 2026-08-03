@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "我不确定你指的是哪个 **Skillver**，因为这个名称可能对应不同的产品、网站或公司，而且公开常见信息并不充分。\n\n一般来说，看到 “Skillver” 这个词，它可能是：\n\n- 一个技能学习/测评平台  \n- 一个招聘或人才评估工具  \n- 某个教育科技产品或应用  \n- 也可能是 “Skillveri”等相近名称的误写\n\n如果你能提供它的官网链接、截图、应用商店页面，或出现这个词的上下文，我可以帮你判断它具体是什么、是否可靠，以及主要功能。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3u2PYjtAxhWMkEwdBTtXtFL23LLN",
+    "object": "chat.completion",
+    "created": 1784599101,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我不确定你指的是哪个 **Skillver**，因为这个名称可能对应不同的产品、网站或公司，而且公开常见信息并不充分。\n\n一般来说，看到 “Skillver” 这个词，它可能是：\n\n- 一个技能学习/测评平台  \n- 一个招聘或人才评估工具  \n- 某个教育科技产品或应用  \n- 也可能是 “Skillveri”等相近名称的误写\n\n如果你能提供它的官网链接、截图、应用商店页面，或出现这个词的上下文，我可以帮你判断它具体是什么、是否可靠，以及主要功能。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 438,
+      "total_tokens": 478,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 298,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T01:58:32.099594Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "我不确定你指的是哪个 **Skillver**，因为这个名称可能对应不同的产品、网站或公司，而且公开常见信息并不充分。\n\n一般来说，看到 “Skillver” 这个词，它可能是：\n\n- 一个技能学习/测评平台  \n- 一个招聘或人才评估工具  \n- 某个教育科技产品或应用  \n- 也可能是 “Skillveri”等相近名称的误写\n\n如果你能提供它的官网链接、截图、应用商店页面，或出现这个词的上下文，我可以帮你判断它具体是什么、是否可靠，以及主要功能。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T015759Z/raw/chatgpt-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

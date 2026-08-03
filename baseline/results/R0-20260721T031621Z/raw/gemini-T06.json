@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "面试彩排是否会影响正式评估，取决于彩排的性质。以下是具体分析：\n\n### 1. 官方/招聘方组织的彩排（如技术调试、流程预演）\n* **正式评分：不影响。** 这类彩排通常由HR或技术支持人员主持，面试官不参与。其目的是测试设备（网络、摄像头、麦克风）和熟悉流程，**不会**计入你的专业能力评分。\n* **间接印象：有潜在影响。** 虽然不计分，但你在彩排中展现的态度（如是否准时、沟通是否有礼貌、穿着是否得体）会给HR留下第一印象。如果表现极度不专业（如迟到、态度恶劣），HR可能会向面试官或用人部门反馈，产生负面影响。\n\n### 2. 个人或第三方组织的模拟彩排（Mock Interview）\n* **正式评估：无直接影响，但有积极的间接影响。** 招聘方无法得知你进行了私下彩排。\n* **正面作用：** 私下彩排能帮你熟悉答题逻辑、控制时间、消除紧张感，从而在正式评估中表现得更好。\n\n### 建议：\n对待任何官方组织的彩排，**应保持基本的职业素养**：准时出席、着装整洁、礼貌沟通。这不仅能确保正式面试时技术不出错，还能建立良好的职业第一印象。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "面试彩排是否会影响正式评估，取决于彩排的性质。以下是具体分析：\n\n### 1. 官方/招聘方组织的彩排（如技术调试、流程预演）\n* **正式评分：不影响。** 这类彩排通常由HR或技术支持人员主持，面试官不参与。其目的是测试设备（网络、摄像头、麦克风）和熟悉流程，**不会**计入你的专业能力评分。\n* **间接印象：有潜在影响。** 虽然不计分，但你在彩排中展现的态度（如是否准时、沟通是否有礼貌、穿着是否得体）会给HR留下第一印象。如果表现极度不专业（如迟到、态度恶劣），HR可能会向面试官或用人部门反馈，产生负面影响。\n\n### 2. 个人或第三方组织的模拟彩排（Mock Interview）\n* **正式评估：无直接影响，但有积极的间接影响。** 招聘方无法得知你进行了私下彩排。\n* **正面作用：** 私下彩排能帮你熟悉答题逻辑、控制时间、消除紧张感，从而在正式评估中表现得更好。\n\n### 建议：\n对待任何官方组织的彩排，**应保持基本的职业素养**：准时出席、着装整洁、礼貌沟通。这不仅能确保正式面试时技术不出错，还能建立良好的职业第一印象。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604198,
+    "id": "E-ZeaqySGoLQz7IP59326QU",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 310,
+      "prompt_tokens": 37,
+      "total_tokens": 1277
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:23:17.978334Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "面试彩排是否会影响正式评估，取决于彩排的性质。以下是具体分析：\n\n### 1. 官方/招聘方组织的彩排（如技术调试、流程预演）\n* **正式评分：不影响。** 这类彩排通常由HR或技术支持人员主持，面试官不参与。其目的是测试设备（网络、摄像头、麦克风）和熟悉流程，**不会**计入你的专业能力评分。\n* **间接印象：有潜在影响。** 虽然不计分，但你在彩排中展现的态度（如是否准时、沟通是否有礼貌、穿着是否得体）会给HR留下第一印象。如果表现极度不专业（如迟到、态度恶劣），HR可能会向面试官或用人部门反馈，产生负面影响。\n\n### 2. 个人或第三方组织的模拟彩排（Mock Interview）\n* **正式评估：无直接影响，但有积极的间接影响。** 招聘方无法得知你进行了私下彩排。\n* **正面作用：** 私下彩排能帮你熟悉答题逻辑、控制时间、消除紧张感，从而在正式评估中表现得更好。\n\n### 建议：\n对待任何官方组织的彩排，**应保持基本的职业素养**：准时出席、着装整洁、礼貌沟通。这不仅能确保正式面试时技术不出错，还能建立良好的职业第一印象。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

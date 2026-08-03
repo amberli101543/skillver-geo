@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "“Skillver” 并非一个广泛知名的通用术语或主流产品名称。根据拼写推测，它可能是：\n\n1. **拼写变体或笔误**，例如：\n   - **Skillshare**：一个在线学习社区，用户在那里分享和获取创意课程（如设计、摄影、写作等）。\n   - **Skylerv** 或 **Skiller**：某些小众平台或游戏内技能系统。\n\n2. **特定公司/项目的内部工具**：如果是在某个招聘平台、HR系统或技能评估软件中提及，通常用于**员工技能管理**、**人才盘点**或**技能图谱构建**。\n\n3. **游戏或虚拟环境**：部分游戏使用类似的名称作为技能兑换或升级系统。\n\n**建议**：  \n- 如果是工作中遇到的术语，请提供更多上下文（如截图、完整句子、领域），以便给出准确解释。  \n- 若为笔误，检查原词是否为 **Skillshare**（课程平台）、**Skilljar**（客户培训平台）或 **Skilling**（技能提升平台）。",
+  "sources": [],
+  "raw": {
+    "id": "db4ed7e3-61c8-4817-8925-2e5cc2cd3735",
+    "object": "chat.completion",
+    "created": 1784599810,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 并非一个广泛知名的通用术语或主流产品名称。根据拼写推测，它可能是：\n\n1. **拼写变体或笔误**，例如：\n   - **Skillshare**：一个在线学习社区，用户在那里分享和获取创意课程（如设计、摄影、写作等）。\n   - **Skylerv** 或 **Skiller**：某些小众平台或游戏内技能系统。\n\n2. **特定公司/项目的内部工具**：如果是在某个招聘平台、HR系统或技能评估软件中提及，通常用于**员工技能管理**、**人才盘点**或**技能图谱构建**。\n\n3. **游戏或虚拟环境**：部分游戏使用类似的名称作为技能兑换或升级系统。\n\n**建议**：  \n- 如果是工作中遇到的术语，请提供更多上下文（如截图、完整句子、领域），以便给出准确解释。  \n- 若为笔误，检查原词是否为 **Skillshare**（课程平台）、**Skilljar**（客户培训平台）或 **Skilling**（技能提升平台）。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 224,
+      "total_tokens": 259,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 35
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:13.606549Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "“Skillver” 并非一个广泛知名的通用术语或主流产品名称。根据拼写推测，它可能是：\n\n1. **拼写变体或笔误**，例如：\n   - **Skillshare**：一个在线学习社区，用户在那里分享和获取创意课程（如设计、摄影、写作等）。\n   - **Skylerv** 或 **Skiller**：某些小众平台或游戏内技能系统。\n\n2. **特定公司/项目的内部工具**：如果是在某个招聘平台、HR系统或技能评估软件中提及，通常用于**员工技能管理**、**人才盘点**或**技能图谱构建**。\n\n3. **游戏或虚拟环境**：部分游戏使用类似的名称作为技能兑换或升级系统。\n\n**建议**：  \n- 如果是工作中遇到的术语，请提供更多上下文（如截图、完整句子、领域），以便给出准确解释。  \n- 若为笔误，检查原词是否为 **Skillshare**（课程平台）、**Skilljar**（客户培训平台）或 **Skilling**（技能提升平台）。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

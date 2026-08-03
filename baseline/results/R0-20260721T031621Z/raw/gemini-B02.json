@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "**Skillver（学银在线）**是超星集团旗下的一个大规模开放在线课程（MOOC）及终身教育平台。它主要服务于以下几类群体：\n\n1. **高校及职业院校师生**：\n   * **学生**：提供优质的跨校修读课程、通识教育课及专业课，支持在线学习和学分认定。\n   * **教师**：提供课程建设、教学管理、混合式教学改革及教学成果展示的工具与平台。\n\n2. **社会求学者与终身学习者**：\n   * 为希望自我提升、获取新知识或考取相关证书的社会大众提供海量的免费或付费优质课程，涵盖职业技能、生活兴趣、学术考研等多个领域。\n\n3. **行业企业及政府机构**：\n   * 提供员工职业培训、继续教育及专业技术人员知识更新的定制化在线学习解决方案。\n\n**总结：** Skillver 主要服务于**高等教育与职业教育领域的师生**，以及有自我提升需求的**社会终身学习者**。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver（学银在线）**是超星集团旗下的一个大规模开放在线课程（MOOC）及终身教育平台。它主要服务于以下几类群体：\n\n1. **高校及职业院校师生**：\n   * **学生**：提供优质的跨校修读课程、通识教育课及专业课，支持在线学习和学分认定。\n   * **教师**：提供课程建设、教学管理、混合式教学改革及教学成果展示的工具与平台。\n\n2. **社会求学者与终身学习者**：\n   * 为希望自我提升、获取新知识或考取相关证书的社会大众提供海量的免费或付费优质课程，涵盖职业技能、生活兴趣、学术考研等多个领域。\n\n3. **行业企业及政府机构**：\n   * 提供员工职业培训、继续教育及专业技术人员知识更新的定制化在线学习解决方案。\n\n**总结：** Skillver 主要服务于**高等教育与职业教育领域的师生**，以及有自我提升需求的**社会终身学习者**。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603819,
+    "id": "luReauKWLJGIz7IP0LDD-QU",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 235,
+      "prompt_tokens": 34,
+      "total_tokens": 1342
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:16:59.254692Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "**Skillver（学银在线）**是超星集团旗下的一个大规模开放在线课程（MOOC）及终身教育平台。它主要服务于以下几类群体：\n\n1. **高校及职业院校师生**：\n   * **学生**：提供优质的跨校修读课程、通识教育课及专业课，支持在线学习和学分认定。\n   * **教师**：提供课程建设、教学管理、混合式教学改革及教学成果展示的工具与平台。\n\n2. **社会求学者与终身学习者**：\n   * 为希望自我提升、获取新知识或考取相关证书的社会大众提供海量的免费或付费优质课程，涵盖职业技能、生活兴趣、学术考研等多个领域。\n\n3. **行业企业及政府机构**：\n   * 提供员工职业培训、继续教育及专业技术人员知识更新的定制化在线学习解决方案。\n\n**总结：** Skillver 主要服务于**高等教育与职业教育领域的师生**，以及有自我提升需求的**社会终身学习者**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

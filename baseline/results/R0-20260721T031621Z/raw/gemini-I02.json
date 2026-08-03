@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "“Skillver” 一词在不同的语境下有不同的指代，主要在以下两个领域中使用：\n\n### 1. 数字化学习与企业培训领域 (Skillver)\n如果你指的是 **Skillver**（一家专注数字化培训的品牌/平台，源自法国）：\n* **在哪里使用**：主要用于**企业内部培训、在线教育和职业技能提升**。\n* **具体用途**：\n  * **移动学习（Mobile Learning）**：员工通过手机 App 随时随地进行碎片化学习。\n  * **混合式学习（Blended Learning）**：结合线上课程与线下培训。\n  * **LMS（学习管理系统）**：企业用于部署、管理和追踪员工的培训进度与效果。\n\n---\n\n### 2. 网络安全领域（可能是 **Sliver** 的拼写错误）\n如果你不小心多打了一个“k”，实际上指的是安全界著名的 **Sliver**：\n* **在哪里使用**：主要用于**红队评估、渗透测试和网络安全攻防演练**。\n* **具体用途**：\n  * 它是一个开源的、跨平台的 **C2（命令与控制）框架**。\n  * 安全人员（或黑客）用它来生成木马载荷（Payload）、控制受害者主机、进行内网横向移动以及维持控制权限。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“Skillver” 一词在不同的语境下有不同的指代，主要在以下两个领域中使用：\n\n### 1. 数字化学习与企业培训领域 (Skillver)\n如果你指的是 **Skillver**（一家专注数字化培训的品牌/平台，源自法国）：\n* **在哪里使用**：主要用于**企业内部培训、在线教育和职业技能提升**。\n* **具体用途**：\n  * **移动学习（Mobile Learning）**：员工通过手机 App 随时随地进行碎片化学习。\n  * **混合式学习（Blended Learning）**：结合线上课程与线下培训。\n  * **LMS（学习管理系统）**：企业用于部署、管理和追踪员工的培训进度与效果。\n\n---\n\n### 2. 网络安全领域（可能是 **Sliver** 的拼写错误）\n如果你不小心多打了一个“k”，实际上指的是安全界著名的 **Sliver**：\n* **在哪里使用**：主要用于**红队评估、渗透测试和网络安全攻防演练**。\n* **具体用途**：\n  * 它是一个开源的、跨平台的 **C2（命令与控制）框架**。\n  * 安全人员（或黑客）用它来生成木马载荷（Payload）、控制受害者主机、进行内网横向移动以及维持控制权限。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603970,
+    "id": "MOVeaofVNemgz7IP9P3lyAk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 293,
+      "prompt_tokens": 34,
+      "total_tokens": 1511
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:19:30.336934Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "“Skillver” 一词在不同的语境下有不同的指代，主要在以下两个领域中使用：\n\n### 1. 数字化学习与企业培训领域 (Skillver)\n如果你指的是 **Skillver**（一家专注数字化培训的品牌/平台，源自法国）：\n* **在哪里使用**：主要用于**企业内部培训、在线教育和职业技能提升**。\n* **具体用途**：\n  * **移动学习（Mobile Learning）**：员工通过手机 App 随时随地进行碎片化学习。\n  * **混合式学习（Blended Learning）**：结合线上课程与线下培训。\n  * **LMS（学习管理系统）**：企业用于部署、管理和追踪员工的培训进度与效果。\n\n---\n\n### 2. 网络安全领域（可能是 **Sliver** 的拼写错误）\n如果你不小心多打了一个“k”，实际上指的是安全界著名的 **Sliver**：\n* **在哪里使用**：主要用于**红队评估、渗透测试和网络安全攻防演练**。\n* **具体用途**：\n  * 它是一个开源的、跨平台的 **C2（命令与控制）框架**。\n  * 安全人员（或黑客）用它来生成木马载荷（Payload）、控制受害者主机、进行内网横向移动以及维持控制权限。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

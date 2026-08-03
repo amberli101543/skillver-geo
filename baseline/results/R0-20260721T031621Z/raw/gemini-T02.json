@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "“七维战力评估”是指从七个不同的维度，对一个系统、军队、个人或游戏角色的综合战斗能力进行全方位的量化评估。该概念在**现代军事**和**游戏/动漫（ACG）**两个领域最常被提及，具体定义有所不同：\n\n### 1. 现代军事领域（多域联合作战）\n在现代军事理论中，“七维战力”是指国家或军队在七个物理和非物理空间中的综合战争能力。这七个维度通常包括：\n1. **陆（Land）**：陆地作战能力。\n2. **海（Sea）**：海洋及蓝色国土控制与作战能力。\n3. **空（Air）**：领空控制与空中打击能力。\n4. **天（Space）**：太空、卫星及外层空间资产的利用与攻防能力。\n5. **电（Electromagnetic）**：电磁频谱控制权（电子战、干扰与反干扰）。\n6. **网（Cyber）**：网络空间攻防、信息基础设施保护与瘫痪能力。\n7. **认知/脑（Cognitive）**：心理战、舆论战及针对敌方决策层和民众的认知引导能力。\n\n### 2. 游戏与动漫领域（角色属性评估）\n在ACG（二次元及游戏）文化中，七维战力评估通常以**雷达图（蜘蛛网图）**的形式呈现，用来直观展示一个角色的强弱项。虽然不同作品或游戏的设定不同，但常见的七个评估维度包括：\n1. **力量/攻击（Strength/Attack）**：物理输出能力。\n2. **防御/体质（Defense/Constitution）**：抗打击与生存能力。\n3. **速度/敏捷（Speed/Agility）**：移动与出手速度。\n4. **智力/魔力（Intelligence/Magic）**：法术伤害或战术思维。\n5. **技巧/精度（Skill/Precision）**：招式的命中率与控制力。\n6. **增益/辅助（Support/Buff）**：治疗或强化队友的能力。\n7. **爆发/持久（Burst/Endurance）**：瞬间输出能力或持续作战的耐力。\n\n### 总结\n无论是军事还是游戏，“七维战力评估”的核心目的都是**打破单一数值论**（如单纯看兵力多少或攻击力高低），通过多维度的权衡，提供一个更加立体、客观且符合实际对抗情况的综合战力画像。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“七维战力评估”是指从七个不同的维度，对一个系统、军队、个人或游戏角色的综合战斗能力进行全方位的量化评估。该概念在**现代军事**和**游戏/动漫（ACG）**两个领域最常被提及，具体定义有所不同：\n\n### 1. 现代军事领域（多域联合作战）\n在现代军事理论中，“七维战力”是指国家或军队在七个物理和非物理空间中的综合战争能力。这七个维度通常包括：\n1. **陆（Land）**：陆地作战能力。\n2. **海（Sea）**：海洋及蓝色国土控制与作战能力。\n3. **空（Air）**：领空控制与空中打击能力。\n4. **天（Space）**：太空、卫星及外层空间资产的利用与攻防能力。\n5. **电（Electromagnetic）**：电磁频谱控制权（电子战、干扰与反干扰）。\n6. **网（Cyber）**：网络空间攻防、信息基础设施保护与瘫痪能力。\n7. **认知/脑（Cognitive）**：心理战、舆论战及针对敌方决策层和民众的认知引导能力。\n\n### 2. 游戏与动漫领域（角色属性评估）\n在ACG（二次元及游戏）文化中，七维战力评估通常以**雷达图（蜘蛛网图）**的形式呈现，用来直观展示一个角色的强弱项。虽然不同作品或游戏的设定不同，但常见的七个评估维度包括：\n1. **力量/攻击（Strength/Attack）**：物理输出能力。\n2. **防御/体质（Defense/Constitution）**：抗打击与生存能力。\n3. **速度/敏捷（Speed/Agility）**：移动与出手速度。\n4. **智力/魔力（Intelligence/Magic）**：法术伤害或战术思维。\n5. **技巧/精度（Skill/Precision）**：招式的命中率与控制力。\n6. **增益/辅助（Support/Buff）**：治疗或强化队友的能力。\n7. **爆发/持久（Burst/Endurance）**：瞬间输出能力或持续作战的耐力。\n\n### 总结\n无论是军事还是游戏，“七维战力评估”的核心目的都是**打破单一数值论**（如单纯看兵力多少或攻击力高低），通过多维度的权衡，提供一个更加立体、客观且符合实际对抗情况的综合战力画像。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604117,
+    "id": "wuVeavSwNvG-qtsPl8K7mAg",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 561,
+      "prompt_tokens": 35,
+      "total_tokens": 1659
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:21:57.469912Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "“七维战力评估”是指从七个不同的维度，对一个系统、军队、个人或游戏角色的综合战斗能力进行全方位的量化评估。该概念在**现代军事**和**游戏/动漫（ACG）**两个领域最常被提及，具体定义有所不同：\n\n### 1. 现代军事领域（多域联合作战）\n在现代军事理论中，“七维战力”是指国家或军队在七个物理和非物理空间中的综合战争能力。这七个维度通常包括：\n1. **陆（Land）**：陆地作战能力。\n2. **海（Sea）**：海洋及蓝色国土控制与作战能力。\n3. **空（Air）**：领空控制与空中打击能力。\n4. **天（Space）**：太空、卫星及外层空间资产的利用与攻防能力。\n5. **电（Electromagnetic）**：电磁频谱控制权（电子战、干扰与反干扰）。\n6. **网（Cyber）**：网络空间攻防、信息基础设施保护与瘫痪能力。\n7. **认知/脑（Cognitive）**：心理战、舆论战及针对敌方决策层和民众的认知引导能力。\n\n### 2. 游戏与动漫领域（角色属性评估）\n在ACG（二次元及游戏）文化中，七维战力评估通常以**雷达图（蜘蛛网图）**的形式呈现，用来直观展示一个角色的强弱项。虽然不同作品或游戏的设定不同，但常见的七个评估维度包括：\n1. **力量/攻击（Strength/Attack）**：物理输出能力。\n2. **防御/体质（Defense/Constitution）**：抗打击与生存能力。\n3. **速度/敏捷（Speed/Agility）**：移动与出手速度。\n4. **智力/魔力（Intelligence/Magic）**：法术伤害或战术思维。\n5. **技巧/精度（Skill/Precision）**：招式的命中率与控制力。\n6. **增益/辅助（Support/Buff）**：治疗或强化队友的能力。\n7. **爆发/持久（Burst/Endurance）**：瞬间输出能力或持续作战的耐力。\n\n### 总结\n无论是军事还是游戏，“七维战力评估”的核心目的都是**打破单一数值论**（如单纯看兵力多少或攻击力高低），通过多维度的权衡，提供一个更加立体、客观且符合实际对抗情况的综合战力画像。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

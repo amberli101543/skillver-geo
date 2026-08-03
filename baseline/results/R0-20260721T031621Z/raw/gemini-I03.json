@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "您问的可能是 **Skillshare**（著名的全球在线学习平台），或者是特定的 **Skillver**（多指欧洲/法国的在线培训与LMS平台）。\n\n以下是这两种情况的注册方法：\n\n### 情况一：如果您指的是 **Skillshare**（最常见的情况）\n1. **访问官网**：在浏览器中打开 [Skillshare 官网](https://www.skillshare.com/)。\n2. **点击注册**：点击页面右上角的 **\"Sign Up\"**（注册）按钮。\n3. **选择注册方式**：\n   * **快捷注册**：可选择使用 Google、Facebook 或 Apple 账号一键关联注册。\n   * **邮箱注册**：点击 \"Sign up with email\"，输入您的姓名、邮箱并设置密码。\n4. **绑定支付方式（可选）**：Skillshare 通常会提供免费试用期，注册时需要绑定信用卡（支持 Visa/Mastercard 等）或 PayPal。在试用期结束前您可以随时取消订阅以避免扣费。\n\n---\n\n### 情况二：如果您指的是 **Skillver**（在线培训/LMS 平台）\n1. **访问官网**：打开 [Skillver 官网](https://www.skillver.com/)。\n2. **寻找入口**：点击右上角的 **\"Connexion\"**（登录）或相关注册按钮（该平台主要为法语界面）。\n3. **如果是企业或学校用户**（最常见情况）：\n   * Skillver 通常是面向机构的培训系统。您一般**无法直接在官网自主注册**。\n   * 您需要等待您所在的学校、公司或培训机构为您创建账号。\n   * 查收您的邮箱，点击机构发送的**激活邮件/邀请链接**，设置密码后即可登录。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您问的可能是 **Skillshare**（著名的全球在线学习平台），或者是特定的 **Skillver**（多指欧洲/法国的在线培训与LMS平台）。\n\n以下是这两种情况的注册方法：\n\n### 情况一：如果您指的是 **Skillshare**（最常见的情况）\n1. **访问官网**：在浏览器中打开 [Skillshare 官网](https://www.skillshare.com/)。\n2. **点击注册**：点击页面右上角的 **\"Sign Up\"**（注册）按钮。\n3. **选择注册方式**：\n   * **快捷注册**：可选择使用 Google、Facebook 或 Apple 账号一键关联注册。\n   * **邮箱注册**：点击 \"Sign up with email\"，输入您的姓名、邮箱并设置密码。\n4. **绑定支付方式（可选）**：Skillshare 通常会提供免费试用期，注册时需要绑定信用卡（支持 Visa/Mastercard 等）或 PayPal。在试用期结束前您可以随时取消订阅以避免扣费。\n\n---\n\n### 情况二：如果您指的是 **Skillver**（在线培训/LMS 平台）\n1. **访问官网**：打开 [Skillver 官网](https://www.skillver.com/)。\n2. **寻找入口**：点击右上角的 **\"Connexion\"**（登录）或相关注册按钮（该平台主要为法语界面）。\n3. **如果是企业或学校用户**（最常见情况）：\n   * Skillver 通常是面向机构的培训系统。您一般**无法直接在官网自主注册**。\n   * 您需要等待您所在的学校、公司或培训机构为您创建账号。\n   * 查收您的邮箱，点击机构发送的**激活邮件/邀请链接**，设置密码后即可登录。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603994,
+    "id": "Q-VeapqXLrnoz7IPmtWQuA0",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 384,
+      "prompt_tokens": 33,
+      "total_tokens": 1834
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:19:54.031432Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "您问的可能是 **Skillshare**（著名的全球在线学习平台），或者是特定的 **Skillver**（多指欧洲/法国的在线培训与LMS平台）。\n\n以下是这两种情况的注册方法：\n\n### 情况一：如果您指的是 **Skillshare**（最常见的情况）\n1. **访问官网**：在浏览器中打开 [Skillshare 官网](https://www.skillshare.com/)。\n2. **点击注册**：点击页面右上角的 **\"Sign Up\"**（注册）按钮。\n3. **选择注册方式**：\n   * **快捷注册**：可选择使用 Google、Facebook 或 Apple 账号一键关联注册。\n   * **邮箱注册**：点击 \"Sign up with email\"，输入您的姓名、邮箱并设置密码。\n4. **绑定支付方式（可选）**：Skillshare 通常会提供免费试用期，注册时需要绑定信用卡（支持 Visa/Mastercard 等）或 PayPal。在试用期结束前您可以随时取消订阅以避免扣费。\n\n---\n\n### 情况二：如果您指的是 **Skillver**（在线培训/LMS 平台）\n1. **访问官网**：打开 [Skillver 官网](https://www.skillver.com/)。\n2. **寻找入口**：点击右上角的 **\"Connexion\"**（登录）或相关注册按钮（该平台主要为法语界面）。\n3. **如果是企业或学校用户**（最常见情况）：\n   * Skillver 通常是面向机构的培训系统。您一般**无法直接在官网自主注册**。\n   * 您需要等待您所在的学校、公司或培训机构为您创建账号。\n   * 查收您的邮箱，点击机构发送的**激活邮件/邀请链接**，设置密码后即可登录。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "**才谱 AI（Zhipu AI）与 Skillver 的关系是：Skillver 是才谱 AI 旗下“行业人才研究院”推出的 AI 求职助手品牌，两者属于同一公司的产品与品牌关系。**\n\n具体细节如下：\n\n*   **所属公司**：Skillver 的后台页面明确显示由**上海才谱人工智能科技有限公司**审核，该公司即“才谱 AI\"（官方英文名 Zhipu AI，中文名常写作“智谱 AI\"，用户查询中的“才谱”应为“智谱”的误写或音近称呼）[1]。\n*   **功能定位**：Skillver 被定义为\"AI 求职助手”，其核心依托是**Skillver 行业人才研究院**。该研究院基于真实招聘与评估实践，发布行业人才观察框架、标准岗位名录与实践方法论，旨在将 AI 能力转化为可观测的标准 [1]。\n*   **业务关联**：Skillver 平台目前支撑**49 个核验岗位**的标准岗位名录，这些标准与才谱 AI（智谱 AI）在 AI 大模型及具身智能领域的行业研究框架（如 Vol.1/Vol.2）一一对应 [1]。\n\n**注意**：用户查询中的“才谱 AI\"极大概率是指**智谱 AI（Zhipu AI）**。智谱 AI 是源自清华大学知识工程实验室的知名大模型公司（CEO 张鹏），而搜索结果中并未出现名为“才谱”的独立知名公司，仅在上海才谱人工智能科技有限公司的审核信息中出现，这证实了“Skillver\"是智谱 AI 生态下的产品 [1][8]。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": ""
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": ""
+    },
+    {
+      "url": "https://www.infoobs.com/article/20260604/71469.html",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2664813",
+      "title": ""
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7587309063479361546",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2654880",
+      "title": ""
+    },
+    {
+      "url": "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://www.skills.fan/",
+      "title": ""
+    },
+    {
+      "url": "https://rrskill.ai/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": "行业人才研究院 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云"
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具"
+    },
+    {
+      "url": "https://www.infoobs.com/article/20260604/71469.html",
+      "title": "腾讯、阿里、字节，混战Skill商店"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2664813",
+      "title": "严肃聊聊，Skill到底能蒸馏我们的几分之几？ - 腾讯云"
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7587309063479361546",
+      "title": "AI 终于会\"做事\"了！Skills 如何让大模型从\"知道\"到\"会做\""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2654880",
+      "title": "Skill到底是什么？从「同事.skill」爆火说起 - 腾讯云"
+    },
+    {
+      "url": "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am",
+      "title": "智谱AI的开发计算平台有哪些功能？"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    },
+    {
+      "url": "https://www.skills.fan/",
+      "title": "首页"
+    },
+    {
+      "url": "https://rrskill.ai/",
+      "title": "rrskill"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**才谱 AI（Zhipu AI）与 Skillver 的关系是：Skillver 是才谱 AI 旗下“行业人才研究院”推出的 AI 求职助手品牌，两者属于同一公司的产品与品牌关系。**\n\n具体细节如下：\n\n*   **所属公司**：Skillver 的后台页面明确显示由**上海才谱人工智能科技有限公司**审核，该公司即“才谱 AI\"（官方英文名 Zhipu AI，中文名常写作“智谱 AI\"，用户查询中的“才谱”应为“智谱”的误写或音近称呼）[1]。\n*   **功能定位**：Skillver 被定义为\"AI 求职助手”，其核心依托是**Skillver 行业人才研究院**。该研究院基于真实招聘与评估实践，发布行业人才观察框架、标准岗位名录与实践方法论，旨在将 AI 能力转化为可观测的标准 [1]。\n*   **业务关联**：Skillver 平台目前支撑**49 个核验岗位**的标准岗位名录，这些标准与才谱 AI（智谱 AI）在 AI 大模型及具身智能领域的行业研究框架（如 Vol.1/Vol.2）一一对应 [1]。\n\n**注意**：用户查询中的“才谱 AI\"极大概率是指**智谱 AI（Zhipu AI）**。智谱 AI 是源自清华大学知识工程实验室的知名大模型公司（CEO 张鹏），而搜索结果中并未出现名为“才谱”的独立知名公司，仅在上海才谱人工智能科技有限公司的审核信息中出现，这证实了“Skillver\"是智谱 AI 生态下的产品 [1][8]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/research/",
+      "https://cloud.tencent.com/developer/article/2655651",
+      "https://meta.appinn.net/t/topic/84427",
+      "https://www.infoobs.com/article/20260604/71469.html",
+      "https://cloud.tencent.com/developer/article/2664813",
+      "https://developer.volcengine.com/articles/7587309063479361546",
+      "https://cloud.tencent.com/developer/article/2654880",
+      "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am",
+      "https://cloud.tencent.com/developer/article/2625397",
+      "https://www.skills.fan/",
+      "https://rrskill.ai/"
+    ],
+    "created": 1784599648,
+    "id": "93283ff3-ff41-4c70-8c2c-0b02b97259db",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "Skillver 行业人才研究院基于真实招聘与评估实践，发布与白皮书**同等重要** 的三类核心研究输出：行业人才观察框架、标准岗位名录与实践方法论。\n...\nAI 人才价值进入大重估时代：三大范式转移、按问题域划分的十大岗位类别、Agent / 算法 / Infra / AI PM 的落地分界线，以及 Skillver 如何把能力变成可观测标准。\n...\n## 2026 AI 与具身智能行业岗位标准\n研究院将白皮书中的问题域与能力框架，落实为可查阅、可对照、可引用的标准岗位名录——每岗含行业、方向、职责与核心能力要求，支撑 Skillver 平台 49 个核验岗位。\n...\n- 与 Vol....",
+        "source": "web",
+        "title": "行业人才研究院 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/research/"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-10",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款跨平台 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2655651"
+      },
+      {
+        "date": "2026-04-23",
+        "last_updated": "2026-05-07",
+        "place_metadata": null,
+        "snippet": "Skiller：一款多平台 AI Skills管理工具\n...\nSkiller 是一款多平台可用的 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具",
+        "url": "https://meta.appinn.net/t/topic/84427"
+      },
+      {
+        "date": "2026-06-04",
+        "last_updated": "2026-07-16",
+        "place_metadata": null,
+        "snippet": "Skill，可以理解为给AI Agent的“操作手册”。它是一份结构化的指令文件，里面写清楚了该调用什么工具、遇到什么情况如何判断、最终按什么标准输出结果。Agent读取这份文件，就能按照预设的路径执行任务。\n...\n大厂也在快速跟进。今年3月，腾讯、阿里、字节先后在自家Agent平台上线了Skill商店。此后两个月，智谱、美团、小红书接连入场。互联网大厂、大模型公司、本地生活巨头，甚至内容平台，都在争夺这个入口。\nSkill商店争夺战的本质，是AI时代流量入口的卡位，谁掌握分发权，谁就掌握用户。\n...\n智谱4月在自家Agent平台Auto Claw上线了AgentMore Skills广场...",
+        "source": "web",
+        "title": "腾讯、阿里、字节，混战Skill商店",
+        "url": "https://www.infoobs.com/article/20260604/71469.html"
+      },
+      {
+        "date": "2026-05-06",
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "「同事 skill」把离职同事的飞书消息、钉钉文档、Slack 记录、微信聊天喂给 Claude，自动生成一个 skill 文件。装上之后，AI 就能「变成」那个同事。它不只是干那个同事的活，还用那个同事的语气说话。\n...\n虽然是学术论文，但它做的事情也是蒸馏。只不过蒸馏的不是人，而是整个科学领域的知识。\nSkill Foundry 的逻辑就是扫一遍 GitHub 仓库、API 文档、Jupyter Notebook、学术论文，看看能不能自动提取结构化的 Agent Skill。\n...\n这个定义里最关键的是两个词。「可组合」和「可路由」。\n可路由是指，模型面对一个任务时，能根据语义特征自动...",
+        "source": "web",
+        "title": "严肃聊聊，Skill到底能蒸馏我们的几分之几？ - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2664813"
+      },
+      {
+        "date": "2025-12-24",
+        "last_updated": "2026-04-18",
+        "place_metadata": null,
+        "snippet": "Agent 从架构层面可以归为基于模型和资源层之上的应用层。在 Agent 之上可以定义 System Prompt、引用外部知识库、MCP 等外部工具。但如何引用、能够进行标准化的给到 Agent，实际过程我们更好关注的是问题解决。因此将其组合，利用 Skills 的方式进行包装为一个技能。**Agent 协助做拆解、规划、执行与反思，而 Skills 能更好的帮我们在拆解和执行上做更细粒度的标准化拆解，可定义为提供能力与服务中间层。**\n### Skills 和 MCP 的关系\n实际技能模板纳入了解决特定场景问题需要的工具和外部能力，这些能力可以是通过 MCP 的方式接入。我们可以理解为通...",
+        "source": "web",
+        "title": "AI 终于会\"做事\"了！Skills 如何让大模型从\"知道\"到\"会做\"",
+        "url": "https://developer.volcengine.com/articles/7587309063479361546"
+      },
+      {
+        "date": "2026-04-14",
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "**核心观点：** Skill是AI Agent的可复用能力包，本质是一套文本规则+脚本工具的组合，让AI「学会」某项特定技能。\n**Skill与Harness的关系：** Skill是「教AI做什么」，Harness是「让AI能做什么」的运行环境。两者本质都是规则和约束，区别在于层级。\n...\n很多人分不清Skill和Harness。一句话说清楚：\n**Skill是「教AI做什么」，Harness是「让AI能做什么」。**\n...\nHarness = 厨房的整个基础设施（灶台、水电、通风系统） Skill = 一道菜的食谱（食材、步骤、火候） Tool = 锅碗瓢盆（具体执行工具）\n...\n...",
+        "source": "web",
+        "title": "Skill到底是什么？从「同事.skill」爆火说起 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2654880"
+      },
+      {
+        "date": "2024-07-19",
+        "last_updated": "2025-01-25",
+        "place_metadata": null,
+        "snippet": "美团入股智谱AI，通过投资布局AI大模型赛道，结合美团在本地生活服务领域的行业优势、海量的用户数据资源以及雄厚的技术实力和资金投入，共同探索AI技术的商业化落地。\n...\n智谱AI的起源可以追溯到清华计算机系知名教授唐杰带领下的清华知识工程实验室。该实验室在2006年发布了名为AMiner的科研情报产品，这是国内最早研发的以及迄今访问量最大的研究者社会网络分析与挖掘系统。\n智谱AI正是脱胎于该实验室，背后集结了一群清华大牛，包括CEO张鹏、董事长刘德兵、总裁王绍兰以及首席科学家唐杰教授等。",
+        "source": "web",
+        "title": "智谱AI的开发计算平台有哪些功能？",
+        "url": "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-05-04",
+        "place_metadata": null,
+        "snippet": "**Skills 已拥有多个专门的聚合网站和社区平台**。自 2025 年底 Anthropic、Cursor、Antigravity 等主流 AI 编程平台将 **Skills 标准化并开放生态** 后，围绕 Skills 的发现、分享、评测与分发迅速形成了一个活跃的开源与商业市场。",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "专为知识工作者和非技术人员精选 Skills ，把高手的经验变成你的方法和技能\n...\n市面上的 Skills 很多，但大多面向程序员，每个 Skill 在卷代码开发。技能范只做一件事：帮知识工作者、自媒体博主、白领、学生筛选工作、学习、创作的 Skills\n### 友好的产品界面\n可视化界面，不用敲命令。支持智谱、MiniMax、DeepSeek、Kimi 等国内大模型，不用科学上网也能用。\n### 让 AI 替你干活\n不只是聊天，AI 能直接帮你读文件、写文档、整理数据、操作电脑。你说，它做。",
+        "source": "web",
+        "title": "首页",
+        "url": "https://www.skills.fan/"
+      },
+      {
+        "date": "2026-04-15",
+        "last_updated": "2026-06-15",
+        "place_metadata": null,
+        "snippet": "以安全为先的AI代理技能审查工具。在从ClawdHub、GitHub或其他来源安装任何技能前使用。检查危险信号、权限范围及可疑模式。",
+        "source": "web",
+        "title": "rrskill",
+        "url": "https://rrskill.ai/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 412,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00041,
+        "request_cost": 0.005,
+        "total_cost": 0.00545
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 448
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:27.959245Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "**才谱 AI（Zhipu AI）与 Skillver 的关系是：Skillver 是才谱 AI 旗下“行业人才研究院”推出的 AI 求职助手品牌，两者属于同一公司的产品与品牌关系。**\n\n具体细节如下：\n\n*   **所属公司**：Skillver 的后台页面明确显示由**上海才谱人工智能科技有限公司**审核，该公司即“才谱 AI\"（官方英文名 Zhipu AI，中文名常写作“智谱 AI\"，用户查询中的“才谱”应为“智谱”的误写或音近称呼）[1]。\n*   **功能定位**：Skillver 被定义为\"AI 求职助手”，其核心依托是**Skillver 行业人才研究院**。该研究院基于真实招聘与评估实践，发布行业人才观察框架、标准岗位名录与实践方法论，旨在将 AI 能力转化为可观测的标准 [1]。\n*   **业务关联**：Skillver 平台目前支撑**49 个核验岗位**的标准岗位名录，这些标准与才谱 AI（智谱 AI）在 AI 大模型及具身智能领域的行业研究框架（如 Vol.1/Vol.2）一一对应 [1]。\n\n**注意**：用户查询中的“才谱 AI\"极大概率是指**智谱 AI（Zhipu AI）**。智谱 AI 是源自清华大学知识工程实验室的知名大模型公司（CEO 张鹏），而搜索结果中并未出现名为“才谱”的独立知名公司，仅在上海才谱人工智能科技有限公司的审核信息中出现，这证实了“Skillver\"是智谱 AI 生态下的产品 [1][8]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

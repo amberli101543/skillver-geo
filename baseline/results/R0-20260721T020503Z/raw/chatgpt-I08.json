@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "如果 Skillver 目前是**邀请制/内测阶段**，没有邀请码通常**不能直接注册或使用完整功能**。\n\n你可以尝试：\n\n1. 在官网或 App 内申请邀请码/加入候补名单  \n2. 关注官方公告，等待开放注册  \n3. 向已有用户或官方渠道获取邀请码  \n\n如果你已经能进入登录页，也可以先试试是否支持邮箱、手机号或第三方账号直接注册。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uGqn9yz86u1TsZlDSsgHQV1MFTo",
+    "object": "chat.completion",
+    "created": 1784599996,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "如果 Skillver 目前是**邀请制/内测阶段**，没有邀请码通常**不能直接注册或使用完整功能**。\n\n你可以尝试：\n\n1. 在官网或 App 内申请邀请码/加入候补名单  \n2. 关注官方公告，等待开放注册  \n3. 向已有用户或官方渠道获取邀请码  \n\n如果你已经能进入登录页，也可以先试试是否支持邮箱、手机号或第三方账号直接注册。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 250,
+      "total_tokens": 295,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 146,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:21.595995Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "如果 Skillver 目前是**邀请制/内测阶段**，没有邀请码通常**不能直接注册或使用完整功能**。\n\n你可以尝试：\n\n1. 在官网或 App 内申请邀请码/加入候补名单  \n2. 关注官方公告，等待开放注册  \n3. 向已有用户或官方渠道获取邀请码  \n\n如果你已经能进入登录页，也可以先试试是否支持邮箱、手机号或第三方账号直接注册。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

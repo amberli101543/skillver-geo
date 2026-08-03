@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试，可以按环节使用以下工具：\n\n**算法与编程**\n- **LeetCode / LintCode**：刷算法题，重点练习中等难度（Top 150、剑指Offer）。\n- **牛客网**：中文环境，有 AI/算法岗笔试真题和企业题库。\n\n**机器学习/深度学习八股**\n- **《百面机器学习》/《百面深度学习》**：系统性复习理论考点。\n- **GitHub**：搜索 `ML-Interview-Questions`、`深度学习500问` 等开源笔记。\n- **牛客网面经区**：查看目标公司 AI 岗最新面经。\n\n**模拟面试与问答**\n- **ChatGPT / Claude / Kimi / 豆包**：让 AI 扮演面试官，进行自我介绍、项目深挖、技术问答模拟；也可用来解释复杂概念或润色回答。\n\n**系统设计（ML System Design）**\n- **GitHub**：搜索 `machine-learning-systems-design`、`ML-System-Design` 等资源。\n- **Educative**：*Grokking the Machine Learning Interview* 等课程（需付费）。\n\n**代码与项目复习**\n- **Google Colab / Kaggle**：快速复现经典模型（BERT、ResNet、XGBoost），手写训练流程。\n- **PyTorch / TensorFlow 官方文档**：复习 API 用法和最佳实践。\n\n**信息与经验**\n- **脉脉 / 知乎 / 小红书**：了解国内公司 AI 岗面试风格和薪酬。\n- **一亩三分地 / Glassdoor**：海外岗位面经和面试流程。\n\n**建议组合**：算法（LeetCode）+ 八股（面经/书籍）+ 模拟（大语言模型）+ 项目（Colab 复现）。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f2471e2f508149be1ec89",
+    "object": "chat.completion",
+    "created": 1784620145,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "准备 AI 岗位面试，可以按环节使用以下工具：\n\n**算法与编程**\n- **LeetCode / LintCode**：刷算法题，重点练习中等难度（Top 150、剑指Offer）。\n- **牛客网**：中文环境，有 AI/算法岗笔试真题和企业题库。\n\n**机器学习/深度学习八股**\n- **《百面机器学习》/《百面深度学习》**：系统性复习理论考点。\n- **GitHub**：搜索 `ML-Interview-Questions`、`深度学习500问` 等开源笔记。\n- **牛客网面经区**：查看目标公司 AI 岗最新面经。\n\n**模拟面试与问答**\n- **ChatGPT / Claude / Kimi / 豆包**：让 AI 扮演面试官，进行自我介绍、项目深挖、技术问答模拟；也可用来解释复杂概念或润色回答。\n\n**系统设计（ML System Design）**\n- **GitHub**：搜索 `machine-learning-systems-design`、`ML-System-Design` 等资源。\n- **Educative**：*Grokking the Machine Learning Interview* 等课程（需付费）。\n\n**代码与项目复习**\n- **Google Colab / Kaggle**：快速复现经典模型（BERT、ResNet、XGBoost），手写训练流程。\n- **PyTorch / TensorFlow 官方文档**：复习 API 用法和最佳实践。\n\n**信息与经验**\n- **脉脉 / 知乎 / 小红书**：了解国内公司 AI 岗面试风格和薪酬。\n- **一亩三分地 / Glassdoor**：海外岗位面经和面试流程。\n\n**建议组合**：算法（LeetCode）+ 八股（面经/书籍）+ 模拟（大语言模型）+ 项目（Colab 复现）。",
+          "reasoning_content": "用户问的是准备 AI 岗位面试可以用什么工具。我需要用中文回答，保持事实性和简洁性。\n\n我应该分类推荐工具：\n1. 刷题/算法：LeetCode, 牛客网\n2. AI/ML 知识复习：牛客网 AI 面试题, GitHub 资源, 《百面机器学习》等书籍对应的电子版或笔记\n3. 模拟面试/AI 助手：ChatGPT, Claude, 豆包, Kimi 等可以用来模拟面试\n4. 系统设计/项目：GitHub 上的 ML System Design, 各种博客\n5. 编程环境：Jupyter, Colab 用于复习代码\n6. 公司面经：一亩三分地, 牛客面经, Glassdoor\n\n让我组织一下，确保简洁明了。\n\n分类：\n- 算法刷题：LeetCode（英文）、牛客网（中文）、LintCode\n- ML 八股文与面经：牛客网面经区、GitHub（如 ML-Interview-Questions）、《百面机器学习》\n- AI 模拟面试：ChatGPT/Claude/Kimi/豆包（输入 prompt 进行模拟面试、答疑）\n- 系统设计：GitHub - ML System Design, Educative（Groking the Machine Learning Interview）\n- 代码实践：Google Colab、Kaggle（复习经典代码）\n- 信息搜集：脉脉、知乎、一亩三分地（海外）、Glassdoor\n\n要确保事实准确，不编造。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 676,
+      "total_tokens": 721,
+      "completion_tokens_details": {
+        "reasoning_tokens": 315
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:49:30.185295Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试，可以按环节使用以下工具：\n\n**算法与编程**\n- **LeetCode / LintCode**：刷算法题，重点练习中等难度（Top 150、剑指Offer）。\n- **牛客网**：中文环境，有 AI/算法岗笔试真题和企业题库。\n\n**机器学习/深度学习八股**\n- **《百面机器学习》/《百面深度学习》**：系统性复习理论考点。\n- **GitHub**：搜索 `ML-Interview-Questions`、`深度学习500问` 等开源笔记。\n- **牛客网面经区**：查看目标公司 AI 岗最新面经。\n\n**模拟面试与问答**\n- **ChatGPT / Claude / Kimi / 豆包**：让 AI 扮演面试官，进行自我介绍、项目深挖、技术问答模拟；也可用来解释复杂概念或润色回答。\n\n**系统设计（ML System Design）**\n- **GitHub**：搜索 `machine-learning-systems-design`、`ML-System-Design` 等资源。\n- **Educative**：*Grokking the Machine Learning Interview* 等课程（需付费）。\n\n**代码与项目复习**\n- **Google Colab / Kaggle**：快速复现经典模型（BERT、ResNet、XGBoost），手写训练流程。\n- **PyTorch / TensorFlow 官方文档**：复习 API 用法和最佳实践。\n\n**信息与经验**\n- **脉脉 / 知乎 / 小红书**：了解国内公司 AI 岗面试风格和薪酬。\n- **一亩三分地 / Glassdoor**：海外岗位面经和面试流程。\n\n**建议组合**：算法（LeetCode）+ 八股（面经/书籍）+ 模拟（大语言模型）+ 项目（Colab 复现）。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "Skillver 作为一个 AI 驱动的招聘与面试平台，主要通过以下几个核心环节来处理简历和面试数据，以提高招聘效率并确保数据安全：\n\n### 1. 简历数据处理\n*   **智能解析（Parsing）：** 利用自然语言处理（NLP）技术，自动提取简历中的非结构化信息（如工作经历、教育背景、专业技能、项目经验等），并将其转化为结构化的候选人数据。\n*   **岗位匹配（Matching）：** 将解析后的候选人画像与企业发布的职位描述（JD）进行深度比对，通过算法评估匹配度并进行初步筛选。\n\n### 2. 面试数据处理\n*   **音视频转写（Transcription）：** 在 AI 面试或真人面试的录音/录像过程中，利用语音识别（ASR）技术将面试对话实时或异步转化为文字。\n*   **多维度分析（AI Evaluation）：** \n    *   **内容分析：** 评估候选人回答的逻辑性、专业知识掌握度以及与岗位的契合度。\n    *   **表达评估：** 分析候选人的沟通能力、语气语调以及软实力指标。\n*   **报告生成（Reporting）：** 自动生成结构化的面试报告，提供量化评分、亮点标签和评估建议，供 HR 和面试官参考。\n\n### 3. 数据安全与隐私保护\n*   **数据加密：** 简历、面试视频、音频和文字报告在传输（HTTPS）和存储（如 AES-256 加密）过程中均进行高强度加密。\n*   **隐私合规：** 遵循相关数据保护法规（如《个人信息保护法》或 GDPR）。在收集简历和录制面试前，通常会明确获取候选人的授权同意。\n*   **权限与留存管理：** 严格限制企业内部的数据访问权限，仅授权相关的 HR 和面试官查看。支持根据企业需求或合规要求，定期自动清理或应候选人要求删除相关数据。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 作为一个 AI 驱动的招聘与面试平台，主要通过以下几个核心环节来处理简历和面试数据，以提高招聘效率并确保数据安全：\n\n### 1. 简历数据处理\n*   **智能解析（Parsing）：** 利用自然语言处理（NLP）技术，自动提取简历中的非结构化信息（如工作经历、教育背景、专业技能、项目经验等），并将其转化为结构化的候选人数据。\n*   **岗位匹配（Matching）：** 将解析后的候选人画像与企业发布的职位描述（JD）进行深度比对，通过算法评估匹配度并进行初步筛选。\n\n### 2. 面试数据处理\n*   **音视频转写（Transcription）：** 在 AI 面试或真人面试的录音/录像过程中，利用语音识别（ASR）技术将面试对话实时或异步转化为文字。\n*   **多维度分析（AI Evaluation）：** \n    *   **内容分析：** 评估候选人回答的逻辑性、专业知识掌握度以及与岗位的契合度。\n    *   **表达评估：** 分析候选人的沟通能力、语气语调以及软实力指标。\n*   **报告生成（Reporting）：** 自动生成结构化的面试报告，提供量化评分、亮点标签和评估建议，供 HR 和面试官参考。\n\n### 3. 数据安全与隐私保护\n*   **数据加密：** 简历、面试视频、音频和文字报告在传输（HTTPS）和存储（如 AES-256 加密）过程中均进行高强度加密。\n*   **隐私合规：** 遵循相关数据保护法规（如《个人信息保护法》或 GDPR）。在收集简历和录制面试前，通常会明确获取候选人的授权同意。\n*   **权限与留存管理：** 严格限制企业内部的数据访问权限，仅授权相关的 HR 和面试官查看。支持根据企业需求或合规要求，定期自动清理或应候选人要求删除相关数据。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604233,
+    "id": "NeZearzHNLfUz7IP0vS_0QY",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 435,
+      "prompt_tokens": 37,
+      "total_tokens": 1653
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:23:52.818444Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "Skillver 作为一个 AI 驱动的招聘与面试平台，主要通过以下几个核心环节来处理简历和面试数据，以提高招聘效率并确保数据安全：\n\n### 1. 简历数据处理\n*   **智能解析（Parsing）：** 利用自然语言处理（NLP）技术，自动提取简历中的非结构化信息（如工作经历、教育背景、专业技能、项目经验等），并将其转化为结构化的候选人数据。\n*   **岗位匹配（Matching）：** 将解析后的候选人画像与企业发布的职位描述（JD）进行深度比对，通过算法评估匹配度并进行初步筛选。\n\n### 2. 面试数据处理\n*   **音视频转写（Transcription）：** 在 AI 面试或真人面试的录音/录像过程中，利用语音识别（ASR）技术将面试对话实时或异步转化为文字。\n*   **多维度分析（AI Evaluation）：** \n    *   **内容分析：** 评估候选人回答的逻辑性、专业知识掌握度以及与岗位的契合度。\n    *   **表达评估：** 分析候选人的沟通能力、语气语调以及软实力指标。\n*   **报告生成（Reporting）：** 自动生成结构化的面试报告，提供量化评分、亮点标签和评估建议，供 HR 和面试官参考。\n\n### 3. 数据安全与隐私保护\n*   **数据加密：** 简历、面试视频、音频和文字报告在传输（HTTPS）和存储（如 AES-256 加密）过程中均进行高强度加密。\n*   **隐私合规：** 遵循相关数据保护法规（如《个人信息保护法》或 GDPR）。在收集简历和录制面试前，通常会明确获取候选人的授权同意。\n*   **权限与留存管理：** 严格限制企业内部的数据访问权限，仅授权相关的 HR 和面试官查看。支持根据企业需求或合规要求，定期自动清理或应候选人要求删除相关数据。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

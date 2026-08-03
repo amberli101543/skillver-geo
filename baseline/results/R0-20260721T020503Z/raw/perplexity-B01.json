@@ -1,0 +1,376 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "\"Skillver\" 在不同语境下可能指代两个完全不同的实体，需根据具体拼写和上下文区分：\n\n1. **Skillveri（常见正确拼写）**  \n   是一家**虚拟/混合现实（XR/MR）技能培训平台公司**，专注于为制造业提供多技能沉浸式模拟培训，主要涵盖：\n   - **焊接**（GMAW、SMAW、GTAW 等多种工艺）[1][3]\n   - **喷涂/喷漆**（汽车原厂漆、碰撞修复、装饰性涂装等）[1][3]\n   - **HVACR（暖通空调与制冷）** 和 **太阳能安装** [1][3][5]  \n   其核心优势是：通过 VR/XR 技术实现**零误差技能训练**、**实时评分评估**，并相比传统培训方式**节省高达 70% 的成本与时间**[1]。该公司是美国第三大沉浸式模拟培训服务商，也在印度等地推广该技术 [5]。官网为 [skillveri.com](http://www.skillveri.com) [1]。\n\n2. **Skillver（无末尾 \"i\"）**  \n   可能指：\n   - **Skillver AI 求职助手**（中文名“行业人才研究院”），一个基于真实招聘数据发布行业人才观察、标准岗位名录与实践方法论的研究项目 [2]；\n   - 或社交媒体账号 **Skillver Official**（联结 TikTok/Instagram/Facebook 的链接树页面），主打“释放创造力与技能” [4]。\n\n⚠️ 注意：  \n- 用户提问中的 **\"Skillver\"** 很可能是 **\"Skillveri\"** 的拼写遗漏（末尾缺少 \"i\"），因为 **Skillveri** 是国际知名技术公司，有明确官网、产品和合作新闻，而 \"Skillver\" 作为独立品牌的信息较少且分散。  \n- 此外，\"Skill\" 在 AI 领域常指 **AI Agent 的可复用能力包**（如 SkillEvolver、Skill Vetter 等工具中的概念），但这是通用术语，并非特指某名为 \"Skillver\" 的产品 [10][11][15]。\n\n✅ 建议：若您关注的是**焊接/喷漆等职业技能的 VR 培训系统**，所指应为 **Skillveri**；若涉及**求职或行业研究**，则可能是 **Skillver AI**。可进一步确认拼写或用途。",
+  "sources": [
+    {
+      "url": "https://in.linkedin.com/company/skillveri",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/skillveri-in-the-news/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.erm-automatismes.com/p724-fr-modules-de-formation-skillveri.html?g=9",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://arxiv.org/html/2605.10500v1",
+      "title": ""
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260525A09ONS00",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2649444",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/IT-Evan/p/19684107",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2654880",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md",
+      "title": ""
+    },
+    {
+      "url": "https://in.linkedin.com/company/skillveri",
+      "title": "Skillveri MR & XR Simulations | LinkedIn"
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": "行业人才研究院 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://skillveri.com/",
+      "title": "Skillveri - World's Leading MR & XR simulation platform for Skills"
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://skillveri.com/skillveri-in-the-news/",
+      "title": "Skillveri in the News - Media Mentions"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.erm-automatismes.com/p724-fr-modules-de-formation-skillveri.html?g=9",
+      "title": "Module de formation SKILLVERI \"Soudure / Peinture / Sablage / CVC / Photovoltaïque\""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.10500v1",
+      "title": "SkillEvolver: Skill Learning as a Meta-Skill - arXiv"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20260525A09ONS00",
+      "title": "清华同一天发表两篇Skill力作，捅破了Agent技能自进化的天花板！_腾讯新闻"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2649444",
+      "title": "所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。 - 腾讯云"
+    },
+    {
+      "url": "https://www.cnblogs.com/IT-Evan/p/19684107",
+      "title": "一文读懂Skills - 智慧园区-老朱"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "title": "把你的同事炼化成Skill？| Github爆火项目 | 职场打工人 | 什么是Skill | Anthropic | 提示词 | 开放标准格式 | 反蒸馏 | 版权问题 | 静态快照"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2654880",
+      "title": "Skill到底是什么？从「同事.skill」爆火说起 - 腾讯云"
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理"
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md",
+      "title": "Extra08-如何写出好的Skill.md - GitHub"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "\"Skillver\" 在不同语境下可能指代两个完全不同的实体，需根据具体拼写和上下文区分：\n\n1. **Skillveri（常见正确拼写）**  \n   是一家**虚拟/混合现实（XR/MR）技能培训平台公司**，专注于为制造业提供多技能沉浸式模拟培训，主要涵盖：\n   - **焊接**（GMAW、SMAW、GTAW 等多种工艺）[1][3]\n   - **喷涂/喷漆**（汽车原厂漆、碰撞修复、装饰性涂装等）[1][3]\n   - **HVACR（暖通空调与制冷）** 和 **太阳能安装** [1][3][5]  \n   其核心优势是：通过 VR/XR 技术实现**零误差技能训练**、**实时评分评估**，并相比传统培训方式**节省高达 70% 的成本与时间**[1]。该公司是美国第三大沉浸式模拟培训服务商，也在印度等地推广该技术 [5]。官网为 [skillveri.com](http://www.skillveri.com) [1]。\n\n2. **Skillver（无末尾 \"i\"）**  \n   可能指：\n   - **Skillver AI 求职助手**（中文名“行业人才研究院”），一个基于真实招聘数据发布行业人才观察、标准岗位名录与实践方法论的研究项目 [2]；\n   - 或社交媒体账号 **Skillver Official**（联结 TikTok/Instagram/Facebook 的链接树页面），主打“释放创造力与技能” [4]。\n\n⚠️ 注意：  \n- 用户提问中的 **\"Skillver\"** 很可能是 **\"Skillveri\"** 的拼写遗漏（末尾缺少 \"i\"），因为 **Skillveri** 是国际知名技术公司，有明确官网、产品和合作新闻，而 \"Skillver\" 作为独立品牌的信息较少且分散。  \n- 此外，\"Skill\" 在 AI 领域常指 **AI Agent 的可复用能力包**（如 SkillEvolver、Skill Vetter 等工具中的概念），但这是通用术语，并非特指某名为 \"Skillver\" 的产品 [10][11][15]。\n\n✅ 建议：若您关注的是**焊接/喷漆等职业技能的 VR 培训系统**，所指应为 **Skillveri**；若涉及**求职或行业研究**，则可能是 **Skillver AI**。可进一步确认拼写或用途。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://in.linkedin.com/company/skillveri",
+      "https://tcodeai.com/research/",
+      "https://skillveri.com/",
+      "https://linktr.ee/Skillver.Academy",
+      "https://skillveri.com/skillveri-in-the-news/",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://www.erm-automatismes.com/p724-fr-modules-de-formation-skillveri.html?g=9",
+      "https://cloud.tencent.com/developer/article/2655651",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://arxiv.org/html/2605.10500v1",
+      "https://news.qq.com/rain/a/20260525A09ONS00",
+      "https://cloud.tencent.com/developer/article/2649444",
+      "https://www.cnblogs.com/IT-Evan/p/19684107",
+      "https://www.youtube.com/watch?v=KqxNN_-J5k4",
+      "https://cloud.tencent.com/developer/article/2654880",
+      "https://github.com/anbeime/skill",
+      "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md"
+    ],
+    "created": 1784599546,
+    "id": "8d23ae0a-5a6f-4920-959e-7789eafa0c36",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2025-03-19",
+        "last_updated": "2025-03-27",
+        "place_metadata": null,
+        "snippet": "#### Error-free Dexterity: Measure, Train, Analyze on Mixed Reality multi-skill simulation platform: welding, painting, HVACR\n...\nSkillveri is a pioneer in Metaverse XR/MR based multi-skill simulators that provide training for manufacturing sector skills, delivering enhanced learning outcomes and ex...",
+        "source": "web",
+        "title": "Skillveri MR & XR Simulations | LinkedIn",
+        "url": "https://in.linkedin.com/company/skillveri"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "Skillver 行业人才研究院基于真实招聘与评估实践，发布与白皮书**同等重要** 的三类核心研究输出：行业人才观察框架、标准岗位名录与实践方法论。",
+        "source": "web",
+        "title": "行业人才研究院 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/research/"
+      },
+      {
+        "date": "2023-04-04",
+        "last_updated": "2026-03-04",
+        "place_metadata": null,
+        "snippet": "#### Enabling a Globally Skilled Workforce through Advanced Mixed Reality / Virtual Reality Training Systems with Integrated Haptics\n...\nSkillveri’s XR skill-training platform not only provides an immersive training for manufacturing sector skills, but also delivers an accurate measurement in a scor...",
+        "source": "web",
+        "title": "Skillveri - World's Leading MR & XR simulation platform for Skills",
+        "url": "https://skillveri.com/"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "🌟 Unleashing creativity & skills!\nJoin the journey!\n🚀",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2023-05-08",
+        "last_updated": "2026-03-19",
+        "place_metadata": null,
+        "snippet": "Skillveri, a tech-first innovator that’s redefining vocational skills training for the next generation workforce, is the third largest provider of immersive simulation-based training in the USA.\nSkillveri builds multi-skill simulation platforms using XR, VR & MR to offer gamified training modules fo...",
+        "source": "web",
+        "title": "Skillveri in the News - Media Mentions",
+        "url": "https://skillveri.com/skillveri-in-the-news/"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "Skill-Verse：让英语口语更实用在当今世界，英语不仅仅是一门语言，更是一门开启教育、职业和机遇之门的技能。然而，许多学生和专业人士仍难以将课堂学习转化为实际的交流。Skill-Verse 口语英语应用程序正是为此应运而生。\nSkill-Verse 帮助学习者超越理论，以最实用的方式体验英语。无论您是准备升入下一阶段教育的学生，还是致力于提升职场沟通能力的专业人士，Skill-Verse 都能为您提供成功所需的架构、练习和信心。",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2024-12-24",
+        "place_metadata": null,
+        "snippet": "Modules de formation en peinture, soudage, climatisation et panneaux solaires.\nLes modules de formation en peinture, soudage, climatisation et panneaux solaires offerts par les solutions de formation virtuelle de\n**SKILLVERI** intègrent la réalité virtuelle pour favoriser une meilleure acquisition d...",
+        "source": "web",
+        "title": "Module de formation SKILLVERI \"Soudure / Peinture / Sablage / CVC / Photovoltaïque\"",
+        "url": "https://www.erm-automatismes.com/p724-fr-modules-de-formation-skillveri.html?g=9"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-10",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款跨平台 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2655651"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "We propose SkillEvolver, a lightweight, plug-and-play solution for *online skill learning*, in which a single *meta-skill* iteratively authors, deploys, and refines *domain-specific skills*.\n...\nIn this work, we propose SkillEvolver, a lightweight solution framework for *online skill learning*: adap...",
+        "source": "web",
+        "title": "SkillEvolver: Skill Learning as a Meta-Skill - arXiv",
+        "url": "https://arxiv.org/html/2605.10500v1"
+      },
+      {
+        "date": "2026-05-25",
+        "last_updated": "2026-07-12",
+        "place_metadata": null,
+        "snippet": "**SkillEvolver提出元技能驱动的在线学习框架，通过策略多样化探索、对比式更新和独立审计三阶段，让一个CLI-Agent为下游Agent生成可复用技能。** **\n...\n- **SkillEvolver**：展示元技能（Meta-Skill）如何作为可插拔组件，指导CLI-Agent生成领域技能。\n...\nSkillEvolver的解决方案是角色分离：让一个AI专门负责编写技能（作者），交给另一个AI去执行（执行者）。作者不知道执行者会如何理解指令，执行者只能照章行事。这种信息不对称使技能的缺陷在执行中自然暴露。\n...\nSkillEvolver 本身被定义为一项通用**元技能**...",
+        "source": "web",
+        "title": "清华同一天发表两篇Skill力作，捅破了Agent技能自进化的天花板！_腾讯新闻",
+        "url": "https://news.qq.com/rain/a/20260525A09ONS00"
+      },
+      {
+        "date": "2026-04-02",
+        "last_updated": "2026-05-24",
+        "place_metadata": null,
+        "snippet": "这东西，基本就是任何朋友问我怎么把控安全问题，或者要装什么skills，我永远推荐的第一个必备的SKills。\n它的作用特别简单，就是在你装任何Skill之前，先帮你把那个Skill审查一遍，给你出一份报告，告诉你这东西能不能装。\n...\nSkill Vetter本身，就是一个纯指令型的Skill。\n它自己不会跑任何代码，不联网，不动你的文件。",
+        "source": "web",
+        "title": "所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2649444"
+      },
+      {
+        "date": "2026-03-14",
+        "last_updated": "2026-06-24",
+        "place_metadata": null,
+        "snippet": "简单来说，Skills = AI的\"技能包\"。\n它就像给AI安装各种\"插件\"或\"小程序\"，让AI学会做特定的事情。\n...\n一句话：Skills把你的工作经验和流程，打包成AI可以反复调用的\"技能手册\"。\n...\nSkills = 把你变成AI的\"培训师\"",
+        "source": "web",
+        "title": "一文读懂Skills - 智慧园区-老朱",
+        "url": "https://www.cnblogs.com/IT-Evan/p/19684107"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-07-04",
+        "place_metadata": null,
+        "snippet": "{ts:164} 以及指令无法复用 Skill的真正源头来自于AI公司Anthropic 2025年10月16日\n...\n{ts:224} 简单来说，一个Skill 本质上就是一个标准化的文件夹 这个文件夹里\n{ts:229} 最核心的是一份名为SKILL.md的文件 这份文件由两部分组成 一部分是YAML格式的元数据\n...\n{ts:524} Skill的核心机制是按需加载 AI在执行单次任务时 只会调用与当前任务相关的一个或几个Skill\n...\n{ts:929} 它只是一份静态的、格式化的、标准化的工作备忘录 只能帮AI在特定标准化任务上表现得更符合预期 仅此而已\n...\n{ts:949...",
+        "source": "web",
+        "title": "把你的同事炼化成Skill？| Github爆火项目 | 职场打工人 | 什么是Skill | Anthropic | 提示词 | 开放标准格式 | 反蒸馏 | 版权问题 | 静态快照",
+        "url": "https://www.youtube.com/watch?v=KqxNN_-J5k4"
+      },
+      {
+        "date": "2026-04-14",
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "**核心观点：** Skill是AI Agent的可复用能力包，本质是一套文本规则+脚本工具的组合，让AI「学会」某项特定技能。\n...\n**一句话定义：** Skill是AI Agent的「工作手册」，教它一项具体技能。",
+        "source": "web",
+        "title": "Skill到底是什么？从「同事.skill」爆火说起 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2654880"
+      },
+      {
+        "date": "2026-02-02",
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 72 个精选技能包。所有技能已打包完成，可直接安装使用！\n该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。",
+        "source": "web",
+        "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理",
+        "url": "https://github.com/anbeime/skill"
+      },
+      {
+        "date": "2025-09-07",
+        "last_updated": "2026-05-19",
+        "place_metadata": null,
+        "snippet": "Skill 是一个文件夹，里面装着指令文档、参考资料、可执行脚本等资源。AI 拿到它，就能胜任一项原本不会的特定工作。\n...\n这个概念不限于某一个产品。无论是 Codex、Claude 还是其他 AI Agent，skill 的本质都一样。你可以把它理解为 AI 的一个**能力插件**——插上去，AI 就多了一项专长；拔掉，AI 还是原来那个通用助手。\n...\nskill-creator 要解决的问题只有一个：**怎么在有限的上下文窗口里，给 AI 最有效的指令？**",
+        "source": "web",
+        "title": "Extra08-如何写出好的Skill.md - GitHub",
+        "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 629,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00063,
+        "request_cost": 0.005,
+        "total_cost": 0.00566
+      },
+      "prompt_tokens": 30,
+      "search_context_size": "low",
+      "total_tokens": 659
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:46.234517Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "\"Skillver\" 在不同语境下可能指代两个完全不同的实体，需根据具体拼写和上下文区分：\n\n1. **Skillveri（常见正确拼写）**  \n   是一家**虚拟/混合现实（XR/MR）技能培训平台公司**，专注于为制造业提供多技能沉浸式模拟培训，主要涵盖：\n   - **焊接**（GMAW、SMAW、GTAW 等多种工艺）[1][3]\n   - **喷涂/喷漆**（汽车原厂漆、碰撞修复、装饰性涂装等）[1][3]\n   - **HVACR（暖通空调与制冷）** 和 **太阳能安装** [1][3][5]  \n   其核心优势是：通过 VR/XR 技术实现**零误差技能训练**、**实时评分评估**，并相比传统培训方式**节省高达 70% 的成本与时间**[1]。该公司是美国第三大沉浸式模拟培训服务商，也在印度等地推广该技术 [5]。官网为 [skillveri.com](http://www.skillveri.com) [1]。\n\n2. **Skillver（无末尾 \"i\"）**  \n   可能指：\n   - **Skillver AI 求职助手**（中文名“行业人才研究院”），一个基于真实招聘数据发布行业人才观察、标准岗位名录与实践方法论的研究项目 [2]；\n   - 或社交媒体账号 **Skillver Official**（联结 TikTok/Instagram/Facebook 的链接树页面），主打“释放创造力与技能” [4]。\n\n⚠️ 注意：  \n- 用户提问中的 **\"Skillver\"** 很可能是 **\"Skillveri\"** 的拼写遗漏（末尾缺少 \"i\"），因为 **Skillveri** 是国际知名技术公司，有明确官网、产品和合作新闻，而 \"Skillver\" 作为独立品牌的信息较少且分散。  \n- 此外，\"Skill\" 在 AI 领域常指 **AI Agent 的可复用能力包**（如 SkillEvolver、Skill Vetter 等工具中的概念），但这是通用术语，并非特指某名为 \"Skillver\" 的产品 [10][11][15]。\n\n✅ 建议：若您关注的是**焊接/喷漆等职业技能的 VR 培训系统**，所指应为 **Skillveri**；若涉及**求职或行业研究**，则可能是 **Skillver AI**。可进一步确认拼写或用途。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

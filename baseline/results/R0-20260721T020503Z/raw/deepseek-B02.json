@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务于企业客户，尤其是那些需要管理和优化员工技能、进行人才招聘、内部技能评估与培训的人力资源部门。其平台常用于提升员工技能匹配度、降低人才流失率，以及实现更高效的技能型人才管理和招聘。",
+  "sources": [],
+  "raw": {
+    "id": "491e8964-4132-409b-9f11-da59bc5fcfb1",
+    "object": "chat.completion",
+    "created": 1784599548,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务于企业客户，尤其是那些需要管理和优化员工技能、进行人才招聘、内部技能评估与培训的人力资源部门。其平台常用于提升员工技能匹配度、降低人才流失率，以及实现更高效的技能型人才管理和招聘。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 53,
+      "total_tokens": 89,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 36
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:49.762513Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务于企业客户，尤其是那些需要管理和优化员工技能、进行人才招聘、内部技能评估与培训的人力资源部门。其平台常用于提升员工技能匹配度、降低人才流失率，以及实现更高效的技能型人才管理和招聘。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

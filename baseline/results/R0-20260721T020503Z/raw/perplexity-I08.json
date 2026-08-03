@@ -1,0 +1,304 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "没有搜索结果能直接确认名为\"Skillver\"的特定应用是否允许在无邀请码的情况下直接使用，因为提供的搜索结果中**并未包含关于\"Skillver\"的具体使用规则或下载页面信息**。\n\n搜索结果主要涉及以下两类无关内容，需特别注意区分：\n1.  **\"免邀请码”的技术原理**：多数结果（[1][2][3][4][5][7][8]）解释了\"App 免填邀请码安装”是一种**技术实现方式**（通过链接参数、设备指纹或 SDK 自动绑定邀请关系），让用户在不知晓或无需手动输入邀请码的情况下自动完成绑定，但这通常用于**邀请有奖**或**地推考核**场景，并不意味着该 App 本身完全不需要邀请码即可注册或使用（除非该 App 本身不强制要求邀请）。\n2.  **名称相似但不同的产品**：\n    *   **Skill-Verse**：Google Play 上有一个名为\"SKILL-VERSE\"的应用（[6]），但无其具体使用规则说明。\n    *   **Hermes Agent / SOLO / Claude Skills**：结果中提到了\"Herme s Agent 的 Skills 系统”（[9][10]）、\"SOLO 2.0 的 Skills 模板”（[12]）以及\"Claude Skills\"（[13]），这些是 AI 工具或编程框架中的功能模块，**并非名为\"Skillver\"的独立 App**。\n\n**建议**：\n如果您指的是某个特定的手机 App（可能名称拼写为 Skillver 或 Skill-Verse），通常**大多数需要邀请码的 App（如某些博彩、金融或特定社群应用）在没有邀请码时无法直接注册或登录**，除非该 App 本身已改为开放注册。\n*   若该 App 属于“邀请制”应用，您需要尝试寻找公开分享码或联系官方客服。\n*   若该 App 名称拼写有误（例如实际是 **Skillverse**、**Solver** 或其他 AI 工具），请核对准确名称后再次查询。\n\n如果您能提供更多关于该 App 的功能描述（例如：是游戏、AI 工具还是金融软件），我可以为您进行更精准的二次检索。",
+  "sources": [
+    {
+      "url": "https://www.v2ex.com/t/804630",
+      "title": ""
+    },
+    {
+      "url": "https://www.niaogebiji.com/article-518575-1.html",
+      "title": ""
+    },
+    {
+      "url": "https://segmentfault.com/q/1010000023895649",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_47648041/article/details/116305201",
+      "title": ""
+    },
+    {
+      "url": "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.woshipm.com/operate/2645085.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/Xinstall/article/details/146945899",
+      "title": ""
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skills",
+      "title": ""
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/guides/work-with-skills",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3If2d0XmaS4",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/7842",
+      "title": ""
+    },
+    {
+      "url": "https://www.bnext.com.tw/article/90870/claude-skills-guidebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.v2ex.com/t/804630",
+      "title": "请问各位大佬--免邀请码下载 app 是怎么实现下载人和上级绑定的 app 安装后打开不用输入邀请码就知道上级? - V2EX"
+    },
+    {
+      "url": "https://www.niaogebiji.com/article-518575-1.html",
+      "title": "免填邀请码获取App安装参数如何实现-鸟哥笔记"
+    },
+    {
+      "url": "https://segmentfault.com/q/1010000023895649",
+      "title": "免填邀请码技术是怎么实现的"
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_47648041/article/details/116305201",
+      "title": "【免填邀请码】让邀请裂变活动事半功倍"
+    },
+    {
+      "url": "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html",
+      "title": "App免填邀请码安装如何实现？"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.woshipm.com/operate/2645085.html",
+      "title": "怎样通过免填邀请码，提高App邀请效率？"
+    },
+    {
+      "url": "https://blog.csdn.net/Xinstall/article/details/146945899",
+      "title": "从免填邀请码开始，告别手动填写邀请码原创"
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skills",
+      "title": "Skills 系统 - Hermes Agent"
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/guides/work-with-skills",
+      "title": "使用Skills - Hermes Agent"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3If2d0XmaS4",
+      "title": "欧易 OKX 新手教程：安卓和苹果手机注册、认证、安全设置、邀请码获取，零基础也能看懂"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/7842",
+      "title": "手把手教你玩转SOLO 2.0，Skills 模板+ 游戏开发+ AI 漫剧，步骤全在这"
+    },
+    {
+      "url": "https://www.bnext.com.tw/article/90870/claude-skills-guidebook",
+      "title": "Claude Skills是什麼、怎麼用？新手零基礎入門教學"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "没有搜索结果能直接确认名为\"Skillver\"的特定应用是否允许在无邀请码的情况下直接使用，因为提供的搜索结果中**并未包含关于\"Skillver\"的具体使用规则或下载页面信息**。\n\n搜索结果主要涉及以下两类无关内容，需特别注意区分：\n1.  **\"免邀请码”的技术原理**：多数结果（[1][2][3][4][5][7][8]）解释了\"App 免填邀请码安装”是一种**技术实现方式**（通过链接参数、设备指纹或 SDK 自动绑定邀请关系），让用户在不知晓或无需手动输入邀请码的情况下自动完成绑定，但这通常用于**邀请有奖**或**地推考核**场景，并不意味着该 App 本身完全不需要邀请码即可注册或使用（除非该 App 本身不强制要求邀请）。\n2.  **名称相似但不同的产品**：\n    *   **Skill-Verse**：Google Play 上有一个名为\"SKILL-VERSE\"的应用（[6]），但无其具体使用规则说明。\n    *   **Hermes Agent / SOLO / Claude Skills**：结果中提到了\"Herme s Agent 的 Skills 系统”（[9][10]）、\"SOLO 2.0 的 Skills 模板”（[12]）以及\"Claude Skills\"（[13]），这些是 AI 工具或编程框架中的功能模块，**并非名为\"Skillver\"的独立 App**。\n\n**建议**：\n如果您指的是某个特定的手机 App（可能名称拼写为 Skillver 或 Skill-Verse），通常**大多数需要邀请码的 App（如某些博彩、金融或特定社群应用）在没有邀请码时无法直接注册或登录**，除非该 App 本身已改为开放注册。\n*   若该 App 属于“邀请制”应用，您需要尝试寻找公开分享码或联系官方客服。\n*   若该 App 名称拼写有误（例如实际是 **Skillverse**、**Solver** 或其他 AI 工具），请核对准确名称后再次查询。\n\n如果您能提供更多关于该 App 的功能描述（例如：是游戏、AI 工具还是金融软件），我可以为您进行更精准的二次检索。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.v2ex.com/t/804630",
+      "https://www.niaogebiji.com/article-518575-1.html",
+      "https://segmentfault.com/q/1010000023895649",
+      "https://blog.csdn.net/weixin_47648041/article/details/116305201",
+      "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://www.woshipm.com/operate/2645085.html",
+      "https://blog.csdn.net/Xinstall/article/details/146945899",
+      "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skills",
+      "https://hermes-agent.nousresearch.com/docs/zh-Hans/guides/work-with-skills",
+      "https://www.youtube.com/watch?v=3If2d0XmaS4",
+      "https://forum.trae.cn/t/topic/7842",
+      "https://www.bnext.com.tw/article/90870/claude-skills-guidebook"
+    ],
+    "created": 1784600016,
+    "id": "6431bd18-3041-4382-ace5-59f5ddc70de5",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2021-09-27",
+        "last_updated": "2024-09-25",
+        "place_metadata": null,
+        "snippet": "|41 wulikanhuaz 2021-09-29 17:48:44 +08:00 通过给要启动的 activity 定义一个 scheme，在推广页使用 Url 启动 activity，url 后面带的参数就能传进去了|\n...\n|42 hentailmm1 2021-09-30 12:22:54 +08:00 这篇文章感觉比较接近 https://bin.zmide.com/?p=922，参考文献里也提到了很多关于获取浏览器指纹的方法 免邀请码可能就是简化的浏览器指纹+其他的常见用户信息进行匹配|\n|--|\n...\n|45 DogeFlyKite 2021-10-01 09:45:32 ...",
+        "source": "web",
+        "title": "请问各位大佬--免邀请码下载 app 是怎么实现下载人和上级绑定的 app 安装后打开不用输入邀请码就知道上级? - V2EX",
+        "url": "https://www.v2ex.com/t/804630"
+      },
+      {
+        "date": "2023-01-29",
+        "last_updated": "2026-03-31",
+        "place_metadata": null,
+        "snippet": "App免填邀请码安装，指的是App在一些需要识别安装来源的场景（比如好友间的邀请有奖、地推的业绩考核）时，新用户不需要填写“邀请码”、“地推码”等介质，就能被自动识别出是由哪一个用户邀请而来。从而进一步实现用户安装App后自动发放邀请奖励、自动绑定身份关系等效果。\n...\n（1）App开发者需要在App和下载落地页（H5）中集成对应的openinstall SDK。\n...\n简而言之，在邀请流程中，使用免填邀请码安装即代表着在邀请新用户时无需使用邀请码这一介质，无形中双方就已经自动建立邀请关系，获得邀请奖励。邀请路径的缩短，意味着转化效率的提升，裂变拉新效果自然突出。",
+        "source": "web",
+        "title": "免填邀请码获取App安装参数如何实现-鸟哥笔记",
+        "url": "https://www.niaogebiji.com/article-518575-1.html"
+      },
+      {
+        "date": "2020-09-04",
+        "last_updated": "2024-12-21",
+        "place_metadata": null,
+        "snippet": "通常来说会购买第三方的服务，如果不想买第三方服务，可以自己实现一套类似的，原理不外乎就是在邀请页获取用户的 fingerprint 之类的信息然后跟邀请码绑定上传到服务器上关联起来，然后APP也是一样获取相关信息查询绑定的邀请码。\n...\n不用填，我猜表现出来的就是连接直接激活，邀请码就在连接参数中。\n...\n特别好的是，这俩产品文档都贴了一张完整流程图，里面都有提到\n`WebSDK`、\n`AppSDK`，从这贴图就知道应该各个端都需要集成他们的SDK，然后通过SDK获取到设备的ID（类似OpenUUID之类的）：首先通过WebSDK上报ID到服务器，与URL里包含的邀请码进行关联；下载安装之...",
+        "source": "web",
+        "title": "免填邀请码技术是怎么实现的",
+        "url": "https://segmentfault.com/q/1010000023895649"
+      },
+      {
+        "date": "2022-12-14",
+        "last_updated": "2025-01-09",
+        "place_metadata": null,
+        "snippet": "除了以上两种传统邀请方式，还有一种无需邀请码和web填写信息，就能判断邀请关系的流程，称为“免填邀请码安装”。\n**免填邀请码安装的流程**：邀请人正常分享邀请链接，受邀请方通过该链接正常下载App，并登录注册即可完成邀请。\n...\n免填邀请码安装流程精简、高效，让邀请流程无需“填写邀请码”、“邀请页面提前注册（填写手机号码、验证码）”，只需按照正常邀请流程点击下载即可绑定，大大提高邀请转化率，真正意义上使App邀请活动达到“事半”、“功倍”的效果。\n...\n免填邀请码安装的本质，是由openinstall传递自定义参数实现的，该参数在邀请流程中可以定义为邀请码，只要App服务端可以获取到此参...",
+        "source": "web",
+        "title": "【免填邀请码】让邀请裂变活动事半功倍",
+        "url": "https://blog.csdn.net/weixin_47648041/article/details/116305201"
+      },
+      {
+        "date": null,
+        "last_updated": "2024-08-17",
+        "place_metadata": null,
+        "snippet": "**免填邀请码安装功能：**新用户通过落地页点击下载，会自动匹配与分享人的邀请关系，注册后实现免填邀请码自动获取奖励。\n该功能使用户有奖邀请及渠道分发无需再填写邀请码或下载渠道包，就能实现自动绑定关系和业绩统计的效果。\n...\n然后在下载落地页上集成【Web集成】文档（js sdk），并在网页链接后面拼接上需要的参数（参数可以自定义内容）。",
+        "source": "web",
+        "title": "App免填邀请码安装如何实现？",
+        "url": "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "+91 72900 85267",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2019-07-29",
+        "last_updated": "2025-09-12",
+        "place_metadata": null,
+        "snippet": "这个方案之所以叫免填邀请码方案，正是因为它获取用户安装来源的方式依然是通过邀请码匹配，只不过可以通过集成 openinstall 的 sdk 来实现自动获取，自然不需要被邀请人手动填写上传，用户全程是无感知的。\n简单来说：\n- 邀请方分享的形式是邀请链接，无需再去说服被邀请方；\n- 被邀请方全程无需填写任何信息，只要从分享的邀请页面下载 App 并登录即可获得奖励；\n- 平台方依然可以通过服务器自动获取邀请码的形式，准确识别双方邀请关系并发放奖励。",
+        "source": "web",
+        "title": "怎样通过免填邀请码，提高App邀请效率？",
+        "url": "https://www.woshipm.com/operate/2645085.html"
+      },
+      {
+        "date": "2025-04-02",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "免填邀请码是指用户在注册或参与活动时，无需手动输入邀请码即可自动完成验证的流程设计。**传统邀请码机制通常要求用户通过短信、邮件或社交平台获取邀请码后，手动复制粘贴到指定位置。而免填邀请码通过技术手段（如URL参数、二维码扫描或后台自动绑定）实现邀请码的自动填充，省去了用户手动操作的步骤。**\n例如，用户点击带有特定链接的邀请信息时，系统会自动识别并绑定邀请码，无需用户额外操作。这种设计不仅简化了流程，还显著降低了用户因操作失误或耐心不足而放弃的可能。\n...\n系统据此自动识别用户来源或应用优惠，从而绕过了手动输入邀请码的步骤。这实质上是一种技术赋能的免填邀请码形式，验证过程在后台无缝完成，极...",
+        "source": "web",
+        "title": "从免填邀请码开始，告别手动填写邀请码原创",
+        "url": "https://blog.csdn.net/Xinstall/article/details/146945899"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-15",
+        "place_metadata": null,
+        "snippet": "用户也可以从任何公开 GitHub 仓库安装单个 skill，而无需将整个仓库添加为 tap：\n```\nhermes skills install owner/repo/skills/my-workflow\n```",
+        "source": "web",
+        "title": "Skills 系统 - Hermes Agent",
+        "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skills"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-14",
+        "place_metadata": null,
+        "snippet": "开启新会话并测试你的 skill：\n```\nhermes chat -q \"/my-skill help me with the thing\"\n```\nSkill 会自动出现——无需注册。放入 `~/.hermes/skills/` 即可立即生效。",
+        "source": "web",
+        "title": "使用Skills - Hermes Agent",
+        "url": "https://hermes-agent.nousresearch.com/docs/zh-Hans/guides/work-with-skills"
+      },
+      {
+        "date": "2026-05-27",
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "{ts:597} You need to find Google Authenticator and Authenticator in the Security Center\n{ts:603} to bind it . The system usually displays a QR code or a key.\nYou need to\n{ts:607} install the authenticator app on your phone first\n{ts:614} . Open the authenticator app; you'll see it currently has a dy...",
+        "source": "web",
+        "title": "欧易 OKX 新手教程：安卓和苹果手机注册、认证、安全设置、邀请码获取，零基础也能看懂",
+        "url": "https://www.youtube.com/watch?v=3If2d0XmaS4"
+      },
+      {
+        "date": "2026-04-11",
+        "last_updated": "2026-05-12",
+        "place_metadata": null,
+        "snippet": "**方式二，手动创建**\n在 SOLO 模式的设置里，找到 Skills 管理入口，点击 Skill上传本地已经实现的Skills\n确认保存。\n...\n我们也可是直接使用官方提供的 Skill 模板，安装进去就能用。\n...\n**隐性调用，**直接描述任务，\n...\n操作步骤，\n1. 在 GitHub 上找到你想要的 Skill 仓库\n2. 下载或 git clone 到本地\n3. 把 Skill 文件夹导入到技能中\n4. 刷新 SOLO，即可自动识别加载",
+        "source": "web",
+        "title": "手把手教你玩转SOLO 2.0，Skills 模板+ 游戏开发+ AI 漫剧，步骤全在这",
+        "url": "https://forum.trae.cn/t/topic/7842"
+      },
+      {
+        "date": "2026-06-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "打開 Claude 桌面 App，停在 **Chat 模式**（App 上方有 Chat、Cowork、Code 三個模式可切換。Code 即一般所說的 Claude Code；Skills 在 Chat 模式就能完整操作，Cowork 與 Code 是進階模式）。確認模型是 **Opus 4.7**，先到 **Customize → Skills → ＋ → Browse Skills → Anthropic & Partners** 標籤下，確認 `skill-creator` 是否已安裝，若沒裝就裝起來。\n回到 Chat 輸入：`利用skill-creator幫我打造一個weekly-r...",
+        "source": "web",
+        "title": "Claude Skills是什麼、怎麼用？新手零基礎入門教學",
+        "url": "https://www.bnext.com.tw/article/90870/claude-skills-guidebook"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 563,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00056,
+        "request_cost": 0.005,
+        "total_cost": 0.0056
+      },
+      "prompt_tokens": 40,
+      "search_context_size": "low",
+      "total_tokens": 603
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:36.525366Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "没有搜索结果能直接确认名为\"Skillver\"的特定应用是否允许在无邀请码的情况下直接使用，因为提供的搜索结果中**并未包含关于\"Skillver\"的具体使用规则或下载页面信息**。\n\n搜索结果主要涉及以下两类无关内容，需特别注意区分：\n1.  **\"免邀请码”的技术原理**：多数结果（[1][2][3][4][5][7][8]）解释了\"App 免填邀请码安装”是一种**技术实现方式**（通过链接参数、设备指纹或 SDK 自动绑定邀请关系），让用户在不知晓或无需手动输入邀请码的情况下自动完成绑定，但这通常用于**邀请有奖**或**地推考核**场景，并不意味着该 App 本身完全不需要邀请码即可注册或使用（除非该 App 本身不强制要求邀请）。\n2.  **名称相似但不同的产品**：\n    *   **Skill-Verse**：Google Play 上有一个名为\"SKILL-VERSE\"的应用（[6]），但无其具体使用规则说明。\n    *   **Hermes Agent / SOLO / Claude Skills**：结果中提到了\"Herme s Agent 的 Skills 系统”（[9][10]）、\"SOLO 2.0 的 Skills 模板”（[12]）以及\"Claude Skills\"（[13]），这些是 AI 工具或编程框架中的功能模块，**并非名为\"Skillver\"的独立 App**。\n\n**建议**：\n如果您指的是某个特定的手机 App（可能名称拼写为 Skillver 或 Skill-Verse），通常**大多数需要邀请码的 App（如某些博彩、金融或特定社群应用）在没有邀请码时无法直接注册或登录**，除非该 App 本身已改为开放注册。\n*   若该 App 属于“邀请制”应用，您需要尝试寻找公开分享码或联系官方客服。\n*   若该 App 名称拼写有误（例如实际是 **Skillverse**、**Solver** 或其他 AI 工具），请核对准确名称后再次查询。\n\n如果您能提供更多关于该 App 的功能描述（例如：是游戏、AI 工具还是金融软件），我可以为您进行更精准的二次检索。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "您问的可能是 **Skillshare**（知名在线学习平台），或者是一款特定的名为 **Skillver** 的软件。\n\n1. **如果是指 Skillshare（最常见的情况）：**\n   * **是的，有移动端。** Skillshare 拥有官方的 iOS 和 Android 客户端，支持在手机和平板上观看课程，并支持离线下载播放。\n\n2. **如果是指 Skillver（数字学习/在线培训平台）：**\n   * 该平台（如法国的 Skillver 数字化学习平台）通常采用 **Web 响应式设计**。你不需要下载专用的 App，直接通过手机或平板的浏览器访问该平台网站，即可获得适配移动端屏幕的学习体验。目前它在主流应用商店中没有独立的专用客户端。\n\n如果您指的是其他特定的 “Skillver” 软件，请提供更多背景信息（例如它的功能或官网），以便为您提供更精准的解答。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您问的可能是 **Skillshare**（知名在线学习平台），或者是一款特定的名为 **Skillver** 的软件。\n\n1. **如果是指 Skillshare（最常见的情况）：**\n   * **是的，有移动端。** Skillshare 拥有官方的 iOS 和 Android 客户端，支持在手机和平板上观看课程，并支持离线下载播放。\n\n2. **如果是指 Skillver（数字学习/在线培训平台）：**\n   * 该平台（如法国的 Skillver 数字化学习平台）通常采用 **Web 响应式设计**。你不需要下载专用的 App，直接通过手机或平板的浏览器访问该平台网站，即可获得适配移动端屏幕的学习体验。目前它在主流应用商店中没有独立的专用客户端。\n\n如果您指的是其他特定的 “Skillver” 软件，请提供更多背景信息（例如它的功能或官网），以便为您提供更精准的解答。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604054,
+    "id": "h-VeauL2A77oz7IPooWQ4Q4",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 193,
+      "prompt_tokens": 35,
+      "total_tokens": 1244
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:20:53.973340Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "您问的可能是 **Skillshare**（知名在线学习平台），或者是一款特定的名为 **Skillver** 的软件。\n\n1. **如果是指 Skillshare（最常见的情况）：**\n   * **是的，有移动端。** Skillshare 拥有官方的 iOS 和 Android 客户端，支持在手机和平板上观看课程，并支持离线下载播放。\n\n2. **如果是指 Skillver（数字学习/在线培训平台）：**\n   * 该平台（如法国的 Skillver 数字化学习平台）通常采用 **Web 响应式设计**。你不需要下载专用的 App，直接通过手机或平板的浏览器访问该平台网站，即可获得适配移动端屏幕的学习体验。目前它在主流应用商店中没有独立的专用客户端。\n\n如果您指的是其他特定的 “Skillver” 软件，请提供更多背景信息（例如它的功能或官网），以便为您提供更精准的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

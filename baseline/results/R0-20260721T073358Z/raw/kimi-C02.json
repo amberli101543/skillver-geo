@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "以下是主流的几类 **AI 模拟面试工具**，按国内和国际平台分类：\n\n### 国内主流\n1. **牛客网**  \n   覆盖技术岗与非技术岗，AI 模拟面试后提供表达、内容、逻辑等多维度评分与建议，题库贴近国内大厂风格。\n2. **OfferGoose（多面鹅）**  \n   专注 AI 面试练习，支持上传简历针对性提问，可模拟压力面、专业面并生成改进报告。\n3. **智联招聘 / BOSS 直聘 / 前程无忧**  \n   综合招聘平台内置 AI 面试功能，主要用于企业初筛，但部分也开放给求职者练习。\n4. **面经酱 / 智面星（微信小程序）**  \n   轻量级工具，适合快速练习高频行为面试题（BQ），反馈较简洁。\n\n### 国际/英文工具\n1. **Google Interview Warmup**  \n   谷歌官方免费工具，专注行为面试（Behavioral Questions），实时分析你的回答关键词和要点覆盖度。\n2. **Yoodli**  \n   AI 沟通教练，面试模式下会分析语速、填充词（嗯、啊）、眼神接触和逻辑结构，适合提升表达流畅度。\n3. **Interviewing.io**  \n   匿名模拟技术面试平台，可对接大厂工程师进行真实模拟，也有 AI 辅助反馈。\n4. **Big Interview**  \n   结合视频课程与 AI 模拟面试，提供回答模板和逐句分析，适合系统性准备。\n5. **Pramp**  \n   免费“同伴配对”技术面试练习（Peer-to-Peer），非纯 AI，但社区活跃，适合算法/编程岗刷题后实战。\n\n### 选择建议\n- **技术岗（算法/工程）**：优先用 **牛客网** + **Interviewing.io / Pramp**。  \n- **行为面试/外企**：优先用 **Google Interview Warmup** + **Yoodli**。  \n- **中文环境/国内求职**：**牛客网** 和 **多面鹅** 的题型和反馈更贴合实际。\n\n需要针对某个具体行业或岗位（如产品经理、咨询、研发）的详细对比，可以告诉我。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f2440d148c63dd41cc89d",
+    "object": "chat.completion",
+    "created": 1784620097,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "以下是主流的几类 **AI 模拟面试工具**，按国内和国际平台分类：\n\n### 国内主流\n1. **牛客网**  \n   覆盖技术岗与非技术岗，AI 模拟面试后提供表达、内容、逻辑等多维度评分与建议，题库贴近国内大厂风格。\n2. **OfferGoose（多面鹅）**  \n   专注 AI 面试练习，支持上传简历针对性提问，可模拟压力面、专业面并生成改进报告。\n3. **智联招聘 / BOSS 直聘 / 前程无忧**  \n   综合招聘平台内置 AI 面试功能，主要用于企业初筛，但部分也开放给求职者练习。\n4. **面经酱 / 智面星（微信小程序）**  \n   轻量级工具，适合快速练习高频行为面试题（BQ），反馈较简洁。\n\n### 国际/英文工具\n1. **Google Interview Warmup**  \n   谷歌官方免费工具，专注行为面试（Behavioral Questions），实时分析你的回答关键词和要点覆盖度。\n2. **Yoodli**  \n   AI 沟通教练，面试模式下会分析语速、填充词（嗯、啊）、眼神接触和逻辑结构，适合提升表达流畅度。\n3. **Interviewing.io**  \n   匿名模拟技术面试平台，可对接大厂工程师进行真实模拟，也有 AI 辅助反馈。\n4. **Big Interview**  \n   结合视频课程与 AI 模拟面试，提供回答模板和逐句分析，适合系统性准备。\n5. **Pramp**  \n   免费“同伴配对”技术面试练习（Peer-to-Peer），非纯 AI，但社区活跃，适合算法/编程岗刷题后实战。\n\n### 选择建议\n- **技术岗（算法/工程）**：优先用 **牛客网** + **Interviewing.io / Pramp**。  \n- **行为面试/外企**：优先用 **Google Interview Warmup** + **Yoodli**。  \n- **中文环境/国内求职**：**牛客网** 和 **多面鹅** 的题型和反馈更贴合实际。\n\n需要针对某个具体行业或岗位（如产品经理、咨询、研发）的详细对比，可以告诉我。",
+          "reasoning_content": "用户询问的是“AI模拟面试工具有哪些？”，需要用中文回答，要求事实性和简洁性。\n\n 我需要列举一些主流的AI模拟面试工具，包括国内外的产品，并简要说明其特点。可以分为几类：\n 1. 国内主流产品\n 2. 国外/国际产品\n 3. 综合求职平台内置功能\n\n 国内：\n - 牛客网：有AI模拟面试功能，针对技术岗和非技术岗\n - 脉脉：提供AI面试助手\n - 智联招聘/前程无忧/BOSS直聘：部分有AI面试功能\n - OfferGoose（多面鹅）：专门的AI面试工具\n - 智面星、面经酱等小程序\n - 实习僧\n - 字节跳动等大厂招聘系统也有AI面试，但那是企业端\n\n 国外：\n - Yoodli：AI沟通教练，可用于面试练习\n - Interviewing.io：模拟技术面试\n - Pramp：免费技术面试配对\n - Big Interview：综合性面试训练\n - HireVue：企业级AI面试，但求职者端也可练习\n - VMock：简历+面试\n - Google Interview Warmup：谷歌出品，免费\n\n 为了简洁，我应该挑选最有代表性的，按类别或场景分类，给出名称和一句话特点。\n\n 结构建议：\n - 先给总体分类（国内/国外）\n - 列举具体工具（5-8个重点）\n - 简要总结选择建议\n\n 让我组织一下内容：\n\n 国内：\n 1. 牛客网 - 技术/非技术岗AI模拟面试，题库丰富\n 2. OfferGoose（多面鹅）- 专注于AI模拟面试，实时反馈\n 3. 智联招聘/BOSS直聘 - 内置AI面试功能\n 4. 面经酱/智面星等小程序 - 轻量化AI面试练习\n\n 国外/通用：\n 1. Yoodli - 实时AI反馈，注重表达逻辑和填充词\n 2. Google Interview Warmup - 免费，针对行为面试\n 3. Interviewing.io - 匿名模拟技术面试\n 4. Pramp - 免费同伴技术面试练习（也有AI功能？主要是peer，但可以提）\n 5. Big Interview - 系统的AI面试训练课程\n\n 为了更简洁，我合并为“国内主流”和“国外/国际”两类，每个给3-4个。\n\n 再检查一下事实准确性：\n - 牛客：确实有AI模拟面试\n - 多面鹅：确实存在，专注AI面试\n - Yoodli：确实存在，AI沟通教练\n - Google Interview Warmup：存在，免费\n - Interviewing.io：存在，匿名技术面试\n - Big Interview：存在\n\n 回答要简洁，用列表形式。\n\n 最终结构：\n 1. 国内平台\n 2. 国际工具\n 3. 选择建议（技术岗/非技术岗/行为面试）\n\n 这样应该满足要求。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 1087,
+      "total_tokens": 1131,
+      "completion_tokens_details": {
+        "reasoning_tokens": 621
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:49:03.270403Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "以下是主流的几类 **AI 模拟面试工具**，按国内和国际平台分类：\n\n### 国内主流\n1. **牛客网**  \n   覆盖技术岗与非技术岗，AI 模拟面试后提供表达、内容、逻辑等多维度评分与建议，题库贴近国内大厂风格。\n2. **OfferGoose（多面鹅）**  \n   专注 AI 面试练习，支持上传简历针对性提问，可模拟压力面、专业面并生成改进报告。\n3. **智联招聘 / BOSS 直聘 / 前程无忧**  \n   综合招聘平台内置 AI 面试功能，主要用于企业初筛，但部分也开放给求职者练习。\n4. **面经酱 / 智面星（微信小程序）**  \n   轻量级工具，适合快速练习高频行为面试题（BQ），反馈较简洁。\n\n### 国际/英文工具\n1. **Google Interview Warmup**  \n   谷歌官方免费工具，专注行为面试（Behavioral Questions），实时分析你的回答关键词和要点覆盖度。\n2. **Yoodli**  \n   AI 沟通教练，面试模式下会分析语速、填充词（嗯、啊）、眼神接触和逻辑结构，适合提升表达流畅度。\n3. **Interviewing.io**  \n   匿名模拟技术面试平台，可对接大厂工程师进行真实模拟，也有 AI 辅助反馈。\n4. **Big Interview**  \n   结合视频课程与 AI 模拟面试，提供回答模板和逐句分析，适合系统性准备。\n5. **Pramp**  \n   免费“同伴配对”技术面试练习（Peer-to-Peer），非纯 AI，但社区活跃，适合算法/编程岗刷题后实战。\n\n### 选择建议\n- **技术岗（算法/工程）**：优先用 **牛客网** + **Interviewing.io / Pramp**。  \n- **行为面试/外企**：优先用 **Google Interview Warmup** + **Yoodli**。  \n- **中文环境/国内求职**：**牛客网** 和 **多面鹅** 的题型和反馈更贴合实际。\n\n需要针对某个具体行业或岗位（如产品经理、咨询、研发）的详细对比，可以告诉我。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

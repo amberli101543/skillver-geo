@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "根据我的知识截止日期（2025年初），我没有关于\"Skillver\"的详细信息，无法确认其当前是否开放使用。\n\n建议您：\n1. **直接访问其官网**查看最新状态\n2. **搜索引擎查询**最新动态\n3. **查看其社交媒体账号**获取官方公告\n\n如果您能提供更多关于 Skillver 的背景信息，我可以尝试提供更有针对性的帮助。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPUMzbnnCR8KUVb6t4Y",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据我的知识截止日期（2025年初），我没有关于\"Skillver\"的详细信息，无法确认其当前是否开放使用。\n\n建议您：\n1. **直接访问其官网**查看最新状态\n2. **搜索引擎查询**最新动态\n3. **查看其社交媒体账号**获取官方公告\n\n如果您能提供更多关于 Skillver 的背景信息，我可以尝试提供更有针对性的帮助。"
+        }
+      }
+    ],
+    "created": 1784599737,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 51,
+      "total_tokens": 202
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:57.784888Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "根据我的知识截止日期（2025年初），我没有关于\"Skillver\"的详细信息，无法确认其当前是否开放使用。\n\n建议您：\n1. **直接访问其官网**查看最新状态\n2. **搜索引擎查询**最新动态\n3. **查看其社交媒体账号**获取官方公告\n\n如果您能提供更多关于 Skillver 的背景信息，我可以尝试提供更有针对性的帮助。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

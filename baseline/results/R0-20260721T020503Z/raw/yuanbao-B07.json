@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "我无法确认“Skillver”的具体开放状态，因为该名称较为小众，且未出现在我已知的公开信息库中。建议您通过以下方式确认：  \n1. 访问其官方网站或官方社交媒体账号查看最新公告；  \n2. 检查是否有相关应用商店（如App Store、Google Play）的上架信息；  \n3. 若涉及特定领域（如教育、工具类），可尝试搜索行业资讯或用户反馈。  \n\n如果您能提供更多背景信息（如所属领域、地域等），我可以进一步协助分析。",
+  "sources": [],
+  "raw": {
+    "id": "e2e5282f-c145-41c9-a1bc-ca81ea8a086e",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599723,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我无法确认“Skillver”的具体开放状态，因为该名称较为小众，且未出现在我已知的公开信息库中。建议您通过以下方式确认：  \n1. 访问其官方网站或官方社交媒体账号查看最新公告；  \n2. 检查是否有相关应用商店（如App Store、Google Play）的上架信息；  \n3. 若涉及特定领域（如教育、工具类），可尝试搜索行业资讯或用户反馈。  \n\n如果您能提供更多背景信息（如所属领域、地域等），我可以进一步协助分析。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 116,
+      "total_tokens": 164,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:46.265843Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "我无法确认“Skillver”的具体开放状态，因为该名称较为小众，且未出现在我已知的公开信息库中。建议您通过以下方式确认：  \n1. 访问其官方网站或官方社交媒体账号查看最新公告；  \n2. 检查是否有相关应用商店（如App Store、Google Play）的上架信息；  \n3. 若涉及特定领域（如教育、工具类），可尝试搜索行业资讯或用户反馈。  \n\n如果您能提供更多背景信息（如所属领域、地域等），我可以进一步协助分析。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

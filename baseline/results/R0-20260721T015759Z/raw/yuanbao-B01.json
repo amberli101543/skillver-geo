@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "“Skillver” 目前并非一个广泛认知的通用术语或知名品牌，可能的情况包括：  \n1. **拼写误差**：可能是您想查询 **Skillshare**（技能分享平台，提供设计、摄影、商业等在线课程），或 **Skiller**（部分地区的技能类应用/服务）。  \n2. **小众/新兴产品**：可能是某个特定领域的工具、品牌或初创项目，目前公开信息较少。  \n\n如果您能提供更多上下文（如所属领域、使用场景等），我可以帮您进一步确认！ 😊",
+  "sources": [],
+  "raw": {
+    "id": "f3d1a84b-5b4c-4ac4-8ecb-db40d4857ba9",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599092,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 目前并非一个广泛认知的通用术语或知名品牌，可能的情况包括：  \n1. **拼写误差**：可能是您想查询 **Skillshare**（技能分享平台，提供设计、摄影、商业等在线课程），或 **Skiller**（部分地区的技能类应用/服务）。  \n2. **小众/新兴产品**：可能是某个特定领域的工具、品牌或初创项目，目前公开信息较少。  \n\n如果您能提供更多上下文（如所属领域、使用场景等），我可以帮您进一步确认！ 😊"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 113,
+      "total_tokens": 158,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T01:58:16.052984Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "“Skillver” 目前并非一个广泛认知的通用术语或知名品牌，可能的情况包括：  \n1. **拼写误差**：可能是您想查询 **Skillshare**（技能分享平台，提供设计、摄影、商业等在线课程），或 **Skiller**（部分地区的技能类应用/服务）。  \n2. **小众/新兴产品**：可能是某个特定领域的工具、品牌或初创项目，目前公开信息较少。  \n\n如果您能提供更多上下文（如所属领域、使用场景等），我可以帮您进一步确认！ 😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T015759Z/raw/yuanbao-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

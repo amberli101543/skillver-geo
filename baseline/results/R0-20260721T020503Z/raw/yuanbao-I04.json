@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于赛事参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "Skillver 的邀请码通常可以通过以下几种方式获得：\n\n1. **官方渠道**：访问 Skillver 的官方网站或关注其官方社交媒体账号（如 Twitter、LinkedIn 等），官方有时会发布邀请码或开放注册活动。\n2. **现有用户邀请**：如果你认识已经在使用 Skillver 的朋友或同事，可以请他们发送邀请链接或邀请码给你。\n3. **社区与论坛**：在相关的技术社区、论坛（如 Reddit、V2EX 等）或技能分享平台上，有时会有用户分享邀请码。\n4. **邮件申请**：部分平台支持通过填写表单或发送邮件申请试用资格，你可以尝试联系 Skillver 的客服或支持团队咨询。\n\n由于 Skillver 的具体获取方式可能随平台政策调整，建议直接访问其官网或通过官方渠道获取最新信息。如果平台处于内测阶段，邀请码可能较为稀缺，需耐心等待开放注册。",
+  "sources": [],
+  "raw": {
+    "id": "6bd4ee7e-a780-45ae-991d-6b0846610d49",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599879,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的邀请码通常可以通过以下几种方式获得：\n\n1. **官方渠道**：访问 Skillver 的官方网站或关注其官方社交媒体账号（如 Twitter、LinkedIn 等），官方有时会发布邀请码或开放注册活动。\n2. **现有用户邀请**：如果你认识已经在使用 Skillver 的朋友或同事，可以请他们发送邀请链接或邀请码给你。\n3. **社区与论坛**：在相关的技术社区、论坛（如 Reddit、V2EX 等）或技能分享平台上，有时会有用户分享邀请码。\n4. **邮件申请**：部分平台支持通过填写表单或发送邮件申请试用资格，你可以尝试联系 Skillver 的客服或支持团队咨询。\n\n由于 Skillver 的具体获取方式可能随平台政策调整，建议直接访问其官网或通过官方渠道获取最新信息。如果平台处于内测阶段，邀请码可能较为稀缺，需耐心等待开放注册。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 195,
+      "total_tokens": 243,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:23.049282Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "Skillver 的邀请码通常可以通过以下几种方式获得：\n\n1. **官方渠道**：访问 Skillver 的官方网站或关注其官方社交媒体账号（如 Twitter、LinkedIn 等），官方有时会发布邀请码或开放注册活动。\n2. **现有用户邀请**：如果你认识已经在使用 Skillver 的朋友或同事，可以请他们发送邀请链接或邀请码给你。\n3. **社区与论坛**：在相关的技术社区、论坛（如 Reddit、V2EX 等）或技能分享平台上，有时会有用户分享邀请码。\n4. **邮件申请**：部分平台支持通过填写表单或发送邮件申请试用资格，你可以尝试联系 Skillver 的客服或支持团队咨询。\n\n由于 Skillver 的具体获取方式可能随平台政策调整，建议直接访问其官网或通过官方渠道获取最新信息。如果平台处于内测阶段，邀请码可能较为稀缺，需耐心等待开放注册。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

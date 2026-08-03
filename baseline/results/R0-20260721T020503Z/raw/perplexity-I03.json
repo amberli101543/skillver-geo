@@ -1,0 +1,232 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "目前的搜索结果中**没有直接关于“Skillver”注册的具体步骤**，且该名称极可能是**Skillveri**（一家提供编程技能认证的平台）的拼写错误，或者是其他未收录的类似名称平台（如 SkillSider、IBM SkillsBuild 等）。\n\n建议您先确认是否指的是 **Skillveri**，如果是，请尝试以下通用注册流程（基于 Skillveri 的官方支持信息推断）：\n\n1. **访问官网**：打开 Skillveri 官方网站（通常可通过搜索 \"Skillveri exam registration\" 找到）。\n2. **点击注册**：在首页右上角找到 **Sign Up** 或 **Register** 按钮。\n3. **填写信息**：输入您的**姓名**、**邮箱地址**、**手机号码**，并设置**密码**。\n4. **验证邮箱**：提交后，系统会发送验证邮件，点击邮件中的链接完成验证。\n5. **补充资料**：根据提示填写个人基本信息（如教育背景、职业等）。\n6. **完成注册**：验证后即可登录，开始浏览课程或报名参加技能认证考试。\n\n如果您确认指的是其他平台（如 **SkillSider**、**IBM SkillsBuild** 等），以下是它们的注册方式供参考：\n\n| 平台名称 | 注册入口 | 关键步骤 |\n|----------|----------|----------|\n| **SkillSider** | [YouTube 教程](https://www.youtube.com/watch?v=Dbt3v4Bd3iA) | 点击 Sign Up → 填写姓名、邮箱、手机号、密码 → 输入 Sponsor Code（可选） → 完成注册 [1] |\n| **IBM SkillsBuild** | [skillsbuild.org](https://skillsbuild.org/zh-TW) | 扫描 QR 码或输入链接 → 选择“注册” → 验证邮箱 → 填写基本资料 → 20 岁以下需家长授权隐私政策 [5] |\n| **Skillveri** | Google Play 应用页 | 联系支持邮箱：support@skillveri.com 获取注册指引 [2] |\n\n**建议操作**：\n- 请再次确认您想注册的平台准确名称（是 **Skillver**、**Skillveri** 还是 **SkillSider**？）。\n- 如果是 **Skillveri**，可直接访问其官网或通过 Google Play 下载 App 后注册，如需帮助可邮件联系支持团队：[support@skillveri.com](mailto:support@skillveri.com) [2]。\n\n如果您能提供更多背景（例如：是用于编程考试、职业技能认证，还是某个特定课程？），我可以进一步帮您定位正确的注册流程。",
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=Dbt3v4Bd3iA",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/Grantr/articles/19966901",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2696714",
+      "title": ""
+    },
+    {
+      "url": "https://www.tngs.tn.edu.tw/wp-content/uploads/sites/54/2022/09/03-SkillsBuild_%E5%B9%B3%E5%8F%B0%E8%A8%BB%E5%86%8A%E6%95%99%E5%AD%B8.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://www.okx.com/zh-hans/help/okx-account-registration-guide",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/alisystemsoftware/p/20003559",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2624914",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OGEjsgYHHb4",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Dbt3v4Bd3iA",
+      "title": "SkillSider Account Kaise Banaye 2025 | Ghar Baithe Skill Seekho Free"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.cnblogs.com/Grantr/articles/19966901",
+      "title": "Skiller：一款跨平台的AI Skills管理工具- 刘瑜澄- 博客园"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2696714",
+      "title": "Skill 完整入门教程：20 分钟梳理核心概念、深挖底层原理 - 腾讯云"
+    },
+    {
+      "url": "https://www.tngs.tn.edu.tw/wp-content/uploads/sites/54/2022/09/03-SkillsBuild_%E5%B9%B3%E5%8F%B0%E8%A8%BB%E5%86%8A%E6%95%99%E5%AD%B8.pdf",
+      "title": "電腦版註冊教學 DEMO"
+    },
+    {
+      "url": "https://www.okx.com/zh-hans/help/okx-account-registration-guide",
+      "title": "如何注册欧易账号？"
+    },
+    {
+      "url": "https://www.cnblogs.com/alisystemsoftware/p/20003559",
+      "title": "Skills Registry 公测开启：为企业打造私有的Skill 管理中心 - 博客园"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2624914",
+      "title": "科研效率翻倍！保姆级教程教你学会使用skills - 腾讯云"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OGEjsgYHHb4",
+      "title": "2026最新！保姆级Claude注册教程，100%成功避开封号雷区！"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前的搜索结果中**没有直接关于“Skillver”注册的具体步骤**，且该名称极可能是**Skillveri**（一家提供编程技能认证的平台）的拼写错误，或者是其他未收录的类似名称平台（如 SkillSider、IBM SkillsBuild 等）。\n\n建议您先确认是否指的是 **Skillveri**，如果是，请尝试以下通用注册流程（基于 Skillveri 的官方支持信息推断）：\n\n1. **访问官网**：打开 Skillveri 官方网站（通常可通过搜索 \"Skillveri exam registration\" 找到）。\n2. **点击注册**：在首页右上角找到 **Sign Up** 或 **Register** 按钮。\n3. **填写信息**：输入您的**姓名**、**邮箱地址**、**手机号码**，并设置**密码**。\n4. **验证邮箱**：提交后，系统会发送验证邮件，点击邮件中的链接完成验证。\n5. **补充资料**：根据提示填写个人基本信息（如教育背景、职业等）。\n6. **完成注册**：验证后即可登录，开始浏览课程或报名参加技能认证考试。\n\n如果您确认指的是其他平台（如 **SkillSider**、**IBM SkillsBuild** 等），以下是它们的注册方式供参考：\n\n| 平台名称 | 注册入口 | 关键步骤 |\n|----------|----------|----------|\n| **SkillSider** | [YouTube 教程](https://www.youtube.com/watch?v=Dbt3v4Bd3iA) | 点击 Sign Up → 填写姓名、邮箱、手机号、密码 → 输入 Sponsor Code（可选） → 完成注册 [1] |\n| **IBM SkillsBuild** | [skillsbuild.org](https://skillsbuild.org/zh-TW) | 扫描 QR 码或输入链接 → 选择“注册” → 验证邮箱 → 填写基本资料 → 20 岁以下需家长授权隐私政策 [5] |\n| **Skillveri** | Google Play 应用页 | 联系支持邮箱：support@skillveri.com 获取注册指引 [2] |\n\n**建议操作**：\n- 请再次确认您想注册的平台准确名称（是 **Skillver**、**Skillveri** 还是 **SkillSider**？）。\n- 如果是 **Skillveri**，可直接访问其官网或通过 Google Play 下载 App 后注册，如需帮助可邮件联系支持团队：[support@skillveri.com](mailto:support@skillveri.com) [2]。\n\n如果您能提供更多背景（例如：是用于编程考试、职业技能认证，还是某个特定课程？），我可以进一步帮您定位正确的注册流程。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.youtube.com/watch?v=Dbt3v4Bd3iA",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.cnblogs.com/Grantr/articles/19966901",
+      "https://cloud.tencent.com/developer/article/2696714",
+      "https://www.tngs.tn.edu.tw/wp-content/uploads/sites/54/2022/09/03-SkillsBuild_%E5%B9%B3%E5%8F%B0%E8%A8%BB%E5%86%8A%E6%95%99%E5%AD%B8.pdf",
+      "https://www.okx.com/zh-hans/help/okx-account-registration-guide",
+      "https://www.cnblogs.com/alisystemsoftware/p/20003559",
+      "https://cloud.tencent.com/developer/article/2624914",
+      "https://www.youtube.com/watch?v=OGEjsgYHHb4"
+    ],
+    "created": 1784599872,
+    "id": "8ccef1cf-d9d4-4e2e-b79f-3bb4f6d59f43",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2025-06-07",
+        "last_updated": "2025-07-24",
+        "place_metadata": null,
+        "snippet": "{ts:54} आपके सामने टू ऑप्शंस आ रहे हैं अगर तो आपका अकाउंट पहले से स्किल साइडर पे बना हुआ है तो आपने अकाउंट को लॉगिन करना है\n{ts:63} अगर आपका अकाउंट स्किल साइडर पे नहीं बना हुआ तो आपने साइन अप के ऊपर क्लिक करना है नाउ आपके सामने एक फॉर्म आ जाएगा यू कैन\n{ts:72} सी सो फर्स्ट ऑफ ऑल आपने अपना फर्स्ट नेम ...",
+        "source": "web",
+        "title": "SkillSider Account Kaise Banaye 2025 | Ghar Baithe Skill Seekho Free",
+        "url": "https://www.youtube.com/watch?v=Dbt3v4Bd3iA"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\n...\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-05-02",
+        "last_updated": "2026-05-27",
+        "place_metadata": null,
+        "snippet": "从 GitHub Releases 下载对应平台：\n|平台|安装包|说明|\n|--|--|--|\n...\n### 三步上手\n1. **导入技能**：点击「导入技能」→「从 NPX 查找」→ 搜索并安装\n2. **创建项目**：添加你的开发项目\n3. **分发技能**：打开技能详情 → 选择目标和模式 → 点击分发",
+        "source": "web",
+        "title": "Skiller：一款跨平台的AI Skills管理工具- 刘瑜澄- 博客园",
+        "url": "https://www.cnblogs.com/Grantr/articles/19966901"
+      },
+      {
+        "date": "2026-06-24",
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "4. **实现 Skill 的逻辑，并在本地或沙箱里测试** 结合具体平台（如 Claude Code / Codex 等），带你完成： 1.\n注册或配置 Skill；\n...\n编写或粘贴实现代码；",
+        "source": "web",
+        "title": "Skill 完整入门教程：20 分钟梳理核心概念、深挖底层原理 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2696714"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-05-25",
+        "place_metadata": null,
+        "snippet": "Step 1 掃描qrcode 或輸入連結: https://skillsbuild.org/zh-TW \n進入 IBM SkillsBuild 首頁 \nStep2 點選左上角選單，並選擇註冊\nSkillsBuild 註冊教學 \nStep 3 選擇註冊方式 \n(如果選擇第三方社群帳號註冊，可接至Step 5)\nSkillsBuild 註冊教學 \nStep 4 註冊並驗證Email\nSkillsBuild 註冊教學 \nStep 5 Let’s get you set up  \n填寫基本資料\n...\n完成本步驟後請告知自己的家長，請他們完成Step 6 \n（20歲以上的使用者請參考下一頁教學）\n....",
+        "source": "web",
+        "title": "電腦版註冊教學 DEMO",
+        "url": "https://www.tngs.tn.edu.tw/wp-content/uploads/sites/54/2022/09/03-SkillsBuild_%E5%B9%B3%E5%8F%B0%E8%A8%BB%E5%86%8A%E6%95%99%E5%AD%B8.pdf"
+      },
+      {
+        "date": "2024-11-07",
+        "last_updated": "2026-07-19",
+        "place_metadata": null,
+        "snippet": "1. 打开欧易 App，点击【注册】。\n2. 选择【国家/地区】，阅读及勾选欧易的《服务条款》、《风险与合规披露》及《隐私政策声明》，点击【创建账号】。\n3. 输入【邮箱】及【邀请码（选填】，点击【注册】。\n4. 输入邮箱验证码。\n5. 添加手机号码（手机号注册需要选择对应区号），点击【下一步】。\n6. 输入手机验证码，继续完成注册。\n...\n1. 打开欧易官网，点击页面上方【注册】。\n2. 选择【居住国家/地区】，阅读及勾选欧易的《服务条款》、《风险与合规披露》及《隐私政策声明》，点击【注册账户】。\n3. 输入【邮箱】及【邀请码（选填】，点击【注册】。\n4. 输入邮箱验证码。\n5. 添加手机...",
+        "source": "web",
+        "title": "如何注册欧易账号？",
+        "url": "https://www.okx.com/zh-hans/help/okx-account-registration-guide"
+      },
+      {
+        "date": "2026-05-09",
+        "last_updated": "2026-05-24",
+        "place_metadata": null,
+        "snippet": "Skills Registry 现已开启公测，参与方式很简单：\n**第一步：开通体验**\n只需要一个阿里云账号，开通 MSE 产品即可参与。\n**第二步：创建并上传你的第一个 Skill**\n进入 MSE 产品页面，找到 AI Registry 入口，创建一个工作空间，上传你的第一个 Skill。可以设置为公开给团队使用，也可以设为私有。跑一遍完整的注册流程，感受一下平台的能力。\n**第三步：邀请同事一起用**\n把 Skill 公开后，邀请团队其他同事来使用。他们可以通过 nacos-cli 一键安装你的 Skill 到自己的 Agent 中，不需要手动下载配置。",
+        "source": "web",
+        "title": "Skills Registry 公测开启：为企业打造私有的Skill 管理中心 - 博客园",
+        "url": "https://www.cnblogs.com/alisystemsoftware/p/20003559"
+      },
+      {
+        "date": "2026-01-28",
+        "last_updated": "2026-07-13",
+        "place_metadata": null,
+        "snippet": "我们最推荐直接用命令来搞定。打开你常用的Claude Code或者codex（使用方法文末自取），**把下面这段提示词直接粘贴给AI发送过去就行了**。\n...\n安装这个skill，skill项目地址为: https://github.com/anthropics/skills/tree/main/skills/skill-creator!\n...\n同理，如果我们想装Claude官方发布的其他Skill，比如一个文献总结工具，**只需要把对应的GitHub链接替换一下**，操作逻辑一模一样。\n...\n这种方式简单粗暴，直接把准备好的Skills文件夹拖进我们电脑本地的配置目录里就行了。\n对应的...",
+        "source": "web",
+        "title": "科研效率翻倍！保姆级教程教你学会使用skills - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2624914"
+      },
+      {
+        "date": "2026-05-18",
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "{ts:206} 首先我们需要准备一个全新的谷歌账号 你可以点击这里的头像 然后点击这里的添加Chrome个人资料\n{ts:214} 点击登录 将你全新的谷歌账号给它登录进来 如果说你没有谷歌账号的话\n...\n{ts:291} 访问Claude官网 进来之后 我们建议大家优先使用你的谷歌账号进行注册\n{ts:297} 你可以点击这里然后用你的谷歌账号进行授权 点击继续 它这里问你是否年满18岁\n{ts:304} 这里我们勾选一下 然后点击创建账户 一般来说它会来到让你验证手机号的界面\n...\n{ts:322} 如果说你遇到了需要手机验证码的环节 那么你可以来到这个HeroSMS这个网站 在这里...",
+        "source": "web",
+        "title": "2026最新！保姆级Claude注册教程，100%成功避开封号雷区！",
+        "url": "https://www.youtube.com/watch?v=OGEjsgYHHb4"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 620,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00062,
+        "request_cost": 0.005,
+        "total_cost": 0.00565
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 652
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:12.578263Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "目前的搜索结果中**没有直接关于“Skillver”注册的具体步骤**，且该名称极可能是**Skillveri**（一家提供编程技能认证的平台）的拼写错误，或者是其他未收录的类似名称平台（如 SkillSider、IBM SkillsBuild 等）。\n\n建议您先确认是否指的是 **Skillveri**，如果是，请尝试以下通用注册流程（基于 Skillveri 的官方支持信息推断）：\n\n1. **访问官网**：打开 Skillveri 官方网站（通常可通过搜索 \"Skillveri exam registration\" 找到）。\n2. **点击注册**：在首页右上角找到 **Sign Up** 或 **Register** 按钮。\n3. **填写信息**：输入您的**姓名**、**邮箱地址**、**手机号码**，并设置**密码**。\n4. **验证邮箱**：提交后，系统会发送验证邮件，点击邮件中的链接完成验证。\n5. **补充资料**：根据提示填写个人基本信息（如教育背景、职业等）。\n6. **完成注册**：验证后即可登录，开始浏览课程或报名参加技能认证考试。\n\n如果您确认指的是其他平台（如 **SkillSider**、**IBM SkillsBuild** 等），以下是它们的注册方式供参考：\n\n| 平台名称 | 注册入口 | 关键步骤 |\n|----------|----------|----------|\n| **SkillSider** | [YouTube 教程](https://www.youtube.com/watch?v=Dbt3v4Bd3iA) | 点击 Sign Up → 填写姓名、邮箱、手机号、密码 → 输入 Sponsor Code（可选） → 完成注册 [1] |\n| **IBM SkillsBuild** | [skillsbuild.org](https://skillsbuild.org/zh-TW) | 扫描 QR 码或输入链接 → 选择“注册” → 验证邮箱 → 填写基本资料 → 20 岁以下需家长授权隐私政策 [5] |\n| **Skillveri** | Google Play 应用页 | 联系支持邮箱：support@skillveri.com 获取注册指引 [2] |\n\n**建议操作**：\n- 请再次确认您想注册的平台准确名称（是 **Skillver**、**Skillveri** 还是 **SkillSider**？）。\n- 如果是 **Skillveri**，可直接访问其官网或通过 Google Play 下载 App 后注册，如需帮助可邮件联系支持团队：[support@skillveri.com](mailto:support@skillveri.com) [2]。\n\n如果您能提供更多背景（例如：是用于编程考试、职业技能认证，还是某个特定课程？），我可以进一步帮您定位正确的注册流程。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

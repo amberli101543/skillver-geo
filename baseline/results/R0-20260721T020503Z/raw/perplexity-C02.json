@@ -1,0 +1,304 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "市面上主流的AI模拟面试工具包括**鹅来面**、**面试猫**、**牛客网**、**智面星**、**面灵AI**、**Skillora**、**AceRound AI**以及谷歌推出的免费练习工具等，它们分别侧重沉浸式视频模拟、实时提示、海量真题库及海外多语言支持[1][2][3][6]。\n\n以下是针对不同求职场景的工具分类与特点：\n\n### 1. 国内求职主流工具（侧重大厂真题与简历关联）\n| 工具名称 | 核心特点 | 适用场景 |\n| :--- | :--- | :--- |\n| **鹅来面** | 主打**沉浸式视频面试**，支持导入简历和岗位JD生成针对性题目[1] | 需要模拟真实视频面试氛围的求职者 |\n| **面试猫** | 支持**实时语音识别**和AI问答，免安装，涵盖面试+笔试双场景[1][12] | 追求快速上手、需同时准备笔试的毕业生 |\n| **牛客网** | 拥有海量**互联网大厂真题库**（Java/前端/算法等），按公司/岗位分类齐全，免费门槛低[1][3] | 准备国内互联网大厂技术岗的求职者 |\n| **智面星** | 结合简历生成定制问题，提供**实时答案提示**和反馈报告[6][8] | 需要实时辅助和个性化反馈的求职者 |\n| **面灵AI** | 读取简历与JD后针对性出题，对话流程接近真实面试节奏[3] | 希望模拟真实面试节奏的求职者 |\n| **职徒简历** | 将简历内容与面试题目深度关联[1] | 已有优化简历，需针对性模拟的求职者 |\n\n### 2. 海外/外企求职工具（侧重多语言与行为面试）\n| 工具名称 | 核心特点 | 适用场景 |\n| :--- | :--- | :--- |\n| **AceRound AI** | 提供**真实面试实时辅助**，2026年免费工具测评中推荐首选[7] | 海外求职者，需英语行为面试或技术面试 |\n| **Skillora** | 支持**多语言**，可针对任何工作角色定制，提供即时打分与反馈[2][11] | 需要高度定制化问题及多语言支持的求职者 |\n| **Interviews by AI** | 提供**无限次**免费的行为面试练习[7] | 预算有限，需大量练习行为面试题的候选人 |\n| **X-Interview** | **多语言支持最强**（29种语言），覆盖Google/Meta等大厂风格[3][7] | 非英语母语者申请海外岗位 |\n| **谷歌免费工具** | 提供基础的面试问答模拟和反馈，完全免费[1] | 仅需基础练习的海外求职者 |\n\n### 3. 其他综合型AI工具\n*   **Huru**：AI驱动的视频面试应用，支持从LinkedIn/Indeed抓取职位生成问题，并评估声音表达[5][8]。\n*   **Yanshoof**：提供面试录像回放分析、真实场景设置及多种面试计划定制[11]。\n*   **蓝字典**：除模拟面试外，还涵盖智能简历生成、优化及职业规划咨询[4]。\n*   **Gank Interview**：定位为完整的面试演练工作台，而非单轮问答工具[9]。\n\n### 选型建议\n*   **国内互联网技术岗**：首选**牛客网**（真题多）或**面试猫**（含笔试）。\n*   **外企/海外岗位**：首选**AceRound AI**（免费且实时）或**X-Interview**（多语言）。\n*   **视频面试模拟**：首选**鹅来面**。\n*   **实时辅助需求**：可选择**智面星**或**面试猫**。\n\n部分工具提供免费试用次数（通常3-5次），深度功能可能需要付费，建议根据具体需求先试用免费版本[7]。",
+  "sources": [
+    {
+      "url": "https://www.cnblogs.com/pechka/articles/19749943",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/148615560",
+      "title": ""
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026/",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145304242",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2301_79306982/article/details/148902903",
+      "title": ""
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147413130",
+      "title": ""
+    },
+    {
+      "url": "https://www.gankinterview.cn/docs/features/mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/153693203",
+      "title": ""
+    },
+    {
+      "url": "https://top.aibase.com/tool/ai-mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/jobsearchhacks/comments/1erou5t/free_ai_tool_practice_your_job_interviews_with/",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/pechka/articles/19749943",
+      "title": "2026年最好用的AI面试助手有哪些？8款热门工具真实测评 ..."
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/148615560",
+      "title": "2025 年最新10 款AI 面试工具大盘点！毕业生职场人必备ai 模拟面试 ..."
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026/",
+      "title": "AI模拟面试怎么用才有效？从选工具到上场的完整指南"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145304242",
+      "title": "2025年最新5款AI面试工具大盘点！毕业生职场人必备ai模拟面试神器"
+    },
+    {
+      "url": "https://blog.csdn.net/2301_79306982/article/details/148902903",
+      "title": "15个AI模拟面试平台和简历修改/ 真人面试平台原创"
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": "智面星官网| AI面试助手| 实时答案提示"
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/",
+      "title": "2026年免费AI模拟面试工具哪个最值得用：海外求职者实测对比"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147413130",
+      "title": "10款免费AI面试助手，让你的求职更高效原创"
+    },
+    {
+      "url": "https://www.gankinterview.cn/docs/features/mock-interview",
+      "title": "Gank Interview - AI智能面试助手"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/153693203",
+      "title": "秋招必备！2025年6款AI面试工具/平台全解析（附终极选型 ..."
+    },
+    {
+      "url": "https://top.aibase.com/tool/ai-mock-interview",
+      "title": "AI Mock Interview : AI模拟面试服务"
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": "面试猫-AI面试助手，在线面试神器，实时答案生成"
+    },
+    {
+      "url": "https://www.reddit.com/r/jobsearchhacks/comments/1erou5t/free_ai_tool_practice_your_job_interviews_with/",
+      "title": "[Free AI Tool] Practice Your Job Interviews with AI-Driven Simulations"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "市面上主流的AI模拟面试工具包括**鹅来面**、**面试猫**、**牛客网**、**智面星**、**面灵AI**、**Skillora**、**AceRound AI**以及谷歌推出的免费练习工具等，它们分别侧重沉浸式视频模拟、实时提示、海量真题库及海外多语言支持[1][2][3][6]。\n\n以下是针对不同求职场景的工具分类与特点：\n\n### 1. 国内求职主流工具（侧重大厂真题与简历关联）\n| 工具名称 | 核心特点 | 适用场景 |\n| :--- | :--- | :--- |\n| **鹅来面** | 主打**沉浸式视频面试**，支持导入简历和岗位JD生成针对性题目[1] | 需要模拟真实视频面试氛围的求职者 |\n| **面试猫** | 支持**实时语音识别**和AI问答，免安装，涵盖面试+笔试双场景[1][12] | 追求快速上手、需同时准备笔试的毕业生 |\n| **牛客网** | 拥有海量**互联网大厂真题库**（Java/前端/算法等），按公司/岗位分类齐全，免费门槛低[1][3] | 准备国内互联网大厂技术岗的求职者 |\n| **智面星** | 结合简历生成定制问题，提供**实时答案提示**和反馈报告[6][8] | 需要实时辅助和个性化反馈的求职者 |\n| **面灵AI** | 读取简历与JD后针对性出题，对话流程接近真实面试节奏[3] | 希望模拟真实面试节奏的求职者 |\n| **职徒简历** | 将简历内容与面试题目深度关联[1] | 已有优化简历，需针对性模拟的求职者 |\n\n### 2. 海外/外企求职工具（侧重多语言与行为面试）\n| 工具名称 | 核心特点 | 适用场景 |\n| :--- | :--- | :--- |\n| **AceRound AI** | 提供**真实面试实时辅助**，2026年免费工具测评中推荐首选[7] | 海外求职者，需英语行为面试或技术面试 |\n| **Skillora** | 支持**多语言**，可针对任何工作角色定制，提供即时打分与反馈[2][11] | 需要高度定制化问题及多语言支持的求职者 |\n| **Interviews by AI** | 提供**无限次**免费的行为面试练习[7] | 预算有限，需大量练习行为面试题的候选人 |\n| **X-Interview** | **多语言支持最强**（29种语言），覆盖Google/Meta等大厂风格[3][7] | 非英语母语者申请海外岗位 |\n| **谷歌免费工具** | 提供基础的面试问答模拟和反馈，完全免费[1] | 仅需基础练习的海外求职者 |\n\n### 3. 其他综合型AI工具\n*   **Huru**：AI驱动的视频面试应用，支持从LinkedIn/Indeed抓取职位生成问题，并评估声音表达[5][8]。\n*   **Yanshoof**：提供面试录像回放分析、真实场景设置及多种面试计划定制[11]。\n*   **蓝字典**：除模拟面试外，还涵盖智能简历生成、优化及职业规划咨询[4]。\n*   **Gank Interview**：定位为完整的面试演练工作台，而非单轮问答工具[9]。\n\n### 选型建议\n*   **国内互联网技术岗**：首选**牛客网**（真题多）或**面试猫**（含笔试）。\n*   **外企/海外岗位**：首选**AceRound AI**（免费且实时）或**X-Interview**（多语言）。\n*   **视频面试模拟**：首选**鹅来面**。\n*   **实时辅助需求**：可选择**智面星**或**面试猫**。\n\n部分工具提供免费试用次数（通常3-5次），深度功能可能需要付费，建议根据具体需求先试用免费版本[7]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.cnblogs.com/pechka/articles/19749943",
+      "https://blog.csdn.net/offergoose/article/details/148615560",
+      "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026/",
+      "https://blog.csdn.net/offergoose/article/details/145304242",
+      "https://blog.csdn.net/2301_79306982/article/details/148902903",
+      "https://aiqtools.cn/",
+      "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/",
+      "https://blog.csdn.net/offergoose/article/details/147413130",
+      "https://www.gankinterview.cn/docs/features/mock-interview",
+      "https://blog.csdn.net/offergoose/article/details/153693203",
+      "https://top.aibase.com/tool/ai-mock-interview",
+      "https://www.offermore.cc/",
+      "https://www.reddit.com/r/jobsearchhacks/comments/1erou5t/free_ai_tool_practice_your_job_interviews_with/"
+    ],
+    "created": 1784600438,
+    "id": "49fe1e2a-151b-4815-96aa-d82a1a8e7679",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-03-22",
+        "last_updated": "2026-05-13",
+        "place_metadata": null,
+        "snippet": "鹅来面是一款专注AI模拟面试的平台，主打沉浸式视频面试模拟。支持导入简历和岗位JD，生成针对性面试题目。\n...\n面试猫定位为面试+笔试双场景辅助工具，支持实时语音识别和AI问答，免安装即可使用。\n...\n牛客是国内老牌的求职平台，拥有海量互联网大厂面试真题库，近年也加入了AI模拟面试功能。\n...\n职徒简历以简历服务起家，后来拓展了AI模拟面试功能，将简历内容与面试题目深度关联。\n...\n谷歌推出的免费AI面试练习工具，提供基础的面试问答模拟和反馈。",
+        "source": "web",
+        "title": "2026年最好用的AI面试助手有哪些？8款热门工具真实测评 ...",
+        "url": "https://www.cnblogs.com/pechka/articles/19749943"
+      },
+      {
+        "date": "2025-06-12",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "### 4.\nSkillora - AI 模拟面试工具\n功能特点：这是一款创新的人工智能工具，能针对任何主题或工作角色进行真实且可定制的模拟面试。其人工智能面试官可模拟真实面试场景，针对各种技术和非技术工作角色提出具有挑战性的问题。每次模拟面试结束后，会提供即时反馈，包括对每次回答的打分，帮助用户确定需要改进的领域，完善面试技巧。\n...\n功能特点：提供无限次模拟面试、即时 AI 反馈、多语言支持。与主流招聘网站集成，直接从职位描述生成面试问题。用户可以根据自己的需求，随时进行面试练习，并获得及时的反馈。",
+        "source": "web",
+        "title": "2025 年最新10 款AI 面试工具大盘点！毕业生职场人必备ai 模拟面试 ...",
+        "url": "https://blog.csdn.net/offergoose/article/details/148615560"
+      },
+      {
+        "date": "2026-04-06",
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "### 牛客网AI面试\n**优点**：题库覆盖面最广，按公司、岗位分类齐全，从大厂到国央企、银行都有真题。技术岗（Java、前端、算法）的题目质量不错。免费使用门槛低。\n...\n面灵AI的模拟面试功能会先读取你上传的简历和目标岗位JD，然后针对性地出题，整个对话流程比较接近真实面试节奏。\n...\n如果你在投外企或者海外岗位，这个工具是国内工具没法替代的。支持29种语言、有英文技术面试和行为面试两种模式，覆盖了Google、Meta、McKinsey等大厂的面试风格。",
+        "source": "web",
+        "title": "AI模拟面试怎么用才有效？从选工具到上场的完整指南",
+        "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026/"
+      },
+      {
+        "date": "2025-01-22",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "这款AI面试工具不仅提供了丰富的模拟面试资源，还涵盖了智能简历生成、AI简历优化和职业规划咨询等多项功能。它支持多平台访问，无论是电脑还是手机，都能轻松使用。通过蓝字典的全方位服务，求职者可以更加高效地准备面试，提升自己的竞争力。\n...\n作为国内知名的招聘平台，牛客专注于互联网行业，为求职者提供了丰富的模拟真实面试环境和智能题库。通过实时反馈机制，求职者可以及时了解自己在面试中的表现情况，并进行针对性的提升。",
+        "source": "web",
+        "title": "2025年最新5款AI面试工具大盘点！毕业生职场人必备ai模拟面试神器",
+        "url": "https://blog.csdn.net/offergoose/article/details/145304242"
+      },
+      {
+        "date": "2025-06-25",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "- **功能深度剖析:** Huru是一款AI驱动的视频面试准备应用，允许用户进行无限次的模拟面试。它能够根据用户选择的职业路径或从主流招聘网站（如LinkedIn、Indeed）上抓取的具体职位信息，生成高度相关的面试问题 16。该平台提供即时且个人化的反馈，不仅分析回答的内容、词汇，还评估用户的声音表达 16。其Chrome扩展程序可以无缝集成到用户的求职流程中。无转录。\n...\n- **功能深度剖析:** WonsultingAI的“InterviewAI”工具旨在通过真实的模拟面试帮助用户建立自信。它能根据用户的目标岗位生成特定的问题，并提供详细的回答反馈 19。用户可以定制面试类型、...",
+        "source": "web",
+        "title": "15个AI模拟面试平台和简历修改/ 真人面试平台原创",
+        "url": "https://blog.csdn.net/2301_79306982/article/details/148902903"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "80,000+面试真题训练,覆盖数万家公司,数千种岗位\n针对你的简历和面试岗位进行模拟练习",
+        "source": "web",
+        "title": "智面星官网| AI面试助手| 实时答案提示",
+        "url": "https://aiqtools.cn/"
+      },
+      {
+        "date": "2026-05-05",
+        "last_updated": "2026-06-24",
+        "place_metadata": null,
+        "snippet": "> **太长不看版**：2026年最值得用的免费AI模拟面试工具包括：AceRound AI（真实面试实时辅助）、Interviews by AI（行为面试无限免费练习）和 X-Interview（多语言支持最强）。大多数工具免费试用3–5次就会遇到付费墙——本文详细说明每款工具到底能免费用多少次、研究表明你实际需要练多少次，以及哪款工具最适合英语非母语的海外华人候选人。",
+        "source": "web",
+        "title": "2026年免费AI模拟面试工具哪个最值得用：海外求职者实测对比",
+        "url": "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/"
+      },
+      {
+        "date": "2025-04-22",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "多面鹅是一款专为求职者打造的AI面试平台，它通过模拟面试和实时提醒，帮助你在面试中自信展示才华与潜力。它的优势在于能够提供即时反馈和指导，提升你的回答质量和自信心。多面鹅官网提供了全面的服务，包括AI模拟面试、智能面试押题等，是你面试准备的不二之选。\n...\n智面星是AI面试助手，帮助求职者提升面试技巧。通过实时识别面试问题提供专业回答建议，增强用户在面试中的表现。智面星具备个性化模拟面试功能，结合用户简历生成定制问题，通过反馈报告帮助用户识别优势和不足。\n...\nJobJump是AI面试助手工具，通过实时答案提示帮助求职者准备面试。支持与主流视频会议平台集成，提供多语言服务。JobJump为...",
+        "source": "web",
+        "title": "10款免费AI面试助手，让你的求职更高效原创",
+        "url": "https://blog.csdn.net/offergoose/article/details/147413130"
+      },
+      {
+        "date": "2026-06-01",
+        "last_updated": "2026-06-01",
+        "place_metadata": null,
+        "snippet": "“AI 模拟面试”不是单轮问答工具，而是一套完整的面试演练工作台。",
+        "source": "web",
+        "title": "Gank Interview - AI智能面试助手",
+        "url": "https://www.gankinterview.cn/docs/features/mock-interview"
+      },
+      {
+        "date": "2025-10-21",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "2025秋招大战已然打响，“面霸”与“面挂”之间，或许只差一个高效的练习工具。本文将聚焦于市面上三款定位鲜明的AI面试工具——**鹅来面、智面星、Offerin AI**，进行一次硬核的实战拆解与横评。",
+        "source": "web",
+        "title": "秋招必备！2025年6款AI面试工具/平台全解析（附终极选型 ...",
+        "url": "https://blog.csdn.net/offergoose/article/details/153693203"
+      },
+      {
+        "date": "2023-09-11",
+        "last_updated": "2025-05-31",
+        "place_metadata": null,
+        "snippet": "Skillora是一个AI面试工具，旨在帮助求职者练习面试技巧，为公司优化招聘流程，并为教育机构培训员工和学生。它提供个性化定制的模拟面试，实时反馈和评分，以及学习资源库。Skillora可以帮助用户增加面试自信，提升成功机会。\n...\nInterviewable是一款AI面试准备工具，帮助用户提升面试表现。其个性化反馈、每周进展追踪、常见面试问题曝光等功能，使其成为求职者和教育机构的理想选择。产品分为STARTER、GROWTH、PRO和TEAMS四个套餐，价格从每月12美元到每月300美元不等。\n...\nAI模拟面试是一个提供个性化AI面试模拟和反馈的服务。用户可以选择模板或自定义面试内容...",
+        "source": "web",
+        "title": "AI Mock Interview : AI模拟面试服务",
+        "url": "https://top.aibase.com/tool/ai-mock-interview"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "面试猫是强大的 AI 求职助手，实时 AI 面试辅助、AI 笔试辅助、AI 简历优化和面试总结，最强大模型辅助，助你轻松拿Offer。",
+        "source": "web",
+        "title": "面试猫-AI面试助手，在线面试神器，实时答案生成",
+        "url": "https://www.offermore.cc/"
+      },
+      {
+        "date": "2024-08-14",
+        "last_updated": "2026-07-09",
+        "place_metadata": null,
+        "snippet": "I also found similar tools called Sensei Copilot AI.",
+        "source": "web",
+        "title": "[Free AI Tool] Practice Your Job Interviews with AI-Driven Simulations",
+        "url": "https://www.reddit.com/r/jobsearchhacks/comments/1erou5t/free_ai_tool_practice_your_job_interviews_with/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 1071,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00107,
+        "request_cost": 0.005,
+        "total_cost": 0.00611
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 1107
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:20:38.628102Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "市面上主流的AI模拟面试工具包括**鹅来面**、**面试猫**、**牛客网**、**智面星**、**面灵AI**、**Skillora**、**AceRound AI**以及谷歌推出的免费练习工具等，它们分别侧重沉浸式视频模拟、实时提示、海量真题库及海外多语言支持[1][2][3][6]。\n\n以下是针对不同求职场景的工具分类与特点：\n\n### 1. 国内求职主流工具（侧重大厂真题与简历关联）\n| 工具名称 | 核心特点 | 适用场景 |\n| :--- | :--- | :--- |\n| **鹅来面** | 主打**沉浸式视频面试**，支持导入简历和岗位JD生成针对性题目[1] | 需要模拟真实视频面试氛围的求职者 |\n| **面试猫** | 支持**实时语音识别**和AI问答，免安装，涵盖面试+笔试双场景[1][12] | 追求快速上手、需同时准备笔试的毕业生 |\n| **牛客网** | 拥有海量**互联网大厂真题库**（Java/前端/算法等），按公司/岗位分类齐全，免费门槛低[1][3] | 准备国内互联网大厂技术岗的求职者 |\n| **智面星** | 结合简历生成定制问题，提供**实时答案提示**和反馈报告[6][8] | 需要实时辅助和个性化反馈的求职者 |\n| **面灵AI** | 读取简历与JD后针对性出题，对话流程接近真实面试节奏[3] | 希望模拟真实面试节奏的求职者 |\n| **职徒简历** | 将简历内容与面试题目深度关联[1] | 已有优化简历，需针对性模拟的求职者 |\n\n### 2. 海外/外企求职工具（侧重多语言与行为面试）\n| 工具名称 | 核心特点 | 适用场景 |\n| :--- | :--- | :--- |\n| **AceRound AI** | 提供**真实面试实时辅助**，2026年免费工具测评中推荐首选[7] | 海外求职者，需英语行为面试或技术面试 |\n| **Skillora** | 支持**多语言**，可针对任何工作角色定制，提供即时打分与反馈[2][11] | 需要高度定制化问题及多语言支持的求职者 |\n| **Interviews by AI** | 提供**无限次**免费的行为面试练习[7] | 预算有限，需大量练习行为面试题的候选人 |\n| **X-Interview** | **多语言支持最强**（29种语言），覆盖Google/Meta等大厂风格[3][7] | 非英语母语者申请海外岗位 |\n| **谷歌免费工具** | 提供基础的面试问答模拟和反馈，完全免费[1] | 仅需基础练习的海外求职者 |\n\n### 3. 其他综合型AI工具\n*   **Huru**：AI驱动的视频面试应用，支持从LinkedIn/Indeed抓取职位生成问题，并评估声音表达[5][8]。\n*   **Yanshoof**：提供面试录像回放分析、真实场景设置及多种面试计划定制[11]。\n*   **蓝字典**：除模拟面试外，还涵盖智能简历生成、优化及职业规划咨询[4]。\n*   **Gank Interview**：定位为完整的面试演练工作台，而非单轮问答工具[9]。\n\n### 选型建议\n*   **国内互联网技术岗**：首选**牛客网**（真题多）或**面试猫**（含笔试）。\n*   **外企/海外岗位**：首选**AceRound AI**（免费且实时）或**X-Interview**（多语言）。\n*   **视频面试模拟**：首选**鹅来面**。\n*   **实时辅助需求**：可选择**智面星**或**面试猫**。\n\n部分工具提供免费试用次数（通常3-5次），深度功能可能需要付费，建议根据具体需求先试用免费版本[7]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

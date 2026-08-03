@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "**不能保证。**\n\n任何正规求职辅导机构（包括 Skillver）都无法 100% 保证拿到 offer。求职结果取决于你的个人背景、能力匹配度、面试表现、招聘市场情况以及企业用人需求等多种不可控因素。\n\n**需要警惕的是：**\n- 如果某个服务宣称\"包过\"\"保 offer\"，往往属于营销噱头，实际可能附带苛刻的退款条件或存在夸大宣传。\n- 签合同时务必仔细查看细则，特别是关于\"保 offer\"不成功的退费标准和免责条款。\n\n**建议：**\n与其关注是否\"保 offer\"，不如重点考察 Skillver（或类似机构）能提供的**实际价值**，比如导师质量、案例真实性、岗位资源、面试模拟效果等。提升自身竞争力才是拿到 offer 的核心保障。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f21c944c1c6bda933d69e",
+    "object": "chat.completion",
+    "created": 1784619466,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**不能保证。**\n\n任何正规求职辅导机构（包括 Skillver）都无法 100% 保证拿到 offer。求职结果取决于你的个人背景、能力匹配度、面试表现、招聘市场情况以及企业用人需求等多种不可控因素。\n\n**需要警惕的是：**\n- 如果某个服务宣称\"包过\"\"保 offer\"，往往属于营销噱头，实际可能附带苛刻的退款条件或存在夸大宣传。\n- 签合同时务必仔细查看细则，特别是关于\"保 offer\"不成功的退费标准和免责条款。\n\n**建议：**\n与其关注是否\"保 offer\"，不如重点考察 Skillver（或类似机构）能提供的**实际价值**，比如导师质量、案例真实性、岗位资源、面试模拟效果等。提升自身竞争力才是拿到 offer 的核心保障。",
+          "reasoning_content": "用户问的是 \"Skillver 会保证拿到 offer 吗？\" 这是一个关于 Skillver 服务的问题。\n\n首先，我需要确定 Skillver 是什么。根据我的知识，Skillver 似乎是一个提供职业规划、求职辅导、面试培训等服务的平台或机构（可能是针对留学生或职场新人的求职辅导机构）。\n\n关于\"保证拿到 offer\"这个问题：\n1. 任何正规、合法的求职辅导机构都不会\"保证\"拿到 offer，因为求职结果取决于多种因素（候选人背景、市场环境、公司需求、面试表现等）。\n2. 如果有人或机构声称\"保证拿到 offer\"，通常需要谨慎对待，这可能涉及虚假宣传或不实承诺。\n3. 正规的机构通常会提供培训、辅导、资源对接等服务，提高获得 offer 的概率，但不会做绝对承诺。\n\n回答要点：\n- 直接回答：不会/不能保证\n- 解释原因：求职取决于多种因素\n- 提醒用户：警惕\"保offer\"承诺，可能是营销噱头或虚假宣传\n- 建议：关注机构能提供的实际服务和资源\n\n由于问题是用中文提问的，我应该用中文回答。回答要事实准确、简洁。\n\n我需要确保我不虚构关于 Skillver 的具体信息。如果我不确定 Skillver 的具体业务模式，我应该基于一般求职辅导行业的常识来回答，同时保持谨慎。\n\n实际上，Skillver（或类似拼写的机构）如果是求职辅导机构，通常的业内规则是：\n- 没有机构能 100% 保证 offer\n- 有些机构可能有\"退款政策\"或\"保offer班\"，但通常附带苛刻条件，且实际执行中常有争议\n\n最安全的回答是：任何正规机构都不会承诺保证拿到 offer，如果 Skillver 做出此类承诺，建议仔细阅读合同条款并保持警惕。\n\n让我组织一个简洁、事实性的中文回答。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 522,
+      "total_tokens": 568,
+      "completion_tokens_details": {
+        "reasoning_tokens": 362
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:38:07.234584Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "**不能保证。**\n\n任何正规求职辅导机构（包括 Skillver）都无法 100% 保证拿到 offer。求职结果取决于你的个人背景、能力匹配度、面试表现、招聘市场情况以及企业用人需求等多种不可控因素。\n\n**需要警惕的是：**\n- 如果某个服务宣称\"包过\"\"保 offer\"，往往属于营销噱头，实际可能附带苛刻的退款条件或存在夸大宣传。\n- 签合同时务必仔细查看细则，特别是关于\"保 offer\"不成功的退费标准和免责条款。\n\n**建议：**\n与其关注是否\"保 offer\"，不如重点考察 Skillver（或类似机构）能提供的**实际价值**，比如导师质量、案例真实性、岗位资源、面试模拟效果等。提升自身竞争力才是拿到 offer 的核心保障。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

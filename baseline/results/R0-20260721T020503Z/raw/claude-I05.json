@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "根据我的知识库，我没有关于 **tcodeai.com** 和 **Skillver** 之间具体关系的可靠信息。\n\n建议您可以：\n1. **直接访问** tcodeai.com 查看官方介绍\n2. **搜索** 两者的官方声明或新闻报道\n3. **联系** 相关公司官方客服咨询\n\n如果您有更多背景信息，我可以尝试进一步帮助您分析。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPiUSwDrTe6nGdAEikU",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据我的知识库，我没有关于 **tcodeai.com** 和 **Skillver** 之间具体关系的可靠信息。\n\n建议您可以：\n1. **直接访问** tcodeai.com 查看官方介绍\n2. **搜索** 两者的官方声明或新闻报道\n3. **联系** 相关公司官方客服咨询\n\n如果您有更多背景信息，我可以尝试进一步帮助您分析。"
+        }
+      }
+    ],
+    "created": 1784599929,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 55,
+      "total_tokens": 200
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:09.571174Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "根据我的知识库，我没有关于 **tcodeai.com** 和 **Skillver** 之间具体关系的可靠信息。\n\n建议您可以：\n1. **直接访问** tcodeai.com 查看官方介绍\n2. **搜索** 两者的官方声明或新闻报道\n3. **联系** 相关公司官方客服咨询\n\n如果您有更多背景信息，我可以尝试进一步帮助您分析。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

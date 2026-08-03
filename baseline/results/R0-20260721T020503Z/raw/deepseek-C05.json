@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI求职工具通常可分为以下几类：\n\n1. **简历优化类**  \n   利用AI分析简历与岗位匹配度，提供修改建议、关键词优化、排版调整等。代表工具：Jobscan、Resume Worded。\n\n2. **模拟面试类**  \n   通过AI生成面试问题（行为、技术、案例等），提供实时反馈或评估回答质量。代表工具：Interviewing.io、Yoodli。\n\n3. **职位匹配与推荐类**  \n   基于技能、经验、偏好自动匹配合适岗位，或预测求职成功概率。代表工具：LinkedIn 智能推荐、Indeed 职位匹配。\n\n4. **求职策略与自动化类**  \n   包括自动投递简历、申请跟踪、谈判薪资建议等。代表工具：Simplify（自动填表）、Kickresume（批量申请）。\n\n5. **职业技能评估类**  \n   通过AI测试（如编程、数据分析）评估能力等级，推荐学习路径或认证。代表工具：HackerRank、Pymetrics。\n\n6. **人脉与关系网络分析类**  \n   分析LinkedIn联系人，推荐内推路径或最佳沟通策略。代表工具：TalentBin、IntroAI。\n\n这些工具可组合使用，提升从简历到面试、offer的全流程效率。",
+  "sources": [],
+  "raw": {
+    "id": "786d2c0f-1949-4f6a-b601-60dde325c697",
+    "object": "chat.completion",
+    "created": 1784600555,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI求职工具通常可分为以下几类：\n\n1. **简历优化类**  \n   利用AI分析简历与岗位匹配度，提供修改建议、关键词优化、排版调整等。代表工具：Jobscan、Resume Worded。\n\n2. **模拟面试类**  \n   通过AI生成面试问题（行为、技术、案例等），提供实时反馈或评估回答质量。代表工具：Interviewing.io、Yoodli。\n\n3. **职位匹配与推荐类**  \n   基于技能、经验、偏好自动匹配合适岗位，或预测求职成功概率。代表工具：LinkedIn 智能推荐、Indeed 职位匹配。\n\n4. **求职策略与自动化类**  \n   包括自动投递简历、申请跟踪、谈判薪资建议等。代表工具：Simplify（自动填表）、Kickresume（批量申请）。\n\n5. **职业技能评估类**  \n   通过AI测试（如编程、数据分析）评估能力等级，推荐学习路径或认证。代表工具：HackerRank、Pymetrics。\n\n6. **人脉与关系网络分析类**  \n   分析LinkedIn联系人，推荐内推路径或最佳沟通策略。代表工具：TalentBin、IntroAI。\n\n这些工具可组合使用，提升从简历到面试、offer的全流程效率。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 39,
+      "completion_tokens": 267,
+      "total_tokens": 306,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 39
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:22:38.999482Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI求职工具通常可分为以下几类：\n\n1. **简历优化类**  \n   利用AI分析简历与岗位匹配度，提供修改建议、关键词优化、排版调整等。代表工具：Jobscan、Resume Worded。\n\n2. **模拟面试类**  \n   通过AI生成面试问题（行为、技术、案例等），提供实时反馈或评估回答质量。代表工具：Interviewing.io、Yoodli。\n\n3. **职位匹配与推荐类**  \n   基于技能、经验、偏好自动匹配合适岗位，或预测求职成功概率。代表工具：LinkedIn 智能推荐、Indeed 职位匹配。\n\n4. **求职策略与自动化类**  \n   包括自动投递简历、申请跟踪、谈判薪资建议等。代表工具：Simplify（自动填表）、Kickresume（批量申请）。\n\n5. **职业技能评估类**  \n   通过AI测试（如编程、数据分析）评估能力等级，推荐学习路径或认证。代表工具：HackerRank、Pymetrics。\n\n6. **人脉与关系网络分析类**  \n   分析LinkedIn联系人，推荐内推路径或最佳沟通策略。代表工具：TalentBin、IntroAI。\n\n这些工具可组合使用，提升从简历到面试、offer的全流程效率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

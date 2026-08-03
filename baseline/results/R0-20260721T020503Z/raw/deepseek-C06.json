@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "简历优化工具和 AI 面试工具的主要区别在于**应用场景**和**功能侧重点**：\n\n1.  **简历优化工具**：\n    -   **目的**：提升简历的**内容质量**与**匹配度**。\n    -   **功能**：分析职位描述（JD），建议关键词、优化措辞、调整排版结构、检查语法错误，并评估简历与岗位的匹配分数。\n    -   **使用阶段**：投递前。\n\n2.  **AI 面试工具**：\n    -   **目的**：模拟真实面试，训练**临场表现**与**表达能力**。\n    -   **功能**：基于岗位生成面试问题，实时分析你的回答内容、语速、表情和肢体语言，并给出反馈或评分。\n    -   **使用阶段**：面试准备阶段或初筛流程中。\n\n简单说：**简历工具帮你“写好”入场券，AI 面试工具帮你“练好”临场发挥。** 两者是求职流程中不同环节的辅助手段。",
+  "sources": [],
+  "raw": {
+    "id": "d2075f20-4e03-4e6e-9135-60d187f63714",
+    "object": "chat.completion",
+    "created": 1784600596,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "简历优化工具和 AI 面试工具的主要区别在于**应用场景**和**功能侧重点**：\n\n1.  **简历优化工具**：\n    -   **目的**：提升简历的**内容质量**与**匹配度**。\n    -   **功能**：分析职位描述（JD），建议关键词、优化措辞、调整排版结构、检查语法错误，并评估简历与岗位的匹配分数。\n    -   **使用阶段**：投递前。\n\n2.  **AI 面试工具**：\n    -   **目的**：模拟真实面试，训练**临场表现**与**表达能力**。\n    -   **功能**：基于岗位生成面试问题，实时分析你的回答内容、语速、表情和肢体语言，并给出反馈或评分。\n    -   **使用阶段**：面试准备阶段或初筛流程中。\n\n简单说：**简历工具帮你“写好”入场券，AI 面试工具帮你“练好”临场发挥。** 两者是求职流程中不同环节的辅助手段。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 221,
+      "total_tokens": 261,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 40
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:23:19.141932Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "简历优化工具和 AI 面试工具的主要区别在于**应用场景**和**功能侧重点**：\n\n1.  **简历优化工具**：\n    -   **目的**：提升简历的**内容质量**与**匹配度**。\n    -   **功能**：分析职位描述（JD），建议关键词、优化措辞、调整排版结构、检查语法错误，并评估简历与岗位的匹配分数。\n    -   **使用阶段**：投递前。\n\n2.  **AI 面试工具**：\n    -   **目的**：模拟真实面试，训练**临场表现**与**表达能力**。\n    -   **功能**：基于岗位生成面试问题，实时分析你的回答内容、语速、表情和肢体语言，并给出反馈或评分。\n    -   **使用阶段**：面试准备阶段或初筛流程中。\n\n简单说：**简历工具帮你“写好”入场券，AI 面试工具帮你“练好”临场发挥。** 两者是求职流程中不同环节的辅助手段。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

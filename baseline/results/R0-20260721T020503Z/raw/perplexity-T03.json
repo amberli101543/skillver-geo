@@ -1,0 +1,340 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "**Skillver 面试彩排**是 Skillver AI 求职助手平台提供的**AI 低压练习模式**，旨在帮助求职者熟悉目标岗位的题型与面试节奏，而不计入企业正式评估 [1][2]。\n\n以下是该功能的核心特点与注意事项：\n\n| 关键维度 | 详细说明 |\n| :--- | :--- |\n| **核心性质** | **练习模式**：系统基于 10,000+ 合规题库，根据目标岗位（如 Rust、CUDA、MLOps 等硬核方向）出题 [1][2]。 |\n| **评估反馈** | 输出**七维战力评估**（KAE 7 维度能力画像），帮助用户识别补课方向 [1][2]。 |\n| **使用额度** | 每人每岗位有**彩排次数配额**，具体额度需在产品内或官网 `/faq` 查看 [1][3]。 |\n| **重要区别** | **不计入企业评估**：彩排**不生成**可投递的正式报告，不能替代正式 AI 面试报告 [1][3]。 |\n| **正式凭证** | 向企业投递所需的“硬通行证”是**正式 AI 面试完成后生成的 AI 面试报告**，彩排无法用于投递 [1][2]。 |\n\n简而言之，彩排是用于**熟悉流程和自我查漏补缺**的模拟环节，而正式面试才是获取企业认可凭证的关键步骤 [3]。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%B7%B4",
+      "title": ""
+    },
+    {
+      "url": "https://agentskillsfinder.com/zh-TW/skills/paramchoudhary-interview-prep-generator",
+      "title": ""
+    },
+    {
+      "url": "https://agentskillsfinder.com/zh-TW/skills/interview-prep-generator",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fa_15vNVRrc",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19031",
+      "title": ""
+    },
+    {
+      "url": "https://skywork.ai/skillhub/my-skill/",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7649298507322327075",
+      "title": ""
+    },
+    {
+      "url": "https://clap.hk/wp-content/uploads/2025/06/%E6%A8%A1%E6%93%AC%E9%9D%A2%E8%A9%A6%E6%BA%96%E5%82%99.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://skillsfirst.com/solutions/interview-practice",
+      "title": ""
+    },
+    {
+      "url": "https://javabetter.cn/sidebar/sanfene/skills.html",
+      "title": ""
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillverify.co.in/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%B7%B4",
+      "title": "排練- 維基百科，自由的百科全書"
+    },
+    {
+      "url": "https://agentskillsfinder.com/zh-TW/skills/paramchoudhary-interview-prep-generator",
+      "title": "Interview Prep Generator"
+    },
+    {
+      "url": "https://agentskillsfinder.com/zh-TW/skills/interview-prep-generator",
+      "title": "Interview Prep Generator 安裝與使用"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fa_15vNVRrc",
+      "title": "How to Practice Mock Interviews with AI"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19031",
+      "title": "企业级Skill—**终极面试官Skill**[全网首次公开]"
+    },
+    {
+      "url": "https://skywork.ai/skillhub/my-skill/",
+      "title": "my skill"
+    },
+    {
+      "url": "https://juejin.cn/post/7649298507322327075",
+      "title": "做了一个前端模拟面试官，面完感觉自己白准备了"
+    },
+    {
+      "url": "https://clap.hk/wp-content/uploads/2025/06/%E6%A8%A1%E6%93%AC%E9%9D%A2%E8%A9%A6%E6%BA%96%E5%82%99.pdf",
+      "title": "模擬面試準備"
+    },
+    {
+      "url": "https://skillsfirst.com/solutions/interview-practice",
+      "title": "AI-Driven Interview Practice"
+    },
+    {
+      "url": "https://javabetter.cn/sidebar/sanfene/skills.html",
+      "title": "Skills面试题，33道Skill 八股文（1万字40张手绘图），面渣逆袭必看"
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "title": "GitHub - jennifer88huang/interview-skills: 大厂 AI 模拟面试官 Skill。AI mock interview: generate personalized interview questions from JD and resume, with follow-up practice for Big Tech interviews."
+    },
+    {
+      "url": "https://www.skillverify.co.in/",
+      "title": "SkillVerify India | Skill-Based Interview Practice Online"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver 面试彩排**是 Skillver AI 求职助手平台提供的**AI 低压练习模式**，旨在帮助求职者熟悉目标岗位的题型与面试节奏，而不计入企业正式评估 [1][2]。\n\n以下是该功能的核心特点与注意事项：\n\n| 关键维度 | 详细说明 |\n| :--- | :--- |\n| **核心性质** | **练习模式**：系统基于 10,000+ 合规题库，根据目标岗位（如 Rust、CUDA、MLOps 等硬核方向）出题 [1][2]。 |\n| **评估反馈** | 输出**七维战力评估**（KAE 7 维度能力画像），帮助用户识别补课方向 [1][2]。 |\n| **使用额度** | 每人每岗位有**彩排次数配额**，具体额度需在产品内或官网 `/faq` 查看 [1][3]。 |\n| **重要区别** | **不计入企业评估**：彩排**不生成**可投递的正式报告，不能替代正式 AI 面试报告 [1][3]。 |\n| **正式凭证** | 向企业投递所需的“硬通行证”是**正式 AI 面试完成后生成的 AI 面试报告**，彩排无法用于投递 [1][2]。 |\n\n简而言之，彩排是用于**熟悉流程和自我查漏补缺**的模拟环节，而正式面试才是获取企业认可凭证的关键步骤 [3]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/help/glossary",
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/faq",
+      "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%B7%B4",
+      "https://agentskillsfinder.com/zh-TW/skills/paramchoudhary-interview-prep-generator",
+      "https://agentskillsfinder.com/zh-TW/skills/interview-prep-generator",
+      "https://www.youtube.com/watch?v=Fa_15vNVRrc",
+      "https://forum.trae.cn/t/topic/19031",
+      "https://skywork.ai/skillhub/my-skill/",
+      "https://juejin.cn/post/7649298507322327075",
+      "https://clap.hk/wp-content/uploads/2025/06/%E6%A8%A1%E6%93%AC%E9%9D%A2%E8%A9%A6%E6%BA%96%E5%82%99.pdf",
+      "https://skillsfirst.com/solutions/interview-practice",
+      "https://javabetter.cn/sidebar/sanfene/skills.html",
+      "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "https://www.skillverify.co.in/"
+    ],
+    "created": 1784600132,
+    "id": "92c318b8-d048-480b-b116-7daf40ec6b2b",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "## 面试彩排\n面试彩排是 Skillver 人才端的 AI 低压练习模式。系统根据目标岗位从合规题库出题，涵盖 Rust、CUDA、MLOps 等硬核方向，并给出七维战力反馈。\n彩排用于熟悉题型与节奏，不计入企业评估。向企业投递需要的是正式 AI 面试完成后生成的 AI 面试报告（硬通行证）。\n- 每人每岗位有彩排次数配额（练习模式）\n- 题目与评分标准对齐头部科技企业真实岗位要求\n- 彩排本身不生成可投递的正式报告",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 的「面试彩排」是基于 10000+ 合规题库的 AI 低压练习模式。系统根据目标岗位，从真实 头部大厂面试场景中出题，涵盖 Rust、CUDA、MLOps 等硬核方向，输出七维战力评估（KAE 7 维度能力画像）。\n与普通模拟面试的区别： - 彩排由 15+ 专责 AI Agent 协同编排，题目与评分标准对齐头部科技企业真实岗位要求 - 可反复练习（当前版本 **具体使用额度以 Skillver 主站 /faq 为准**），不计入企业评估 - 正式 AI 面试报告是向头部企业投递的硬通行证——彩排本身不生成可投递报告",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n...\n面试彩排用于低压练习：按目标岗位出题并输出七维战力评估，帮助你熟悉流程与补课方向。\n- 彩排不计入企业正式评估；\n- 彩排报告不能替代正式 AI 面试报告，也不能用于投递；\n- 正式 AI 面试完成后生成的报告，才是向企业投递所需的能力凭证；\n- 平台不承诺正式评估通过、面试邀约或 offer。\n彩排有次数配额；具体次数以产品内展示与账号配额为准，本页不写固定数字以免与线上配置漂移。\n...\nHR 看到的每一份申请都附有客观的 KAE 七维战力数据，而不是单纯的...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2015-04-04",
+        "last_updated": "2026-02-02",
+        "place_metadata": null,
+        "snippet": "**彩排**（英語：Dress rehearsal，德語：Generalprobe）或**綵排**，是正式表演前的完整排練，演出者需演出完整內容。若是戲劇演出，演員需帶妝、穿著戲服（彩排的顏色、「色彩」），背景可以用道具代替。若是音樂表演，彩排是正式表演前的最後一次排練。",
+        "source": "web",
+        "title": "排練- 維基百科，自由的百科全書",
+        "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%B7%B4"
+      },
+      {
+        "date": "2026-05-12",
+        "last_updated": "2026-05-12",
+        "place_metadata": null,
+        "snippet": "Interview Prep Generator 能把履歷與職缺描述轉成 STAR 故事、可能會被問到的問題、重點講法，以及練習提示，協助你做好面試準備。若你要應付行為面試、職務特定篩選題，或需要更強的故事式表述，也可使用這個 Interview Prep Generator skill，搭配 Interview Prep Generator for Resume Writing。\n...\nInterview Prep Generator 是一個實用的技能，可把履歷與職缺描述轉成面試可直接使用的材料：STAR 故事、可能會被問的問題、回答重點，以及後續練習題。它特別適合想把「我有經驗」更快轉成...",
+        "source": "web",
+        "title": "Interview Prep Generator",
+        "url": "https://agentskillsfinder.com/zh-TW/skills/paramchoudhary-interview-prep-generator"
+      },
+      {
+        "date": "2026-05-09",
+        "last_updated": "2026-05-10",
+        "place_metadata": null,
+        "snippet": "Interview Prep Generator 可將履歷與職缺描述轉換成 STAR 故事、練習題、重點說法與追問題，適合面試準備或會議準備。當你想要結構化、貼合職位的指引，而不是泛泛的建議時，這個 Interview Prep Generator 技能特別合適。\n...\nInterview Prep Generator 可以把履歷、職缺描述，或是模糊的面試目標，轉成實際可用的準備內容：可能會被問到的題目、STAR 故事、重點說法，以及追問問題。當你需要 **Interview Prep Generator skill** 來補上「我有經驗」和「我能在面試情境中清楚說出來」之間的落差時，它最有...",
+        "source": "web",
+        "title": "Interview Prep Generator 安裝與使用",
+        "url": "https://agentskillsfinder.com/zh-TW/skills/interview-prep-generator"
+      },
+      {
+        "date": "2025-03-21",
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "This AI moach interview tool is going to evaluate your answers and then\n{ts:25} based on real interview rubrics is going to give you feedback on how you can improve your answer for next time.",
+        "source": "web",
+        "title": "How to Practice Mock Interviews with AI",
+        "url": "https://www.youtube.com/watch?v=Fa_15vNVRrc"
+      },
+      {
+        "date": "2026-05-22",
+        "last_updated": "2026-07-11",
+        "place_metadata": null,
+        "snippet": "- **终极面试官 1.0 Skill [edison9l 团队版] 是一个面试控场 Skill。**\n它不是招聘系统，也不是 SaaS，更不是普通面试题库。它是一个让大模型在面试场景里变聪明的能力包。\n它解决的是这件事：\n让 AI 从“随机问面试题”\n变成“根据岗位、简历、回答和面试阶段动态面试一个人”",
+        "source": "web",
+        "title": "企业级Skill—**终极面试官Skill**[全网首次公开]",
+        "url": "https://forum.trae.cn/t/topic/19031"
+      },
+      {
+        "date": "2026-05-08",
+        "last_updated": "2026-05-09",
+        "place_metadata": null,
+        "snippet": "AI面试模拟与辅导。基于用户简历和JD生成定制化面试题库，逐题模拟面试并提供评分与示范回答。\n触发词：面试模拟、面试准备、简历面试、interview prep、面试练习、 面试辅导、帮我准备面试、出面试题、面试题生成、interview practice、 mock interview、面试官模拟。",
+        "source": "web",
+        "title": "my skill",
+        "url": "https://skywork.ai/skillhub/my-skill/"
+      },
+      {
+        "date": "2026-06-10",
+        "last_updated": "2026-06-13",
+        "place_metadata": null,
+        "snippet": "我就想，能不能让 AI 来当面试官？不是那种你问它答的 QA 模式，而是真正的**模拟面试**——它提问，你回答，它根据你的回答追问，面完给你打分。\n...\n面试的节奏是：面试官先问你一个开放问题，你回答，它从你的回答里抓漏洞或者亮点，然后追问。追问的方向取决于你说了什么。你可能上一秒还在聊 React 的更新机制，下一秒就被问到时间切片和 requestIdleCallback 的关系。\n这个 Skill 模拟的就是这个节奏。它一次只问一个问题，你回答完它才追问，而且会根据你的回答质量决定追问深度——回答得好的话题可能追问 2-3 层就过了，回答不好的会一直往下挖。\n...\n3. 如果想按 ...",
+        "source": "web",
+        "title": "做了一个前端模拟面试官，面完感觉自己白准备了",
+        "url": "https://juejin.cn/post/7649298507322327075"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-08",
+        "place_metadata": null,
+        "snippet": "模擬面試是一種模擬的面試體驗，可以以一對一或小組形式進行。商界顧問",
+        "source": "web",
+        "title": "模擬面試準備",
+        "url": "https://clap.hk/wp-content/uploads/2025/06/%E6%A8%A1%E6%93%AC%E9%9D%A2%E8%A9%A6%E6%BA%96%E5%82%99.pdf"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-13",
+        "place_metadata": null,
+        "snippet": "Prepare your members to excel in any interview scenario with SkillsFirst’s AI-powered Interview Practice Tool.\nBy offering custom-tailored interview sessions and advanced feedback, this tool ensures members are well-prepared, confident, and ready to succeed in any interview environment.",
+        "source": "web",
+        "title": "AI-Driven Interview Practice",
+        "url": "https://skillsfirst.com/solutions/interview-practice"
+      },
+      {
+        "date": "2026-05-25",
+        "last_updated": "2026-06-26",
+        "place_metadata": null,
+        "snippet": "面试官好，Skills 简单来说就是一套预定义的指令集，它告诉 AI 在遇到特定类型的任务时应该怎么做、遵循什么规范、输出什么格式。\n具体来讲，一个 Skill 通常就是一个 SKILL.md 文件，里面包含了针对某类任务的最佳实践。\n...\n所以本质上，Skills 就是把零散的 Prompt 工程经验**模块化、标准化** 了，让 AI 的输出质量更稳定、更可控。它和传统的 Prompt 模板最大的区别在于，它是系统级的自动调度，不需要人工干预。\n...\nSkills 是 Anthropic 推出的一种结构化知识包机制，用于增强 Claude 在特定任务上的能力。它不是 API 调用，而是...",
+        "source": "web",
+        "title": "Skills面试题，33道Skill 八股文（1万字40张手绘图），面渣逆袭必看",
+        "url": "https://javabetter.cn/sidebar/sanfene/skills.html"
+      },
+      {
+        "date": "2026-04-05",
+        "last_updated": "2026-06-22",
+        "place_metadata": null,
+        "snippet": "这个 Skill 的目标，是把“通用准备”变成“结合 JD 和简历的定制准备”。\n...\n- **JD + 简历双锚**：题目根据你的 JD 要求和个人简历定制，不是通用题库，不是别人的面经",
+        "source": "web",
+        "title": "GitHub - jennifer88huang/interview-skills: 大厂 AI 模拟面试官 Skill。AI mock interview: generate personalized interview questions from JD and resume, with follow-up practice for Big Tech interviews.",
+        "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-09",
+        "place_metadata": null,
+        "snippet": "Not a mock interview.\nA real diagnosis of your job readiness.\n...\n“SkillVerify conducts a 30-minute live programming interview with full screen and video recording.”",
+        "source": "web",
+        "title": "SkillVerify India | Skill-Based Interview Practice Online",
+        "url": "https://www.skillverify.co.in/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 375,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00038,
+        "request_cost": 0.005,
+        "total_cost": 0.00541
+      },
+      "prompt_tokens": 33,
+      "search_context_size": "low",
+      "total_tokens": 408
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:15:32.089089Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "**Skillver 面试彩排**是 Skillver AI 求职助手平台提供的**AI 低压练习模式**，旨在帮助求职者熟悉目标岗位的题型与面试节奏，而不计入企业正式评估 [1][2]。\n\n以下是该功能的核心特点与注意事项：\n\n| 关键维度 | 详细说明 |\n| :--- | :--- |\n| **核心性质** | **练习模式**：系统基于 10,000+ 合规题库，根据目标岗位（如 Rust、CUDA、MLOps 等硬核方向）出题 [1][2]。 |\n| **评估反馈** | 输出**七维战力评估**（KAE 7 维度能力画像），帮助用户识别补课方向 [1][2]。 |\n| **使用额度** | 每人每岗位有**彩排次数配额**，具体额度需在产品内或官网 `/faq` 查看 [1][3]。 |\n| **重要区别** | **不计入企业评估**：彩排**不生成**可投递的正式报告，不能替代正式 AI 面试报告 [1][3]。 |\n| **正式凭证** | 向企业投递所需的“硬通行证”是**正式 AI 面试完成后生成的 AI 面试报告**，彩排无法用于投递 [1][2]。 |\n\n简而言之，彩排是用于**熟悉流程和自我查漏补缺**的模拟环节，而正式面试才是获取企业认可凭证的关键步骤 [3]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

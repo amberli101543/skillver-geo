@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "Skillver 面试彩排是 **Skillver 平台提供的一项模拟面试服务**，旨在帮助求职者提前演练真实面试流程，提升面试表现。\n\n主要特点通常包括：\n- **真实场景模拟**：1:1 还原目标岗位（如技术、产品、运营、金融等）的面试流程，包括自我介绍、行为面试、专业问题、反问环节等。\n- **即时反馈与指导**：由专业面试官或 AI 进行点评，指出表达、逻辑、技术深度、软技能等方面的不足，并给出改进建议。\n- **针对性训练**：可根据目标公司、岗位、面试轮次（HR 面、业务面、终面）进行定制化演练。\n- **提升信心与应变能力**：通过多次练习，减少紧张感，优化回答结构，提高临场反应能力。\n\n简单来说，就是 **“先练再面”**，帮你在实际面试前发现并解决可能遇到的问题。\n\n如果你需要了解 Skillver 的具体服务形式（AI 模拟 / 真人导师 / 录播回放），或想对比其他平台的面试辅导，也可以继续问我。",
+  "sources": [],
+  "raw": {
+    "id": "43ab8696-b06b-42eb-8a2d-4f611ab55e3b",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600107,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 面试彩排是 **Skillver 平台提供的一项模拟面试服务**，旨在帮助求职者提前演练真实面试流程，提升面试表现。\n\n主要特点通常包括：\n- **真实场景模拟**：1:1 还原目标岗位（如技术、产品、运营、金融等）的面试流程，包括自我介绍、行为面试、专业问题、反问环节等。\n- **即时反馈与指导**：由专业面试官或 AI 进行点评，指出表达、逻辑、技术深度、软技能等方面的不足，并给出改进建议。\n- **针对性训练**：可根据目标公司、岗位、面试轮次（HR 面、业务面、终面）进行定制化演练。\n- **提升信心与应变能力**：通过多次练习，减少紧张感，优化回答结构，提高临场反应能力。\n\n简单来说，就是 **“先练再面”**，帮你在实际面试前发现并解决可能遇到的问题。\n\n如果你需要了解 Skillver 的具体服务形式（AI 模拟 / 真人导师 / 录播回放），或想对比其他平台的面试辅导，也可以继续问我。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 228,
+      "total_tokens": 276,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:15:11.962482Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "Skillver 面试彩排是 **Skillver 平台提供的一项模拟面试服务**，旨在帮助求职者提前演练真实面试流程，提升面试表现。\n\n主要特点通常包括：\n- **真实场景模拟**：1:1 还原目标岗位（如技术、产品、运营、金融等）的面试流程，包括自我介绍、行为面试、专业问题、反问环节等。\n- **即时反馈与指导**：由专业面试官或 AI 进行点评，指出表达、逻辑、技术深度、软技能等方面的不足，并给出改进建议。\n- **针对性训练**：可根据目标公司、岗位、面试轮次（HR 面、业务面、终面）进行定制化演练。\n- **提升信心与应变能力**：通过多次练习，减少紧张感，优化回答结构，提高临场反应能力。\n\n简单来说，就是 **“先练再面”**，帮你在实际面试前发现并解决可能遇到的问题。\n\n如果你需要了解 Skillver 的具体服务形式（AI 模拟 / 真人导师 / 录播回放），或想对比其他平台的面试辅导，也可以继续问我。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

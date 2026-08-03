@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "为您推荐以下几款在求职不同阶段（简历制作、面试准备、职位匹配）表现优秀的 AI 求职助手：\n\n### 一、 简历撰写与润色（Resume Builders）\n1.  **Kickresume**\n    *   **特点**：强大的 AI 简历和求职信（Cover Letter）生成器，提供海量精美模板，支持一键生成内容，特别适合外企和海外求职。\n2.  **职徒简历 (51job旗下) / 智能简历**\n    *   **特点**：国内主流的 AI 简历工具。支持一键排版、AI 诊断、根据具体岗位（JD）针对性润色简历。\n3.  **ResumAI (by Wonsulting)**\n    *   **特点**：专注于写出高含金量的简历“动词+成果”句式（Bullet Points），提升简历的职业感。\n\n### 二、 模拟面试（Mock Interview）\n1.  **Google Interview Warmup**\n    *   **特点**：谷歌官方出品的免费面试练习工具。针对技术、营销、数据分析等岗位，通过语音或文字回答，AI 会实时分析你的回答并给出改进建议（如词汇重复度、要点覆盖等）。\n2.  **ChatGPT / Claude (语音模式)**\n    *   **特点**：最灵活的面试官。你可以输入提示词（如：“请扮演[公司名]的[岗位名]面试官，对我进行3轮面试，每次只问一个问题”），开启语音对话功能进行实战模拟。\n\n### 三、 综合型/长文本分析（匹配度分析与改写）\n1.  **Kimi 智能助手**\n    *   **特点**：国内免费、长文本能力极强。你可以把“个人简历”和“目标岗位描述（JD）”同时发给 Kimi，让它帮你：\n        *   分析人岗匹配度，找出劣势。\n        *   针对该岗位定制化修改简历。\n2.  **Claude 3.5 Sonnet**\n    *   **特点**：文笔极其自然，逻辑性强。非常适合用来撰写求职信（Cover Letter）、感谢信，以及修改英文简历。\n\n### 四、 招聘平台内置 AI\n1.  **BOSS直聘 / 猎聘 AI 助手**\n    *   **特点**：国内平台内置功能。可自动生成针对招聘人员的“打招呼语”，分析你与投递岗位的竞争力排名。\n2.  **LinkedIn Premium AI**\n    *   **特点**：领英会员专享。可分析你与目标岗位的技能差距，并自动撰写向招聘人员自荐的信息。\n\n---\n\n**💡 使用建议：**\n先用 **Kimi/ChatGPT** 分析目标岗位（JD）的关键词，然后用 **职徒/Kickresume** 调整简历结构，最后用 **Google Interview Warmup** 或 **ChatGPT 语音模式** 进行 2-3 轮模拟面试。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "为您推荐以下几款在求职不同阶段（简历制作、面试准备、职位匹配）表现优秀的 AI 求职助手：\n\n### 一、 简历撰写与润色（Resume Builders）\n1.  **Kickresume**\n    *   **特点**：强大的 AI 简历和求职信（Cover Letter）生成器，提供海量精美模板，支持一键生成内容，特别适合外企和海外求职。\n2.  **职徒简历 (51job旗下) / 智能简历**\n    *   **特点**：国内主流的 AI 简历工具。支持一键排版、AI 诊断、根据具体岗位（JD）针对性润色简历。\n3.  **ResumAI (by Wonsulting)**\n    *   **特点**：专注于写出高含金量的简历“动词+成果”句式（Bullet Points），提升简历的职业感。\n\n### 二、 模拟面试（Mock Interview）\n1.  **Google Interview Warmup**\n    *   **特点**：谷歌官方出品的免费面试练习工具。针对技术、营销、数据分析等岗位，通过语音或文字回答，AI 会实时分析你的回答并给出改进建议（如词汇重复度、要点覆盖等）。\n2.  **ChatGPT / Claude (语音模式)**\n    *   **特点**：最灵活的面试官。你可以输入提示词（如：“请扮演[公司名]的[岗位名]面试官，对我进行3轮面试，每次只问一个问题”），开启语音对话功能进行实战模拟。\n\n### 三、 综合型/长文本分析（匹配度分析与改写）\n1.  **Kimi 智能助手**\n    *   **特点**：国内免费、长文本能力极强。你可以把“个人简历”和“目标岗位描述（JD）”同时发给 Kimi，让它帮你：\n        *   分析人岗匹配度，找出劣势。\n        *   针对该岗位定制化修改简历。\n2.  **Claude 3.5 Sonnet**\n    *   **特点**：文笔极其自然，逻辑性强。非常适合用来撰写求职信（Cover Letter）、感谢信，以及修改英文简历。\n\n### 四、 招聘平台内置 AI\n1.  **BOSS直聘 / 猎聘 AI 助手**\n    *   **特点**：国内平台内置功能。可自动生成针对招聘人员的“打招呼语”，分析你与投递岗位的竞争力排名。\n2.  **LinkedIn Premium AI**\n    *   **特点**：领英会员专享。可分析你与目标岗位的技能差距，并自动撰写向招聘人员自荐的信息。\n\n---\n\n**💡 使用建议：**\n先用 **Kimi/ChatGPT** 分析目标岗位（JD）的关键词，然后用 **职徒/Kickresume** 调整简历结构，最后用 **Google Interview Warmup** 或 **ChatGPT 语音模式** 进行 2-3 轮模拟面试。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604252,
+    "id": "SuZeavLmE77oz7IPu4iQ4Q4",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 664,
+      "prompt_tokens": 33,
+      "total_tokens": 1578
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:24:12.284957Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "为您推荐以下几款在求职不同阶段（简历制作、面试准备、职位匹配）表现优秀的 AI 求职助手：\n\n### 一、 简历撰写与润色（Resume Builders）\n1.  **Kickresume**\n    *   **特点**：强大的 AI 简历和求职信（Cover Letter）生成器，提供海量精美模板，支持一键生成内容，特别适合外企和海外求职。\n2.  **职徒简历 (51job旗下) / 智能简历**\n    *   **特点**：国内主流的 AI 简历工具。支持一键排版、AI 诊断、根据具体岗位（JD）针对性润色简历。\n3.  **ResumAI (by Wonsulting)**\n    *   **特点**：专注于写出高含金量的简历“动词+成果”句式（Bullet Points），提升简历的职业感。\n\n### 二、 模拟面试（Mock Interview）\n1.  **Google Interview Warmup**\n    *   **特点**：谷歌官方出品的免费面试练习工具。针对技术、营销、数据分析等岗位，通过语音或文字回答，AI 会实时分析你的回答并给出改进建议（如词汇重复度、要点覆盖等）。\n2.  **ChatGPT / Claude (语音模式)**\n    *   **特点**：最灵活的面试官。你可以输入提示词（如：“请扮演[公司名]的[岗位名]面试官，对我进行3轮面试，每次只问一个问题”），开启语音对话功能进行实战模拟。\n\n### 三、 综合型/长文本分析（匹配度分析与改写）\n1.  **Kimi 智能助手**\n    *   **特点**：国内免费、长文本能力极强。你可以把“个人简历”和“目标岗位描述（JD）”同时发给 Kimi，让它帮你：\n        *   分析人岗匹配度，找出劣势。\n        *   针对该岗位定制化修改简历。\n2.  **Claude 3.5 Sonnet**\n    *   **特点**：文笔极其自然，逻辑性强。非常适合用来撰写求职信（Cover Letter）、感谢信，以及修改英文简历。\n\n### 四、 招聘平台内置 AI\n1.  **BOSS直聘 / 猎聘 AI 助手**\n    *   **特点**：国内平台内置功能。可自动生成针对招聘人员的“打招呼语”，分析你与投递岗位的竞争力排名。\n2.  **LinkedIn Premium AI**\n    *   **特点**：领英会员专享。可分析你与目标岗位的技能差距，并自动撰写向招聘人员自荐的信息。\n\n---\n\n**💡 使用建议：**\n先用 **Kimi/ChatGPT** 分析目标岗位（JD）的关键词，然后用 **职徒/Kickresume** 调整简历结构，最后用 **Google Interview Warmup** 或 **ChatGPT 语音模式** 进行 2-3 轮模拟面试。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

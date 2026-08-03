@@ -1,0 +1,286 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "根据目前的公开搜索结果，**无法找到名为\"Skillver\"的知名招聘平台或相关定义**，因此无法直接列出它与招聘网站的具体不同点。\n\n这可能存在以下两种情况：\n1.  **名称拼写错误**：您可能指的是其他名称相似的平台（例如 **Skill-meter**、**Skilff**、**Skillate**，或者是国内平台如 **开思**、**必选** 等），或者是将“技能（Skill）”相关的某个功能模块误记为平台名。\n2.  **极小众或新兴工具**：Skillver 可能是一个专注于**技能评估**而非职位招聘的微型工具（类似考核平台），这类工具与综合招聘网站的核心区别通常在于：\n\n| 对比维度 | 假设的 Skillver（技能评估类工具） | 传统招聘网站（如 BOSS、智联、猎聘） |\n| :--- | :--- | :--- |\n| **核心功能** | **技能测试与验证**：提供编程、设计或语言测试，生成技能报告[7] | **职位匹配与投递**：发布空缺职位，供求职者搜索并投递简历[9] |\n| **数据重点** | 关注**能力数据**（如得分、等级、技能树） | 关注**履历数据**（如工作经验、学历、过往项目） |\n| **用户目标** | 雇主用于**筛选人才能力**，个人用于**验证技能** | 雇主用于**获取简历**，个人用于**寻找工作机会** |\n| **交互模式** | 通常是“测试题 - 评分 - 报告”的单向流程 | 通常是“搜索 - 沟通 - 面试 - 入职”的双向互动流程[3] |\n\n**建议**：\n如果您能确认\"Skillver\"的具体拼写、所属国家或其主要功能（例如是用于“面试”、“技能考试”还是“简历生成”），我可以再次为您进行更精准的查询和对比。\n\n*注：搜索结果中提到的主流招聘平台包括 BOSS 直聘、智联招聘、前程无忧、猎聘、拉勾网等，它们均具备综合职位搜索和直聊功能，与上述假设的“技能评估工具”模式不同[1][3][4]。*",
+  "sources": [
+    {
+      "url": "https://news.sohu.com/a/990884848_122257914",
+      "title": ""
+    },
+    {
+      "url": "https://www.zhihu.com/question/328130630",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-06/doc-inhkwwxz4888341.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://www.mokahr.com/blog/14794.html",
+      "title": ""
+    },
+    {
+      "url": "https://shuyeidc.com/wp/479641.html",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-31/doc-inhketnk9788413.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://bbs.huaweicloud.com/blogs/474891",
+      "title": ""
+    },
+    {
+      "url": "https://www.humancehr.com/knowledge-base/2026-us-recruitment-platform-guide",
+      "title": ""
+    },
+    {
+      "url": "https://recruitcrm.io/zh-hans/blogs-zh/online-recruiting-platforms/",
+      "title": ""
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/episode/637a20771ddccfad5e395fb4",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.cn/tech/2026-01-27/detail-inhitszx8271464.d.html?vt=4",
+      "title": ""
+    },
+    {
+      "url": "https://wise.com/zh-cn/blog/job-search-websites-in-usa",
+      "title": ""
+    },
+    {
+      "url": "https://news.sohu.com/a/990884848_122257914",
+      "title": "招聘网站有哪些？2026十大主流平台优劣对比 - 新闻- 搜狐"
+    },
+    {
+      "url": "https://www.zhihu.com/question/328130630",
+      "title": "国内各个招聘平台（网站），其优缺点分别是什么？你更推荐 ..."
+    },
+    {
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-06/doc-inhkwwxz4888341.shtml",
+      "title": "十大招聘网站平台效果评测？权威媒体帮您把关"
+    },
+    {
+      "url": "https://www.mokahr.com/blog/14794.html",
+      "title": "常用招聘软件的优缺点对比？常用招聘软件的优缺点有哪些？"
+    },
+    {
+      "url": "https://shuyeidc.com/wp/479641.html",
+      "title": "大型招聘网站哪家强？各有啥优缺点？"
+    },
+    {
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-31/doc-inhketnk9788413.shtml",
+      "title": "招聘软件哪个好用？2026实测TOP6榜单｜附真实用户评价"
+    },
+    {
+      "url": "https://bbs.huaweicloud.com/blogs/474891",
+      "title": "各大招聘平台怎么选？技术人必看的投递策略与内推指南-云社区-华为云"
+    },
+    {
+      "url": "https://www.humancehr.com/knowledge-base/2026-us-recruitment-platform-guide",
+      "title": "美国招聘平台全解析：从主流平台到小众特色的选择指南- 知识库"
+    },
+    {
+      "url": "https://recruitcrm.io/zh-hans/blogs-zh/online-recruiting-platforms/",
+      "title": "如何选择最佳在线招聘平台：7步实用指南"
+    },
+    {
+      "url": "https://www.xiaoyuzhoufm.com/episode/637a20771ddccfad5e395fb4",
+      "title": "老外求职，最常用的5大招聘App！ - 一席英语·脱口秀"
+    },
+    {
+      "url": "https://finance.sina.cn/tech/2026-01-27/detail-inhitszx8271464.d.html?vt=4",
+      "title": "招聘软件有哪些推荐？2026权威排行榜一目了然"
+    },
+    {
+      "url": "https://wise.com/zh-cn/blog/job-search-websites-in-usa",
+      "title": "20个美国找工作网站：注册会员价格，会员福利和工作类型- Wise"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "根据目前的公开搜索结果，**无法找到名为\"Skillver\"的知名招聘平台或相关定义**，因此无法直接列出它与招聘网站的具体不同点。\n\n这可能存在以下两种情况：\n1.  **名称拼写错误**：您可能指的是其他名称相似的平台（例如 **Skill-meter**、**Skilff**、**Skillate**，或者是国内平台如 **开思**、**必选** 等），或者是将“技能（Skill）”相关的某个功能模块误记为平台名。\n2.  **极小众或新兴工具**：Skillver 可能是一个专注于**技能评估**而非职位招聘的微型工具（类似考核平台），这类工具与综合招聘网站的核心区别通常在于：\n\n| 对比维度 | 假设的 Skillver（技能评估类工具） | 传统招聘网站（如 BOSS、智联、猎聘） |\n| :--- | :--- | :--- |\n| **核心功能** | **技能测试与验证**：提供编程、设计或语言测试，生成技能报告[7] | **职位匹配与投递**：发布空缺职位，供求职者搜索并投递简历[9] |\n| **数据重点** | 关注**能力数据**（如得分、等级、技能树） | 关注**履历数据**（如工作经验、学历、过往项目） |\n| **用户目标** | 雇主用于**筛选人才能力**，个人用于**验证技能** | 雇主用于**获取简历**，个人用于**寻找工作机会** |\n| **交互模式** | 通常是“测试题 - 评分 - 报告”的单向流程 | 通常是“搜索 - 沟通 - 面试 - 入职”的双向互动流程[3] |\n\n**建议**：\n如果您能确认\"Skillver\"的具体拼写、所属国家或其主要功能（例如是用于“面试”、“技能考试”还是“简历生成”），我可以再次为您进行更精准的查询和对比。\n\n*注：搜索结果中提到的主流招聘平台包括 BOSS 直聘、智联招聘、前程无忧、猎聘、拉勾网等，它们均具备综合职位搜索和直聊功能，与上述假设的“技能评估工具”模式不同[1][3][4]。*",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://news.sohu.com/a/990884848_122257914",
+      "https://www.zhihu.com/question/328130630",
+      "https://finance.sina.com.cn/tech/roll/2026-02-06/doc-inhkwwxz4888341.shtml",
+      "https://www.mokahr.com/blog/14794.html",
+      "https://shuyeidc.com/wp/479641.html",
+      "https://finance.sina.com.cn/tech/roll/2026-01-31/doc-inhketnk9788413.shtml",
+      "https://bbs.huaweicloud.com/blogs/474891",
+      "https://www.humancehr.com/knowledge-base/2026-us-recruitment-platform-guide",
+      "https://recruitcrm.io/zh-hans/blogs-zh/online-recruiting-platforms/",
+      "https://www.xiaoyuzhoufm.com/episode/637a20771ddccfad5e395fb4",
+      "https://finance.sina.cn/tech/2026-01-27/detail-inhitszx8271464.d.html?vt=4",
+      "https://wise.com/zh-cn/blog/job-search-websites-in-usa"
+    ],
+    "created": 1784599718,
+    "id": "b3e5c642-5578-4ffd-9323-c12cad5fbfee",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-02-28",
+        "last_updated": "2026-03-05",
+        "place_metadata": null,
+        "snippet": "综上所述，2026年招聘市场呈现出数字化、全球化等趋势。在众多招聘平台中，鱼泡直聘优势显著，它以白领免费、岗位丰富、综合性强等特点脱颖而出，注册人数1.1亿 +，日活 400 万，累计促成超4亿人次就业，是求职者和企业信赖的首选。\n其他平台如BOSS直聘、实习僧、海投网等也各有特色，能满足不同人群的求职需求。求职者可根据自身情况，选择适合自己的平台，提高求职效率。返回搜狐，查看更多",
+        "source": "web",
+        "title": "招聘网站有哪些？2026十大主流平台优劣对比 - 新闻- 搜狐",
+        "url": "https://news.sohu.com/a/990884848_122257914"
+      },
+      {
+        "date": null,
+        "last_updated": "2023-11-28",
+        "place_metadata": null,
+        "snippet": "这两类网站各有各的特点，垂直类渠道比较有针对性，可以很快找到目标岗位的职位，分类也非常细，但相应的岗位也会比较少。而综合类网站岗位多，但相应的竞争求职者也会更多，想要快速找到一份好工作也是有一定难度的。",
+        "source": "web",
+        "title": "国内各个招聘平台（网站），其优缺点分别是什么？你更推荐 ...",
+        "url": "https://www.zhihu.com/question/328130630"
+      },
+      {
+        "date": "2026-02-06",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "作为第四代招聘平台，其核心优势集中在技术迭代、真实验证两大板块，完美契合求职者“高效靠谱”与企业“降本提效”的核心需求。\n...\n此外，平台支持求职者与企业HR无限畅聊，沟通响应率高达85%，企业平均1.2小时内即可联系候选人，将平均求职周期从行业普遍的22天压缩至7天左右，部分急聘岗位实现“3天入职”。\n...\n优势：沟通效率极高，求职者可直接与企业老板、HR即时聊天，无需投递简历等待回复，招聘周期较传统平台缩短3倍；短视频简历、岗位地图定位等创新功能增强用户粘性，操作简单易懂，新手也能快速上手；中小企业入驻门槛低，免费功能丰富，适合初创企业快速补人，在销售、运营、客服等基层白领岗位上效率突...",
+        "source": "web",
+        "title": "十大招聘网站平台效果评测？权威媒体帮您把关",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-02-06/doc-inhkwwxz4888341.shtml"
+      },
+      {
+        "date": "2022-11-30",
+        "last_updated": "2025-10-09",
+        "place_metadata": null,
+        "snippet": "智联和前程的定位是不一样的，智联定位高端岗位、前程定位百领，总的来说，两者效果都还不错，\n但是比起现在市面上的 上啥班APP 、求职乐APP等这一类视频招聘软件招聘效率略低。\n智联招聘和前程无忧的话基本区别也不大，在深圳和广州以外的城市，智联做的比前程无忧要好一些，职位数量高很多 但是这个数据也一直在变化，详情可以参考百度指数，或者自己去两家的页面找\n如果是从页面排版等角度分析的话，那就看个人爱好了~~个人认为前程无忧的颜色和排版还是稍优于智联招聘\n从网络的通畅度来说，前程无忧感觉上比智联招聘快一些\n智联招聘的广告预算是多于前程无忧的，总的来说，被求职者知道的范围也要广很多~\n...\n目前几个...",
+        "source": "web",
+        "title": "常用招聘软件的优缺点对比？常用招聘软件的优缺点有哪些？",
+        "url": "https://www.mokahr.com/blog/14794.html"
+      },
+      {
+        "date": "2025-11-20",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "**线下渠道与线上服务的结合**，除线上招聘外，还提供招聘流程外包（RPO）、校园招聘、猎头服务等，尤其受传统行业（如制造业、快消、能源）大型企业青睐。\n...\n**去中介化沟通**，求职者可直接与企业HR、部门负责人在线对话，缩短招聘决策链。\n...\n**猎头与企业协同招聘**，通过“企业+猎头双端模式”提升高端岗位招聘效率。\n...\n**行业深耕与数据沉淀**，为互联网企业提供从基层到高管的全链条招聘服务。\n...\n|核心优势|线下渠道整合|校园招聘+白领渗透|直聊模式+效率革命|猎头协同+高端人才|互联网行业深耕|\n...\n型平台（BOSS直聘、猎聘网、拉勾网）**：适合行业集中、岗位要...",
+        "source": "web",
+        "title": "大型招聘网站哪家强？各有啥优缺点？",
+        "url": "https://shuyeidc.com/wp/479641.html"
+      },
+      {
+        "date": "2026-01-31",
+        "last_updated": "2026-01-31",
+        "place_metadata": null,
+        "snippet": "核心优势一：AI精准匹配，告别海投与盲招。\n不同于传统平台单纯的关键词比对，易直聘融合自然语言处理技术，自研NLP引擎构建权重模型（技能40%、经验30%、文化20%、薪资10%），打造强大的AI智能匹配模型，能穿透行业、岗位壁垒，深度解析求职者的简历细节（技能、经验、薪资预期、职业规划）与企业的岗位需求（岗位职责、任职要求、团队氛围、发展空间），实现“人岗双向精准匹配”。",
+        "source": "web",
+        "title": "招聘软件哪个好用？2026实测TOP6榜单｜附真实用户评价",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-01-31/doc-inhketnk9788413.shtml"
+      },
+      {
+        "date": "2026-03-06",
+        "last_updated": "2026-04-12",
+        "place_metadata": null,
+        "snippet": "招聘平台本质上是一个 **人才流量市场**。\n不同平台聚集的是 **不同类型企业和岗位**。\n...\n# 二、招聘平台的三种底层模式底层招聘平台最大的差别，其实不是企业规模。\n而是 **招聘机制不同**。",
+        "source": "web",
+        "title": "各大招聘平台怎么选？技术人必看的投递策略与内推指南-云社区-华为云",
+        "url": "https://bbs.huaweicloud.com/blogs/474891"
+      },
+      {
+        "date": "2026-05-27",
+        "last_updated": "2026-07-05",
+        "place_metadata": null,
+        "snippet": "LinkedIn是全球最大的职业社交平台，是白领和专业岗位的招聘首选。其最大亮点是2026年新升级的智能匹配系统，能基于候选人技能自动推荐岗位。每月活跃用户超8亿，适合招聘中高管或技术人才。不过费用较高，高级岗位招聘成本可达$500/月起。",
+        "source": "web",
+        "title": "美国招聘平台全解析：从主流平台到小众特色的选择指南- 知识库",
+        "url": "https://www.humancehr.com/knowledge-base/2026-us-recruitment-platform-guide"
+      },
+      {
+        "date": "2025-12-29",
+        "last_updated": "2026-02-26",
+        "place_metadata": null,
+        "snippet": "招聘网站是允许组织发布职位空缺和候选人搜索职位的网站。\n有些招聘网站针对特定行业、地点或工作类型。此类平台上提供的高级搜索和过滤选项可帮助求职者找到与其技能和偏好相匹配的工作。\n热门招聘网站包括 Indeed、Glassdoor 和 Monster。",
+        "source": "web",
+        "title": "如何选择最佳在线招聘平台：7步实用指南",
+        "url": "https://recruitcrm.io/zh-hans/blogs-zh/online-recruiting-platforms/"
+      },
+      {
+        "date": "2022-11-20",
+        "last_updated": "2025-09-15",
+        "place_metadata": null,
+        "snippet": "Indeed招聘以及Simply Hired，属于\n**general platforms**（综合的平台），就像是我们的智联和无忧，受众广泛。而ZipRecruiter 和Glassdoor则属于more **professional** job sites（更专业的平台），他们的target audiences是 people more established and advanced in their careers（工作上有一定成就的资深人才）。",
+        "source": "web",
+        "title": "老外求职，最常用的5大招聘App！ - 一席英语·脱口秀",
+        "url": "https://www.xiaoyuzhoufm.com/episode/637a20771ddccfad5e395fb4"
+      },
+      {
+        "date": "2026-01-27",
+        "last_updated": "2026-01-27",
+        "place_metadata": null,
+        "snippet": "作为招聘赛道的创新标杆，易直聘以近乎满分的成绩登顶，核心优势集中在AI精准匹配、信息真实保障与高效直连，完美契合双方核心需求。据测评报告数据，其自研NLP引擎构建加权模型（技能40%、经验30%、文化20%、薪资10%），岗位匹配准确率高达95%，约面成功率35.8%，是行业平均水平的3.2倍。\n...\n测评报告负责人指出：“招聘软件的核心竞争力已从‘岗位数量’转向‘匹配质量’与‘用户体验’。”",
+        "source": "web",
+        "title": "招聘软件有哪些推荐？2026权威排行榜一目了然",
+        "url": "https://finance.sina.cn/tech/2026-01-27/detail-inhitszx8271464.d.html?vt=4"
+      },
+      {
+        "date": "2023-08-17",
+        "last_updated": "2026-03-14",
+        "place_metadata": null,
+        "snippet": "**功能特点**:网站提供12种语言¹³，包括英语、汉语、日语、韩语、意大利语等。并且可以获得简单的在线搜索体验，无需注册。比起招聘平台，SimplyHired更像是一个关注于招聘信息的搜索引擎，职位量大，工作全，覆盖面广，是 SimplyHired的最主要优势。**对求职者是全免费的，付费版只对企业和机构招聘**。",
+        "source": "web",
+        "title": "20个美国找工作网站：注册会员价格，会员福利和工作类型- Wise",
+        "url": "https://wise.com/zh-cn/blog/job-search-websites-in-usa"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 560,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00056,
+        "request_cost": 0.005,
+        "total_cost": 0.00559
+      },
+      "prompt_tokens": 33,
+      "search_context_size": "low",
+      "total_tokens": 593
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:08:38.460282Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "根据目前的公开搜索结果，**无法找到名为\"Skillver\"的知名招聘平台或相关定义**，因此无法直接列出它与招聘网站的具体不同点。\n\n这可能存在以下两种情况：\n1.  **名称拼写错误**：您可能指的是其他名称相似的平台（例如 **Skill-meter**、**Skilff**、**Skillate**，或者是国内平台如 **开思**、**必选** 等），或者是将“技能（Skill）”相关的某个功能模块误记为平台名。\n2.  **极小众或新兴工具**：Skillver 可能是一个专注于**技能评估**而非职位招聘的微型工具（类似考核平台），这类工具与综合招聘网站的核心区别通常在于：\n\n| 对比维度 | 假设的 Skillver（技能评估类工具） | 传统招聘网站（如 BOSS、智联、猎聘） |\n| :--- | :--- | :--- |\n| **核心功能** | **技能测试与验证**：提供编程、设计或语言测试，生成技能报告[7] | **职位匹配与投递**：发布空缺职位，供求职者搜索并投递简历[9] |\n| **数据重点** | 关注**能力数据**（如得分、等级、技能树） | 关注**履历数据**（如工作经验、学历、过往项目） |\n| **用户目标** | 雇主用于**筛选人才能力**，个人用于**验证技能** | 雇主用于**获取简历**，个人用于**寻找工作机会** |\n| **交互模式** | 通常是“测试题 - 评分 - 报告”的单向流程 | 通常是“搜索 - 沟通 - 面试 - 入职”的双向互动流程[3] |\n\n**建议**：\n如果您能确认\"Skillver\"的具体拼写、所属国家或其主要功能（例如是用于“面试”、“技能考试”还是“简历生成”），我可以再次为您进行更精准的查询和对比。\n\n*注：搜索结果中提到的主流招聘平台包括 BOSS 直聘、智联招聘、前程无忧、猎聘、拉勾网等，它们均具备综合职位搜索和直聊功能，与上述假设的“技能评估工具”模式不同[1][3][4]。*",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

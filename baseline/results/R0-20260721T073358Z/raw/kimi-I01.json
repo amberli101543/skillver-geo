@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "目前无法确定您所指的 **Skillver** 具体是哪家公司或平台，因为可能存在多个同名或名称相近的实体。\n\n建议您通过以下方式确认：\n\n1. **直接搜索**：在 Google 或百度中搜索“Skillver 官网”，注意查看搜索结果中带有“官方”标识的链接。\n2. **核对信息**：请提供更多背景（如所在国家、行业领域、主要业务等），以便帮您进一步确认准确的网址。\n\n如果您实际想问的是其他名称相近的平台（例如 **Skillshare**），也请告知，我可以直接为您提供官网地址。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f21e1ef450739751b24b8",
+    "object": "chat.completion",
+    "created": 1784619489,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前无法确定您所指的 **Skillver** 具体是哪家公司或平台，因为可能存在多个同名或名称相近的实体。\n\n建议您通过以下方式确认：\n\n1. **直接搜索**：在 Google 或百度中搜索“Skillver 官网”，注意查看搜索结果中带有“官方”标识的链接。\n2. **核对信息**：请提供更多背景（如所在国家、行业领域、主要业务等），以便帮您进一步确认准确的网址。\n\n如果您实际想问的是其他名称相近的平台（例如 **Skillshare**），也请告知，我可以直接为您提供官网地址。",
+          "reasoning_content": "用户询问 \"Skillver 官网是什么？\"。这是一个关于特定品牌或公司官方网站的问题。\n\n首先，我需要确定 \"Skillver\" 是什么。根据我的知识，Skillver 可能指的是：\n\n1. Skillver 是一个技能验证或技能评估平台？\n2. 或者是一个特定的软件/服务？\n\n让我回忆一下：有一个叫 \"Skillver\" 的平台，可能是与技能认证、在线测试或招聘相关的。但我不确定是否有非常著名的、广为人知的名为 Skillver 的官方网站。\n\n等等，可能是 \"Skillver\" 拼写错误？比如：\n- Skillshare？\n- Skillver（如果是正确的）\n\n或者可能是某个地区性的公司。\n\n由于我不确定 Skillver 的具体官网，而且可能存在多个同名实体，最安全的做法是：\n1. 说明 Skillver 可能指代多个实体\n2. 建议用户通过搜索引擎查询\n3. 如果用户能提供更多上下文（比如是哪个行业的、哪个国家的），可以给出更准确的答案\n\n但是，让我再仔细想想... 是否有名为 Skillver 的知名网站？\n\n实际上，我回忆起来可能有一个 skillver.com 或类似的域名，但我不确定其当前状态或具体内容。由于 AI 助手应该保持事实准确，如果我不确定确切的官网地址，我不应该编造。\n\n另外，用户用中文提问，所以我应该用中文回答。\n\n回答策略：\n- 表示目前没有足够信息确定唯一的 Skillver 官网\n- 请用户提供更多背景信息（如所在国家、行业领域等）\n- 建议通过 Google 或百度直接搜索 \"Skillver 官网\"\n- 避免提供可能错误的具体 URL\n\n等等，让我再检查一下内部知识。是否有 Skillver 这个公司？\n\n实际上，可能有一个叫 Skillver 的技能评估平台，但我不记得其确切的官方域名。可能是 skillver.io, skillver.com, 或其他。\n\n鉴于无法 100% 确认，最负责任的回答是请求更多细节或建议搜索。\n\n但是，如果用户确实指的是某个特定的 Skillver，而我无法确认，那么说\"我不知道\"比给错网址要好。\n\n让我重新思考：在某些语境下，Skillver 可能是：\n- 一个 HR Tech 公司\n- 一个教育科技公司\n\n无论如何，没有高置信度的具体官网地址。\n\n最终回答结构（中文）：\n1. 直接说明：目前无法确定唯一对应的 Skillver 官网，因为可能存在同名或类似名称的不同实体。\n2. 建议：请确认具体是哪家公司/平台（如提供所在行业、国家或业务描述）。\n3. 搜索建议：建议通过搜索引擎查找，注意辨别官方标识。\n4. 如果用户指的是其他平台（如 Skillshare），可以提及。\n\n不过，等等，我突然想到可能是 \"Skillver\" 这个拼写对应某个特定中国公司？如果是一个不太知名的中国初创公司，我更不可能知道其官网。\n\n所以，最简洁且有用的回答是：\n- 说明不确定\n- 请提供更多信息\n- 建议搜索\n\n但用户可能期待一个直接的 URL。如果我给不出，就诚实说明。\n\n让我组织中文回答：\n\n\"目前无法确定您所指的 Skillver 具体是哪家公司或平台，因为可能存在多个同名或名称相近的实体。建议您：\n\n1. 通过 Google 或百度搜索“Skillver 官网”，注意查看带有官方标识的链接；\n2. 提供更多背景信息（如所在国家、行业领域、主要业务等），以便我帮您进一步确认。\n\n如果您指的是其他平台（如 Skillshare），也请告知，我可以为您提供正确的网址。\"\n\n这个回答比较安全且有用。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 842,
+      "total_tokens": 884,
+      "completion_tokens_details": {
+        "reasoning_tokens": 723
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:38:42.080458Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "目前无法确定您所指的 **Skillver** 具体是哪家公司或平台，因为可能存在多个同名或名称相近的实体。\n\n建议您通过以下方式确认：\n\n1. **直接搜索**：在 Google 或百度中搜索“Skillver 官网”，注意查看搜索结果中带有“官方”标识的链接。\n2. **核对信息**：请提供更多背景（如所在国家、行业领域、主要业务等），以便帮您进一步确认准确的网址。\n\n如果您实际想问的是其他名称相近的平台（例如 **Skillshare**），也请告知，我可以直接为您提供官网地址。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

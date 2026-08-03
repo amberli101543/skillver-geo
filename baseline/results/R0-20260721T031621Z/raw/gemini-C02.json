@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "AI 模拟面试工具近年来发展迅速，主要分为**通用大模型、专业模拟平台、外企/英文面试工具**以及**国内招聘平台自带工具**。以下是目前主流且实用的 AI 模拟面试工具推荐：\n\n### 一、 通用大模型（最灵活、免费）\n通过编写 Prompt（提示词），直接使用大模型的**语音通话功能**进行模拟面试：\n1. **ChatGPT (GPT-4o 语音模式)**：目前最自然的语音交互，能扮演任何行业的面试官，实时追问并提供详细的回答反馈。\n2. **Claude 3.5 Sonnet**：文字表达和逻辑极强，适合用来润色、修改面试话术和行为面试法（STAR法则）的准备。\n3. **Kimi / 豆包 / 通义千问**：国内大模型，完全免费，支持中文语音交流，了解中国本土企业（如阿里、腾讯、字节）的面试风格。\n\n---\n\n### 二、 英文及外企面试专用工具\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的免费工具。\n   * **适用**：互联网、电商、技术、营销等岗位。\n   * **功能**：通过语音或文字回答，AI 会分析你的关键词、回答结构，并给出改进建议（不打分，重在提示）。\n2. **Yoodli (yoodli.ai)**\n   * **特点**：专注于演讲和面试表达的 AI 教练。\n   * **功能**：分析你的语速、语气词（如 \"um\"、\"like\"）、眼神接触和回答内容，适合练习行为面试（Behavioral Interview）。\n3. **InterviewSchool**\n   * **特点**：模拟真实的在线视频面试（如 HireVue）。\n   * **功能**：AI 会根据你的视频表现、回答内容进行打分，并提供逐句改进建议。\n\n---\n\n### 三、 国内主流招聘与求职平台（贴合国情）\n1. **牛客网 AI 模拟面试**\n   * **适用**：技术（研发、算法）、产品、运营等岗位，特别是校招。\n   * **功能**：结合真题库，模拟真实面试流程，生成详细的AI诊断报告。\n2. **智联招聘 / 前程无忧 / 猎聘 AI 面试体验**\n   * **特点**：许多大厂（如银行、快消、央国企）初试会使用 AI 面试系统（如“魔镜”等）。\n   * **功能**：这些平台自带的练习工具可以帮助你提前适应“对着摄像头录视频”的 AI 筛人机制。\n3. **面试鸭 / 鸭鸭面试（小程序/App）**\n   * **特点**：垂直于程序员和互联网岗位的面试刷题与模拟工具，支持 AI 语音模拟。\n\n---\n\n### 💡 建议使用方法：\n* **第一步**：用 **ChatGPT/Kimi** 梳理简历，生成可能被问到的问题。\n* **第二步**：用 **Google Interview Warmup** 或 **Yoodli** 练习英文表达和仪态。\n* **第三步**：如果面国内大厂，在 **牛客网** 或 **智联招聘** 进行实战模拟，适应镜头。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "AI 模拟面试工具近年来发展迅速，主要分为**通用大模型、专业模拟平台、外企/英文面试工具**以及**国内招聘平台自带工具**。以下是目前主流且实用的 AI 模拟面试工具推荐：\n\n### 一、 通用大模型（最灵活、免费）\n通过编写 Prompt（提示词），直接使用大模型的**语音通话功能**进行模拟面试：\n1. **ChatGPT (GPT-4o 语音模式)**：目前最自然的语音交互，能扮演任何行业的面试官，实时追问并提供详细的回答反馈。\n2. **Claude 3.5 Sonnet**：文字表达和逻辑极强，适合用来润色、修改面试话术和行为面试法（STAR法则）的准备。\n3. **Kimi / 豆包 / 通义千问**：国内大模型，完全免费，支持中文语音交流，了解中国本土企业（如阿里、腾讯、字节）的面试风格。\n\n---\n\n### 二、 英文及外企面试专用工具\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的免费工具。\n   * **适用**：互联网、电商、技术、营销等岗位。\n   * **功能**：通过语音或文字回答，AI 会分析你的关键词、回答结构，并给出改进建议（不打分，重在提示）。\n2. **Yoodli (yoodli.ai)**\n   * **特点**：专注于演讲和面试表达的 AI 教练。\n   * **功能**：分析你的语速、语气词（如 \"um\"、\"like\"）、眼神接触和回答内容，适合练习行为面试（Behavioral Interview）。\n3. **InterviewSchool**\n   * **特点**：模拟真实的在线视频面试（如 HireVue）。\n   * **功能**：AI 会根据你的视频表现、回答内容进行打分，并提供逐句改进建议。\n\n---\n\n### 三、 国内主流招聘与求职平台（贴合国情）\n1. **牛客网 AI 模拟面试**\n   * **适用**：技术（研发、算法）、产品、运营等岗位，特别是校招。\n   * **功能**：结合真题库，模拟真实面试流程，生成详细的AI诊断报告。\n2. **智联招聘 / 前程无忧 / 猎聘 AI 面试体验**\n   * **特点**：许多大厂（如银行、快消、央国企）初试会使用 AI 面试系统（如“魔镜”等）。\n   * **功能**：这些平台自带的练习工具可以帮助你提前适应“对着摄像头录视频”的 AI 筛人机制。\n3. **面试鸭 / 鸭鸭面试（小程序/App）**\n   * **特点**：垂直于程序员和互联网岗位的面试刷题与模拟工具，支持 AI 语音模拟。\n\n---\n\n### 💡 建议使用方法：\n* **第一步**：用 **ChatGPT/Kimi** 梳理简历，生成可能被问到的问题。\n* **第二步**：用 **Google Interview Warmup** 或 **Yoodli** 练习英文表达和仪态。\n* **第三步**：如果面国内大厂，在 **牛客网** 或 **智联招聘** 进行实战模拟，适应镜头。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604465,
+    "id": "IedeapyJF77oz7IPu4iQ4Q4",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 726,
+      "prompt_tokens": 36,
+      "total_tokens": 1714
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:27:44.981546Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "AI 模拟面试工具近年来发展迅速，主要分为**通用大模型、专业模拟平台、外企/英文面试工具**以及**国内招聘平台自带工具**。以下是目前主流且实用的 AI 模拟面试工具推荐：\n\n### 一、 通用大模型（最灵活、免费）\n通过编写 Prompt（提示词），直接使用大模型的**语音通话功能**进行模拟面试：\n1. **ChatGPT (GPT-4o 语音模式)**：目前最自然的语音交互，能扮演任何行业的面试官，实时追问并提供详细的回答反馈。\n2. **Claude 3.5 Sonnet**：文字表达和逻辑极强，适合用来润色、修改面试话术和行为面试法（STAR法则）的准备。\n3. **Kimi / 豆包 / 通义千问**：国内大模型，完全免费，支持中文语音交流，了解中国本土企业（如阿里、腾讯、字节）的面试风格。\n\n---\n\n### 二、 英文及外企面试专用工具\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的免费工具。\n   * **适用**：互联网、电商、技术、营销等岗位。\n   * **功能**：通过语音或文字回答，AI 会分析你的关键词、回答结构，并给出改进建议（不打分，重在提示）。\n2. **Yoodli (yoodli.ai)**\n   * **特点**：专注于演讲和面试表达的 AI 教练。\n   * **功能**：分析你的语速、语气词（如 \"um\"、\"like\"）、眼神接触和回答内容，适合练习行为面试（Behavioral Interview）。\n3. **InterviewSchool**\n   * **特点**：模拟真实的在线视频面试（如 HireVue）。\n   * **功能**：AI 会根据你的视频表现、回答内容进行打分，并提供逐句改进建议。\n\n---\n\n### 三、 国内主流招聘与求职平台（贴合国情）\n1. **牛客网 AI 模拟面试**\n   * **适用**：技术（研发、算法）、产品、运营等岗位，特别是校招。\n   * **功能**：结合真题库，模拟真实面试流程，生成详细的AI诊断报告。\n2. **智联招聘 / 前程无忧 / 猎聘 AI 面试体验**\n   * **特点**：许多大厂（如银行、快消、央国企）初试会使用 AI 面试系统（如“魔镜”等）。\n   * **功能**：这些平台自带的练习工具可以帮助你提前适应“对着摄像头录视频”的 AI 筛人机制。\n3. **面试鸭 / 鸭鸭面试（小程序/App）**\n   * **特点**：垂直于程序员和互联网岗位的面试刷题与模拟工具，支持 AI 语音模拟。\n\n---\n\n### 💡 建议使用方法：\n* **第一步**：用 **ChatGPT/Kimi** 梳理简历，生成可能被问到的问题。\n* **第二步**：用 **Google Interview Warmup** 或 **Yoodli** 练习英文表达和仪态。\n* **第三步**：如果面国内大厂，在 **牛客网** 或 **智联招聘** 进行实战模拟，适应镜头。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

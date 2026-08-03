@@ -1,0 +1,30 @@
+{
+  "roundId": "R0",
+  "productState": "全面开放注册；邀请码仅用于赛事参与",
+  "startedAt": "20260721T031621Z",
+  "finishedAt": "2026-07-21T03:28:11.173599Z",
+  "engines": [
+    "gemini"
+  ],
+  "missingKeys": [],
+  "questionCount": 32,
+  "successCount": 32,
+  "errorCount": 0,
+  "errors": [],
+  "metrics": {
+    "total": 32,
+    "engines": {
+      "gemini": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.4615,
+        "entryYesRate": 0.0
+      }
+    },
+    "overallMentionRate": 0.6562,
+    "overallStaleNarrativeRate": 0.0
+  },
+  "note": "Gemini R0 API surface; missing T01/C02/C08 retried after 503."
+}

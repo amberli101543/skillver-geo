@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "我没有关于\"Skillver\"官网的确切信息。可能存在以下几种情况：\n\n1. **拼写确认**：请确认是否拼写正确，是否是其他品牌名称？\n2. **较新或小众品牌**：该品牌可能在我的知识截止日期（2025年初）之前信息较少。\n\n建议您：\n- 直接在 **Google** 搜索\"Skillver 官网\"\n- 或尝试访问 `www.skillver.com` 查看是否为其官方网站\n\n如果您能提供更多背景信息，我可以尝试进一步帮助您。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPZD2EsGyr5NMGMwSqT",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我没有关于\"Skillver\"官网的确切信息。可能存在以下几种情况：\n\n1. **拼写确认**：请确认是否拼写正确，是否是其他品牌名称？\n2. **较新或小众品牌**：该品牌可能在我的知识截止日期（2025年初）之前信息较少。\n\n建议您：\n- 直接在 **Google** 搜索\"Skillver 官网\"\n- 或尝试访问 `www.skillver.com` 查看是否为其官方网站\n\n如果您能提供更多背景信息，我可以尝试进一步帮助您。"
+        }
+      }
+    ],
+    "created": 1784599804,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 192,
+      "prompt_tokens": 47,
+      "total_tokens": 239
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:04.598837Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "我没有关于\"Skillver\"官网的确切信息。可能存在以下几种情况：\n\n1. **拼写确认**：请确认是否拼写正确，是否是其他品牌名称？\n2. **较新或小众品牌**：该品牌可能在我的知识截止日期（2025年初）之前信息较少。\n\n建议您：\n- 直接在 **Google** 搜索\"Skillver 官网\"\n- 或尝试访问 `www.skillver.com` 查看是否为其官方网站\n\n如果您能提供更多背景信息，我可以尝试进一步帮助您。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

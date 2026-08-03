@@ -1,0 +1,72 @@
+{
+  "roundId": "R0",
+  "productState": "全面开放注册；邀请码仅用于赛事参与",
+  "startedAt": "20260721T020503Z",
+  "finishedAt": "2026-07-21T02:26:33.658570Z",
+  "engines": [
+    "deepseek",
+    "yuanbao",
+    "chatgpt",
+    "claude",
+    "perplexity"
+  ],
+  "missingKeys": [],
+  "questionCount": 32,
+  "successCount": 159,
+  "errorCount": 1,
+  "errors": [
+    {
+      "engine": "yuanbao",
+      "questionId": "C08",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+    }
+  ],
+  "metrics": {
+    "total": 159,
+    "engines": {
+      "deepseek": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0312,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.1538,
+        "entryYesRate": 0.0
+      },
+      "yuanbao": {
+        "n": 31,
+        "mentionRate": 0.6774,
+        "staleNarrativeRate": 0.0323,
+        "officialSourceCiteRate": 0.0323,
+        "positioningYesRate": 0.2308,
+        "entryYesRate": 0.0
+      },
+      "chatgpt": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0312,
+        "officialSourceCiteRate": 0.0625,
+        "positioningYesRate": 0.1538,
+        "entryYesRate": 0.125
+      },
+      "claude": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0312,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.2308,
+        "entryYesRate": 0.0
+      },
+      "perplexity": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.3438,
+        "positioningYesRate": 0.4615,
+        "entryYesRate": 0.5
+      }
+    },
+    "overallMentionRate": 0.6604,
+    "overallStaleNarrativeRate": 0.0252
+  },
+  "note": "API surface only; App/Web 端需人工补测。hallucination 字段需人工复核。"
+}

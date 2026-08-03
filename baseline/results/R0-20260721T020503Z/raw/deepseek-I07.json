@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "Skillver 目前提供免费版本，但具体功能（如每日查询次数、高级分析等）可能设有免费额度限制。若需无限制使用全部功能，需付费订阅。建议直接访问官网或查看其定价页面获取最新信息。",
+  "sources": [],
+  "raw": {
+    "id": "dfd62b7c-a443-4741-8619-044e99e1e5a0",
+    "object": "chat.completion",
+    "created": 1784599963,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 目前提供免费版本，但具体功能（如每日查询次数、高级分析等）可能设有免费额度限制。若需无限制使用全部功能，需付费订阅。建议直接访问官网或查看其定价页面获取最新信息。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 52,
+      "total_tokens": 88,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 36
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:44.226015Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "Skillver 目前提供免费版本，但具体功能（如每日查询次数、高级分析等）可能设有免费额度限制。若需无限制使用全部功能，需付费订阅。建议直接访问官网或查看其定价页面获取最新信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

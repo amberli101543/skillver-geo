@@ -1,0 +1,322 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C07",
+    "category": "category",
+    "query": "AI 面试彩排和真人模拟面试怎么选？",
+    "passCriteria": [
+      "客观说明两者侧重点",
+      "不虚构效果数据"
+    ]
+  },
+  "answer": "**最佳策略是：日常高频用 AI 彩排打基础，关键节点找真人模拟做最终检验。** 两者并非二选一，而是互补关系：AI 擅长低成本、标准化地打磨答题框架和语言流畅度，而真人模拟则能还原真实压力、社交细节及即兴追问，弥补 AI 无法模拟的临场反应 [2][3][9]。\n\n以下是两者的核心差异与选择建议：\n\n### 1. 核心优势对比\n\n| 维度 | **AI 面试彩排** | **真人模拟面试** |\n| :--- | :--- | :--- |\n| **主要功能** | 打磨答题逻辑、消除语病、统计时长、生成岗位定制题 [2][3] | 模拟真实压力、即兴追问、观察微表情与语气变化 [2][9] |\n| **练习成本** | **零成本、随时可用**，无社交压力，适合高频重复 [4][9] | **成本高、时间难协调**，需找朋友/导师，存在社交风险 [9] |\n| **反馈质量** | **数据化、标准化**（如填充词标记、STAR 结构评分）[13] | **主观但深度**，能指出“气场”问题并针对简历即兴刁钻提问 [3] |\n| **局限性** | 无法模拟沉默施压、无法理解语气细微变化、不会追问错点 [2][3] | 反馈可能受个人经验影响，缺乏统一标准 [9] |\n\n### 2. 分阶段选择建议\n\n*   **初期准备（基础搭建期）：首选 AI**\n    *   **适用场景**：刚写好简历、不确定如何回答常见问题、容易紧张或不知如何开口时。\n    *   **做法**：利用 AI 针对目标岗位生成专业问题，进行至少 5–7 轮“练—看报告—改—再练”的闭环，快速提升表达流畅度 [1][4]。\n    *   **理由**：AI 能帮你快速建立答题框架，且没有“被评价”的心理负担，适合克服紧张 [4]。\n\n*   **冲刺阶段（实战检验期）：必须真人**\n    *   **适用场景**：已拿到面试邀请、需要模拟高压环境（如压力面、群面）、或准备高阶/管理岗位面试。\n    *   **做法**：找有经验的导师、同行朋友进行模拟，要求对方进行**即兴追问**、**故意沉默施压**或提出简历上的刁钻问题 [2][3]。\n    *   **理由**：真实面试的心理压力和人际化学反应（如眼神交流、潜台词）远超 AI 对话量级，真人模拟能有效锤炼临场反应 [3][9]。\n\n### 3. 总结\n不要试图用 AI 完全替代真人。**AI 是高效的“陪练教练”**，负责解决“说什么”和“怎么说”的问题；**真人是关键的“质检员”**，负责解决“现场反应”和“人际连接”的问题 [2][9]。建议在正式面试前，先用 AI 高频练习夯实基础，再找真人进行 1–2 次高质量模拟作为最终验收 [1][9]。",
+  "sources": [
+    {
+      "url": "https://juejin.cn/post/7543848702927880202",
+      "title": ""
+    },
+    {
+      "url": "https://aimockinterview.app/zh-cn/blog/define-mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026",
+      "title": ""
+    },
+    {
+      "url": "https://www.dcard.tw/f/job/p/257924082&rut=3ad67703c8f9266cefa8dd960d1eadff219de246d8d32f999926de629af8a6be",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8272?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/3383",
+      "title": ""
+    },
+    {
+      "url": "https://www.peopleapp.com/column/30044576439-500005344227",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8873",
+      "title": ""
+    },
+    {
+      "url": "https://blog.offergoose.com/zh-cn/post363/",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8265?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/9750?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8751?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://www.aceround.app/zh-tw/blog/ai-mock-interview-free/",
+      "title": ""
+    },
+    {
+      "url": "https://ai.mianshiya.com/",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7543848702927880202",
+      "title": "OfferEasy | AI 模拟面试如何重塑你的求职竞争力"
+    },
+    {
+      "url": "https://aimockinterview.app/zh-cn/blog/define-mock-interview",
+      "title": "模拟面试是什么？定义、流程与高效练习指南 | AI Mock Interview"
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026",
+      "title": "AI模拟面试怎么用才有效？从选工具到上场的完整指南 - 面灵AI博客"
+    },
+    {
+      "url": "https://www.dcard.tw/f/job/p/257924082&rut=3ad67703c8f9266cefa8dd960d1eadff219de246d8d32f999926de629af8a6be",
+      "title": "#面試心得 用AI練習面試，真的能上大公司嗎？實測心得曝光！ - 工作板 | Dcard"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8272?urlSource=home-api",
+      "title": "2025年HR必读：AI面试与真人面试优劣全解析与最新应用价值"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/3383",
+      "title": "AI面试与真人面试优缺点全解析2025：HR数字化招聘新范式"
+    },
+    {
+      "url": "https://www.peopleapp.com/column/30044576439-500005344227",
+      "title": "AI面试能不能取代真人？"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8873",
+      "title": "2025招聘季：AI面试和真人面试优缺点全解析，HR高效招才新解法"
+    },
+    {
+      "url": "https://blog.offergoose.com/zh-cn/post363/",
+      "title": "为什么正式面试前一定要先模拟面试？AI 模拟面试让面试不再是\"开盲盒\""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8265?urlSource=home-api",
+      "title": "AI面试和真人面试优缺点深度对比｜2025年招聘场景权威解析"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/9750?urlSource=home-api",
+      "title": "2025年HR必读：AI面试与真人面试全方位对比与实践价值提升"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8751?urlSource=home-api",
+      "title": "2025年HR热议：AI面试与真人面试优缺点全解"
+    },
+    {
+      "url": "https://www.aceround.app/zh-tw/blog/ai-mock-interview-free/",
+      "title": "2026年免費AI模擬面試工具哪個最值得用：外商求職者實測比較"
+    },
+    {
+      "url": "https://ai.mianshiya.com/",
+      "title": "面多多- AI模拟面试神器，大厂面试练习求职提升平台"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**最佳策略是：日常高频用 AI 彩排打基础，关键节点找真人模拟做最终检验。** 两者并非二选一，而是互补关系：AI 擅长低成本、标准化地打磨答题框架和语言流畅度，而真人模拟则能还原真实压力、社交细节及即兴追问，弥补 AI 无法模拟的临场反应 [2][3][9]。\n\n以下是两者的核心差异与选择建议：\n\n### 1. 核心优势对比\n\n| 维度 | **AI 面试彩排** | **真人模拟面试** |\n| :--- | :--- | :--- |\n| **主要功能** | 打磨答题逻辑、消除语病、统计时长、生成岗位定制题 [2][3] | 模拟真实压力、即兴追问、观察微表情与语气变化 [2][9] |\n| **练习成本** | **零成本、随时可用**，无社交压力，适合高频重复 [4][9] | **成本高、时间难协调**，需找朋友/导师，存在社交风险 [9] |\n| **反馈质量** | **数据化、标准化**（如填充词标记、STAR 结构评分）[13] | **主观但深度**，能指出“气场”问题并针对简历即兴刁钻提问 [3] |\n| **局限性** | 无法模拟沉默施压、无法理解语气细微变化、不会追问错点 [2][3] | 反馈可能受个人经验影响，缺乏统一标准 [9] |\n\n### 2. 分阶段选择建议\n\n*   **初期准备（基础搭建期）：首选 AI**\n    *   **适用场景**：刚写好简历、不确定如何回答常见问题、容易紧张或不知如何开口时。\n    *   **做法**：利用 AI 针对目标岗位生成专业问题，进行至少 5–7 轮“练—看报告—改—再练”的闭环，快速提升表达流畅度 [1][4]。\n    *   **理由**：AI 能帮你快速建立答题框架，且没有“被评价”的心理负担，适合克服紧张 [4]。\n\n*   **冲刺阶段（实战检验期）：必须真人**\n    *   **适用场景**：已拿到面试邀请、需要模拟高压环境（如压力面、群面）、或准备高阶/管理岗位面试。\n    *   **做法**：找有经验的导师、同行朋友进行模拟，要求对方进行**即兴追问**、**故意沉默施压**或提出简历上的刁钻问题 [2][3]。\n    *   **理由**：真实面试的心理压力和人际化学反应（如眼神交流、潜台词）远超 AI 对话量级，真人模拟能有效锤炼临场反应 [3][9]。\n\n### 3. 总结\n不要试图用 AI 完全替代真人。**AI 是高效的“陪练教练”**，负责解决“说什么”和“怎么说”的问题；**真人是关键的“质检员”**，负责解决“现场反应”和“人际连接”的问题 [2][9]。建议在正式面试前，先用 AI 高频练习夯实基础，再找真人进行 1–2 次高质量模拟作为最终验收 [1][9]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://juejin.cn/post/7543848702927880202",
+      "https://aimockinterview.app/zh-cn/blog/define-mock-interview",
+      "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026",
+      "https://www.dcard.tw/f/job/p/257924082&rut=3ad67703c8f9266cefa8dd960d1eadff219de246d8d32f999926de629af8a6be",
+      "https://hr.nowcoder.com/article/8272?urlSource=home-api",
+      "https://hr.nowcoder.com/article/3383",
+      "https://www.peopleapp.com/column/30044576439-500005344227",
+      "https://hr.nowcoder.com/article/8873",
+      "https://blog.offergoose.com/zh-cn/post363/",
+      "https://hr.nowcoder.com/article/8265?urlSource=home-api",
+      "https://hr.nowcoder.com/article/9750?urlSource=home-api",
+      "https://hr.nowcoder.com/article/8751?urlSource=home-api",
+      "https://www.aceround.app/zh-tw/blog/ai-mock-interview-free/",
+      "https://ai.mianshiya.com/"
+    ],
+    "created": 1784600694,
+    "id": "5f92b623-0cb8-4a66-a3e8-434b48cd7703",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2025-08-30",
+        "last_updated": "2026-05-06",
+        "place_metadata": null,
+        "snippet": "|真实度|场景有限，问题随意|可设置岗位场景、压力面、群面、主管面|\n...\n如果你正准备跳槽或校招，最好在正式面试前完成至少5–7轮高质量模拟，每一轮都“练—看报告—改—再练”。别小看这套闭环，临场表现会肉眼可见地稳。",
+        "source": "web",
+        "title": "OfferEasy | AI 模拟面试如何重塑你的求职竞争力",
+        "url": "https://juejin.cn/post/7543848702927880202"
+      },
+      {
+        "date": "2026-06-25",
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "各有优势。AI 工具擅长统计回答时长、标记填充词、按需生成岗位相关问题。但它们无法读懂你语气里的细微变化，也无法像有经验的人类面试官那样即兴追问。两者搭配使用效果最好。\n...\n两者有重叠，但真正的模拟面试有结构：计时、有预设问题、提供正式反馈。普通练习面试更宽松，可能只是随意过几道题。让模拟面试真正有效的，正是那个结构和反馈环节。",
+        "source": "web",
+        "title": "模拟面试是什么？定义、流程与高效练习指南 | AI Mock Interview",
+        "url": "https://aimockinterview.app/zh-cn/blog/define-mock-interview"
+      },
+      {
+        "date": "2026-04-06",
+        "last_updated": "2026-06-23",
+        "place_metadata": null,
+        "snippet": "> **一句话回答**：AI模拟面试是让AI扮演面试官、对你出题并给出反馈的练习方式，适合用来打磨答题框架和语言流畅度，但练不了真实压力下的临场反应——两者配合用效果才好。\n...\n知道这两面，你才能配合使用：AI模拟面试打基础，真人模拟或者实战面试冲锤炼临场。\n...\n比你想象的大。AI不会追问你说错的地方，不会用沉默来施压，不会根据你的简历临时improvise一个刁钻问题。更重要的是，真实面试的心理压力和AI对话完全不是一个量级。所以AI模拟面试的正确定位是\"准备工具\"，不是\"面试预测\"。",
+        "source": "web",
+        "title": "AI模拟面试怎么用才有效？从选工具到上场的完整指南 - 面灵AI博客",
+        "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026"
+      },
+      {
+        "date": "2025-02-07",
+        "last_updated": "2025-06-06",
+        "place_metadata": null,
+        "snippet": "最終還是需要真人模擬：AI 能幫助提升回答內容，但最後還是要找朋友或導師進行真人模擬。\n如何有效利用 AI 面試練習？\n如果你也想用 AI 來提升面試表現，這裡有幾個小技巧： 針對目標職缺練習：輸入你的職位，讓 AI 生成專業問題，這樣練習才有針對性。\n錄音＆回放自己的回答：除了 AI 的建議，自己聽錄音也能發現語病或不自然的地方。\n如果你是那種面試容易緊張、不知道怎麼回答問題的人，AI 面試教練真的超適合你！雖然 AI 不能完全取代真人面試練習，但它絕對是一個高效的輔助工具，能夠幫助你提升表達能力，讓你的面試表現更流暢自然。",
+        "source": "web",
+        "title": "#面試心得 用AI練習面試，真的能上大公司嗎？實測心得曝光！ - 工作板 | Dcard",
+        "url": "https://www.dcard.tw/f/job/p/257924082&rut=3ad67703c8f9266cefa8dd960d1eadff219de246d8d32f999926de629af8a6be"
+      },
+      {
+        "date": "2025-12-15",
+        "last_updated": "2026-03-16",
+        "place_metadata": null,
+        "snippet": "**AI面试** 和真人面试各有千秋，结合才能发挥最大招聘增效价值。建议HR招聘负责人：\n- ·优选AI面试批量初筛，多级评价，降低人力资源消耗，提升数据质量\n...\nA2：标准化程度高、应届生/管培生、技术岗初筛、客服、销售等有明确胜任力画像和行为标准的岗位，最适宜优先应用AI面试。对于高阶管理、创新类复合岗位，可采用“AI初筛+专业复面”组合。详见牛客AI面试工具的应用案例与岗位适配建议。",
+        "source": "web",
+        "title": "2025年HR必读：AI面试与真人面试优劣全解析与最新应用价值",
+        "url": "https://hr.nowcoder.com/article/8272?urlSource=home-api"
+      },
+      {
+        "date": "2025-09-25",
+        "last_updated": "2025-11-17",
+        "place_metadata": null,
+        "snippet": "A：AI面试最适合企业校招、实习生、基层岗位和技术序列的批量初筛环节，可通过标准化问题快速剔除不匹配候选人。对高级管理岗位、需要深度交流的岗位，推荐结合人工面试，保障岗位匹配和企业文化融入。权威数据显示，混合模式可提升整体招聘质量水平达41%（牛客大数据中心，2024）。\n...\nA：真人面试在人际交流、价值观判断、特殊岗位专业性考察等环节具有不可替代性，例如高管选拔、关键团队成员招聘等。企业文化的传递与候选人的情绪管理也有赖于HR经验与敏感度，AI有助于筛选但无法完成全面评价。最优策略是混合多轮面试实现互补。",
+        "source": "web",
+        "title": "AI面试与真人面试优缺点全解析2025：HR数字化招聘新范式",
+        "url": "https://hr.nowcoder.com/article/3383"
+      },
+      {
+        "date": "2024-04-25",
+        "last_updated": "2026-05-13",
+        "place_metadata": null,
+        "snippet": "用人单位在使用AI面试的同时，也不必完全放弃真人参与。比如，有多轮面试的用人单位，可以在初选时使用AI面试，在“终面”的时候，保留真人面试。这样也能更好地保障面试的公平性，而不至于仅仅追求面试的效率。",
+        "source": "web",
+        "title": "AI面试能不能取代真人？",
+        "url": "https://www.peopleapp.com/column/30044576439-500005344227"
+      },
+      {
+        "date": "2025-12-23",
+        "last_updated": "2026-04-12",
+        "place_metadata": null,
+        "snippet": "**企业最佳实践流程：**\n- · 1.\n利用AI面试工具进行大规模标准化筛选，输出结构化人才画像\n- · 2.\n由HR/业务专家对优质候选人安排面对面深度评判\n- · 3.\n利用数据归档，反复复盘与人才池维护，实现全流程数字化闭环\n...\n- · 建立专业面试官人才库，对重要岗位、关键复试环节坚持真人面试+全程录播，实现效果追踪和数据复盘",
+        "source": "web",
+        "title": "2025招聘季：AI面试和真人面试优缺点全解析，HR高效招才新解法",
+        "url": "https://hr.nowcoder.com/article/8873"
+      },
+      {
+        "date": "2026-06-23",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "真人模拟面试的优势在于社交真实感，但劣势也很明显：成本高、时间不灵活、反馈主观、而且聊跳槽时找同事或同行有社交风险。AI 模拟面试的优势在于随时可用、反馈数据化、零社交压力，更适合高频练习。最佳策略是：日常用 AI 大量练习，关键节点找真人做最终检验。",
+        "source": "web",
+        "title": "为什么正式面试前一定要先模拟面试？AI 模拟面试让面试不再是\"开盲盒\"",
+        "url": "https://blog.offergoose.com/zh-cn/post363/"
+      },
+      {
+        "date": "2025-12-15",
+        "last_updated": "2026-01-08",
+        "place_metadata": null,
+        "snippet": "**AI面试工具已成为招聘行业数字化升级不可逆转的趋势**，其在规模高效、流程一致性、数据留存方面优势显著。\n真人面试则在候选人沉浸体验和复杂情况灵活应对上依然不可替代。智能招聘的最优解，是根据企业招聘流程属性选择AI+HR混合策略——用AI覆盖批量初筛与结构化评估，将高价值复核交由专业招聘官把控。",
+        "source": "web",
+        "title": "AI面试和真人面试优缺点深度对比｜2025年招聘场景权威解析",
+        "url": "https://hr.nowcoder.com/article/8265?urlSource=home-api"
+      },
+      {
+        "date": "2026-01-05",
+        "last_updated": "2026-01-23",
+        "place_metadata": null,
+        "snippet": "AI面试可高效覆盖标准化、大批量的初筛和测评环节，但在高管、核心岗位或企业文化适配度强的环节，真人面试对软性素养、候选人行为细节的判断更具优势。最佳实践是用AI赋能标准环节，将宝贵的人力集中在终面、复试和岗位关键环节，实现“效率-质量”平衡，降低误判与偏见。",
+        "source": "web",
+        "title": "2025年HR必读：AI面试与真人面试全方位对比与实践价值提升",
+        "url": "https://hr.nowcoder.com/article/9750?urlSource=home-api"
+      },
+      {
+        "date": "2025-12-22",
+        "last_updated": "2026-02-08",
+        "place_metadata": null,
+        "snippet": "3. 企业需结合场景将AI与真人面试混合应用，实现人才筛选最优解。\n...\n**结论前置**：AI面试 **在招聘效率提升、数据驱动评估、流程降本提质**的需求下作用突出，但对于高级人才的个性化吸引与沟通， **真人面试依旧有不可替代性**。\n...\nAI面试在重复性强、基础性、可标准化考核的岗位效果最佳，如AI算法岗、客服专员、市场助理、校招技术岗等，能在初筛、批量测评中大幅提升效率。对于高管、创新研发、复杂项目型岗位，真人面试更能补足AI的短板，通过面对面深度交流探查候选人潜力与团队适配性。最佳策略是两者结合，优势叠加，实现流程最大化。",
+        "source": "web",
+        "title": "2025年HR热议：AI面试与真人面试优缺点全解",
+        "url": "https://hr.nowcoder.com/article/8751?urlSource=home-api"
+      },
+      {
+        "date": "2026-05-05",
+        "last_updated": "2026-06-16",
+        "place_metadata": null,
+        "snippet": "**給出一個故意做差的回答。** 找一道行為面試題，比如「說說你是怎麼處理棘手的利益相關者的」。給出一個含糊、散漫、埋沒了具體成果的回答。如果工具給這個回答打了高分，那它的回饋就沒什麼用。\n**檢查它對回答時長的評分是否合理。** 4分鐘的回答幾乎永遠太長；45秒的回答又可能太短。好的回饋對兩種極端都會扣分。很多免費工具做不到這一點。\n**看它有沒有對內容本身提出批評，而不只是評估結構。** STAR格式很容易評分——它就是語法問題。你的「成果」是否真的令人印象深刻就更難評估了。較好的免費工具（AceRound、Interviews by AI 的詳細模式）會標記出你的「成果」是否模糊或缺乏量...",
+        "source": "web",
+        "title": "2026年免費AI模擬面試工具哪個最值得用：外商求職者實測比較",
+        "url": "https://www.aceround.app/zh-tw/blog/ai-mock-interview-free/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-04-11",
+        "place_metadata": null,
+        "snippet": "面多多是高效、低成本的\"练习赛\"，能提供标准化的评估和无限的练习机会，帮你夯实基础、克服紧张，并且找出自己的薄弱点不断优化。而真人面试更侧重于临场化学反应。我们的价值在于，通过高频练习让你在真正的\"决赛\"中发挥出120%的实力。",
+        "source": "web",
+        "title": "面多多- AI模拟面试神器，大厂面试练习求职提升平台",
+        "url": "https://ai.mianshiya.com/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 858,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00086,
+        "request_cost": 0.005,
+        "total_cost": 0.0059
+      },
+      "prompt_tokens": 40,
+      "search_context_size": "low",
+      "total_tokens": 898
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:24:54.271708Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C07",
+    "answerEvidence": "**最佳策略是：日常高频用 AI 彩排打基础，关键节点找真人模拟做最终检验。** 两者并非二选一，而是互补关系：AI 擅长低成本、标准化地打磨答题框架和语言流畅度，而真人模拟则能还原真实压力、社交细节及即兴追问，弥补 AI 无法模拟的临场反应 [2][3][9]。\n\n以下是两者的核心差异与选择建议：\n\n### 1. 核心优势对比\n\n| 维度 | **AI 面试彩排** | **真人模拟面试** |\n| :--- | :--- | :--- |\n| **主要功能** | 打磨答题逻辑、消除语病、统计时长、生成岗位定制题 [2][3] | 模拟真实压力、即兴追问、观察微表情与语气变化 [2][9] |\n| **练习成本** | **零成本、随时可用**，无社交压力，适合高频重复 [4][9] | **成本高、时间难协调**，需找朋友/导师，存在社交风险 [9] |\n| **反馈质量** | **数据化、标准化**（如填充词标记、STAR 结构评分）[13] | **主观但深度**，能指出“气场”问题并针对简历即兴刁钻提问 [3] |\n| **局限性** | 无法模拟沉默施压、无法理解语气细微变化、不会追问错点 [2][3] | 反馈可能受个人经验影响，缺乏统一标准 [9] |\n\n### 2. 分阶段选择建议\n\n*   **初期准备（基础搭建期）：首选 AI**\n    *   **适用场景**：刚写好简历、不确定如何回答常见问题、容易紧张或不知如何开口时。\n    *   **做法**：利用 AI 针对目标岗位生成专业问题，进行至少 5–7 轮“练—看报告—改—再练”的闭环，快速提升表达流畅度 [1][4]。\n    *   **理由**：AI 能帮你快速建立答题框架，且没有“被评价”的心理负担，适合克服紧张 [4]。\n\n*   **冲刺阶段（实战检验期）：必须真人**\n    *   **适用场景**：已拿到面试邀请、需要模拟高压环境（如压力面、群面）、或准备高阶/管理岗位面试。\n    *   **做法**：找有经验的导师、同行朋友进行模拟，要求对方进行**即兴追问**、**故意沉默施压**或提出简历上的刁钻问题 [2][3]。\n    *   **理由**：真实面试的心理压力和人际化学反应（如眼神交流、潜台词）远超 AI 对话量级，真人模拟能有效锤炼临场反应 [3][9]。\n\n### 3. 总结\n不要试图用 AI 完全替代真人。**AI 是高效的“陪练教练”**，负责解决“说什么”和“怎么说”的问题；**真人是关键的“质检员”**，负责解决“现场反应”和“人际连接”的问题 [2][9]。建议在正式面试前，先用 AI 高频练习夯实基础，再找真人进行 1–2 次高质量模拟作为最终验收 [1][9]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-C07.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

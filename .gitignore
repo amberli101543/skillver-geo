@@ -4,6 +4,9 @@
 !.env.example
 *.pem
 *.key
+ssh-keygen*
+id_ed25519*
+id_rsa*
 
 # Dependencies and build output
 node_modules/
@@ -40,3 +43,4 @@ ops/screenshots/
 __pycache__/
 *.pyc
 .pytest_cache/
+.python_pkgs/

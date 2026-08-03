@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "我不太确定你说的 **Skillver** 指的是哪个产品/功能。\n\n如果是某个软件、平台或工具，通常会在以下地方使用：\n\n- 官方网站或 Web 平台\n- 手机 App\n- 企业内部系统\n- 学习/培训/技能评估场景\n- 招聘或能力测评流程中\n\n但仅凭“Skillver”这个名字，我无法确认具体用途或入口。  \n你可以补充一下它的来源，比如链接、截图、所在软件名称，或你看到它的页面，我可以帮你判断在哪里使用。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uE1Qao8bU4CKAUqLF7bqBLjjW40",
+    "object": "chat.completion",
+    "created": 1784599821,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我不太确定你说的 **Skillver** 指的是哪个产品/功能。\n\n如果是某个软件、平台或工具，通常会在以下地方使用：\n\n- 官方网站或 Web 平台\n- 手机 App\n- 企业内部系统\n- 学习/培训/技能评估场景\n- 招聘或能力测评流程中\n\n但仅凭“Skillver”这个名字，我无法确认具体用途或入口。  \n你可以补充一下它的来源，比如链接、截图、所在软件名称，或你看到它的页面，我可以帮你判断在哪里使用。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "completion_tokens": 453,
+      "total_tokens": 494,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 321,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:30.487429Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "我不太确定你说的 **Skillver** 指的是哪个产品/功能。\n\n如果是某个软件、平台或工具，通常会在以下地方使用：\n\n- 官方网站或 Web 平台\n- 手机 App\n- 企业内部系统\n- 学习/培训/技能评估场景\n- 招聘或能力测评流程中\n\n但仅凭“Skillver”这个名字，我无法确认具体用途或入口。  \n你可以补充一下它的来源，比如链接、截图、所在软件名称，或你看到它的页面，我可以帮你判断在哪里使用。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务**求职者和职场人士**，帮助他们优化简历、提升求职竞争力。具体来说，其服务对象包括：\n\n- **应届毕业生**：初入职场，需要打造专业简历\n- **职场转型者**：希望换行业或换岗位的人群\n- **有经验的专业人士**：希望提升简历质量以获得更好的职业机会\n\nSkillver 通常利用 AI 技术分析和优化简历，帮助用户更好地匹配目标职位。\n\n如需了解更具体的信息，建议直接访问 Skillver 官方网站获取最新资讯。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPFuNsdCy6c7x2e25gd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务**求职者和职场人士**，帮助他们优化简历、提升求职竞争力。具体来说，其服务对象包括：\n\n- **应届毕业生**：初入职场，需要打造专业简历\n- **职场转型者**：希望换行业或换岗位的人群\n- **有经验的专业人士**：希望提升简历质量以获得更好的职业机会\n\nSkillver 通常利用 AI 技术分析和优化简历，帮助用户更好地匹配目标职位。\n\n如需了解更具体的信息，建议直接访问 Skillver 官方网站获取最新资讯。"
+        }
+      }
+    ],
+    "created": 1784599570,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 48,
+      "total_tokens": 253
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:06:10.042800Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务**求职者和职场人士**，帮助他们优化简历、提升求职竞争力。具体来说，其服务对象包括：\n\n- **应届毕业生**：初入职场，需要打造专业简历\n- **职场转型者**：希望换行业或换岗位的人群\n- **有经验的专业人士**：希望提升简历质量以获得更好的职业机会\n\nSkillver 通常利用 AI 技术分析和优化简历，帮助用户更好地匹配目标职位。\n\n如需了解更具体的信息，建议直接访问 Skillver 官方网站获取最新资讯。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试，可根据**通用模拟**、**技术/代码专项**和**知识库构建**三大需求，选择以下工具：\n\n### 1. 通用模拟与表达训练（适合非技术面或初筛）\n*   **面试猫 AI 面试助手**：专为 AI 面试准备打造，可根据岗位能力要求生成对应问题及**答案模板**，支持实时语音识别并生成**表达逻辑分析报告**[1][10]。\n*   **多面鹅**：提供**AI 模拟面试**和智能押题，能针对互联网岗位设计**追问题库**并提供即时反馈，功能覆盖最丰富（部分付费）[3][5][7]。\n*   **InterviewAssistant（即答侠）**：可上传**简历和 JD**（职位描述）生成匹配分析报告，提供免费的详细面试问题与答案，适合预算有限的求职者 [7]。\n*   **HireVue**：全球 AI 视频面试鼻祖，擅长分析**微表情**和**英语语音语调**，适合准备外企（如宝洁、联合利华）或世界 500强面试 [3][10]。\n\n### 2. 技术岗位专项（适合算法、开发等硬核面试）\n*   **牛客（Niuke）APP**：程序员首选，深度集成**在线代码考核（Coding）**，能对 Java、C++、**算法**等技术栈进行深度追问，是通往大厂必经之路 [3][4]。\n*   **Offerin AI**：专为**程序员面试**特化，适合技术岗深度准备 [7]。\n*   **LeetCode / CodeSignal / HackerRank**：知名编程题库平台，除刷题外均提供**模拟技术面试**功能，用于提升编程能力和答题技巧 [4]。\n*   **GitHub Copilot**：虽主要作为代码辅助工具，但在面试中可用于辅助解决**代码类问题**或进行思路验证 [7]。\n\n### 3. 知识库构建与理论准备\n*   **包阅 AI**：可快速阅读并解析**技术论文/报告**，生成笔记和综述，帮助在面试前期快速搭建**技术知识库** [11]。\n*   **通用大模型（如通义千问、ChatGPT Plus）**：作为辅助工具，可用于**定制性强**的模拟面试对话或生成特定场景的解答思路 [7]。\n\n**建议策略**：先用**包阅 AI**或大模型梳理技术理论，再使用**牛客**或**LeetCode**进行代码实战训练，最后通过**面试猫**或**多面鹅**进行全真模拟和表达逻辑优化。注意在真实面试中合理使用工具提示，避免过度依赖导致逻辑生硬 [10]。",
+  "sources": [
+    {
+      "url": "https://www.bilibili.com/opus/1097481989456396313",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/895088560_122423419",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/KFSAAPOC0556I350.html",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2013",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147413130",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2506_93005598/article/details/150242433",
+      "title": ""
+    },
+    {
+      "url": "https://yanghaixiong.com/ai/ai%E5%B7%A5%E5%85%B7/6789/",
+      "title": ""
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/INRI_CSDN/article/details/153415103",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.albcoding.interview&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.bilibili.com/opus/1097481989456396313",
+      "title": "AI面试全攻略：从设置到答题一步到位（2025最新教程）"
+    },
+    {
+      "url": "https://www.sohu.com/a/895088560_122423419",
+      "title": "万字实测十款AI面试工具：哪款真正提高了Offer率？"
+    },
+    {
+      "url": "https://www.163.com/dy/article/KFSAAPOC0556I350.html",
+      "title": "面试太紧张？这6款2025年最火AI面试软件，让你在家偷偷变强！ - 网易"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2013",
+      "title": "顶级AI面试工具精选推荐 - 牛客企业版"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147413130",
+      "title": "10款免费AI面试助手，让你的求职更高效原创"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK",
+      "title": "AI Interview Prep - Google Play 應用程式"
+    },
+    {
+      "url": "https://blog.csdn.net/2506_93005598/article/details/150242433",
+      "title": "【面试实战】2025秋招必备：AI面试工具深度测评与面试复盘 ..."
+    },
+    {
+      "url": "https://yanghaixiong.com/ai/ai%E5%B7%A5%E5%85%B7/6789/",
+      "title": "10个免费的AI面试助手，求职笔试和面试辅助工具 | AI工具集"
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": "面试猫-AI面试助手，在线面试神器，实时答案生成"
+    },
+    {
+      "url": "https://blog.csdn.net/INRI_CSDN/article/details/153415103",
+      "title": "2025年AI面试实战指南：原理剖析到避坑技巧"
+    },
+    {
+      "url": "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "title": "AI面试指南：AI工具总结评测，助力求职季"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.albcoding.interview&hl=zh",
+      "title": "Interview Practice AI – 面试练习"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "准备 AI 岗位面试，可根据**通用模拟**、**技术/代码专项**和**知识库构建**三大需求，选择以下工具：\n\n### 1. 通用模拟与表达训练（适合非技术面或初筛）\n*   **面试猫 AI 面试助手**：专为 AI 面试准备打造，可根据岗位能力要求生成对应问题及**答案模板**，支持实时语音识别并生成**表达逻辑分析报告**[1][10]。\n*   **多面鹅**：提供**AI 模拟面试**和智能押题，能针对互联网岗位设计**追问题库**并提供即时反馈，功能覆盖最丰富（部分付费）[3][5][7]。\n*   **InterviewAssistant（即答侠）**：可上传**简历和 JD**（职位描述）生成匹配分析报告，提供免费的详细面试问题与答案，适合预算有限的求职者 [7]。\n*   **HireVue**：全球 AI 视频面试鼻祖，擅长分析**微表情**和**英语语音语调**，适合准备外企（如宝洁、联合利华）或世界 500强面试 [3][10]。\n\n### 2. 技术岗位专项（适合算法、开发等硬核面试）\n*   **牛客（Niuke）APP**：程序员首选，深度集成**在线代码考核（Coding）**，能对 Java、C++、**算法**等技术栈进行深度追问，是通往大厂必经之路 [3][4]。\n*   **Offerin AI**：专为**程序员面试**特化，适合技术岗深度准备 [7]。\n*   **LeetCode / CodeSignal / HackerRank**：知名编程题库平台，除刷题外均提供**模拟技术面试**功能，用于提升编程能力和答题技巧 [4]。\n*   **GitHub Copilot**：虽主要作为代码辅助工具，但在面试中可用于辅助解决**代码类问题**或进行思路验证 [7]。\n\n### 3. 知识库构建与理论准备\n*   **包阅 AI**：可快速阅读并解析**技术论文/报告**，生成笔记和综述，帮助在面试前期快速搭建**技术知识库** [11]。\n*   **通用大模型（如通义千问、ChatGPT Plus）**：作为辅助工具，可用于**定制性强**的模拟面试对话或生成特定场景的解答思路 [7]。\n\n**建议策略**：先用**包阅 AI**或大模型梳理技术理论，再使用**牛客**或**LeetCode**进行代码实战训练，最后通过**面试猫**或**多面鹅**进行全真模拟和表达逻辑优化。注意在真实面试中合理使用工具提示，避免过度依赖导致逻辑生硬 [10]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.bilibili.com/opus/1097481989456396313",
+      "https://www.sohu.com/a/895088560_122423419",
+      "https://www.163.com/dy/article/KFSAAPOC0556I350.html",
+      "https://hr.nowcoder.com/article/2013",
+      "https://blog.csdn.net/offergoose/article/details/147413130",
+      "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK",
+      "https://blog.csdn.net/2506_93005598/article/details/150242433",
+      "https://yanghaixiong.com/ai/ai%E5%B7%A5%E5%85%B7/6789/",
+      "https://www.offermore.cc/",
+      "https://blog.csdn.net/INRI_CSDN/article/details/153415103",
+      "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "https://play.google.com/store/apps/details?id=com.albcoding.interview&hl=zh"
+    ],
+    "created": 1784600491,
+    "id": "aa725c84-155f-4a52-9f63-676f9b9ef9ec",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-06-13",
+        "place_metadata": null,
+        "snippet": "【推荐工具】使用**面试猫 AI面试助手**，可根据岗位能力要求生成对应能力问题及答案模板，帮助你有针对性地训练表达与内容逻辑。\n...\n🎯【面试猫AI面试助手】是一款专为AI面试准备打造的实用工具，功能包括：",
+        "source": "web",
+        "title": "AI面试全攻略：从设置到答题一步到位（2025最新教程）",
+        "url": "https://www.bilibili.com/opus/1097481989456396313"
+      },
+      {
+        "date": "2025-05-14",
+        "last_updated": "2025-10-11",
+        "place_metadata": null,
+        "snippet": "面试大师是北京拉��信息科有限公司推出的一款AI面试辅助应用。它被定位为“时面提�器 +笔试助手”，旨在让求职者“开�考试样�松胜出”。该产品在同类应用中功能覆盖最为全面，在移动端体验、智能化和安全性方面表现突出。\n...\n面试狗是上海�式�科有限公司开发的一款AI笔试面试助手应用。这个名字颇具趣味体现开发�队调侃精神：据说它由“群��的程序”打造，旨在通过术段�新面程。工具互网求职者中，特别是在程序员圈子里响����官方表示已帮助超过1000名求职者成功获得理想的Offer。",
+        "source": "web",
+        "title": "万字实测十款AI面试工具：哪款真正提高了Offer率？",
+        "url": "https://www.sohu.com/a/895088560_122423419"
+      },
+      {
+        "date": "2025-12-03",
+        "last_updated": "2025-12-12",
+        "place_metadata": null,
+        "snippet": "**TOP 2：牛客（Niuke）APP** **定位：**互联网技术岗/程序员首选 **推荐理由：**程序员的“刷题圣地”。其AI面试功能深度集成了在线代码考核（Coding），能针对Java、C++、算法等技术栈进行深度追问，是通往互联网大厂的必经之路。\n**TOP 3：HireVue** **定位：**外企及世界500强面试模拟 **推荐理由：**全球AI视频面试的鼻祖。如果你准备申请宝洁、联合利华等外企，HireVue的AI训练是必做的功课。它擅长分析微表情和英语语音语调，帮助你适应国际化的视频初筛。",
+        "source": "web",
+        "title": "面试太紧张？这6款2025年最火AI面试软件，让你在家偷偷变强！ - 网易",
+        "url": "https://www.163.com/dy/article/KFSAAPOC0556I350.html"
+      },
+      {
+        "date": "2024-08-23",
+        "last_updated": "2026-05-03",
+        "place_metadata": null,
+        "snippet": "牛客AI面试是一款专注于模拟真实面试环境的工具，通过智能算法分析和反馈您的表现。其特点包括：\n...\nInterviewing.io 提供实时在线模拟技术面试服务，帮助用户熟悉常见问题并提升答题技巧。其主要特点包括：\n...\nPramp 专注于点对点（peer-to-peer）模拟面试，帮助用户与其他求职者互相练习。其特点包括：\n...\nLeetCode 是知名编程题库平台，同时也提供模拟面试功能。其主要优势包括：\n...\nCodeSignal 提供在线编码测试和技术面试服务，旨在提高候选人的编程能力和面试技巧。其特点包括：\n...\nHackerRank 是一个全面的技术招聘平台，为求职者提供...",
+        "source": "web",
+        "title": "顶级AI面试工具精选推荐 - 牛客企业版",
+        "url": "https://hr.nowcoder.com/article/2013"
+      },
+      {
+        "date": "2025-04-22",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "多面鹅是一款专为求职者打造的AI面试平台，它通过模拟面试和实时提醒，帮助你在面试中自信展示才华与潜力。它的优势在于能够提供即时反馈和指导，提升你的回答质量和自信心。多面鹅官网提供了全面的服务，包括AI模拟面试、智能面试押题等，是你面试准备的不二之选。\n...\n蓝字典是AI求职工具，在AI面试方面，提供了模拟面试环境，帮助用户提前适应面试氛围。用户可以选择具体的岗位进行模拟面试，面试形式包括选择题和解答题，覆盖130+面试岗位，如互联网运营、新媒体运营、产品经理等。面试结束后，蓝字典会计算得分，给出是否通过面试的结果。可以帮助求职者熟悉面试流程，提高面试技巧和成功率。\n...\nJobJump是A...",
+        "source": "web",
+        "title": "10款免费AI面试助手，让你的求职更高效原创",
+        "url": "https://blog.csdn.net/offergoose/article/details/147413130"
+      },
+      {
+        "date": "2026-02-23",
+        "last_updated": "2026-02-27",
+        "place_metadata": null,
+        "snippet": "AI 面試準備工具會根據您的背景和目標職位，提供客製化的問題和標準答案，幫助您掌控下一次面試。只需添加您的履歷和職位描述。\nAI 將根據職位要求分析您的履歷，並為您提供客製化的面試問題和答案。立即體驗個人化的模擬面試。",
+        "source": "web",
+        "title": "AI Interview Prep - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK"
+      },
+      {
+        "date": "2025-08-12",
+        "last_updated": "2026-03-23",
+        "place_metadata": null,
+        "snippet": "**推荐工具：** InterviewAssistant即答侠免费提供这项功能，上传简历和JD就能得到详细的匹配分析报告。\n...\n**实测工具推荐：**\n- **高端全面：** 多面鹅（付费，功能最丰富）\n- **免费实用：** InterviewAssistant即答侠（完全免费，基础功能齐全）\n- **技术专业：** Offerin AI（程序员面试特化）\n...\n- 主推：InterviewAssistant即答侠（免费）\n- 辅助：文心一言、通义千问（免费/低价）\n**职场人士/预算充足：**\n- 主推：多面鹅（功能最全）\n- 辅助：ChatGPT Plus（定制性强）\n**技术岗专...",
+        "source": "web",
+        "title": "【面试实战】2025秋招必备：AI面试工具深度测评与面试复盘 ...",
+        "url": "https://blog.csdn.net/2506_93005598/article/details/150242433"
+      },
+      {
+        "date": "2024-12-01",
+        "last_updated": "2024-12-03",
+        "place_metadata": null,
+        "snippet": "智面星是AI面试助手，帮助求职者提升面试技巧。通过实时识别面试问题提供专业回答建议，增强用户在面试中的表现。智面星具备个性化模拟面试功能，结合用户简历生成定制问题，通过反馈报告帮助用户识别优势和不足。\n...\n蓝字典是AI求职工具，在AI面试方面，提供了模拟面试环境，帮助用户提前适应面试氛围。用户可以选择具体的岗位进行模拟面试，面试形式包括选择题和解答题，覆盖130+面试岗位，如互联网运营、新媒体运营、产品经理等。面试结束后，蓝字典会计算得分，给出是否通过面试的结果。可以帮助求职者熟悉面试流程，提高面试技巧和成功率。\n...\nJobJump是AI面试助手工具，通过实时答案提示帮助求职者准备面试...",
+        "source": "web",
+        "title": "10个免费的AI面试助手，求职笔试和面试辅助工具 | AI工具集",
+        "url": "https://yanghaixiong.com/ai/ai%E5%B7%A5%E5%85%B7/6789/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "面试猫是强大的 AI 求职助手，实时 AI 面试辅助、AI 笔试辅助、AI 简历优化和面试总结，最强大模型辅助，助你轻松拿Offer。",
+        "source": "web",
+        "title": "面试猫-AI面试助手，在线面试神器，实时答案生成",
+        "url": "https://www.offermore.cc/"
+      },
+      {
+        "date": "2025-10-16",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "使用AI面试工具进行场景化练习，例如：\n- ​**​面试猫​**​：覆盖多语言题库，支持实时语音识别并生成表达逻辑分析报告；\n- ​**​HireVue​**​：通过微表情评估抗压能力，适合快消、金融行业；\n- ​**​多面鹅​**​：针对互联网岗位设计追问题库，可对比参考答案。\n...\n工具如面试猫实时助手可在真实面试中语音识别问题，生成关键词提示（如冲突处理题提示“倾听-协商-落地”步骤）。但需注意：",
+        "source": "web",
+        "title": "2025年AI面试实战指南：原理剖析到避坑技巧",
+        "url": "https://blog.csdn.net/INRI_CSDN/article/details/153415103"
+      },
+      {
+        "date": "2024-09-30",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "包阅AI提供免费AI读论文/报告/合同，主要针对文档内容和AI对话结论，均可生成笔记。个人感受使用下来比较方便，可帮助大家快速积累相关技术的论文综述及理论知识，有助于面试前期搭建自己的知识库。",
+        "source": "web",
+        "title": "AI面试指南：AI工具总结评测，助力求职季",
+        "url": "https://blog.csdn.net/qq_36816848/article/details/142658464"
+      },
+      {
+        "date": "2026-02-16",
+        "last_updated": "2026-02-21",
+        "place_metadata": null,
+        "snippet": "Interview Practice 是一款由人工智能驱动的应用程序，帮助你准备工作面试。根据你的简历和职位描述获取个性化问题，通过语音录音进行练习，并获得即时的人工智能反馈来提高表现。",
+        "source": "web",
+        "title": "Interview Practice AI – 面试练习",
+        "url": "https://play.google.com/store/apps/details?id=com.albcoding.interview&hl=zh"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 725,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00073,
+        "request_cost": 0.005,
+        "total_cost": 0.00576
+      },
+      "prompt_tokens": 39,
+      "search_context_size": "low",
+      "total_tokens": 764
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:21:31.659433Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试，可根据**通用模拟**、**技术/代码专项**和**知识库构建**三大需求，选择以下工具：\n\n### 1. 通用模拟与表达训练（适合非技术面或初筛）\n*   **面试猫 AI 面试助手**：专为 AI 面试准备打造，可根据岗位能力要求生成对应问题及**答案模板**，支持实时语音识别并生成**表达逻辑分析报告**[1][10]。\n*   **多面鹅**：提供**AI 模拟面试**和智能押题，能针对互联网岗位设计**追问题库**并提供即时反馈，功能覆盖最丰富（部分付费）[3][5][7]。\n*   **InterviewAssistant（即答侠）**：可上传**简历和 JD**（职位描述）生成匹配分析报告，提供免费的详细面试问题与答案，适合预算有限的求职者 [7]。\n*   **HireVue**：全球 AI 视频面试鼻祖，擅长分析**微表情**和**英语语音语调**，适合准备外企（如宝洁、联合利华）或世界 500强面试 [3][10]。\n\n### 2. 技术岗位专项（适合算法、开发等硬核面试）\n*   **牛客（Niuke）APP**：程序员首选，深度集成**在线代码考核（Coding）**，能对 Java、C++、**算法**等技术栈进行深度追问，是通往大厂必经之路 [3][4]。\n*   **Offerin AI**：专为**程序员面试**特化，适合技术岗深度准备 [7]。\n*   **LeetCode / CodeSignal / HackerRank**：知名编程题库平台，除刷题外均提供**模拟技术面试**功能，用于提升编程能力和答题技巧 [4]。\n*   **GitHub Copilot**：虽主要作为代码辅助工具，但在面试中可用于辅助解决**代码类问题**或进行思路验证 [7]。\n\n### 3. 知识库构建与理论准备\n*   **包阅 AI**：可快速阅读并解析**技术论文/报告**，生成笔记和综述，帮助在面试前期快速搭建**技术知识库** [11]。\n*   **通用大模型（如通义千问、ChatGPT Plus）**：作为辅助工具，可用于**定制性强**的模拟面试对话或生成特定场景的解答思路 [7]。\n\n**建议策略**：先用**包阅 AI**或大模型梳理技术理论，再使用**牛客**或**LeetCode**进行代码实战训练，最后通过**面试猫**或**多面鹅**进行全真模拟和表达逻辑优化。注意在真实面试中合理使用工具提示，避免过度依赖导致逻辑生硬 [10]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

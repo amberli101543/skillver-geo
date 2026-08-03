@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "KAE 技能体系（Knowledge, Ability, Experience）是一种基于知识、能力和经验三个维度的能力评估模型。它通常用于人力资源管理和人才发展，帮助企业或组织系统性地分析员工或候选人的综合能力。\n\n- **知识**：指个人在特定领域掌握的理论、事实和信息（如专业知识、行业规范）。\n- **能力**：指将知识转化为实际行动的技能，包括软技能（沟通、领导力）和硬技能（技术操作、编程）。\n- **经验**：指通过实践积累的履历、项目经历和解决问题的方法。\n\n该体系强调从“知道什么”到“会做什么”再到“做过什么”的递进关系，常用于岗位胜任力建模、培训规划或招聘评估。",
+  "sources": [],
+  "raw": {
+    "id": "d38ff2e1-8f7c-4934-91c3-100a81730f93",
+    "object": "chat.completion",
+    "created": 1784600018,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "KAE 技能体系（Knowledge, Ability, Experience）是一种基于知识、能力和经验三个维度的能力评估模型。它通常用于人力资源管理和人才发展，帮助企业或组织系统性地分析员工或候选人的综合能力。\n\n- **知识**：指个人在特定领域掌握的理论、事实和信息（如专业知识、行业规范）。\n- **能力**：指将知识转化为实际行动的技能，包括软技能（沟通、领导力）和硬技能（技术操作、编程）。\n- **经验**：指通过实践积累的履历、项目经历和解决问题的方法。\n\n该体系强调从“知道什么”到“会做什么”再到“做过什么”的递进关系，常用于岗位胜任力建模、培训规划或招聘评估。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 152,
+      "total_tokens": 188,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 36
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:13:40.839418Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "KAE 技能体系（Knowledge, Ability, Experience）是一种基于知识、能力和经验三个维度的能力评估模型。它通常用于人力资源管理和人才发展，帮助企业或组织系统性地分析员工或候选人的综合能力。\n\n- **知识**：指个人在特定领域掌握的理论、事实和信息（如专业知识、行业规范）。\n- **能力**：指将知识转化为实际行动的技能，包括软技能（沟通、领导力）和硬技能（技术操作、编程）。\n- **经验**：指通过实践积累的履历、项目经历和解决问题的方法。\n\n该体系强调从“知道什么”到“会做什么”再到“做过什么”的递进关系，常用于岗位胜任力建模、培训规划或招聘评估。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

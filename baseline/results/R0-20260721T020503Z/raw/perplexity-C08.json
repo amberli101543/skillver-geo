@@ -1,0 +1,322 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "冲刺 AI 大厂面试的核心在于构建**“编码直觉 + 数学/模型理解 + 系统/商业价值”**的三维能力体系，并投入约**100 小时刷 LeetCode**与同等时间复习论文及项目细节[1][2]。\n\n### 1. 核心能力准备\n面试官最在意的三个核心能力是：\n*   **编码直觉**：刷题不是为了背答案，而是培养条件反射级的编码能力。建议主攻 **LeetCode Medium** 甚至 **Hard 偏简单** 的题目，掌握最优解；语言不限，关键要代码整洁（code clean）[1][5]。\n*   **数学与模型理解**：学习数学旨在理解模型背后的物理意义，而非应付面试。需深入理解深度学习原理、优化算法及数学推导 [1]。\n*   **系统设计与商业价值**：研究系统设计是为了让算法产生真实的商业价值，而非单纯炫技。需掌握如何将算法落地为工程系统 [1]。\n\n### 2. 项目与实战准备\n*   **项目讲述**：对着镜子用自己的话讲项目，确保能清晰回答**项目来龙去脉、核心细节（如 RAG/Agent 实操、向量库部署）、工程化难点**（如延迟优化、高并发）5 个问题 [4]。面试前至少完整讲**3 遍**核心项目，每遍优化表达 [4]。\n*   **真实项目练习**：技术岗最好的练习方式是拿**真实项目**练，而非单纯问 AI 问题，将 AI 融入工作流 [3]。\n*   **业务调研**：面试前花 2 小时搞清目标公司的**大模型产品、用户定位及行业定位**，甚至体验产品并寻找优化点 [4]。\n*   **成果展示**：在 GitHub 发布带演示和文档的项目，争取学术引用、GitHub Star 或开源贡献，让成果被看到 [2]。\n\n### 3. 基础复习与刷题策略\n*   **刷题量**：建议刷到 **300~400 道** 高频算法题，按 Tag 分类型刷题，先理解核心思想再动手 [7]。\n*   **基础知识**：公式为 **刷题 (LeetCode/剑指 Offer) + AI 基础 + 编程基础 + 面试八股文 + 项目 + 实习 + 竞赛** [9]。\n*   **查漏补缺**：务必上网搜索**面试题清单**，对照清单准备以发现知识树疏漏；面试后记录被问问题，整理知识盲区 [11]。\n*   **编程语言**：必须有一门自己非常熟悉的语言 [6]。\n\n### 4. 面试全流程与心态\n*   **时间投入**：建议投入约 **100 小时** 做 LeetCode，再花同样时间读论文、复习知识及交流 [2]。\n*   **技术展示**：准备一个**演讲**（用幻灯片讲解）介绍过往工作，比单纯口述更好 [2]。\n*   **心态与诚实**：对知道和不知道的知识保持**自信和诚实**，不知道的直接说，不要故作思考；理解面试官提示并找到方案是加分项 [13]。\n*   **后勤准备**：面试前早睡，熟悉视频会议平台（Zoom/Teams 等）及编程工具（Coderpad/Colab），确保吃饱、备好水 [2]。\n*   **提前规划**：尽早丰富简历（学校、比赛、论文），算法岗非科班出身建议去大厂实习，利用**提前批**机会（名额较多）[6]。\n\n### 5. 推荐资源\n*   **题库**：LeetCode、剑指 Offer、LintCode Medium [5][9]。\n*   **攻略**：Deep-Learning-Interview-Book（含面试经验）、AI-Job-Notes（涵盖准备到刷题攻略）[6][9]。\n*   **工具**：Resume Revamp 优化简历，Deep Research 复习知识 [2][12]。\n\n**总结**：不要做“做题家”，要蜕变为“能解决真实问题的架构师”。将基础岗位能力补好，再将 AI 融入工作流，通过高频刷题和深度项目复盘，才能在 AI 大厂面试中脱颖而出 [1][3]。",
+  "sources": [
+    {
+      "url": "https://blog.csdn.net/2501_91798322/article/details/148344401",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/K89PFG6T0511CSAO.html",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7643394566724796450",
+      "title": ""
+    },
+    {
+      "url": "https://2048ai.net/69ddae280a2f6a37c59f8046.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/JiuZhang_ninechapter/article/details/132067851",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/spark_tang/article/details/121222263",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/nut-king/p/20217575",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/amusi/AI-Job-Notes",
+      "title": ""
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/353157378914852864",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2401_84495872/article/details/149396973",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1146739",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1165901",
+      "title": ""
+    },
+    {
+      "url": "http://www.news.cn/fortune/20240612/0a495de206b548fcafa06632bc417b68/c.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2501_91798322/article/details/148344401",
+      "title": "校招生必看：大厂AI岗面试官最在意的3个核心能力（人工智能丨深度学习丨算法工程师丨AI产品经理丨就业）"
+    },
+    {
+      "url": "https://www.163.com/dy/article/K89PFG6T0511CSAO.html",
+      "title": "爆料AI 大厂面试全流程，顶级大佬秘籍亲测有效，建议直接收藏"
+    },
+    {
+      "url": "https://juejin.cn/post/7643394566724796450",
+      "title": "大厂校招变了：AI 能力正在进入笔试和面试 - 稀土掘金"
+    },
+    {
+      "url": "https://2048ai.net/69ddae280a2f6a37c59f8046.html",
+      "title": "2048 AI社区"
+    },
+    {
+      "url": "https://blog.csdn.net/JiuZhang_ninechapter/article/details/132067851",
+      "title": "全网首发！AI大佬手把手整理的AI/ML面试全攻略（附最新面试题库 ..."
+    },
+    {
+      "url": "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md",
+      "title": "Deep-Learning-Interview-Book/docs/面试经验.md at master · amusi/Deep-Learning-Interview-Book"
+    },
+    {
+      "url": "https://blog.csdn.net/spark_tang/article/details/121222263",
+      "title": "如何准备互联网大厂算法面试和笔试？"
+    },
+    {
+      "url": "https://www.cnblogs.com/nut-king/p/20217575",
+      "title": "你还会写代码吗？”——大厂必考的8个AI工程化面试地狱级 ..."
+    },
+    {
+      "url": "https://github.com/amusi/AI-Job-Notes",
+      "title": "amusi/AI-Job-Notes: AI算法岗求职攻略（涵盖准备攻略、刷题 ..."
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/353157378914852864",
+      "title": "两个多月后就要开始春招啦，如何快速准备算法刷题"
+    },
+    {
+      "url": "https://blog.csdn.net/2401_84495872/article/details/149396973",
+      "title": "【大厂算法实习面试指南】别人都在偷偷刷！大模型算法工程师经典百问！"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1146739",
+      "title": "从构建关系网到面试最后一问，这是一份AI公司应聘全面指南-腾讯云开发者社区-腾讯云"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1165901",
+      "title": "找工作必看！面试过多家 AI 公司和初创企业，这些经验分享给你-腾讯云开发者社区-腾讯云"
+    },
+    {
+      "url": "http://www.news.cn/fortune/20240612/0a495de206b548fcafa06632bc417b68/c.html",
+      "title": "AI凝视下，求职者与招聘企业如何才能“双向奔赴”？"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "冲刺 AI 大厂面试的核心在于构建**“编码直觉 + 数学/模型理解 + 系统/商业价值”**的三维能力体系，并投入约**100 小时刷 LeetCode**与同等时间复习论文及项目细节[1][2]。\n\n### 1. 核心能力准备\n面试官最在意的三个核心能力是：\n*   **编码直觉**：刷题不是为了背答案，而是培养条件反射级的编码能力。建议主攻 **LeetCode Medium** 甚至 **Hard 偏简单** 的题目，掌握最优解；语言不限，关键要代码整洁（code clean）[1][5]。\n*   **数学与模型理解**：学习数学旨在理解模型背后的物理意义，而非应付面试。需深入理解深度学习原理、优化算法及数学推导 [1]。\n*   **系统设计与商业价值**：研究系统设计是为了让算法产生真实的商业价值，而非单纯炫技。需掌握如何将算法落地为工程系统 [1]。\n\n### 2. 项目与实战准备\n*   **项目讲述**：对着镜子用自己的话讲项目，确保能清晰回答**项目来龙去脉、核心细节（如 RAG/Agent 实操、向量库部署）、工程化难点**（如延迟优化、高并发）5 个问题 [4]。面试前至少完整讲**3 遍**核心项目，每遍优化表达 [4]。\n*   **真实项目练习**：技术岗最好的练习方式是拿**真实项目**练，而非单纯问 AI 问题，将 AI 融入工作流 [3]。\n*   **业务调研**：面试前花 2 小时搞清目标公司的**大模型产品、用户定位及行业定位**，甚至体验产品并寻找优化点 [4]。\n*   **成果展示**：在 GitHub 发布带演示和文档的项目，争取学术引用、GitHub Star 或开源贡献，让成果被看到 [2]。\n\n### 3. 基础复习与刷题策略\n*   **刷题量**：建议刷到 **300~400 道** 高频算法题，按 Tag 分类型刷题，先理解核心思想再动手 [7]。\n*   **基础知识**：公式为 **刷题 (LeetCode/剑指 Offer) + AI 基础 + 编程基础 + 面试八股文 + 项目 + 实习 + 竞赛** [9]。\n*   **查漏补缺**：务必上网搜索**面试题清单**，对照清单准备以发现知识树疏漏；面试后记录被问问题，整理知识盲区 [11]。\n*   **编程语言**：必须有一门自己非常熟悉的语言 [6]。\n\n### 4. 面试全流程与心态\n*   **时间投入**：建议投入约 **100 小时** 做 LeetCode，再花同样时间读论文、复习知识及交流 [2]。\n*   **技术展示**：准备一个**演讲**（用幻灯片讲解）介绍过往工作，比单纯口述更好 [2]。\n*   **心态与诚实**：对知道和不知道的知识保持**自信和诚实**，不知道的直接说，不要故作思考；理解面试官提示并找到方案是加分项 [13]。\n*   **后勤准备**：面试前早睡，熟悉视频会议平台（Zoom/Teams 等）及编程工具（Coderpad/Colab），确保吃饱、备好水 [2]。\n*   **提前规划**：尽早丰富简历（学校、比赛、论文），算法岗非科班出身建议去大厂实习，利用**提前批**机会（名额较多）[6]。\n\n### 5. 推荐资源\n*   **题库**：LeetCode、剑指 Offer、LintCode Medium [5][9]。\n*   **攻略**：Deep-Learning-Interview-Book（含面试经验）、AI-Job-Notes（涵盖准备到刷题攻略）[6][9]。\n*   **工具**：Resume Revamp 优化简历，Deep Research 复习知识 [2][12]。\n\n**总结**：不要做“做题家”，要蜕变为“能解决真实问题的架构师”。将基础岗位能力补好，再将 AI 融入工作流，通过高频刷题和深度项目复盘，才能在 AI 大厂面试中脱颖而出 [1][3]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://blog.csdn.net/2501_91798322/article/details/148344401",
+      "https://www.163.com/dy/article/K89PFG6T0511CSAO.html",
+      "https://juejin.cn/post/7643394566724796450",
+      "https://2048ai.net/69ddae280a2f6a37c59f8046.html",
+      "https://blog.csdn.net/JiuZhang_ninechapter/article/details/132067851",
+      "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md",
+      "https://blog.csdn.net/spark_tang/article/details/121222263",
+      "https://www.cnblogs.com/nut-king/p/20217575",
+      "https://github.com/amusi/AI-Job-Notes",
+      "https://www.nowcoder.com/discuss/353157378914852864",
+      "https://blog.csdn.net/2401_84495872/article/details/149396973",
+      "https://cloud.tencent.com/developer/article/1146739",
+      "https://cloud.tencent.com/developer/article/1165901",
+      "http://www.news.cn/fortune/20240612/0a495de206b548fcafa06632bc417b68/c.html"
+    ],
+    "created": 1784600793,
+    "id": "71a735a2-23da-45e3-a59d-b21c5529e5d1",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2025-05-30",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "校招生们，请记住：**刷LeetCode不是为了背答案，而是培养条件反射级的编码直觉；学数学不是为了应付面试，而是理解模型背后的物理意义；研究系统设计不是为了炫技，而是让你的算法真正产生商业价值**。当这三个能力形成合力，你才能从“做题家”蜕变为“能解决真实问题的架构师”。",
+        "source": "web",
+        "title": "校招生必看：大厂AI岗面试官最在意的3个核心能力（人工智能丨深度学习丨算法工程师丨AI产品经理丨就业）",
+        "url": "https://blog.csdn.net/2501_91798322/article/details/148344401"
+      },
+      {
+        "date": "2025-08-31",
+        "last_updated": "2025-09-04",
+        "place_metadata": null,
+        "snippet": "我发现自己在前一份工作中，也因为面试准备而变得更优秀。以一个数量级来建议的话，我推荐大约投入 100 小时做 LeetCode 练习，再花差不多的时间读论文、复习知识（可以用 Deep Research!）、以及和朋友交流。\n...\n照顾好自己的基本需求。面试前一天要早点睡。根据需要开空气净化器、空调或取暖器。面试前 30 分钟，可以出去散步或者和猫咪玩一会儿。确保自己吃饱、上过厕所，并把水准备好（我会同时摆上水、咖啡、冰茶和康普茶）。如果你有颈椎或背部问题，提前吃点止痛药并做拉伸。\n...\n熟悉视频会议平台。不同公司可能用 Zoom、Google Meet、Microsoft Teams、A...",
+        "source": "web",
+        "title": "爆料AI 大厂面试全流程，顶级大佬秘籍亲测有效，建议直接收藏",
+        "url": "https://www.163.com/dy/article/K89PFG6T0511CSAO.html"
+      },
+      {
+        "date": "2026-05-25",
+        "last_updated": "2026-07-04",
+        "place_metadata": null,
+        "snippet": "应届生准备 AI 能力，不建议一上来就追复杂工具。\n更现实的路径是： 先把基础岗位能力补好，再把 AI 融入工作流。\n...\n**技术岗同学最好的练习方式，不是单纯问 AI 问题，而是拿真实项目练。**\n...\n建议你准备一个固定结构：",
+        "source": "web",
+        "title": "大厂校招变了：AI 能力正在进入笔试和面试 - 稀土掘金",
+        "url": "https://juejin.cn/post/7643394566724796450"
+      },
+      {
+        "date": "2026-04-14",
+        "last_updated": "2026-04-14",
+        "place_metadata": null,
+        "snippet": "给大家一个简单的判断标准：对着镜子，把你做过的每个项目，用自己的话讲一遍，不要背简历上的话术，就当是和同行朋友聊天，聊你做这件事的来龙去脉。能讲清楚以下5个问题，这个项目才算真正准备到位，才能应对面试官的追问：\n...\n拆解完之后，你就知道该怎么准备了：核心准备RAG/Agent的项目实操细节、向量库的使用经验（比如Chroma的部署、优化）、工程化落地的难点（比如延迟优化、高并发处理）；加分项可以在面试前花1-2小时补一下金融行业的基础数据处理知识，不用太深，能聊两句就行。\n...\n第一件事：**把目标公司的大模型相关业务搞清楚**。\n不用做太深的行业研究，花2小时就够了：去看公司的官网、技...",
+        "source": "web",
+        "title": "2048 AI社区",
+        "url": "https://2048ai.net/69ddae280a2f6a37c59f8046.html"
+      },
+      {
+        "date": "2023-08-02",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "综上所述，比较稳妥的准备方式是：LintCode Medium 的题，甚至 Hard 偏简单点的题，要会最优解。其他更难的题，应该知道次优解。语言无所谓，code clean 就好。",
+        "source": "web",
+        "title": "全网首发！AI大佬手把手整理的AI/ML面试全攻略（附最新面试题库 ...",
+        "url": "https://blog.csdn.net/JiuZhang_ninechapter/article/details/132067851"
+      },
+      {
+        "date": "2019-06-24",
+        "last_updated": "2026-04-16",
+        "place_metadata": null,
+        "snippet": "3. **能提前准备尽量别临时抱佛脚**。这是很多同学意识不到的，其实我们的秋招不止发生在这几个月，从你简历上第一段经历开始，已经是在为求职铺路了。学校，比赛，论文，其实这些都是面试的主要参考，如果能在更早的让简历变的丰富，让自己的编程和算法基本功变得扎实，将会在秋招中脱颖而出。\n...\n1. 一定要有一门自己比较熟悉的语言。\n...\n楼主主要刷了剑指offer以及leetcode上的easy,middle的题目。如果编程能力不是很强，推荐可以分类型进行刷题，按照tag来刷，对于某一类型的题目，可以先看一下该算法的核心思想，然后再刷题。楼主在求职的过程中，遇到好多跟leetcode上类似的题目...",
+        "source": "web",
+        "title": "Deep-Learning-Interview-Book/docs/面试经验.md at master · amusi/Deep-Learning-Interview-Book",
+        "url": "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md"
+      },
+      {
+        "date": "2023-03-14",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "算法面试和笔试的准备，只需要两大步：**啃基础、刷适量的题**\n...\n**现在的话，想通过所有算法面试的话，最好是要刷到 300~400 道左右的高频算法题了**",
+        "source": "web",
+        "title": "如何准备互联网大厂算法面试和笔试？",
+        "url": "https://blog.csdn.net/spark_tang/article/details/121222263"
+      },
+      {
+        "date": "2026-05-30",
+        "last_updated": "2026-06-22",
+        "place_metadata": null,
+        "snippet": "- **Step 1：投喂你的真实简历与JD（生成专属毒舌考官）**",
+        "source": "web",
+        "title": "你还会写代码吗？”——大厂必考的8个AI工程化面试地狱级 ...",
+        "url": "https://www.cnblogs.com/nut-king/p/20217575"
+      },
+      {
+        "date": "2019-02-11",
+        "last_updated": "2025-10-15",
+        "place_metadata": null,
+        "snippet": "**公式：刷题(LeetCode/剑指Offer) + AI基础知识 + 编程基础知识 + 面试八股文(cs/AI) + 项目 + 实习 + 竞赛 +顶会/顶刊**",
+        "source": "web",
+        "title": "amusi/AI-Job-Notes: AI算法岗求职攻略（涵盖准备攻略、刷题 ...",
+        "url": "https://github.com/amusi/AI-Job-Notes"
+      },
+      {
+        "date": "2020-11-28",
+        "last_updated": "2025-02-04",
+        "place_metadata": null,
+        "snippet": "所以非常建议大家算法基础不强且时间有限的同学学习，可以反复观看，并且切记要动手刷完上面的所有题目，那些都是面试高频题目，考到的相同类型的题目概率很大。",
+        "source": "web",
+        "title": "两个多月后就要开始春招啦，如何快速准备算法刷题",
+        "url": "https://www.nowcoder.com/discuss/353157378914852864"
+      },
+      {
+        "date": "2025-07-16",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "最重要的一点，准备面试一定要上网搜面试题，照着面试题清单准备，以避免遗漏知识点，很重要！在你去看别人整理的面试题前，你是不会知道你的知识树哪里有疏漏的。也很推荐自己每次面试后记录下被问的问题，整理出知识盲区和高频考点，重点准备高频考点的内容，想办法将回答答得更详细，面试过程中一个（比别人）详尽而有深度的回答也是亮点。",
+        "source": "web",
+        "title": "【大厂算法实习面试指南】别人都在偷偷刷！大模型算法工程师经典百问！",
+        "url": "https://blog.csdn.net/2401_84495872/article/details/149396973"
+      },
+      {
+        "date": "2018-06-12",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "1）做好监管准备：即准备好领英档案、Github 档案、个人网站以及一份精心打造的简历等材料。首先，你的简历应该非常整洁和精炼。可以根据 Resume Revamp（https://career-resource-center.udacity.com/resume/resume-revamp）来规划简历，它包含我想说的所有有关简历的内容，我自己也一直用它作为参考。",
+        "source": "web",
+        "title": "从构建关系网到面试最后一问，这是一份AI公司应聘全面指南-腾讯云开发者社区-腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/1146739"
+      },
+      {
+        "date": "2018-07-26",
+        "last_updated": "2026-03-27",
+        "place_metadata": null,
+        "snippet": "a）**把常规性的准备工作做好**。常规性的准备工作是指：LinkedIn 个人资料，Github 个人资料，作品在线展示的网页和一个润色好的简历。首先，你的简历应该真正的简洁精练。可以通过 Udacity 上的 Resume Revamp 课程美化你的简历。\n...\n在整个问答过程中，一定要对你知道和不知道的知识保持自信和诚实，这很重要。对于确定不知道的问题，直接说不知道，不要故作思考。如果某个概念真的很重要，但是你觉得很难表达，这时候面试官通常会给你提示，或者一些指导，来让你找到正确的解决方案（取决于面试开始阶段你的表现）。正确理解面试官的提示并且找到正确的解决方案是一个很大的加分项。尽量...",
+        "source": "web",
+        "title": "找工作必看！面试过多家 AI 公司和初创企业，这些经验分享给你-腾讯云开发者社区-腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/1165901"
+      },
+      {
+        "date": "2024-06-12",
+        "last_updated": "2025-09-18",
+        "place_metadata": null,
+        "snippet": "肖陆军认为，面对AI面试，应聘者需要对题库和考察内容有所了解和准备，但更重要的是持续拓宽自己的知识视野，不断提升个人的综合素养。只有这样，才能自如应对越来越“聪明”的AI面试官，实现自己的职业梦想。",
+        "source": "web",
+        "title": "AI凝视下，求职者与招聘企业如何才能“双向奔赴”？",
+        "url": "http://www.news.cn/fortune/20240612/0a495de206b548fcafa06632bc417b68/c.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 1112,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00111,
+        "request_cost": 0.005,
+        "total_cost": 0.00615
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 1148
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:26:33.303045Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "冲刺 AI 大厂面试的核心在于构建**“编码直觉 + 数学/模型理解 + 系统/商业价值”**的三维能力体系，并投入约**100 小时刷 LeetCode**与同等时间复习论文及项目细节[1][2]。\n\n### 1. 核心能力准备\n面试官最在意的三个核心能力是：\n*   **编码直觉**：刷题不是为了背答案，而是培养条件反射级的编码能力。建议主攻 **LeetCode Medium** 甚至 **Hard 偏简单** 的题目，掌握最优解；语言不限，关键要代码整洁（code clean）[1][5]。\n*   **数学与模型理解**：学习数学旨在理解模型背后的物理意义，而非应付面试。需深入理解深度学习原理、优化算法及数学推导 [1]。\n*   **系统设计与商业价值**：研究系统设计是为了让算法产生真实的商业价值，而非单纯炫技。需掌握如何将算法落地为工程系统 [1]。\n\n### 2. 项目与实战准备\n*   **项目讲述**：对着镜子用自己的话讲项目，确保能清晰回答**项目来龙去脉、核心细节（如 RAG/Agent 实操、向量库部署）、工程化难点**（如延迟优化、高并发）5 个问题 [4]。面试前至少完整讲**3 遍**核心项目，每遍优化表达 [4]。\n*   **真实项目练习**：技术岗最好的练习方式是拿**真实项目**练，而非单纯问 AI 问题，将 AI 融入工作流 [3]。\n*   **业务调研**：面试前花 2 小时搞清目标公司的**大模型产品、用户定位及行业定位**，甚至体验产品并寻找优化点 [4]。\n*   **成果展示**：在 GitHub 发布带演示和文档的项目，争取学术引用、GitHub Star 或开源贡献，让成果被看到 [2]。\n\n### 3. 基础复习与刷题策略\n*   **刷题量**：建议刷到 **300~400 道** 高频算法题，按 Tag 分类型刷题，先理解核心思想再动手 [7]。\n*   **基础知识**：公式为 **刷题 (LeetCode/剑指 Offer) + AI 基础 + 编程基础 + 面试八股文 + 项目 + 实习 + 竞赛** [9]。\n*   **查漏补缺**：务必上网搜索**面试题清单**，对照清单准备以发现知识树疏漏；面试后记录被问问题，整理知识盲区 [11]。\n*   **编程语言**：必须有一门自己非常熟悉的语言 [6]。\n\n### 4. 面试全流程与心态\n*   **时间投入**：建议投入约 **100 小时** 做 LeetCode，再花同样时间读论文、复习知识及交流 [2]。\n*   **技术展示**：准备一个**演讲**（用幻灯片讲解）介绍过往工作，比单纯口述更好 [2]。\n*   **心态与诚实**：对知道和不知道的知识保持**自信和诚实**，不知道的直接说，不要故作思考；理解面试官提示并找到方案是加分项 [13]。\n*   **后勤准备**：面试前早睡，熟悉视频会议平台（Zoom/Teams 等）及编程工具（Coderpad/Colab），确保吃饱、备好水 [2]。\n*   **提前规划**：尽早丰富简历（学校、比赛、论文），算法岗非科班出身建议去大厂实习，利用**提前批**机会（名额较多）[6]。\n\n### 5. 推荐资源\n*   **题库**：LeetCode、剑指 Offer、LintCode Medium [5][9]。\n*   **攻略**：Deep-Learning-Interview-Book（含面试经验）、AI-Job-Notes（涵盖准备到刷题攻略）[6][9]。\n*   **工具**：Resume Revamp 优化简历，Deep Research 复习知识 [2][12]。\n\n**总结**：不要做“做题家”，要蜕变为“能解决真实问题的架构师”。将基础岗位能力补好，再将 AI 融入工作流，通过高频刷题和深度项目复盘，才能在 AI 大厂面试中脱颖而出 [1][3]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

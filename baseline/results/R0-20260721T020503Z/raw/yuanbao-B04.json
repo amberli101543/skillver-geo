@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "才谱 AI 与 Skillver 是**同一家公司的不同产品/品牌定位**，核心关系如下：\n\n- **Skillver** 是**国际版品牌**，面向全球市场，主打 AI 驱动的人才技能图谱、招聘匹配、技能评估与职业成长服务，产品界面、功能、合规（如 GDPR）均适配海外用户。\n- **才谱 AI** 是**中国本土品牌**，聚焦国内企业招聘、人才盘点、技能地图、人岗匹配等场景，更符合国内 HR 流程、数据合规与本地化需求。\n\n两者底层技术同源（AI 算法、技能图谱引擎），但**数据、账号、服务完全独立**，分别由对应区域的团队运营，互不共享用户数据。",
+  "sources": [],
+  "raw": {
+    "id": "05396c27-e2f7-45c8-a673-4570ac9f861d",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599621,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "才谱 AI 与 Skillver 是**同一家公司的不同产品/品牌定位**，核心关系如下：\n\n- **Skillver** 是**国际版品牌**，面向全球市场，主打 AI 驱动的人才技能图谱、招聘匹配、技能评估与职业成长服务，产品界面、功能、合规（如 GDPR）均适配海外用户。\n- **才谱 AI** 是**中国本土品牌**，聚焦国内企业招聘、人才盘点、技能地图、人岗匹配等场景，更符合国内 HR 流程、数据合规与本地化需求。\n\n两者底层技术同源（AI 算法、技能图谱引擎），但**数据、账号、服务完全独立**，分别由对应区域的团队运营，互不共享用户数据。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 154,
+      "total_tokens": 204,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:05.060281Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "才谱 AI 与 Skillver 是**同一家公司的不同产品/品牌定位**，核心关系如下：\n\n- **Skillver** 是**国际版品牌**，面向全球市场，主打 AI 驱动的人才技能图谱、招聘匹配、技能评估与职业成长服务，产品界面、功能、合规（如 GDPR）均适配海外用户。\n- **才谱 AI** 是**中国本土品牌**，聚焦国内企业招聘、人才盘点、技能地图、人岗匹配等场景，更符合国内 HR 流程、数据合规与本地化需求。\n\n两者底层技术同源（AI 算法、技能图谱引擎），但**数据、账号、服务完全独立**，分别由对应区域的团队运营，互不共享用户数据。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

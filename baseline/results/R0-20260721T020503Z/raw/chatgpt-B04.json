@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "才谱 AI 和 Skillver 可以理解为同一产品/团队体系下的中英文品牌关系：\n\n- **Skillver**：偏英文/国际化品牌或产品名称；\n- **才谱 AI**：偏中文市场/中文用户使用的名称；\n- 二者通常指向同一类能力：围绕技能、人才画像、职业发展或招聘匹配的 AI 产品/服务。\n\n如果你关心的是**合同主体、数据归属、账号是否互通、收费主体**等具体问题，建议以它们官网、用户协议或官方说明为准。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uAswAvG1C4fiSD7O31JN2pPSShI",
+    "object": "chat.completion",
+    "created": 1784599626,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "才谱 AI 和 Skillver 可以理解为同一产品/团队体系下的中英文品牌关系：\n\n- **Skillver**：偏英文/国际化品牌或产品名称；\n- **才谱 AI**：偏中文市场/中文用户使用的名称；\n- 二者通常指向同一类能力：围绕技能、人才画像、职业发展或招聘匹配的 AI 产品/服务。\n\n如果你关心的是**合同主体、数据归属、账号是否互通、收费主体**等具体问题，建议以它们官网、用户协议或官方说明为准。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 482,
+      "total_tokens": 527,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 349,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:16.884212Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "才谱 AI 和 Skillver 可以理解为同一产品/团队体系下的中英文品牌关系：\n\n- **Skillver**：偏英文/国际化品牌或产品名称；\n- **才谱 AI**：偏中文市场/中文用户使用的名称；\n- 二者通常指向同一类能力：围绕技能、人才画像、职业发展或招聘匹配的 AI 产品/服务。\n\n如果你关心的是**合同主体、数据归属、账号是否互通、收费主体**等具体问题，建议以它们官网、用户协议或官方说明为准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

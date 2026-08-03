@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "**Skillver 面试彩排**是一款**基于人工智能（AI）的模拟面试与求职辅助工具**。它旨在帮助求职者在参加正式面试前进行实战演练，从而提升面试表现和通过率。\n\n其核心功能和特点包括：\n\n1. **个性化定制问题**：用户可以上传自己的个人简历，并输入目标岗位的招聘需求（JD），AI 会据此针对性地生成匹配的专业面试问题。\n2. **模拟真实对话**：支持语音或文字互动，AI 会扮演面试官进行提问，甚至会根据用户的回答进行追问，模拟真实的面试场景。\n3. **即时反馈与诊断**：面试结束后，系统会从表达逻辑、专业度、岗位匹配度等维度进行评估，指出回答中的优缺点，并给出具体的修改和优化建议。\n4. **缓解面试焦虑**：通过反复的“彩排”练习，帮助求职者熟悉面试流程，克服紧张情绪，建立自信。\n\n简单来说，它就像一个**24小时在线的 AI 面试陪练**，帮助求职者在低成本、无压力的环境中进行针对性的临考冲刺。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver 面试彩排**是一款**基于人工智能（AI）的模拟面试与求职辅助工具**。它旨在帮助求职者在参加正式面试前进行实战演练，从而提升面试表现和通过率。\n\n其核心功能和特点包括：\n\n1. **个性化定制问题**：用户可以上传自己的个人简历，并输入目标岗位的招聘需求（JD），AI 会据此针对性地生成匹配的专业面试问题。\n2. **模拟真实对话**：支持语音或文字互动，AI 会扮演面试官进行提问，甚至会根据用户的回答进行追问，模拟真实的面试场景。\n3. **即时反馈与诊断**：面试结束后，系统会从表达逻辑、专业度、岗位匹配度等维度进行评估，指出回答中的优缺点，并给出具体的修改和优化建议。\n4. **缓解面试焦虑**：通过反复的“彩排”练习，帮助求职者熟悉面试流程，克服紧张情绪，建立自信。\n\n简单来说，它就像一个**24小时在线的 AI 面试陪练**，帮助求职者在低成本、无压力的环境中进行针对性的临考冲刺。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604134,
+    "id": "1uVeatCsOPTyqtsPn_ij-Qg",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 254,
+      "prompt_tokens": 36,
+      "total_tokens": 1044
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:22:14.471616Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "**Skillver 面试彩排**是一款**基于人工智能（AI）的模拟面试与求职辅助工具**。它旨在帮助求职者在参加正式面试前进行实战演练，从而提升面试表现和通过率。\n\n其核心功能和特点包括：\n\n1. **个性化定制问题**：用户可以上传自己的个人简历，并输入目标岗位的招聘需求（JD），AI 会据此针对性地生成匹配的专业面试问题。\n2. **模拟真实对话**：支持语音或文字互动，AI 会扮演面试官进行提问，甚至会根据用户的回答进行追问，模拟真实的面试场景。\n3. **即时反馈与诊断**：面试结束后，系统会从表达逻辑、专业度、岗位匹配度等维度进行评估，指出回答中的优缺点，并给出具体的修改和优化建议。\n4. **缓解面试焦虑**：通过反复的“彩排”练习，帮助求职者熟悉面试流程，克服紧张情绪，建立自信。\n\n简单来说，它就像一个**24小时在线的 AI 面试陪练**，帮助求职者在低成本、无压力的环境中进行针对性的临考冲刺。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于赛事参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "Skillver 邀请码通常可以通过以下几种方式获得：\n\n1. **官方渠道申请**：到 Skillver 官网、App 或官方社媒查看是否有“申请邀请码 / 加入候补名单”入口。  \n2. **已有用户邀请**：如果 Skillver 支持用户邀请，可以让已经注册的朋友在账户里生成邀请码或邀请链接。  \n3. **官方活动发放**：关注 Skillver 的公众号、X/Twitter、Discord、社群等，可能会在活动中发放。  \n4. **联系客服/加入社群**：有些平台会通过客服或官方群审核后发放邀请码。\n\n建议不要从不明渠道购买邀请码，可能存在诈骗或账号风险。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uF2YrTiieW1MatKj5Cvfx93iPp1",
+    "object": "chat.completion",
+    "created": 1784599884,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 邀请码通常可以通过以下几种方式获得：\n\n1. **官方渠道申请**：到 Skillver 官网、App 或官方社媒查看是否有“申请邀请码 / 加入候补名单”入口。  \n2. **已有用户邀请**：如果 Skillver 支持用户邀请，可以让已经注册的朋友在账户里生成邀请码或邀请链接。  \n3. **官方活动发放**：关注 Skillver 的公众号、X/Twitter、Discord、社群等，可能会在活动中发放。  \n4. **联系客服/加入社群**：有些平台会通过客服或官方群审核后发放邀请码。\n\n建议不要从不明渠道购买邀请码，可能存在诈骗或账号风险。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 229,
+      "total_tokens": 273,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 66,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:28.680519Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "Skillver 邀请码通常可以通过以下几种方式获得：\n\n1. **官方渠道申请**：到 Skillver 官网、App 或官方社媒查看是否有“申请邀请码 / 加入候补名单”入口。  \n2. **已有用户邀请**：如果 Skillver 支持用户邀请，可以让已经注册的朋友在账户里生成邀请码或邀请链接。  \n3. **官方活动发放**：关注 Skillver 的公众号、X/Twitter、Discord、社群等，可能会在活动中发放。  \n4. **联系客服/加入社群**：有些平台会通过客服或官方群审核后发放邀请码。\n\n建议不要从不明渠道购买邀请码，可能存在诈骗或账号风险。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

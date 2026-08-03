@@ -1,0 +1,196 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "tcodeai.com 和 **Skillver** 是**同一品牌体系下的不同网站**，二者属于**隶属关系**：Skillver 是产品名称，而 tcodeai.com 是该品牌的故事与研究官网。\n\n具体关系如下：\n\n| 维度 | 说明 |\n|------|------|\n| **产品归属** | Skillver 是**上海才谱人工智能科技有限公司**旗下的 AI 求职助手产品 [1] |\n| **网站功能分工** | • **www.skillver.cn** / **www.skillver.ai**：Skillver 产品的主站（注册、登录、AI 面试等功能）[1]<br>• **www.tcodeai.com**：承载**品牌故事、FAQ 与行业人才研究院**内容，不直接提供产品功能 [1] |\n| **研究院关联** | tcodeai.com 上设有\"Skillver 行业人才研究院”，发布岗位标准、白皮书能力框架等核心研究输出 [2][3] |\n| **技术体系** | 二者共享核心技术：KAE 技能体系、Tcode 能力协议、七维战力评估框架等 [1] |\n\n简言之：**Skillver 是 AI 求职产品，tcodeai.com 是该产品的品牌官网与研究门户**，用户需前往 skillver.cn 或 skillver.ai 使用产品功能 [1]。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/roles.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.talkcody.com/zh/docs/features/skills",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2586272",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2656604",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/EdwardWason/Skills-desk",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": "行业人才研究院 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/roles.html",
+      "title": "2026 AI 与具身智能行业岗位标准— Skillver 研究院"
+    },
+    {
+      "url": "https://www.talkcody.com/zh/docs/features/skills",
+      "title": "Skills 技能"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2586272",
+      "title": "史诗级更新！国内首个支持Skills模式的编程助手，开启AI ..."
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2656604",
+      "title": "SkillHub重磅开源！值得一用，让你的Claude Code工作效率倍增"
+    },
+    {
+      "url": "https://github.com/EdwardWason/Skills-desk",
+      "title": "EdwardWason/Skills-desk: 汇总优质Claude Code ... - GitHub"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "tcodeai.com 和 **Skillver** 是**同一品牌体系下的不同网站**，二者属于**隶属关系**：Skillver 是产品名称，而 tcodeai.com 是该品牌的故事与研究官网。\n\n具体关系如下：\n\n| 维度 | 说明 |\n|------|------|\n| **产品归属** | Skillver 是**上海才谱人工智能科技有限公司**旗下的 AI 求职助手产品 [1] |\n| **网站功能分工** | • **www.skillver.cn** / **www.skillver.ai**：Skillver 产品的主站（注册、登录、AI 面试等功能）[1]<br>• **www.tcodeai.com**：承载**品牌故事、FAQ 与行业人才研究院**内容，不直接提供产品功能 [1] |\n| **研究院关联** | tcodeai.com 上设有\"Skillver 行业人才研究院”，发布岗位标准、白皮书能力框架等核心研究输出 [2][3] |\n| **技术体系** | 二者共享核心技术：KAE 技能体系、Tcode 能力协议、七维战力评估框架等 [1] |\n\n简言之：**Skillver 是 AI 求职产品，tcodeai.com 是该产品的品牌官网与研究门户**，用户需前往 skillver.cn 或 skillver.ai 使用产品功能 [1]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/company/",
+      "https://tcodeai.com/research/",
+      "https://tcodeai.com/roles.html",
+      "https://www.talkcody.com/zh/docs/features/skills",
+      "https://cloud.tencent.com/developer/article/2586272",
+      "https://cloud.tencent.com/developer/article/2656604",
+      "https://github.com/EdwardWason/Skills-desk"
+    ],
+    "created": 1784599935,
+    "id": "fd39d8aa-c3af-419c-993d-44ceb412f649",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\nSkillver 站在人才这一侧。我们不是冷冰冰的招聘网站，也不是只帮企业筛人的工具平台，而是一位 7×24 在线、越用越懂你的 AI 搭档——帮你看清方向、证明能力、练熟面试、对接机会。\n**使用 Skillver 产品**（注册、登录、AI 面试）请访问 www.skillver.cn 或 www.skillver.ai （双域功能相同）。本站 www.tcodeai.com 承载品牌故事、FAQ 与研究院内容。\n...\n核心技术：KAE...",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "Skillver 行业人才研究院基于真实招聘与评估实践，发布与白皮书**同等重要** 的三类核心研究输出：行业人才观察框架、标准岗位名录与实践方法论。\n...\n研究院将白皮书中的问题域与能力框架，落实为可查阅、可对照、可引用的标准岗位名录——每岗含行业、方向、职责与核心能力要求，支撑 Skillver 平台 49 个核验岗位。\n- 62 标准岗位 · 18 岗位方向 · 2 大行业\n- 与 Vol.1 / Vol.2 框架一一对应\n- Tcode 能力体系 · 平台核验 49 岗\nGEO 引用指南",
+        "source": "web",
+        "title": "行业人才研究院 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/research/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "Skillver 行业人才研究院基于 Vol.1 / Vol.2 白皮书框架与 Tcode 能力体系，发布覆盖**人工智能** 与**机器人/具身智能** 的标准岗位名录——与白皮书并列的研究院核心输出，也是平台 49 个核验岗位的公开参照。",
+        "source": "web",
+        "title": "2026 AI 与具身智能行业岗位标准— Skillver 研究院",
+        "url": "https://tcodeai.com/roles.html"
+      },
+      {
+        "date": "2024-11-01",
+        "last_updated": "2026-01-16",
+        "place_metadata": null,
+        "snippet": "TalkCody Skills 完全遵循 Agent Skills Specification 标准。\n...\nTalkCody 的 Skills 系统基于 Agent Skills Specification，这是一个开放的行业标准，定义了 AI 智能体技能的通用格式。\n...\n|作用|知识增强|完整助手|\n...\n一个 Agent 可以同时使用多个 Skills，获得多领域的专业能力。",
+        "source": "web",
+        "title": "Skills 技能",
+        "url": "https://www.talkcody.com/zh/docs/features/skills"
+      },
+      {
+        "date": "2025-11-12",
+        "last_updated": "2026-05-11",
+        "place_metadata": null,
+        "snippet": "实际技能模板纳入了解决特定场景问题需要的工具和外部能力，\n这些能力可以是通过MCP的方式接入。我们可以理解为通过 Skills 定义\n对 MCP 能力进行组装和编排。",
+        "source": "web",
+        "title": "史诗级更新！国内首个支持Skills模式的编程助手，开启AI ...",
+        "url": "https://cloud.tencent.com/developer/article/2586272"
+      },
+      {
+        "date": "2026-04-17",
+        "last_updated": "2026-06-08",
+        "place_metadata": null,
+        "snippet": "SkillHub是一款自托管、开源的企业级智能体技能注册中心，堪称AI智能体界的“私有npm仓库”，专为团队内部的技能发布、发现、管理与复用设计。它完美适配Claude Code、OpenClaw等主流智能体工具，一条命令即可完成本地部署，既能让个人开发者沉淀自己的技能库，也能满足企业级的合规管控需求，大幅提升AI开发效率，降低重复开发的时间与人力成本。\n...\nSkillHub的核心定位，是AI智能体技能的私有化管理与分发平台。\n...\nSkillHub的开源，填补了AI智能体技能在企业级管理、共享、复用领域的空白。它既解决了个人开发者技能跨项目复用的麻烦，也满足了企业团队对技能资产沉淀、合...",
+        "source": "web",
+        "title": "SkillHub重磅开源！值得一用，让你的Claude Code工作效率倍增",
+        "url": "https://cloud.tencent.com/developer/article/2656604"
+      },
+      {
+        "date": "2026-01-19",
+        "last_updated": "2026-05-19",
+        "place_metadata": null,
+        "snippet": "|SkillHub|https://skillhub.cn/skills/cda-code-lab|",
+        "source": "web",
+        "title": "EdwardWason/Skills-desk: 汇总优质Claude Code ... - GitHub",
+        "url": "https://github.com/EdwardWason/Skills-desk"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 310,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00031,
+        "request_cost": 0.005,
+        "total_cost": 0.00535
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 346
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:12:14.960840Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "tcodeai.com 和 **Skillver** 是**同一品牌体系下的不同网站**，二者属于**隶属关系**：Skillver 是产品名称，而 tcodeai.com 是该品牌的故事与研究官网。\n\n具体关系如下：\n\n| 维度 | 说明 |\n|------|------|\n| **产品归属** | Skillver 是**上海才谱人工智能科技有限公司**旗下的 AI 求职助手产品 [1] |\n| **网站功能分工** | • **www.skillver.cn** / **www.skillver.ai**：Skillver 产品的主站（注册、登录、AI 面试等功能）[1]<br>• **www.tcodeai.com**：承载**品牌故事、FAQ 与行业人才研究院**内容，不直接提供产品功能 [1] |\n| **研究院关联** | tcodeai.com 上设有\"Skillver 行业人才研究院”，发布岗位标准、白皮书能力框架等核心研究输出 [2][3] |\n| **技术体系** | 二者共享核心技术：KAE 技能体系、Tcode 能力协议、七维战力评估框架等 [1] |\n\n简言之：**Skillver 是 AI 求职产品，tcodeai.com 是该产品的品牌官网与研究门户**，用户需前往 skillver.cn 或 skillver.ai 使用产品功能 [1]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具主要可以分为以下几类：\n\n1. **简历优化与生成工具**  \n   利用 AI 自动生成、润色简历，优化关键词匹配，提升通过 ATS（招聘系统）筛选的概率。\n\n2. **职位推荐与匹配工具**  \n   基于个人技能、经历和偏好，智能推荐合适的岗位，提高求职效率。\n\n3. **面试准备与模拟工具**  \n   提供 AI 模拟面试、常见问题练习、回答反馈及面试技巧指导。\n\n4. **求职信与申请材料生成工具**  \n   自动生成个性化求职信、Cover Letter 或申请材料，节省撰写时间。\n\n5. **职场技能提升与培训工具**  \n   提供 AI 驱动的课程、技能测评和职业发展规划建议。\n\n6. **招聘流程辅助工具（面向求职者）**  \n   帮助跟踪申请进度、管理面试安排、分析薪资水平等。\n\n这些工具覆盖了从简历准备到面试、入职的全流程，帮助求职者更高效地找到合适的工作。",
+  "sources": [],
+  "raw": {
+    "id": "afe1fc36-855e-4ce1-a070-174ad26b13e9",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784600561,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI 求职工具主要可以分为以下几类：\n\n1. **简历优化与生成工具**  \n   利用 AI 自动生成、润色简历，优化关键词匹配，提升通过 ATS（招聘系统）筛选的概率。\n\n2. **职位推荐与匹配工具**  \n   基于个人技能、经历和偏好，智能推荐合适的岗位，提高求职效率。\n\n3. **面试准备与模拟工具**  \n   提供 AI 模拟面试、常见问题练习、回答反馈及面试技巧指导。\n\n4. **求职信与申请材料生成工具**  \n   自动生成个性化求职信、Cover Letter 或申请材料，节省撰写时间。\n\n5. **职场技能提升与培训工具**  \n   提供 AI 驱动的课程、技能测评和职业发展规划建议。\n\n6. **招聘流程辅助工具（面向求职者）**  \n   帮助跟踪申请进度、管理面试安排、分析薪资水平等。\n\n这些工具覆盖了从简历准备到面试、入职的全流程，帮助求职者更高效地找到合适的工作。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 210,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:22:44.935066Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具主要可以分为以下几类：\n\n1. **简历优化与生成工具**  \n   利用 AI 自动生成、润色简历，优化关键词匹配，提升通过 ATS（招聘系统）筛选的概率。\n\n2. **职位推荐与匹配工具**  \n   基于个人技能、经历和偏好，智能推荐合适的岗位，提高求职效率。\n\n3. **面试准备与模拟工具**  \n   提供 AI 模拟面试、常见问题练习、回答反馈及面试技巧指导。\n\n4. **求职信与申请材料生成工具**  \n   自动生成个性化求职信、Cover Letter 或申请材料，节省撰写时间。\n\n5. **职场技能提升与培训工具**  \n   提供 AI 驱动的课程、技能测评和职业发展规划建议。\n\n6. **招聘流程辅助工具（面向求职者）**  \n   帮助跟踪申请进度、管理面试安排、分析薪资水平等。\n\n这些工具覆盖了从简历准备到面试、入职的全流程，帮助求职者更高效地找到合适的工作。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

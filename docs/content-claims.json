@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "canonicalPositioning": "全面开放注册；邀请码仅用于赛事参与",
+  "version": "1.3.0",
+  "canonicalPositioning": "全面开放注册；邀请码仅用于社群参与",
   "scanPaths": [
     "README.md",
     "TODO-skillver-geo.md",
@@ -24,14 +24,23 @@
       ]
     },
     {
-      "id": "ALLOW_EVENT_INVITE",
-      "description": "邀请码仅用于赛事/竞赛参与，不作为注册门槛。",
+      "id": "ALLOW_COMMUNITY_INVITE",
+      "description": "邀请码仅用于社群参与，不作为注册门槛。",
       "patterns": [
-        "邀请码仅用于赛事",
-        "赛事邀请码",
-        "参赛邀请码",
-        "竞赛邀请码",
-        "赛事参与的邀请码"
+        "邀请码仅用于社群",
+        "社群邀请码",
+        "社群参与的邀请码",
+        "邀请码只用于社群"
+      ]
+    },
+    {
+      "id": "ALLOW_TALENT_PLATFORM_FREE",
+      "description": "人才端平台免费使用（业务已确认）；可写免费、平台免费、免费使用等。",
+      "patterns": [
+        "人才端平台免费",
+        "平台免费",
+        "免费使用",
+        "免费"
       ]
     }
   ],
@@ -69,10 +78,10 @@
   "pendingVerificationClaims": [
     {
       "id": "VERIFY_PRICE",
-      "description": "免费、零收费、价格或折扣声明发布前必须由业务事实源确认。",
+      "description": "具体标价、折扣或「永久免费」等扩展收费声明发布前须再核实；人才端「免费/平台免费」已由 ALLOW_TALENT_PLATFORM_FREE 覆盖。",
       "patterns": [
-        "免费",
         "零收费",
+        "永久免费",
         "价格",
         "折扣"
       ]

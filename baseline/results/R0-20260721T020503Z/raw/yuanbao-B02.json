@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务于**企业人才管理与发展**场景，核心用户群体包括：  \n1. **企业HR与学习发展（L&D）团队**：提供技能评估、培训体系搭建、人才盘点等工具，帮助企业精准识别员工技能缺口，优化人才培养策略。  \n2. **企业管理者**：通过可视化技能数据支持人才决策，提升团队人效与组织能力。  \n3. **员工个人**：辅助其进行技能自我评估、规划职业发展路径，匹配企业内部学习资源。  \n\n其定位是连接企业战略与员工成长，通过技能数据驱动人才管理效率提升。",
+  "sources": [],
+  "raw": {
+    "id": "a94a94ca-f24a-46e4-b350-282d34337971",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599551,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务于**企业人才管理与发展**场景，核心用户群体包括：  \n1. **企业HR与学习发展（L&D）团队**：提供技能评估、培训体系搭建、人才盘点等工具，帮助企业精准识别员工技能缺口，优化人才培养策略。  \n2. **企业管理者**：通过可视化技能数据支持人才决策，提升团队人效与组织能力。  \n3. **员工个人**：辅助其进行技能自我评估、规划职业发展路径，匹配企业内部学习资源。  \n\n其定位是连接企业战略与员工成长，通过技能数据驱动人才管理效率提升。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 127,
+      "total_tokens": 174,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:53.422357Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务于**企业人才管理与发展**场景，核心用户群体包括：  \n1. **企业HR与学习发展（L&D）团队**：提供技能评估、培训体系搭建、人才盘点等工具，帮助企业精准识别员工技能缺口，优化人才培养策略。  \n2. **企业管理者**：通过可视化技能数据支持人才决策，提升团队人效与组织能力。  \n3. **员工个人**：辅助其进行技能自我评估、规划职业发展路径，匹配企业内部学习资源。  \n\n其定位是连接企业战略与员工成长，通过技能数据驱动人才管理效率提升。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

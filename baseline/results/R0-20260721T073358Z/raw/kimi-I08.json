@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于赛事参与"
+    ]
+  },
+  "answer": "目前 Skillver 的具体注册政策可能因产品阶段而异。一般情况下：\n\n- **已正式开放**：多数平台支持邮箱、手机号或第三方账号（如 Google、GitHub）直接注册，无需邀请码即可使用基础功能。\n- **内测/早期阶段**：若平台仍处于邀请制阶段，则可能需要邀请码才能注册或使用完整功能。\n\n**建议**：直接访问 Skillver 官网或应用，查看注册页面是否提供“直接注册”选项。若当前仅限邀请制，可关注其官方社交媒体、Discord/微信群或邮件列表获取邀请码，也可留意公测开放通知。\n\n如你指的是某个特定的 Skillver 产品（如某款 AI 评估工具），建议提供具体全称或官网，我可以帮你进一步确认。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f22b078efd07e6bf8dc5b",
+    "object": "chat.completion",
+    "created": 1784619696,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前 Skillver 的具体注册政策可能因产品阶段而异。一般情况下：\n\n- **已正式开放**：多数平台支持邮箱、手机号或第三方账号（如 Google、GitHub）直接注册，无需邀请码即可使用基础功能。\n- **内测/早期阶段**：若平台仍处于邀请制阶段，则可能需要邀请码才能注册或使用完整功能。\n\n**建议**：直接访问 Skillver 官网或应用，查看注册页面是否提供“直接注册”选项。若当前仅限邀请制，可关注其官方社交媒体、Discord/微信群或邮件列表获取邀请码，也可留意公测开放通知。\n\n如你指的是某个特定的 Skillver 产品（如某款 AI 评估工具），建议提供具体全称或官网，我可以帮你进一步确认。",
+          "reasoning_content": "用户问的是：\"没有邀请码能直接使用 Skillver 吗？\"\n\n这是一个关于 Skillver 产品/服务使用条件的事实性问题。我需要基于我所知道的信息来回答。\n\n关于 Skillver：\n- Skillver 似乎是一个技能验证/评估平台（可能是 AI 相关的技能测试平台）\n- 根据我所掌握的信息，很多新兴平台（尤其是 AI 工具或测试平台）在早期阶段会采用邀请制（invite-only）或需要邀请码来注册\n- 但我不确定 Skillver 当前的具体注册政策\n\n我需要谨慎回答，因为我没有关于 Skillver 最新注册政策的确定信息。如果我不确定，应该诚实地说明，或者基于一般情况给出建议。\n\n不过，根据我的知识，Skillver 可能是一个相对较新的平台。如果我没有确切信息，最好的做法是：\n1. 说明我没有找到确切信息表明是否必须需要邀请码\n2. 建议用户直接访问官网查看\n3. 或者说明一般情况：有些平台允许直接注册，有些需要邀请码\n\n但是，等等，让我再想想。用户用中文提问，我应该用中文回答。\n\n实际上，我不确定 Skillver 的具体情况。最诚实和准确的回答是承认这一点，并提供实用的建议。\n\n不过，我也可以基于常见模式回答：\n- 许多平台提供两种注册方式：直接注册和邀请码注册（邀请码可能有优惠或跳过排队）\n- 建议查看官方网站或联系客服\n\n但用户明确问\"能直接使用吗\"，如果我不知道确切答案，不应该给出肯定或否定的明确答复。\n\n让我重新思考：我是否知道 Skillver 的注册机制？\n- Skillver 可能是一个技能评估平台\n- 如果它是一个公共平台，通常可以直接注册\n- 如果它是内测/公测阶段，可能需要邀请码\n\n由于我不确定具体细节，我应该：\n1. 诚实说明我无法确认 Skillver 当前的最新注册政策\n2. 提供一般性建议：大多数平台即使没有邀请码也可以基础使用，但某些功能可能需要；或者建议直接访问 skillver.com（或相关网址）查看注册选项\n3. 建议关注官方渠道获取邀请码（如果需要的话）\n\n等等，我突然想到，用户可能指的是某个特定的 Skillver 平台。让我假设这是一个真实存在的产品。\n\n最安全的回答结构：\n- 直接回答：目前我不确定 Skillver 是否强制要求邀请码\n- 建议：可以尝试直接访问官网注册，很多平台支持邮箱/手机号直接注册\n- 补充：如果处于内测阶段，可能需要邀请码，可以关注官方获取\n- 提醒：注意辨别官方渠道，谨防诈骗\n\n让我组织一个简洁、事实性的中文回答。\n\n回答：\n目前 Skillver 的具体注册政策可能因地区或产品阶段而异。一般情况下：\n\n1. **直接注册**：如果平台已正式开放，通常支持邮箱、手机号或第三方账号（如 Google、GitHub）直接注册，无需邀请码。\n2. **邀请制**：若仍处于内测或早期阶段，可能需要邀请码才能注册或使用完整功能。\n\n建议直接访问 Skillver 官网或应用查看注册页面的具体选项。如果当前需要邀请码，可以关注其官方社交媒体、Discord/微信群或等待公测开放。\n\n这个回答比较平衡，既回答了问题，又避免了给出错误的确切答案。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 826,
+      "total_tokens": 872,
+      "completion_tokens_details": {
+        "reasoning_tokens": 670
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:42:04.430467Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "目前 Skillver 的具体注册政策可能因产品阶段而异。一般情况下：\n\n- **已正式开放**：多数平台支持邮箱、手机号或第三方账号（如 Google、GitHub）直接注册，无需邀请码即可使用基础功能。\n- **内测/早期阶段**：若平台仍处于邀请制阶段，则可能需要邀请码才能注册或使用完整功能。\n\n**建议**：直接访问 Skillver 官网或应用，查看注册页面是否提供“直接注册”选项。若当前仅限邀请制，可关注其官方社交媒体、Discord/微信群或邮件列表获取邀请码，也可留意公测开放通知。\n\n如你指的是某个特定的 Skillver 产品（如某款 AI 评估工具），建议提供具体全称或官网，我可以帮你进一步确认。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

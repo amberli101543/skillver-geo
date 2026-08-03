@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "**Skillver** 是一款专为求职者设计的 AI 智能求职与面试准备助手。它主要通过 AI 技术帮助求职者全方位提升求职竞争力，具体功能和帮助包括：\n\n1. **AI 模拟面试（AI Mock Interviews）**\n   * **场景模拟：** 提供高度拟真的语音或文字面试环境，涵盖行为面试（Behavioral）、技术面试（Technical）等多种类型。\n   * **定制化提问：** 能够根据求职者上传的简历和目标岗位描述（JD），针对性地生成面试问题。\n\n2. **实时反馈与多维度评估**\n   * **回答优化：** 在模拟面试后，AI 会对求职者的回答进行打分，并指出逻辑漏洞、表达不清或可以改进的地方，甚至给出更优的回答范例。\n   * **软技能分析：** 部分功能还支持对说话语气、语速、自信度等非言语表现进行分析。\n\n3. **简历优化与岗位匹配**\n   * **ATS（简历筛选系统）优化：** 帮助求职者修改简历，使其更符合企业招聘系统（ATS）的筛选规则。\n   * **针对性修改：** 指导求职者如何根据具体招聘需求（JD）提取关键词，定制化修改简历。\n\n4. **面试问题预测与知识库**\n   * 基于大数据和目标公司背景，预测高频面试题，帮助求职者提前准备标准答案或话术模板（如 STAR 法则）。\n\n**总结：**\nSkillver 就像一个 24 小时在线的 **AI 职业教练**，通过“练习-反馈-改进”的闭环，帮助求职者消除面试紧张感，优化求职材料，从而提高拿到 Offer 的概率。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 是一款专为求职者设计的 AI 智能求职与面试准备助手。它主要通过 AI 技术帮助求职者全方位提升求职竞争力，具体功能和帮助包括：\n\n1. **AI 模拟面试（AI Mock Interviews）**\n   * **场景模拟：** 提供高度拟真的语音或文字面试环境，涵盖行为面试（Behavioral）、技术面试（Technical）等多种类型。\n   * **定制化提问：** 能够根据求职者上传的简历和目标岗位描述（JD），针对性地生成面试问题。\n\n2. **实时反馈与多维度评估**\n   * **回答优化：** 在模拟面试后，AI 会对求职者的回答进行打分，并指出逻辑漏洞、表达不清或可以改进的地方，甚至给出更优的回答范例。\n   * **软技能分析：** 部分功能还支持对说话语气、语速、自信度等非言语表现进行分析。\n\n3. **简历优化与岗位匹配**\n   * **ATS（简历筛选系统）优化：** 帮助求职者修改简历，使其更符合企业招聘系统（ATS）的筛选规则。\n   * **针对性修改：** 指导求职者如何根据具体招聘需求（JD）提取关键词，定制化修改简历。\n\n4. **面试问题预测与知识库**\n   * 基于大数据和目标公司背景，预测高频面试题，帮助求职者提前准备标准答案或话术模板（如 STAR 法则）。\n\n**总结：**\nSkillver 就像一个 24 小时在线的 **AI 职业教练**，通过“练习-反馈-改进”的闭环，帮助求职者消除面试紧张感，优化求职材料，从而提高拿到 Offer 的概率。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784603872,
+    "id": "0-RearOILcqGz7IPydeE0QI",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 388,
+      "prompt_tokens": 37,
+      "total_tokens": 1217
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:17:52.046531Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "**Skillver** 是一款专为求职者设计的 AI 智能求职与面试准备助手。它主要通过 AI 技术帮助求职者全方位提升求职竞争力，具体功能和帮助包括：\n\n1. **AI 模拟面试（AI Mock Interviews）**\n   * **场景模拟：** 提供高度拟真的语音或文字面试环境，涵盖行为面试（Behavioral）、技术面试（Technical）等多种类型。\n   * **定制化提问：** 能够根据求职者上传的简历和目标岗位描述（JD），针对性地生成面试问题。\n\n2. **实时反馈与多维度评估**\n   * **回答优化：** 在模拟面试后，AI 会对求职者的回答进行打分，并指出逻辑漏洞、表达不清或可以改进的地方，甚至给出更优的回答范例。\n   * **软技能分析：** 部分功能还支持对说话语气、语速、自信度等非言语表现进行分析。\n\n3. **简历优化与岗位匹配**\n   * **ATS（简历筛选系统）优化：** 帮助求职者修改简历，使其更符合企业招聘系统（ATS）的筛选规则。\n   * **针对性修改：** 指导求职者如何根据具体招聘需求（JD）提取关键词，定制化修改简历。\n\n4. **面试问题预测与知识库**\n   * 基于大数据和目标公司背景，预测高频面试题，帮助求职者提前准备标准答案或话术模板（如 STAR 法则）。\n\n**总结：**\nSkillver 就像一个 24 小时在线的 **AI 职业教练**，通过“练习-反馈-改进”的闭环，帮助求职者消除面试紧张感，优化求职材料，从而提高拿到 Offer 的概率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

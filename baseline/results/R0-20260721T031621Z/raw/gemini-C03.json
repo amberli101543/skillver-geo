@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位（如算法工程师、大模型研发、数据科学家等）的面试，可以从**代码算法、机器学习理论、系统设计、AI模拟面试**四个维度来选择工具。以下是推荐的常用工具清单：\n\n### 1. 代码与算法训练（基础）\n*   **LeetCode (力扣):** 刷数据结构与算法题。建议重点刷“数组、动态规划、图、树”以及“剑指Offer”板块。\n*   **Kaggle:** 针对机器学习/数据科学岗位。可以阅读优秀 Notebook 的特征工程和模型融合思路，提升实战项目说服力。\n\n### 2. 理论知识与八股文（复习）\n*   **GitHub 热门开源仓库:**\n    *   搜索 \"AI-Interview\"、\"Machine-Learning-Interview-Algorithms\" 等仓库，里面有整理好的“算法工程师面试宝典”。\n    *   **System Design Primer:** 学习通用系统设计。\n*   **Hugging Face NLP Course:** 准备大模型/NLP岗位必看，深入理解 Transformer、Tokenization 和模型微调。\n\n### 3. ML 系统设计（高阶）\n*   **《Designing Machine Learning Systems》（Chip Huyen 著）及配套网站:** 准备“机器学习系统设计（MLSD）”面试的黄金标准，涵盖数据流水线、模型训练、部署与监控。\n*   **ByteByteGo:** 学习分布式系统和高并发设计（大模型工程岗位常考）。\n\n### 4. AI 模拟面试与简历优化（实战）\n*   **ChatGPT / Claude / Kimi:** **（最推荐的综合助手）**\n    *   **角色扮演:** 输入 Prompt：“*请扮演资深 AI 算法专家，对我进行大模型微调（或推荐系统）岗位的技术面试，一次提一个问题，并根据我的回答进行追问和打分。*”\n    *   **简历修改:** 让其根据目标岗位 JD 润色你的项目描述，突出“量化成果”（如：提升了XX%的准确率/降低了XX%延时）。\n    *   **代码解释:** 遇到不懂的论文公式或复杂 PyTorch 代码，让其进行逐行解释。\n*   **Google Interview Warmup:** 谷歌推出的免费 AI 模拟面试工具，支持语音输入，能对你的回答提供即时反馈（适合准备外企或英文面试）。\n\n### 5. 论文与前沿追踪（针对 LLM/科研岗）\n*   **Connected Papers:** 输入经典论文，可视化展示相关文献关联，帮你在面试前快速梳理某个技术方向的发展脉络（如 RAG、LoRA、Agent 等）。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "准备 AI 岗位（如算法工程师、大模型研发、数据科学家等）的面试，可以从**代码算法、机器学习理论、系统设计、AI模拟面试**四个维度来选择工具。以下是推荐的常用工具清单：\n\n### 1. 代码与算法训练（基础）\n*   **LeetCode (力扣):** 刷数据结构与算法题。建议重点刷“数组、动态规划、图、树”以及“剑指Offer”板块。\n*   **Kaggle:** 针对机器学习/数据科学岗位。可以阅读优秀 Notebook 的特征工程和模型融合思路，提升实战项目说服力。\n\n### 2. 理论知识与八股文（复习）\n*   **GitHub 热门开源仓库:**\n    *   搜索 \"AI-Interview\"、\"Machine-Learning-Interview-Algorithms\" 等仓库，里面有整理好的“算法工程师面试宝典”。\n    *   **System Design Primer:** 学习通用系统设计。\n*   **Hugging Face NLP Course:** 准备大模型/NLP岗位必看，深入理解 Transformer、Tokenization 和模型微调。\n\n### 3. ML 系统设计（高阶）\n*   **《Designing Machine Learning Systems》（Chip Huyen 著）及配套网站:** 准备“机器学习系统设计（MLSD）”面试的黄金标准，涵盖数据流水线、模型训练、部署与监控。\n*   **ByteByteGo:** 学习分布式系统和高并发设计（大模型工程岗位常考）。\n\n### 4. AI 模拟面试与简历优化（实战）\n*   **ChatGPT / Claude / Kimi:** **（最推荐的综合助手）**\n    *   **角色扮演:** 输入 Prompt：“*请扮演资深 AI 算法专家，对我进行大模型微调（或推荐系统）岗位的技术面试，一次提一个问题，并根据我的回答进行追问和打分。*”\n    *   **简历修改:** 让其根据目标岗位 JD 润色你的项目描述，突出“量化成果”（如：提升了XX%的准确率/降低了XX%延时）。\n    *   **代码解释:** 遇到不懂的论文公式或复杂 PyTorch 代码，让其进行逐行解释。\n*   **Google Interview Warmup:** 谷歌推出的免费 AI 模拟面试工具，支持语音输入，能对你的回答提供即时反馈（适合准备外企或英文面试）。\n\n### 5. 论文与前沿追踪（针对 LLM/科研岗）\n*   **Connected Papers:** 输入经典论文，可视化展示相关文献关联，帮你在面试前快速梳理某个技术方向的发展脉络（如 RAG、LoRA、Agent 等）。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1784604269,
+    "id": "X-Zear6TDZOf6dkP7J6s6Ak",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 590,
+      "prompt_tokens": 37,
+      "total_tokens": 1616
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T03:24:29.424156Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位（如算法工程师、大模型研发、数据科学家等）的面试，可以从**代码算法、机器学习理论、系统设计、AI模拟面试**四个维度来选择工具。以下是推荐的常用工具清单：\n\n### 1. 代码与算法训练（基础）\n*   **LeetCode (力扣):** 刷数据结构与算法题。建议重点刷“数组、动态规划、图、树”以及“剑指Offer”板块。\n*   **Kaggle:** 针对机器学习/数据科学岗位。可以阅读优秀 Notebook 的特征工程和模型融合思路，提升实战项目说服力。\n\n### 2. 理论知识与八股文（复习）\n*   **GitHub 热门开源仓库:**\n    *   搜索 \"AI-Interview\"、\"Machine-Learning-Interview-Algorithms\" 等仓库，里面有整理好的“算法工程师面试宝典”。\n    *   **System Design Primer:** 学习通用系统设计。\n*   **Hugging Face NLP Course:** 准备大模型/NLP岗位必看，深入理解 Transformer、Tokenization 和模型微调。\n\n### 3. ML 系统设计（高阶）\n*   **《Designing Machine Learning Systems》（Chip Huyen 著）及配套网站:** 准备“机器学习系统设计（MLSD）”面试的黄金标准，涵盖数据流水线、模型训练、部署与监控。\n*   **ByteByteGo:** 学习分布式系统和高并发设计（大模型工程岗位常考）。\n\n### 4. AI 模拟面试与简历优化（实战）\n*   **ChatGPT / Claude / Kimi:** **（最推荐的综合助手）**\n    *   **角色扮演:** 输入 Prompt：“*请扮演资深 AI 算法专家，对我进行大模型微调（或推荐系统）岗位的技术面试，一次提一个问题，并根据我的回答进行追问和打分。*”\n    *   **简历修改:** 让其根据目标岗位 JD 润色你的项目描述，突出“量化成果”（如：提升了XX%的准确率/降低了XX%延时）。\n    *   **代码解释:** 遇到不懂的论文公式或复杂 PyTorch 代码，让其进行逐行解释。\n*   **Google Interview Warmup:** 谷歌推出的免费 AI 模拟面试工具，支持语音输入，能对你的回答提供即时反馈（适合准备外企或英文面试）。\n\n### 5. 论文与前沿追踪（针对 LLM/科研岗）\n*   **Connected Papers:** 输入经典论文，可视化展示相关文献关联，帮你在面试前快速梳理某个技术方向的发展脉络（如 RAG、LoRA、Agent 等）。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T031621Z/raw/gemini-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

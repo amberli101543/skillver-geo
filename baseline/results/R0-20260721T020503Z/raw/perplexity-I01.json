@@ -1,0 +1,286 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "Skillver 的官网是 **www.skillver.cn**（或 **www.skillver.ai**），其内测/公测页面为 **https://www.skillver.cn/beta**[1]。\n\n**关键信息补充：**\n- **产品定位**：Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 **AI 求职助手**，提供 AI 面试彩排等功能[1]。\n- **注册方式**：人才端已开放免费注册，访问官网点击「免费注册」，使用手机号注册，3 分钟即可开始第一场 AI 面试彩排[1]。\n- **备案信息**：产品已完成 ICP 备案（沪ICP备2026018662号-2）[1]。\n\n注意：搜索结果中出现的 \"Skillveri\"（www.skillveri.com）是另一家位于印度的 VR/XR 模拟训练公司，与中文 AI 求职助手 \"Skillver\" 并非同一产品[2][6]。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://in.linkedin.com/company/skillveri",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillverse.live/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/skillveri-in-the-news/",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillvera",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": ""
+    },
+    {
+      "url": "https://www.skills.fan/",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/IT-Evan/p/19684107",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://in.linkedin.com/company/skillveri",
+      "title": "Skillveri MR & XR Simulations | LinkedIn"
+    },
+    {
+      "url": "https://tcodeai.com/research/",
+      "title": "行业人才研究院 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillverse.live/",
+      "title": "SkillVerse - Your Universe for Tech, Craft, and Lifestyle Skills"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://skillveri.com/skillveri-in-the-news/",
+      "title": "Skillveri in the News - Media Mentions"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillvera",
+      "title": "Skillvera - LinkedIn"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2655651",
+      "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云"
+    },
+    {
+      "url": "https://www.skills.fan/",
+      "title": "首页"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    },
+    {
+      "url": "https://www.cnblogs.com/IT-Evan/p/19684107",
+      "title": "一文读懂Skills - 智慧园区-老朱"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的官网是 **www.skillver.cn**（或 **www.skillver.ai**），其内测/公测页面为 **https://www.skillver.cn/beta**[1]。\n\n**关键信息补充：**\n- **产品定位**：Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 **AI 求职助手**，提供 AI 面试彩排等功能[1]。\n- **注册方式**：人才端已开放免费注册，访问官网点击「免费注册」，使用手机号注册，3 分钟即可开始第一场 AI 面试彩排[1]。\n- **备案信息**：产品已完成 ICP 备案（沪ICP备2026018662号-2）[1]。\n\n注意：搜索结果中出现的 \"Skillveri\"（www.skillveri.com）是另一家位于印度的 VR/XR 模拟训练公司，与中文 AI 求职助手 \"Skillver\" 并非同一产品[2][6]。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/beta",
+      "https://in.linkedin.com/company/skillveri",
+      "https://tcodeai.com/research/",
+      "https://www.skillverse.live/",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://skillveri.com/skillveri-in-the-news/",
+      "https://www.linkedin.com/company/skillvera",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://cloud.tencent.com/developer/article/2655651",
+      "https://www.skills.fan/",
+      "https://cloud.tencent.com/developer/article/2625397",
+      "https://www.cnblogs.com/IT-Evan/p/19684107"
+    ],
+    "created": 1784599808,
+    "id": "fb295157-8644-46c2-8316-6e3ed55bee65",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n## 人才端如何注册？\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排\n...\n企业入驻或导师端开通请发送邮件至 janet.chen@tcodeai.com，邮件中建议附上：姓名、手机号、公司/背景与需求说明。",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2025-03-19",
+        "last_updated": "2025-03-27",
+        "place_metadata": null,
+        "snippet": "Skillveri is a pioneer in Metaverse XR/MR based multi-skill simulators that provide training for manufacturing sector skills, delivering enhanced learning outcomes and exact assessment at far lesser costs and time than legacy learning methods.\nSimulation modules are available for welding (GMAW, SMAW...",
+        "source": "web",
+        "title": "Skillveri MR & XR Simulations | LinkedIn",
+        "url": "https://in.linkedin.com/company/skillveri"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-20",
+        "place_metadata": null,
+        "snippet": "Skillver 行业人才研究院基于真实招聘与评估实践，发布与白皮书**同等重要** 的三类核心研究输出：行业人才观察框架、标准岗位名录与实践方法论。",
+        "source": "web",
+        "title": "行业人才研究院 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/research/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-10-02",
+        "place_metadata": null,
+        "snippet": "At SkillVerse, we're a team of passionate educators, innovators, and technology enthusiasts committed to transforming the way the world learns.\n...\nWe’re here to help you on your learning journey.\nReach out with any questions, and we’ll get back to you as soon as possible.skillversecode@gmail.com+23...",
+        "source": "web",
+        "title": "SkillVerse - Your Universe for Tech, Craft, and Lifestyle Skills",
+        "url": "https://www.skillverse.live/"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Site Web\nemail\nAdresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2023-05-08",
+        "last_updated": "2026-03-19",
+        "place_metadata": null,
+        "snippet": "Skillveri, a tech-first innovator that’s redefining vocational skills training for the next generation workforce, is the third largest provider of immersive simulation-based training in the USA.\nSkillveri builds multi-skill simulation platforms using XR, VR & MR to offer gamified training modules fo...",
+        "source": "web",
+        "title": "Skillveri in the News - Media Mentions",
+        "url": "https://skillveri.com/skillveri-in-the-news/"
+      },
+      {
+        "date": "2026-01-06",
+        "last_updated": "2026-03-10",
+        "place_metadata": null,
+        "snippet": "#### A leading Saudi company in smart & athletic training, talent & tech consulting, integrating sports & education with AI.\n...\nSkillvera is a Saudi company specializing in education, sports, and talent development solutions for public and private sectors\n- **Website**\nhttps://skillvera.sa External...",
+        "source": "web",
+        "title": "Skillvera - LinkedIn",
+        "url": "https://www.linkedin.com/company/skillvera"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "Skill-Verse：让英语口语更实用在当今世界，英语不仅仅是一门语言，更是一门开启教育、职业和机遇之门的技能。然而，许多学生和专业人士仍难以将课堂学习转化为实际的交流。Skill-Verse 口语英语应用程序正是为此应运而生。\n...\n网站\n支持团队邮箱\nsupport@classplus.co\n隐私权政策\n...\nBUNCH MICROTECHNOLOGIES PRIVATE LIMITED\npsupdates@classplus.co\nFirst Floor, D-8, Sector-3, Noida\nGautam Budh Nagar, Uttar Pradesh 201301\nIn...",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-10",
+        "place_metadata": null,
+        "snippet": "Skiller 是一款跨平台 Skill 管理工具，用于帮助开发者集中管理、预览和分发 AI 技能文件。",
+        "source": "web",
+        "title": "Skiller：一款跨平台的AI Skills管理工具 - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/2655651"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "专为知识工作者和非技术人员精选 Skills ，把高手的经验变成你的方法和技能\n...\n市面上的 Skills 很多，但大多面向程序员，每个 Skill 在卷代码开发。技能范只做一件事：帮知识工作者、自媒体博主、白领、学生筛选工作、学习、创作的 Skills",
+        "source": "web",
+        "title": "首页",
+        "url": "https://www.skills.fan/"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-05-04",
+        "place_metadata": null,
+        "snippet": "|--|--|--|--|\n|1.\nSkillsMP.com|https://skillsmp.com/|⭐ 全球最大技能市场，支持 Claude/Cursor/Antigravity，含质量评分与跨平台兼容标识|50,000+|\n...\n|5.\nAnthropic 官方 Skills|https://github.com/anthropics/skills|官方出品，生产级质量，涵盖文档/开发/创意三大类|16 个核心示例|\n...\n|1|UniversalCodeReviewer|ai-skills-hub|跨语言代码审查（安全/性能/风格）|Python, Java, Go, JS, T...",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      },
+      {
+        "date": "2026-03-14",
+        "last_updated": "2026-06-24",
+        "place_metadata": null,
+        "snippet": "简单来说，Skills = AI的\"技能包\"。\n...\n官方起点：Anthropic 官方仓库：\nhttps://github.com/anthropics/skills。所有 Skills 的“源头”，适合学习和修改。精选合集（强烈推荐）：awesome-claude-skills：https://github.com/ComposioHQ/awesome-claude-skills，目前最全的 Skills 精选列表，分类清晰，更新频繁。\n中文社区：Claude 中文社区：https://claudecn.com/。有许多中文教程和可以直接下载使用的 Skills。技能市场：Skills ...",
+        "source": "web",
+        "title": "一文读懂Skills - 智慧园区-老朱",
+        "url": "https://www.cnblogs.com/IT-Evan/p/19684107"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 232,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00023,
+        "request_cost": 0.005,
+        "total_cost": 0.00526
+      },
+      "prompt_tokens": 31,
+      "search_context_size": "low",
+      "total_tokens": 263
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:10:08.559024Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "Skillver 的官网是 **www.skillver.cn**（或 **www.skillver.ai**），其内测/公测页面为 **https://www.skillver.cn/beta**[1]。\n\n**关键信息补充：**\n- **产品定位**：Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 **AI 求职助手**，提供 AI 面试彩排等功能[1]。\n- **注册方式**：人才端已开放免费注册，访问官网点击「免费注册」，使用手机号注册，3 分钟即可开始第一场 AI 面试彩排[1]。\n- **备案信息**：产品已完成 ICP 备案（沪ICP备2026018662号-2）[1]。\n\n注意：搜索结果中出现的 \"Skillveri\"（www.skillveri.com）是另一家位于印度的 VR/XR 模拟训练公司，与中文 AI 求职助手 \"Skillver\" 并非同一产品[2][6]。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

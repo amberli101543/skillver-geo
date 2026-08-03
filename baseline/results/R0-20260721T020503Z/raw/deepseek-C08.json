@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "冲刺 AI 大厂（如 OpenAI、Google DeepMind、Meta FAIR、百度、字节等）面试，建议从以下四个核心维度系统准备：\n\n### 1. 算法与数据结构（硬底子）\n- **必须刷题**：重点刷 **LeetCode 热题 100、剑指 Offer、高频题**。AI 岗常考**动态规划、图、树、排序、滑动窗口**。\n- **代码质量**：手写代码要求 **Bug-free、边界处理、复杂度分析**（时间/空间）。\n- **推荐资源**：《剑指 Offer》、LeetCode 会员高频题、Codeforces（可选）。\n\n### 2. 机器学习/深度学习基础（核心）\n- **经典模型**：决策树、SVM、LR、GBDT、XGBoost、Transformer、BERT、GPT 系列原理与区别。\n- **数学基础**：**概率论**（贝叶斯、最大似然）、**线性代数**（矩阵分解、特征值）、**优化**（SGD、Adam 推导）。\n- **手撕模型**：能白板推导 **Softmax + CrossEntropy 梯度**、**Transformer 自注意力机制**、**反向传播过程**。\n- **推荐资源**：《统计学习方法》（李航）、《深度学习》（花书）、**CS231n / CS224n 作业**（手写层）。\n\n### 3. 项目与实战经验（决胜点）\n- **项目深挖**：\n  - 你解决了什么问题？**指标提升多少**（AUC、准确率、延迟降低）？\n  - **为什么选这个模型**？试过哪些方法？失败案例？\n  - **数据清洗**、**特征工程**细节。\n- **工程能力**：**PyTorch/TensorFlow** 熟练使用、**分布式训练**（DataParallel/FSDP）、**模型部署**（ONNX/TensorRT）。\n- **加分项**：**顶会论文**（一作加分）、**开源贡献**、**Kaggle竞赛**（Top 名次）。\n\n### 4. 系统设计 & 大模型相关（大厂高频）\n- **推荐系统**：召回→排序→重排流程，特征交叉、多目标优化（MMOE）。\n- **大语言模型（LLM）相关**：\n  - **LoRA/QLoRA 微调原理**、**Prompt Engineering**、**RAG（检索增强生成）**。\n  - **RLHF 流程**（PPO 核心公式）、**模型评估**（BLEU/ROUGE/Perplexity）。\n- **分布式训练**：数据并行、模型并行、流水线并行区别。\n- **典型系统设计题**：\n  - “设计一个视频推荐系统”\n  - “设计一个对话机器人（如客服）”\n  - “设计一个大规模模型训练平台”\n\n### 常见大厂面试流程（参考）\n| 轮次 | 内容 |\n|------|------|\n| 电话/在线笔试 | 算法题（1-2道 medium/hard） |\n| 技术一面 | 算法 + ML基础（手撕模型） |\n| 技术二面 | 项目深挖 + 系统设计 |\n| 技术三面/Boss面 | 开放问题（AI趋势、业务理解） |\n| HR面 | 软实力、薪资期望 |\n\n### 高效备战建议\n1. **制定计划**：每天 1-2 道算法 + 1 个 ML 知识点 + 复盘项目。\n2. **模拟面试**：找同伴或使用平台（Pramp、模拟面试 AI）练习英文/中文表达。\n3. **关注前沿**：刷 **ArXiv**、Follow 大厂博客（如 OpenAI、Google AI）。\n4. **行为问题**：准备 **STAR 法则** 回答（Situation, Task, Action, Result）。\n\n**最后提醒**：大厂更看重**思考过程**（如何推导、权衡、试错）而非死记硬背。面试中主动沟通、展示逻辑链条非常关键。祝你冲刺成功！",
+  "sources": [],
+  "raw": {
+    "id": "bd49e0de-28ef-404d-88e4-3a82b5cbbb67",
+    "object": "chat.completion",
+    "created": 1784600696,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "冲刺 AI 大厂（如 OpenAI、Google DeepMind、Meta FAIR、百度、字节等）面试，建议从以下四个核心维度系统准备：\n\n### 1. 算法与数据结构（硬底子）\n- **必须刷题**：重点刷 **LeetCode 热题 100、剑指 Offer、高频题**。AI 岗常考**动态规划、图、树、排序、滑动窗口**。\n- **代码质量**：手写代码要求 **Bug-free、边界处理、复杂度分析**（时间/空间）。\n- **推荐资源**：《剑指 Offer》、LeetCode 会员高频题、Codeforces（可选）。\n\n### 2. 机器学习/深度学习基础（核心）\n- **经典模型**：决策树、SVM、LR、GBDT、XGBoost、Transformer、BERT、GPT 系列原理与区别。\n- **数学基础**：**概率论**（贝叶斯、最大似然）、**线性代数**（矩阵分解、特征值）、**优化**（SGD、Adam 推导）。\n- **手撕模型**：能白板推导 **Softmax + CrossEntropy 梯度**、**Transformer 自注意力机制**、**反向传播过程**。\n- **推荐资源**：《统计学习方法》（李航）、《深度学习》（花书）、**CS231n / CS224n 作业**（手写层）。\n\n### 3. 项目与实战经验（决胜点）\n- **项目深挖**：\n  - 你解决了什么问题？**指标提升多少**（AUC、准确率、延迟降低）？\n  - **为什么选这个模型**？试过哪些方法？失败案例？\n  - **数据清洗**、**特征工程**细节。\n- **工程能力**：**PyTorch/TensorFlow** 熟练使用、**分布式训练**（DataParallel/FSDP）、**模型部署**（ONNX/TensorRT）。\n- **加分项**：**顶会论文**（一作加分）、**开源贡献**、**Kaggle竞赛**（Top 名次）。\n\n### 4. 系统设计 & 大模型相关（大厂高频）\n- **推荐系统**：召回→排序→重排流程，特征交叉、多目标优化（MMOE）。\n- **大语言模型（LLM）相关**：\n  - **LoRA/QLoRA 微调原理**、**Prompt Engineering**、**RAG（检索增强生成）**。\n  - **RLHF 流程**（PPO 核心公式）、**模型评估**（BLEU/ROUGE/Perplexity）。\n- **分布式训练**：数据并行、模型并行、流水线并行区别。\n- **典型系统设计题**：\n  - “设计一个视频推荐系统”\n  - “设计一个对话机器人（如客服）”\n  - “设计一个大规模模型训练平台”\n\n### 常见大厂面试流程（参考）\n| 轮次 | 内容 |\n|------|------|\n| 电话/在线笔试 | 算法题（1-2道 medium/hard） |\n| 技术一面 | 算法 + ML基础（手撕模型） |\n| 技术二面 | 项目深挖 + 系统设计 |\n| 技术三面/Boss面 | 开放问题（AI趋势、业务理解） |\n| HR面 | 软实力、薪资期望 |\n\n### 高效备战建议\n1. **制定计划**：每天 1-2 道算法 + 1 个 ML 知识点 + 复盘项目。\n2. **模拟面试**：找同伴或使用平台（Pramp、模拟面试 AI）练习英文/中文表达。\n3. **关注前沿**：刷 **ArXiv**、Follow 大厂博客（如 OpenAI、Google AI）。\n4. **行为问题**：准备 **STAR 法则** 回答（Situation, Task, Action, Result）。\n\n**最后提醒**：大厂更看重**思考过程**（如何推导、权衡、试错）而非死记硬背。面试中主动沟通、展示逻辑链条非常关键。祝你冲刺成功！"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 869,
+      "total_tokens": 907,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:25:05.179432Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "冲刺 AI 大厂（如 OpenAI、Google DeepMind、Meta FAIR、百度、字节等）面试，建议从以下四个核心维度系统准备：\n\n### 1. 算法与数据结构（硬底子）\n- **必须刷题**：重点刷 **LeetCode 热题 100、剑指 Offer、高频题**。AI 岗常考**动态规划、图、树、排序、滑动窗口**。\n- **代码质量**：手写代码要求 **Bug-free、边界处理、复杂度分析**（时间/空间）。\n- **推荐资源**：《剑指 Offer》、LeetCode 会员高频题、Codeforces（可选）。\n\n### 2. 机器学习/深度学习基础（核心）\n- **经典模型**：决策树、SVM、LR、GBDT、XGBoost、Transformer、BERT、GPT 系列原理与区别。\n- **数学基础**：**概率论**（贝叶斯、最大似然）、**线性代数**（矩阵分解、特征值）、**优化**（SGD、Adam 推导）。\n- **手撕模型**：能白板推导 **Softmax + CrossEntropy 梯度**、**Transformer 自注意力机制**、**反向传播过程**。\n- **推荐资源**：《统计学习方法》（李航）、《深度学习》（花书）、**CS231n / CS224n 作业**（手写层）。\n\n### 3. 项目与实战经验（决胜点）\n- **项目深挖**：\n  - 你解决了什么问题？**指标提升多少**（AUC、准确率、延迟降低）？\n  - **为什么选这个模型**？试过哪些方法？失败案例？\n  - **数据清洗**、**特征工程**细节。\n- **工程能力**：**PyTorch/TensorFlow** 熟练使用、**分布式训练**（DataParallel/FSDP）、**模型部署**（ONNX/TensorRT）。\n- **加分项**：**顶会论文**（一作加分）、**开源贡献**、**Kaggle竞赛**（Top 名次）。\n\n### 4. 系统设计 & 大模型相关（大厂高频）\n- **推荐系统**：召回→排序→重排流程，特征交叉、多目标优化（MMOE）。\n- **大语言模型（LLM）相关**：\n  - **LoRA/QLoRA 微调原理**、**Prompt Engineering**、**RAG（检索增强生成）**。\n  - **RLHF 流程**（PPO 核心公式）、**模型评估**（BLEU/ROUGE/Perplexity）。\n- **分布式训练**：数据并行、模型并行、流水线并行区别。\n- **典型系统设计题**：\n  - “设计一个视频推荐系统”\n  - “设计一个对话机器人（如客服）”\n  - “设计一个大规模模型训练平台”\n\n### 常见大厂面试流程（参考）\n| 轮次 | 内容 |\n|------|------|\n| 电话/在线笔试 | 算法题（1-2道 medium/hard） |\n| 技术一面 | 算法 + ML基础（手撕模型） |\n| 技术二面 | 项目深挖 + 系统设计 |\n| 技术三面/Boss面 | 开放问题（AI趋势、业务理解） |\n| HR面 | 软实力、薪资期望 |\n\n### 高效备战建议\n1. **制定计划**：每天 1-2 道算法 + 1 个 ML 知识点 + 复盘项目。\n2. **模拟面试**：找同伴或使用平台（Pramp、模拟面试 AI）练习英文/中文表达。\n3. **关注前沿**：刷 **ArXiv**、Follow 大厂博客（如 OpenAI、Google AI）。\n4. **行为问题**：准备 **STAR 法则** 回答（Situation, Task, Action, Result）。\n\n**最后提醒**：大厂更看重**思考过程**（如何推导、权衡、试错）而非死记硬背。面试中主动沟通、展示逻辑链条非常关键。祝你冲刺成功！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

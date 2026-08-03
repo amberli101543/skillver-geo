@@ -1,0 +1,62 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "在我目前的信息范围内，**Skillver** 并不是一个广为人知的主流平台、公司或通用术语。它可能是以下几种情况之一：\n\n1. **某家初创公司或小众产品**的名称，例如专注于技能评估、招聘科技或在线教育的工具；\n2. **Skill Verification**（技能验证）一词的简写或变体，指代用于评估、认证个人技能的平台或系统；\n3. **拼写误差**，您可能想询问的是 **Skillshare**、**Coursera** 或其他类似名称的平台。\n\n如果您能提供更多上下文（例如在哪里看到这个词、所属领域或用途），我可以为您提供更准确的解答。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a5f20e8351375aff6ce6df0",
+    "object": "chat.completion",
+    "created": 1784619240,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "在我目前的信息范围内，**Skillver** 并不是一个广为人知的主流平台、公司或通用术语。它可能是以下几种情况之一：\n\n1. **某家初创公司或小众产品**的名称，例如专注于技能评估、招聘科技或在线教育的工具；\n2. **Skill Verification**（技能验证）一词的简写或变体，指代用于评估、认证个人技能的平台或系统；\n3. **拼写误差**，您可能想询问的是 **Skillshare**、**Coursera** 或其他类似名称的平台。\n\n如果您能提供更多上下文（例如在哪里看到这个词、所属领域或用途），我可以为您提供更准确的解答。",
+          "reasoning_content": "用户问的是 \"Skillver 是什么？\"。这是一个关于特定名词的查询。我需要提供准确、简洁的事实性回答。\n\n首先，我需要确认 \"Skillver\" 指的是什么。根据我的知识，Skillver 似乎不是一个非常常见的、广为人知的大型产品或公司。让我仔细回忆一下：\n\n1. 可能是某个技能评估平台？\n2. 可能是某个教育科技公司？\n3. 可能是拼写错误，比如 \"Skillver\" 与 \"Skilver\" 或 \"Skillshare\"、\"Coursera\" 等混淆？\n4. 或者是一个相对较新的、小众的产品？\n\n让我再想想... 实际上，\"Skillver\" 可能是：\n- 一个技能验证（Skill Verification）相关的平台\n- 或者用户可能指的是某个特定的软件、游戏角色、或其他东西\n\n由于我的知识截止日期限制，如果这是一个非常新的或非常小众的东西，我可能没有确切信息。但基于\"Skillver\"这个词的构成（Skill + ver，ver可能指version或verification），它可能是一个技能评估/认证平台。\n\n等等，让我重新思考。用户用中文提问，可能是在中文互联网语境下看到的这个词。\n\n实际上，我倾向于认为这可能是一个拼写错误或者是一个极其小众的产品。最安全的做法是：\n1. 说明我没有找到关于\"Skillver\"的广泛知名信息\n2. 询问是否指其他类似名称的产品（如Skillshare等）\n3. 或者基于构词法推测可能与技能验证相关\n\n但是，让我再仔细检查一下。Skillver... \n\n或者，用户可能想问的是 \"Silver\"？不，用户明确写了 Skillver。\n\n另一个可能性：在某些游戏或特定软件中有这个名字？\n\n考虑到我必须基于已有知识回答，且要事实准确，如果我确实不知道具体是什么，我应该诚实地说明，而不是编造。\n\n让我尝试另一种思路：是否可能是 \"SkillVerse\"？不，用户写的是 Skillver。\n\n或者是一个域名？skillver.com？\n\n在没有确切信息的情况下，最佳回答是：\n- 表明目前\"Skillver\"不是一个广为人知的标准产品/服务名称\n- 提供可能的解释（如技能验证平台的拼写、特定领域的小众工具等）\n- 请用户确认名称或提供更多上下文\n\n但为了尽量有帮助，我可以提到：\n- 如果是指技能验证（Skill Verification），那是一类用于评估和认证个人技能的工具或平台\n- 检查是否可能是其他相似名称（如Skillshare, Coursera, 或中文的某些平台）\n\n不过，等等，我突然想到，是否有可能是 \"Skillver\" 作为某个公司的名字？比如一家做招聘或HR科技的公司？\n\n经过仔细思考，我决定采取诚实且有帮助的策略：说明在我目前的知识库中，\"Skillver\" 并非一个广泛认知的知名平台、公司或标准术语，并请用户确认是否拼写正确或提供更多背景信息。同时可以提及如果是指\"技能验证（Skill Verification）\"概念的话，那是什么。\n\n但等等，我注意到用户可能是在问一个特定的产品。让我再想想是否有任何可能...\n\n另一个想法：是否是 \"Silverbear\" 之类的缩写？不太可能。\n\n是否是某个GitHub项目？有可能，但太小众了。\n\n好的，我确定了回答策略：\n1. 直接回答：目前\"Skillver\"并非广为人知的主流平台/产品\n2. 提供可能性：\n   - 可能是某家公司或初创企业的名称\n   - 可能是\"Skill Verification\"（技能验证）的简写/变体\n   - 可能是拼写错误（如Skillshare, Siliver等）\n3. 请求更多上下文以便准确回答\n\n这样既事实准确，又避免了编造信息。\n\n等等，我突然想到，用户可能指的是 \"Skillveri\"？不，还是 Skillver。\n\n或者，在某些招聘软件中？\n\n我决定按以下方式回答（中文）：\n\n\"在我目前的信息范围内，**Skillver** 并不是一个广为人知的主流平台、公司或通用术语。它可能是：\n\n1. **某家初创公司或小众产品**的名称（例如专注于技能评估、招聘或在线教育的工具）；\n2. **Skill Verification**（技能验证）一词的简写或变体，指代用于评估、认证个人技能的平台或系统；\n3. **拼写误差**，您可能想询问的是 Skillshare、Coursera、或其他类似名称的平台。\n\n如果您能提供更多上下文（例如在哪里看到这个词、所属领域等），我可以为您提供更准确的解答。\"\n\n这个回答诚实、有帮助且安全。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "completion_tokens": 1045,
+      "total_tokens": 1086,
+      "cached_tokens": 41,
+      "completion_tokens_details": {
+        "reasoning_tokens": 912
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 41
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T07:34:38.437887Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "在我目前的信息范围内，**Skillver** 并不是一个广为人知的主流平台、公司或通用术语。它可能是以下几种情况之一：\n\n1. **某家初创公司或小众产品**的名称，例如专注于技能评估、招聘科技或在线教育的工具；\n2. **Skill Verification**（技能验证）一词的简写或变体，指代用于评估、认证个人技能的平台或系统；\n3. **拼写误差**，您可能想询问的是 **Skillshare**、**Coursera** 或其他类似名称的平台。\n\n如果您能提供更多上下文（例如在哪里看到这个词、所属领域或用途），我可以为您提供更准确的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T073358Z/raw/kimi-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

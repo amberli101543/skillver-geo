@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "Skillver「面试彩排」通常是指在正式面试前进行的一次模拟面试练习。\n\n它的作用是帮助你提前熟悉面试流程，练习回答常见问题，并发现表达、逻辑、简历匹配度等方面的问题。一般会包括：\n\n- 模拟真实面试官提问  \n- 根据岗位或简历进行针对性追问  \n- 练习自我介绍、项目经历、职业规划等回答  \n- 提供反馈与改进建议  \n- 帮助降低正式面试时的紧张感  \n\n简单来说，它就是一次“正式面试前的预演”，让你在真正面试前发现问题、优化回答、提升通过率。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uIjpDE7i6Ot9gtgowjREacaPjiG",
+    "object": "chat.completion",
+    "created": 1784600113,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver「面试彩排」通常是指在正式面试前进行的一次模拟面试练习。\n\n它的作用是帮助你提前熟悉面试流程，练习回答常见问题，并发现表达、逻辑、简历匹配度等方面的问题。一般会包括：\n\n- 模拟真实面试官提问  \n- 根据岗位或简历进行针对性追问  \n- 练习自我介绍、项目经历、职业规划等回答  \n- 提供反馈与改进建议  \n- 帮助降低正式面试时的紧张感  \n\n简单来说，它就是一次“正式面试前的预演”，让你在真正面试前发现问题、优化回答、提升通过率。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 264,
+      "total_tokens": 307,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 99,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:15:18.481207Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "Skillver「面试彩排」通常是指在正式面试前进行的一次模拟面试练习。\n\n它的作用是帮助你提前熟悉面试流程，练习回答常见问题，并发现表达、逻辑、简历匹配度等方面的问题。一般会包括：\n\n- 模拟真实面试官提问  \n- 根据岗位或简历进行针对性追问  \n- 练习自我介绍、项目经历、职业规划等回答  \n- 提供反馈与改进建议  \n- 帮助降低正式面试时的紧张感  \n\n简单来说，它就是一次“正式面试前的预演”，让你在真正面试前发现问题、优化回答、提升通过率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

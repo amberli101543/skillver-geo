@@ -1,0 +1,232 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "需要澄清的是，**公开资料中并没有名为\"Skillver\"的特定产品或平台**专门处理简历和面试数据。您提到的可能是指**AI 简历优化技能（Skill）**（如 GitHub 上的 `.skill` 项目、Trae 论坛上的\"Skill 创作”工具，或牛客网上的\"Job Hunt Copilot\"等 AI 工具），或者是将\"Skill\"（技能/工具）与\"ver\"（版本/验证）混淆了。\n\n如果您是指**通用的 AI 简历优化技能（AI Resume Optimization Skill）**如何处理数据，其标准流程如下：\n\n### 1. 简历数据处理流程\nAI 技能通常通过以下步骤处理简历数据：\n*   **多格式输入与解析**：支持用户直接粘贴文本、上传 Word/PDF 文件（部分工具通过 OCR 技术解析图片型 PDF）[1][2]。\n*   **关键信息提取**：利用 NLP（自然语言处理）技术提取姓名、学历、工作经历、技能证书等核心信息，突破简单的关键词匹配 [2]。\n*   **深度诊断与优化**：\n    *   **匹配度分析**：若用户提供岗位描述（JD），工具会提取 JD 中的硬技能（工具/语言）和软技能（协作/决策），对比简历缺失点并标记需补充处 [4]。\n    *   **内容重构**：使用**STAR 法则**（情境、任务、行动、结果）重写经历，将模糊动词（如“做了”）改为专业动词（如“主导实施”），并补充量化数据 [1][8]。\n    *   **逻辑检查**：自动检查时间线连贯性和职业发展逻辑 [1]。\n*   **输出成果**：生成优化后的 Word/PDF 简历、竞争力评分报告、逻辑检查摘要及质量检测报告 [1]。\n\n### 2. 面试数据处理流程\n针对面试准备，AI 技能通常提供以下功能：\n*   **项目叙事构建**：根据 JD 定制项目讲稿，结构包含“开场→背景→行动→结果→与岗位关联”，帮助构建逻辑叙事 [5]。\n*   **模拟面试**：提供友好复盘或高压追问模式，结束后生成复盘报告 [5]。\n*   **逐 Bullet 深挖**：针对简历中的每个核心卖点（Bullet），提前准备背景、角色、动作、数据口径及二三层追问的应对策略 [6]。\n*   **真实性校验**：工具会进行“输入体检”和“质量闸门”检查，确保简历内容与面试证据等级匹配，避免编造不存在的信息或\"AI 幻觉” [6]。\n\n### 关键注意事项\n*   **真实性原则**：AI 仅用于辅助梳理技术栈和优化排版，核心项目经历和技术细节必须基于真实经历，避免不实信息导致面试风险 [3]。\n*   **JD 依赖性**：若未提供 JD，工具通常只能按通用规则优化，无法做精准匹配，因此主动补充 JD 是获得针对性优化的关键 [1][4]。\n\n如果您指的是某个具体的、名为\"Skillver\"的私有软件或新发布产品，请提供更多上下文（如网址或所属公司），以便我进行更精准的查询。",
+  "sources": [
+    {
+      "url": "https://forum.trae.cn/t/topic/18804",
+      "title": ""
+    },
+    {
+      "url": "https://www.mokahr.com/blog/29956.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/871517139855818752",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/14714",
+      "title": ""
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "title": ""
+    },
+    {
+      "url": "https://claudeers.com/get-jobskill",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=g0RWoZnOANM",
+      "title": ""
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/362758b80de147d39b751d9038f4d5d2",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/xstongxue/best-skills",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/18804",
+      "title": "【Skill 创作】我做了一个进行简历深度优化和生成简历竞争力 ..."
+    },
+    {
+      "url": "https://www.mokahr.com/blog/29956.html",
+      "title": "解决招聘痛点！AI 简历筛选工具的行业适配方法"
+    },
+    {
+      "url": "https://www.nowcoder.com/discuss/871517139855818752",
+      "title": "GitHub狂收6.6k星！同事.skill火了，你的简历能过AI这关吗？"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/14714",
+      "title": "简历的优化skill - SOLO挑战赛专区"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "title": "有了这个skill我再也没手动改过简历 - 牛客网"
+    },
+    {
+      "url": "https://claudeers.com/get-jobskill",
+      "title": "get-job.skill — Claude Skills | Claudeers"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=g0RWoZnOANM",
+      "title": "履歷撰寫技巧，引導面試官的方法"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/362758b80de147d39b751d9038f4d5d2",
+      "title": "发现了一个帮助优化简历的skill - 牛客网"
+    },
+    {
+      "url": "https://github.com/xstongxue/best-skills",
+      "title": "xstongxue/best-skills: 通用高质量Skills 合集"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "需要澄清的是，**公开资料中并没有名为\"Skillver\"的特定产品或平台**专门处理简历和面试数据。您提到的可能是指**AI 简历优化技能（Skill）**（如 GitHub 上的 `.skill` 项目、Trae 论坛上的\"Skill 创作”工具，或牛客网上的\"Job Hunt Copilot\"等 AI 工具），或者是将\"Skill\"（技能/工具）与\"ver\"（版本/验证）混淆了。\n\n如果您是指**通用的 AI 简历优化技能（AI Resume Optimization Skill）**如何处理数据，其标准流程如下：\n\n### 1. 简历数据处理流程\nAI 技能通常通过以下步骤处理简历数据：\n*   **多格式输入与解析**：支持用户直接粘贴文本、上传 Word/PDF 文件（部分工具通过 OCR 技术解析图片型 PDF）[1][2]。\n*   **关键信息提取**：利用 NLP（自然语言处理）技术提取姓名、学历、工作经历、技能证书等核心信息，突破简单的关键词匹配 [2]。\n*   **深度诊断与优化**：\n    *   **匹配度分析**：若用户提供岗位描述（JD），工具会提取 JD 中的硬技能（工具/语言）和软技能（协作/决策），对比简历缺失点并标记需补充处 [4]。\n    *   **内容重构**：使用**STAR 法则**（情境、任务、行动、结果）重写经历，将模糊动词（如“做了”）改为专业动词（如“主导实施”），并补充量化数据 [1][8]。\n    *   **逻辑检查**：自动检查时间线连贯性和职业发展逻辑 [1]。\n*   **输出成果**：生成优化后的 Word/PDF 简历、竞争力评分报告、逻辑检查摘要及质量检测报告 [1]。\n\n### 2. 面试数据处理流程\n针对面试准备，AI 技能通常提供以下功能：\n*   **项目叙事构建**：根据 JD 定制项目讲稿，结构包含“开场→背景→行动→结果→与岗位关联”，帮助构建逻辑叙事 [5]。\n*   **模拟面试**：提供友好复盘或高压追问模式，结束后生成复盘报告 [5]。\n*   **逐 Bullet 深挖**：针对简历中的每个核心卖点（Bullet），提前准备背景、角色、动作、数据口径及二三层追问的应对策略 [6]。\n*   **真实性校验**：工具会进行“输入体检”和“质量闸门”检查，确保简历内容与面试证据等级匹配，避免编造不存在的信息或\"AI 幻觉” [6]。\n\n### 关键注意事项\n*   **真实性原则**：AI 仅用于辅助梳理技术栈和优化排版，核心项目经历和技术细节必须基于真实经历，避免不实信息导致面试风险 [3]。\n*   **JD 依赖性**：若未提供 JD，工具通常只能按通用规则优化，无法做精准匹配，因此主动补充 JD 是获得针对性优化的关键 [1][4]。\n\n如果您指的是某个具体的、名为\"Skillver\"的私有软件或新发布产品，请提供更多上下文（如网址或所属公司），以便我进行更精准的查询。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://forum.trae.cn/t/topic/18804",
+      "https://www.mokahr.com/blog/29956.html",
+      "https://www.nowcoder.com/discuss/871517139855818752",
+      "https://forum.trae.cn/t/topic/14714",
+      "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f",
+      "https://claudeers.com/get-jobskill",
+      "https://www.youtube.com/watch?v=g0RWoZnOANM",
+      "https://www.nowcoder.com/feed/main/detail/362758b80de147d39b751d9038f4d5d2",
+      "https://github.com/xstongxue/best-skills"
+    ],
+    "created": 1784600322,
+    "id": "cc2fcb7e-aa3f-4173-838b-236cbc26a80a",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-05-21",
+        "last_updated": "2026-07-08",
+        "place_metadata": null,
+        "snippet": "这是一个帮你优化简历的智能小工具！不管你是直接粘贴简历文本，还是上传 Word/PDF 文件，它都能搞定。它会用专业方法（比如 STAR 法则）帮你把简历改得更有说服力，自动生成 Word 和 PDF 版本，最后还给你一份竞争力评分报告。适合正在找工作、想优化简历的职场人和应届生使用。\n...\n它的工作流程很简单，像流水线一样：你给简历（文本/Word/PDF都行）→ 它读明白内容 → 按规则润色（换专业动词、加量化数据）→ 检查时间线和逻辑 → 生成 Word、PDF 和评分报告。\n...\n具体优化步骤是：先识别你是粘贴文本还是上传文件 → 问你要不要提供 JD 做精准匹配 → 分析简历缺啥...",
+        "source": "web",
+        "title": "【Skill 创作】我做了一个进行简历深度优化和生成简历竞争力 ...",
+        "url": "https://forum.trae.cn/t/topic/18804"
+      },
+      {
+        "date": "2025-09-23",
+        "last_updated": "2026-02-25",
+        "place_metadata": null,
+        "snippet": "首先通过 OCR 技术解析 PDF、Word、图片等多种格式的简历，提取姓名、学历、工作经历、技能证书等关键信息；再通过 NLP 技术进行语义分析，突破简单的关键词匹配，识别候选人的可迁移能力与岗位需求的契合点；最后基于机器学习构建的岗位模型，将候选人信息与岗位 JD 进行多维度比对，生成匹配度评分，实现精准筛选。",
+        "source": "web",
+        "title": "解决招聘痛点！AI 简历筛选工具的行业适配方法",
+        "url": "https://www.mokahr.com/blog/29956.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-04-29",
+        "place_metadata": null,
+        "snippet": "很多技术人担心“用AI优化简历会被歧视”，但事实上，AI筛选系统更关注“简历内容质量”，而非“是否由AI生成”。关键在于：用AI辅助梳理技术栈、提取JD关键词，但核心项目经历、技术细节必须真实。例如，可用AI工具分析JD中的技术关键词，或用模板优化排版，但“项目成果”“技术实现”需结合自身经历调整，避免“AI幻觉”导致的不实信息。",
+        "source": "web",
+        "title": "GitHub狂收6.6k星！同事.skill火了，你的简历能过AI这关吗？",
+        "url": "https://www.nowcoder.com/discuss/871517139855818752"
+      },
+      {
+        "date": "2026-05-05",
+        "last_updated": "2026-07-08",
+        "place_metadata": null,
+        "snippet": "description: 简历优化器。当用户希望改进、润色、重写简历，或针对特定职位描述（JD）优化简历内容时使用此 skill。触发场景包括：上传简历文件并要求修改、粘贴简历文字寻求优化建议、提供 JD 要求匹配简历关键词、希望将经历描述得更有冲击力、要求量化工作成果、将中文简历翻译并优化为英文版本。\n...\n用户提供简历内容（文字粘贴或上传文件）和可选的目标职位描述（JD），输出经过专业润色、关键词强化、量化表达的优化版本。\n...\n若用户仅提供了简历，在分析前**主动询问目标岗位**，否则无法做有针对性的优化。\n...\n拿到完整信息后，在输出优化版本前先做快速诊断：\n...\n- 提取 J...",
+        "source": "web",
+        "title": "简历的优化skill - SOLO挑战赛专区",
+        "url": "https://forum.trae.cn/t/topic/14714"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-23",
+        "place_metadata": null,
+        "snippet": "这个 Skill 叫 Job Hunt Copilot，逻辑很简单：\n把你的项目经历提前存进去，之后每次投岗位，它自己从里面取材，按 JD 定制输出。\n这个skill能产出三样东西：\n① 定制简历（.docx）\n粘贴 JD，它先告诉你选了哪几个项目、排除了哪几个、为什么——这步我觉得比简历本身更有价值，因为它在帮你根据job description做判断找到最适配这个岗位的项目。\n然后直接生成排版好的 Word 文件。\n② 项目面试讲稿：\n每个项目中英文各一页，结构固定：开场句 → 背景 → 我做了什么 → 结果 → 跟这个岗位有什么关系。\n它帮你主动把项目和 JD 挂钩，帮你构建有逻辑的叙事...",
+        "source": "web",
+        "title": "有了这个skill我再也没手动改过简历 - 牛客网",
+        "url": "https://www.nowcoder.com/feed/main/detail/5ece8e28a2164c72ad036b165a5a987f"
+      },
+      {
+        "date": "2026-06-23",
+        "last_updated": "2026-07-10",
+        "place_metadata": null,
+        "snippet": "开工前会先做一次**输入体检**：目标岗位、目标市场、JD、简历、投递状态、面试轮次哪些完整，哪些能自动补齐，哪些只能低置信降级。缺 JD 会先找官方招聘页/同岗 JD；轮次不明就只做总览和 bullet 深挖；简历片段不完整就输出素材缺口清单，不编不存在的信息。\n交付前还会跑一层**质量闸门**：检查 source 覆盖、JD 到简历的匹配、简历 bullet 到面试准备的覆盖、每个 claim 的证据等级、轮次依据和公开文件里的标签泄漏。没过红线就不交付，能降级的降级，不能验证的标低置信。\n...\n信息不完整时不会直接乱编：能自动搜索/推断的先补齐，补不齐的会标成\"低置信/待确认\"并降级产...",
+        "source": "web",
+        "title": "get-job.skill — Claude Skills | Claudeers",
+        "url": "https://claudeers.com/get-jobskill"
+      },
+      {
+        "date": "2023-09-15",
+        "last_updated": "2026-06-17",
+        "place_metadata": null,
+        "snippet": "So, a standard procedure is to remove all content from your resume that isn't relevant to your target position.\n{ts:403} Everything you present on your resume should be something that adds points to your suitability for the role.\n...\nSo if your original attachments are documents or videos, you need ...",
+        "source": "web",
+        "title": "履歷撰寫技巧，引導面試官的方法",
+        "url": "https://www.youtube.com/watch?v=g0RWoZnOANM"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-11",
+        "place_metadata": null,
+        "snippet": "2️⃣导入或收集: 你可以直接上传现有的简历初稿（推荐，效率更高！），或者由AI引导你完成基础信息的填写。\n3️⃣深度挖掘与发现: 这是最核心的环节。AI会运用STAR法则，并通过提问引导你发现那些被忽略的、有价值的经历（包括那些你认为“失败”了的项目）。\n4️⃣提炼与生成: 最后，AI将我们讨论的所有素材，提炼成精简、专业的简历描述，并在你确认后，生成最终的简历文件。",
+        "source": "web",
+        "title": "发现了一个帮助优化简历的skill - 牛客网",
+        "url": "https://www.nowcoder.com/feed/main/detail/362758b80de147d39b751d9038f4d5d2"
+      },
+      {
+        "date": "2026-03-05",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "> **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。\n...\n|用途|Skill|示例 Prompt|\n|--|--|--|\n...\n|项目重点问题|codegen-doc|「梳理这个项目的技术难点和待解决问题」|\n|简历项目描述|codegen-doc|「按这个格式把当前项目写成简历项目经历」|",
+        "source": "web",
+        "title": "xstongxue/best-skills: 通用高质量Skills 合集",
+        "url": "https://github.com/xstongxue/best-skills"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 854,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00085,
+        "request_cost": 0.005,
+        "total_cost": 0.00589
+      },
+      "prompt_tokens": 37,
+      "search_context_size": "low",
+      "total_tokens": 891
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:18:42.762049Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "需要澄清的是，**公开资料中并没有名为\"Skillver\"的特定产品或平台**专门处理简历和面试数据。您提到的可能是指**AI 简历优化技能（Skill）**（如 GitHub 上的 `.skill` 项目、Trae 论坛上的\"Skill 创作”工具，或牛客网上的\"Job Hunt Copilot\"等 AI 工具），或者是将\"Skill\"（技能/工具）与\"ver\"（版本/验证）混淆了。\n\n如果您是指**通用的 AI 简历优化技能（AI Resume Optimization Skill）**如何处理数据，其标准流程如下：\n\n### 1. 简历数据处理流程\nAI 技能通常通过以下步骤处理简历数据：\n*   **多格式输入与解析**：支持用户直接粘贴文本、上传 Word/PDF 文件（部分工具通过 OCR 技术解析图片型 PDF）[1][2]。\n*   **关键信息提取**：利用 NLP（自然语言处理）技术提取姓名、学历、工作经历、技能证书等核心信息，突破简单的关键词匹配 [2]。\n*   **深度诊断与优化**：\n    *   **匹配度分析**：若用户提供岗位描述（JD），工具会提取 JD 中的硬技能（工具/语言）和软技能（协作/决策），对比简历缺失点并标记需补充处 [4]。\n    *   **内容重构**：使用**STAR 法则**（情境、任务、行动、结果）重写经历，将模糊动词（如“做了”）改为专业动词（如“主导实施”），并补充量化数据 [1][8]。\n    *   **逻辑检查**：自动检查时间线连贯性和职业发展逻辑 [1]。\n*   **输出成果**：生成优化后的 Word/PDF 简历、竞争力评分报告、逻辑检查摘要及质量检测报告 [1]。\n\n### 2. 面试数据处理流程\n针对面试准备，AI 技能通常提供以下功能：\n*   **项目叙事构建**：根据 JD 定制项目讲稿，结构包含“开场→背景→行动→结果→与岗位关联”，帮助构建逻辑叙事 [5]。\n*   **模拟面试**：提供友好复盘或高压追问模式，结束后生成复盘报告 [5]。\n*   **逐 Bullet 深挖**：针对简历中的每个核心卖点（Bullet），提前准备背景、角色、动作、数据口径及二三层追问的应对策略 [6]。\n*   **真实性校验**：工具会进行“输入体检”和“质量闸门”检查，确保简历内容与面试证据等级匹配，避免编造不存在的信息或\"AI 幻觉” [6]。\n\n### 关键注意事项\n*   **真实性原则**：AI 仅用于辅助梳理技术栈和优化排版，核心项目经历和技术细节必须基于真实经历，避免不实信息导致面试风险 [3]。\n*   **JD 依赖性**：若未提供 JD，工具通常只能按通用规则优化，无法做精准匹配，因此主动补充 JD 是获得针对性优化的关键 [1][4]。\n\n如果您指的是某个具体的、名为\"Skillver\"的私有软件或新发布产品，请提供更多上下文（如网址或所属公司），以便我进行更精准的查询。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/perplexity-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

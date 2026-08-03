@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "# Skillver 正式 AI 面试\n\n**Skillver** 是一个利用人工智能技术进行求职面试准备和模拟面试的平台。其\"正式 AI 面试\"功能主要包括：\n\n## 主要功能\n\n- **AI 模拟面试**：模拟真实面试场景，由 AI 担任面试官，向求职者提问\n- **个性化问题**：根据求职者的简历、目标职位和行业生成针对性问题\n- **实时反馈**：对回答进行分析，提供改进建议\n- **表现评估**：评估语言表达、内容质量、逻辑结构等方面\n\n## 适用场景\n\n- 求职前的面试练习\n- 提升面试技巧和自信心\n- 针对特定岗位进行专项训练\n\n## 特点\n\n- 可随时随地练习，不受时间地点限制\n- 提供客观、无偏见的评价\n- 帮助发现自身回答中的不足\n\n---\n\n如果您想了解更具体的内容（如费用、使用方法等），建议访问 **Skillver 官方网站** 获取最新信息，因为平台功能可能会持续更新。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEQ1Li5Fmi7vtYZgDUF8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 正式 AI 面试\n\n**Skillver** 是一个利用人工智能技术进行求职面试准备和模拟面试的平台。其\"正式 AI 面试\"功能主要包括：\n\n## 主要功能\n\n- **AI 模拟面试**：模拟真实面试场景，由 AI 担任面试官，向求职者提问\n- **个性化问题**：根据求职者的简历、目标职位和行业生成针对性问题\n- **实时反馈**：对回答进行分析，提供改进建议\n- **表现评估**：评估语言表达、内容质量、逻辑结构等方面\n\n## 适用场景\n\n- 求职前的面试练习\n- 提升面试技巧和自信心\n- 针对特定岗位进行专项训练\n\n## 特点\n\n- 可随时随地练习，不受时间地点限制\n- 提供客观、无偏见的评价\n- 帮助发现自身回答中的不足\n\n---\n\n如果您想了解更具体的内容（如费用、使用方法等），建议访问 **Skillver 官方网站** 获取最新信息，因为平台功能可能会持续更新。"
+        }
+      }
+    ],
+    "created": 1784600161,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 366,
+      "prompt_tokens": 52,
+      "total_tokens": 418
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:16:01.866141Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "# Skillver 正式 AI 面试\n\n**Skillver** 是一个利用人工智能技术进行求职面试准备和模拟面试的平台。其\"正式 AI 面试\"功能主要包括：\n\n## 主要功能\n\n- **AI 模拟面试**：模拟真实面试场景，由 AI 担任面试官，向求职者提问\n- **个性化问题**：根据求职者的简历、目标职位和行业生成针对性问题\n- **实时反馈**：对回答进行分析，提供改进建议\n- **表现评估**：评估语言表达、内容质量、逻辑结构等方面\n\n## 适用场景\n\n- 求职前的面试练习\n- 提升面试技巧和自信心\n- 针对特定岗位进行专项训练\n\n## 特点\n\n- 可随时随地练习，不受时间地点限制\n- 提供客观、无偏见的评价\n- 帮助发现自身回答中的不足\n\n---\n\n如果您想了解更具体的内容（如费用、使用方法等），建议访问 **Skillver 官方网站** 获取最新信息，因为平台功能可能会持续更新。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

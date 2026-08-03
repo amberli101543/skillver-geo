@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 是一个求职辅助平台，主要能帮求职者做以下几件事：\n\n1. **简历优化** – 分析并改进简历内容，使其更符合职位要求和ATS（简历筛选系统）标准。\n\n2. **技能评估** – 帮助求职者了解自身技能与目标职位之间的差距。\n\n3. **职业建议** – 提供个性化的职业发展建议和求职方向指导。\n\n4. **面试准备** – 提供模拟面试练习和常见面试问题的回答建议。\n\n5. **职位匹配** – 根据求职者的技能和经历，推荐匹配的工作机会。\n\n---\n\n> ⚠️ **注意**：我的知识截止日期有限，Skillver 的具体功能可能已更新或调整，建议直接访问 [Skillver 官网](https://www.skillver.io) 查看最新信息。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CdEPPVQhbvAWY3Y5AZxpL",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个求职辅助平台，主要能帮求职者做以下几件事：\n\n1. **简历优化** – 分析并改进简历内容，使其更符合职位要求和ATS（简历筛选系统）标准。\n\n2. **技能评估** – 帮助求职者了解自身技能与目标职位之间的差距。\n\n3. **职业建议** – 提供个性化的职业发展建议和求职方向指导。\n\n4. **面试准备** – 提供模拟面试练习和常见面试问题的回答建议。\n\n5. **职位匹配** – 根据求职者的技能和经历，推荐匹配的工作机会。\n\n---\n\n> ⚠️ **注意**：我的知识截止日期有限，Skillver 的具体功能可能已更新或调整，建议直接访问 [Skillver 官网](https://www.skillver.io) 查看最新信息。"
+        }
+      }
+    ],
+    "created": 1784599674,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 288,
+      "prompt_tokens": 51,
+      "total_tokens": 339
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:07:54.080778Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 是一个求职辅助平台，主要能帮求职者做以下几件事：\n\n1. **简历优化** – 分析并改进简历内容，使其更符合职位要求和ATS（简历筛选系统）标准。\n\n2. **技能评估** – 帮助求职者了解自身技能与目标职位之间的差距。\n\n3. **职业建议** – 提供个性化的职业发展建议和求职方向指导。\n\n4. **面试准备** – 提供模拟面试练习和常见面试问题的回答建议。\n\n5. **职位匹配** – 根据求职者的技能和经历，推荐匹配的工作机会。\n\n---\n\n> ⚠️ **注意**：我的知识截止日期有限，Skillver 的具体功能可能已更新或调整，建议直接访问 [Skillver 官网](https://www.skillver.io) 查看最新信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/claude-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

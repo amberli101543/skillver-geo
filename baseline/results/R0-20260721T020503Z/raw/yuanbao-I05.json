@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "目前公开信息中，**tcodeai.com** 与 **Skillver** 没有明确的官方关联说明。\n\n根据现有资料：\n- **tcodeai.com** 是一个与 AI 编程、代码生成相关的网站/工具平台。\n- **Skillver** 是一个面向技能学习、职业提升的在线平台，主打技能课程与实战项目。\n\n两者在品牌、运营主体、域名归属上均未显示直接关联。如果你看到它们同时出现，可能是：\n- 第三方内容引用或合作推广；\n- 同一团队在不同阶段推出的不同产品（但无公开证据）；\n- 用户或媒体将其并列提及，而非官方关系。\n\n如需确认，建议查看两者的官方介绍、团队信息或联系其客服核实。",
+  "sources": [],
+  "raw": {
+    "id": "9b981f6b-af3a-4c42-9b81-c3d66b61002c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1784599908,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前公开信息中，**tcodeai.com** 与 **Skillver** 没有明确的官方关联说明。\n\n根据现有资料：\n- **tcodeai.com** 是一个与 AI 编程、代码生成相关的网站/工具平台。\n- **Skillver** 是一个面向技能学习、职业提升的在线平台，主打技能课程与实战项目。\n\n两者在品牌、运营主体、域名归属上均未显示直接关联。如果你看到它们同时出现，可能是：\n- 第三方内容引用或合作推广；\n- 同一团队在不同阶段推出的不同产品（但无公开证据）；\n- 用户或媒体将其并列提及，而非官方关系。\n\n如需确认，建议查看两者的官方介绍、团队信息或联系其客服核实。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 51,
+      "completion_tokens": 158,
+      "total_tokens": 209,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:11:52.758426Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "目前公开信息中，**tcodeai.com** 与 **Skillver** 没有明确的官方关联说明。\n\n根据现有资料：\n- **tcodeai.com** 是一个与 AI 编程、代码生成相关的网站/工具平台。\n- **Skillver** 是一个面向技能学习、职业提升的在线平台，主打技能课程与实战项目。\n\n两者在品牌、运营主体、域名归属上均未显示直接关联。如果你看到它们同时出现，可能是：\n- 第三方内容引用或合作推广；\n- 同一团队在不同阶段推出的不同产品（但无公开证据）；\n- 用户或媒体将其并列提及，而非官方关系。\n\n如需确认，建议查看两者的官方介绍、团队信息或联系其客服核实。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/yuanbao-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

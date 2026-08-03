@@ -1,0 +1,85 @@
+{
+  "roundId": "R0",
+  "productState": "全面开放注册；邀请码仅用于赛事参与",
+  "startedAt": "20260721T015759Z",
+  "finishedAt": "2026-07-21T01:58:47.059481Z",
+  "engines": [
+    "doubao",
+    "kimi",
+    "deepseek",
+    "yuanbao",
+    "gemini",
+    "chatgpt",
+    "claude",
+    "perplexity"
+  ],
+  "missingKeys": [],
+  "questionCount": 1,
+  "successCount": 5,
+  "errorCount": 3,
+  "errors": [
+    {
+      "engine": "doubao",
+      "questionId": "B01",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021784599081686c3e452fc13d1575f4c4fc19c0a06ce189ac1a8\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "kimi",
+      "questionId": "B01",
+      "error": "HTTP 401: {\"error\":{\"message\":\"Invalid Authentication\",\"type\":\"invalid_authentication_error\"}}"
+    },
+    {
+      "engine": "gemini",
+      "questionId": "B01",
+      "error": "HTTP 400: [{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"User location is not supported for the API use.\",\n    \"status\": \"FAILED_PRECONDITION\"\n  }\n}\n]"
+    }
+  ],
+  "metrics": {
+    "total": 5,
+    "engines": {
+      "deepseek": {
+        "n": 1,
+        "mentionRate": 1.0,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0,
+        "positioningYesRate": 0.0,
+        "entryYesRate": null
+      },
+      "yuanbao": {
+        "n": 1,
+        "mentionRate": 1.0,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0,
+        "positioningYesRate": 0.0,
+        "entryYesRate": null
+      },
+      "chatgpt": {
+        "n": 1,
+        "mentionRate": 1.0,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0,
+        "positioningYesRate": 0.0,
+        "entryYesRate": null
+      },
+      "claude": {
+        "n": 1,
+        "mentionRate": 1.0,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0,
+        "positioningYesRate": 0.0,
+        "entryYesRate": null
+      },
+      "perplexity": {
+        "n": 1,
+        "mentionRate": 1.0,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 1.0,
+        "positioningYesRate": 1.0,
+        "entryYesRate": null
+      }
+    },
+    "overallMentionRate": 1.0,
+    "overallStaleNarrativeRate": 0.0
+  },
+  "note": "API surface only; App/Web 端需人工补测。hallucination 字段需人工复核。"
+}

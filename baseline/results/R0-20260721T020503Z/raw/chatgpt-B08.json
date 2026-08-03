@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "一般来说，**Skillver 不能、也不应承诺“保证拿到 offer”**。\n\n拿 offer 取决于很多外部因素，例如：岗位匹配度、公司招聘名额、面试表现、市场环境、竞争者情况等，任何培训/求职辅导机构都无法完全控制结果。\n\n你可以重点确认以下几点：\n\n1. **是否有书面“保证 offer”条款**  \n   只看合同/协议，不看口头承诺。\n\n2. **没拿到 offer 的处理方式**  \n   是退款、延长服务、继续辅导，还是没有补偿。\n\n3. **“offer”的定义**  \n   是否限定地区、岗位、薪资、公司类型，还是任意 offer 都算。\n\n4. **成功率和案例是否真实可验证**  \n   不要只看宣传页面。\n\n如果 Skillver 宣称“保 offer”，建议你让对方提供明确合同条款，并仔细看退款条件和限制。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-E3uCxUZTh3QZCo8XeIvxsdQHdpLMr",
+    "object": "chat.completion",
+    "created": 1784599755,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "一般来说，**Skillver 不能、也不应承诺“保证拿到 offer”**。\n\n拿 offer 取决于很多外部因素，例如：岗位匹配度、公司招聘名额、面试表现、市场环境、竞争者情况等，任何培训/求职辅导机构都无法完全控制结果。\n\n你可以重点确认以下几点：\n\n1. **是否有书面“保证 offer”条款**  \n   只看合同/协议，不看口头承诺。\n\n2. **没拿到 offer 的处理方式**  \n   是退款、延长服务、继续辅导，还是没有补偿。\n\n3. **“offer”的定义**  \n   是否限定地区、岗位、薪资、公司类型，还是任意 offer 都算。\n\n4. **成功率和案例是否真实可验证**  \n   不要只看宣传页面。\n\n如果 Skillver 宣称“保 offer”，建议你让对方提供明确合同条款，并仔细看退款条件和限制。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 298,
+      "total_tokens": 343,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 76,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:09:21.549322Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "一般来说，**Skillver 不能、也不应承诺“保证拿到 offer”**。\n\n拿 offer 取决于很多外部因素，例如：岗位匹配度、公司招聘名额、面试表现、市场环境、竞争者情况等，任何培训/求职辅导机构都无法完全控制结果。\n\n你可以重点确认以下几点：\n\n1. **是否有书面“保证 offer”条款**  \n   只看合同/协议，不看口头承诺。\n\n2. **没拿到 offer 的处理方式**  \n   是退款、延长服务、继续辅导，还是没有补偿。\n\n3. **“offer”的定义**  \n   是否限定地区、岗位、薪资、公司类型，还是任意 offer 都算。\n\n4. **成功率和案例是否真实可验证**  \n   不要只看宣传页面。\n\n如果 Skillver 宣称“保 offer”，建议你让对方提供明确合同条款，并仔细看退款条件和限制。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/chatgpt-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

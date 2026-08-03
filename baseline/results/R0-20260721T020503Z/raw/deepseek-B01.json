@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "Skillver 是一个基于区块链技术的去中心化技能验证和信誉平台。它旨在通过不可篡改的链上记录，帮助用户认证和展示自己的专业技能、工作经历及项目成果，从而建立可信的个人数字身份。雇主或合作伙伴可以据此快速验证人才的真实能力，减少传统招聘中的信息不对称和欺诈风险。同时，用户通过完成验证任务或参与社区贡献，可获得代币奖励。",
+  "sources": [],
+  "raw": {
+    "id": "fec96450-bf24-4172-8487-a2b3b92ff294",
+    "object": "chat.completion",
+    "created": 1784599504,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个基于区块链技术的去中心化技能验证和信誉平台。它旨在通过不可篡改的链上记录，帮助用户认证和展示自己的专业技能、工作经历及项目成果，从而建立可信的个人数字身份。雇主或合作伙伴可以据此快速验证人才的真实能力，减少传统招聘中的信息不对称和欺诈风险。同时，用户通过完成验证任务或参与社区贡献，可获得代币奖励。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 86,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-07-21T02:05:06.469748Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "Skillver 是一个基于区块链技术的去中心化技能验证和信誉平台。它旨在通过不可篡改的链上记录，帮助用户认证和展示自己的专业技能、工作经历及项目成果，从而建立可信的个人数字身份。雇主或合作伙伴可以据此快速验证人才的真实能力，减少传统招聘中的信息不对称和欺诈风险。同时，用户通过完成验证任务或参与社区贡献，可获得代币奖励。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260721T020503Z/raw/deepseek-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}
