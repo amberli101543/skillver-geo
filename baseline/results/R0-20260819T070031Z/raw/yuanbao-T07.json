@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "Skillver 的“导师赋能”（Mentor Empowerment）指的是**通过系统化的工具、资源与机制，提升导师的辅导能力、效率与影响力，使其能更有效地支持学员成长**。\n\n具体可能包括以下几个方面：\n\n1. **导师培训体系**：提供教学方法、沟通技巧、行业知识更新等培训，帮助导师提升专业辅导能力。\n2. **数字化工具支持**：通过平台提供课程管理、学员进度跟踪、反馈收集等工具，降低导师事务性负担。\n3. **资源与内容库**：开放行业案例、教学模板、评估工具等，让导师能快速获取高质量教学素材。\n4. **激励与成长机制**：设立导师评级、认证、收益分成或职业发展通道，增强导师的参与动力。\n5. **社区与协作网络**：连接导师之间、导师与专家的交流，促进经验共享与互助。\n\n简单来说，就是**让导师“会教、好教、愿意教”**，从而提升整体教学质量和学员体验。",
+  "sources": [],
+  "raw": {
+    "id": "e4990afa-9981-424f-a4b1-48c981a77cc0",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787124464,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的“导师赋能”（Mentor Empowerment）指的是**通过系统化的工具、资源与机制，提升导师的辅导能力、效率与影响力，使其能更有效地支持学员成长**。\n\n具体可能包括以下几个方面：\n\n1. **导师培训体系**：提供教学方法、沟通技巧、行业知识更新等培训，帮助导师提升专业辅导能力。\n2. **数字化工具支持**：通过平台提供课程管理、学员进度跟踪、反馈收集等工具，降低导师事务性负担。\n3. **资源与内容库**：开放行业案例、教学模板、评估工具等，让导师能快速获取高质量教学素材。\n4. **激励与成长机制**：设立导师评级、认证、收益分成或职业发展通道，增强导师的参与动力。\n5. **社区与协作网络**：连接导师之间、导师与专家的交流，促进经验共享与互助。\n\n简单来说，就是**让导师“会教、好教、愿意教”**，从而提升整体教学质量和学员体验。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 210,
+      "total_tokens": 258,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:27:48.857351Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "Skillver 的“导师赋能”（Mentor Empowerment）指的是**通过系统化的工具、资源与机制，提升导师的辅导能力、效率与影响力，使其能更有效地支持学员成长**。\n\n具体可能包括以下几个方面：\n\n1. **导师培训体系**：提供教学方法、沟通技巧、行业知识更新等培训，帮助导师提升专业辅导能力。\n2. **数字化工具支持**：通过平台提供课程管理、学员进度跟踪、反馈收集等工具，降低导师事务性负担。\n3. **资源与内容库**：开放行业案例、教学模板、评估工具等，让导师能快速获取高质量教学素材。\n4. **激励与成长机制**：设立导师评级、认证、收益分成或职业发展通道，增强导师的参与动力。\n5. **社区与协作网络**：连接导师之间、导师与专家的交流，促进经验共享与互助。\n\n简单来说，就是**让导师“会教、好教、愿意教”**，从而提升整体教学质量和学员体验。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

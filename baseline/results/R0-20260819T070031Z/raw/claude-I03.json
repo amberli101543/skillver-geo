@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "# 注册 Skillver 的步骤\n\n我目前没有关于 **Skillver** 具体注册流程的详细信息，因为它可能是一个较新或较小众的平台。\n\n## 一般注册建议：\n\n1. **访问官网** — 搜索 \"Skillver 官网\" 找到正确的网址\n2. **点击注册/Sign Up** — 通常在首页右上角\n3. **填写信息** — 一般需要：\n   - 姓名\n   - 电子邮件地址\n   - 设置密码\n4. **验证邮箱** — 查收验证邮件并点击确认链接\n5. **完善个人资料** — 按平台要求填写相关信息\n\n## 建议：\n\n- 访问 **Skillver 官方网站**查看最新注册指南\n- 查看平台的 **帮助中心/FAQ**\n- 联系平台 **客服支持**获取帮助\n\n---\n\n请问您能提供更多关于这个平台的信息吗？这样我可以给您更准确的帮助 😊",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBh6uS9fS2FVzcTGqQcR",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 注册 Skillver 的步骤\n\n我目前没有关于 **Skillver** 具体注册流程的详细信息，因为它可能是一个较新或较小众的平台。\n\n## 一般注册建议：\n\n1. **访问官网** — 搜索 \"Skillver 官网\" 找到正确的网址\n2. **点击注册/Sign Up** — 通常在首页右上角\n3. **填写信息** — 一般需要：\n   - 姓名\n   - 电子邮件地址\n   - 设置密码\n4. **验证邮箱** — 查收验证邮件并点击确认链接\n5. **完善个人资料** — 按平台要求填写相关信息\n\n## 建议：\n\n- 访问 **Skillver 官方网站**查看最新注册指南\n- 查看平台的 **帮助中心/FAQ**\n- 联系平台 **客服支持**获取帮助\n\n---\n\n请问您能提供更多关于这个平台的信息吗？这样我可以给您更准确的帮助 😊"
+        }
+      }
+    ],
+    "created": 1787123573,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 324,
+      "prompt_tokens": 48,
+      "total_tokens": 372
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:53.189289Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "# 注册 Skillver 的步骤\n\n我目前没有关于 **Skillver** 具体注册流程的详细信息，因为它可能是一个较新或较小众的平台。\n\n## 一般注册建议：\n\n1. **访问官网** — 搜索 \"Skillver 官网\" 找到正确的网址\n2. **点击注册/Sign Up** — 通常在首页右上角\n3. **填写信息** — 一般需要：\n   - 姓名\n   - 电子邮件地址\n   - 设置密码\n4. **验证邮箱** — 查收验证邮件并点击确认链接\n5. **完善个人资料** — 按平台要求填写相关信息\n\n## 建议：\n\n- 访问 **Skillver 官方网站**查看最新注册指南\n- 查看平台的 **帮助中心/FAQ**\n- 联系平台 **客服支持**获取帮助\n\n---\n\n请问您能提供更多关于这个平台的信息吗？这样我可以给您更准确的帮助 😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

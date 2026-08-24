@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "**简历优化工具**和**AI 面试工具**是求职/招聘过程中不同阶段的辅助工具，它们在应用阶段、核心功能和交互方式上有着本质的区别：\n\n### 1. 简历优化工具 (Resume Optimization Tools)\n*   **应用阶段**：求职前期（准备与投递阶段）。\n*   **核心功能**：\n    *   **文本润色**：修正语法错误，提升措辞的专业度。\n    *   **关键词匹配**：分析目标岗位JD（职位描述），提取关键词植入简历，以提高通过企业 ATS（简历筛选系统）的概率。\n    *   **结构优化**：量化工作成果（如使用STAR法则），优化排版。\n*   **交互介质**：纯文本。\n*   **目标**：帮助求职者**获取面试机会**（把“经历”写得更好）。\n\n### 2. AI 面试工具 (AI Interview Tools)\n*   **应用阶段**：求职中后期（面试准备或初筛阶段）。\n*   **核心分类与功能**：\n    *   **求职者端（模拟面试）**：AI 扮演面试官提出问题，求职者通过音视频回答。AI 分析求职者的语言逻辑、发音语速、眼神接触、面部表情等，并给出打分和改进建议。\n    *   **企业端（初筛面试）**：企业用 AI 代替HR进行第一轮视频面试，自动评估候选人的性格特质、专业知识和岗位匹配度，筛选出晋级下一轮的人选。\n*   **交互介质**：语音、视频、实时互动。\n*   **目标**：帮助求职者**提升表达与应变能力**，或帮助企业**快速筛选候选人**（把“自己”表达得更好）。\n\n---\n\n### 对比总结\n\n| 维度 | 简历优化工具 | AI 面试工具 |\n| :--- | :--- | :--- |\n| **关注点** | 你的**背景经历**（写得怎么样） | 你的**表达与沟通**（说得怎么样） |\n| **核心形式** | 文字修改、格式排版、关键词匹配 | 音视频互动、行为分析、表情/语气检测 |\n| **解决痛点** | 简历石沉大海、不会写工作出彩点 | 面试紧张、表达无逻辑、企业筛人效率低 |\n| **代表工具** | 简历本、知页简历、ChatGPT等 | 闪面(SmartInterview)、HireVue、各类AI模拟面试小程序 |\n\n**简而言之：** 简历优化工具负责帮你**“敲开大门”**，而 AI 面试工具则负责帮你**“通过考核”**。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**简历优化工具**和**AI 面试工具**是求职/招聘过程中不同阶段的辅助工具，它们在应用阶段、核心功能和交互方式上有着本质的区别：\n\n### 1. 简历优化工具 (Resume Optimization Tools)\n*   **应用阶段**：求职前期（准备与投递阶段）。\n*   **核心功能**：\n    *   **文本润色**：修正语法错误，提升措辞的专业度。\n    *   **关键词匹配**：分析目标岗位JD（职位描述），提取关键词植入简历，以提高通过企业 ATS（简历筛选系统）的概率。\n    *   **结构优化**：量化工作成果（如使用STAR法则），优化排版。\n*   **交互介质**：纯文本。\n*   **目标**：帮助求职者**获取面试机会**（把“经历”写得更好）。\n\n### 2. AI 面试工具 (AI Interview Tools)\n*   **应用阶段**：求职中后期（面试准备或初筛阶段）。\n*   **核心分类与功能**：\n    *   **求职者端（模拟面试）**：AI 扮演面试官提出问题，求职者通过音视频回答。AI 分析求职者的语言逻辑、发音语速、眼神接触、面部表情等，并给出打分和改进建议。\n    *   **企业端（初筛面试）**：企业用 AI 代替HR进行第一轮视频面试，自动评估候选人的性格特质、专业知识和岗位匹配度，筛选出晋级下一轮的人选。\n*   **交互介质**：语音、视频、实时互动。\n*   **目标**：帮助求职者**提升表达与应变能力**，或帮助企业**快速筛选候选人**（把“自己”表达得更好）。\n\n---\n\n### 对比总结\n\n| 维度 | 简历优化工具 | AI 面试工具 |\n| :--- | :--- | :--- |\n| **关注点** | 你的**背景经历**（写得怎么样） | 你的**表达与沟通**（说得怎么样） |\n| **核心形式** | 文字修改、格式排版、关键词匹配 | 音视频互动、行为分析、表情/语气检测 |\n| **解决痛点** | 简历石沉大海、不会写工作出彩点 | 面试紧张、表达无逻辑、企业筛人效率低 |\n| **代表工具** | 简历本、知页简历、ChatGPT等 | 闪面(SmartInterview)、HireVue、各类AI模拟面试小程序 |\n\n**简而言之：** 简历优化工具负责帮你**“敲开大门”**，而 AI 面试工具则负责帮你**“通过考核”**。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787125152,
+    "id": "mF2FatLVLpeFkdUPwqiCsAk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 604,
+      "prompt_tokens": 39,
+      "total_tokens": 1559
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:39:11.716285Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "**简历优化工具**和**AI 面试工具**是求职/招聘过程中不同阶段的辅助工具，它们在应用阶段、核心功能和交互方式上有着本质的区别：\n\n### 1. 简历优化工具 (Resume Optimization Tools)\n*   **应用阶段**：求职前期（准备与投递阶段）。\n*   **核心功能**：\n    *   **文本润色**：修正语法错误，提升措辞的专业度。\n    *   **关键词匹配**：分析目标岗位JD（职位描述），提取关键词植入简历，以提高通过企业 ATS（简历筛选系统）的概率。\n    *   **结构优化**：量化工作成果（如使用STAR法则），优化排版。\n*   **交互介质**：纯文本。\n*   **目标**：帮助求职者**获取面试机会**（把“经历”写得更好）。\n\n### 2. AI 面试工具 (AI Interview Tools)\n*   **应用阶段**：求职中后期（面试准备或初筛阶段）。\n*   **核心分类与功能**：\n    *   **求职者端（模拟面试）**：AI 扮演面试官提出问题，求职者通过音视频回答。AI 分析求职者的语言逻辑、发音语速、眼神接触、面部表情等，并给出打分和改进建议。\n    *   **企业端（初筛面试）**：企业用 AI 代替HR进行第一轮视频面试，自动评估候选人的性格特质、专业知识和岗位匹配度，筛选出晋级下一轮的人选。\n*   **交互介质**：语音、视频、实时互动。\n*   **目标**：帮助求职者**提升表达与应变能力**，或帮助企业**快速筛选候选人**（把“自己”表达得更好）。\n\n---\n\n### 对比总结\n\n| 维度 | 简历优化工具 | AI 面试工具 |\n| :--- | :--- | :--- |\n| **关注点** | 你的**背景经历**（写得怎么样） | 你的**表达与沟通**（说得怎么样） |\n| **核心形式** | 文字修改、格式排版、关键词匹配 | 音视频互动、行为分析、表情/语气检测 |\n| **解决痛点** | 简历石沉大海、不会写工作出彩点 | 面试紧张、表达无逻辑、企业筛人效率低 |\n| **代表工具** | 简历本、知页简历、ChatGPT等 | 闪面(SmartInterview)、HireVue、各类AI模拟面试小程序 |\n\n**简而言之：** 简历优化工具负责帮你**“敲开大门”**，而 AI 面试工具则负责帮你**“通过考核”**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

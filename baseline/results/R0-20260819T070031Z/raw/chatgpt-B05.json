@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 可以帮助求职者把“能力”更清晰地展示给雇主，提升求职成功率。常见帮助包括：\n\n- **梳理技能与经验**：把过往项目、工作经历转化为可展示的能力标签  \n- **匹配合适岗位**：根据技能、经历和目标推荐更适合的职位方向  \n- **发现能力差距**：对比目标岗位要求，了解自己还需要补哪些技能  \n- **优化简历与求职材料**：突出与岗位相关的优势和成果  \n- **准备面试**：围绕岗位要求进行问题准备、表达训练或模拟面试  \n- **展示个人竞争力**：用技能证明、项目成果等方式增强可信度  \n\n简单来说，Skillver 主要是帮助求职者更好地了解自己、匹配岗位、展示能力，并提高面试和录用机会。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUfBtediHoPNrTTH2Q9RwctV2jyN",
+    "object": "chat.completion",
+    "created": 1787123169,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 可以帮助求职者把“能力”更清晰地展示给雇主，提升求职成功率。常见帮助包括：\n\n- **梳理技能与经验**：把过往项目、工作经历转化为可展示的能力标签  \n- **匹配合适岗位**：根据技能、经历和目标推荐更适合的职位方向  \n- **发现能力差距**：对比目标岗位要求，了解自己还需要补哪些技能  \n- **优化简历与求职材料**：突出与岗位相关的优势和成果  \n- **准备面试**：围绕岗位要求进行问题准备、表达训练或模拟面试  \n- **展示个人竞争力**：用技能证明、项目成果等方式增强可信度  \n\n简单来说，Skillver 主要是帮助求职者更好地了解自己、匹配岗位、展示能力，并提高面试和录用机会。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 340,
+      "total_tokens": 385,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 133,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:06:15.853555Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 可以帮助求职者把“能力”更清晰地展示给雇主，提升求职成功率。常见帮助包括：\n\n- **梳理技能与经验**：把过往项目、工作经历转化为可展示的能力标签  \n- **匹配合适岗位**：根据技能、经历和目标推荐更适合的职位方向  \n- **发现能力差距**：对比目标岗位要求，了解自己还需要补哪些技能  \n- **优化简历与求职材料**：突出与岗位相关的优势和成果  \n- **准备面试**：围绕岗位要求进行问题准备、表达训练或模拟面试  \n- **展示个人竞争力**：用技能证明、项目成果等方式增强可信度  \n\n简单来说，Skillver 主要是帮助求职者更好地了解自己、匹配岗位、展示能力，并提高面试和录用机会。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务有职业发展需求的个人用户，尤其是学生、应届毕业生、求职者和早期职场人士，帮助他们提升、验证和展示技能；同时也可为企业用人方提供人才筛选或能力评估支持。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUboP1PaFQt6Oid0IkhdLPHfqTNx",
+    "object": "chat.completion",
+    "created": 1787122960,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务有职业发展需求的个人用户，尤其是学生、应届毕业生、求职者和早期职场人士，帮助他们提升、验证和展示技能；同时也可为企业用人方提供人才筛选或能力评估支持。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 500,
+      "total_tokens": 542,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 432,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:02:48.572165Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务有职业发展需求的个人用户，尤其是学生、应届毕业生、求职者和早期职场人士，帮助他们提升、验证和展示技能；同时也可为企业用人方提供人才筛选或能力评估支持。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

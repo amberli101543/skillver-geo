@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "您提到的 **“Skillver”** 可能是指某个特定的软件/平台，也有可能是知名在线学习平台 **“Skillshare”** 的拼写错误。以下为您提供这两种情况的注册方法：\n\n### 情况一：如果您指的是 Skillshare（知名在线学习平台）\n1. **访问官网或下载 App**：\n   * 电脑端访问官网：[www.skillshare.com](https://www.skillshare.com)。\n   * 手机端在 App Store 或 Google Play 搜索 “Skillshare” 下载安装。\n2. **点击注册**：\n   * 点击页面右上角的 **“Sign Up”**（注册）按钮。\n3. **选择注册方式**：\n   * **快捷登录**：支持使用 Google、Facebook 或 Apple 账号一键登录。\n   * **邮箱注册**：点击 “Sign up with email”，输入您的姓名、邮箱地址并设置密码。\n4. **完成验证**：\n   * 按照提示完成邮箱验证，即可开始使用。\n\n---\n\n### 情况二：如果您指的是特定的 “Skillver” 平台\n如果您确定是 “Skillver”（例如某个特定的垂类工具、游戏或地方性服务平台），通用注册步骤如下：\n1. **寻找官方渠道**：\n   * 在浏览器中搜索并进入 **Skillver 的官方网站**，或在手机应用商店搜索下载其官方 App。\n2. **寻找注册入口**：\n   * 在首页右上角或主页中心，点击 **“Sign Up”**、**“Register”** 或 **“注册”**。\n3. **填写注册信息**：\n   * 输入您的常用**电子邮箱**或**手机号码**。\n   * 设置一个安全的密码。\n4. **接收验证码/激活链接**：\n   * 检查您的邮箱或短信，输入收到的验证码，或点击激活链接。\n5. **完善个人资料**：\n   * 根据提示填写用户名、职业或技能标签等，即可完成注册。\n\n*注：如果您在注册特定 “Skillver” 时遇到困难，可以提供更多关于该平台的背景（如它是一款什么软件或网址），以便为您提供更精准的解答。*",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您提到的 **“Skillver”** 可能是指某个特定的软件/平台，也有可能是知名在线学习平台 **“Skillshare”** 的拼写错误。以下为您提供这两种情况的注册方法：\n\n### 情况一：如果您指的是 Skillshare（知名在线学习平台）\n1. **访问官网或下载 App**：\n   * 电脑端访问官网：[www.skillshare.com](https://www.skillshare.com)。\n   * 手机端在 App Store 或 Google Play 搜索 “Skillshare” 下载安装。\n2. **点击注册**：\n   * 点击页面右上角的 **“Sign Up”**（注册）按钮。\n3. **选择注册方式**：\n   * **快捷登录**：支持使用 Google、Facebook 或 Apple 账号一键登录。\n   * **邮箱注册**：点击 “Sign up with email”，输入您的姓名、邮箱地址并设置密码。\n4. **完成验证**：\n   * 按照提示完成邮箱验证，即可开始使用。\n\n---\n\n### 情况二：如果您指的是特定的 “Skillver” 平台\n如果您确定是 “Skillver”（例如某个特定的垂类工具、游戏或地方性服务平台），通用注册步骤如下：\n1. **寻找官方渠道**：\n   * 在浏览器中搜索并进入 **Skillver 的官方网站**，或在手机应用商店搜索下载其官方 App。\n2. **寻找注册入口**：\n   * 在首页右上角或主页中心，点击 **“Sign Up”**、**“Register”** 或 **“注册”**。\n3. **填写注册信息**：\n   * 输入您的常用**电子邮箱**或**手机号码**。\n   * 设置一个安全的密码。\n4. **接收验证码/激活链接**：\n   * 检查您的邮箱或短信，输入收到的验证码，或点击激活链接。\n5. **完善个人资料**：\n   * 根据提示填写用户名、职业或技能标签等，即可完成注册。\n\n*注：如果您在注册特定 “Skillver” 时遇到困难，可以提供更多关于该平台的背景（如它是一款什么软件或网址），以便为您提供更精准的解答。*",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123558,
+    "id": "X1eFatDjIs7y7M8P4Lu_qAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 475,
+      "prompt_tokens": 33,
+      "total_tokens": 1638
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:38.764037Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "您提到的 **“Skillver”** 可能是指某个特定的软件/平台，也有可能是知名在线学习平台 **“Skillshare”** 的拼写错误。以下为您提供这两种情况的注册方法：\n\n### 情况一：如果您指的是 Skillshare（知名在线学习平台）\n1. **访问官网或下载 App**：\n   * 电脑端访问官网：[www.skillshare.com](https://www.skillshare.com)。\n   * 手机端在 App Store 或 Google Play 搜索 “Skillshare” 下载安装。\n2. **点击注册**：\n   * 点击页面右上角的 **“Sign Up”**（注册）按钮。\n3. **选择注册方式**：\n   * **快捷登录**：支持使用 Google、Facebook 或 Apple 账号一键登录。\n   * **邮箱注册**：点击 “Sign up with email”，输入您的姓名、邮箱地址并设置密码。\n4. **完成验证**：\n   * 按照提示完成邮箱验证，即可开始使用。\n\n---\n\n### 情况二：如果您指的是特定的 “Skillver” 平台\n如果您确定是 “Skillver”（例如某个特定的垂类工具、游戏或地方性服务平台），通用注册步骤如下：\n1. **寻找官方渠道**：\n   * 在浏览器中搜索并进入 **Skillver 的官方网站**，或在手机应用商店搜索下载其官方 App。\n2. **寻找注册入口**：\n   * 在首页右上角或主页中心，点击 **“Sign Up”**、**“Register”** 或 **“注册”**。\n3. **填写注册信息**：\n   * 输入您的常用**电子邮箱**或**手机号码**。\n   * 设置一个安全的密码。\n4. **接收验证码/激活链接**：\n   * 检查您的邮箱或短信，输入收到的验证码，或点击激活链接。\n5. **完善个人资料**：\n   * 根据提示填写用户名、职业或技能标签等，即可完成注册。\n\n*注：如果您在注册特定 “Skillver” 时遇到困难，可以提供更多关于该平台的背景（如它是一款什么软件或网址），以便为您提供更精准的解答。*",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

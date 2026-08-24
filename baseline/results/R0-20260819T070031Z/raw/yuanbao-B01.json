@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "**Skillver** 是一个提供**技能共享与在线学习服务**的平台，主要连接技能导师与学习者，帮助用户通过在线课程、一对一指导或实践项目提升特定技能（如编程、设计、语言、职业软技能等）。\n\n### 核心特点：\n1. **技能导向**：聚焦实用技能，而非传统学历教育。\n2. **灵活学习**：支持按需学习、短期课程或定制化辅导。\n3. **导师网络**：汇聚行业从业者或专家作为导师。\n4. **实践结合**：部分课程包含项目实战或作品集指导。\n\n### 适用场景：\n- 职场人士提升职业技能  \n- 学生补充课外实践能力  \n- 转行者学习新领域知识  \n\n如需更具体的信息（如注册方式、课程费用），建议访问其官网或查看最新用户评价。目前该平台在中文网络中的公开信息较少，可能存在地区性运营差异。",
+  "sources": [],
+  "raw": {
+    "id": "181ca8a3-a5b2-469f-a004-381390e8f188",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787122883,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver** 是一个提供**技能共享与在线学习服务**的平台，主要连接技能导师与学习者，帮助用户通过在线课程、一对一指导或实践项目提升特定技能（如编程、设计、语言、职业软技能等）。\n\n### 核心特点：\n1. **技能导向**：聚焦实用技能，而非传统学历教育。\n2. **灵活学习**：支持按需学习、短期课程或定制化辅导。\n3. **导师网络**：汇聚行业从业者或专家作为导师。\n4. **实践结合**：部分课程包含项目实战或作品集指导。\n\n### 适用场景：\n- 职场人士提升职业技能  \n- 学生补充课外实践能力  \n- 转行者学习新领域知识  \n\n如需更具体的信息（如注册方式、课程费用），建议访问其官网或查看最新用户评价。目前该平台在中文网络中的公开信息较少，可能存在地区性运营差异。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 193,
+      "total_tokens": 238,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:01:28.156139Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "**Skillver** 是一个提供**技能共享与在线学习服务**的平台，主要连接技能导师与学习者，帮助用户通过在线课程、一对一指导或实践项目提升特定技能（如编程、设计、语言、职业软技能等）。\n\n### 核心特点：\n1. **技能导向**：聚焦实用技能，而非传统学历教育。\n2. **灵活学习**：支持按需学习、短期课程或定制化辅导。\n3. **导师网络**：汇聚行业从业者或专家作为导师。\n4. **实践结合**：部分课程包含项目实战或作品集指导。\n\n### 适用场景：\n- 职场人士提升职业技能  \n- 学生补充课外实践能力  \n- 转行者学习新领域知识  \n\n如需更具体的信息（如注册方式、课程费用），建议访问其官网或查看最新用户评价。目前该平台在中文网络中的公开信息较少，可能存在地区性运营差异。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

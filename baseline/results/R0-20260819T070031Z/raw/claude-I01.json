@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "我没有关于\"Skillver\"官网的确切信息。这可能是一个较小众的平台或品牌，我的训练数据中没有相关记录。\n\n建议您可以：\n1. 直接在搜索引擎（如Google或百度）搜索\"Skillver 官网\"\n2. 检查您获得该名称的来源，确认拼写是否正确\n\n如果您能提供更多背景信息，我可以尝试进一步帮助您。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgwaKhmcjSn3XncY4nG",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我没有关于\"Skillver\"官网的确切信息。这可能是一个较小众的平台或品牌，我的训练数据中没有相关记录。\n\n建议您可以：\n1. 直接在搜索引擎（如Google或百度）搜索\"Skillver 官网\"\n2. 检查您获得该名称的来源，确认拼写是否正确\n\n如果您能提供更多背景信息，我可以尝试进一步帮助您。"
+        }
+      }
+    ],
+    "created": 1787123443,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 144,
+      "prompt_tokens": 47,
+      "total_tokens": 191
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:10:43.528370Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "我没有关于\"Skillver\"官网的确切信息。这可能是一个较小众的平台或品牌，我的训练数据中没有相关记录。\n\n建议您可以：\n1. 直接在搜索引擎（如Google或百度）搜索\"Skillver 官网\"\n2. 检查您获得该名称的来源，确认拼写是否正确\n\n如果您能提供更多背景信息，我可以尝试进一步帮助您。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

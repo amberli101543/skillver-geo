@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "根据现有信息，**Skillver 通常需要邀请码才能注册使用**，没有邀请码一般无法直接完成注册。\n\n如果你暂时没有邀请码，可以尝试以下方式：\n1. 关注 Skillver 官方社交媒体账号（如 Twitter、Discord 等），官方有时会发放邀请码或开放注册。\n2. 询问已在使用 Skillver 的朋友，看是否有多余的邀请名额。\n3. 等待官方后续是否开放公开注册。\n\n如果后续 Skillver 政策有调整，建议以官方最新说明为准。",
+  "sources": [],
+  "raw": {
+    "id": "e98583e9-bc3e-49e3-849c-b276bd6d892c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123876,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据现有信息，**Skillver 通常需要邀请码才能注册使用**，没有邀请码一般无法直接完成注册。\n\n如果你暂时没有邀请码，可以尝试以下方式：\n1. 关注 Skillver 官方社交媒体账号（如 Twitter、Discord 等），官方有时会发放邀请码或开放注册。\n2. 询问已在使用 Skillver 的朋友，看是否有多余的邀请名额。\n3. 等待官方后续是否开放公开注册。\n\n如果后续 Skillver 政策有调整，建议以官方最新说明为准。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 110,
+      "total_tokens": 160,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:59.697654Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "根据现有信息，**Skillver 通常需要邀请码才能注册使用**，没有邀请码一般无法直接完成注册。\n\n如果你暂时没有邀请码，可以尝试以下方式：\n1. 关注 Skillver 官方社交媒体账号（如 Twitter、Discord 等），官方有时会发放邀请码或开放注册。\n2. 询问已在使用 Skillver 的朋友，看是否有多余的邀请名额。\n3. 等待官方后续是否开放公开注册。\n\n如果后续 Skillver 政策有调整，建议以官方最新说明为准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

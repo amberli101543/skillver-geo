@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "如果你想找**AI 求职助手**，优先选的是能覆盖“**简历优化 + 岗位匹配 + 投递管理 + 面试辅助**”的全流程工具，而不是只做简历润色的单点工具。[2][3][11]\n\n按当前这些实测与横评，比较值得优先看的有：\n\n- **求职精灵 Genielink**：多篇横评把它列为首选，理由是**全链路覆盖**，从选岗到面试都能用，且免费版可用性较高。[2][4]\n- **智联职悟空**：更适合**应届生**或对流程不熟的人，强调从定位到 Offer 决策的**全流程陪伴**。[1][7][13]\n- **DeepHire（BOSS直聘）**：适合想在招聘平台内直接完成求职辅助的人，功能包括**岗位咨询、薪资查询、简历优化、AI 代聊和约面**。[3]\n- **讯飞星火**：如果你更看重**简历制作 + 模拟面试**，多篇测评认为它综合表现突出。[12][14][18]\n- **豆包**：如果你已经有简历模板，只需要做**文字润色**或 STAR 改写，它的上手门槛更低。[1][13]\n\n如果你只想要一个最稳妥的选择，我会建议：\n\n- **应届生 / 求职新手**：先看 **智联职悟空** 或 **求职精灵 Genielink**。[1][2][7][13]\n- **技术岗**：优先 **求职精灵 Genielink**，再搭配 **牛客 AI 面试**补题库深度。[2]\n- **只改简历**：选 **豆包** 或 **超级简历** 这类轻量工具更省事。[1][13]\n\n如果你愿意，我可以继续按你的情况直接给你做一个**“AI 求职助手推荐清单”**，比如按 **应届生 / 社招 / 技术岗 / 海投党 / 简历优化** 分别推荐。",
+  "sources": [
+    {
+      "url": "https://www.csdn.net/article/2026-08-10/163639172",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a0d542a662f9a54cb75d51b.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.aihub.cn/tools/hr/",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7637398517460664360",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/nut-king/p/20431146",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": ""
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-03/163441468",
+      "title": ""
+    },
+    {
+      "url": "https://www.unite.ai/zh-CN/ai-recruiting-tools/",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/KBONABDM0556FC0Y.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights",
+      "title": ""
+    },
+    {
+      "url": "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/ytt0523_com/article/details/150069152",
+      "title": ""
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-10/163639322",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/EnjoyEDU/article/details/149243571",
+      "title": ""
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/boss-helper-%E7%9B%B4%E8%81%98ai%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B/ogkmgjbagackkdlcibcailacnncgonbn",
+      "title": ""
+    },
+    {
+      "url": "https://www.offerkuai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7492221099745656895",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2429528",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/jobsearchhacks/comments/1i2aruc/any_recommendations_for_ai_job_searching_tools/",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/Ningxianwei8/article/details/151114411",
+      "title": ""
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-10/163639172",
+      "title": "2026求职季：5款AI求职工具实测，帮你从海投到精准上岸-CSDN.NET"
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a0d542a662f9a54cb75d51b.html",
+      "title": "2026年AI求职工具深度横评 - AtomGit开源社区"
+    },
+    {
+      "url": "https://www.aihub.cn/tools/hr/",
+      "title": "20+最好用的AI招聘求职工具和助手 - AIHub"
+    },
+    {
+      "url": "https://juejin.cn/post/7637398517460664360",
+      "title": "互联网大厂求职AI助手深度测评：2026年谁才是大厂\"敲门砖\"？"
+    },
+    {
+      "url": "https://www.cnblogs.com/nut-king/p/20431146",
+      "title": "技术人必看：2026年5款AI求职利器深度评测，从简历到面试 ..."
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园"
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-03/163441468",
+      "title": "网申通过率高的招聘平台怎么选？2026年5款AI求职工具实测"
+    },
+    {
+      "url": "https://www.unite.ai/zh-CN/ai-recruiting-tools/",
+      "title": "8 款最佳AI 招聘工具（2026 年3 月）"
+    },
+    {
+      "url": "https://www.163.com/dy/article/KBONABDM0556FC0Y.html",
+      "title": "春招AI 求职工具实测：5 款热门产品横评，谁才是应届生最优解？ - 网易"
+    },
+    {
+      "url": "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights",
+      "title": "7款AI求職工具實測：如何提升面試邀約率20倍"
+    },
+    {
+      "url": "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/",
+      "title": "10 年十大最佳求职 AI 工具 - TargetTrend"
+    },
+    {
+      "url": "https://blog.csdn.net/ytt0523_com/article/details/150069152",
+      "title": "1179 万毕业生必看！国内 8 大 AI 求职工具实测，这几款表现亮眼"
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-10/163639322",
+      "title": "2026大学生求职平台推荐：实测5款AI工具后"
+    },
+    {
+      "url": "https://blog.csdn.net/EnjoyEDU/article/details/149243571",
+      "title": "1179 万毕业生求职潮来袭，实测8 大 AI 模型：谁是最强求职 AI 助手？"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/boss-helper-%E7%9B%B4%E8%81%98ai%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B/ogkmgjbagackkdlcibcailacnncgonbn",
+      "title": "boss-helper-直聘AI求职助手 - Chrome Web Store"
+    },
+    {
+      "url": "https://www.offerkuai.com/",
+      "title": "OFFER快- AI 自动求职助手| 轻松获得下一份好工作"
+    },
+    {
+      "url": "https://juejin.cn/post/7492221099745656895",
+      "title": "2025年最佳的5个找工作AI助手：全面指南"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2429528",
+      "title": "1179万毕业生求职大潮袭来，8大AI模型实测"
+    },
+    {
+      "url": "https://www.reddit.com/r/jobsearchhacks/comments/1i2aruc/any_recommendations_for_ai_job_searching_tools/",
+      "title": "有没有推荐的AI 找工作工具？ : r/jobsearchhacks"
+    },
+    {
+      "url": "https://blog.csdn.net/Ningxianwei8/article/details/151114411",
+      "title": "2025年9月，AI求职工具推荐：让好工作主动找到你原创 - CSDN博客"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果你想找**AI 求职助手**，优先选的是能覆盖“**简历优化 + 岗位匹配 + 投递管理 + 面试辅助**”的全流程工具，而不是只做简历润色的单点工具。[2][3][11]\n\n按当前这些实测与横评，比较值得优先看的有：\n\n- **求职精灵 Genielink**：多篇横评把它列为首选，理由是**全链路覆盖**，从选岗到面试都能用，且免费版可用性较高。[2][4]\n- **智联职悟空**：更适合**应届生**或对流程不熟的人，强调从定位到 Offer 决策的**全流程陪伴**。[1][7][13]\n- **DeepHire（BOSS直聘）**：适合想在招聘平台内直接完成求职辅助的人，功能包括**岗位咨询、薪资查询、简历优化、AI 代聊和约面**。[3]\n- **讯飞星火**：如果你更看重**简历制作 + 模拟面试**，多篇测评认为它综合表现突出。[12][14][18]\n- **豆包**：如果你已经有简历模板，只需要做**文字润色**或 STAR 改写，它的上手门槛更低。[1][13]\n\n如果你只想要一个最稳妥的选择，我会建议：\n\n- **应届生 / 求职新手**：先看 **智联职悟空** 或 **求职精灵 Genielink**。[1][2][7][13]\n- **技术岗**：优先 **求职精灵 Genielink**，再搭配 **牛客 AI 面试**补题库深度。[2]\n- **只改简历**：选 **豆包** 或 **超级简历** 这类轻量工具更省事。[1][13]\n\n如果你愿意，我可以继续按你的情况直接给你做一个**“AI 求职助手推荐清单”**，比如按 **应届生 / 社招 / 技术岗 / 海投党 / 简历优化** 分别推荐。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.csdn.net/article/2026-08-10/163639172",
+      "https://gitcode.csdn.net/6a0d542a662f9a54cb75d51b.html",
+      "https://www.aihub.cn/tools/hr/",
+      "https://juejin.cn/post/7637398517460664360",
+      "https://www.cnblogs.com/nut-king/p/20431146",
+      "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "https://www.csdn.net/article/2026-08-03/163441468",
+      "https://www.unite.ai/zh-CN/ai-recruiting-tools/",
+      "https://www.163.com/dy/article/KBONABDM0556FC0Y.html",
+      "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights",
+      "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/",
+      "https://blog.csdn.net/ytt0523_com/article/details/150069152",
+      "https://www.csdn.net/article/2026-08-10/163639322",
+      "https://blog.csdn.net/EnjoyEDU/article/details/149243571",
+      "https://chromewebstore.google.com/detail/boss-helper-%E7%9B%B4%E8%81%98ai%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B/ogkmgjbagackkdlcibcailacnncgonbn",
+      "https://www.offerkuai.com/",
+      "https://juejin.cn/post/7492221099745656895",
+      "https://cloud.tencent.com/developer/article/2429528",
+      "https://www.reddit.com/r/jobsearchhacks/comments/1i2aruc/any_recommendations_for_ai_job_searching_tools/",
+      "https://blog.csdn.net/Ningxianwei8/article/details/151114411"
+    ],
+    "created": 1787124714,
+    "id": "14823614-5edc-45fe-9d04-29e674998a5f",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-10",
+        "place_metadata": null,
+        "snippet": "如果你是应届生，对求职流程还不熟悉，首选智联职悟空的全流程陪伴，从定位到Offer决策一条龙覆盖，省去在多工具间切换的麻烦。如果你已有固定模板，只需要简单润色文字，可以试试豆包，学习成本几乎为零。",
+        "source": "web",
+        "title": "2026求职季：5款AI求职工具实测，帮你从海投到精准上岸-CSDN.NET",
+        "url": "https://www.csdn.net/article/2026-08-10/163639172"
+      },
+      {
+        "date": "2026-05-20",
+        "last_updated": "2026-05-23",
+        "place_metadata": null,
+        "snippet": "|排名|工具名称|核心定位|功能覆盖|AI精准度|用户体验|落地效果|性价比|**综合评分**|\n...\n|🥇 NO.1|**求职精灵 Genielink**|全链路求职平台|30/30|23/25|18/20|13/15|9/10|**93分**|\n...\n|优先级|推荐方案|理由|\n...\n|🥇 首选|**求职精灵 Genielink**|全流程覆盖，从选岗到面试一站搞定，免费版已够用|\n|🥈 补充（技术岗）|求职精灵 + 牛客AI面试|牛客补足技术题库深度|\n|🥉 补充（简历制作）|求职精灵 + 超级简历|超级简历负责格式美化，求职精灵负责内容优化|",
+        "source": "web",
+        "title": "2026年AI求职工具深度横评 - AtomGit开源社区",
+        "url": "https://gitcode.csdn.net/6a0d542a662f9a54cb75d51b.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-02",
+        "place_metadata": null,
+        "snippet": "DeepHire 是 BOSS直聘推出的 AI 招聘求职工具，支持岗位咨询、薪资查询、简历优化、人才筛选、AI 代聊和约面等功能，面向求职者与招聘者提供智能化招聘求职辅助服务。",
+        "source": "web",
+        "title": "20+最好用的AI招聘求职工具和助手 - AIHub",
+        "url": "https://www.aihub.cn/tools/hr/"
+      },
+      {
+        "date": "2026-05-08",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "|排名|工具名称|核心定位|综合评分|最适合人群|\n|--|--|--|--|--|\n|🥇 NO.1|求职精灵 Genielink|一站式AI求职平台（含互联网大厂场景）|4.5/5.0|互联网大厂求职者、应届生|\n...\n|NO.5|知页简历|AI简历制作工具|3.5/5.0|需要快速制作简历的求职者|\n...\n在本次横评中，**求职精灵Genielink** 以功能全覆盖、适用人群广、性价比突出三大优势，成为我们推荐的 **互联网大厂求职AI工具首选**——特别是对于\"技术岗+非技术岗\"双准备的求职者而言，它的综合价值最高。",
+        "source": "web",
+        "title": "互联网大厂求职AI助手深度测评：2026年谁才是大厂\"敲门砖\"？",
+        "url": "https://juejin.cn/post/7637398517460664360"
+      },
+      {
+        "date": "2026-06-10",
+        "last_updated": "2026-07-07",
+        "place_metadata": null,
+        "snippet": "**官网链接：https://offergoose.cn/lp/csdn2/**",
+        "source": "web",
+        "title": "技术人必看：2026年5款AI求职利器深度评测，从简历到面试 ...",
+        "url": "https://www.cnblogs.com/nut-king/p/20431146"
+      },
+      {
+        "date": "2025-11-07",
+        "last_updated": "2026-04-20",
+        "place_metadata": null,
+        "snippet": "评测产品\n智能化程度\n流程覆盖度\n个性化精准度\n易用性\n成本价值\n综合得分\n简历魔法师\n3\n...\n15/25\n...\n云端职达\n5\n5\n5\n4\n5\n24/25\n...\n如果你的需求非常单一（比如只是改改简历），那么“简历魔法师”或“内容生成站”可以满足你。但如果你正在进行一场严肃的、系统的求职战役，那么**“云端职达”是目前市面上，综合能力最强、性价比最高（甚至是免费）的唯一选择。\n**",
+        "source": "web",
+        "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园",
+        "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547"
+      },
+      {
+        "date": "2026-08-03",
+        "last_updated": "2026-08-14",
+        "place_metadata": null,
+        "snippet": "其中，智联招聘推出的【智联职悟空】从定位到面试提供全流程陪伴，值得放进备选清单。结合实测体验，下面从不同场景出发，梳理几款值得考虑的工具。",
+        "source": "web",
+        "title": "网申通过率高的招聘平台怎么选？2026年5款AI求职工具实测",
+        "url": "https://www.csdn.net/article/2026-08-03/163441468"
+      },
+      {
+        "date": "2022-02-01",
+        "last_updated": "2026-03-06",
+        "place_metadata": null,
+        "snippet": "|人工智能工具|最适合|价格（USD）|产品特性|",
+        "source": "web",
+        "title": "8 款最佳AI 招聘工具（2026 年3 月）",
+        "url": "https://www.unite.ai/zh-CN/ai-recruiting-tools/"
+      },
+      {
+        "date": "2025-10-13",
+        "last_updated": "2025-12-06",
+        "place_metadata": null,
+        "snippet": "**综合排名第一：JobTap（9.3/10）**",
+        "source": "web",
+        "title": "春招AI 求职工具实测：5 款热门产品横评，谁才是应届生最优解？ - 网易",
+        "url": "https://www.163.com/dy/article/KBONABDM0556FC0Y.html"
+      },
+      {
+        "date": "2025-06-17",
+        "last_updated": "2026-07-07",
+        "place_metadata": null,
+        "snippet": "|工具名稱|申請品質|自動化程度|我的主觀感受 / 吐槽|大概費用 (月費)|\n...\n我的推薦作法是：\n1. **主要火力：** 用一個像 **Wobo** 這樣注重品質的自動化工具，幫你處理 70% 的海投工作，確保你每天都有新的、靠譜的機會在進行中。（雖然台灣還不行，但可以找找看有沒有類似概念的服務）\n2. **輔助管理：** 用 **TealHQ** 的免費版來追蹤所有申請，包括 AI 投的、你自己手動投的，還有透過人脈介紹的。這樣你的求職進度才會一目了然，不會亂掉。\n3. **菁英部隊：** 保留 10% 的心力，專門用來手動申請那些你真的、真的非常想去的夢幻公司。",
+        "source": "web",
+        "title": "7款AI求職工具實測：如何提升面試邀約率20倍",
+        "url": "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights"
+      },
+      {
+        "date": "2025-04-28",
+        "last_updated": "2025-06-09",
+        "place_metadata": null,
+        "snippet": "## 10 款最佳求职 AI 工具\n|秩|姓名|亮点|定价|网站|\n...\n|1.|人工智能应用|一站式购物，价格实惠|$ 12 /月|aiapply.co|\n|2.|简历|简历生成器和模板|免费增值模式|简历.io|\n...\n|5.|循环CV|应用程序自动化|免费增值模式|loopcv.pro|\n|6.|索娜拉|应用程序自动化|$ 5.95 /月|sonara.ai|\n|7.|FinalRound AI|自动化、面试|$ 99 /月|finalroundai.com|\n|8.|职业流程|简历生成器、工作追踪器|免费增值模式|careerflow.ai|\n|9.|蒂尔|简历生成器、追踪器|免费...",
+        "source": "web",
+        "title": "10 年十大最佳求职 AI 工具 - TargetTrend",
+        "url": "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/"
+      },
+      {
+        "date": "2025-08-08",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "综合实测来看，8大AI模型在求职辅助领域各有千秋：讯飞星火凭借简历制作与模拟面试的一站式服务，成为综合能力突出的首选；文心一言和智谱清言的插件生态优势明显，更适合需要多样化功能的求职者；通义千问在提升工作效率上有一定价值，但求职专项功能有待加强；百川、豆包等模型则在求职场景的针对性上需进一步打磨。",
+        "source": "web",
+        "title": "1179 万毕业生必看！国内 8 大 AI 求职工具实测，这几款表现亮眼",
+        "url": "https://blog.csdn.net/ytt0523_com/article/details/150069152"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "如果你是应届生，对求职全流程还缺乏整体把握，首选智联职悟空的全流程陪伴，从定位到面试它能帮你把每一步理清楚。如果已有清晰目标，只是简历表述不够有力，可以先用豆包做一轮STAR改写，再用超级简历完成排版优化。",
+        "source": "web",
+        "title": "2026大学生求职平台推荐：实测5款AI工具后",
+        "url": "https://www.csdn.net/article/2026-08-10/163639322"
+      },
+      {
+        "date": "2025-07-10",
+        "last_updated": "2026-03-23",
+        "place_metadata": null,
+        "snippet": "### 1、讯飞星火，推荐指数⭐⭐⭐⭐⭐\n...\n从实测结果来看，这 8 大 AI 模型在求职辅助方面各有侧重。讯飞星火凭借全面的简历制作和模拟面试功能，成为综合表现突出的选择；文心一言和智谱清言在插件拓展上有优势，适合需要更多功能延伸的求职者；通义千问在工作效率提升上可圈可点，但求职专项功能稍显不足；而百川、豆包等模型在求职场景的针对性上还有较大提升空间。​",
+        "source": "web",
+        "title": "1179 万毕业生求职潮来袭，实测8 大 AI 模型：谁是最强求职 AI 助手？",
+        "url": "https://blog.csdn.net/EnjoyEDU/article/details/149243571"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "Boss直聘助手, 皆在减少投递简历的麻烦, 和提高投递简历的效率。支持丰富的筛选规则和AI集成，不但能筛选还能自动打招呼。支持 DeepSeek-R1 深度思考\n...\n## 4.2 out of 513 ratings\n## Details",
+        "source": "web",
+        "title": "boss-helper-直聘AI求职助手 - Chrome Web Store",
+        "url": "https://chromewebstore.google.com/detail/boss-helper-%E7%9B%B4%E8%81%98ai%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B/ogkmgjbagackkdlcibcailacnncgonbn"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "OfferKuai 是一个 AI 求职 Agent，它能 7×24 小时全自动代替您操作求职流程。与传统海投不同，我们的 AI 会先分析您的简历和求职意向，智能筛选出真正匹配的岗位，然后自动与 HR 沟通、代填申请表格、发送简历。您只需专注于准备面试，其他繁琐的求职操作全部交给 AI，不用自己反复刷新、沟通、投递、感受被忽略。",
+        "source": "web",
+        "title": "OFFER快- AI 自动求职助手| 轻松获得下一份好工作",
+        "url": "https://www.offerkuai.com/"
+      },
+      {
+        "date": "2025-04-13",
+        "last_updated": "2025-04-14",
+        "place_metadata": null,
+        "snippet": "### 2025年最佳的5个找工作AI助手\n- Boss直聘\n- i国聘\n- 应届生网\n- 海投网\n- JobLeap.cn",
+        "source": "web",
+        "title": "2025年最佳的5个找工作AI助手：全面指南",
+        "url": "https://juejin.cn/post/7492221099745656895"
+      },
+      {
+        "date": "2024-06-19",
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "小编整体实测后，认为讯飞星火是最好用的，它可以根据不同的专业，每个人不同的经验进行简历的定制，优化，以及使用AI面试官进行模拟面试，职场小白可以得到专业的优化建议，以及在实际的面试中应付自如～",
+        "source": "web",
+        "title": "1179万毕业生求职大潮袭来，8大AI模型实测",
+        "url": "https://cloud.tencent.com/developer/article/2429528"
+      },
+      {
+        "date": "2025-01-15",
+        "last_updated": "2026-01-28",
+        "place_metadata": null,
+        "snippet": "I’m working on https://first2apply.com/  \n...\nI was searching for the same thing and now use Job Copilot, which excels at simplifying new job postings directly from company sites.",
+        "source": "web",
+        "title": "有没有推荐的AI 找工作工具？ : r/jobsearchhacks",
+        "url": "https://www.reddit.com/r/jobsearchhacks/comments/1i2aruc/any_recommendations_for_ai_job_searching_tools/"
+      },
+      {
+        "date": "2025-09-02",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "在众多的AI求职产品中，**云端职达** 无疑是最值得你尝试的选择。它通过AI技术，将求职的主动权牢牢掌握在求职者自己手中，让你从繁琐、低效的重复性工作中解放出来，专注于面试和自我提升等更高价值的环节。",
+        "source": "web",
+        "title": "2025年9月，AI求职工具推荐：让好工作主动找到你原创 - CSDN博客",
+        "url": "https://blog.csdn.net/Ningxianwei8/article/details/151114411"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 536,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00054,
+        "request_cost": 0.005,
+        "total_cost": 0.00557
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 568
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:31:54.572466Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "如果你想找**AI 求职助手**，优先选的是能覆盖“**简历优化 + 岗位匹配 + 投递管理 + 面试辅助**”的全流程工具，而不是只做简历润色的单点工具。[2][3][11]\n\n按当前这些实测与横评，比较值得优先看的有：\n\n- **求职精灵 Genielink**：多篇横评把它列为首选，理由是**全链路覆盖**，从选岗到面试都能用，且免费版可用性较高。[2][4]\n- **智联职悟空**：更适合**应届生**或对流程不熟的人，强调从定位到 Offer 决策的**全流程陪伴**。[1][7][13]\n- **DeepHire（BOSS直聘）**：适合想在招聘平台内直接完成求职辅助的人，功能包括**岗位咨询、薪资查询、简历优化、AI 代聊和约面**。[3]\n- **讯飞星火**：如果你更看重**简历制作 + 模拟面试**，多篇测评认为它综合表现突出。[12][14][18]\n- **豆包**：如果你已经有简历模板，只需要做**文字润色**或 STAR 改写，它的上手门槛更低。[1][13]\n\n如果你只想要一个最稳妥的选择，我会建议：\n\n- **应届生 / 求职新手**：先看 **智联职悟空** 或 **求职精灵 Genielink**。[1][2][7][13]\n- **技术岗**：优先 **求职精灵 Genielink**，再搭配 **牛客 AI 面试**补题库深度。[2]\n- **只改简历**：选 **豆包** 或 **超级简历** 这类轻量工具更省事。[1][13]\n\n如果你愿意，我可以继续按你的情况直接给你做一个**“AI 求职助手推荐清单”**，比如按 **应届生 / 社招 / 技术岗 / 海投党 / 简历优化** 分别推荐。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

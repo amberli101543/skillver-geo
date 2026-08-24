@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "以下是按功能分类的 AI 求职工具推荐，兼顾国内外场景：\n\n### 1. 简历优化与生成\n- **Kickresume / Rezi**：海外主流，基于 GPT 生成经历描述，自动适配 ATS（招聘系统）格式。\n- **超级简历 WonderCV**：中文场景最成熟，提供智能诊断、专业模板和案例参考。\n- **职徒简历**：侧重金融、咨询、四大等行业，内置大量岗位案例库。\n\n### 2. 面试模拟与辅导\n- **Yoodli**：AI 沟通教练，可模拟面试并分析语速、填充词、回答逻辑。\n- **Interviewing.io**：匿名技术/行为模拟面试，面试官来自海外大厂，适合外企/海外求职。\n- **牛客网**：国内互联网、银行、国企求职必备，提供海量笔面试题库 + AI 模拟面试。\n- **Final Round AI**：面试 Copilot 类工具（正式面试中使用请留意各公司规定）。\n\n### 3. 职位搜索与投递管理\n- **Teal**：一站式求职 CRM，可抓取各平台职位、追踪投递进度、AI 生成定制化求职信。\n- **LinkedIn Premium**：内置 AI 职位匹配、公司洞察和 InMail 撰写辅助。\n- **Boss直聘 / 智联招聘**：国内主流平台，已集成 AI 岗位推荐、简历优化和匹配度分析。\n\n### 4. 薪酬查询与职场信息\n- **Levels.fyi**：海外科技行业薪酬对标与 Offer 分析。\n- **脉脉**：国内职场社区，可查公司真实评价、薪酬爆料及内推人脉。\n\n### 5. 通用大模型（灵活使用）\n- **ChatGPT / Claude / 通义千问 / Kimi**：适合用 STAR 法则梳理项目经历、撰写求职信、模拟行为面试问题。\n\n**选择建议：**\n- **海外/外企**：Rezi（简历）+ Yoodli（面试）+ Teal（管理）+ LinkedIn（投递）。\n- **国内求职**：超级简历/职徒简历（简历）+ 牛客网（刷题/模拟）+ Boss直聘/脉脉（投递与内推）。\n\n> **注意**：AI 适合辅助表达与提高效率，但简历与面试的核心仍是真实经历与个人思考，建议生成后人工校验，避免过度包装。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a855b73ad582c4fb858f685",
+    "object": "chat.completion",
+    "created": 1787124595,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "以下是按功能分类的 AI 求职工具推荐，兼顾国内外场景：\n\n### 1. 简历优化与生成\n- **Kickresume / Rezi**：海外主流，基于 GPT 生成经历描述，自动适配 ATS（招聘系统）格式。\n- **超级简历 WonderCV**：中文场景最成熟，提供智能诊断、专业模板和案例参考。\n- **职徒简历**：侧重金融、咨询、四大等行业，内置大量岗位案例库。\n\n### 2. 面试模拟与辅导\n- **Yoodli**：AI 沟通教练，可模拟面试并分析语速、填充词、回答逻辑。\n- **Interviewing.io**：匿名技术/行为模拟面试，面试官来自海外大厂，适合外企/海外求职。\n- **牛客网**：国内互联网、银行、国企求职必备，提供海量笔面试题库 + AI 模拟面试。\n- **Final Round AI**：面试 Copilot 类工具（正式面试中使用请留意各公司规定）。\n\n### 3. 职位搜索与投递管理\n- **Teal**：一站式求职 CRM，可抓取各平台职位、追踪投递进度、AI 生成定制化求职信。\n- **LinkedIn Premium**：内置 AI 职位匹配、公司洞察和 InMail 撰写辅助。\n- **Boss直聘 / 智联招聘**：国内主流平台，已集成 AI 岗位推荐、简历优化和匹配度分析。\n\n### 4. 薪酬查询与职场信息\n- **Levels.fyi**：海外科技行业薪酬对标与 Offer 分析。\n- **脉脉**：国内职场社区，可查公司真实评价、薪酬爆料及内推人脉。\n\n### 5. 通用大模型（灵活使用）\n- **ChatGPT / Claude / 通义千问 / Kimi**：适合用 STAR 法则梳理项目经历、撰写求职信、模拟行为面试问题。\n\n**选择建议：**\n- **海外/外企**：Rezi（简历）+ Yoodli（面试）+ Teal（管理）+ LinkedIn（投递）。\n- **国内求职**：超级简历/职徒简历（简历）+ 牛客网（刷题/模拟）+ Boss直聘/脉脉（投递与内推）。\n\n> **注意**：AI 适合辅助表达与提高效率，但简历与面试的核心仍是真实经历与个人思考，建议生成后人工校验，避免过度包装。",
+          "reasoning_content": "用户询问的是“AI 求职助手推荐”，这是一个中文问题，因此需要用中文回答。需要基于事实，简洁明了地推荐一些目前主流且实用的AI求职工具。\n\n可以从以下几个维度分类推荐：\n1. **简历优化类**：帮助生成/润色简历，如 Resume.io、Teal、Kickresume、国内可用超级简历、职徒简历等。\n2. **面试准备类**：模拟面试、题库、反馈，如 Yoodli、Interviewing.io、Pramp、国内的牛客网（部分AI功能）、OfferGoose 等。\n3. **职位匹配/求职管理类**：智能推荐岗位、追踪投递进度，如 Teal、LinkedIn（内置AI）、Moonhub、脉脉（国内）。\n4. **薪酬谈判/职业规划类**：如 Levels.fyi、Coursera Coach 等。\n5. **国内特定工具**：考虑到用户用中文提问，应该特别推荐国内可用的或中文支持好的工具。\n\n需要注意的点：\n- 保持事实性，不要编造。\n- 保持简洁，用列表形式。\n- 区分国内外工具，方便用户选择。\n- 可以简要说明每个工具的核心功能。\n\n推荐的工具清单（筛选可靠、知名的）：\n- **简历**：Kickresume, Rezi, 超级简历 (WonderCV), 职徒简历。\n- **面试**：Yoodli, Final Round AI, OfferGoose (国内AI面试), 牛客网。\n- **岗位搜索/管理**：Teal, LinkedIn AI, Boss直聘 (国内AI相关功能), 脉脉。\n- **综合/Agent类**：近期较火的如 FlowCV, 以及国内的一些AI求职助手（如“求职鸭”等可能知名度不够高，不提或少提，避免不准确）。\n\n决定结构：\n1. 按功能分类。\n2. 每类列出2-3个国内外代表工具，一句话说明。\n3. 最后给一个简单的选择建议。\n\n草拟内容：\n\n**简历优化**\n- **Kickresume / Rezi**：基于GPT的简历生成与润色，ATS（招聘系统）友好。\n- **超级简历 (WonderCV)**：国内老牌，模板专业，有智能检查功能。\n- **职徒简历**：适合金融、咨询等行业，有案例库和AI优化。\n\n**面试模拟**\n- **Yoodli**：AI模拟面试，实时分析语速、填充词和回答内容。\n- **Final Round AI**：实时面试Copilot，提供回答提示（注意：这类工具存在伦理争议，但客观存在）。\n- **牛客网**：国内笔试面试题库+AI模拟面试，互联网/国企求职必备。\n- **OfferGoose**：国内AI面试助手。\n\n**职位搜索与管理**\n- **Teal**：一站式求职管理（简历、职位追踪、AI生成求职信），支持LinkedIn等导入。\n- **LinkedIn Premium**：内置AI求职助手，可生成个性化私信和职位匹配建议。\n- **Boss直聘/智联招聘**：国内主流平台，已集成AI筛选、简历优化和匹配推荐。\n\n**薪酬与谈判**\n- **Levels.fyi**：科技公司薪酬查询，AI辅助分析Offer。\n- **脉脉**：国内职场社区，可查公司内幕、薪酬爆料和真实评价。\n\n**选择建议**\n- 海外/外企求职：Teal + Kickresume + Yoodli。\n- 国内求职：超级简历/职徒简历 + 牛客网 + Boss直聘/脉脉。\n- 提醒：AI是辅助，核心还是个人经历和表达能力。\n\n检查：是否有不准确信息？\n- Final Round AI 确实存在，但“实时Copilot”功能在正式面试中使用可能违反部分公司规定，需要提醒伦理/风险。或者改为更中性的 **Interviewing.io**（匿名模拟面试）。\n- Yoodli 主要是沟通训练，也有面试prep。\n- 国内是否有“OfferGoose”？是的，这是一款国产AI面试辅助工具，但口碑参差不齐，可以提但不必放最前。改为更稳妥的“牛客AI模拟面试”。\n- 保留 **智谱清言/通义千问** 等通用AI用于求职？用户问的是“求职助手”，可能更想要专门工具，但也可以提一嘴用通用大模型准备Behavioral Questions。\n\n最终确定列表，确保简洁：\n\n**1. 简历制作与优化**\n- **Kickresume / Rezi**：海外主流，ATS格式兼容，AI生成描述。\n- **超级简历 WonderCV**：中文场景强，模板专业，有智能诊断。\n- **职徒简历**：行业细分案例多，适合金融、四大、互联网。\n\n**2. 面试准备**\n- **Yoodli**：AI沟通教练，可模拟面试并分析表达习惯。\n- **Interviewing.io**：匿名技术模拟面试（海外大厂风格）。\n- **牛客网**：国内笔试面试题库+AI模拟面试，覆盖互联网/银行/国企。\n\n**3. 职位搜索与投递管理**\n- **Teal**：求职CRM，从职位爬取到投递追踪，AI定制求职信。\n- **LinkedIn Premium**：AI职位匹配、公司洞察和InMail撰写。\n- **Boss直聘/智联**：国内平台，AI推荐岗位、简历优化工具。\n\n**4. 职场信息查询**\n- **Levels.fyi**：海外科技行业薪酬对标。\n- **脉脉**：国内公司氛围、薪酬爆料、人脉内推。\n\n**5. 通用AI工具（灵活使用）**\n- **ChatGPT / Claude / 通义千问**：用于梳理经历（STAR法则）、撰写求职信、模拟Behavioral Interview。\n\n**建议**：海外求职务必做ATS简历（用Rezi/Kickresume）；国内互联网/金融务必刷牛客；所有场景都建议用AI优化简历关键词，但需人工校验真实性。\n\n这样回答应该够 factual 且 concise。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "completion_tokens": 1691,
+      "total_tokens": 1732,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1205
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:30:46.132963Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "以下是按功能分类的 AI 求职工具推荐，兼顾国内外场景：\n\n### 1. 简历优化与生成\n- **Kickresume / Rezi**：海外主流，基于 GPT 生成经历描述，自动适配 ATS（招聘系统）格式。\n- **超级简历 WonderCV**：中文场景最成熟，提供智能诊断、专业模板和案例参考。\n- **职徒简历**：侧重金融、咨询、四大等行业，内置大量岗位案例库。\n\n### 2. 面试模拟与辅导\n- **Yoodli**：AI 沟通教练，可模拟面试并分析语速、填充词、回答逻辑。\n- **Interviewing.io**：匿名技术/行为模拟面试，面试官来自海外大厂，适合外企/海外求职。\n- **牛客网**：国内互联网、银行、国企求职必备，提供海量笔面试题库 + AI 模拟面试。\n- **Final Round AI**：面试 Copilot 类工具（正式面试中使用请留意各公司规定）。\n\n### 3. 职位搜索与投递管理\n- **Teal**：一站式求职 CRM，可抓取各平台职位、追踪投递进度、AI 生成定制化求职信。\n- **LinkedIn Premium**：内置 AI 职位匹配、公司洞察和 InMail 撰写辅助。\n- **Boss直聘 / 智联招聘**：国内主流平台，已集成 AI 岗位推荐、简历优化和匹配度分析。\n\n### 4. 薪酬查询与职场信息\n- **Levels.fyi**：海外科技行业薪酬对标与 Offer 分析。\n- **脉脉**：国内职场社区，可查公司真实评价、薪酬爆料及内推人脉。\n\n### 5. 通用大模型（灵活使用）\n- **ChatGPT / Claude / 通义千问 / Kimi**：适合用 STAR 法则梳理项目经历、撰写求职信、模拟行为面试问题。\n\n**选择建议：**\n- **海外/外企**：Rezi（简历）+ Yoodli（面试）+ Teal（管理）+ LinkedIn（投递）。\n- **国内求职**：超级简历/职徒简历（简历）+ 牛客网（刷题/模拟）+ Boss直聘/脉脉（投递与内推）。\n\n> **注意**：AI 适合辅助表达与提高效率，但简历与面试的核心仍是真实经历与个人思考，建议生成后人工校验，避免过度包装。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

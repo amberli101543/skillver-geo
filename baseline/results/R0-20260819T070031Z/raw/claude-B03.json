@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "## 关于 Skillver\n\n**Skillver** 是一个求职/简历优化相关的平台（AI简历工具），以下是一些参考信息：\n\n### 优点\n- 提供 AI 驱动的简历优化建议\n- 帮助匹配职位关键词（ATS优化）\n- 界面相对简洁易用\n\n### 需要注意的点\n- 属于**较新的平台**，用户评价积累不多\n- 部分功能可能需要**付费订阅**\n- 隐私方面：上传简历需注意**个人信息安全**\n- 效果因人而异，AI建议仍需人工判断\n\n### 建议\n1. 可以先使用**免费功能**试用\n2. 不建议上传过于敏感的个人信息\n3. 可以与其他工具对比（如 **Resumake、Zety、Resume.io** 等）\n4. 参考其他用户在 Reddit、Trustpilot 等平台的真实评价\n\n---\n\n如果你有具体使用场景（比如投递什么类型的岗位），我可以给你更有针对性的建议。你目前是想用它做什么？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgRgj5y7gxu8465C3px",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 关于 Skillver\n\n**Skillver** 是一个求职/简历优化相关的平台（AI简历工具），以下是一些参考信息：\n\n### 优点\n- 提供 AI 驱动的简历优化建议\n- 帮助匹配职位关键词（ATS优化）\n- 界面相对简洁易用\n\n### 需要注意的点\n- 属于**较新的平台**，用户评价积累不多\n- 部分功能可能需要**付费订阅**\n- 隐私方面：上传简历需注意**个人信息安全**\n- 效果因人而异，AI建议仍需人工判断\n\n### 建议\n1. 可以先使用**免费功能**试用\n2. 不建议上传过于敏感的个人信息\n3. 可以与其他工具对比（如 **Resumake、Zety、Resume.io** 等）\n4. 参考其他用户在 Reddit、Trustpilot 等平台的真实评价\n\n---\n\n如果你有具体使用场景（比如投递什么类型的岗位），我可以给你更有针对性的建议。你目前是想用它做什么？"
+        }
+      }
+    ],
+    "created": 1787123043,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 350,
+      "prompt_tokens": 48,
+      "total_tokens": 398
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:04:03.362455Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "## 关于 Skillver\n\n**Skillver** 是一个求职/简历优化相关的平台（AI简历工具），以下是一些参考信息：\n\n### 优点\n- 提供 AI 驱动的简历优化建议\n- 帮助匹配职位关键词（ATS优化）\n- 界面相对简洁易用\n\n### 需要注意的点\n- 属于**较新的平台**，用户评价积累不多\n- 部分功能可能需要**付费订阅**\n- 隐私方面：上传简历需注意**个人信息安全**\n- 效果因人而异，AI建议仍需人工判断\n\n### 建议\n1. 可以先使用**免费功能**试用\n2. 不建议上传过于敏感的个人信息\n3. 可以与其他工具对比（如 **Resumake、Zety、Resume.io** 等）\n4. 参考其他用户在 Reddit、Trustpilot 等平台的真实评价\n\n---\n\n如果你有具体使用场景（比如投递什么类型的岗位），我可以给你更有针对性的建议。你目前是想用它做什么？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

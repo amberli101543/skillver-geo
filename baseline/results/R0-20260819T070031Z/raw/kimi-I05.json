@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "根据目前可获得的公开信息，**无法确认 tcodeai.com 与 Skillver 之间存在明确的隶属或合作关系**。\n\n如果你看到它们在某些场景下同时出现，可能存在以下几种情况：\n*   **业务合作**：一方提供技术支持，另一方提供评估或人才服务；\n*   **同一主体下的不同品牌/产品**：由同一家公司运营的不同业务线；\n*   **独立实体**：两者并无直接关联，仅在特定项目或宣传中有交集。\n\n建议直接访问 **tcodeai.com** 和 **Skillver** 的官方网站，或通过其公布的联系方式（如客服、工商信息）进行核实，以获取最准确的关系说明。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a8557c39e46edd1fd16903c",
+    "object": "chat.completion",
+    "created": 1787123653,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据目前可获得的公开信息，**无法确认 tcodeai.com 与 Skillver 之间存在明确的隶属或合作关系**。\n\n如果你看到它们在某些场景下同时出现，可能存在以下几种情况：\n*   **业务合作**：一方提供技术支持，另一方提供评估或人才服务；\n*   **同一主体下的不同品牌/产品**：由同一家公司运营的不同业务线；\n*   **独立实体**：两者并无直接关联，仅在特定项目或宣传中有交集。\n\n建议直接访问 **tcodeai.com** 和 **Skillver** 的官方网站，或通过其公布的联系方式（如客服、工商信息）进行核实，以获取最准确的关系说明。",
+          "reasoning_content": "用户询问 tcodeai.com 和 Skillver 之间的关系。我需要根据已有知识来回答这个问题。\n\n首先，我需要确认 tcodeai.com 是什么。据我所知，tcodeai.com 似乎是一个与 TCode AI 相关的网站，可能是提供 AI 编程辅助或技术服务的平台。\n\n然后，Skillver 是什么？Skillver 似乎是一个技能验证或技术评估平台，可能用于招聘、技能测试等。\n\n关于两者之间的关系：\n- 据我了解，tcodeai.com（或 TCode AI）和 Skillver 可能是同一家公司旗下的产品，或者存在某种业务关联。\n- 或者它们可能是合作伙伴关系。\n- 也可能是 tcodeai.com 是 Skillver 的某种技术提供商，或者反之。\n\n但是，我需要谨慎，因为我不能确定我是否有关于这两个实体之间确切关系的准确、最新信息。如果我不确定，我应该诚实地说明，而不是编造信息。\n\n让我思考一下我所知道的：\n- TCode AI 可能是一个专注于 AI 编程/代码生成的平台。\n- Skillver 可能是一个专注于开发者技能评估的平台。\n\n实际上，我回想一下，这两个可能都是中国国内的技术公司或产品。如果我没有确切的公开信息表明它们之间的关系，我应该说明我不知道，或者建议用户查看官方网站。\n\n等等，我是否记得它们之间有特定的关系？比如，是否 Skillver 是 tcodeai.com 的母公司，或者它们是关联公司？\n\n由于没有确切的、可验证的信息在我的训练数据中明确说明这两者的关系，最安全的做法是：\n1. 说明我没有找到明确的公开信息表明两者之间的直接关系。\n2. 建议用户直接联系相关方或查看官网获取准确信息。\n\n但是，如果用户期待一个具体的答案，而我不知道，编造信息是有害的。我应该诚实回答。\n\n让我再仔细想想... 是否 tcodeai.com 是 Skillver 的官网？不，域名不同。\n\n或许：\n- tcodeai.com 是 \"TCode AI\" 的网站\n- Skillver 是另一个产品\n\n如果我没有确切信息，我应该回答：\"根据目前可获得的公开信息，我无法确认 tcodeai.com 与 Skillver 之间存在特定的隶属或合作关系。建议直接访问这两个网站或联系其客服获取准确信息。\"\n\n但是等等，我检查一下是否有\"Skillver\"是\"tcodeai\"的相关品牌。实际上，我不确定。\n\n考虑到指令要求\"factual and concise\"（事实且简洁），并且问题是用中文提出的，我应该用中文回答。\n\n最终决定：由于我没有足够可靠的信息来确定两者之间的确切关系，我应该如实告知，避免猜测。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 653,
+      "total_tokens": 701,
+      "completion_tokens_details": {
+        "reasoning_tokens": 517
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:33.941031Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "根据目前可获得的公开信息，**无法确认 tcodeai.com 与 Skillver 之间存在明确的隶属或合作关系**。\n\n如果你看到它们在某些场景下同时出现，可能存在以下几种情况：\n*   **业务合作**：一方提供技术支持，另一方提供评估或人才服务；\n*   **同一主体下的不同品牌/产品**：由同一家公司运营的不同业务线；\n*   **独立实体**：两者并无直接关联，仅在特定项目或宣传中有交集。\n\n建议直接访问 **tcodeai.com** 和 **Skillver** 的官方网站，或通过其公布的联系方式（如客服、工商信息）进行核实，以获取最准确的关系说明。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

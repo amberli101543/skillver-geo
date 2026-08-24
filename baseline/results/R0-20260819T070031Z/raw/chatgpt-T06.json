@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "一般不会。**面试彩排/模拟面试通常只是练习和反馈环节，不会计入正式评估结果**；正式评估一般以正式面试中的表现为准。\n\n但有两个例外需要注意：\n\n1. **如果彩排由招聘方/正式面试官参与**，对方可能会形成印象，间接影响后续判断。  \n2. **如果规则明确说明彩排会被记录或纳入评估**，那就可能影响正式结果。\n\n如果这是某个平台或公司的“彩排”，建议查看说明或直接确认：  \n**“请问彩排是否会被记录或影响正式评估？”**",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUz5u2nZHPOQrhT4doIXwdJFgJ8A",
+    "object": "chat.completion",
+    "created": 1787124403,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "一般不会。**面试彩排/模拟面试通常只是练习和反馈环节，不会计入正式评估结果**；正式评估一般以正式面试中的表现为准。\n\n但有两个例外需要注意：\n\n1. **如果彩排由招聘方/正式面试官参与**，对方可能会形成印象，间接影响后续判断。  \n2. **如果规则明确说明彩排会被记录或纳入评估**，那就可能影响正式结果。\n\n如果这是某个平台或公司的“彩排”，建议查看说明或直接确认：  \n**“请问彩排是否会被记录或影响正式评估？”**",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 243,
+      "total_tokens": 289,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 89,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:26:47.114701Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "一般不会。**面试彩排/模拟面试通常只是练习和反馈环节，不会计入正式评估结果**；正式评估一般以正式面试中的表现为准。\n\n但有两个例外需要注意：\n\n1. **如果彩排由招聘方/正式面试官参与**，对方可能会形成印象，间接影响后续判断。  \n2. **如果规则明确说明彩排会被记录或纳入评估**，那就可能影响正式结果。\n\n如果这是某个平台或公司的“彩排”，建议查看说明或直接确认：  \n**“请问彩排是否会被记录或影响正式评估？”**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

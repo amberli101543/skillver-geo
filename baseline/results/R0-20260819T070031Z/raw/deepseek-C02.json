@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "目前市面上有不少 AI 模拟面试工具，主要分为**通用面试**、**技术面试**和**求职平台内置**三类。以下是一些主流选择：\n\n**1. 通用/综合类**\n- **HireVue**：企业常用，AI 分析语言、表情和内容，提供行为面试模拟。\n- **Yoodli**：免费 AI 面试教练，针对流畅度、填充词、眼神交流给出反馈。\n- **InterviewAI**（如 Interview Warmup by Google）：Google 推出的免费工具，按岗位生成问题并分析回答关键词。\n\n**2. 技术/编程类**\n- **Pramp**：免费，进行模拟技术面试（互面 + AI 辅助评价）。\n- **Interviewing.io**：匿名技术面试模拟，AI 与真人结合，侧重算法与系统设计。\n- **CodeSignal / HackerRank**：提供编程挑战，部分含 AI 面试官环节。\n\n**3. 求职平台内置**\n- **LinkedIn（AI 面试练习）**：部分 Premium 用户可用，提供常见问题并评分。\n- **Glassdoor**：主要提供真实面试题，部分结合 AI 答题反馈。\n- **牛客网（国内）**：提供 AI 模拟面试，覆盖产品、运营、技术等岗位。\n\n**4. 国内专用工具**\n- **智面官**（智能面试模拟，适合校招/社招）\n- **北森/ 渊大AI面试**：企业招聘端常用，个人可付费练习。\n\n**使用建议**：优先选带**即时反馈**（如语言流畅度、逻辑条理）的工具，配合录屏回放效果更好。技术岗建议用 Pramp 或 Interviewing.io 提升实战感。",
+  "sources": [],
+  "raw": {
+    "id": "fb04ba31-36a8-4ad5-a1bf-7140ce2e7ee5",
+    "object": "chat.completion",
+    "created": 1787124767,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前市面上有不少 AI 模拟面试工具，主要分为**通用面试**、**技术面试**和**求职平台内置**三类。以下是一些主流选择：\n\n**1. 通用/综合类**\n- **HireVue**：企业常用，AI 分析语言、表情和内容，提供行为面试模拟。\n- **Yoodli**：免费 AI 面试教练，针对流畅度、填充词、眼神交流给出反馈。\n- **InterviewAI**（如 Interview Warmup by Google）：Google 推出的免费工具，按岗位生成问题并分析回答关键词。\n\n**2. 技术/编程类**\n- **Pramp**：免费，进行模拟技术面试（互面 + AI 辅助评价）。\n- **Interviewing.io**：匿名技术面试模拟，AI 与真人结合，侧重算法与系统设计。\n- **CodeSignal / HackerRank**：提供编程挑战，部分含 AI 面试官环节。\n\n**3. 求职平台内置**\n- **LinkedIn（AI 面试练习）**：部分 Premium 用户可用，提供常见问题并评分。\n- **Glassdoor**：主要提供真实面试题，部分结合 AI 答题反馈。\n- **牛客网（国内）**：提供 AI 模拟面试，覆盖产品、运营、技术等岗位。\n\n**4. 国内专用工具**\n- **智面官**（智能面试模拟，适合校招/社招）\n- **北森/ 渊大AI面试**：企业招聘端常用，个人可付费练习。\n\n**使用建议**：优先选带**即时反馈**（如语言流畅度、逻辑条理）的工具，配合录屏回放效果更好。技术岗建议用 Pramp 或 Interviewing.io 提升实战感。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 370,
+      "total_tokens": 407,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:32:51.710905Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "目前市面上有不少 AI 模拟面试工具，主要分为**通用面试**、**技术面试**和**求职平台内置**三类。以下是一些主流选择：\n\n**1. 通用/综合类**\n- **HireVue**：企业常用，AI 分析语言、表情和内容，提供行为面试模拟。\n- **Yoodli**：免费 AI 面试教练，针对流畅度、填充词、眼神交流给出反馈。\n- **InterviewAI**（如 Interview Warmup by Google）：Google 推出的免费工具，按岗位生成问题并分析回答关键词。\n\n**2. 技术/编程类**\n- **Pramp**：免费，进行模拟技术面试（互面 + AI 辅助评价）。\n- **Interviewing.io**：匿名技术面试模拟，AI 与真人结合，侧重算法与系统设计。\n- **CodeSignal / HackerRank**：提供编程挑战，部分含 AI 面试官环节。\n\n**3. 求职平台内置**\n- **LinkedIn（AI 面试练习）**：部分 Premium 用户可用，提供常见问题并评分。\n- **Glassdoor**：主要提供真实面试题，部分结合 AI 答题反馈。\n- **牛客网（国内）**：提供 AI 模拟面试，覆盖产品、运营、技术等岗位。\n\n**4. 国内专用工具**\n- **智面官**（智能面试模拟，适合校招/社招）\n- **北森/ 渊大AI面试**：企业招聘端常用，个人可付费练习。\n\n**使用建议**：优先选带**即时反馈**（如语言流畅度、逻辑条理）的工具，配合录屏回放效果更好。技术岗建议用 Pramp 或 Interviewing.io 提升实战感。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

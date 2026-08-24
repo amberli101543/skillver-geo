@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "目前没有公开信息显示“Skillver”是一个知名或官方注册的网站或品牌。如果你指的是某个特定平台、课程网站或工具，请提供更多上下文（例如领域、功能或链接），以便我帮你准确核实。若该名称来自广告或非主流来源，建议谨慎访问，注意网络安全。",
+  "sources": [],
+  "raw": {
+    "id": "4abe128b-c8a9-4e9c-bd83-37abc7b26987",
+    "object": "chat.completion",
+    "created": 1787123416,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前没有公开信息显示“Skillver”是一个知名或官方注册的网站或品牌。如果你指的是某个特定平台、课程网站或工具，请提供更多上下文（例如领域、功能或链接），以便我帮你准确核实。若该名称来自广告或非主流来源，建议谨慎访问，注意网络安全。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 65,
+      "total_tokens": 100,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 35
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:10:17.799427Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "目前没有公开信息显示“Skillver”是一个知名或官方注册的网站或品牌。如果你指的是某个特定平台、课程网站或工具，请提供更多上下文（例如领域、功能或链接），以便我帮你准确核实。若该名称来自广告或非主流来源，建议谨慎访问，注意网络安全。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

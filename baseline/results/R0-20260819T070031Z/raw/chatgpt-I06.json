@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "目前 Skillver 主要是网页端使用，暂时没有独立的 iOS / Android 移动端 App。你可以用手机浏览器访问，但完整体验建议使用电脑端。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUoV9st3o5DlMyl81gKB4i3AsCni",
+    "object": "chat.completion",
+    "created": 1787123747,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前 Skillver 主要是网页端使用，暂时没有独立的 iOS / Android 移动端 App。你可以用手机浏览器访问，但完整体验建议使用电脑端。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 452,
+      "total_tokens": 494,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 402,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:15:54.966795Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "目前 Skillver 主要是网页端使用，暂时没有独立的 iOS / Android 移动端 App。你可以用手机浏览器访问，但完整体验建议使用电脑端。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

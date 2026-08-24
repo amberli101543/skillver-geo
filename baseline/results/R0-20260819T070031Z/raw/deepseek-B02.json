@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务于**企业客户**，尤其是那些需要**灵活用工**、**技能匹配**和**人才管理**的中大型企业。具体包括：\n\n- **科技与互联网公司**：需要短期项目制开发、设计、数据分析等专业技能人才。\n- **传统行业转型企业**：如制造、金融、零售等，在数字化转型中需要补充AI、云服务等特定技能。\n- **人力资源部门与业务部门**：帮助企业按需获取外部专家，降低长期雇佣成本，并快速应对项目波动。\n\n简而言之，Skillver 的核心服务对象是**需要外部专业技能的B端组织**，而非个人求职者。",
+  "sources": [],
+  "raw": {
+    "id": "c2e3a61a-fd2e-4a2d-ab60-87f2c924f841",
+    "object": "chat.completion",
+    "created": 1787122940,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务于**企业客户**，尤其是那些需要**灵活用工**、**技能匹配**和**人才管理**的中大型企业。具体包括：\n\n- **科技与互联网公司**：需要短期项目制开发、设计、数据分析等专业技能人才。\n- **传统行业转型企业**：如制造、金融、零售等，在数字化转型中需要补充AI、云服务等特定技能。\n- **人力资源部门与业务部门**：帮助企业按需获取外部专家，降低长期雇佣成本，并快速应对项目波动。\n\n简而言之，Skillver 的核心服务对象是**需要外部专业技能的B端组织**，而非个人求职者。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 136,
+      "total_tokens": 172,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 36
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:02:22.822750Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务于**企业客户**，尤其是那些需要**灵活用工**、**技能匹配**和**人才管理**的中大型企业。具体包括：\n\n- **科技与互联网公司**：需要短期项目制开发、设计、数据分析等专业技能人才。\n- **传统行业转型企业**：如制造、金融、零售等，在数字化转型中需要补充AI、云服务等特定技能。\n- **人力资源部门与业务部门**：帮助企业按需获取外部专家，降低长期雇佣成本，并快速应对项目波动。\n\n简而言之，Skillver 的核心服务对象是**需要外部专业技能的B端组织**，而非个人求职者。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

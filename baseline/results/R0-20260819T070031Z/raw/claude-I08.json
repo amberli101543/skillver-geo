@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "## 关于 Skillver 邀请码\n\n根据我所了解的信息，**Skillver** 是一个需要邀请码才能访问的平台（通常处于测试或早期访问阶段）。\n\n### 没有邀请码的情况：\n\n- ❌ **通常无法直接注册使用**\n- 需要通过官方渠道申请或获得现有用户的邀请\n\n### 获取邀请码的方式：\n\n1. **官网申请** — 在官方网站填写申请表，等待审核\n2. **社交媒体** — 关注其官方账号，有时会公开发放邀请码\n3. **现有用户邀请** — 向已有账号的用户请求邀请\n4. **社区论坛** — 在相关社区寻找分享的邀请码\n\n---\n\n> ⚠️ 建议直接访问 **Skillver 官方网站** 查看最新政策，因为平台可能已经开放公测或更改了注册方式。\n\n如果你有更具体的问题，欢迎继续提问！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBhXAJmgr2e3q4aboFvG",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "## 关于 Skillver 邀请码\n\n根据我所了解的信息，**Skillver** 是一个需要邀请码才能访问的平台（通常处于测试或早期访问阶段）。\n\n### 没有邀请码的情况：\n\n- ❌ **通常无法直接注册使用**\n- 需要通过官方渠道申请或获得现有用户的邀请\n\n### 获取邀请码的方式：\n\n1. **官网申请** — 在官方网站填写申请表，等待审核\n2. **社交媒体** — 关注其官方账号，有时会公开发放邀请码\n3. **现有用户邀请** — 向已有账号的用户请求邀请\n4. **社区论坛** — 在相关社区寻找分享的邀请码\n\n---\n\n> ⚠️ 建议直接访问 **Skillver 官方网站** 查看最新政策，因为平台可能已经开放公测或更改了注册方式。\n\n如果你有更具体的问题，欢迎继续提问！"
+        }
+      }
+    ],
+    "created": 1787123903,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 324,
+      "prompt_tokens": 57,
+      "total_tokens": 381
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:18:22.778502Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "## 关于 Skillver 邀请码\n\n根据我所了解的信息，**Skillver** 是一个需要邀请码才能访问的平台（通常处于测试或早期访问阶段）。\n\n### 没有邀请码的情况：\n\n- ❌ **通常无法直接注册使用**\n- 需要通过官方渠道申请或获得现有用户的邀请\n\n### 获取邀请码的方式：\n\n1. **官网申请** — 在官方网站填写申请表，等待审核\n2. **社交媒体** — 关注其官方账号，有时会公开发放邀请码\n3. **现有用户邀请** — 向已有账号的用户请求邀请\n4. **社区论坛** — 在相关社区寻找分享的邀请码\n\n---\n\n> ⚠️ 建议直接访问 **Skillver 官方网站** 查看最新政策，因为平台可能已经开放公测或更改了注册方式。\n\n如果你有更具体的问题，欢迎继续提问！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

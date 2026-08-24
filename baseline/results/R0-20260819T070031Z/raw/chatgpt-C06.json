@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "简历优化和 AI 面试工具的区别主要在于：**一个解决“如何拿到面试机会”，一个解决“如何通过面试”**。\n\n| 对比项 | 简历优化工具 | AI 面试工具 |\n|---|---|---|\n| 主要目标 | 提高简历质量和投递通过率 | 提升面试表现和录用概率 |\n| 使用阶段 | 求职前期：投递简历前 | 求职中后期：收到面试邀请后 |\n| 核心功能 | 修改简历内容、优化关键词、匹配岗位 JD、调整结构排版 | 模拟面试、生成面试题、回答点评、语音/表达训练 |\n| 关注重点 | 经历是否突出、关键词是否匹配、成果是否量化 | 回答是否清晰、逻辑是否完整、表达是否自然 |\n| 输出结果 | 优化后的简历、求职信、岗位匹配建议 | 面试问题、参考答案、表现评分、改进建议 |\n| 适合人群 | 简历投递没反馈、想转岗、想提升简历竞争力的人 | 害怕面试、表达不清、需要练习专业/行为面试的人 |\n\n简单来说：\n\n- **简历优化工具**：帮你把经历包装得更清楚、更匹配岗位，让 HR 或 ATS 系统更容易筛到你。\n- **AI 面试工具**：帮你练习如何回答问题，比如自我介绍、项目经历、离职原因、薪资期望等。\n\n两者不是替代关系，而是互补关系。比较完整的求职流程通常是：\n\n**先用简历优化工具提升投递成功率 → 再用 AI 面试工具准备面试 → 最后提高拿 offer 的概率。**",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEVBCsnAW1TxLe9FMsQK3zaHnZHN2",
+    "object": "chat.completion",
+    "created": 1787125154,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "简历优化和 AI 面试工具的区别主要在于：**一个解决“如何拿到面试机会”，一个解决“如何通过面试”**。\n\n| 对比项 | 简历优化工具 | AI 面试工具 |\n|---|---|---|\n| 主要目标 | 提高简历质量和投递通过率 | 提升面试表现和录用概率 |\n| 使用阶段 | 求职前期：投递简历前 | 求职中后期：收到面试邀请后 |\n| 核心功能 | 修改简历内容、优化关键词、匹配岗位 JD、调整结构排版 | 模拟面试、生成面试题、回答点评、语音/表达训练 |\n| 关注重点 | 经历是否突出、关键词是否匹配、成果是否量化 | 回答是否清晰、逻辑是否完整、表达是否自然 |\n| 输出结果 | 优化后的简历、求职信、岗位匹配建议 | 面试问题、参考答案、表现评分、改进建议 |\n| 适合人群 | 简历投递没反馈、想转岗、想提升简历竞争力的人 | 害怕面试、表达不清、需要练习专业/行为面试的人 |\n\n简单来说：\n\n- **简历优化工具**：帮你把经历包装得更清楚、更匹配岗位，让 HR 或 ATS 系统更容易筛到你。\n- **AI 面试工具**：帮你练习如何回答问题，比如自我介绍、项目经历、离职原因、薪资期望等。\n\n两者不是替代关系，而是互补关系。比较完整的求职流程通常是：\n\n**先用简历优化工具提升投递成功率 → 再用 AI 面试工具准备面试 → 最后提高拿 offer 的概率。**",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 432,
+      "total_tokens": 478,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 33,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:39:20.196519Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "简历优化和 AI 面试工具的区别主要在于：**一个解决“如何拿到面试机会”，一个解决“如何通过面试”**。\n\n| 对比项 | 简历优化工具 | AI 面试工具 |\n|---|---|---|\n| 主要目标 | 提高简历质量和投递通过率 | 提升面试表现和录用概率 |\n| 使用阶段 | 求职前期：投递简历前 | 求职中后期：收到面试邀请后 |\n| 核心功能 | 修改简历内容、优化关键词、匹配岗位 JD、调整结构排版 | 模拟面试、生成面试题、回答点评、语音/表达训练 |\n| 关注重点 | 经历是否突出、关键词是否匹配、成果是否量化 | 回答是否清晰、逻辑是否完整、表达是否自然 |\n| 输出结果 | 优化后的简历、求职信、岗位匹配建议 | 面试问题、参考答案、表现评分、改进建议 |\n| 适合人群 | 简历投递没反馈、想转岗、想提升简历竞争力的人 | 害怕面试、表达不清、需要练习专业/行为面试的人 |\n\n简单来说：\n\n- **简历优化工具**：帮你把经历包装得更清楚、更匹配岗位，让 HR 或 ATS 系统更容易筛到你。\n- **AI 面试工具**：帮你练习如何回答问题，比如自我介绍、项目经历、离职原因、薪资期望等。\n\n两者不是替代关系，而是互补关系。比较完整的求职流程通常是：\n\n**先用简历优化工具提升投递成功率 → 再用 AI 面试工具准备面试 → 最后提高拿 offer 的概率。**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

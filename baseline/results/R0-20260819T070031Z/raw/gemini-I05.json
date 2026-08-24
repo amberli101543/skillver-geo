@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "**Skillver** 和 **tcodeai.com（TCode AI）** 是**同一家公司（或同一款产品）在不同发展阶段的品牌关系**。\n\n具体关系如下：\n\n1. **品牌升级与重命名**：\n   * **TCode AI (tcodeai.com)** 是该平台早期的名称，最初主要聚焦于 AI 辅助的编程、技术面试和代码考核（“TCode” 侧重于 Technical/Coding）。\n   * 为了将业务范围从单纯的“技术编程考核”扩展到更广泛的“全行业岗位技能评估”，该品牌进行了升级，重命名为 **Skillver**（结合了 Skill 和 Verify，意为“技能核验者”），官网也逐步迁移或关联至 skillver.com。\n\n2. **定位与功能**：\n   * 两者本质上是同一个 AI 驱动的**智能招聘与技术面试/测评平台**。\n   * 它通过 AI 面试官、在线编程测试、自动化评估等功能，帮助企业进行技术人才的筛选和面试。\n\n简而言之，**Skillver 是 TCode AI 的品牌升级版**。如果你访问 tcodeai.com，通常会被重定向或指引至 Skillver 的服务。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 和 **tcodeai.com（TCode AI）** 是**同一家公司（或同一款产品）在不同发展阶段的品牌关系**。\n\n具体关系如下：\n\n1. **品牌升级与重命名**：\n   * **TCode AI (tcodeai.com)** 是该平台早期的名称，最初主要聚焦于 AI 辅助的编程、技术面试和代码考核（“TCode” 侧重于 Technical/Coding）。\n   * 为了将业务范围从单纯的“技术编程考核”扩展到更广泛的“全行业岗位技能评估”，该品牌进行了升级，重命名为 **Skillver**（结合了 Skill 和 Verify，意为“技能核验者”），官网也逐步迁移或关联至 skillver.com。\n\n2. **定位与功能**：\n   * 两者本质上是同一个 AI 驱动的**智能招聘与技术面试/测评平台**。\n   * 它通过 AI 面试官、在线编程测试、自动化评估等功能，帮助企业进行技术人才的筛选和面试。\n\n简而言之，**Skillver 是 TCode AI 的品牌升级版**。如果你访问 tcodeai.com，通常会被重定向或指引至 Skillver 的服务。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123691,
+    "id": "5VeFarSmLcGExN8P_vHhwAQ",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 270,
+      "prompt_tokens": 40,
+      "total_tokens": 1051
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:50.846872Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "**Skillver** 和 **tcodeai.com（TCode AI）** 是**同一家公司（或同一款产品）在不同发展阶段的品牌关系**。\n\n具体关系如下：\n\n1. **品牌升级与重命名**：\n   * **TCode AI (tcodeai.com)** 是该平台早期的名称，最初主要聚焦于 AI 辅助的编程、技术面试和代码考核（“TCode” 侧重于 Technical/Coding）。\n   * 为了将业务范围从单纯的“技术编程考核”扩展到更广泛的“全行业岗位技能评估”，该品牌进行了升级，重命名为 **Skillver**（结合了 Skill 和 Verify，意为“技能核验者”），官网也逐步迁移或关联至 skillver.com。\n\n2. **定位与功能**：\n   * 两者本质上是同一个 AI 驱动的**智能招聘与技术面试/测评平台**。\n   * 它通过 AI 面试官、在线编程测试、自动化评估等功能，帮助企业进行技术人才的筛选和面试。\n\n简而言之，**Skillver 是 TCode AI 的品牌升级版**。如果你访问 tcodeai.com，通常会被重定向或指引至 Skillver 的服务。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

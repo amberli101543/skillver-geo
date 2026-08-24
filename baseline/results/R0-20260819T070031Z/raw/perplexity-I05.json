@@ -1,0 +1,448 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "tcodeai.com 和 Skillver **本质上是同一个产品体系的两个域名/站点**：**Skillver** 是产品和品牌名，**tcodeai.com** 主要承载品牌内容、研究院、FAQ 等内容站；而实际注册、登录和使用产品要去 **skillver.cn** 或 **skillver.ai**。 [1][2][4][6]\n\n更具体地说：\n\n- **Skillver**：面向求职/招聘场景的 AI 求职助手，隶属于上海才谱人工智能科技有限公司。 [2][4]\n- **tcodeai.com**：Skillver 的**品牌内容与研究院 GEO 站点**，用于品牌介绍、FAQ、白皮书、岗位标准等内容沉淀，不是主要产品操作入口。 [1][2][6]\n- **产品主站**：使用 Skillver 的注册、登录、AI 面试等功能，应访问 **skillver.cn** 或 **skillver.ai**，两个域名功能相同。 [2][4][7]\n\n如果你愿意，我也可以继续帮你梳理：**tcodeai.com、skillver.cn、skillver.ai 这三个域名各自负责什么**。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/product/",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/roles.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/posts/shaktibarath_tcodeai-sap-transaction-code-intelligence-activity-7417040318778482689-BkY6",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20251106A066JC00",
+      "title": ""
+    },
+    {
+      "url": "https://tca.tencent.com/document/zh/ai/ai_skill.html",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.com.cn/stock/t/2026-03-12/doc-inhqstex4961245.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/1769047462168003.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/zgq123456/articles/20536046",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a0e705e662f9a54cb7606c6.html",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/xstongxue/best-skills",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "Skillver：AI人才助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/product/",
+      "title": "产品— Skillver AI 求职助手与企业招聘"
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "开始使用Skillver — AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/roles.html",
+      "title": "2026 AI 与具身智能行业岗位标准— Skillver 研究院"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/shaktibarath_tcodeai-sap-transaction-code-intelligence-activity-7417040318778482689-BkY6",
+      "title": "TCodeAI - SAP Transaction Code Intelligence | Shakti B."
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20251106A066JC00",
+      "title": "https://new.qq.com/rain/a/20251106A066JC00"
+    },
+    {
+      "url": "https://tca.tencent.com/document/zh/ai/ai_skill.html",
+      "title": "AI Skills - 腾讯云代码分析"
+    },
+    {
+      "url": "https://finance.sina.com.cn/stock/t/2026-03-12/doc-inhqstex4961245.shtml",
+      "title": "SkillHub上线腾讯推出“中国专供”的AI Skills社区 - 新浪财经"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/1769047462168003.html",
+      "title": "爆火的Skills如何给大模型加入“技能”？记者实测"
+    },
+    {
+      "url": "https://www.cnblogs.com/zgq123456/articles/20536046",
+      "title": "神级skill 开源：book to skill - 小强找BUG"
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a0e705e662f9a54cb7606c6.html",
+      "title": "四、快速上手示例"
+    },
+    {
+      "url": "https://github.com/xstongxue/best-skills",
+      "title": "xstongxue/best-skills: 通用高质量Skills 合集"
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "tcodeai.com 和 Skillver **本质上是同一个产品体系的两个域名/站点**：**Skillver** 是产品和品牌名，**tcodeai.com** 主要承载品牌内容、研究院、FAQ 等内容站；而实际注册、登录和使用产品要去 **skillver.cn** 或 **skillver.ai**。 [1][2][4][6]\n\n更具体地说：\n\n- **Skillver**：面向求职/招聘场景的 AI 求职助手，隶属于上海才谱人工智能科技有限公司。 [2][4]\n- **tcodeai.com**：Skillver 的**品牌内容与研究院 GEO 站点**，用于品牌介绍、FAQ、白皮书、岗位标准等内容沉淀，不是主要产品操作入口。 [1][2][6]\n- **产品主站**：使用 Skillver 的注册、登录、AI 面试等功能，应访问 **skillver.cn** 或 **skillver.ai**，两个域名功能相同。 [2][4][7]\n\n如果你愿意，我也可以继续帮你梳理：**tcodeai.com、skillver.cn、skillver.ai 这三个域名各自负责什么**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/faq.html",
+      "https://tcodeai.com/company/",
+      "https://www.tcodeai.com/",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/product/",
+      "https://www.tcodeai.com/insights/what-is-skillver/",
+      "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://tcodeai.com/beta.html",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/roles.html",
+      "https://www.linkedin.com/posts/shaktibarath_tcodeai-sap-transaction-code-intelligence-activity-7417040318778482689-BkY6",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://news.qq.com/rain/a/20251106A066JC00",
+      "https://tca.tencent.com/document/zh/ai/ai_skill.html",
+      "https://finance.sina.com.cn/stock/t/2026-03-12/doc-inhqstex4961245.shtml",
+      "https://cloud.tencent.com/developer/article/2625397",
+      "https://m.bjnews.com.cn/detail/1769047462168003.html",
+      "https://www.cnblogs.com/zgq123456/articles/20536046",
+      "https://gitcode.csdn.net/6a0e705e662f9a54cb7606c6.html",
+      "https://github.com/xstongxue/best-skills",
+      "https://github.com/anbeime/skill"
+    ],
+    "created": 1787123708,
+    "id": "eea814a6-215c-4ead-91be-3f37a296e646",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": null,
+        "place_metadata": null,
+        "snippet": "www.tcodeai.com 是Skillver 的品牌内容与研究院GEO 站点（FAQ、白皮书、岗位标准等）；实际使用产品请前往skillver 双域。 企业如何接入Skillver？ 访问skillver.cn/ ...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\nSkillver 站在人才这一侧。我们不是冷冰冰的招聘网站，也不是只帮企业筛人的工具平台，而是一位 7×24 在线、越用越懂你的 AI 搭档——帮你看清方向、证明能力、练熟面试、对接机会。\n**使用 Skillver 产品**（注册、登录、AI 面试）请访问 www.skillver.cn 或 www.skillver.ai （双域功能相同）。本站 www.tcodeai.com 承载品牌故事、FAQ 与研究院内容。\n...\n|用途|渠道|\n...",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "7 维度能力评估（七维战力 T/L/O/S/R/C/D），基于 头部大厂真实面试场景，结果客观可追溯。了解 Tcode 能力协议 →",
+        "source": "web",
+        "title": "Skillver：AI人才助手",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n...\n产品使用入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）；www.tcodeai.com 是品牌内容站，用于品牌介绍与内容沉淀。\n...\n企业端与导师端：需通过邀请码或申请流程开通。企业请通过入驻申请页提交公司信息，审核通过后获得企业端邀请码；导师端请联系运营获取邀请码。\n- 企业入驻申请可邮件联系 janet.chen@tcodeai.com；\n- www.tcodeai.com 是品牌内容站，注册与使用产品请访问 skillver 双域。\n费用：人...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "人才端：把能力变成可核验、可投递的资产。企业端：把招聘从「看简历」变成「看验证过的战力」。同一套 KAE 七维评估与 Tcode 能力协议贯穿两端。",
+        "source": "web",
+        "title": "产品— Skillver AI 求职助手与企业招聘",
+        "url": "https://tcodeai.com/product/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://www.tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。\n...\n1. **开放公共用户注册**：人才端可直接在 Skillver 双域完成注册，无需额外邀请。\n...\n当前可以沿人才端主线体验：**选岗匹配 → AI 面试 → 投递企业**，并在「我的报告」查看按岗位聚合的简历核验报告、模拟/正式 AI 面试报告与能力档案。导师赋能仍待开通；Web 与 App 进度互通。\n...\nSkillver 提供的是求职准备、能力核验和机会连接工具，不承诺用户一定通过核验、获得企业面试或拿到 offer。产品仍在迭代评分校准、多...",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "Skillver 是中国优秀人才的 AI 求职助手，已完成 ICP 备案（沪ICP备2026018662号-2），现已开放公共用户注册。Web 与 App 功能对齐、进度互通。",
+        "source": "web",
+        "title": "开始使用Skillver — AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n人才端开放注册，当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）。后续收费策略以届时公告为准。\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n...\n企业端与导师端需通过邀请码或入驻申请开通。企业请通过 /enterprise/apply 提交入驻申请；导师端请联系运营获取邀请码。\n...\n企业入驻或导师...",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "Skillver 行业人才研究院基于 Vol.1 / Vol.2 白皮书框架与 Tcode 能力体系，发布覆盖**人工智能** 与**机器人/具身智能** 的标准岗位名录——与白皮书并列的研究院核心输出，也是平台 49 个核验岗位的公开参照。",
+        "source": "web",
+        "title": "2026 AI 与具身智能行业岗位标准— Skillver 研究院",
+        "url": "https://tcodeai.com/roles.html"
+      },
+      {
+        "date": "2026-01-14",
+        "last_updated": "2026-01-17",
+        "place_metadata": null,
+        "snippet": "Introducing TCodeAI - an AI-powered SAP T-Code search engine.",
+        "source": "web",
+        "title": "TCodeAI - SAP Transaction Code Intelligence | Shakti B.",
+        "url": "https://www.linkedin.com/posts/shaktibarath_tcodeai-sap-transaction-code-intelligence-activity-7417040318778482689-BkY6"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "Skillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇'模速空间'的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": "2025-11-06",
+        "last_updated": "2026-01-31",
+        "place_metadata": null,
+        "snippet": "腾讯云CodeBuddy接入Skills标准化接口，成功集成这项新功能。这意味着，开发者可以为AI添加多样化技能（比如，智能处理PDF、自动生成PPT、全自动发小红书、全栈自动化开发等等），让它从执行单一指令的助手，升级为能独立完成复杂任务的「智能代理」。",
+        "source": "web",
+        "title": "https://new.qq.com/rain/a/20251106A066JC00",
+        "url": "https://news.qq.com/rain/a/20251106A066JC00"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "|Skill|说明|\n...\n将 TCA 平台的代码分析能力（代码检查、圈复杂度、重复代码、SCA 漏洞检测等）以 Skill 形式集成到 AI 编码工具中，让开发者通过自然语言即可完成代码质量管理全流程。",
+        "source": "web",
+        "title": "AI Skills - 腾讯云代码分析",
+        "url": "https://tca.tencent.com/document/zh/ai/ai_skill.html"
+      },
+      {
+        "date": "2026-03-12",
+        "last_updated": "2026-03-21",
+        "place_metadata": null,
+        "snippet": "昨日，腾讯推出专为中国用户优化的AI Skills社区——SkillHub。该社区为基于OpenClaw官方开源生态打造的本土化配套服务平台，能够在不改动官方开源内容的前提下，为官方生态在国内落地提供配套服务支撑。",
+        "source": "web",
+        "title": "SkillHub上线腾讯推出“中国专供”的AI Skills社区 - 新浪财经",
+        "url": "https://finance.sina.com.cn/stock/t/2026-03-12/doc-inhqstex4961245.shtml"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-08-02",
+        "place_metadata": null,
+        "snippet": "|1|UniversalCodeReviewer|ai-skills-hub|跨语言代码审查（安全/性能/风格）|Python, Java, Go, JS, TS|4.8k|28,500+|",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      },
+      {
+        "date": "2026-01-22",
+        "last_updated": "2026-07-08",
+        "place_metadata": null,
+        "snippet": "新京报贝壳财经记者测试发现，Skills可以简单理解为就是一个能够将多轮prompt（提示词）“封装”到一起的“标准化模块”。",
+        "source": "web",
+        "title": "爆火的Skills如何给大模型加入“技能”？记者实测",
+        "url": "https://m.bjnews.com.cn/detail/1769047462168003.html"
+      },
+      {
+        "date": "2026-06-15",
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "**01** **核心定位** book-to-skill 是基于 MIT 协议开源的文档转 Skill 工具，主打**技术书籍、办公文档、内部资料结构化编译**，完美适配 Claude Code、Open Code、Codex 等主流 AI 编程助手。",
+        "source": "web",
+        "title": "神级skill 开源：book to skill - 小强找BUG",
+        "url": "https://www.cnblogs.com/zgq123456/articles/20536046"
+      },
+      {
+        "date": "2026-05-21",
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "#### 第一步：先装最常用的三个技能\n...\n#### 第二步：先澄清需求",
+        "source": "web",
+        "title": "四、快速上手示例",
+        "url": "https://gitcode.csdn.net/6a0e705e662f9a54cb7606c6.html"
+      },
+      {
+        "date": "2026-03-05",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "> - Claude Code： https://github.com/anthropics/skills\n> - Codex： https://github.com/openai/skills",
+        "source": "web",
+        "title": "xstongxue/best-skills: 通用高质量Skills 合集",
+        "url": "https://github.com/xstongxue/best-skills"
+      },
+      {
+        "date": "2026-02-02",
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "",
+        "source": "web",
+        "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理",
+        "url": "https://github.com/anbeime/skill"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 284,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00028,
+        "request_cost": 0.005,
+        "total_cost": 0.00532
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 320
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:15:08.752933Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "tcodeai.com 和 Skillver **本质上是同一个产品体系的两个域名/站点**：**Skillver** 是产品和品牌名，**tcodeai.com** 主要承载品牌内容、研究院、FAQ 等内容站；而实际注册、登录和使用产品要去 **skillver.cn** 或 **skillver.ai**。 [1][2][4][6]\n\n更具体地说：\n\n- **Skillver**：面向求职/招聘场景的 AI 求职助手，隶属于上海才谱人工智能科技有限公司。 [2][4]\n- **tcodeai.com**：Skillver 的**品牌内容与研究院 GEO 站点**，用于品牌介绍、FAQ、白皮书、岗位标准等内容沉淀，不是主要产品操作入口。 [1][2][6]\n- **产品主站**：使用 Skillver 的注册、登录、AI 面试等功能，应访问 **skillver.cn** 或 **skillver.ai**，两个域名功能相同。 [2][4][7]\n\n如果你愿意，我也可以继续帮你梳理：**tcodeai.com、skillver.cn、skillver.ai 这三个域名各自负责什么**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

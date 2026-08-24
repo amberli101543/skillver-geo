@@ -205,8 +205,8 @@ def _channel_manifest_invariant_errors(manifest):
         for cell_id, channels in EXPECTED_CHANNELS.items()
         for channel in channels
     }
-    if pairs != expected or len(items) != len(expected):
-        errors.append("$.items: 必须恰好包含排期定义的 24 个 cellId+channel 组合")
+    if not expected.issubset(pairs):
+        errors.append("$.items: 缺少首轮排期定义的 cellId+channel 组合")
     for field in ("contentId", "markdownPath"):
         values = [item.get(field) for item in items if isinstance(item, dict) and item.get(field)]
         if len(values) != len(set(values)):
@@ -216,8 +216,8 @@ def _channel_manifest_invariant_errors(manifest):
         for item in items
         if isinstance(item, dict) and item.get("cmsHtmlPath")
     ]
-    if len(html_paths) != 10 or len(html_paths) != len(set(html_paths)):
-        errors.append("$.items: cmsHtmlPath 必须恰好包含 10 个唯一 HTML 片段")
+    if len(html_paths) != len(set(html_paths)):
+        errors.append("$.items: cmsHtmlPath 不得重复")
     return errors
 
 

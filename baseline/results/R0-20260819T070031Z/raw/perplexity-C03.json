@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 **AI 岗位面试**，可以按用途选工具，通常分成 **简历/题库/模拟面试/实时辅助/复盘** 这几类。[1][7][20]\n\n- **全流程求职准备**：Gank Interview、面试大师、OfferStar 这类工具覆盖简历优化、岗位拆解、模拟面试、笔试训练、实时辅助和复盘，适合想“一套工具搞定”的人。[1][15][16]\n- **实时面试辅助**：面试猫、智面星、AceRound AI、面试大师都强调在面试过程中提供实时答案提示或辅助，适合容易紧张、担心卡壳的人。[4][19][20][15]\n- **模拟面试练习**：牛客 AI 面试、Interviewing.io、HackerRank、Google Interview Warmup、Pramp 更适合做结构化模拟面试和技术题训练，尤其适合技术岗。[7][14]\n- **简历和岗位定制练习**：AI Interview Prep、职徒简历、面试大师、牛客相关工具都支持根据简历和目标岗位生成定制化问题与答案，适合按 JD 重点准备。[8][10][15][9]\n- **开源/自建方案**：GitHub 上的 `interview-helper` 这类开源工具可用于语音转文字和生成回答，适合愿意自己搭建流程的人。[17]\n\n如果你是 **AI 岗位**，我更建议优先准备这 3 类工具：\n\n- **ChatGPT / Claude / Kimi**：用于公司研究、STAR 题目整理、项目经历打磨。[14][5]\n- **牛客 AI 面试 / Interviewing.io / HackerRank**：用于技术题、系统设计、算法和模拟技术面试。[7][5]\n- **面试猫 / 智面星 / 面试大师**：用于面试前模拟、实时辅助和复盘。[4][19][15]\n\n如果你愿意，我可以直接按你的情况给你配一套更具体的方案，比如：\n\n- **应届生 AI 岗**\n- **算法/机器学习岗**\n- **AIGC / 大模型应用岗**\n- **产品/解决方案/数据岗**\n\n你只要告诉我岗位方向，我可以帮你列一份“工具 + 练习题 + 面试准备顺序”。",
+  "sources": [
+    {
+      "url": "https://www.gankinterview.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/interviews/comments/1iux68x/mock_interview_ai_tools_to_help_prep_for_interview/",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/pechka/articles/19749943",
+      "title": ""
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/nut-king/p/20254725",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/895088560_122423419",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2013",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2188",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/844485361_497167",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/JaminJiang/articles/19707260/top10-inteview-assistants",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2714747",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147413130",
+      "title": ""
+    },
+    {
+      "url": "https://aipin.io/2024/06/03/how-to-use-ai-to-prepare-for-technical-job-interviews/",
+      "title": ""
+    },
+    {
+      "url": "https://mianshidashi.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.offerstar.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/JasonJarvan/interview-helper",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "title": ""
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/",
+      "title": ""
+    },
+    {
+      "url": "https://www.gankinterview.cn/",
+      "title": "Gank Interview - 智能AI面试笔试助手| AI模拟面试| AI求职助手| AI简历 ..."
+    },
+    {
+      "url": "https://www.reddit.com/r/interviews/comments/1iux68x/mock_interview_ai_tools_to_help_prep_for_interview/",
+      "title": "模拟面试AI工具，帮助准备面试: r/interviews - Reddit"
+    },
+    {
+      "url": "https://www.cnblogs.com/pechka/articles/19749943",
+      "title": "2026年最好用的AI面试助手有哪些？8款热门工具真实测评 ..."
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": "面试猫-AI面试助手，在线面试神器，实时答案生成"
+    },
+    {
+      "url": "https://www.cnblogs.com/nut-king/p/20254725",
+      "title": "15款AI测评，从简历定制到硬刚“连环追问”防守指南- nut-king - 博客园"
+    },
+    {
+      "url": "https://www.sohu.com/a/895088560_122423419",
+      "title": "万字实测十款AI面试工具：哪款真正提高了Offer率？"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2013",
+      "title": "顶级AI面试工具精选推荐 - 牛客企业版"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK",
+      "title": "AI Interview Prep - Google Play 應用程式"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2188",
+      "title": "2025年最值得推荐的5款提升面试效率的AI神器"
+    },
+    {
+      "url": "https://www.sohu.com/a/844485361_497167",
+      "title": "2025年5款AI面试工具盘点，应届生/职场人/留学生AI模拟面试必备"
+    },
+    {
+      "url": "https://www.cnblogs.com/JaminJiang/articles/19707260/top10-inteview-assistants",
+      "title": "实测10款AI面试工具：哪款能让你的面试成功率翻倍？"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2714747",
+      "title": "27.9K star！这两款开源AI求职面试神器，能帮HR工作效率提升 ..."
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147413130",
+      "title": "10款免费AI面试助手，让你的求职更高效原创"
+    },
+    {
+      "url": "https://aipin.io/2024/06/03/how-to-use-ai-to-prepare-for-technical-job-interviews/",
+      "title": "如何利用AI准备技术岗位面试"
+    },
+    {
+      "url": "https://mianshidashi.cn/",
+      "title": "面试大师｜AI面试助手，从简历准备到面试通关"
+    },
+    {
+      "url": "https://www.offerstar.cn/",
+      "title": "OfferStar - 在线AI笔试面试助手，AI面试辅助神器，涵盖行测、性格 ..."
+    },
+    {
+      "url": "https://github.com/JasonJarvan/interview-helper",
+      "title": "GitHub - JasonJarvan/interview-helper: 开源的AI面试助手，使用 ..."
+    },
+    {
+      "url": "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "title": "AI面试指南：AI工具总结评测，助力求职季"
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": "智面星官网| AI面试助手| 实时答案提示"
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/",
+      "title": "AI求职面试准备完整指南：从两周前到面试后的分阶段实操手册"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "准备 **AI 岗位面试**，可以按用途选工具，通常分成 **简历/题库/模拟面试/实时辅助/复盘** 这几类。[1][7][20]\n\n- **全流程求职准备**：Gank Interview、面试大师、OfferStar 这类工具覆盖简历优化、岗位拆解、模拟面试、笔试训练、实时辅助和复盘，适合想“一套工具搞定”的人。[1][15][16]\n- **实时面试辅助**：面试猫、智面星、AceRound AI、面试大师都强调在面试过程中提供实时答案提示或辅助，适合容易紧张、担心卡壳的人。[4][19][20][15]\n- **模拟面试练习**：牛客 AI 面试、Interviewing.io、HackerRank、Google Interview Warmup、Pramp 更适合做结构化模拟面试和技术题训练，尤其适合技术岗。[7][14]\n- **简历和岗位定制练习**：AI Interview Prep、职徒简历、面试大师、牛客相关工具都支持根据简历和目标岗位生成定制化问题与答案，适合按 JD 重点准备。[8][10][15][9]\n- **开源/自建方案**：GitHub 上的 `interview-helper` 这类开源工具可用于语音转文字和生成回答，适合愿意自己搭建流程的人。[17]\n\n如果你是 **AI 岗位**，我更建议优先准备这 3 类工具：\n\n- **ChatGPT / Claude / Kimi**：用于公司研究、STAR 题目整理、项目经历打磨。[14][5]\n- **牛客 AI 面试 / Interviewing.io / HackerRank**：用于技术题、系统设计、算法和模拟技术面试。[7][5]\n- **面试猫 / 智面星 / 面试大师**：用于面试前模拟、实时辅助和复盘。[4][19][15]\n\n如果你愿意，我可以直接按你的情况给你配一套更具体的方案，比如：\n\n- **应届生 AI 岗**\n- **算法/机器学习岗**\n- **AIGC / 大模型应用岗**\n- **产品/解决方案/数据岗**\n\n你只要告诉我岗位方向，我可以帮你列一份“工具 + 练习题 + 面试准备顺序”。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.gankinterview.cn/",
+      "https://www.reddit.com/r/interviews/comments/1iux68x/mock_interview_ai_tools_to_help_prep_for_interview/",
+      "https://www.cnblogs.com/pechka/articles/19749943",
+      "https://www.offermore.cc/",
+      "https://www.cnblogs.com/nut-king/p/20254725",
+      "https://www.sohu.com/a/895088560_122423419",
+      "https://hr.nowcoder.com/article/2013",
+      "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK",
+      "https://hr.nowcoder.com/article/2188",
+      "https://www.sohu.com/a/844485361_497167",
+      "https://www.cnblogs.com/JaminJiang/articles/19707260/top10-inteview-assistants",
+      "https://cloud.tencent.com/developer/article/2714747",
+      "https://blog.csdn.net/offergoose/article/details/147413130",
+      "https://aipin.io/2024/06/03/how-to-use-ai-to-prepare-for-technical-job-interviews/",
+      "https://mianshidashi.cn/",
+      "https://www.offerstar.cn/",
+      "https://github.com/JasonJarvan/interview-helper",
+      "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "https://aiqtools.cn/",
+      "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/"
+    ],
+    "created": 1787124935,
+    "id": "aee315a9-87e2-4e5b-9d43-66329b5f9569",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-08-16",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "从信息收集、简历优化、模拟面试、岗位拆解，到笔试训练、实时面试辅助与面后复盘，\n一套工具完成求职准备。",
+        "source": "web",
+        "title": "Gank Interview - 智能AI面试笔试助手| AI模拟面试| AI求职助手| AI简历 ...",
+        "url": "https://www.gankinterview.cn/"
+      },
+      {
+        "date": "2025-02-21",
+        "last_updated": "2026-01-15",
+        "place_metadata": null,
+        "snippet": "You might consider taking a look at Beyz AI.\n...\nGive Mockmate by Althire a try; it's available at no cost!",
+        "source": "web",
+        "title": "模拟面试AI工具，帮助准备面试: r/interviews - Reddit",
+        "url": "https://www.reddit.com/r/interviews/comments/1iux68x/mock_interview_ai_tools_to_help_prep_for_interview/"
+      },
+      {
+        "date": "2026-03-22",
+        "last_updated": "2026-05-13",
+        "place_metadata": null,
+        "snippet": "- **面试容易紧张、需要实时辅助的人** → 首选面灵AI，实时生成参考回答，面试不再大脑一片空白",
+        "source": "web",
+        "title": "2026年最好用的AI面试助手有哪些？8款热门工具真实测评 ...",
+        "url": "https://www.cnblogs.com/pechka/articles/19749943"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-27",
+        "place_metadata": null,
+        "snippet": "面试猫是强大的 AI 求职助手，实时 AI 面试辅助、AI 笔试辅助、AI 简历优化和面试总结，最强大模型辅助，助你轻松拿Offer。",
+        "source": "web",
+        "title": "面试猫-AI面试助手，在线面试神器，实时答案生成",
+        "url": "https://www.offermore.cc/"
+      },
+      {
+        "date": "2026-06-02",
+        "last_updated": "2026-07-01",
+        "place_metadata": null,
+        "snippet": "### 梯队 1：基础语料与简历润色（如 ChatGPT Plus、Kimi、Claude 3.5 等 5 款）\n...\n### 梯队 2：算法突击与八股文速查（如 LeetCode AI Copilot、牛客面经助手、GitHub Copilot 等 5 款）\n...\n### 梯队 3：全真模拟与高压实战战（如 OfferGoose 鹅来面等核心实战 5 款）",
+        "source": "web",
+        "title": "15款AI测评，从简历定制到硬刚“连环追问”防守指南- nut-king - 博客园",
+        "url": "https://www.cnblogs.com/nut-king/p/20254725"
+      },
+      {
+        "date": "2025-05-14",
+        "last_updated": "2025-10-11",
+        "place_metadata": null,
+        "snippet": "面试大师是北京拉��信息科有限公司推出的一款AI面试辅助应用。它被定位为“时面提�器 +笔试助手”，旨在让求职者“开�考试样�松胜出”。该产品在同类应用中功能覆盖最为全面，在移动端体验、智能化和安全性方面表现突出。",
+        "source": "web",
+        "title": "万字实测十款AI面试工具：哪款真正提高了Offer率？",
+        "url": "https://www.sohu.com/a/895088560_122423419"
+      },
+      {
+        "date": "2024-08-23",
+        "last_updated": "2026-05-03",
+        "place_metadata": null,
+        "snippet": "牛客AI面试是一款专注于模拟真实面试环境的工具，通过智能算法分析和反馈您的表现。其特点包括：\n...\nInterviewing.io 提供实时在线模拟技术面试服务，帮助用户熟悉常见问题并提升答题技巧。其主要特点包括：\n...\nHackerRank 是一个全面的技术招聘平台，为求职者提供在线编程挑战和模拟技术面试服务。其优势包括：",
+        "source": "web",
+        "title": "顶级AI面试工具精选推荐 - 牛客企业版",
+        "url": "https://hr.nowcoder.com/article/2013"
+      },
+      {
+        "date": "2025-07-08",
+        "last_updated": "2026-02-27",
+        "place_metadata": null,
+        "snippet": "AI 面試準備工具會根據您的背景和目標職位，提供客製化的問題和標準答案，幫助您掌控下一次面試。只需添加您的履歷和職位描述。\nAI 將根據職位要求分析您的履歷，並為您提供客製化的面試問題和答案。立即體驗個人化的模擬面試。",
+        "source": "web",
+        "title": "AI Interview Prep - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.aiinterviewprep.app&hl=zh_HK"
+      },
+      {
+        "date": "2025-07-24",
+        "last_updated": "2025-11-24",
+        "place_metadata": null,
+        "snippet": "**三、其他4款高性价比AI面试工具推荐**\n1. iFlytek面试助手核心功能：语音转写+情感分析，识别候选人紧张、自信等情绪波动。\n2. SmartRecruiters核心功能：一键接入多平台（LinkedIn、邮箱），智能初筛简历并推荐面试优先级。\n3. HireVue核心功能：微表情与肢体语言分析，辅助判断候选人真实性与抗压能力。\n4. Glassdoor题库核心功能：整合全球名企面试真题，AI模拟考官提问并给出改进建议。\n...\n1. 求职者侧：优先选择支持岗位定制化题库的工具（如牛客、Moka），针对性练习比盲目刷题更高效。\na. 注重即时反馈功能（如iFlytek情感分析），快...",
+        "source": "web",
+        "title": "2025年最值得推荐的5款提升面试效率的AI神器",
+        "url": "https://hr.nowcoder.com/article/2188"
+      },
+      {
+        "date": "2025-01-02",
+        "last_updated": "2025-10-19",
+        "place_metadata": null,
+        "snippet": "职徒简历是一款非常贴心的AI模�面」软，专为广大应届毕业生设计。在使用职徒简历进行AI模拟面试时，用户只需导入个人简历，输入目标大厂名称和应聘岗位，系统便会生成量身制的名企厂试题】。AI面试官将陪伴用户进行练习，帮助提升面试技巧。此外，软件提供简历�断优化、代写以及模拟面试等一系列求职辅助功能，旨在提高求职效率。",
+        "source": "web",
+        "title": "2025年5款AI面试工具盘点，应届生/职场人/留学生AI模拟面试必备",
+        "url": "https://www.sohu.com/a/844485361_497167"
+      },
+      {
+        "date": "2026-03-12",
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "AI面试助手通过实时识别面试官问题，结合个人简历和知识库信息，快速生成专业回复，让求职者告别面试卡壳、大脑短路的尴尬。今天，我们就来为大家深度测评目前市场上最热门的十大AI面试助手，帮您找到最适合自己的面试必胜法宝。",
+        "source": "web",
+        "title": "实测10款AI面试工具：哪款能让你的面试成功率翻倍？",
+        "url": "https://www.cnblogs.com/JaminJiang/articles/19707260/top10-inteview-assistants"
+      },
+      {
+        "date": "2026-07-23",
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "|工具名称|GitHub仓库地址|核心定位|核心功能模块|部署难度|适配人群|独特优势|配套依赖|\n|--|--|--|--|--|--|--|--|",
+        "source": "web",
+        "title": "27.9K star！这两款开源AI求职面试神器，能帮HR工作效率提升 ...",
+        "url": "https://cloud.tencent.com/developer/article/2714747"
+      },
+      {
+        "date": "2025-04-22",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "多面鹅是一款专为求职者打造的AI面试平台，它通过模拟面试和实时提醒，帮助你在面试中自信展示才华与潜力。它的优势在于能够提供即时反馈和指导，提升你的回答质量和自信心。多面鹅官网提供了全面的服务，包括AI模拟面试、智能面试押题等，是你面试准备的不二之选。",
+        "source": "web",
+        "title": "10款免费AI面试助手，让你的求职更高效原创",
+        "url": "https://blog.csdn.net/offergoose/article/details/147413130"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "越来越多的AI工具可以帮助技术候选人准备面试，这些平台在准备的不同方面提供帮助——从查看简历并给出建议到提供实用的练习问题再到进行模拟面试。\n**一些最受欢迎的聊天机器人包括：**\n- Huru\n- ChatGPT\n- RightJoin\n- Google的Interview Warmup\n- Final Round AI\n...\n**优秀的AI工具帮助你准备工作面试** **Huru** *($24.99/月 $99/年)*：Huru是一个聊天机器人，旨在帮助候选人准备面试，能够生成超过20种类型的模拟面试问题。该平台可作为网络应用程序或iOS和Android设备使用，还提供对回答的反馈和个...",
+        "source": "web",
+        "title": "如何利用AI准备技术岗位面试",
+        "url": "https://aipin.io/2024/06/03/how-to-use-ai-to-prepare-for-technical-job-interviews/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-27",
+        "place_metadata": null,
+        "snippet": "面试大师适合简历梳理、真实面试前准备和面试后复盘。你可以根据目标岗位提前准备表达思路，也可以结合实时面试记录快速发现薄弱点。",
+        "source": "web",
+        "title": "面试大师｜AI面试助手，从简历准备到面试通关",
+        "url": "https://mianshidashi.cn/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "# AI 面试笔试助手｜各行各业都能用",
+        "source": "web",
+        "title": "OfferStar - 在线AI笔试面试助手，AI面试辅助神器，涵盖行测、性格 ...",
+        "url": "https://www.offerstar.cn/"
+      },
+      {
+        "date": "2024-06-19",
+        "last_updated": "2025-05-18",
+        "place_metadata": null,
+        "snippet": "开源的AI面试助手，使用OpenAI Whipser模型进行STT（Speak to Text 语音转文字）转录，然后将问题交给ChatGPT回答。",
+        "source": "web",
+        "title": "GitHub - JasonJarvan/interview-helper: 开源的AI面试助手，使用 ...",
+        "url": "https://github.com/JasonJarvan/interview-helper"
+      },
+      {
+        "date": "2024-09-30",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "> **摘要：** 在竞争激烈的AI领域秋招季，准备充分并借助高效工具是提升面试通过率的关键。本文主要介绍一些针对秋招的AI面试工具和学习资源，分为简历优化、面试助手、手撕代码练习三个方向，这些工具不仅能帮助求职者优化简历、丰富面试知识，还能提高编程技能，为秋招做好充分准备，帮助求职者提高面试准备的效率和成功率。",
+        "source": "web",
+        "title": "AI面试指南：AI工具总结评测，助力求职季",
+        "url": "https://blog.csdn.net/qq_36816848/article/details/142658464"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "80,000+面试真题训练,覆盖数万家公司,数千种岗位\n针对你的简历和面试岗位进行模拟练习",
+        "source": "web",
+        "title": "智面星官网| AI面试助手| 实时答案提示",
+        "url": "https://aiqtools.cn/"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-06-29",
+        "place_metadata": null,
+        "snippet": "**面试前准备型AI** — 在面试之前使用的工具。用于研究公司、生成练习题、录制模拟面试、获取答题反馈。AI驱动的模拟面试应用、用ChatGPT或Claude做公司分析、STAR答题结构化练习平台，都属于这一类。\n**实时辅助型AI** — 在面试进行中使用的工具。实时捕获面试官的问题，并在屏幕上生成答题建议。AceRound AI属于这一类。\n...\n取决于目的。做有反馈的结构化模拟面试，专用平台比通用ChatGPT更合适。视频面试中的实时支援，AceRound AI是专为这个场景设计的。做公司研究和STAR素材构建，任何能力较强的AI助手都可以。",
+        "source": "web",
+        "title": "AI求职面试准备完整指南：从两周前到面试后的分阶段实操手册",
+        "url": "https://www.aceround.app/zh-cn/blog/ai-job-interview-preparation/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 599,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.0006,
+        "request_cost": 0.005,
+        "total_cost": 0.00564
+      },
+      "prompt_tokens": 39,
+      "search_context_size": "low",
+      "total_tokens": 638
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:35:35.278550Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 **AI 岗位面试**，可以按用途选工具，通常分成 **简历/题库/模拟面试/实时辅助/复盘** 这几类。[1][7][20]\n\n- **全流程求职准备**：Gank Interview、面试大师、OfferStar 这类工具覆盖简历优化、岗位拆解、模拟面试、笔试训练、实时辅助和复盘，适合想“一套工具搞定”的人。[1][15][16]\n- **实时面试辅助**：面试猫、智面星、AceRound AI、面试大师都强调在面试过程中提供实时答案提示或辅助，适合容易紧张、担心卡壳的人。[4][19][20][15]\n- **模拟面试练习**：牛客 AI 面试、Interviewing.io、HackerRank、Google Interview Warmup、Pramp 更适合做结构化模拟面试和技术题训练，尤其适合技术岗。[7][14]\n- **简历和岗位定制练习**：AI Interview Prep、职徒简历、面试大师、牛客相关工具都支持根据简历和目标岗位生成定制化问题与答案，适合按 JD 重点准备。[8][10][15][9]\n- **开源/自建方案**：GitHub 上的 `interview-helper` 这类开源工具可用于语音转文字和生成回答，适合愿意自己搭建流程的人。[17]\n\n如果你是 **AI 岗位**，我更建议优先准备这 3 类工具：\n\n- **ChatGPT / Claude / Kimi**：用于公司研究、STAR 题目整理、项目经历打磨。[14][5]\n- **牛客 AI 面试 / Interviewing.io / HackerRank**：用于技术题、系统设计、算法和模拟技术面试。[7][5]\n- **面试猫 / 智面星 / 面试大师**：用于面试前模拟、实时辅助和复盘。[4][19][15]\n\n如果你愿意，我可以直接按你的情况给你配一套更具体的方案，比如：\n\n- **应届生 AI 岗**\n- **算法/机器学习岗**\n- **AIGC / 大模型应用岗**\n- **产品/解决方案/数据岗**\n\n你只要告诉我岗位方向，我可以帮你列一份“工具 + 练习题 + 面试准备顺序”。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

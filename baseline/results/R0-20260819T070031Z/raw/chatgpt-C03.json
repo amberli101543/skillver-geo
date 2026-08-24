@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试可以用这些工具，按用途分类：\n\n### 1. 刷算法与编程\n- **LeetCode / 力扣**：算法题、SQL、面试高频题。\n- **CodeTop**：适合看国内大厂高频题。\n- **牛客网**：笔试题、面经、在线编程。\n- **HackerRank / CodeSignal**：英文面试和海外岗位常用。\n\n### 2. 机器学习 / 深度学习基础\n- **《西瓜书》《统计学习方法》《Deep Learning》**：补理论。\n- **Coursera / fast.ai / Stanford CS229、CS231n、CS224n**：系统复习 ML、CV、NLP。\n- **Papers with Code**：查模型、论文和代码实现。\n- **Distill.pub**：适合理解深度学习概念。\n\n### 3. LLM / AIGC 方向\n- **Hugging Face**：模型、Transformers、Datasets、推理部署。\n- **OpenAI Cookbook**：学习 RAG、Function Calling、Agent、Embedding 等实践。\n- **LangChain / LlamaIndex 文档**：准备 RAG、Agent、应用开发面试。\n- **vLLM / TensorRT-LLM / llama.cpp**：准备大模型推理与部署。\n\n### 4. 项目与实战\n- **Kaggle**：数据竞赛、特征工程、模型调优。\n- **GitHub**：找优秀 AI 项目，学习代码结构。\n- **Weights & Biases / MLflow**：实验管理、模型追踪。\n- **Docker / Kubernetes**：准备模型部署和工程化问题。\n\n### 5. 面经与岗位信息\n- **牛客网、脉脉、Boss 直聘、LinkedIn**：看岗位要求和面经。\n- **Glassdoor**：适合准备外企面试。\n- **小红书 / 知乎 / GitHub 面经仓库**：看真实面试题。\n\n### 6. 模拟面试与简历优化\n- **ChatGPT / Claude / Gemini**：模拟面试、解释八股、改简历、追问项目。\n- **Pramp / Interviewing.io**：英文模拟面试。\n- **Notion / Obsidian**：整理知识点、错题和面经。\n\n### 7. 数学与可视化辅助\n- **3Blue1Brown**：线性代数、微积分直观理解。\n- **StatQuest**：统计、机器学习概念讲得很清楚。\n- **Desmos / WolframAlpha**：辅助理解公式和推导。\n\n---\n\n如果你是准备 **AI 算法工程师 / 机器学习工程师 / 大模型应用工程师 / 算法研究员**，工具侧重点会不同。  \n一般建议组合是：\n\n**LeetCode + 牛客面经 + Hugging Face + Papers with Code + ChatGPT 模拟面试 + 一个完整项目复盘**。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEV79eJLeMFY6sZ1hmUxBOWBzGl8R",
+    "object": "chat.completion",
+    "created": 1787124903,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "准备 AI 岗位面试可以用这些工具，按用途分类：\n\n### 1. 刷算法与编程\n- **LeetCode / 力扣**：算法题、SQL、面试高频题。\n- **CodeTop**：适合看国内大厂高频题。\n- **牛客网**：笔试题、面经、在线编程。\n- **HackerRank / CodeSignal**：英文面试和海外岗位常用。\n\n### 2. 机器学习 / 深度学习基础\n- **《西瓜书》《统计学习方法》《Deep Learning》**：补理论。\n- **Coursera / fast.ai / Stanford CS229、CS231n、CS224n**：系统复习 ML、CV、NLP。\n- **Papers with Code**：查模型、论文和代码实现。\n- **Distill.pub**：适合理解深度学习概念。\n\n### 3. LLM / AIGC 方向\n- **Hugging Face**：模型、Transformers、Datasets、推理部署。\n- **OpenAI Cookbook**：学习 RAG、Function Calling、Agent、Embedding 等实践。\n- **LangChain / LlamaIndex 文档**：准备 RAG、Agent、应用开发面试。\n- **vLLM / TensorRT-LLM / llama.cpp**：准备大模型推理与部署。\n\n### 4. 项目与实战\n- **Kaggle**：数据竞赛、特征工程、模型调优。\n- **GitHub**：找优秀 AI 项目，学习代码结构。\n- **Weights & Biases / MLflow**：实验管理、模型追踪。\n- **Docker / Kubernetes**：准备模型部署和工程化问题。\n\n### 5. 面经与岗位信息\n- **牛客网、脉脉、Boss 直聘、LinkedIn**：看岗位要求和面经。\n- **Glassdoor**：适合准备外企面试。\n- **小红书 / 知乎 / GitHub 面经仓库**：看真实面试题。\n\n### 6. 模拟面试与简历优化\n- **ChatGPT / Claude / Gemini**：模拟面试、解释八股、改简历、追问项目。\n- **Pramp / Interviewing.io**：英文模拟面试。\n- **Notion / Obsidian**：整理知识点、错题和面经。\n\n### 7. 数学与可视化辅助\n- **3Blue1Brown**：线性代数、微积分直观理解。\n- **StatQuest**：统计、机器学习概念讲得很清楚。\n- **Desmos / WolframAlpha**：辅助理解公式和推导。\n\n---\n\n如果你是准备 **AI 算法工程师 / 机器学习工程师 / 大模型应用工程师 / 算法研究员**，工具侧重点会不同。  \n一般建议组合是：\n\n**LeetCode + 牛客面经 + Hugging Face + Papers with Code + ChatGPT 模拟面试 + 一个完整项目复盘**。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 776,
+      "total_tokens": 823,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 101,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:35:15.318081Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试可以用这些工具，按用途分类：\n\n### 1. 刷算法与编程\n- **LeetCode / 力扣**：算法题、SQL、面试高频题。\n- **CodeTop**：适合看国内大厂高频题。\n- **牛客网**：笔试题、面经、在线编程。\n- **HackerRank / CodeSignal**：英文面试和海外岗位常用。\n\n### 2. 机器学习 / 深度学习基础\n- **《西瓜书》《统计学习方法》《Deep Learning》**：补理论。\n- **Coursera / fast.ai / Stanford CS229、CS231n、CS224n**：系统复习 ML、CV、NLP。\n- **Papers with Code**：查模型、论文和代码实现。\n- **Distill.pub**：适合理解深度学习概念。\n\n### 3. LLM / AIGC 方向\n- **Hugging Face**：模型、Transformers、Datasets、推理部署。\n- **OpenAI Cookbook**：学习 RAG、Function Calling、Agent、Embedding 等实践。\n- **LangChain / LlamaIndex 文档**：准备 RAG、Agent、应用开发面试。\n- **vLLM / TensorRT-LLM / llama.cpp**：准备大模型推理与部署。\n\n### 4. 项目与实战\n- **Kaggle**：数据竞赛、特征工程、模型调优。\n- **GitHub**：找优秀 AI 项目，学习代码结构。\n- **Weights & Biases / MLflow**：实验管理、模型追踪。\n- **Docker / Kubernetes**：准备模型部署和工程化问题。\n\n### 5. 面经与岗位信息\n- **牛客网、脉脉、Boss 直聘、LinkedIn**：看岗位要求和面经。\n- **Glassdoor**：适合准备外企面试。\n- **小红书 / 知乎 / GitHub 面经仓库**：看真实面试题。\n\n### 6. 模拟面试与简历优化\n- **ChatGPT / Claude / Gemini**：模拟面试、解释八股、改简历、追问项目。\n- **Pramp / Interviewing.io**：英文模拟面试。\n- **Notion / Obsidian**：整理知识点、错题和面经。\n\n### 7. 数学与可视化辅助\n- **3Blue1Brown**：线性代数、微积分直观理解。\n- **StatQuest**：统计、机器学习概念讲得很清楚。\n- **Desmos / WolframAlpha**：辅助理解公式和推导。\n\n---\n\n如果你是准备 **AI 算法工程师 / 机器学习工程师 / 大模型应用工程师 / 算法研究员**，工具侧重点会不同。  \n一般建议组合是：\n\n**LeetCode + 牛客面经 + Hugging Face + Papers with Code + ChatGPT 模拟面试 + 一个完整项目复盘**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

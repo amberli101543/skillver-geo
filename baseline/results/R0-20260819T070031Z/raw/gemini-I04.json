@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于社群参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "获取 **Skillver**（通常为某些处于内测或特定阶段的 AI 工具、学习平台或社群）的邀请码，通常可以通过以下几种途径：\n\n1. **官网预约（Waitlist）**\n   * 访问 Skillver 的官方网站，寻找 “Sign Up”、“Join Waitlist” 或 “申请测试” 的入口。\n   * 输入你的邮箱进行预约，系统在通过审核或扩容时，会将邀请码直接发送到你的邮箱。\n\n2. **关注官方社群与社交媒体**\n   * **国外渠道**：关注其官方 **X (原 Twitter)**、加入其 **Discord** 频道或 **Telegram** 群组。官方团队经常会在这些社群中举办活动，或者不定时直接释出限量的邀请码。\n   * **国内渠道**：如果是国内团队开发的项目，可以关注其微信公众号、视频号、即刻 App 或小红书，私信官方运营人员尝试获取。\n\n3. **向已有用户索取（老带新）**\n   * 许多采用邀请制的平台会给已注册的活跃用户发放一定数量的专属邀请码。\n   * 你可以在 **即刻 App**、**小红书**、**V2EX 论坛**、**微博** 或 **Reddit** 等平台上，搜索关键词“*Skillver 邀请码*”或“*Skillver code*”，通常会有热心网友发帖分享或可以向他们留言索取。\n\n4. **二手平台（不推荐作为首选）**\n   * 在闲鱼等二手交易平台上，有时会有用户售卖或免费分享各类测试邀请码，但请注意甄别，谨防上当受骗。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "获取 **Skillver**（通常为某些处于内测或特定阶段的 AI 工具、学习平台或社群）的邀请码，通常可以通过以下几种途径：\n\n1. **官网预约（Waitlist）**\n   * 访问 Skillver 的官方网站，寻找 “Sign Up”、“Join Waitlist” 或 “申请测试” 的入口。\n   * 输入你的邮箱进行预约，系统在通过审核或扩容时，会将邀请码直接发送到你的邮箱。\n\n2. **关注官方社群与社交媒体**\n   * **国外渠道**：关注其官方 **X (原 Twitter)**、加入其 **Discord** 频道或 **Telegram** 群组。官方团队经常会在这些社群中举办活动，或者不定时直接释出限量的邀请码。\n   * **国内渠道**：如果是国内团队开发的项目，可以关注其微信公众号、视频号、即刻 App 或小红书，私信官方运营人员尝试获取。\n\n3. **向已有用户索取（老带新）**\n   * 许多采用邀请制的平台会给已注册的活跃用户发放一定数量的专属邀请码。\n   * 你可以在 **即刻 App**、**小红书**、**V2EX 论坛**、**微博** 或 **Reddit** 等平台上，搜索关键词“*Skillver 邀请码*”或“*Skillver code*”，通常会有热心网友发帖分享或可以向他们留言索取。\n\n4. **二手平台（不推荐作为首选）**\n   * 在闲鱼等二手交易平台上，有时会有用户售卖或免费分享各类测试邀请码，但请注意甄别，谨防上当受骗。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123625,
+    "id": "n1eFarfuL46VkdUPlpfH-As",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 366,
+      "prompt_tokens": 36,
+      "total_tokens": 1785
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:13:44.865443Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "获取 **Skillver**（通常为某些处于内测或特定阶段的 AI 工具、学习平台或社群）的邀请码，通常可以通过以下几种途径：\n\n1. **官网预约（Waitlist）**\n   * 访问 Skillver 的官方网站，寻找 “Sign Up”、“Join Waitlist” 或 “申请测试” 的入口。\n   * 输入你的邮箱进行预约，系统在通过审核或扩容时，会将邀请码直接发送到你的邮箱。\n\n2. **关注官方社群与社交媒体**\n   * **国外渠道**：关注其官方 **X (原 Twitter)**、加入其 **Discord** 频道或 **Telegram** 群组。官方团队经常会在这些社群中举办活动，或者不定时直接释出限量的邀请码。\n   * **国内渠道**：如果是国内团队开发的项目，可以关注其微信公众号、视频号、即刻 App 或小红书，私信官方运营人员尝试获取。\n\n3. **向已有用户索取（老带新）**\n   * 许多采用邀请制的平台会给已注册的活跃用户发放一定数量的专属邀请码。\n   * 你可以在 **即刻 App**、**小红书**、**V2EX 论坛**、**微博** 或 **Reddit** 等平台上，搜索关键词“*Skillver 邀请码*”或“*Skillver code*”，通常会有热心网友发帖分享或可以向他们留言索取。\n\n4. **二手平台（不推荐作为首选）**\n   * 在闲鱼等二手交易平台上，有时会有用户售卖或免费分享各类测试邀请码，但请注意甄别，谨防上当受骗。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": true,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

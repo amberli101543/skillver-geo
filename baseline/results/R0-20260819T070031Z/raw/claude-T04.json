@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "# Skillver 正式 AI 面试\n\n**Skillver** 是一个基于 AI 的求职和面试准备平台，其\"正式 AI 面试\"功能主要包括：\n\n## 核心功能\n\n- **模拟真实面试环境**：通过 AI 技术模拟真实的面试场景，帮助求职者练习\n- **智能问题生成**：根据岗位、行业和职位级别生成相关面试问题\n- **实时反馈**：对回答内容、表达方式、语言组织等给出评估和建议\n- **录像/录音分析**：部分功能支持分析用户的表情、语调和肢体语言\n\n## 主要用途\n\n- 帮助求职者在**正式面试前**进行充分练习\n- 提升面试**自信心和表达能力**\n- 针对特定公司或职位进行**定向练习**\n\n## 适用人群\n\n- 准备跳槽的职场人士\n- 应届毕业生\n- 想提升面试技巧的求职者\n\n---\n\n> ⚠️ **注意**：如果您想了解更详细或最新的功能介绍，建议直接访问 **Skillver 官方网站**，因为平台功能可能持续更新。\n\n您有具体想了解哪方面的内容？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBi1Uj5rASq3UB26NCwx",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 正式 AI 面试\n\n**Skillver** 是一个基于 AI 的求职和面试准备平台，其\"正式 AI 面试\"功能主要包括：\n\n## 核心功能\n\n- **模拟真实面试环境**：通过 AI 技术模拟真实的面试场景，帮助求职者练习\n- **智能问题生成**：根据岗位、行业和职位级别生成相关面试问题\n- **实时反馈**：对回答内容、表达方式、语言组织等给出评估和建议\n- **录像/录音分析**：部分功能支持分析用户的表情、语调和肢体语言\n\n## 主要用途\n\n- 帮助求职者在**正式面试前**进行充分练习\n- 提升面试**自信心和表达能力**\n- 针对特定公司或职位进行**定向练习**\n\n## 适用人群\n\n- 准备跳槽的职场人士\n- 应届毕业生\n- 想提升面试技巧的求职者\n\n---\n\n> ⚠️ **注意**：如果您想了解更详细或最新的功能介绍，建议直接访问 **Skillver 官方网站**，因为平台功能可能持续更新。\n\n您有具体想了解哪方面的内容？"
+        }
+      }
+    ],
+    "created": 1787124289,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 397,
+      "prompt_tokens": 52,
+      "total_tokens": 449
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:24:49.146508Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "# Skillver 正式 AI 面试\n\n**Skillver** 是一个基于 AI 的求职和面试准备平台，其\"正式 AI 面试\"功能主要包括：\n\n## 核心功能\n\n- **模拟真实面试环境**：通过 AI 技术模拟真实的面试场景，帮助求职者练习\n- **智能问题生成**：根据岗位、行业和职位级别生成相关面试问题\n- **实时反馈**：对回答内容、表达方式、语言组织等给出评估和建议\n- **录像/录音分析**：部分功能支持分析用户的表情、语调和肢体语言\n\n## 主要用途\n\n- 帮助求职者在**正式面试前**进行充分练习\n- 提升面试**自信心和表达能力**\n- 针对特定公司或职位进行**定向练习**\n\n## 适用人群\n\n- 准备跳槽的职场人士\n- 应届毕业生\n- 想提升面试技巧的求职者\n\n---\n\n> ⚠️ **注意**：如果您想了解更详细或最新的功能介绍，建议直接访问 **Skillver 官方网站**，因为平台功能可能持续更新。\n\n您有具体想了解哪方面的内容？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

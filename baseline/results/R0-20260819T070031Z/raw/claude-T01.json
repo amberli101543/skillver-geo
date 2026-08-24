@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "# KAE 技能体系\n\n**KAE** 通常指 **Key Account Executive（大客户经理/关键客户主管）**，其技能体系主要涵盖以下几个维度：\n\n---\n\n## 一、核心能力维度\n\n### 1. **K - Knowledge（知识）**\n- 行业知识与市场洞察\n- 产品/服务专业知识\n- 客户业务知识\n- 竞争对手分析能力\n\n### 2. **A - Ability（能力）**\n- 客户关系管理能力\n- 谈判与沟通能力\n- 销售策略制定能力\n- 数据分析与决策能力\n- 项目管理能力\n\n### 3. **E - Experience（经验）**\n- 大客户开发与维护经验\n- 跨部门协作经验\n- 危机处理与客诉管理经验\n\n---\n\n## 二、具体技能模块\n\n| 模块 | 内容 |\n|------|------|\n| 客户洞察 | 需求挖掘、痛点分析 |\n| 方案设计 | 定制化解决方案输出 |\n| 关系维护 | 高层公关、信任建立 |\n| 商务谈判 | 报价策略、合同谈判 |\n| 数据复盘 | 销售漏斗管理、KPI分析 |\n\n---\n\n## 补充说明\n\n> 如果您指的是某个特定公司或行业（如快消、医药、零售等）的 KAE 技能体系，不同领域的侧重点会有所不同，欢迎进一步说明背景，我可以提供更精准的解答。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBheWJW4yMUz8zxrC2Sz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# KAE 技能体系\n\n**KAE** 通常指 **Key Account Executive（大客户经理/关键客户主管）**，其技能体系主要涵盖以下几个维度：\n\n---\n\n## 一、核心能力维度\n\n### 1. **K - Knowledge（知识）**\n- 行业知识与市场洞察\n- 产品/服务专业知识\n- 客户业务知识\n- 竞争对手分析能力\n\n### 2. **A - Ability（能力）**\n- 客户关系管理能力\n- 谈判与沟通能力\n- 销售策略制定能力\n- 数据分析与决策能力\n- 项目管理能力\n\n### 3. **E - Experience（经验）**\n- 大客户开发与维护经验\n- 跨部门协作经验\n- 危机处理与客诉管理经验\n\n---\n\n## 二、具体技能模块\n\n| 模块 | 内容 |\n|------|------|\n| 客户洞察 | 需求挖掘、痛点分析 |\n| 方案设计 | 定制化解决方案输出 |\n| 关系维护 | 高层公关、信任建立 |\n| 商务谈判 | 报价策略、合同谈判 |\n| 数据复盘 | 销售漏斗管理、KPI分析 |\n\n---\n\n## 补充说明\n\n> 如果您指的是某个特定公司或行业（如快消、医药、零售等）的 KAE 技能体系，不同领域的侧重点会有所不同，欢迎进一步说明背景，我可以提供更精准的解答。"
+        }
+      }
+    ],
+    "created": 1787124004,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 493,
+      "prompt_tokens": 49,
+      "total_tokens": 542
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:20:04.220076Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "# KAE 技能体系\n\n**KAE** 通常指 **Key Account Executive（大客户经理/关键客户主管）**，其技能体系主要涵盖以下几个维度：\n\n---\n\n## 一、核心能力维度\n\n### 1. **K - Knowledge（知识）**\n- 行业知识与市场洞察\n- 产品/服务专业知识\n- 客户业务知识\n- 竞争对手分析能力\n\n### 2. **A - Ability（能力）**\n- 客户关系管理能力\n- 谈判与沟通能力\n- 销售策略制定能力\n- 数据分析与决策能力\n- 项目管理能力\n\n### 3. **E - Experience（经验）**\n- 大客户开发与维护经验\n- 跨部门协作经验\n- 危机处理与客诉管理经验\n\n---\n\n## 二、具体技能模块\n\n| 模块 | 内容 |\n|------|------|\n| 客户洞察 | 需求挖掘、痛点分析 |\n| 方案设计 | 定制化解决方案输出 |\n| 关系维护 | 高层公关、信任建立 |\n| 商务谈判 | 报价策略、合同谈判 |\n| 数据复盘 | 销售漏斗管理、KPI分析 |\n\n---\n\n## 补充说明\n\n> 如果您指的是某个特定公司或行业（如快消、医药、零售等）的 KAE 技能体系，不同领域的侧重点会有所不同，欢迎进一步说明背景，我可以提供更精准的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

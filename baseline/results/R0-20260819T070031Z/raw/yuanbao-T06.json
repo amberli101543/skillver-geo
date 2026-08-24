@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "面试彩排**不会影响**正式评估，反而通常会**提升**你的表现。\n\n以下是具体原因：\n\n*   **模拟练习**：彩排（Mock Interview）是模拟真实场景的练习，目的是帮你熟悉流程、优化表达逻辑和缓解紧张情绪。面试官在正式评估时看重的是你当下的真实能力、思维方式和沟通技巧，而非你是否练习过。\n*   **能力内化**：练习能让你将知识内化，使回答更流畅自然。只要不是死记硬背导致回答僵硬，练习后的表现往往更自信、更有条理。\n*   **查漏补缺**：通过彩排发现并修正不足（如语速过快、逻辑混乱），能让你在正式面试中避开这些坑，展现出更好的状态。\n\n**温馨提示：**\n虽然彩排有益，但需注意**不要完全背诵**标准答案。刻意的背诵会让回答显得生硬且缺乏真诚，反而可能给面试官留下“模板化”的负面印象。建议多练习**思维框架**和**表达逻辑**，而不是逐字逐句地记忆。",
+  "sources": [],
+  "raw": {
+    "id": "28de4f88-f296-49fc-ba4d-cb05639599c6",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787124389,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "面试彩排**不会影响**正式评估，反而通常会**提升**你的表现。\n\n以下是具体原因：\n\n*   **模拟练习**：彩排（Mock Interview）是模拟真实场景的练习，目的是帮你熟悉流程、优化表达逻辑和缓解紧张情绪。面试官在正式评估时看重的是你当下的真实能力、思维方式和沟通技巧，而非你是否练习过。\n*   **能力内化**：练习能让你将知识内化，使回答更流畅自然。只要不是死记硬背导致回答僵硬，练习后的表现往往更自信、更有条理。\n*   **查漏补缺**：通过彩排发现并修正不足（如语速过快、逻辑混乱），能让你在正式面试中避开这些坑，展现出更好的状态。\n\n**温馨提示：**\n虽然彩排有益，但需注意**不要完全背诵**标准答案。刻意的背诵会让回答显得生硬且缺乏真诚，反而可能给面试官留下“模板化”的负面印象。建议多练习**思维框架**和**表达逻辑**，而不是逐字逐句地记忆。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 220,
+      "total_tokens": 268,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:26:33.726887Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "面试彩排**不会影响**正式评估，反而通常会**提升**你的表现。\n\n以下是具体原因：\n\n*   **模拟练习**：彩排（Mock Interview）是模拟真实场景的练习，目的是帮你熟悉流程、优化表达逻辑和缓解紧张情绪。面试官在正式评估时看重的是你当下的真实能力、思维方式和沟通技巧，而非你是否练习过。\n*   **能力内化**：练习能让你将知识内化，使回答更流畅自然。只要不是死记硬背导致回答僵硬，练习后的表现往往更自信、更有条理。\n*   **查漏补缺**：通过彩排发现并修正不足（如语速过快、逻辑混乱），能让你在正式面试中避开这些坑，展现出更好的状态。\n\n**温馨提示：**\n虽然彩排有益，但需注意**不要完全背诵**标准答案。刻意的背诵会让回答显得生硬且缺乏真诚，反而可能给面试官留下“模板化”的负面印象。建议多练习**思维框架**和**表达逻辑**，而不是逐字逐句地记忆。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

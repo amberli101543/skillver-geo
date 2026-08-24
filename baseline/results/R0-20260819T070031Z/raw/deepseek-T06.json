@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "“面试彩排”通常指在正式面试前进行的模拟练习。**它本身不会影响正式评估的结果**，因为正式评估只基于你在实际面试中的表现。但如果彩排方式不当，可能会间接产生负面影响：\n\n1. **过度依赖稿子**：如果彩排时死记硬背答案，正式面试时可能显得机械、不自然，反而影响评分。\n2. **疲劳或焦虑**：彩排时间过长或强度过大，可能导致正式面试时精力不足或过度紧张。\n3. **错误强化**：如果彩排中有明显错误且未纠正，可能会在正式面试中重复。\n\n**建议**：\n- 彩排重点放在逻辑梳理、时间控制和表达流畅度，而非逐字背诵。\n- 预留休息时间，保持状态稳定。\n- 彩排结束后进行复盘，修正问题。\n\n简而言之，彩排是工具，关键看你怎么用。只要方法得当，它对正式评估通常是有益的。",
+  "sources": [],
+  "raw": {
+    "id": "f914a918-9611-412b-bb39-b28f20642d05",
+    "object": "chat.completion",
+    "created": 1787124384,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“面试彩排”通常指在正式面试前进行的模拟练习。**它本身不会影响正式评估的结果**，因为正式评估只基于你在实际面试中的表现。但如果彩排方式不当，可能会间接产生负面影响：\n\n1. **过度依赖稿子**：如果彩排时死记硬背答案，正式面试时可能显得机械、不自然，反而影响评分。\n2. **疲劳或焦虑**：彩排时间过长或强度过大，可能导致正式面试时精力不足或过度紧张。\n3. **错误强化**：如果彩排中有明显错误且未纠正，可能会在正式面试中重复。\n\n**建议**：\n- 彩排重点放在逻辑梳理、时间控制和表达流畅度，而非逐字背诵。\n- 预留休息时间，保持状态稳定。\n- 彩排结束后进行复盘，修正问题。\n\n简而言之，彩排是工具，关键看你怎么用。只要方法得当，它对正式评估通常是有益的。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 200,
+      "total_tokens": 237,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:26:26.750024Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "“面试彩排”通常指在正式面试前进行的模拟练习。**它本身不会影响正式评估的结果**，因为正式评估只基于你在实际面试中的表现。但如果彩排方式不当，可能会间接产生负面影响：\n\n1. **过度依赖稿子**：如果彩排时死记硬背答案，正式面试时可能显得机械、不自然，反而影响评分。\n2. **疲劳或焦虑**：彩排时间过长或强度过大，可能导致正式面试时精力不足或过度紧张。\n3. **错误强化**：如果彩排中有明显错误且未纠正，可能会在正式面试中重复。\n\n**建议**：\n- 彩排重点放在逻辑梳理、时间控制和表达流畅度，而非逐字背诵。\n- 预留休息时间，保持状态稳定。\n- 彩排结束后进行复盘，修正问题。\n\n简而言之，彩排是工具，关键看你怎么用。只要方法得当，它对正式评估通常是有益的。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

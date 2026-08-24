@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 主要帮求职者做 **选岗匹配、AI 面试准备、正式能力评估、企业投递与沟通**；其中“导师赋能”目前标注为待开通。[1][2][4]\n\n更具体地说，它可以提供：\n\n- **选岗匹配**：先选目标标准岗位，再上传简历做核验，生成匹配报告，帮助你判断方向是否合适。[2][6]\n- **AI 面试彩排**：用于练习表达、熟悉题型，不作为正式投递凭证。[2][4][5]\n- **正式 AI 面试**：用于能力核验并生成正式报告，报告可用于投递企业。[2][5][6]\n- **企业投递与跟进**：浏览在招职位，投递后跟进约面、沟通和状态推进。[2][6][7]\n- **导师赋能**：规划中包括简历精修、面试实战和入职适应，但目前尚未开通。[2][4][5]\n\n同时，Skillver **不是海投平台**，也**不承诺面试通过、拿到 offer 或投递结果**。[1][2]",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/product/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": ""
+    },
+    {
+      "url": "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html",
+      "title": ""
+    },
+    {
+      "url": "https://claude-updates.com/posts/get-jobskill-iyspk",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/help/recruiter/answer/a726362?lang=zh-CN",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.loopcv.pro/zh/recruiter/",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/help/linkedin/answer/a508405?lang=zh-CN",
+      "title": ""
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/santifer/career-ops",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/mu/app/%E8%81%8C%E5%86%B3/id6764008474?l=fr-FR",
+      "title": ""
+    },
+    {
+      "url": "https://www.qiuzhifangzhou.com/doc/about/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/product/",
+      "title": "产品— Skillver AI 求职助手与企业招聘"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": "skillver - App Store - Apple"
+    },
+    {
+      "url": "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”"
+    },
+    {
+      "url": "https://claude-updates.com/posts/get-jobskill-iyspk",
+      "title": "Get Job.skill — Claude Updates"
+    },
+    {
+      "url": "https://www.linkedin.com/help/recruiter/answer/a726362?lang=zh-CN",
+      "title": "Recruiter 中的技能功能| 企业招聘帐号帮助中心"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": "Skillveri Support - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.loopcv.pro/zh/recruiter/",
+      "title": "AI Job Search Automation - Auto-Apply to 1,000+ Jobs - Loopcv"
+    },
+    {
+      "url": "https://www.linkedin.com/help/linkedin/answer/a508405?lang=zh-CN",
+      "title": "向招聘专员表明您“在找工作” | 领英帮助中心"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd",
+      "title": "找工作助手-AI打招呼(支持智联、BOSS、猎聘、拉勾"
+    },
+    {
+      "url": "https://github.com/santifer/career-ops",
+      "title": "santifer/career-ops: Open-source AI job search: scan ..."
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://apps.apple.com/mu/app/%E8%81%8C%E5%86%B3/id6764008474?l=fr-FR",
+      "title": "职决"
+    },
+    {
+      "url": "https://www.qiuzhifangzhou.com/doc/about/",
+      "title": "关于我们| 求职方舟AI"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 主要帮求职者做 **选岗匹配、AI 面试准备、正式能力评估、企业投递与沟通**；其中“导师赋能”目前标注为待开通。[1][2][4]\n\n更具体地说，它可以提供：\n\n- **选岗匹配**：先选目标标准岗位，再上传简历做核验，生成匹配报告，帮助你判断方向是否合适。[2][6]\n- **AI 面试彩排**：用于练习表达、熟悉题型，不作为正式投递凭证。[2][4][5]\n- **正式 AI 面试**：用于能力核验并生成正式报告，报告可用于投递企业。[2][5][6]\n- **企业投递与跟进**：浏览在招职位，投递后跟进约面、沟通和状态推进。[2][6][7]\n- **导师赋能**：规划中包括简历精修、面试实战和入职适应，但目前尚未开通。[2][4][5]\n\n同时，Skillver **不是海投平台**，也**不承诺面试通过、拿到 offer 或投递结果**。[1][2]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/faq.html",
+      "https://www.tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/product/",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/beta.html",
+      "https://tcodeai.com/products/skillver.html",
+      "https://www.skillver.cn/beta",
+      "https://www.skillver.cn/help/glossary",
+      "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html",
+      "https://claude-updates.com/posts/get-jobskill-iyspk",
+      "https://www.linkedin.com/help/recruiter/answer/a726362?lang=zh-CN",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "https://www.loopcv.pro/zh/recruiter/",
+      "https://www.linkedin.com/help/linkedin/answer/a508405?lang=zh-CN",
+      "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd",
+      "https://github.com/santifer/career-ops",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://apps.apple.com/mu/app/%E8%81%8C%E5%86%B3/id6764008474?l=fr-FR",
+      "https://www.qiuzhifangzhou.com/doc/about/"
+    ],
+    "created": 1787123189,
+    "id": "4bc27b5d-516f-48e8-bccb-b2d4b1ea3ca3",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。\n...\nSkillver 不是简历海投平台，而是 AI 求职助手。产品围绕选岗匹配、面试彩排、正式评估与企业沟通提供支持；导师赋能待开通。AI 输出辅助求职准备，不构成录用结果承诺。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "选岗匹配 → AI 面试 → 投递企业 → 导师赋能（待开通）\n...\n用户先选择目标标准岗位，再按岗位上传简历进行核验，并在「我的报告」查看简历匹配结果。核心目的，是先明确方向，再进入后续准备与投递流程。\n...\nAI 面试分为模拟与正式两种用途。模拟面试用于练习表达、熟悉题型，不能作为正式面试或投递凭证；正式 AI 面试用于能力核验并生成正式报告。报告可包含七维战力能力雷达、维度分数与说明、面试对话回顾等内容。\n...\n用户可浏览企业发布的具体职位，投递后跟进企业约面和沟通状态。平台有明确前提：向某个职位投递前，需要在该职位对应的标准岗位下已有正式 AI 面试报告。\n...\n导师赋能当前待...",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://www.tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "中国优秀人才的 AI 求职助手——选岗匹配 → 面试彩排 → 企业沟通 → 导师赋能。",
+        "source": "web",
+        "title": "产品— Skillver AI 求职助手与企业招聘",
+        "url": "https://tcodeai.com/product/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "- **选岗匹配**：49 个标准岗位，上传简历核验，产出匹配报告（不限次数）\n- **面试彩排**：基于 10000+ 合规题库练习表达与题型，具体使用额度以 Skillver 主站 /faq 为准，报告不可用于投递\n- **正式 AI 面试**：能力认证，具体使用额度以 Skillver 主站 /faq 为准，七维战力报告用于投递（硬通行证）\n- **企业沟通**：浏览在招职位，结构化跟进投递、约面、offer\n- **导师赋能**：导师赋能待开通，开放时间与服务范围以 Skillver 主站公告为准",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "从 49 个 AI/机器人标准岗位中锁定目标，上传 PDF/Word 简历完成核验。产出简历匹配报告——把「我觉得合适」变成「系统也认为合适」。简历核验不限次数。\n...\n面试彩排用于练习表达、熟悉题型（具体使用额度以 Skillver 主站 /faq 为准）；正式 AI 面试用于能力认证与投递（具体使用额度以 Skillver 主站 /faq 为准）。报告含七维战力雷达图及多智能体评分说明，通常 2–5 分钟生成。正式报告是投递头部企业的硬通行证。\n...\n浏览在招职位、管理投递记录、接收企业约面。投递须在该职位对应岗位下已有正式 AI 面试报告（模拟报告不可用于投递）。人职对话栏用状态按钮...",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "- 岗位匹配：上传简历，AI 生成与目标岗位的精准差距报告\n- AI面试：10000+ 合规题库，七维战力评估；彩排有配额限制\n- 正式 AI 面试：生成 KAE 能力报告，用于向企业投递（硬通行证）\n- 投递企业：直连 AI 独角兽与 AI 大厂 HR，接收面试邀约\n- 导师赋能（待开通）：上线前不开放预约",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE 将分散的简历关键词与主观印象，转化为结构化、可追溯的七维战力评估结果，供 HR 与求职助手共同参考。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-08-08",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver：中国优秀人才的 AI 求职助手。用 AI 核验真实实力，精准对接以 AI 独角兽为代表的头部科技企业优质岗位。提供选岗匹配、AI 面试彩排、人企透明沟通及真人导师服务，陪你拿下头部 offer。",
+        "source": "web",
+        "title": "skillver - App Store - Apple",
+        "url": "https://apps.apple.com/gb/app/skillver/id6786519057"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”",
+        "url": "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html"
+      },
+      {
+        "date": "2026-07-15",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "|阶段|做什么|产出|\n...\n|① 调研岗位|按目标市场选择本地来源，用 WebSearch + 来源分级摸清岗位要什么：核心能力关键词、隐性门槛、最新动态|``` 岗位调研.md ```|\n|② 改简历|目标岗位反向定位 + 把真实经历翻译成岗位语言，克制使用迁移叙事，一键生成 docx|``` 改后简历.docx ```|\n|③ 准备面试|根据调研发现真实轮次 + 每个 bullet 逐条讲解 + 自我介绍/表达训练 + 面后复盘题库，让你被追问也不崩|``` 面试准备/ ```|\n...\n**这就是这个 skill 做的事：不编经历，把你已经有的东西翻译到位，再帮你准备到面试不崩。**",
+        "source": "web",
+        "title": "Get Job.skill — Claude Updates",
+        "url": "https://claude-updates.com/posts/get-jobskill-iyspk"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-03",
+        "place_metadata": null,
+        "snippet": "求职者可以添加有关他们如何展示技能的信息，以提供对候选人资格的广泛衡量标准。情境技能功能可帮助您根据候选人展示技能的方式来识别“隐藏的宝石”候选人，而不是完全依赖教育和直接工作经验等传统资格。",
+        "source": "web",
+        "title": "Recruiter 中的技能功能| 企业招聘帐号帮助中心",
+        "url": "https://www.linkedin.com/help/recruiter/answer/a726362?lang=zh-CN"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "skillveri@skillveri.com\n...\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-19",
+        "place_metadata": null,
+        "snippet": "借助 Loopcv，招聘人员和机构可以帮助求职者获得更多面试机会并优化他们的简历。查看下方功能，了解 Loopcv 如何让您的业务脱颖而出！",
+        "source": "web",
+        "title": "AI Job Search Automation - Auto-Apply to 1,000+ Jobs - Loopcv",
+        "url": "https://www.loopcv.pro/zh/recruiter/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-07-18",
+        "place_metadata": null,
+        "snippet": "您可以通过“在找工作”(#OpenToWork) 功能，告诉领英上的招聘人员以及人脉圈您愿意看新机会。",
+        "source": "web",
+        "title": "向招聘专员表明您“在找工作” | 领英帮助中心",
+        "url": "https://www.linkedin.com/help/linkedin/answer/a508405?lang=zh-CN"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "一句话简介：用AI结合岗位和简历，一键生成高回复率的岗位定制化招呼语，支持DeepSeek-R1、DeepSeek-V3自由切换！",
+        "source": "web",
+        "title": "找工作助手-AI打招呼(支持智联、BOSS、猎聘、拉勾",
+        "url": "https://chromewebstore.google.com/detail/%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%8A%A9%E6%89%8B-ai%E6%89%93%E6%8B%9B%E5%91%BC%E6%94%AF%E6%8C%81%E6%99%BA%E8%81%94%E3%80%81boss%E3%80%81%E7%8C%8E%E8%81%98%E3%80%81%E6%8B%89/fjjdbgcjmgiaedphkdbagmomijleibfd"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "|**Cover Letter Generator**|Research-backed cover letters with keyword mirroring, four interactive angle prompts (why/problems/approach/tone), draft-in-chat approval gate, and A4 PDF via the same HTML + Playwright pipeline as CVs.",
+        "source": "web",
+        "title": "santifer/career-ops: Open-source AI job search: scan ...",
+        "url": "https://github.com/santifer/career-ops"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "support@skillveri.com\n...\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-06-23",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "通过自然对话，职决 可以基于你的偏好信息，提供专属求职诊断、职位推荐、简历优化、求职咨询和自动投递服务。\n...\n【核心功能】 AI 求职诊断 ｜ 通过对话了解你的背景、经历、能力、目标和偏好，帮你分析求职方向是否清晰、目标岗位是否合理，以及当前求职策略是否需要调整。\nAI 智能推荐 ｜ 像聊天一样告诉 职决 你的求职想法、目标岗位、城市偏好、薪资期待和顾虑。AI 会在对话中理解你的需求，并持续推荐更适合你的职位机会，帮你减少低效搜索和盲目海投。\nAI 简历优化 ｜ 根据你的求职目标和岗位要求，AI 可以自动修改你的简历，优化表达方式，突出核心经历、项目成果和岗位关键词，并给出具体可执行的优化...",
+        "source": "web",
+        "title": "职决",
+        "url": "https://apps.apple.com/mu/app/%E8%81%8C%E5%86%B3/id6764008474?l=fr-FR"
+      },
+      {
+        "date": "2026-08-09",
+        "last_updated": "2026-07-19",
+        "place_metadata": null,
+        "snippet": "- **投递进展表**：以在线 Excel 形式记录和管理简历投递状态，智能管理投递历史，提醒重要时间节点。",
+        "source": "web",
+        "title": "关于我们| 求职方舟AI",
+        "url": "https://www.qiuzhifangzhou.com/doc/about/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 295,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.0003,
+        "request_cost": 0.005,
+        "total_cost": 0.00533
+      },
+      "prompt_tokens": 35,
+      "search_context_size": "low",
+      "total_tokens": 330
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:06:28.990576Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 主要帮求职者做 **选岗匹配、AI 面试准备、正式能力评估、企业投递与沟通**；其中“导师赋能”目前标注为待开通。[1][2][4]\n\n更具体地说，它可以提供：\n\n- **选岗匹配**：先选目标标准岗位，再上传简历做核验，生成匹配报告，帮助你判断方向是否合适。[2][6]\n- **AI 面试彩排**：用于练习表达、熟悉题型，不作为正式投递凭证。[2][4][5]\n- **正式 AI 面试**：用于能力核验并生成正式报告，报告可用于投递企业。[2][5][6]\n- **企业投递与跟进**：浏览在招职位，投递后跟进约面、沟通和状态推进。[2][6][7]\n- **导师赋能**：规划中包括简历精修、面试实战和入职适应，但目前尚未开通。[2][4][5]\n\n同时，Skillver **不是海投平台**，也**不承诺面试通过、拿到 offer 或投递结果**。[1][2]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

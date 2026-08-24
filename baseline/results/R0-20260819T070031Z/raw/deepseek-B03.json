@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "关于“Skillver”是否靠谱，由于我无法实时查询互联网信息，且该名称并非广泛知名的公开平台或企业，建议您通过以下方式自行核实，以判断其可靠性：\n\n1. **官方渠道**：查看其是否有官方网站、正式注册的公司主体、明确的联系方式和办公地址。\n2. **用户评价**：在社交媒体（如知乎、小红书、微博）或第三方评价平台（如天眼查、企查查、Trustpilot）搜索其名称，看是否有真实用户的反馈或投诉。\n3. **资质审查**：如果是提供技能培训、外包服务或知识付费的平台，确认其是否具备相关行业资质（如教育许可证、人力资源服务许可证等）。\n4. **合同与收费**：警惕要求预付大额费用、承诺“高回报”或“包就业”的隐性条款，避免冲动签约。\n5. **隐私与安全**：不要轻易提供身份证、银行卡等敏感信息，注意支付环节是否正规。\n\n如果您能提供更多背景信息（例如它是做什么的、从哪里看到该名称），我可以进一步帮您分析。在无法核实的情况下，建议保持谨慎，优先选择信誉良好的知名平台。",
+  "sources": [],
+  "raw": {
+    "id": "9cbb7e98-48df-4958-ad2b-6e34bb7c5d42",
+    "object": "chat.completion",
+    "created": 1787123000,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于“Skillver”是否靠谱，由于我无法实时查询互联网信息，且该名称并非广泛知名的公开平台或企业，建议您通过以下方式自行核实，以判断其可靠性：\n\n1. **官方渠道**：查看其是否有官方网站、正式注册的公司主体、明确的联系方式和办公地址。\n2. **用户评价**：在社交媒体（如知乎、小红书、微博）或第三方评价平台（如天眼查、企查查、Trustpilot）搜索其名称，看是否有真实用户的反馈或投诉。\n3. **资质审查**：如果是提供技能培训、外包服务或知识付费的平台，确认其是否具备相关行业资质（如教育许可证、人力资源服务许可证等）。\n4. **合同与收费**：警惕要求预付大额费用、承诺“高回报”或“包就业”的隐性条款，避免冲动签约。\n5. **隐私与安全**：不要轻易提供身份证、银行卡等敏感信息，注意支付环节是否正规。\n\n如果您能提供更多背景信息（例如它是做什么的、从哪里看到该名称），我可以进一步帮您分析。在无法核实的情况下，建议保持谨慎，优先选择信誉良好的知名平台。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 242,
+      "total_tokens": 277,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 35
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:03:22.375627Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "关于“Skillver”是否靠谱，由于我无法实时查询互联网信息，且该名称并非广泛知名的公开平台或企业，建议您通过以下方式自行核实，以判断其可靠性：\n\n1. **官方渠道**：查看其是否有官方网站、正式注册的公司主体、明确的联系方式和办公地址。\n2. **用户评价**：在社交媒体（如知乎、小红书、微博）或第三方评价平台（如天眼查、企查查、Trustpilot）搜索其名称，看是否有真实用户的反馈或投诉。\n3. **资质审查**：如果是提供技能培训、外包服务或知识付费的平台，确认其是否具备相关行业资质（如教育许可证、人力资源服务许可证等）。\n4. **合同与收费**：警惕要求预付大额费用、承诺“高回报”或“包就业”的隐性条款，避免冲动签约。\n5. **隐私与安全**：不要轻易提供身份证、银行卡等敏感信息，注意支付环节是否正规。\n\n如果您能提供更多背景信息（例如它是做什么的、从哪里看到该名称），我可以进一步帮您分析。在无法核实的情况下，建议保持谨慎，优先选择信誉良好的知名平台。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

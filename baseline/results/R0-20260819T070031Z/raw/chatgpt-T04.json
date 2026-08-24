@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "Skillver「正式 AI 面试」通常指企业通过 Skillver 平台发起的正式招聘面试环节，由 AI 面试官在线提问，候选人按要求作答，系统会对回答内容、岗位匹配度等进行评估，并生成面试结果或报告供招聘方参考。\n\n一般特点包括：\n\n- **不是练习/模拟面试**：结果可能会被企业用于筛选或录用决策。  \n- **在线完成**：通常需要电脑或手机、摄像头、麦克风和稳定网络。  \n- **AI 提问与限时作答**：问题可能包含自我介绍、岗位相关经历、情景题、专业能力题等。  \n- **系统评估**：可能分析回答的完整性、逻辑性、表达能力、经验匹配度等。  \n- **提交后不可随意重做**：正式面试一般有次数或时间限制。\n\n建议你在开始前检查设备、安静环境、阅读面试说明，并像参加真人面试一样认真准备。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUwyEqFE86955glFNszZ610XQo6J",
+    "object": "chat.completion",
+    "created": 1787124272,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver「正式 AI 面试」通常指企业通过 Skillver 平台发起的正式招聘面试环节，由 AI 面试官在线提问，候选人按要求作答，系统会对回答内容、岗位匹配度等进行评估，并生成面试结果或报告供招聘方参考。\n\n一般特点包括：\n\n- **不是练习/模拟面试**：结果可能会被企业用于筛选或录用决策。  \n- **在线完成**：通常需要电脑或手机、摄像头、麦克风和稳定网络。  \n- **AI 提问与限时作答**：问题可能包含自我介绍、岗位相关经历、情景题、专业能力题等。  \n- **系统评估**：可能分析回答的完整性、逻辑性、表达能力、经验匹配度等。  \n- **提交后不可随意重做**：正式面试一般有次数或时间限制。\n\n建议你在开始前检查设备、安静环境、阅读面试说明，并像参加真人面试一样认真准备。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 365,
+      "total_tokens": 409,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 126,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:24:38.287442Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "Skillver「正式 AI 面试」通常指企业通过 Skillver 平台发起的正式招聘面试环节，由 AI 面试官在线提问，候选人按要求作答，系统会对回答内容、岗位匹配度等进行评估，并生成面试结果或报告供招聘方参考。\n\n一般特点包括：\n\n- **不是练习/模拟面试**：结果可能会被企业用于筛选或录用决策。  \n- **在线完成**：通常需要电脑或手机、摄像头、麦克风和稳定网络。  \n- **AI 提问与限时作答**：问题可能包含自我介绍、岗位相关经历、情景题、专业能力题等。  \n- **系统评估**：可能分析回答的完整性、逻辑性、表达能力、经验匹配度等。  \n- **提交后不可随意重做**：正式面试一般有次数或时间限制。\n\n建议你在开始前检查设备、安静环境、阅读面试说明，并像参加真人面试一样认真准备。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

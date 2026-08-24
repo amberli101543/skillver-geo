@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "一般来说，**任何正规、合法的求职辅导或技能培训服务都不会承诺“保证拿到 offer”**。\n\n原因如下：\n1. **求职结果受多重因素影响**：包括个人能力、岗位匹配度、面试表现、公司招聘需求及市场环境等，这些都不是单一机构能完全控制的。\n2. **合规风险**：宣称“保 offer”往往涉及夸大宣传，甚至可能隐含违规操作（如简历造假、虚假招聘等），存在法律和财务风险。\n3. **行业惯例**：正规平台通常会在协议中明确“不承诺就业结果”，而是提供简历优化、面试辅导、岗位推荐等服务。\n\n**建议**：\n- 仔细阅读 Skillver 的官方说明及合同条款，看其具体承诺的是“服务”还是“结果”。\n- 若对方以“保 offer”为由收取高额费用，请提高警惕，核实退费机制和成功案例的真实性。\n- 提升自身技能与面试表现，才是获得 offer 最可靠的保障。\n\n如有具体合同条款，可以帮你进一步分析其中的风险点。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a85568837f4210f82f4720a",
+    "object": "chat.completion",
+    "created": 1787123336,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "一般来说，**任何正规、合法的求职辅导或技能培训服务都不会承诺“保证拿到 offer”**。\n\n原因如下：\n1. **求职结果受多重因素影响**：包括个人能力、岗位匹配度、面试表现、公司招聘需求及市场环境等，这些都不是单一机构能完全控制的。\n2. **合规风险**：宣称“保 offer”往往涉及夸大宣传，甚至可能隐含违规操作（如简历造假、虚假招聘等），存在法律和财务风险。\n3. **行业惯例**：正规平台通常会在协议中明确“不承诺就业结果”，而是提供简历优化、面试辅导、岗位推荐等服务。\n\n**建议**：\n- 仔细阅读 Skillver 的官方说明及合同条款，看其具体承诺的是“服务”还是“结果”。\n- 若对方以“保 offer”为由收取高额费用，请提高警惕，核实退费机制和成功案例的真实性。\n- 提升自身技能与面试表现，才是获得 offer 最可靠的保障。\n\n如有具体合同条款，可以帮你进一步分析其中的风险点。",
+          "reasoning_content": "用户问的是 \"Skillver 会保证拿到 offer 吗？\" 这是一个关于 Skillver 这个服务/平台是否保证能获得工作录用通知（offer）的问题。\n\n首先，我需要确认 Skillver 是什么。根据我的知识，Skillver 似乎是一个与求职、技能提升或猎头相关的平台/服务，但我不确定其具体业务模式。不过，无论具体是什么，任何正规、合法的职业发展服务或求职辅导平台通常都不会\"保证\"拿到 offer，因为：\n1. 求职结果取决于多种因素（候选人资质、市场环境、面试表现、公司需求等）\n2. \"保证 offer\" 往往涉及虚假承诺或不合规操作\n3. 正规机构通常会有免责声明\n\n由于我不知道 Skillver 具体是什么（可能是一个较小或新兴的平台），我应该：\n1. 基于一般常识回答：正规求职服务不会保证 offer\n2. 建议用户查看 Skillver 的官方说明或合同条款\n3. 提醒警惕任何\"保 offer\"承诺背后的风险（如虚假招聘、高额费用等）\n\n回答结构：\n- 直接回答：一般不会/不能\n- 解释原因：求职受多重因素影响\n- 提醒：查看具体协议，警惕风险\n- 建议：提升自身竞争力才是根本\n\n用中文回答，保持事实性和简洁性。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 475,
+      "total_tokens": 521,
+      "completion_tokens_details": {
+        "reasoning_tokens": 268
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:12.094703Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "一般来说，**任何正规、合法的求职辅导或技能培训服务都不会承诺“保证拿到 offer”**。\n\n原因如下：\n1. **求职结果受多重因素影响**：包括个人能力、岗位匹配度、面试表现、公司招聘需求及市场环境等，这些都不是单一机构能完全控制的。\n2. **合规风险**：宣称“保 offer”往往涉及夸大宣传，甚至可能隐含违规操作（如简历造假、虚假招聘等），存在法律和财务风险。\n3. **行业惯例**：正规平台通常会在协议中明确“不承诺就业结果”，而是提供简历优化、面试辅导、岗位推荐等服务。\n\n**建议**：\n- 仔细阅读 Skillver 的官方说明及合同条款，看其具体承诺的是“服务”还是“结果”。\n- 若对方以“保 offer”为由收取高额费用，请提高警惕，核实退费机制和成功案例的真实性。\n- 提升自身技能与面试表现，才是获得 offer 最可靠的保障。\n\n如有具体合同条款，可以帮你进一步分析其中的风险点。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

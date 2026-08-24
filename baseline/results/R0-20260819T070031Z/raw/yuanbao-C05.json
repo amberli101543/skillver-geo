@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具一般可以分为以下几类：\n\n1. **简历优化类**  \n   利用 AI 分析职位描述，自动优化简历关键词、排版与内容，提高通过 ATS（招聘系统）筛选的概率。\n\n2. **职位匹配与推荐类**  \n   基于个人技能、经历和偏好，智能推荐最合适的岗位，减少无效投递。\n\n3. **面试准备类**  \n   提供 AI 模拟面试、常见问题练习、回答评分与改进建议，帮助提升面试表现。\n\n4. **求职信与材料生成类**  \n   根据目标岗位自动生成求职信、Cover Letter 或自我介绍文案。\n\n5. **职业规划与技能提升类**  \n   分析职业路径，推荐学习课程与技能提升方向，辅助长期职业发展。\n\n6. **招聘流程辅助类（面向求职者）**  \n   帮助追踪投递进度、提醒面试时间、整理公司信息等，提升求职管理效率。\n\n这些工具既可以单独使用，也常集成在综合求职平台中，帮助求职者更高效、精准地找到合适工作。",
+  "sources": [],
+  "raw": {
+    "id": "ea210591-6869-4b54-9ab2-2c29062dcf68",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787125060,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI 求职工具一般可以分为以下几类：\n\n1. **简历优化类**  \n   利用 AI 分析职位描述，自动优化简历关键词、排版与内容，提高通过 ATS（招聘系统）筛选的概率。\n\n2. **职位匹配与推荐类**  \n   基于个人技能、经历和偏好，智能推荐最合适的岗位，减少无效投递。\n\n3. **面试准备类**  \n   提供 AI 模拟面试、常见问题练习、回答评分与改进建议，帮助提升面试表现。\n\n4. **求职信与材料生成类**  \n   根据目标岗位自动生成求职信、Cover Letter 或自我介绍文案。\n\n5. **职业规划与技能提升类**  \n   分析职业路径，推荐学习课程与技能提升方向，辅助长期职业发展。\n\n6. **招聘流程辅助类（面向求职者）**  \n   帮助追踪投递进度、提醒面试时间、整理公司信息等，提升求职管理效率。\n\n这些工具既可以单独使用，也常集成在综合求职平台中，帮助求职者更高效、精准地找到合适工作。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 221,
+      "total_tokens": 271,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:37:44.913523Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具一般可以分为以下几类：\n\n1. **简历优化类**  \n   利用 AI 分析职位描述，自动优化简历关键词、排版与内容，提高通过 ATS（招聘系统）筛选的概率。\n\n2. **职位匹配与推荐类**  \n   基于个人技能、经历和偏好，智能推荐最合适的岗位，减少无效投递。\n\n3. **面试准备类**  \n   提供 AI 模拟面试、常见问题练习、回答评分与改进建议，帮助提升面试表现。\n\n4. **求职信与材料生成类**  \n   根据目标岗位自动生成求职信、Cover Letter 或自我介绍文案。\n\n5. **职业规划与技能提升类**  \n   分析职业路径，推荐学习课程与技能提升方向，辅助长期职业发展。\n\n6. **招聘流程辅助类（面向求职者）**  \n   帮助追踪投递进度、提醒面试时间、整理公司信息等，提升求职管理效率。\n\n这些工具既可以单独使用，也常集成在综合求职平台中，帮助求职者更高效、精准地找到合适工作。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

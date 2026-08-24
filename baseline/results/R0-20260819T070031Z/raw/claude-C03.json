@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "# 准备 AI 岗位面试的工具推荐\n\n## 📚 学习与刷题平台\n\n| 工具 | 用途 |\n|------|------|\n| **LeetCode** | 算法与编程题练习 |\n| **Kaggle** | 实战项目、竞赛经验 |\n| **牛客网** | 国内面试题库、模拟面试 |\n| **HuggingFace** | 了解主流模型与实践 |\n\n## 🤖 AI 辅助备考工具\n\n- **ChatGPT / Claude** — 模拟面试官提问、解释概念\n- **Notion AI** — 整理知识笔记\n- **Anki** — 制作记忆卡片，记忆公式/概念\n\n## 🧠 知识体系梳理\n\n- **Papers With Code** — 了解前沿论文与实现\n- **Arxiv** — 阅读最新研究\n- **YouTube / B站** — 观看机器学习课程（吴恩达等）\n\n## 💼 面试专项工具\n\n- **Pramp / interviewing.io** — 真人模拟技术面试\n- **Glassdoor / 牛客** — 查看真实面经\n- **GitHub** — 展示项目代码\n\n## ✅ 建议备考重点\n\n1. **机器学习基础**（损失函数、优化器、正则化）\n2. **深度学习框架**（PyTorch / TensorFlow）\n3. **大模型相关**（Transformer、RAG、Fine-tuning）\n4. **SQL & Python** 数据处理能力\n5. **项目经历**梳理与 STAR 法则表达\n\n需要针对某个方向（算法、NLP、CV 等）进一步细化吗？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBipRm3kbSjxt2M46dYp",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 准备 AI 岗位面试的工具推荐\n\n## 📚 学习与刷题平台\n\n| 工具 | 用途 |\n|------|------|\n| **LeetCode** | 算法与编程题练习 |\n| **Kaggle** | 实战项目、竞赛经验 |\n| **牛客网** | 国内面试题库、模拟面试 |\n| **HuggingFace** | 了解主流模型与实践 |\n\n## 🤖 AI 辅助备考工具\n\n- **ChatGPT / Claude** — 模拟面试官提问、解释概念\n- **Notion AI** — 整理知识笔记\n- **Anki** — 制作记忆卡片，记忆公式/概念\n\n## 🧠 知识体系梳理\n\n- **Papers With Code** — 了解前沿论文与实现\n- **Arxiv** — 阅读最新研究\n- **YouTube / B站** — 观看机器学习课程（吴恩达等）\n\n## 💼 面试专项工具\n\n- **Pramp / interviewing.io** — 真人模拟技术面试\n- **Glassdoor / 牛客** — 查看真实面经\n- **GitHub** — 展示项目代码\n\n## ✅ 建议备考重点\n\n1. **机器学习基础**（损失函数、优化器、正则化）\n2. **深度学习框架**（PyTorch / TensorFlow）\n3. **大模型相关**（Transformer、RAG、Fine-tuning）\n4. **SQL & Python** 数据处理能力\n5. **项目经历**梳理与 STAR 法则表达\n\n需要针对某个方向（算法、NLP、CV 等）进一步细化吗？"
+        }
+      }
+    ],
+    "created": 1787124927,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 56,
+      "total_tokens": 568
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:35:27.134454Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "# 准备 AI 岗位面试的工具推荐\n\n## 📚 学习与刷题平台\n\n| 工具 | 用途 |\n|------|------|\n| **LeetCode** | 算法与编程题练习 |\n| **Kaggle** | 实战项目、竞赛经验 |\n| **牛客网** | 国内面试题库、模拟面试 |\n| **HuggingFace** | 了解主流模型与实践 |\n\n## 🤖 AI 辅助备考工具\n\n- **ChatGPT / Claude** — 模拟面试官提问、解释概念\n- **Notion AI** — 整理知识笔记\n- **Anki** — 制作记忆卡片，记忆公式/概念\n\n## 🧠 知识体系梳理\n\n- **Papers With Code** — 了解前沿论文与实现\n- **Arxiv** — 阅读最新研究\n- **YouTube / B站** — 观看机器学习课程（吴恩达等）\n\n## 💼 面试专项工具\n\n- **Pramp / interviewing.io** — 真人模拟技术面试\n- **Glassdoor / 牛客** — 查看真实面经\n- **GitHub** — 展示项目代码\n\n## ✅ 建议备考重点\n\n1. **机器学习基础**（损失函数、优化器、正则化）\n2. **深度学习框架**（PyTorch / TensorFlow）\n3. **大模型相关**（Transformer、RAG、Fine-tuning）\n4. **SQL & Python** 数据处理能力\n5. **项目经历**梳理与 STAR 法则表达\n\n需要针对某个方向（算法、NLP、CV 等）进一步细化吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "# AI 模拟面试工具\n\n## 国外工具\n\n| 工具 | 特点 |\n|------|------|\n| **Interview Warmup** (Google) | 免费，支持多职位，AI分析回答 |\n| **Interviewing.io** | 真实技术面试模拟，有录音回放 |\n| **Pramp** | 免费，点对点技术面试练习 |\n| **Final Round AI** | 实时面试辅助，支持多种岗位 |\n| **Yoodli** | 语言表达分析，改善口头表达 |\n| **HireVue** | 视频面试评估，大企业常用 |\n| **ChatGPT / Claude** | 自定义模拟面试对话 |\n\n## 国内工具\n\n| 工具 | 特点 |\n|------|------|\n| **牛客网** | 技术岗模拟面试，题库丰富 |\n| **BOSS直聘 AI面试** | 简历匹配+AI初筛 |\n| **猿辅导/拉勾** | 部分提供模拟面试功能 |\n| **讯飞面试助手** | 语音识别+表达评估 |\n\n## 选择建议\n\n- 🔧 **技术岗** → Pramp、Interviewing.io、牛客网\n- 💼 **非技术岗** → Interview Warmup、Yoodli\n- 💰 **免费优先** → Google Interview Warmup、Pramp\n- 🇨🇳 **中文环境** → 牛客网、讯飞\n\n需要针对某类岗位推荐具体工具吗？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBigvk6PCK4VeMAc7Mwa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# AI 模拟面试工具\n\n## 国外工具\n\n| 工具 | 特点 |\n|------|------|\n| **Interview Warmup** (Google) | 免费，支持多职位，AI分析回答 |\n| **Interviewing.io** | 真实技术面试模拟，有录音回放 |\n| **Pramp** | 免费，点对点技术面试练习 |\n| **Final Round AI** | 实时面试辅助，支持多种岗位 |\n| **Yoodli** | 语言表达分析，改善口头表达 |\n| **HireVue** | 视频面试评估，大企业常用 |\n| **ChatGPT / Claude** | 自定义模拟面试对话 |\n\n## 国内工具\n\n| 工具 | 特点 |\n|------|------|\n| **牛客网** | 技术岗模拟面试，题库丰富 |\n| **BOSS直聘 AI面试** | 简历匹配+AI初筛 |\n| **猿辅导/拉勾** | 部分提供模拟面试功能 |\n| **讯飞面试助手** | 语音识别+表达评估 |\n\n## 选择建议\n\n- 🔧 **技术岗** → Pramp、Interviewing.io、牛客网\n- 💼 **非技术岗** → Interview Warmup、Yoodli\n- 💰 **免费优先** → Google Interview Warmup、Pramp\n- 🇨🇳 **中文环境** → 牛客网、讯飞\n\n需要针对某类岗位推荐具体工具吗？"
+        }
+      }
+    ],
+    "created": 1787124824,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 477,
+      "prompt_tokens": 51,
+      "total_tokens": 528
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:33:44.367052Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "# AI 模拟面试工具\n\n## 国外工具\n\n| 工具 | 特点 |\n|------|------|\n| **Interview Warmup** (Google) | 免费，支持多职位，AI分析回答 |\n| **Interviewing.io** | 真实技术面试模拟，有录音回放 |\n| **Pramp** | 免费，点对点技术面试练习 |\n| **Final Round AI** | 实时面试辅助，支持多种岗位 |\n| **Yoodli** | 语言表达分析，改善口头表达 |\n| **HireVue** | 视频面试评估，大企业常用 |\n| **ChatGPT / Claude** | 自定义模拟面试对话 |\n\n## 国内工具\n\n| 工具 | 特点 |\n|------|------|\n| **牛客网** | 技术岗模拟面试，题库丰富 |\n| **BOSS直聘 AI面试** | 简历匹配+AI初筛 |\n| **猿辅导/拉勾** | 部分提供模拟面试功能 |\n| **讯飞面试助手** | 语音识别+表达评估 |\n\n## 选择建议\n\n- 🔧 **技术岗** → Pramp、Interviewing.io、牛客网\n- 💼 **非技术岗** → Interview Warmup、Yoodli\n- 💰 **免费优先** → Google Interview Warmup、Pramp\n- 🇨🇳 **中文环境** → 牛客网、讯飞\n\n需要针对某类岗位推荐具体工具吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

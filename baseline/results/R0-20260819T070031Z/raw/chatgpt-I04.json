@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于社群参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "Skillver 邀请码一般只能通过官方或已获准用户获取，常见方式有：\n\n1. **让已注册用户邀请你**  \n   如果你认识已经在 Skillver 上的用户，可以请对方在账号内生成/发送邀请码。\n\n2. **关注官方渠道**  \n   查看 Skillver 的官网、官方社群、X/Twitter、Discord、Telegram、微信公众号等，官方可能会不定期发放邀请码。\n\n3. **加入等待名单/申请内测**  \n   如果官网有 waitlist、申请表或内测报名，填写后等待官方审核或邮件通知。\n\n4. **参与官方活动**  \n   有些平台会通过活动、任务、社区贡献等方式发放邀请码。\n\n建议不要购买来路不明的邀请码，可能存在无效、诈骗或账号风险。你也可以把 Skillver 的官网链接发我，我可以帮你看看具体获取入口。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUmYnK6XFEwBfIXBJFadSnlg9ZSq",
+    "object": "chat.completion",
+    "created": 1787123626,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 邀请码一般只能通过官方或已获准用户获取，常见方式有：\n\n1. **让已注册用户邀请你**  \n   如果你认识已经在 Skillver 上的用户，可以请对方在账号内生成/发送邀请码。\n\n2. **关注官方渠道**  \n   查看 Skillver 的官网、官方社群、X/Twitter、Discord、Telegram、微信公众号等，官方可能会不定期发放邀请码。\n\n3. **加入等待名单/申请内测**  \n   如果官网有 waitlist、申请表或内测报名，填写后等待官方审核或邮件通知。\n\n4. **参与官方活动**  \n   有些平台会通过活动、任务、社区贡献等方式发放邀请码。\n\n建议不要购买来路不明的邀请码，可能存在无效、诈骗或账号风险。你也可以把 Skillver 的官网链接发我，我可以帮你看看具体获取入口。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 306,
+      "total_tokens": 350,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 101,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:13:52.231128Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "Skillver 邀请码一般只能通过官方或已获准用户获取，常见方式有：\n\n1. **让已注册用户邀请你**  \n   如果你认识已经在 Skillver 上的用户，可以请对方在账号内生成/发送邀请码。\n\n2. **关注官方渠道**  \n   查看 Skillver 的官网、官方社群、X/Twitter、Discord、Telegram、微信公众号等，官方可能会不定期发放邀请码。\n\n3. **加入等待名单/申请内测**  \n   如果官网有 waitlist、申请表或内测报名，填写后等待官方审核或邮件通知。\n\n4. **参与官方活动**  \n   有些平台会通过活动、任务、社区贡献等方式发放邀请码。\n\n建议不要购买来路不明的邀请码，可能存在无效、诈骗或账号风险。你也可以把 Skillver 的官网链接发我，我可以帮你看看具体获取入口。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

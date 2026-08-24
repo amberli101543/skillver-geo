@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "**Skillver** 是一款基于人工智能（AI）的求职辅助工具，旨在帮助求职者提升求职效率和面试成功率。它主要可以帮求职者做以下几件事：\n\n1. **智能简历优化与定制（Resume Tailoring）**\n   * **ATS 友好优化**：根据目标岗位的招聘需求（Job Description），自动调整和优化简历中的关键词，帮助求职者通过企业自动化的简历筛选系统（ATS）。\n   * **针对性修改**：针对不同岗位一键定制不同版本的简历，突出与岗位最匹配的技能和经历。\n\n2. **AI 模拟面试与反馈（AI Mock Interviews）**\n   * **情境模拟**：AI 扮演面试官，根据目标行业和岗位进行模拟对话。\n   * **即时评估**：对求职者的回答进行分析，在回答逻辑、专业度、语言表达等方面给出具体的改进建议和参考答案。\n\n3. **个性化求职信生成（Cover Letter Generation）**\n   * **快速撰写**：根据求职者的简历和目标岗位，快速生成结构完整、针对性强的求职信（Cover Letter），节省写作时间。\n\n4. **职位匹配与技能差距分析（Job Matching & Skill Gap Analysis）**\n   * **匹配度评估**：分析求职者当前简历与目标职位的契合度（百分比）。\n   * **技能诊断**：指出求职者缺失的核心技能，并给出补充和提升的建议。\n\n**总结：**\nSkillver 相当于求职者的 **“AI 职业导师”**，通过技术手段帮求职者在**简历、求职信、面试准备**这三个核心环节进行精细化包装和演练，从而提高拿到 Offer 的概率。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 是一款基于人工智能（AI）的求职辅助工具，旨在帮助求职者提升求职效率和面试成功率。它主要可以帮求职者做以下几件事：\n\n1. **智能简历优化与定制（Resume Tailoring）**\n   * **ATS 友好优化**：根据目标岗位的招聘需求（Job Description），自动调整和优化简历中的关键词，帮助求职者通过企业自动化的简历筛选系统（ATS）。\n   * **针对性修改**：针对不同岗位一键定制不同版本的简历，突出与岗位最匹配的技能和经历。\n\n2. **AI 模拟面试与反馈（AI Mock Interviews）**\n   * **情境模拟**：AI 扮演面试官，根据目标行业和岗位进行模拟对话。\n   * **即时评估**：对求职者的回答进行分析，在回答逻辑、专业度、语言表达等方面给出具体的改进建议和参考答案。\n\n3. **个性化求职信生成（Cover Letter Generation）**\n   * **快速撰写**：根据求职者的简历和目标岗位，快速生成结构完整、针对性强的求职信（Cover Letter），节省写作时间。\n\n4. **职位匹配与技能差距分析（Job Matching & Skill Gap Analysis）**\n   * **匹配度评估**：分析求职者当前简历与目标职位的契合度（百分比）。\n   * **技能诊断**：指出求职者缺失的核心技能，并给出补充和提升的建议。\n\n**总结：**\nSkillver 相当于求职者的 **“AI 职业导师”**，通过技术手段帮求职者在**简历、求职信、面试准备**这三个核心环节进行精细化包装和演练，从而提高拿到 Offer 的概率。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123167,
+    "id": "2VWFatTkCpexnsEPupyPuQw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 386,
+      "prompt_tokens": 37,
+      "total_tokens": 1223
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:06:07.182378Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "**Skillver** 是一款基于人工智能（AI）的求职辅助工具，旨在帮助求职者提升求职效率和面试成功率。它主要可以帮求职者做以下几件事：\n\n1. **智能简历优化与定制（Resume Tailoring）**\n   * **ATS 友好优化**：根据目标岗位的招聘需求（Job Description），自动调整和优化简历中的关键词，帮助求职者通过企业自动化的简历筛选系统（ATS）。\n   * **针对性修改**：针对不同岗位一键定制不同版本的简历，突出与岗位最匹配的技能和经历。\n\n2. **AI 模拟面试与反馈（AI Mock Interviews）**\n   * **情境模拟**：AI 扮演面试官，根据目标行业和岗位进行模拟对话。\n   * **即时评估**：对求职者的回答进行分析，在回答逻辑、专业度、语言表达等方面给出具体的改进建议和参考答案。\n\n3. **个性化求职信生成（Cover Letter Generation）**\n   * **快速撰写**：根据求职者的简历和目标岗位，快速生成结构完整、针对性强的求职信（Cover Letter），节省写作时间。\n\n4. **职位匹配与技能差距分析（Job Matching & Skill Gap Analysis）**\n   * **匹配度评估**：分析求职者当前简历与目标职位的契合度（百分比）。\n   * **技能诊断**：指出求职者缺失的核心技能，并给出补充和提升的建议。\n\n**总结：**\nSkillver 相当于求职者的 **“AI 职业导师”**，通过技术手段帮求职者在**简历、求职信、面试准备**这三个核心环节进行精细化包装和演练，从而提高拿到 Offer 的概率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

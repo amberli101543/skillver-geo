@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "Skillver 处理**简历和面试数据**的方式，核心是“先做岗位匹配，再做能力核验”，并且数据处理遵循其隐私政策与平台安全规则。[2][4][5]\n\n- **简历**：用户先选择目标标准岗位，再上传简历进行岗位匹配核验，系统会生成匹配结果或差距报告，并在「我的报告」中查看。[4][7][8]\n- **面试数据**：平台会进行结构化 AI 面试；正式 AI 面试后会生成 KAE 能力报告，包含七维战力评估和面试摘要，用于向合作企业投递。[2][10]\n- **原始录像**：官方 FAQ 明确说，面试录制数据仅用于生成 AI 面试报告，不对企业展示原始录像；企业侧默认看到的是脱敏后的能力评分报告。[12][10]\n- **留存与删除**：不同页面的公开说明一致强调，简历、面试录制和能力评估数据的具体处理以现行隐私政策为准；用户可在账号设置中申请删除相关数据。[5][12]\n- **授权与删除周期**：公开产品说明提到，数据授权期为 **30 天**，到期自动过期；账号注销后有 **7 天冷冻期**，之后会物理删除 PII、OSS 文件、向量 embeddings 与记忆数据。[12][3]\n- **合规与存储**：官方还说明数据存储在**中国大陆服务器**，不跨境传输，并声称遵循《个人信息保护法》。[12][3]\n\n如果你想，我也可以继续帮你整理成一版更适合“隐私政策解读”或“产品功能说明”的表述。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/dzb/rsj/2026-04-23/aid/03-02.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.ersoft.com/news-JrpZ0GpVL.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/14714",
+      "title": ""
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/KevinYoung-Kw/vibe-resume-skill",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/Y1fe1-Yang/resume-assistant-skill",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillscenter.dev/skill/WonderClaw/clawcv/clawcv",
+      "title": ""
+    },
+    {
+      "url": "https://www.mokahr.com/blog/33583.html",
+      "title": ""
+    },
+    {
+      "url": "https://forum.chasedream.com/thread-1338522-1-1.html",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/xstongxue/best-skills",
+      "title": ""
+    },
+    {
+      "url": "https://hk.indeed.com/%E8%81%B7%E6%B6%AF%E8%B2%BC%E5%A3%AB/%E5%B1%A5%E6%AD%B7%E5%8F%8A%E6%B1%82%E8%81%B7%E4%BF%A1/%E6%9C%80%E4%BD%B3%E5%B1%A5%E6%AD%B7%E6%8A%80%E8%83%BD",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/",
+      "title": "才谱AI"
+    },
+    {
+      "url": "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - 雷峰网"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/dzb/rsj/2026-04-23/aid/03-02.html",
+      "title": "当简历遇上算法，如何避免“未审先判”？ - 上海市人力资源和社会保障局"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手封闭内测"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.ersoft.com/news-JrpZ0GpVL.html",
+      "title": "AI招聘实务：人才寻访、简历筛选与AI面试怎么协同 - 易路"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/14714",
+      "title": "简历的优化skill - SOLO挑战赛专区"
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/KevinYoung-Kw/vibe-resume-skill",
+      "title": "GitHub - KevinYoung-Kw/vibe-resume-skill: AI 简历生成与排版 Skill｜12 套可投递 HTML/PDF 模板。AI resume builder for creating, updating and tailoring resumes to any JD via Codex, Claude Code, Cursor & Trae."
+    },
+    {
+      "url": "https://github.com/Y1fe1-Yang/resume-assistant-skill",
+      "title": "Y1fe1-Yang/resume-assistant-skill: 智能简历助手"
+    },
+    {
+      "url": "https://www.skillscenter.dev/skill/WonderClaw/clawcv/clawcv",
+      "title": "SkillsCenter — Your Skill Manager for AI Agents"
+    },
+    {
+      "url": "https://www.mokahr.com/blog/33583.html",
+      "title": "智能简历筛选：从每天埋头看简历到4小时搞定200份，到底发生了什么"
+    },
+    {
+      "url": "https://forum.chasedream.com/thread-1338522-1-1.html",
+      "title": "CV - Career General - ChaseDream论坛"
+    },
+    {
+      "url": "https://github.com/xstongxue/best-skills",
+      "title": "xstongxue/best-skills: 通用高质量Skills 合集"
+    },
+    {
+      "url": "https://hk.indeed.com/%E8%81%B7%E6%B6%AF%E8%B2%BC%E5%A3%AB/%E5%B1%A5%E6%AD%B7%E5%8F%8A%E6%B1%82%E8%81%B7%E4%BF%A1/%E6%9C%80%E4%BD%B3%E5%B1%A5%E6%AD%B7%E6%8A%80%E8%83%BD",
+      "title": "最適合寫在履歷上的10 大技能(附範例)"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 处理**简历和面试数据**的方式，核心是“先做岗位匹配，再做能力核验”，并且数据处理遵循其隐私政策与平台安全规则。[2][4][5]\n\n- **简历**：用户先选择目标标准岗位，再上传简历进行岗位匹配核验，系统会生成匹配结果或差距报告，并在「我的报告」中查看。[4][7][8]\n- **面试数据**：平台会进行结构化 AI 面试；正式 AI 面试后会生成 KAE 能力报告，包含七维战力评估和面试摘要，用于向合作企业投递。[2][10]\n- **原始录像**：官方 FAQ 明确说，面试录制数据仅用于生成 AI 面试报告，不对企业展示原始录像；企业侧默认看到的是脱敏后的能力评分报告。[12][10]\n- **留存与删除**：不同页面的公开说明一致强调，简历、面试录制和能力评估数据的具体处理以现行隐私政策为准；用户可在账号设置中申请删除相关数据。[5][12]\n- **授权与删除周期**：公开产品说明提到，数据授权期为 **30 天**，到期自动过期；账号注销后有 **7 天冷冻期**，之后会物理删除 PII、OSS 文件、向量 embeddings 与记忆数据。[12][3]\n- **合规与存储**：官方还说明数据存储在**中国大陆服务器**，不跨境传输，并声称遵循《个人信息保护法》。[12][3]\n\n如果你想，我也可以继续帮你整理成一版更适合“隐私政策解读”或“产品功能说明”的表述。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/",
+      "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html",
+      "https://tcodeai.com/products/skillver.html",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://www.skillver.cn/faq",
+      "https://rsj.sh.gov.cn/dzb/rsj/2026-04-23/aid/03-02.html",
+      "https://tcodeai.com/beta.html",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/products/skillver-download.html",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.ersoft.com/news-JrpZ0GpVL.html",
+      "https://tcodeai.com/faq.html",
+      "https://forum.trae.cn/t/topic/14714",
+      "https://ithub.global.ssl.fastly.net/KevinYoung-Kw/vibe-resume-skill",
+      "https://github.com/Y1fe1-Yang/resume-assistant-skill",
+      "https://www.skillscenter.dev/skill/WonderClaw/clawcv/clawcv",
+      "https://www.mokahr.com/blog/33583.html",
+      "https://forum.chasedream.com/thread-1338522-1-1.html",
+      "https://github.com/xstongxue/best-skills",
+      "https://hk.indeed.com/%E8%81%B7%E6%B6%AF%E8%B2%BC%E5%A3%AB/%E5%B1%A5%E6%AD%B7%E5%8F%8A%E6%B1%82%E8%81%B7%E4%BF%A1/%E6%9C%80%E4%BD%B3%E5%B1%A5%E6%AD%B7%E6%8A%80%E8%83%BD"
+    ],
+    "created": 1787124590,
+    "id": "454f0fcb-860e-4bf6-888c-09c8587a9902",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "从 49 个标准岗位中锁定方向，上传简历看清匹配度与能力缺口。",
+        "source": "web",
+        "title": "才谱AI",
+        "url": "https://tcodeai.com/"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - 雷峰网",
+        "url": "https://www.leiphone.com/category/industrynews/60FPerL1Pa0UbcrX.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "遵循《个人信息保护法》。面试音视频按平台规则留存与删除，账户注销有 7 天冷冻期。ICP 备案：沪ICP备2026018662号-2。",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "用户先选择目标标准岗位，再按岗位上传简历进行核验，并在「我的报告」查看简历匹配结果。核心目的，是先明确方向，再进入后续准备与投递流程。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "## 简历与面试数据如何处理？\n简历、面试录制与能力评估数据的处理，以现行隐私政策及平台安全基线为准。\n本页不自行扩写留存天数、授权期限或删除时限等固定数字；任何期限表述变更须经法务确认后更新隐私政策。\n你可随时在账号设置中申请删除相关数据；完整条款见隐私政策。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-04-23",
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "ATS系统对简历的结构非常敏感。它依赖标准标题和清晰的排版来提取信息。因此，简历排版要简洁明了，避免使用复杂表格、文本框、分栏设计和图标字体。推荐使用宋体或微软雅黑字体，保持左对齐、纯白背景。",
+        "source": "web",
+        "title": "当简历遇上算法，如何避免“未审先判”？ - 上海市人力资源和社会保障局",
+        "url": "https://rsj.sh.gov.cn/dzb/rsj/2026-04-23/aid/03-02.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- **选岗匹配**：49 个标准岗位，上传简历核验，产出匹配报告（不限次数）",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- 岗位匹配：上传简历，AI 生成与目标岗位的精准差距报告",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "3. 3. 开始求职 — 选岗匹配 → 上传简历核验 → 面试彩排或正式 AI 面试 → 持正式报告投递",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手封闭内测",
+        "url": "https://tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE 将分散的简历关键词与主观印象，转化为结构化、可追溯的七维战力评估结果，供 HR 与求职助手共同参考。\n...\nAI 面试报告是人才完成正式 AI 面试（非彩排）后生成的 KAE 能力报告，包含七维战力评估与面试摘要，是向平台合作企业投递的硬通行证。\n企业 HR 看到的申请附有客观能力数据，而非仅简历关键词。原始面试录像不对企业展示；企业侧默认查看脱敏能力评分，授权与合规规则见隐私政策。\n...\n- 报告数据遵循 30 天授权期，人才可随时申请删除",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-08-13",
+        "last_updated": "2026-08-14",
+        "place_metadata": null,
+        "snippet": "最实用的做法，是把总分拆回证据。系统可以分别展示项目经验、技能、行业背景、教育或资格等维度，并指出判断来自简历中的哪段内容。招聘人员看到低分后，能够检查是信息缺失、解析错误还是确实不符合岗位要求。没有证据定位的评分，不适合直接决定候选人去留。\n...\n权重应由企业按岗位确认，并在上线前用脱敏样本测试。测试集不能只有理想简历，还要包含跨行业转岗、职业空档、格式特殊、中英文混排、信息不完整和内部候选人等情形。简历筛选出现边界案例时，系统应转人工，而不是强行给出确定结论。\n...\n数据删除和人才库保留也要进入运营规则。候选人撤回申请、要求更正或超过保存期限时，相关系统和外部渠道应有一致处理。不能因为...",
+        "source": "web",
+        "title": "AI招聘实务：人才寻访、简历筛选与AI面试怎么协同 - 易路",
+        "url": "https://www.ersoft.com/news-JrpZ0GpVL.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "遵循《个人信息保护法》（PIPL）： - 面试录制数据仅用于生成 AI 面试报告，不对企业展示原始录像 - 企业仅可查看脱敏后的能力评分报告（姓名首字母显示），签约后方可解密实名信息 - 授权期 30 天，到期自动过期；可在账号设置中随时申请完全删除 - 数据存储于中国大陆服务器，不跨境传输 ICP 备案：沪ICP备2026018662号-2（Skillver 产品）。\n...\n个人设置 → 账户管理 → 注销账户 → 二次确认后进入 **7 天冷冻期**（期间可取消）。冷冻期结束后系统物理删除 PII、OSS 文件、向量 embeddings 与记忆数据。冷冻期内账户不可登录。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": "2026-05-05",
+        "last_updated": "2026-07-08",
+        "place_metadata": null,
+        "snippet": "description: 简历优化器。当用户希望改进、润色、重写简历，或针对特定职位描述（JD）优化简历内容时使用此 skill。触发场景包括：上传简历文件并要求修改、粘贴简历文字寻求优化建议、提供 JD 要求匹配简历关键词、希望将经历描述得更有冲击力、要求量化工作成果、将中文简历翻译并优化为英文版本。\n...\n用户提供简历内容（文字粘贴或上传文件）和可选的目标职位描述（JD），输出经过专业润色、关键词强化、量化表达的优化版本。\n...\n开始前，先确认以下输入是否齐全：\n|输入项 |是否必须 |说明 |\n...\n|简历内容 | 必须 |文字粘贴或上传文件（.pdf / .docx） |\n......",
+        "source": "web",
+        "title": "简历的优化skill - SOLO挑战赛专区",
+        "url": "https://forum.trae.cn/t/topic/14714"
+      },
+      {
+        "date": "2026-07-08",
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "`vibe-resume-skill` 是一套给 AI 编程助手使用的简历 Skill。把你的经历、现有简历或目标岗位交给它，就能生成一份排版完整的简历；后续新增经历、替换内容或调整投递方向，也可以直接通过对话完成。",
+        "source": "web",
+        "title": "GitHub - KevinYoung-Kw/vibe-resume-skill: AI 简历生成与排版 Skill｜12 套可投递 HTML/PDF 模板。AI resume builder for creating, updating and tailoring resumes to any JD via Codex, Claude Code, Cursor & Trae.",
+        "url": "https://ithub.global.ssl.fastly.net/KevinYoung-Kw/vibe-resume-skill"
+      },
+      {
+        "date": "2026-01-31",
+        "last_updated": "2026-05-31",
+        "place_metadata": null,
+        "snippet": "\"帮我优化简历，投XX岗位\" + JD → 《优化版简历》(JSON)\n4️⃣ 文件生成\n使用脚本 → PDF/DOCX/HTML 简历\n5️⃣ 模拟面试\n基于简历 → 模拟提问 → 《面试反馈》+ 简历改进建议",
+        "source": "web",
+        "title": "Y1fe1-Yang/resume-assistant-skill: 智能简历助手",
+        "url": "https://github.com/Y1fe1-Yang/resume-assistant-skill"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "analyze_resume(resume_text, target_job_title?)\n↓\n整理结果并展示给用户：\n- 总分（X/100）及 4 个维度分数\n- 按严重程度排序的主要问题（高 → 中 → 低）\n- 分模块反馈\n- 示例改写（如有）\n↓\n询问用户：\"需要我帮你改写哪个部分？\"",
+        "source": "web",
+        "title": "SkillsCenter — Your Skill Manager for AI Agents",
+        "url": "https://www.skillscenter.dev/skill/WonderClaw/clawcv/clawcv"
+      },
+      {
+        "date": "2026-04-28",
+        "last_updated": "2026-08-13",
+        "place_metadata": null,
+        "snippet": "|维度|人工筛选|智能简历筛选|\n|--|--|--|",
+        "source": "web",
+        "title": "智能简历筛选：从每天埋头看简历到4小时搞定200份，到底发生了什么",
+        "url": "https://www.mokahr.com/blog/33583.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-07",
+        "place_metadata": null,
+        "snippet": "正确的顺序是 教育 + 工作经历 + 项目 + 荣誉 + skills。如果工作经历比较水(无关sde)，就把项目放到教育后面。一个好的简历，是让一个对于一个一点不了解你的人在十秒之内对于有所了解。所以你一定要把最重要的信息放到前面，我看楼主简历，找了半天终于找到学历在哪里，顿时就不想看了。",
+        "source": "web",
+        "title": "CV - Career General - ChaseDream论坛",
+        "url": "https://forum.chasedream.com/thread-1338522-1-1.html"
+      },
+      {
+        "date": "2026-03-05",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "> **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。\n...\n## 项目文档与简历\n|用途|Skill|示例 Prompt|\n...\n|项目整体梳理|codegen-doc|「按这个格式梳理我们项目：概述、模块、技术栈」|\n|项目重点问题|codegen-doc|「梳理这个项目的技术难点和待解决问题」|\n|简历项目描述|codegen-doc|「按这个格式把当前项目写成简历项目经历」|\n> **codegen-doc**：根据用户表述自动匹配论文章节、项目梳理、重点问题、简历项目描述。",
+        "source": "web",
+        "title": "xstongxue/best-skills: 通用高质量Skills 合集",
+        "url": "https://github.com/xstongxue/best-skills"
+      },
+      {
+        "date": "2026-06-16",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "- 將技能包含在「專業經驗」部分。無論您決定如何在履歷上列出技能，您在列出先前經驗時，都應該包含職缺描述的關鍵字。",
+        "source": "web",
+        "title": "最適合寫在履歷上的10 大技能(附範例)",
+        "url": "https://hk.indeed.com/%E8%81%B7%E6%B6%AF%E8%B2%BC%E5%A3%AB/%E5%B1%A5%E6%AD%B7%E5%8F%8A%E6%B1%82%E8%81%B7%E4%BF%A1/%E6%9C%80%E4%BD%B3%E5%B1%A5%E6%AD%B7%E6%8A%80%E8%83%BD"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 426,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00043,
+        "request_cost": 0.005,
+        "total_cost": 0.00546
+      },
+      "prompt_tokens": 37,
+      "search_context_size": "low",
+      "total_tokens": 463
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:29:50.228614Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "Skillver 处理**简历和面试数据**的方式，核心是“先做岗位匹配，再做能力核验”，并且数据处理遵循其隐私政策与平台安全规则。[2][4][5]\n\n- **简历**：用户先选择目标标准岗位，再上传简历进行岗位匹配核验，系统会生成匹配结果或差距报告，并在「我的报告」中查看。[4][7][8]\n- **面试数据**：平台会进行结构化 AI 面试；正式 AI 面试后会生成 KAE 能力报告，包含七维战力评估和面试摘要，用于向合作企业投递。[2][10]\n- **原始录像**：官方 FAQ 明确说，面试录制数据仅用于生成 AI 面试报告，不对企业展示原始录像；企业侧默认看到的是脱敏后的能力评分报告。[12][10]\n- **留存与删除**：不同页面的公开说明一致强调，简历、面试录制和能力评估数据的具体处理以现行隐私政策为准；用户可在账号设置中申请删除相关数据。[5][12]\n- **授权与删除周期**：公开产品说明提到，数据授权期为 **30 天**，到期自动过期；账号注销后有 **7 天冷冻期**，之后会物理删除 PII、OSS 文件、向量 embeddings 与记忆数据。[12][3]\n- **合规与存储**：官方还说明数据存储在**中国大陆服务器**，不跨境传输，并声称遵循《个人信息保护法》。[12][3]\n\n如果你想，我也可以继续帮你整理成一版更适合“隐私政策解读”或“产品功能说明”的表述。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

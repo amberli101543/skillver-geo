@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "**Skillver AI面试**（有时也常指代类似 **Skillvue** 或其他主流 AI 面试系统）是企业（尤其是外企、大型快消、金融、咨询等公司）在招聘中用于**初筛候选人**的智能化在线面试平台。\n\n其中，**“正式 AI 面试”**是指真正计入求职成绩、发送给 HR 或 AI 系统进行评估的正式考试环节（区别于供考生调试设备和熟悉流程的“模拟/练习面试”）。\n\n以下是 Skillver 正式 AI 面试的核心特点、常见流程及应对建议：\n\n### 一、 核心特点\n1. **非真人实时对线：** 面试过程中没有真实的面试官，你面对的是摄像头和系统给出的题目。\n2. **多维度评估：** AI 会通过你的**语音语义**（回答内容的逻辑、关键词匹配）、**声音特质**（语速、语调）以及**面部表情/肢体语言**（眼神接触、自信度）来进行综合评分。\n3. **一次性机会：** 正式面试一旦开始，通常无法暂停或重新录制，所有回答都会被实时上传。\n\n### 二、 常见面试形式\n1. **视频/音频问答（最核心）：** \n   * 屏幕上出现文本或录音提问（部分岗位为全英文提问）。\n   * 给予 **30秒 - 1分钟** 的准备时间（思考并列提纲）。\n   * 给予 **2 - 3分钟** 的作答时间，对着摄像头进行录制。\n2. **情境模拟题（SJT）：** 给出特定的工作场景，选择你认为最合适和最不合适的处理方式。\n3. **游戏化测评（部分岗位）：** 包含一些心理学或逻辑能力测试的小游戏。\n\n### 三、 常见考察内容\n* **行为面试题：** 围绕“宝洁八大问”或岗位核心能力展开（例如：“请分享一次你克服困难完成目标的经历”）。\n* **岗位匹配度：** 考察你为什么申请该岗位、你的职业规划等。\n* **语言能力：** 考察口语流畅度、发音及商务表达。\n\n### 四、 通关建议\n1. **做好硬件测试：** 在进入“正式面试”前，务必在系统提供的“模拟测试（Practice）”中反复调试摄像头、麦克风和网络，确保画面清晰、声音无杂音。\n2. **注意仪态与环境：** 选择安静、光线充足、背景整洁的环境。着正装或得体的商务休闲装，**回答时眼神要注视摄像头**（而不是看屏幕上的自己），保持微笑。\n3. **结构化表达（STAR原则）：** \n   * **S**ituation（情境）+ **T**ask（任务）+ **A**ction（行动）+ **R**esult（结果）。\n   * 多使用逻辑连接词（第一、第二、第三），方便 AI 抓取关键信息。\n4. **控制语速：** 语速保持适中，吐字清晰，避免过多的“额”、“啊”等语气词。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver AI面试**（有时也常指代类似 **Skillvue** 或其他主流 AI 面试系统）是企业（尤其是外企、大型快消、金融、咨询等公司）在招聘中用于**初筛候选人**的智能化在线面试平台。\n\n其中，**“正式 AI 面试”**是指真正计入求职成绩、发送给 HR 或 AI 系统进行评估的正式考试环节（区别于供考生调试设备和熟悉流程的“模拟/练习面试”）。\n\n以下是 Skillver 正式 AI 面试的核心特点、常见流程及应对建议：\n\n### 一、 核心特点\n1. **非真人实时对线：** 面试过程中没有真实的面试官，你面对的是摄像头和系统给出的题目。\n2. **多维度评估：** AI 会通过你的**语音语义**（回答内容的逻辑、关键词匹配）、**声音特质**（语速、语调）以及**面部表情/肢体语言**（眼神接触、自信度）来进行综合评分。\n3. **一次性机会：** 正式面试一旦开始，通常无法暂停或重新录制，所有回答都会被实时上传。\n\n### 二、 常见面试形式\n1. **视频/音频问答（最核心）：** \n   * 屏幕上出现文本或录音提问（部分岗位为全英文提问）。\n   * 给予 **30秒 - 1分钟** 的准备时间（思考并列提纲）。\n   * 给予 **2 - 3分钟** 的作答时间，对着摄像头进行录制。\n2. **情境模拟题（SJT）：** 给出特定的工作场景，选择你认为最合适和最不合适的处理方式。\n3. **游戏化测评（部分岗位）：** 包含一些心理学或逻辑能力测试的小游戏。\n\n### 三、 常见考察内容\n* **行为面试题：** 围绕“宝洁八大问”或岗位核心能力展开（例如：“请分享一次你克服困难完成目标的经历”）。\n* **岗位匹配度：** 考察你为什么申请该岗位、你的职业规划等。\n* **语言能力：** 考察口语流畅度、发音及商务表达。\n\n### 四、 通关建议\n1. **做好硬件测试：** 在进入“正式面试”前，务必在系统提供的“模拟测试（Practice）”中反复调试摄像头、麦克风和网络，确保画面清晰、声音无杂音。\n2. **注意仪态与环境：** 选择安静、光线充足、背景整洁的环境。着正装或得体的商务休闲装，**回答时眼神要注视摄像头**（而不是看屏幕上的自己），保持微笑。\n3. **结构化表达（STAR原则）：** \n   * **S**ituation（情境）+ **T**ask（任务）+ **A**ction（行动）+ **R**esult（结果）。\n   * 多使用逻辑连接词（第一、第二、第三），方便 AI 抓取关键信息。\n4. **控制语速：** 语速保持适中，吐字清晰，避免过多的“额”、“啊”等语气词。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "Er0kCrokARFNMg+Xyg7kCXY+mlFMf2o8QF/+4EZ+rQ5T7SRfyo4ZO5uBM9bMU7EHlIkDk32ayxLzzKBZhAnSlsD8Q6m9JUcI6MQO7uFZwUk5inQQTf2W64S5bggqjlgWRndBZasEewjz/ftYp0TSVbJWSi2tIDekAuohvA5xXutjDut2og8Ha8QZ0fK7bytS18giixtEP0mIhoMekueSlnmQhggQhkHOG56jknXcCzZZjHIzGqtHPsiT+SKmmL/qkmaGv4QNuwFJChCENs2GW8HnY9ddTE6oWXGhhKzrBig/P16yKEQTM/jCcyhlH9HqlPZ1GcyOZfSKhgXpzA7NvAzLaEdruQ/10kqczKPHCIY/ifrrDxeLpeQwGwt6zVxz/C9QokmzfVifqtBnh5xNwYva9iBkW1u5vIZ4RX3RoOvAfSIPKt1CWzEXI3aAu7U+FPmBql0guguHNV5VF6iGdn30yv7PcdGLQm1YmussaURZzTxVVxLAEeUoNuWuQnv9d1RL5wPibjs13LjiGGL/qROpEnvk+dMi5J+6qiNLYCIyPhIde9sdFwo2R85WDdy/JQe/0ryy6Orj5XqaPvq+ZVHTmWkgOX9b0Owp1i0c0s94d45YF2x1LIraht9enkKJ77PB6z/L1K3++lHeRAnDNX92FZGXmT9MJdtYD2UCeZNDpt1GjlMG/ik6/XtUIOGQc2i6SL23nqkV1M5A80/eyevzywht2VD9i+YBxT6DFg2NGOlK0BygTaORr2jU8fhH9nE1b7H2otgD4+be5Y8xHTxRzuqXGeS8m4Ujc5hn3qIuDrDcRq10v5JTNgn2tfbfgUAT8R4s0cZa+SpfloVtIfmWIaG1h8ZKn2dbIN/fCXkrvLrOeDMc3HbESwzUq4aoAfa1lOTqXftrBF309eo9fqT8B7RDCIXqnNDzFcQYDxpVfOsuVEJGPeYlya3XlqUPvGx4s/PoKfHcJdaZ18wl2SEwlCBIbUH4+9aMfUSFu4rxab2asb06ZU3zisuTlVNam+Z3JHsoEFVebSIzCStZWNr3Xyt0f4M36MHcSKzrf4tJ9MRe4cMo91CCmSvn47pdu/jtAbGFFvAdd0jb/dpT7O6AELpEL1U5DhB+Cg/kdZBNYmAeTHRaqz9QbjKzIB8RbDSwsAlnspN+YG9mnveMMkTuK9j0iIxhK93cTsXr9/LaFr568+V/BW6sZKvuw3gsqfqg4Eo3o5aPD/MHkBB8lT3g1vOCahojOxmAk2xGq7oZIClXDiBB+HcqXoEObtrhYpJLlXsqHRBaljiEN/tl+r1TUINWcHJ7eSsfJJZGv8hov51i4yTnjt1mYdr7zEztnLTjAolcNxPECND5GQpnd/vy7CU2/TRkM24jiNh0ZcOR8wTgS1xXO05jlabT9iujBpcG+eeVGUlJlXpZ+GG9iKFkDXQ6+LxhFyTFqZ+9V166rqIbfMJfhj54IsM95NsC/C6hynR7SlWf+QY0R8WmNDEvW6csgxkXzhYrLpnpF1OGsqBacJWBq4RJ5L1TG51t/6ScnOzgU2Ba7JzIANCUk7T6TZhl7drprlcwWv+Zgfrpjh1YiDirYb2X3L090ILYZpsyiEF8KS20SOZeGUudUpRdTK7t1lBLAwgixCNWPnfrzju5D71SsH0jzf31yvRRaYJ97UFoJIU+NYUyxL1dStgJPZ4e0OKXjXkjv7/bpx/uY/QybkKl+CNNIcOaLRf/q8aMEDsji/RHT8zom3ZUYGJ3782oXmlrBWXSi9VSL5MdwaozDSYQRaWUDOfA0GTrg/xFw0+UVc5gHR6Zc90OKWUCRHY3l3sc2ojKsloBs7oYk7EPAVfE+y6cbL21VgxIa+f9rnUOcpLGxqPMBcbL49lkrA590Xy2pN5mJ2o8Q24gl6Dg0u94+rPxBWE2U2NvJqJzNQsggvb68uZxGG2fLu7TXnXK6vjiRnhce9PrPXcxgD/1ORiFkfyF2k1U/0I/2FwW9P7R6iMhM1Nu309DNT25nOLVIpTz4girfNWHJdMx0dvgC2a97ZSHphbXKw8LxsiBA9R+G7rH/7NiSAD4B0EQ76YDarO6hU7HXmNwUYng1+zIQ5O8iZFpKfKVQUBZ0FLjG5SRB2PdmnOcqRfrezMUM4oYNpE4mtv4SU5LUrsIugP78d3jDASV/ee+xiJYoOGUfgKZG5NkANBKquzcKWxBHzW8K54R67yPW0B4bnJXPEMp9zc5XovJo+KHr91MFvacQNAxnWs+2YGC8hfNrSoEwik90rEs147HfLlPj968e6RAy5pBpoN7V6CVdrlVcjEkAfzcC9lu6odTCxYHV1O839cGpJrbPP9nyrhl6D0a93t8eyNxH/rnaApAxp+CeyUuEx133jwUubXL67bJBSQe7wzdY1bmlw80MGCL1J97C+8e8RwqJi49tlpCTqqw6emFQCZEZst8ewsMQKkflyQHMy4UB+hhxy6/sv6bAvgWUqlwl9h/X0xloU/qEsraso2w7qpUlYa1ShoUdQ5xgFhU5Q8JBzmcvMepRr9VmQpyhBxRr5KzjIZnVAir97byjJc3LZoAeswrrS4kC0g0SZAB2LxCDHWMr8EF+6JlsHqw3yfjxiZpDsWurvUz+KxgUOmQhTgOZuY3i3Er5sttrniPup/KtkFAxIVU9a61bLWU5hUllYlrbMDe9HD7lgimv22ckzOeSgEBt0LWuRaHgt/zUhenREHNT4jisM1JahdBIwtSqZweAP+8x8bB3I1JaA1fW7/uxNhoIIzeN2+0Wi86U9GNOqQ3I6surwPf2NKNrH2slIbVsK1dJGszcPX7pqev4YvatxeHC0dUp2JuC4oZJQmSQPJQE9cU5febwVnmdWBqKwQ6Dar6KaRC86d4O4fBAuM2F9HuvU95CSPH0owwasR21PEyy6VkxbRkfLBpXEyy7PpuPqILE6OcL6XSaYEqAKstebHR+c2CwT7St++tZs5UujaEkyH1gmnhFhgvhnq+MVUhNdn/wliJPfwG1ZUqvu5pnao6BRc1N9zwLmpKacY8BwLJPH28HRpBqh2C8LJTUKaoTpwzb1psf6O9etdZVZG5KmHWAuKu0sClSbS37KX+yocylmpDVanbsw76xrd5O8nno6AXnQ/SGbRiAkRv6sBGRO/udNmdKkTWV2t/8b0pND9tRs6ZgjTxwiJK9eoCnLjAH+P/ygOt9m5v+l0xnzH81Qu6Z15XUOj8OVKTyMk1EljxWh3/x6bh93AewfbRckPg1zc3O8lHTzAFVmXfE6rC2VjHPhreXj1RzvMCRHxhiMQsuftLftFIx+Vz+wO8uNyKKjgcTWPeDAVC+xzWKcNV/xiYee5vUUpdGMtGeicvpISss5qYoLrjFLmz4msp3h8x8Ik1pTOMzrG+v7a+//r+YlwkycMWG2GPqNiw9Gwujmr4BhFOGTjHwLpFf5S6bgCWtjqyo+Kk78ZgZPaFebTesSV5LpY8pUN/ihWayZAauRDxhutsmw0ZkWO0YTgqT5/VVfRGy1jHWa8hX5lH3V3TMInpdbE9p03X3waJIxXCSu68Wzl7/1ceSr35fnkWVCrBDyzOn7Iyf7wAklIGyneWZUFaLzZfoMWEPVMA0MzJieH/ERzRIKhdtJA2mE/OBEe+ssBekaolDevybywRoh903IoggxTQIW2l35ODdTAOeYPx6njJLf2Riv4aP3Yip8Etddpii+hQJ3fn9RoE8MlzjayCBh9jX5rLcv1JEcAimD9isf5yKTwZQEYdkjCm8R32B04fdcAMtSj+NNhHUPPjf2Tp9bTRlSecPP1jco97RTu+DrdjVfN0yGbie1a0D65OmM1mGs2zK9LQsNR1h+EIjkIrIKsgFXvAX46iLjemDRE2kn+PCxfdCyc03OCSwP8cJoEon9CuGPcfQCKt8rFuAJ1YSVBn0wc0XEWGymJC3gfxVv+zfFto8rzyuIb1Tw6ZhhKJubi12kM1y87AfMuBN6ICxYM5rNkm//VpISHdl1zqtvl7nJtLjRkA0goTOZTqmqYD7Vvq87ybErRPByJLuyuqCOcI8eHDBqkmcuG8oTlWqlH6knqYX24Lk2yCN/jCsD9muGBJJh6y7mNkZ1A0j1O9AFNDF4B+ZiRK3I2DaEC7A12Rses50CDpaNhnusVnU5uey08tCYSMj+2pfA6MX5ZuoLFY4iKhOdYd6BtDDaZihWyo6cpij+kfnrnUJ6QhT7KSX38tN/OabIuoguonH5U8ZWVz3mLGicBw2FQ44KqczLPtJWS2F7Guf1guLElwVIv9Xx2FuDgJTAciNUyAFTLQV+I5Wz6fJjBchHkKpKX+69qZ3LpQw+XMKo4XmLJs5GuGguYBiwDInVqlcFQcIjJs6h5uYNo5mY6Rw9ywwir/kxaqrXWg5NZVyX7M71HgHltcMJRTt9gMWEcRpQtj73ScbHSm8yOT9iVxX2krLi1O4lPW7y22qrVvhtyejzemMtw/I6iRD2m0UWdaRIRJ4U/LaeDC8tcSWbGS3jvdegdIywguV7FhqZo4xNO+ZrPjQVrba+zAt5zxsxoDjw/vySh5Ic9QC0NygLCrpIIyVGVqnGtA+jJQGCd7GMzsO5en+jLRA+e0c/5+tFDtliw58tBMC5PiH7kKAIRfHYWWBttsT3XSIy6UtUBXv9TwxXMaJD0b4umdekdwpbDcxW0GdIPI9QvG+OD7jUnhxUYJKYfi/UVV5L0bllqT8ltp4MfiwVl0JpMuOlqqCT0Ojtxtq6k2f8Lb3YXM35rCrdBtwzAamMpxVokYx3R8yahpazclLw8bI2uEtZViCBSxwbblN8ng3Ie8POfmlYiyzxUs7nWSvvhy9B3fskqSucfo2EwAtcKov496cJgnMQW0MbRiRsFmNSTuA5byTjHi3DoxZhNkNQcBHJ7ZUk4CbKzPAjqMZoMbskifKnNpHLHbIUEOe4azSWbWPJlf9s4F4Kf5pmk93sJrvlYCLks0DoiKIcdMP2Dz8K1zVmpwT6AKPvd99yWsq0dTnez/KDoP1OKqOLZBWiuaIOnBc3zH7szaVjbTV0Fg3artAs++p/lcIYBqdLLZ4njOi/kfQU5mQbOs65WGuMzQjdMgeuNsd2NyaoImHnZeRgs7Jkhr30oG7r3EzUx/C+8rEFe5EvuGh655iASqzIZqPW76KpJO6I2ZpiwsswU29rn8Ilz9SMvaBB/OedvXIH1BJr1sfWEayELPEC7vfoYsPx1cmhO9b2QME2KUvaFMJXCd6mGJ9KL0o10Sw7h7kxRFBUBBHkzD6AbZ9Av1+92JX4fIYZnC/W4WLyZ6t9Sca3pw0wxzw7iT6SFDyquXlEpVuY7iMYhkpQaGT2HCE4EvM5NPoBOS01KqAsW8N+DcPK9k6sy3bGB888mIO+IHL3ICtpr8rYbDOK8flM3ccEbrCcOtXM33/AOGHz7x9cKrCi5fmD00mCG9dEQnNVZryha2ju25GypyqbBdN1BffB/kp4RmS+bQgweURv4OWoUJGodNotLKIbs2PQjuifV+xrCtTOWhud09Gt2EGWjBjDoVx+WwKgoExg5ggjd1C40r8aKuIJmPeYxRf1DDCXo2hL7WpI8HCtwWPj0lhF6gthEzzeCIIqAhNGlq9bjlJrgECeDhcBeUh5BGBBRQWJsCVDbv8PqZA0gDjf9CWq/HpyuHocMFMyHkdKFCjMwa7Aj2wzAHnw3riXtwCkqjxEMnJRklS+hLTVg1z2fjG4NZgUUt1CcIwAZ/j27UkeZDI09bM1QFHZGra5KX40W9qBBmtAXLkFNRG5qnBlzyOyG5emPmmkClaHdS+7VVsVwMhojKAWI+/dOBKKs/S3c07cZK+Z/h3vmISRTFm3SBF+e3s5oMGzBpntLMq17wtVngdTK3z8RyjFTgE7MD0dynsrcKuDEpT0QR0eJfnchAoVPitkHkeMG+SoutxXaMxzmOl7MfMeFKQtiiZEqdooXwlJIBmlNYI7yxufD1CNVhDBtOXf7u9uWmnFy1dmgPFrbI9w+t33PHVNRLGarde/K+11LZKaNQgsswUx/6H9HsGJ0ve6khWWNzLn8KQ23qIm63CrziwNnbQAVxd6g/Gq7ApDBI0i1zjJp0uvDR3vl7UHqGY2Lji86rUXe3eqNDv96piXFkB/3k+CuFl/hMDzOkHe58a93bHJSKEW3Md2WClsroI0vqEmU6Nm7SFiA8u88CkpOPFegQcJJ2vQhatqrilL+OH5Vt/7aong=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124269,
+    "id": "I1qFavvkKo2mnsEPl_i5sAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 694,
+      "prompt_tokens": 37,
+      "total_tokens": 1887
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:24:29.124063Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "**Skillver AI面试**（有时也常指代类似 **Skillvue** 或其他主流 AI 面试系统）是企业（尤其是外企、大型快消、金融、咨询等公司）在招聘中用于**初筛候选人**的智能化在线面试平台。\n\n其中，**“正式 AI 面试”**是指真正计入求职成绩、发送给 HR 或 AI 系统进行评估的正式考试环节（区别于供考生调试设备和熟悉流程的“模拟/练习面试”）。\n\n以下是 Skillver 正式 AI 面试的核心特点、常见流程及应对建议：\n\n### 一、 核心特点\n1. **非真人实时对线：** 面试过程中没有真实的面试官，你面对的是摄像头和系统给出的题目。\n2. **多维度评估：** AI 会通过你的**语音语义**（回答内容的逻辑、关键词匹配）、**声音特质**（语速、语调）以及**面部表情/肢体语言**（眼神接触、自信度）来进行综合评分。\n3. **一次性机会：** 正式面试一旦开始，通常无法暂停或重新录制，所有回答都会被实时上传。\n\n### 二、 常见面试形式\n1. **视频/音频问答（最核心）：** \n   * 屏幕上出现文本或录音提问（部分岗位为全英文提问）。\n   * 给予 **30秒 - 1分钟** 的准备时间（思考并列提纲）。\n   * 给予 **2 - 3分钟** 的作答时间，对着摄像头进行录制。\n2. **情境模拟题（SJT）：** 给出特定的工作场景，选择你认为最合适和最不合适的处理方式。\n3. **游戏化测评（部分岗位）：** 包含一些心理学或逻辑能力测试的小游戏。\n\n### 三、 常见考察内容\n* **行为面试题：** 围绕“宝洁八大问”或岗位核心能力展开（例如：“请分享一次你克服困难完成目标的经历”）。\n* **岗位匹配度：** 考察你为什么申请该岗位、你的职业规划等。\n* **语言能力：** 考察口语流畅度、发音及商务表达。\n\n### 四、 通关建议\n1. **做好硬件测试：** 在进入“正式面试”前，务必在系统提供的“模拟测试（Practice）”中反复调试摄像头、麦克风和网络，确保画面清晰、声音无杂音。\n2. **注意仪态与环境：** 选择安静、光线充足、背景整洁的环境。着正装或得体的商务休闲装，**回答时眼神要注视摄像头**（而不是看屏幕上的自己），保持微笑。\n3. **结构化表达（STAR原则）：** \n   * **S**ituation（情境）+ **T**ask（任务）+ **A**ction（行动）+ **R**esult（结果）。\n   * 多使用逻辑连接词（第一、第二、第三），方便 AI 抓取关键信息。\n4. **控制语速：** 语速保持适中，吐字清晰，避免过多的“额”、“啊”等语气词。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

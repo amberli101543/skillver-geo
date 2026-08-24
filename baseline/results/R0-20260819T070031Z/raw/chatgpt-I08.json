@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "如果 Skillver 当前处于**内测/邀请制**阶段，一般**没有邀请码就不能直接使用**。\n\n你可以尝试：\n\n1. 在官网或 App 内申请加入等待名单  \n2. 联系 Skillver 官方客服/社区获取邀请码  \n3. 关注官方公告，等开放注册后再使用  \n4. 如果是企业/学校渠道，联系管理员开通账号\n\n如果你看到具体的注册页面提示，我也可以帮你判断是否必须填写邀请码。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUqpkjB5i5WAceCc8R47RaSARt8T",
+    "object": "chat.completion",
+    "created": 1787123891,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "如果 Skillver 当前处于**内测/邀请制**阶段，一般**没有邀请码就不能直接使用**。\n\n你可以尝试：\n\n1. 在官网或 App 内申请加入等待名单  \n2. 联系 Skillver 官方客服/社区获取邀请码  \n3. 关注官方公告，等开放注册后再使用  \n4. 如果是企业/学校渠道，联系管理员开通账号\n\n如果你看到具体的注册页面提示，我也可以帮你判断是否必须填写邀请码。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 204,
+      "total_tokens": 249,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 93,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:18:14.201937Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "如果 Skillver 当前处于**内测/邀请制**阶段，一般**没有邀请码就不能直接使用**。\n\n你可以尝试：\n\n1. 在官网或 App 内申请加入等待名单  \n2. 联系 Skillver 官方客服/社区获取邀请码  \n3. 关注官方公告，等开放注册后再使用  \n4. 如果是企业/学校渠道，联系管理员开通账号\n\n如果你看到具体的注册页面提示，我也可以帮你判断是否必须填写邀请码。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

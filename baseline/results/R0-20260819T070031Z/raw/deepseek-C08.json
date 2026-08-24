@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "冲刺 AI 大厂（如字节、阿里、腾讯、百度、美团、华为等）的面试，核心在于**深度、广度和项目落地能力**。以下是一套系统性的准备策略：\n\n### 一、 简历与项目（敲门砖）\n大厂面试官第一眼看的是**项目而非学历**。\n- **深挖1-2个核心项目**：必须能讲清楚“为什么做、怎么做、难点在哪、收益如何、能否改进”。\n- **量化指标**：例如“将推理延迟从200ms降至80ms，吞吐提升2.5倍”，而不是“提升了性能”。\n- **避免“调包侠”**：面试官会追问模型细节，例如“为什么用Transformer不用LSTM”，答不上来会扣大分。\n\n### 二、 硬核基础（八股文 + 手撕代码）\n这是筛人的第一关，通常在线笔试（算法题）和一面必考。\n\n**1. 机器学习基础（必考）**\n- **经典算法**：LR、SVM、决策树（GBDT/XGBoost/LightGBM）、K-means、PCA。\n- **核心理论**：偏差与方差、过拟合与正则化（L1/L2区别）、梯度消失/爆炸、交叉验证、评估指标（AUC、F1、召回率等）。\n- **公式推导**：至少能手推LR的梯度下降和XGBoost的损失函数。\n\n**2. 深度学习（重点）**\n- **网络结构**：ResNet、DenseNet、Inception的细节及动机。\n- **训练技巧**：BN（BatchNorm）的原理与作用、Dropout、学习率调度（Warmup、Cosine）、数据增强。\n- **损失函数**：交叉熵、Focal Loss、对比学习（InfoNCE）。\n\n**3. 手撕代码**\n- **刷题平台**：LeetCode Hot 100 + 剑指 Offer，重点刷**动态规划**、**二叉树**、**链表**、**双指针**。\n- **AI 相关手撕**：会用 numpy 手写 KNN、K-means、线性回归（梯度下降版）、反向传播（BP）。\n\n### 三、 针对不同方向的深入准备\n\n**A. 算法工程师（NLP / CV）**\n- **NLP**：Transformer 架构细节（多头注意力为什么除以 sqrt(d_k)？）、BERT vs GPT、位置编码（RoPE）、大模型微调（LoRA、P-Tuning）、RLHF 原理。\n- **CV**：卷积计算量/参数量推导、目标检测（YOLO、DETR）、图像分割（U-Net）、生成模型（Diffusion）。\n\n**B. 大模型 / 推理优化岗（热门冲刺岗）**\n- **推理框架**：vLLM（PagedAttention）、TensorRT-LLM、ONNX Runtime。\n- **量化**：PTQ、QAT、INT8/FP16/FP8 区别。\n- **并行策略**：张量并行、流水线并行、数据并行（必须能画出通信拓扑）。\n- **长文本**：Attention 加速（FlashAttention）、KV Cache 管理。\n\n**C. 搜索 / 推荐 / 广告（商业化核心）**\n- **召回**：双塔模型（如何解决特征实时性？）、向量检索（HNSW）。\n- **排序**：精排模型（Wide&Deep、DeepFM）、多目标优化（MMoE）。\n- **特征工程**：如何构造交叉特征、如何处理稀疏特征（Embedding 维度选择）。\n\n### 四、 系统设计与工程能力（中高年级重点）\nAI 大厂不只是做模型，更看重工程落地。\n- **系统设计题**（如“设计一个新闻推荐系统”）：需画出整体架构（数据流、存储、特征平台、模型服务）。\n- **分布式基础**：Spark/MapReduce 原理、数据倾斜如何解决。\n- **模型部署**：如何做灰度发布、AB Test 设计、预测服务的容灾（限流、降级）。\n\n### 五、 大模型（LLM）与前沿热点（加分项）\n- **Agent**：工具调用（Function Calling）、ReAct 模式、记忆机制。\n- **RAG（检索增强生成）**：Chunk 切分策略、Embedding 模型选择、重排序（Rerank）。\n- **微调**：全参微调 vs LoRA 的适用场景，如何防止灾难性遗忘。\n- **Prompt Engineering**：思维链（CoT）、Few-shot 技巧。\n- **必知必会**：Sora、GPT-4o、Llama3 的核心技术亮点。\n\n### 六、 行为面试（HR/主管面）\n- **技术深度**：准备一个“最失败的项目”案例，重点讲**复盘和改进**。\n- **价值观**：大厂看重“拥抱变化”和“抗压能力”，回答时多讲如何主动解决难题。\n- **反问环节**：准备2-3个高质量问题（如“团队目前在 LLM 落地上的最大瓶颈是什么？”），不要说“没有”。\n\n### 七、 时间规划建议（以3个月为例）\n- **第1个月**：夯实基础（机器学习+深度学习+刷题，每天2道LeetCode）。\n- **第2个月**：专攻方向（重点精读3篇核心论文 + 复现一个SOTA模型）+ 整理项目面试话术。\n- **第3个月**：模拟面试（找朋友或利用AI模拟） + 梳理大模型知识图谱 + 投递简历（内推优先）。\n\n---\n\n**终极提醒**：大厂面试官非常反感**背题**。在回答“为什么用这个方案”时，多结合你自己的代码或数据来说话。保持“技术乐观”，把每一次面试当作技术探讨，心态平稳，拿Offer的概率会大大增加。祝你顺利上岸！",
+  "sources": [],
+  "raw": {
+    "id": "2c83c766-cd6d-44be-b950-34aa49c3e784",
+    "object": "chat.completion",
+    "created": 1787125314,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "冲刺 AI 大厂（如字节、阿里、腾讯、百度、美团、华为等）的面试，核心在于**深度、广度和项目落地能力**。以下是一套系统性的准备策略：\n\n### 一、 简历与项目（敲门砖）\n大厂面试官第一眼看的是**项目而非学历**。\n- **深挖1-2个核心项目**：必须能讲清楚“为什么做、怎么做、难点在哪、收益如何、能否改进”。\n- **量化指标**：例如“将推理延迟从200ms降至80ms，吞吐提升2.5倍”，而不是“提升了性能”。\n- **避免“调包侠”**：面试官会追问模型细节，例如“为什么用Transformer不用LSTM”，答不上来会扣大分。\n\n### 二、 硬核基础（八股文 + 手撕代码）\n这是筛人的第一关，通常在线笔试（算法题）和一面必考。\n\n**1. 机器学习基础（必考）**\n- **经典算法**：LR、SVM、决策树（GBDT/XGBoost/LightGBM）、K-means、PCA。\n- **核心理论**：偏差与方差、过拟合与正则化（L1/L2区别）、梯度消失/爆炸、交叉验证、评估指标（AUC、F1、召回率等）。\n- **公式推导**：至少能手推LR的梯度下降和XGBoost的损失函数。\n\n**2. 深度学习（重点）**\n- **网络结构**：ResNet、DenseNet、Inception的细节及动机。\n- **训练技巧**：BN（BatchNorm）的原理与作用、Dropout、学习率调度（Warmup、Cosine）、数据增强。\n- **损失函数**：交叉熵、Focal Loss、对比学习（InfoNCE）。\n\n**3. 手撕代码**\n- **刷题平台**：LeetCode Hot 100 + 剑指 Offer，重点刷**动态规划**、**二叉树**、**链表**、**双指针**。\n- **AI 相关手撕**：会用 numpy 手写 KNN、K-means、线性回归（梯度下降版）、反向传播（BP）。\n\n### 三、 针对不同方向的深入准备\n\n**A. 算法工程师（NLP / CV）**\n- **NLP**：Transformer 架构细节（多头注意力为什么除以 sqrt(d_k)？）、BERT vs GPT、位置编码（RoPE）、大模型微调（LoRA、P-Tuning）、RLHF 原理。\n- **CV**：卷积计算量/参数量推导、目标检测（YOLO、DETR）、图像分割（U-Net）、生成模型（Diffusion）。\n\n**B. 大模型 / 推理优化岗（热门冲刺岗）**\n- **推理框架**：vLLM（PagedAttention）、TensorRT-LLM、ONNX Runtime。\n- **量化**：PTQ、QAT、INT8/FP16/FP8 区别。\n- **并行策略**：张量并行、流水线并行、数据并行（必须能画出通信拓扑）。\n- **长文本**：Attention 加速（FlashAttention）、KV Cache 管理。\n\n**C. 搜索 / 推荐 / 广告（商业化核心）**\n- **召回**：双塔模型（如何解决特征实时性？）、向量检索（HNSW）。\n- **排序**：精排模型（Wide&Deep、DeepFM）、多目标优化（MMoE）。\n- **特征工程**：如何构造交叉特征、如何处理稀疏特征（Embedding 维度选择）。\n\n### 四、 系统设计与工程能力（中高年级重点）\nAI 大厂不只是做模型，更看重工程落地。\n- **系统设计题**（如“设计一个新闻推荐系统”）：需画出整体架构（数据流、存储、特征平台、模型服务）。\n- **分布式基础**：Spark/MapReduce 原理、数据倾斜如何解决。\n- **模型部署**：如何做灰度发布、AB Test 设计、预测服务的容灾（限流、降级）。\n\n### 五、 大模型（LLM）与前沿热点（加分项）\n- **Agent**：工具调用（Function Calling）、ReAct 模式、记忆机制。\n- **RAG（检索增强生成）**：Chunk 切分策略、Embedding 模型选择、重排序（Rerank）。\n- **微调**：全参微调 vs LoRA 的适用场景，如何防止灾难性遗忘。\n- **Prompt Engineering**：思维链（CoT）、Few-shot 技巧。\n- **必知必会**：Sora、GPT-4o、Llama3 的核心技术亮点。\n\n### 六、 行为面试（HR/主管面）\n- **技术深度**：准备一个“最失败的项目”案例，重点讲**复盘和改进**。\n- **价值观**：大厂看重“拥抱变化”和“抗压能力”，回答时多讲如何主动解决难题。\n- **反问环节**：准备2-3个高质量问题（如“团队目前在 LLM 落地上的最大瓶颈是什么？”），不要说“没有”。\n\n### 七、 时间规划建议（以3个月为例）\n- **第1个月**：夯实基础（机器学习+深度学习+刷题，每天2道LeetCode）。\n- **第2个月**：专攻方向（重点精读3篇核心论文 + 复现一个SOTA模型）+ 整理项目面试话术。\n- **第3个月**：模拟面试（找朋友或利用AI模拟） + 梳理大模型知识图谱 + 投递简历（内推优先）。\n\n---\n\n**终极提醒**：大厂面试官非常反感**背题**。在回答“为什么用这个方案”时，多结合你自己的代码或数据来说话。保持“技术乐观”，把每一次面试当作技术探讨，心态平稳，拿Offer的概率会大大增加。祝你顺利上岸！"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 1262,
+      "total_tokens": 1300,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:42:07.475864Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "冲刺 AI 大厂（如字节、阿里、腾讯、百度、美团、华为等）的面试，核心在于**深度、广度和项目落地能力**。以下是一套系统性的准备策略：\n\n### 一、 简历与项目（敲门砖）\n大厂面试官第一眼看的是**项目而非学历**。\n- **深挖1-2个核心项目**：必须能讲清楚“为什么做、怎么做、难点在哪、收益如何、能否改进”。\n- **量化指标**：例如“将推理延迟从200ms降至80ms，吞吐提升2.5倍”，而不是“提升了性能”。\n- **避免“调包侠”**：面试官会追问模型细节，例如“为什么用Transformer不用LSTM”，答不上来会扣大分。\n\n### 二、 硬核基础（八股文 + 手撕代码）\n这是筛人的第一关，通常在线笔试（算法题）和一面必考。\n\n**1. 机器学习基础（必考）**\n- **经典算法**：LR、SVM、决策树（GBDT/XGBoost/LightGBM）、K-means、PCA。\n- **核心理论**：偏差与方差、过拟合与正则化（L1/L2区别）、梯度消失/爆炸、交叉验证、评估指标（AUC、F1、召回率等）。\n- **公式推导**：至少能手推LR的梯度下降和XGBoost的损失函数。\n\n**2. 深度学习（重点）**\n- **网络结构**：ResNet、DenseNet、Inception的细节及动机。\n- **训练技巧**：BN（BatchNorm）的原理与作用、Dropout、学习率调度（Warmup、Cosine）、数据增强。\n- **损失函数**：交叉熵、Focal Loss、对比学习（InfoNCE）。\n\n**3. 手撕代码**\n- **刷题平台**：LeetCode Hot 100 + 剑指 Offer，重点刷**动态规划**、**二叉树**、**链表**、**双指针**。\n- **AI 相关手撕**：会用 numpy 手写 KNN、K-means、线性回归（梯度下降版）、反向传播（BP）。\n\n### 三、 针对不同方向的深入准备\n\n**A. 算法工程师（NLP / CV）**\n- **NLP**：Transformer 架构细节（多头注意力为什么除以 sqrt(d_k)？）、BERT vs GPT、位置编码（RoPE）、大模型微调（LoRA、P-Tuning）、RLHF 原理。\n- **CV**：卷积计算量/参数量推导、目标检测（YOLO、DETR）、图像分割（U-Net）、生成模型（Diffusion）。\n\n**B. 大模型 / 推理优化岗（热门冲刺岗）**\n- **推理框架**：vLLM（PagedAttention）、TensorRT-LLM、ONNX Runtime。\n- **量化**：PTQ、QAT、INT8/FP16/FP8 区别。\n- **并行策略**：张量并行、流水线并行、数据并行（必须能画出通信拓扑）。\n- **长文本**：Attention 加速（FlashAttention）、KV Cache 管理。\n\n**C. 搜索 / 推荐 / 广告（商业化核心）**\n- **召回**：双塔模型（如何解决特征实时性？）、向量检索（HNSW）。\n- **排序**：精排模型（Wide&Deep、DeepFM）、多目标优化（MMoE）。\n- **特征工程**：如何构造交叉特征、如何处理稀疏特征（Embedding 维度选择）。\n\n### 四、 系统设计与工程能力（中高年级重点）\nAI 大厂不只是做模型，更看重工程落地。\n- **系统设计题**（如“设计一个新闻推荐系统”）：需画出整体架构（数据流、存储、特征平台、模型服务）。\n- **分布式基础**：Spark/MapReduce 原理、数据倾斜如何解决。\n- **模型部署**：如何做灰度发布、AB Test 设计、预测服务的容灾（限流、降级）。\n\n### 五、 大模型（LLM）与前沿热点（加分项）\n- **Agent**：工具调用（Function Calling）、ReAct 模式、记忆机制。\n- **RAG（检索增强生成）**：Chunk 切分策略、Embedding 模型选择、重排序（Rerank）。\n- **微调**：全参微调 vs LoRA 的适用场景，如何防止灾难性遗忘。\n- **Prompt Engineering**：思维链（CoT）、Few-shot 技巧。\n- **必知必会**：Sora、GPT-4o、Llama3 的核心技术亮点。\n\n### 六、 行为面试（HR/主管面）\n- **技术深度**：准备一个“最失败的项目”案例，重点讲**复盘和改进**。\n- **价值观**：大厂看重“拥抱变化”和“抗压能力”，回答时多讲如何主动解决难题。\n- **反问环节**：准备2-3个高质量问题（如“团队目前在 LLM 落地上的最大瓶颈是什么？”），不要说“没有”。\n\n### 七、 时间规划建议（以3个月为例）\n- **第1个月**：夯实基础（机器学习+深度学习+刷题，每天2道LeetCode）。\n- **第2个月**：专攻方向（重点精读3篇核心论文 + 复现一个SOTA模型）+ 整理项目面试话术。\n- **第3个月**：模拟面试（找朋友或利用AI模拟） + 梳理大模型知识图谱 + 投递简历（内推优先）。\n\n---\n\n**终极提醒**：大厂面试官非常反感**背题**。在回答“为什么用这个方案”时，多结合你自己的代码或数据来说话。保持“技术乐观”，把每一次面试当作技术探讨，心态平稳，拿Offer的概率会大大增加。祝你顺利上岸！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

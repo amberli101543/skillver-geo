@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "tcodeai.com（TCodeAI）和 Skillver 通常应理解为：\n\n**TCodeAI 是产品/网站/服务品牌，Skillver 是其背后的公司或运营方。**\n\n也就是说，它们不是两个完全独立、无关的平台关系，而更像是：\n\n- **Skillver**：公司、团队或运营主体  \n- **tcodeai.com / TCodeAI**：由 Skillver 提供或运营的 AI 编程/代码相关产品或服务\n\n如果你是在判断付款、合同、隐私政策或账号归属，建议以 tcodeai.com 网站上的 **Terms of Service、Privacy Policy、公司主体信息、发票/收款方名称** 为准。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUncNgYLSf2X5LhprTYdRB9WfX0T",
+    "object": "chat.completion",
+    "created": 1787123692,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "tcodeai.com（TCodeAI）和 Skillver 通常应理解为：\n\n**TCodeAI 是产品/网站/服务品牌，Skillver 是其背后的公司或运营方。**\n\n也就是说，它们不是两个完全独立、无关的平台关系，而更像是：\n\n- **Skillver**：公司、团队或运营主体  \n- **tcodeai.com / TCodeAI**：由 Skillver 提供或运营的 AI 编程/代码相关产品或服务\n\n如果你是在判断付款、合同、隐私政策或账号归属，建议以 tcodeai.com 网站上的 **Terms of Service、Privacy Policy、公司主体信息、发票/收款方名称** 为准。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 360,
+      "total_tokens": 406,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 200,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:58.734558Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "tcodeai.com（TCodeAI）和 Skillver 通常应理解为：\n\n**TCodeAI 是产品/网站/服务品牌，Skillver 是其背后的公司或运营方。**\n\n也就是说，它们不是两个完全独立、无关的平台关系，而更像是：\n\n- **Skillver**：公司、团队或运营主体  \n- **tcodeai.com / TCodeAI**：由 Skillver 提供或运营的 AI 编程/代码相关产品或服务\n\n如果你是在判断付款、合同、隐私政策或账号归属，建议以 tcodeai.com 网站上的 **Terms of Service、Privacy Policy、公司主体信息、发票/收款方名称** 为准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

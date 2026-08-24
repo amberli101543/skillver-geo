@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "根据我的知识库，**Skillver** 是一个基于AI的简历分析和职业匹配平台。\n\n关于它是否**当前开放使用**，我无法给出准确的实时信息，因为：\n\n- 我的知识截止日期为 **2025年初**，无法获取最新状态\n- 平台的开放状态可能随时变化\n\n**建议您：**\n1. 直接访问 Skillver 官方网站查看最新状态\n2. 查看其官方社交媒体账号获取公告\n3. 尝试注册或登录以确认是否可用\n\n如果您有具体问题，欢迎进一步咨询！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgnrHe6CYV775yjrrp4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据我的知识库，**Skillver** 是一个基于AI的简历分析和职业匹配平台。\n\n关于它是否**当前开放使用**，我无法给出准确的实时信息，因为：\n\n- 我的知识截止日期为 **2025年初**，无法获取最新状态\n- 平台的开放状态可能随时变化\n\n**建议您：**\n1. 直接访问 Skillver 官方网站查看最新状态\n2. 查看其官方社交媒体账号获取公告\n3. 尝试注册或登录以确认是否可用\n\n如果您有具体问题，欢迎进一步咨询！"
+        }
+      }
+    ],
+    "created": 1787123327,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 203,
+      "prompt_tokens": 51,
+      "total_tokens": 254
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:08:47.337994Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "根据我的知识库，**Skillver** 是一个基于AI的简历分析和职业匹配平台。\n\n关于它是否**当前开放使用**，我无法给出准确的实时信息，因为：\n\n- 我的知识截止日期为 **2025年初**，无法获取最新状态\n- 平台的开放状态可能随时变化\n\n**建议您：**\n1. 直接访问 Skillver 官方网站查看最新状态\n2. 查看其官方社交媒体账号获取公告\n3. 尝试注册或登录以确认是否可用\n\n如果您有具体问题，欢迎进一步咨询！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

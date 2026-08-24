@@ -9,8 +9,11 @@
       "lifecycleStage": "认知期",
       "contentAngle": "定义解释",
       "topic": "AI 求职助手是什么",
-      "sourceRefs": ["01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）"],
-      "publicationStatus": "待产出"
+      "sourceRefs": [
+        "01-strategy/GEO-语义及切片、发布平台、排期.md#2.1-双轴-16-格（基本单位）",
+        "content/C08-UX01-7位用户真实体验.md"
+      ],
+      "publicationStatus": "已发布"
     },
     {
       "cellId": "C02",

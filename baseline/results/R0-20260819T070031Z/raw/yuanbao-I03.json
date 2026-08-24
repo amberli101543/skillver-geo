@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "目前网络上并没有广泛公开、知名的名为 **Skillver** 的平台或服务的官方注册指引。为了确保你顺利注册，建议你按以下步骤操作：\n\n1. **确认平台名称**：请再次核实平台的正确名称（是否为 Skillver、SkillVer 或其他拼写），避免因名称相近而进入非官方网站。\n2. **访问官方网站**：通过搜索引擎查找该平台的官方网址（注意识别官网标识，避免钓鱼网站）。\n3. **查找注册入口**：进入官网后，通常在页面右上角会有 **“Sign Up”、“注册”** 或 **“Get Started”** 按钮。\n4. **填写信息注册**：按照提示填写邮箱、手机号并设置密码，完成验证即可。\n5. **注意安全**：如果平台需要付费或提供敏感信息，请务必确认其正规性与安全性。\n\n如果你能提供更多背景信息（比如它是求职平台、学习平台还是其他类型），我可以给你更具体的指引。",
+  "sources": [],
+  "raw": {
+    "id": "65e77ca4-0eec-491b-bc7e-4606d2ddd84d",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123545,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前网络上并没有广泛公开、知名的名为 **Skillver** 的平台或服务的官方注册指引。为了确保你顺利注册，建议你按以下步骤操作：\n\n1. **确认平台名称**：请再次核实平台的正确名称（是否为 Skillver、SkillVer 或其他拼写），避免因名称相近而进入非官方网站。\n2. **访问官方网站**：通过搜索引擎查找该平台的官方网址（注意识别官网标识，避免钓鱼网站）。\n3. **查找注册入口**：进入官网后，通常在页面右上角会有 **“Sign Up”、“注册”** 或 **“Get Started”** 按钮。\n4. **填写信息注册**：按照提示填写邮箱、手机号并设置密码，完成验证即可。\n5. **注意安全**：如果平台需要付费或提供敏感信息，请务必确认其正规性与安全性。\n\n如果你能提供更多背景信息（比如它是求职平台、学习平台还是其他类型），我可以给你更具体的指引。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 189,
+      "total_tokens": 234,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:29.749784Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "目前网络上并没有广泛公开、知名的名为 **Skillver** 的平台或服务的官方注册指引。为了确保你顺利注册，建议你按以下步骤操作：\n\n1. **确认平台名称**：请再次核实平台的正确名称（是否为 Skillver、SkillVer 或其他拼写），避免因名称相近而进入非官方网站。\n2. **访问官方网站**：通过搜索引擎查找该平台的官方网址（注意识别官网标识，避免钓鱼网站）。\n3. **查找注册入口**：进入官网后，通常在页面右上角会有 **“Sign Up”、“注册”** 或 **“Get Started”** 按钮。\n4. **填写信息注册**：按照提示填写邮箱、手机号并设置密码，完成验证即可。\n5. **注意安全**：如果平台需要付费或提供敏感信息，请务必确认其正规性与安全性。\n\n如果你能提供更多背景信息（比如它是求职平台、学习平台还是其他类型），我可以给你更具体的指引。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

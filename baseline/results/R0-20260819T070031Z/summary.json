@@ -1,0 +1,251 @@
+{
+  "roundId": "R0",
+  "productState": "全面开放注册；邀请码仅用于社群参与",
+  "startedAt": "20260819T070031Z",
+  "finishedAt": "2026-08-19T07:43:39.952678Z",
+  "engines": [
+    "doubao",
+    "kimi",
+    "deepseek",
+    "yuanbao",
+    "gemini",
+    "chatgpt",
+    "claude",
+    "perplexity"
+  ],
+  "missingKeys": [],
+  "questionCount": 32,
+  "successCount": 223,
+  "errorCount": 33,
+  "errors": [
+    {
+      "engine": "doubao",
+      "questionId": "B01",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787122834020c897e1d930e500589fc980a11d7a6eeb8aca5b\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B02",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712292048637fa1e35c84c0d2e78e1e6ee6f349cd9be3b42\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B03",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871229817260ae72b855aef2dbc0c2680f9ad70d710a3a05f\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B04",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871230529774e2842eb712e854fa24899212a499930d3418a\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B05",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123121427c9dba16029eae5f1d61ad70a3ced107290aac9\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B06",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123191207e17ae498a5425eec402948758cfa50d41240f0\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B07",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123284450a633002a7421b089fd65550b3782d551382a8a\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "B08",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712333443924d2d0d80fc72db53ac7bec89037cf505ea4b0\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I01",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123396140b3148bc0f12eba71a521be845022282455cc97\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I02",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123450716f23a7fd0932936f048493023b0222ca8b60255\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I03",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712351622842a46ce056799cb50504a40b3c32c4d0975c47\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I04",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712358063158f1497fbd9e03fa5d60a1e5b6b4655b2457c9\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I05",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871236497010a3079a058b707e59510a9e5fba8ef68bfdfe3\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I06",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123711016e1e6c18222198123b5b36a942a59f14ad4030c\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I07",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787123774052588cf1f192295a4a72f91ca46784841619b2ea\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "I08",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871238408265fafc6bfbcdcf7cf4c893ac51d76cbd2da66c1\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T01",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712391009279d2e7c3cf49a9962db0730ac2d5dd13165b58\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T02",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787124012243402946030ad657addf9d55ed099bf2168036c6\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "kimi",
+      "questionId": "T02",
+      "error": "The read operation timed out"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T03",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871241324855bd48b85bf91977229be01b0f043f8c325d390\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T04",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787124214421ccb5cb80d056078148fd97ed4662bb3511fa37\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T05",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787124296472ba9f922dd9222ae26d697747c3d026885ed054\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T06",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787124367334bcd9e2286c8e630eb6bd21bb14e8ed8fe37776\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T07",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712442382741609daff26ab0794397d3d17654db7f514ae9\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "T08",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787124503541c9dba16029eae5f1d61ad70a3ced107279b1f0\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C01",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871245937968808fc7e9ca3b6569f64b75b5a4eb61e5f436a\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C02",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712471699016daf9d61fcfa3cb5e99a3c6f39361793296a9\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C03",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 02178712483824806836341896f8585700baa60fd8566b5e9d782\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C04",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787124937716e9038f11093823e26b5d7613430baa41cfc865\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C05",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 0217871250309741f68012d5e32197dcd13836e1ef8c15417d16a\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C06",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787125105732a04a47ac73179d3e64c063d7b69771fc30df56\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C07",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787125184039a494df944a230ff836cdfb3920056d778fa32f\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    },
+    {
+      "engine": "doubao",
+      "questionId": "C08",
+      "error": "HTTP 404: {\"error\":{\"code\":\"InvalidEndpointOrModel.NotFound\",\"message\":\"The model or endpoint doubao-seed-1-6-251015 does not exist or you do not have access to it. Request id: 021787125278638226d55c1868491c89c6234734c8c3308967c40\",\"param\":\"\",\"type\":\"Not Found\"}}"
+    }
+  ],
+  "metrics": {
+    "total": 223,
+    "engines": {
+      "kimi": {
+        "n": 31,
+        "mentionRate": 0.6774,
+        "staleNarrativeRate": 0.0323,
+        "officialSourceCiteRate": 0.0323,
+        "positioningYesRate": 0.2308,
+        "entryYesRate": 0.0
+      },
+      "deepseek": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.3077,
+        "entryYesRate": 0.0
+      },
+      "yuanbao": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0312,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.1538,
+        "entryYesRate": 0.0
+      },
+      "gemini": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0312,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.3077,
+        "entryYesRate": 0.0
+      },
+      "chatgpt": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0625,
+        "positioningYesRate": 0.1538,
+        "entryYesRate": 0.125
+      },
+      "claude": {
+        "n": 32,
+        "mentionRate": 0.6562,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.0312,
+        "positioningYesRate": 0.1538,
+        "entryYesRate": 0.0
+      },
+      "perplexity": {
+        "n": 32,
+        "mentionRate": 0.7188,
+        "staleNarrativeRate": 0.0,
+        "officialSourceCiteRate": 0.7188,
+        "positioningYesRate": 1.0,
+        "entryYesRate": 1.0
+      }
+    },
+    "overallMentionRate": 0.6682,
+    "overallStaleNarrativeRate": 0.0135
+  },
+  "note": "API surface only; App/Web 端需人工补测。hallucination 字段需人工复核。"
+}

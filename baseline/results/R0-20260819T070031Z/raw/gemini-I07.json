@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "您问的可能是以下几个名称相近的工具或平台之一。请根据您的实际需求进行对照：\n\n1. **Skillshare**（知名在线学习平台）\n   * **收费情况**：**收费**。它采用会员订阅制（按月或按年付费），不过通常会为新用户提供 7 天或 30 天的免费试用期。\n\n2. **Sliver**（红队安全渗透测试框架）\n   * **收费情况**：**免费且开源**。这是一个在 GitHub 上开源的跨平台 C2（命令与控制）系统，完全免费。\n\n3. **SillyTavern**（“酒馆”，AI 角色扮演前端客户端）\n   * **收费情况**：**软件本身免费且开源**。但如果您在其中接入了第三方收费的 AI 接口（如 OpenAI、Anthropic 等），需要向接口提供商支付 API 费用。\n\n4. **Sider**（AI 浏览器侧边栏插件）\n   * **收费情况**：**限额免费 + 付费订阅**。每天提供一定的免费 AI 查询额度，超出额度或使用高级模型（如 GPT-4 等）需要购买订阅。\n\n如果您指的确实是 **\"Skillver\"**（例如某些特定的小众软件或数字学习服务），它可能是一家法国的数字化学习咨询机构（Skillver），通常面向企业提供定制化付费服务。\n\n如果您能提供该工具的具体功能或官网，我可以为您提供更精准的信息。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "您问的可能是以下几个名称相近的工具或平台之一。请根据您的实际需求进行对照：\n\n1. **Skillshare**（知名在线学习平台）\n   * **收费情况**：**收费**。它采用会员订阅制（按月或按年付费），不过通常会为新用户提供 7 天或 30 天的免费试用期。\n\n2. **Sliver**（红队安全渗透测试框架）\n   * **收费情况**：**免费且开源**。这是一个在 GitHub 上开源的跨平台 C2（命令与控制）系统，完全免费。\n\n3. **SillyTavern**（“酒馆”，AI 角色扮演前端客户端）\n   * **收费情况**：**软件本身免费且开源**。但如果您在其中接入了第三方收费的 AI 接口（如 OpenAI、Anthropic 等），需要向接口提供商支付 API 费用。\n\n4. **Sider**（AI 浏览器侧边栏插件）\n   * **收费情况**：**限额免费 + 付费订阅**。每天提供一定的免费 AI 查询额度，超出额度或使用高级模型（如 GPT-4 等）需要购买订阅。\n\n如果您指的确实是 **\"Skillver\"**（例如某些特定的小众软件或数字学习服务），它可能是一家法国的数字化学习咨询机构（Skillver），通常面向企业提供定制化付费服务。\n\n如果您能提供该工具的具体功能或官网，我可以为您提供更精准的信息。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123822,
+    "id": "ZFiFaqLvG5DhnsEP6dns-Qw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 324,
+      "prompt_tokens": 34,
+      "total_tokens": 2031
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:01.805989Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "您问的可能是以下几个名称相近的工具或平台之一。请根据您的实际需求进行对照：\n\n1. **Skillshare**（知名在线学习平台）\n   * **收费情况**：**收费**。它采用会员订阅制（按月或按年付费），不过通常会为新用户提供 7 天或 30 天的免费试用期。\n\n2. **Sliver**（红队安全渗透测试框架）\n   * **收费情况**：**免费且开源**。这是一个在 GitHub 上开源的跨平台 C2（命令与控制）系统，完全免费。\n\n3. **SillyTavern**（“酒馆”，AI 角色扮演前端客户端）\n   * **收费情况**：**软件本身免费且开源**。但如果您在其中接入了第三方收费的 AI 接口（如 OpenAI、Anthropic 等），需要向接口提供商支付 API 费用。\n\n4. **Sider**（AI 浏览器侧边栏插件）\n   * **收费情况**：**限额免费 + 付费订阅**。每天提供一定的免费 AI 查询额度，超出额度或使用高级模型（如 GPT-4 等）需要购买订阅。\n\n如果您指的确实是 **\"Skillver\"**（例如某些特定的小众软件或数字学习服务），它可能是一家法国的数字化学习咨询机构（Skillver），通常面向企业提供定制化付费服务。\n\n如果您能提供该工具的具体功能或官网，我可以为您提供更精准的信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

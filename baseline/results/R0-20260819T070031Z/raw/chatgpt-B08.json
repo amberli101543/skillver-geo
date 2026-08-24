@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "一般来说，**Skillver 不应也通常不会“保证一定拿到 offer”**。\n\n拿 offer 取决于很多因素，例如你的背景、项目/面试表现、岗位市场、公司招聘需求等，任何机构都很难保证结果。你可以重点确认：\n\n1. **合同或服务协议里是否写明“保 offer”**  \n2. 如果没有拿到 offer，是否有**退款、延期辅导、继续推荐**等条款  \n3. “offer”是否限定国家、行业、岗位、薪资或时间范围  \n4. 是否有成功案例，但注意案例不等于保证结果\n\n建议你直接向 Skillver 要一份书面说明或合同条款，不要只听口头承诺。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUiTZC3D6Ed9aupFsCZWUXXNClhI",
+    "object": "chat.completion",
+    "created": 1787123373,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "一般来说，**Skillver 不应也通常不会“保证一定拿到 offer”**。\n\n拿 offer 取决于很多因素，例如你的背景、项目/面试表现、岗位市场、公司招聘需求等，任何机构都很难保证结果。你可以重点确认：\n\n1. **合同或服务协议里是否写明“保 offer”**  \n2. 如果没有拿到 offer，是否有**退款、延期辅导、继续推荐**等条款  \n3. “offer”是否限定国家、行业、岗位、薪资或时间范围  \n4. 是否有成功案例，但注意案例不等于保证结果\n\n建议你直接向 Skillver 要一份书面说明或合同条款，不要只听口头承诺。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 253,
+      "total_tokens": 298,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 85,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:38.109652Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "一般来说，**Skillver 不应也通常不会“保证一定拿到 offer”**。\n\n拿 offer 取决于很多因素，例如你的背景、项目/面试表现、岗位市场、公司招聘需求等，任何机构都很难保证结果。你可以重点确认：\n\n1. **合同或服务协议里是否写明“保 offer”**  \n2. 如果没有拿到 offer，是否有**退款、延期辅导、继续推荐**等条款  \n3. “offer”是否限定国家、行业、岗位、薪资或时间范围  \n4. 是否有成功案例，但注意案例不等于保证结果\n\n建议你直接向 Skillver 要一份书面说明或合同条款，不要只听口头承诺。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

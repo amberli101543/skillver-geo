@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "抱歉，我目前没有关于 **Skillver** 的具体信息。它可能是较新的平台、小众服务，或是名称拼写有误（例如您是否指的是 **Skillshare** 或其他技能类平台？）。\n\n如果您能提供更多背景信息（例如它所在的行业、网站或主要功能），我可以更准确地帮您解答。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a8554ea2c900e6f160b69bf",
+    "object": "chat.completion",
+    "created": 1787122924,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "抱歉，我目前没有关于 **Skillver** 的具体信息。它可能是较新的平台、小众服务，或是名称拼写有误（例如您是否指的是 **Skillshare** 或其他技能类平台？）。\n\n如果您能提供更多背景信息（例如它所在的行业、网站或主要功能），我可以更准确地帮您解答。",
+          "reasoning_content": "用户问的是 \"Skillver 主要服务谁？\"。这是一个关于特定实体 \"Skillver\" 的问题。我需要确定 Skillver 是什么。\n\n经过检索我的知识库，我不确定 \"Skillver\" 是一个广为人知的、有明确定义的实体。它可能是：\n1. 一个拼写错误（比如 Skillshare？但 Skillver 看起来不太像 Skillshare）\n2. 一个比较小众的公司、平台或产品\n3. 一个新兴的服务\n4. 用户自创的术语\n\n由于我无法确认 Skillver 的具体身份，我不应该编造信息。最好的做法是诚实地说明我不了解这个特定实体，或者请求用户提供更多上下文。\n\n但是，让我再仔细想一想。有没有可能是 \"Skillver\" 是某个特定领域的工具？\n- 在招聘/人力资源领域？\n- 在教育科技领域？\n- 是一个技能验证平台？\n\n考虑到名字 \"Skillver\" 可能是 \"Skill\" + \"ver\" (verification?)，它可能是一个技能验证平台。但即便如此，没有确切的信息，我不能断言它服务谁。\n\n因此，我应该：\n1. 表明我没有找到关于 \"Skillver\" 的具体信息\n2. 询问用户是否指的是其他名称相似的平台（如 Skillshare）\n3. 请用户提供更多上下文\n\n用中文回答，因为问题是中文。\n\n回答结构：\n- 直接说明：我目前没有关于 \"Skillver\" 的具体信息。\n- 提供可能性：可能是拼写错误或较新的/小众的服务。\n- 请求澄清：询问用户是否能提供更多背景，或者是否指的是其他平台（如 Skillshare、Upwork 等）。\n\n等等，让我再想想。是否有一个叫 \"Skillver\" 的公司？可能是荷兰的？或者是某个自由职业平台？\n\n在没有确定信息的情况下，保持谨慎是最佳策略。我不能 hallucinate。\n\n最终回答（中文）：\n抱歉，我目前没有关于“Skillver”的具体信息。它可能是较新的平台、小众服务，或是名称拼写有误（例如您是否指的是 Skillshare、Upwork 或其他技能/教育类平台？）。\n\n如果您能提供更多背景信息（例如 Skillver 所在的行业、网站或主要功能），我可以更准确地帮您解答。\n\n这符合事实、简洁，并且用中文回答。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 519,
+      "total_tokens": 562,
+      "completion_tokens_details": {
+        "reasoning_tokens": 453
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:02:18.985215Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "抱歉，我目前没有关于 **Skillver** 的具体信息。它可能是较新的平台、小众服务，或是名称拼写有误（例如您是否指的是 **Skillshare** 或其他技能类平台？）。\n\n如果您能提供更多背景信息（例如它所在的行业、网站或主要功能），我可以更准确地帮您解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

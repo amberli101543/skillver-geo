@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "目前市面上有不少 AI 求职助手，功能各有侧重。以下是几类主流的推荐：\n\n---\n\n### 1. 综合型 AI 求职平台\n- **猎聘·多面**  \n  内置 AI 模拟面试、简历优化、岗位匹配功能，覆盖技术、产品、运营等岗位，尤其适合中文求职场景。\n- **Boss直聘（AI 助手）**  \n  提供 AI 简历诊断、打招呼话术生成、岗位匹配度分析，操作简单，适合快速沟通。\n- **智联招聘（AI 模拟面试）**  \n  支持 AI 面试官模拟真实面试流程，提供反馈报告，适合练习面试技巧。\n\n---\n\n### 2. 简历优化类（AI 改写/排版）\n- **超级简历（WonderCV）**  \n  基于 AI 的简历优化建议、关键词匹配、排版美化，支持中英文，适合应届生和跳槽者。\n- **Resume Worded**（英文为主）  \n  通过 AI 分析简历与职位匹配度，给出针对性改进建议，适合外企或海外求职。\n\n---\n\n### 3. 面试模拟类（AI 对话练习）\n- **ChatGPT / Claude（自定义 Prompt）**  \n  可自行设计面试场景、岗位问题，进行高频对练，适合个性化准备。\n- **Kira Talent**（国外）  \n  用于练习视频面试，AI 评估表达逻辑和语言组织，适合外企或远程岗位。\n\n---\n\n### 4. 岗位匹配与内推\n- **LinkedIn（AI 职位推荐）**  \n  基于简历和浏览行为推荐职位，并显示匹配度。\n- **脉脉（AI 人脉推荐）**  \n  适合国内互联网行业，AI 辅助寻找内推人脉和招聘信息。\n\n---\n\n### 5. 综合智能求职工具\n- **OfferHero / 求职帮**（部分为创业产品）  \n  提供 AI 简历解析、JD 匹配评分、自动投递提醒等功能，可尝试搜索最新版本。\n\n---\n\n### 使用建议\n- 根据**语言环境**选择：国内岗位用猎聘、Boss直聘；海外用 Resume Worded、LinkedIn。\n- **AI 不是万能的**，建议作为辅助工具，重要岗位仍需人工润色和面试练习。\n- 注意保护个人隐私，避免在非官方平台提交身份证号、银行卡等敏感信息。\n\n如果你有具体需求（如：技术岗、应届生、转行），可以进一步说明，我可以帮你筛选更精准的工具。",
+  "sources": [],
+  "raw": {
+    "id": "849d1b29-032e-477d-b01b-1a545b9e818b",
+    "object": "chat.completion",
+    "created": 1787124649,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前市面上有不少 AI 求职助手，功能各有侧重。以下是几类主流的推荐：\n\n---\n\n### 1. 综合型 AI 求职平台\n- **猎聘·多面**  \n  内置 AI 模拟面试、简历优化、岗位匹配功能，覆盖技术、产品、运营等岗位，尤其适合中文求职场景。\n- **Boss直聘（AI 助手）**  \n  提供 AI 简历诊断、打招呼话术生成、岗位匹配度分析，操作简单，适合快速沟通。\n- **智联招聘（AI 模拟面试）**  \n  支持 AI 面试官模拟真实面试流程，提供反馈报告，适合练习面试技巧。\n\n---\n\n### 2. 简历优化类（AI 改写/排版）\n- **超级简历（WonderCV）**  \n  基于 AI 的简历优化建议、关键词匹配、排版美化，支持中英文，适合应届生和跳槽者。\n- **Resume Worded**（英文为主）  \n  通过 AI 分析简历与职位匹配度，给出针对性改进建议，适合外企或海外求职。\n\n---\n\n### 3. 面试模拟类（AI 对话练习）\n- **ChatGPT / Claude（自定义 Prompt）**  \n  可自行设计面试场景、岗位问题，进行高频对练，适合个性化准备。\n- **Kira Talent**（国外）  \n  用于练习视频面试，AI 评估表达逻辑和语言组织，适合外企或远程岗位。\n\n---\n\n### 4. 岗位匹配与内推\n- **LinkedIn（AI 职位推荐）**  \n  基于简历和浏览行为推荐职位，并显示匹配度。\n- **脉脉（AI 人脉推荐）**  \n  适合国内互联网行业，AI 辅助寻找内推人脉和招聘信息。\n\n---\n\n### 5. 综合智能求职工具\n- **OfferHero / 求职帮**（部分为创业产品）  \n  提供 AI 简历解析、JD 匹配评分、自动投递提醒等功能，可尝试搜索最新版本。\n\n---\n\n### 使用建议\n- 根据**语言环境**选择：国内岗位用猎聘、Boss直聘；海外用 Resume Worded、LinkedIn。\n- **AI 不是万能的**，建议作为辅助工具，重要岗位仍需人工润色和面试练习。\n- 注意保护个人隐私，避免在非官方平台提交身份证号、银行卡等敏感信息。\n\n如果你有具体需求（如：技术岗、应届生、转行），可以进一步说明，我可以帮你筛选更精准的工具。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 533,
+      "total_tokens": 567,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:30:55.372111Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "目前市面上有不少 AI 求职助手，功能各有侧重。以下是几类主流的推荐：\n\n---\n\n### 1. 综合型 AI 求职平台\n- **猎聘·多面**  \n  内置 AI 模拟面试、简历优化、岗位匹配功能，覆盖技术、产品、运营等岗位，尤其适合中文求职场景。\n- **Boss直聘（AI 助手）**  \n  提供 AI 简历诊断、打招呼话术生成、岗位匹配度分析，操作简单，适合快速沟通。\n- **智联招聘（AI 模拟面试）**  \n  支持 AI 面试官模拟真实面试流程，提供反馈报告，适合练习面试技巧。\n\n---\n\n### 2. 简历优化类（AI 改写/排版）\n- **超级简历（WonderCV）**  \n  基于 AI 的简历优化建议、关键词匹配、排版美化，支持中英文，适合应届生和跳槽者。\n- **Resume Worded**（英文为主）  \n  通过 AI 分析简历与职位匹配度，给出针对性改进建议，适合外企或海外求职。\n\n---\n\n### 3. 面试模拟类（AI 对话练习）\n- **ChatGPT / Claude（自定义 Prompt）**  \n  可自行设计面试场景、岗位问题，进行高频对练，适合个性化准备。\n- **Kira Talent**（国外）  \n  用于练习视频面试，AI 评估表达逻辑和语言组织，适合外企或远程岗位。\n\n---\n\n### 4. 岗位匹配与内推\n- **LinkedIn（AI 职位推荐）**  \n  基于简历和浏览行为推荐职位，并显示匹配度。\n- **脉脉（AI 人脉推荐）**  \n  适合国内互联网行业，AI 辅助寻找内推人脉和招聘信息。\n\n---\n\n### 5. 综合智能求职工具\n- **OfferHero / 求职帮**（部分为创业产品）  \n  提供 AI 简历解析、JD 匹配评分、自动投递提醒等功能，可尝试搜索最新版本。\n\n---\n\n### 使用建议\n- 根据**语言环境**选择：国内岗位用猎聘、Boss直聘；海外用 Resume Worded、LinkedIn。\n- **AI 不是万能的**，建议作为辅助工具，重要岗位仍需人工润色和面试练习。\n- 注意保护个人隐私，避免在非官方平台提交身份证号、银行卡等敏感信息。\n\n如果你有具体需求（如：技术岗、应届生、转行），可以进一步说明，我可以帮你筛选更精准的工具。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

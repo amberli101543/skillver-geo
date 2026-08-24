@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "目前公开信息中，**才谱 AI** 与 **Skillver** 并无明确的官方关联或隶属关系披露。\n\n两者均为面向人才与技能管理领域的 AI 工具/平台，但：\n- **才谱 AI** 更偏向国内市场的招聘、人才盘点与组织能力分析；\n- **Skillver** 则更多聚焦技能图谱、技能评估与职业发展的国际化场景。\n\n若你指的是某家具体公司或产品的最新动态，建议提供更多上下文（如公司官网、产品截图或新闻来源），以便我帮你进一步核实。",
+  "sources": [],
+  "raw": {
+    "id": "52d9b150-4ca2-4d32-9c05-5aef1b66d757",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123082,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前公开信息中，**才谱 AI** 与 **Skillver** 并无明确的官方关联或隶属关系披露。\n\n两者均为面向人才与技能管理领域的 AI 工具/平台，但：\n- **才谱 AI** 更偏向国内市场的招聘、人才盘点与组织能力分析；\n- **Skillver** 则更多聚焦技能图谱、技能评估与职业发展的国际化场景。\n\n若你指的是某家具体公司或产品的最新动态，建议提供更多上下文（如公司官网、产品截图或新闻来源），以便我帮你进一步核实。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 118,
+      "total_tokens": 168,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:04:45.056634Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "目前公开信息中，**才谱 AI** 与 **Skillver** 并无明确的官方关联或隶属关系披露。\n\n两者均为面向人才与技能管理领域的 AI 工具/平台，但：\n- **才谱 AI** 更偏向国内市场的招聘、人才盘点与组织能力分析；\n- **Skillver** 则更多聚焦技能图谱、技能评估与职业发展的国际化场景。\n\n若你指的是某家具体公司或产品的最新动态，建议提供更多上下文（如公司官网、产品截图或新闻来源），以便我帮你进一步核实。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

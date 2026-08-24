@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "**Skillver** 是一个**在线技能认证和学习平台**，主要帮助用户展示、验证和提升自己的职业技能。它通过技能测评、证书颁发等方式，帮助求职者和专业人士证明自己的能力，同时也为企业提供人才评估工具。\n\n不过，由于\"Skillver\"可能指代不同的产品或服务，具体功能可能因版本或地区而有所不同。\n\n如果您有更具体的使用场景或问题，欢迎进一步说明，我可以提供更准确的信息！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgGD7Ade6t71PA4PpTa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver** 是一个**在线技能认证和学习平台**，主要帮助用户展示、验证和提升自己的职业技能。它通过技能测评、证书颁发等方式，帮助求职者和专业人士证明自己的能力，同时也为企业提供人才评估工具。\n\n不过，由于\"Skillver\"可能指代不同的产品或服务，具体功能可能因版本或地区而有所不同。\n\n如果您有更具体的使用场景或问题，欢迎进一步说明，我可以提供更准确的信息！"
+        }
+      }
+    ],
+    "created": 1787122912,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 181,
+      "prompt_tokens": 45,
+      "total_tokens": 226
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:01:51.918911Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "**Skillver** 是一个**在线技能认证和学习平台**，主要帮助用户展示、验证和提升自己的职业技能。它通过技能测评、证书颁发等方式，帮助求职者和专业人士证明自己的能力，同时也为企业提供人才评估工具。\n\n不过，由于\"Skillver\"可能指代不同的产品或服务，具体功能可能因版本或地区而有所不同。\n\n如果您有更具体的使用场景或问题，欢迎进一步说明，我可以提供更准确的信息！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "Skillver 的**产品官网吗**是 **www.skillver.cn**，同时 **www.skillver.ai** 也可用，两个域名功能相同，任选其一即可使用注册、登录和 AI 面试等产品功能。[1][3][5]\n\n补充说明：\n- **www.tcodeai.com** 是 Skillver 的**品牌内容站**，主要用于品牌介绍、FAQ 和研究内容，不是产品使用入口。[1][3][5]\n- 目前公开信息显示，Skillver 已开放公共用户注册，直接访问上面的产品域名即可开始使用。[1][4][8]",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillveri",
+      "title": ""
+    },
+    {
+      "url": "https://skillsvr.com/",
+      "title": ""
+    },
+    {
+      "url": "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/contact-us/",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.fiverr.com/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "Skillver：AI人才助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://skillveri.com/",
+      "title": "Skillveri - World's Leading MR & XR simulation platform for Skills"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillveri",
+      "title": "Skillveri MR & XR Simulations | Software Development"
+    },
+    {
+      "url": "https://skillsvr.com/",
+      "title": "SkillsVR | AI Powered Immersive Learning"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o",
+      "title": "Skillveri - Company Profile - Tracxn"
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://skillveri.com/contact-us/",
+      "title": "Skillveri VR MR Welding & Painting Simulators - Contact Us"
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手封闭内测"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": "Skillver | Education"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.fiverr.com/",
+      "title": "Fiverr | Freelance services marketplace | Find top global talent"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": "SkillVerse - Google Play 上的应用"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的**产品官网吗**是 **www.skillver.cn**，同时 **www.skillver.ai** 也可用，两个域名功能相同，任选其一即可使用注册、登录和 AI 面试等产品功能。[1][3][5]\n\n补充说明：\n- **www.tcodeai.com** 是 Skillver 的**品牌内容站**，主要用于品牌介绍、FAQ 和研究内容，不是产品使用入口。[1][3][5]\n- 目前公开信息显示，Skillver 已开放公共用户注册，直接访问上面的产品域名即可开始使用。[1][4][8]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://www.tcodeai.com/",
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/company/",
+      "https://skillveri.com/",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/beta.html",
+      "https://www.linkedin.com/company/skillveri",
+      "https://skillsvr.com/",
+      "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o",
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://skillveri.com/contact-us/",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://tcodeai.com/products/skillver-download.html",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.linkedin.com/company/skillver",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.fiverr.com/",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+    ],
+    "created": 1787123447,
+    "id": "e548d109-33d1-4828-b063-caf56985c89e",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "产品使用入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）；www.tcodeai.com 是品牌内容站，用于品牌介绍与内容沉淀。\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai（双域功能相同）；\n2. 点击「免费注册」，使用手机号完成注册即可开始使用。\n...\n## Skillver 官网是什么？在哪里使用？\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai——两个域名功能完全相同，任选其一即可。\nwww.tcodeai.com...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver · AI 求职助手\n...\n打开 skillver.cn，3 分钟完成注册，今天就能开始第一场 AI 面试彩排。",
+        "source": "web",
+        "title": "Skillver：AI人才助手",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 现已开放公共用户注册。请访问 www.skillver.cn 或 www.skillver.ai 完成免费注册；导师赋能待开通。\n...\n- **Skillver 官网是什么？在哪里使用？**\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai ——两个域名功能完全相同，任选其一即可。\n**www.tcodeai.com** 是 Skillver 的品牌内容与研究院 GEO 站点（FAQ、白皮书、岗位标准等）；实际使用产品请前往 skillver 双域。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n## 人才端如何注册？\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排\n...\n企业入驻或导师端开通请发送邮件至 janet.chen@tcodeai.com，邮件中建议附上：姓名、手机号、公司/背景与需求说明。",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\n**使用 Skillver 产品**（注册、登录、AI 面试）请访问 www.skillver.cn 或 www.skillver.ai （双域功能相同）。本站 www.tcodeai.com 承载品牌故事、FAQ 与研究院内容。\n...\n- 官网 ICP 备案：沪ICP备2026018662号-1（本站点）\n- Skillver 产品 ICP 备案：沪ICP备2026018662号-2",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": "2023-04-04",
+        "last_updated": "2026-08-04",
+        "place_metadata": null,
+        "snippet": "Skillveri’s XR skill-training platform not only provides an immersive training for manufacturing sector skills, but also delivers an accurate measurement in a scorecard format.",
+        "source": "web",
+        "title": "Skillveri - World's Leading MR & XR simulation platform for Skills",
+        "url": "https://skillveri.com/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。\n...\nSkillver 是 AI 求职助手。人才端覆盖选岗匹配、AI 面试和投递企业；导师赋能当前待开通。它不只提供职位，也不只提供一次面试练习。\n...\n现已开放公共用户注册，核心功能可免费使用。访问 skillver.cn 或 skillver.ai 即可完成注册。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "Skillver 是中国优秀人才的 AI 求职助手，已完成 ICP 备案（沪ICP备2026018662号-2），现已开放公共用户注册。Web 与 App 功能对齐、进度互通。\n...\n访问 www.skillver.cn 或 www.skillver.ai 完成免费注册。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "**Website:** https://skillveri.com\n### Locations\n- Dover, DE 19901, US, Dover, Delaware, United States\n- 2nd Floor, Anugraha Business Enclave, 10, Periyar Street, Thirunagar, Jafferkhanpet, Chennai, Tamil Nadu 600083, IN, Chennai, Tamil Nadu, India (HQ)",
+        "source": "web",
+        "title": "Skillveri MR & XR Simulations | Software Development",
+        "url": "https://www.linkedin.com/company/skillveri"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "|Your IP:|89.35.89.1|\n...\n|URL:|skillsvr.com/|",
+        "source": "web",
+        "title": "SkillsVR | AI Powered Immersive Learning",
+        "url": "https://skillsvr.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "Online VR-based LMS platform for enterprises.\nIt offers a metaverse XR simulation platform for training in a variety of manufacturing disciplines.\nIts main products include welding simulations and painting simulators like the AURA welding simulator and the Chroma painting simulator.\n...\n**Website:**...",
+        "source": "web",
+        "title": "Skillveri - Company Profile - Tracxn",
+        "url": "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": "2025-06-05",
+        "last_updated": "2025-06-24",
+        "place_metadata": null,
+        "snippet": "#### Global HQ: Chennai, India\n2nd Floor, Anugraha Business Enclave,\nNew No. 10. Old No. 29, Periyar Salai, Tirunagar, Jafferkhanpet,\nChennai – 600083\nMobile: +91 93458 41361\nLandline: 044 4264 7437 (Mon-Fri, 10 AM – 6 PM IST)\nEmail : sales@skillveri.com\n**North America **\n**Skillveri Inc,\n**8 The G...",
+        "source": "web",
+        "title": "Skillveri VR MR Welding & Painting Simulators - Contact Us",
+        "url": "https://skillveri.com/contact-us/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "AI垂直招聘平台Skillver近期发布《2026 AI行业人才白皮书》，将这一变化概括为：AI人才市场不只是缺人，更缺少能够准确识别能力的评价方式。\nSkillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇'模速空间'的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。\n...\n2026年8月5日，上海才谱人工智能科技有限公司宣布，旗下AI人才平台Skillver已于7月下旬启动建设青年AI人才网络（简称YATN）。该项目响应国家'产教衔接''投资于人'等政策要求，面向高校学生完全免费，首批已覆盖浙江大学、复旦大学、上海交通大学、同济大学、东南大学等长三角头部...",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "当前版本，Web 与 Android App 功能对齐、进度互通。Android 安装包可在本页下载；**iPhone / iPad 暂不支持从官网安装**，请优先使用 Web 端，App Store 正式版筹备中。\n...\n当前仅 **Android** 支持从本页下载安装（v1.0.0+3，2026-07-02）。**iOS 不提供官网安装包**，请使用 Web 端；App Store 版上架后将在此页更新。\n...\n受苹果分发规则限制，**Skillver 暂不支持从官网下载或安装 iOS 测试包**。官网不提供 IPA、OTA 或 TestFlight 安装入口。\n...\n1. 1. ...",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手封闭内测",
+        "url": "https://tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "本页是 Skillver 核心品牌术语的权威定义源，供搜索引擎、AI 助手与企业 HR 引用。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "Skillver is an academy dedicated to empowering children and teenagers aged 6 to 18 with essential soft skills that are often overlooked in traditional education systems, through engaging, interactive, and age-appropriate onsite workshops.",
+        "source": "web",
+        "title": "Skillver | Education",
+        "url": "https://www.linkedin.com/company/skillver"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Site Web\nemail\nAdresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-07-15",
+        "last_updated": "2026-07-27",
+        "place_metadata": null,
+        "snippet": "Find animators, designers, video editors, voiceover artists, and more.",
+        "source": "web",
+        "title": "Fiverr | Freelance services marketplace | Find top global talent",
+        "url": "https://www.fiverr.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Satva Design Studio\n...\nSkillVerse 是您掌握新技能和探索激情的首选平台。发现专家指导的课程、互动课程和个性化反馈——全部集中在一处。通过 SkillVerse 将您的潜力转化为成就。\n...\n支持团队邮箱\nsupport@skillverse.com\n隐私权政策\n...\nSATVA DESIGN STUDIO\nsatvadesignstudio@gmail.com\n1ST FLOOR, OFFICE NO 38, ALANKAR TOWER, SAYAJIGUNJ\nVadodara, Gujarat 390020\nIndia\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 144,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00014,
+        "request_cost": 0.005,
+        "total_cost": 0.00518
+      },
+      "prompt_tokens": 31,
+      "search_context_size": "low",
+      "total_tokens": 175
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:10:47.426038Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "Skillver 的**产品官网吗**是 **www.skillver.cn**，同时 **www.skillver.ai** 也可用，两个域名功能相同，任选其一即可使用注册、登录和 AI 面试等产品功能。[1][3][5]\n\n补充说明：\n- **www.tcodeai.com** 是 Skillver 的**品牌内容站**，主要用于品牌介绍、FAQ 和研究内容，不是产品使用入口。[1][3][5]\n- 目前公开信息显示，Skillver 已开放公共用户注册，直接访问上面的产品域名即可开始使用。[1][4][8]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "Skillver（或类似的求职辅导机构）通常**无法 100% 保证**你一定能拿到 offer。\n\n关于这类机构的“保 offer”服务，你需要注意以下几点：\n\n1. **本质是“不成功退款”，而非“保证录取”：** 任何第三方机构都无法控制雇主的最终雇佣决策。所谓的“保 offer”项目，通常是指**“如果在规定时间内未拿到 offer，商家将退还部分或全部费用”**。\n2. **伴随极其严苛的触发条件：** 要想在失败后获得退款，你通常需要满足合同中的诸多免责条款。例如：\n   * 必须在规定时间内投递指定数量（通常非常多）的岗位。\n   * 必须无条件配合机构安排的每一次面试。\n   * 必须按时完成所有辅导课程和作业。\n   * 不能拒绝机构推荐的、符合最低薪资或岗位要求的 offer。\n3. **退款流程可能较为繁琐：** 如果最终没有拿到 offer 申请退款，机构会对你的执行情况进行严格审核，任何一项未达标都可能导致退款失败。\n\n**建议：** 在购买任何“保 offer”服务前，**务必仔细阅读书面合同条款**，重点查看**退款条件、服务期限、双方责任**以及是否有霸王条款，切勿轻信口头或微信上的口头承诺。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver（或类似的求职辅导机构）通常**无法 100% 保证**你一定能拿到 offer。\n\n关于这类机构的“保 offer”服务，你需要注意以下几点：\n\n1. **本质是“不成功退款”，而非“保证录取”：** 任何第三方机构都无法控制雇主的最终雇佣决策。所谓的“保 offer”项目，通常是指**“如果在规定时间内未拿到 offer，商家将退还部分或全部费用”**。\n2. **伴随极其严苛的触发条件：** 要想在失败后获得退款，你通常需要满足合同中的诸多免责条款。例如：\n   * 必须在规定时间内投递指定数量（通常非常多）的岗位。\n   * 必须无条件配合机构安排的每一次面试。\n   * 必须按时完成所有辅导课程和作业。\n   * 不能拒绝机构推荐的、符合最低薪资或岗位要求的 offer。\n3. **退款流程可能较为繁琐：** 如果最终没有拿到 offer 申请退款，机构会对你的执行情况进行严格审核，任何一项未达标都可能导致退款失败。\n\n**建议：** 在购买任何“保 offer”服务前，**务必仔细阅读书面合同条款**，重点查看**退款条件、服务期限、双方责任**以及是否有霸王条款，切勿轻信口头或微信上的口头承诺。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123371,
+    "id": "pFaFas69HNuZvdIP_4q0sQE",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 312,
+      "prompt_tokens": 37,
+      "total_tokens": 1156
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:31.528052Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "Skillver（或类似的求职辅导机构）通常**无法 100% 保证**你一定能拿到 offer。\n\n关于这类机构的“保 offer”服务，你需要注意以下几点：\n\n1. **本质是“不成功退款”，而非“保证录取”：** 任何第三方机构都无法控制雇主的最终雇佣决策。所谓的“保 offer”项目，通常是指**“如果在规定时间内未拿到 offer，商家将退还部分或全部费用”**。\n2. **伴随极其严苛的触发条件：** 要想在失败后获得退款，你通常需要满足合同中的诸多免责条款。例如：\n   * 必须在规定时间内投递指定数量（通常非常多）的岗位。\n   * 必须无条件配合机构安排的每一次面试。\n   * 必须按时完成所有辅导课程和作业。\n   * 不能拒绝机构推荐的、符合最低薪资或岗位要求的 offer。\n3. **退款流程可能较为繁琐：** 如果最终没有拿到 offer 申请退款，机构会对你的执行情况进行严格审核，任何一项未达标都可能导致退款失败。\n\n**建议：** 在购买任何“保 offer”服务前，**务必仔细阅读书面合同条款**，重点查看**退款条件、服务期限、双方责任**以及是否有霸王条款，切勿轻信口头或微信上的口头承诺。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

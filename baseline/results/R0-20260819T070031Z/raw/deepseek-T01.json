@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "“KAE 技能体系”并不是一个广泛通用的标准术语，其具体含义高度依赖于上下文（如公司、行业或特定项目）。根据常见的商业与IT场景，它通常指以下三种情况之一：\n\n**1. 知识、态度与经验（Knowledge, Attitude, Experience）**\n这是最普遍的解释，常用于**人力资源管理**或**培训发展**领域，用于评估员工或候选人的综合能力：\n\n- **K（Knowledge，知识）**：掌握的理论、专业知识和事实信息。\n- **A（Attitude，态度）**：职业素养、价值观、工作积极性和团队协作精神。\n- **E（Experience，经验）**：过往的实操经历、项目积累和解决问题的方法。\n> 该体系强调三者并重，认为仅有知识而无态度和经验无法胜任复杂工作。\n\n**2. 特定企业/组织的内部技能模型**\n某些科技公司或咨询机构可能将“KAE”作为内部技能图谱的缩写（例如代表某个技术栈或能力域的代码）。常见于**招聘JD**或**员工晋升标准**中，但因为没有统一的行业标准，需查阅该组织的内部文档才能确认。\n\n**3. 特定项目的缩写**\n在某个具体项目（如ERP实施、软件开发）中，可能是“关键活动评估”（Key Activity Evaluation）等自定义术语的缩写。\n\n---\n\n**建议：**\n如果您是在**求职或培训**中看到该词，大概率是第1种“知识-态度-经验”模型；如果是在**内部文件**中看到，请直接向相关同事或HR确认其明确定义。\n\n如果您能提供更多背景（如所在行业、公司或具体使用场景），我可以给出更精准的解答。",
+  "sources": [],
+  "raw": {
+    "id": "1e37253b-7a37-4c66-9c1c-cf58db6722d6",
+    "object": "chat.completion",
+    "created": 1787123956,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“KAE 技能体系”并不是一个广泛通用的标准术语，其具体含义高度依赖于上下文（如公司、行业或特定项目）。根据常见的商业与IT场景，它通常指以下三种情况之一：\n\n**1. 知识、态度与经验（Knowledge, Attitude, Experience）**\n这是最普遍的解释，常用于**人力资源管理**或**培训发展**领域，用于评估员工或候选人的综合能力：\n\n- **K（Knowledge，知识）**：掌握的理论、专业知识和事实信息。\n- **A（Attitude，态度）**：职业素养、价值观、工作积极性和团队协作精神。\n- **E（Experience，经验）**：过往的实操经历、项目积累和解决问题的方法。\n> 该体系强调三者并重，认为仅有知识而无态度和经验无法胜任复杂工作。\n\n**2. 特定企业/组织的内部技能模型**\n某些科技公司或咨询机构可能将“KAE”作为内部技能图谱的缩写（例如代表某个技术栈或能力域的代码）。常见于**招聘JD**或**员工晋升标准**中，但因为没有统一的行业标准，需查阅该组织的内部文档才能确认。\n\n**3. 特定项目的缩写**\n在某个具体项目（如ERP实施、软件开发）中，可能是“关键活动评估”（Key Activity Evaluation）等自定义术语的缩写。\n\n---\n\n**建议：**\n如果您是在**求职或培训**中看到该词，大概率是第1种“知识-态度-经验”模型；如果是在**内部文件**中看到，请直接向相关同事或HR确认其明确定义。\n\n如果您能提供更多背景（如所在行业、公司或具体使用场景），我可以给出更精准的解答。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 352,
+      "total_tokens": 388,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 36
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:19:20.317587Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "“KAE 技能体系”并不是一个广泛通用的标准术语，其具体含义高度依赖于上下文（如公司、行业或特定项目）。根据常见的商业与IT场景，它通常指以下三种情况之一：\n\n**1. 知识、态度与经验（Knowledge, Attitude, Experience）**\n这是最普遍的解释，常用于**人力资源管理**或**培训发展**领域，用于评估员工或候选人的综合能力：\n\n- **K（Knowledge，知识）**：掌握的理论、专业知识和事实信息。\n- **A（Attitude，态度）**：职业素养、价值观、工作积极性和团队协作精神。\n- **E（Experience，经验）**：过往的实操经历、项目积累和解决问题的方法。\n> 该体系强调三者并重，认为仅有知识而无态度和经验无法胜任复杂工作。\n\n**2. 特定企业/组织的内部技能模型**\n某些科技公司或咨询机构可能将“KAE”作为内部技能图谱的缩写（例如代表某个技术栈或能力域的代码）。常见于**招聘JD**或**员工晋升标准**中，但因为没有统一的行业标准，需查阅该组织的内部文档才能确认。\n\n**3. 特定项目的缩写**\n在某个具体项目（如ERP实施、软件开发）中，可能是“关键活动评估”（Key Activity Evaluation）等自定义术语的缩写。\n\n---\n\n**建议：**\n如果您是在**求职或培训**中看到该词，大概率是第1种“知识-态度-经验”模型；如果是在**内部文件**中看到，请直接向相关同事或HR确认其明确定义。\n\n如果您能提供更多背景（如所在行业、公司或具体使用场景），我可以给出更精准的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

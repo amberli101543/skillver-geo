@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 是一个求职辅助平台，通常可以帮求职者做以下几件事：\n\n1. **简历优化** – 分析并改善简历内容，使其更符合招聘标准和ATS（申请人追踪系统）要求。\n\n2. **技能匹配** – 根据求职者的技能和经验，匹配合适的职位。\n\n3. **面试准备** – 提供模拟面试练习或常见面试问题的建议。\n\n4. **职业建议** – 根据个人背景给出职业发展方向的建议。\n\n5. **求职信撰写** – 协助撰写或优化求职信。\n\n---\n\n⚠️ **注意**：由于我的知识截止日期限制，Skillver 的具体功能可能已有更新。建议直接访问 **Skillver 官网** 查看最新、最准确的功能介绍。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgcD5jRkiX6cTmxse43",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个求职辅助平台，通常可以帮求职者做以下几件事：\n\n1. **简历优化** – 分析并改善简历内容，使其更符合招聘标准和ATS（申请人追踪系统）要求。\n\n2. **技能匹配** – 根据求职者的技能和经验，匹配合适的职位。\n\n3. **面试准备** – 提供模拟面试练习或常见面试问题的建议。\n\n4. **职业建议** – 根据个人背景给出职业发展方向的建议。\n\n5. **求职信撰写** – 协助撰写或优化求职信。\n\n---\n\n⚠️ **注意**：由于我的知识截止日期限制，Skillver 的具体功能可能已有更新。建议直接访问 **Skillver 官网** 查看最新、最准确的功能介绍。"
+        }
+      }
+    ],
+    "created": 1787123183,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 272,
+      "prompt_tokens": 51,
+      "total_tokens": 323
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:06:23.120465Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 是一个求职辅助平台，通常可以帮求职者做以下几件事：\n\n1. **简历优化** – 分析并改善简历内容，使其更符合招聘标准和ATS（申请人追踪系统）要求。\n\n2. **技能匹配** – 根据求职者的技能和经验，匹配合适的职位。\n\n3. **面试准备** – 提供模拟面试练习或常见面试问题的建议。\n\n4. **职业建议** – 根据个人背景给出职业发展方向的建议。\n\n5. **求职信撰写** – 协助撰写或优化求职信。\n\n---\n\n⚠️ **注意**：由于我的知识截止日期限制，Skillver 的具体功能可能已有更新。建议直接访问 **Skillver 官网** 查看最新、最准确的功能介绍。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

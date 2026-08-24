@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "关于“才谱 AI”和“Skillver”的关系，目前公开信息中**没有明确证据**表明两者存在直接关联（如隶属、投资或技术合作）。\n\n- **才谱 AI**：通常指国内某个以“才谱”为名的AI工具或平台，具体业务范围需以官方资料为准。\n- **Skillver**：若指海外或特定领域的技能管理/验证平台，其公开信息较少，且未显示与“才谱 AI”有交叉。\n\n如果它们是同一家公司或产品线，建议通过官方公告或相关商业数据库（如企查查、Crunchbase）核实。若您有具体场景（如使用同一账号、界面关联），可补充说明，以便进一步确认。",
+  "sources": [],
+  "raw": {
+    "id": "f957fe56-33d3-4dc6-aa6a-84cef53c03aa",
+    "object": "chat.completion",
+    "created": 1787123078,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于“才谱 AI”和“Skillver”的关系，目前公开信息中**没有明确证据**表明两者存在直接关联（如隶属、投资或技术合作）。\n\n- **才谱 AI**：通常指国内某个以“才谱”为名的AI工具或平台，具体业务范围需以官方资料为准。\n- **Skillver**：若指海外或特定领域的技能管理/验证平台，其公开信息较少，且未显示与“才谱 AI”有交叉。\n\n如果它们是同一家公司或产品线，建议通过官方公告或相关商业数据库（如企查查、Crunchbase）核实。若您有具体场景（如使用同一账号、界面关联），可补充说明，以便进一步确认。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 153,
+      "total_tokens": 193,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 40
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:04:40.062896Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "关于“才谱 AI”和“Skillver”的关系，目前公开信息中**没有明确证据**表明两者存在直接关联（如隶属、投资或技术合作）。\n\n- **才谱 AI**：通常指国内某个以“才谱”为名的AI工具或平台，具体业务范围需以官方资料为准。\n- **Skillver**：若指海外或特定领域的技能管理/验证平台，其公开信息较少，且未显示与“才谱 AI”有交叉。\n\n如果它们是同一家公司或产品线，建议通过官方公告或相关商业数据库（如企查查、Crunchbase）核实。若您有具体场景（如使用同一账号、界面关联），可补充说明，以便进一步确认。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具主要针对求职者在不同阶段的需求，大致可以分为以下 **5 大类**：\n\n### 1. 简历制作与优化类 (Resume Optimization)\n这类工具帮助求职者从零撰写简历，或针对特定岗位进行优化，以通过企业的 **ATS（简历自动筛选系统）**。\n*   **核心功能：** 简历模板生成、关键词匹配度分析、AI 润色与改写、格式调整。\n*   **代表工具：** Rezi, Teal, Kickresume, 简历蜂（国内）。\n\n### 2. 求职信与沟通生成类 (Cover Letter & Outreach)\n用于撰写求职信（Cover Letter）、向HR发送的打招呼消息（Cold Message）以及后续的跟进邮件。\n*   **核心功能：** 根据岗位描述（JD）和个人履历，一键生成定制化的求职信和社交媒体（如 LinkedIn/脉脉）话术。\n*   **代表工具：** ChatGPT, Copy.ai, Jasper, LazyApply。\n\n### 3. 职位匹配与自动投递类 (Job Matching & Auto-Apply)\n这类工具利用 AI 算法在全网抓取并匹配最适合求职者的岗位，甚至代替人工进行批量自动投递。\n*   **核心功能：** 智能职位推荐、一键自动填充申请表单、全自动投递。\n*   **代表工具：** Simplify (浏览器插件), LoopCV, Sonara, LinkedIn Premium (AI 匹配功能)。\n\n### 4. 面试模拟与培训类 (Interview Prep)\n帮助求职者在实际面试前进行模拟演练，克服紧张情绪，并优化回答内容。\n*   **核心功能：** AI 模拟面试官提问、实时语音交互、针对回答给出口头表达和逻辑上的修改建议。\n*   **代表工具：** Google Interview Warmup, Yoodli, Prepper, 🚀 各种基于大模型的 AI 模拟面试 Prompt。\n\n### 5. 求职进程管理工具 (Job Search Trackers)\n当求职者同时投递几十甚至上百家公司时，这类工具用于整理和追踪所有申请状态。\n*   **核心功能：** 自动抓取已投递职位信息、看板式管理（投递中、面试中、已拒绝、Offer）、跟进时间提醒。\n*   **代表工具：** Teal (Job Tracker), Huntr。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "AI 求职工具主要针对求职者在不同阶段的需求，大致可以分为以下 **5 大类**：\n\n### 1. 简历制作与优化类 (Resume Optimization)\n这类工具帮助求职者从零撰写简历，或针对特定岗位进行优化，以通过企业的 **ATS（简历自动筛选系统）**。\n*   **核心功能：** 简历模板生成、关键词匹配度分析、AI 润色与改写、格式调整。\n*   **代表工具：** Rezi, Teal, Kickresume, 简历蜂（国内）。\n\n### 2. 求职信与沟通生成类 (Cover Letter & Outreach)\n用于撰写求职信（Cover Letter）、向HR发送的打招呼消息（Cold Message）以及后续的跟进邮件。\n*   **核心功能：** 根据岗位描述（JD）和个人履历，一键生成定制化的求职信和社交媒体（如 LinkedIn/脉脉）话术。\n*   **代表工具：** ChatGPT, Copy.ai, Jasper, LazyApply。\n\n### 3. 职位匹配与自动投递类 (Job Matching & Auto-Apply)\n这类工具利用 AI 算法在全网抓取并匹配最适合求职者的岗位，甚至代替人工进行批量自动投递。\n*   **核心功能：** 智能职位推荐、一键自动填充申请表单、全自动投递。\n*   **代表工具：** Simplify (浏览器插件), LoopCV, Sonara, LinkedIn Premium (AI 匹配功能)。\n\n### 4. 面试模拟与培训类 (Interview Prep)\n帮助求职者在实际面试前进行模拟演练，克服紧张情绪，并优化回答内容。\n*   **核心功能：** AI 模拟面试官提问、实时语音交互、针对回答给出口头表达和逻辑上的修改建议。\n*   **代表工具：** Google Interview Warmup, Yoodli, Prepper, 🚀 各种基于大模型的 AI 模拟面试 Prompt。\n\n### 5. 求职进程管理工具 (Job Search Trackers)\n当求职者同时投递几十甚至上百家公司时，这类工具用于整理和追踪所有申请状态。\n*   **核心功能：** 自动抓取已投递职位信息、看板式管理（投递中、面试中、已拒绝、Offer）、跟进时间提醒。\n*   **代表工具：** Teal (Job Tracker), Huntr。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787125073,
+    "id": "S12FaoH_AtK7kdUP35OGiQo",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 533,
+      "prompt_tokens": 38,
+      "total_tokens": 1424
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:37:53.578294Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具主要针对求职者在不同阶段的需求，大致可以分为以下 **5 大类**：\n\n### 1. 简历制作与优化类 (Resume Optimization)\n这类工具帮助求职者从零撰写简历，或针对特定岗位进行优化，以通过企业的 **ATS（简历自动筛选系统）**。\n*   **核心功能：** 简历模板生成、关键词匹配度分析、AI 润色与改写、格式调整。\n*   **代表工具：** Rezi, Teal, Kickresume, 简历蜂（国内）。\n\n### 2. 求职信与沟通生成类 (Cover Letter & Outreach)\n用于撰写求职信（Cover Letter）、向HR发送的打招呼消息（Cold Message）以及后续的跟进邮件。\n*   **核心功能：** 根据岗位描述（JD）和个人履历，一键生成定制化的求职信和社交媒体（如 LinkedIn/脉脉）话术。\n*   **代表工具：** ChatGPT, Copy.ai, Jasper, LazyApply。\n\n### 3. 职位匹配与自动投递类 (Job Matching & Auto-Apply)\n这类工具利用 AI 算法在全网抓取并匹配最适合求职者的岗位，甚至代替人工进行批量自动投递。\n*   **核心功能：** 智能职位推荐、一键自动填充申请表单、全自动投递。\n*   **代表工具：** Simplify (浏览器插件), LoopCV, Sonara, LinkedIn Premium (AI 匹配功能)。\n\n### 4. 面试模拟与培训类 (Interview Prep)\n帮助求职者在实际面试前进行模拟演练，克服紧张情绪，并优化回答内容。\n*   **核心功能：** AI 模拟面试官提问、实时语音交互、针对回答给出口头表达和逻辑上的修改建议。\n*   **代表工具：** Google Interview Warmup, Yoodli, Prepper, 🚀 各种基于大模型的 AI 模拟面试 Prompt。\n\n### 5. 求职进程管理工具 (Job Search Trackers)\n当求职者同时投递几十甚至上百家公司时，这类工具用于整理和追踪所有申请状态。\n*   **核心功能：** 自动抓取已投递职位信息、看板式管理（投递中、面试中、已拒绝、Offer）、跟进时间提醒。\n*   **代表工具：** Teal (Job Tracker), Huntr。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

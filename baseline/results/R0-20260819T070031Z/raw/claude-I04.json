@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于社群参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "# 获取 Skillver 邀请码的方法\n\n以下是一些常见的获取途径：\n\n1. **官方渠道**\n   - 访问 Skillver 官方网站，注册等待列表（Waitlist）\n   - 关注官方社交媒体账号（Twitter/X、LinkedIn 等），官方有时会发放邀请码\n\n2. **社区渠道**\n   - 在相关论坛（如 Reddit、V2EX、Discord）搜索是否有用户分享邀请码\n   - 加入 Skillver 的官方 Discord 社群，参与活动获取\n\n3. **朋友邀请**\n   - 向已有账号的用户索取邀请链接（部分平台有推荐机制）\n\n4. **内测活动**\n   - 关注官方博客或邮件订阅，参与内测资格申请\n\n---\n\n💡 **建议**：直接前往 **Skillver 官网** 提交申请是最稳妥的方式。\n\n如果你能提供更多关于这个平台的信息，我可以给出更具体的建议。请注意甄别网络上非官方渠道的邀请码，避免上当受骗。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBhBrdcamahB53kSo4nV",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 获取 Skillver 邀请码的方法\n\n以下是一些常见的获取途径：\n\n1. **官方渠道**\n   - 访问 Skillver 官方网站，注册等待列表（Waitlist）\n   - 关注官方社交媒体账号（Twitter/X、LinkedIn 等），官方有时会发放邀请码\n\n2. **社区渠道**\n   - 在相关论坛（如 Reddit、V2EX、Discord）搜索是否有用户分享邀请码\n   - 加入 Skillver 的官方 Discord 社群，参与活动获取\n\n3. **朋友邀请**\n   - 向已有账号的用户索取邀请链接（部分平台有推荐机制）\n\n4. **内测活动**\n   - 关注官方博客或邮件订阅，参与内测资格申请\n\n---\n\n💡 **建议**：直接前往 **Skillver 官网** 提交申请是最稳妥的方式。\n\n如果你能提供更多关于这个平台的信息，我可以给出更具体的建议。请注意甄别网络上非官方渠道的邀请码，避免上当受骗。"
+        }
+      }
+    ],
+    "created": 1787123641,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 353,
+      "prompt_tokens": 51,
+      "total_tokens": 404
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:01.310244Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "# 获取 Skillver 邀请码的方法\n\n以下是一些常见的获取途径：\n\n1. **官方渠道**\n   - 访问 Skillver 官方网站，注册等待列表（Waitlist）\n   - 关注官方社交媒体账号（Twitter/X、LinkedIn 等），官方有时会发放邀请码\n\n2. **社区渠道**\n   - 在相关论坛（如 Reddit、V2EX、Discord）搜索是否有用户分享邀请码\n   - 加入 Skillver 的官方 Discord 社群，参与活动获取\n\n3. **朋友邀请**\n   - 向已有账号的用户索取邀请链接（部分平台有推荐机制）\n\n4. **内测活动**\n   - 关注官方博客或邮件订阅，参与内测资格申请\n\n---\n\n💡 **建议**：直接前往 **Skillver 官网** 提交申请是最稳妥的方式。\n\n如果你能提供更多关于这个平台的信息，我可以给出更具体的建议。请注意甄别网络上非官方渠道的邀请码，避免上当受骗。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

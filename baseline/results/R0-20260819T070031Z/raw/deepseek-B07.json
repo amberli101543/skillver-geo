@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "关于 **Skillver** 是否当前开放使用，我需要先说明：截至目前，我没有关于“Skillver”这一具体产品的最新公开信息。这可能是一个较新的平台、工具或服务，也可能是某个特定领域（如招聘、技能匹配、学习平台等）的专有名称。\n\n为了给你准确的答复，建议你：\n\n1. **访问官方网站**：直接搜索“Skillver”官网，查看是否有注册入口或官方公告。\n2. **查看社交媒体或新闻**：通过LinkedIn、Twitter等平台搜索，了解其最新动态。\n3. **联系官方客服**：如果网站可访问，通常有联系方式（如邮箱或在线客服）。\n\n如果你能提供更多背景信息（例如它属于哪个行业或用途），我可以进一步帮你分析或给出更具体的建议。",
+  "sources": [],
+  "raw": {
+    "id": "1e0eff19-c530-4a9b-bdcb-be1ad521f967",
+    "object": "chat.completion",
+    "created": 1787123299,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 **Skillver** 是否当前开放使用，我需要先说明：截至目前，我没有关于“Skillver”这一具体产品的最新公开信息。这可能是一个较新的平台、工具或服务，也可能是某个特定领域（如招聘、技能匹配、学习平台等）的专有名称。\n\n为了给你准确的答复，建议你：\n\n1. **访问官方网站**：直接搜索“Skillver”官网，查看是否有注册入口或官方公告。\n2. **查看社交媒体或新闻**：通过LinkedIn、Twitter等平台搜索，了解其最新动态。\n3. **联系官方客服**：如果网站可访问，通常有联系方式（如邮箱或在线客服）。\n\n如果你能提供更多背景信息（例如它属于哪个行业或用途），我可以进一步帮你分析或给出更具体的建议。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 162,
+      "total_tokens": 199,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:08:21.397373Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "关于 **Skillver** 是否当前开放使用，我需要先说明：截至目前，我没有关于“Skillver”这一具体产品的最新公开信息。这可能是一个较新的平台、工具或服务，也可能是某个特定领域（如招聘、技能匹配、学习平台等）的专有名称。\n\n为了给你准确的答复，建议你：\n\n1. **访问官方网站**：直接搜索“Skillver”官网，查看是否有注册入口或官方公告。\n2. **查看社交媒体或新闻**：通过LinkedIn、Twitter等平台搜索，了解其最新动态。\n3. **联系官方客服**：如果网站可访问，通常有联系方式（如邮箱或在线客服）。\n\n如果你能提供更多背景信息（例如它属于哪个行业或用途），我可以进一步帮你分析或给出更具体的建议。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

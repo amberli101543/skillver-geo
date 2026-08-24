@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "目前公开渠道关于 **Skillver** 的权威信息较少，我无法给出确切的“靠谱”或“不靠谱”的定论。\n\n建议你通过以下几点自行判断：\n\n1. **查资质**：是否有正规公司主体、ICP 备案或工商注册信息。\n2. **看口碑**：在知乎、脉脉、小红书或招聘论坛搜索真实用户评价，注意辨别水军。\n3. **审模式**：如果涉及**先付费**、承诺“保过/保offer”、或索要过多敏感个人信息，需格外警惕。\n4. **验透明度**：官网/APP 是否有明确的联系方式、退款政策和服务协议。\n\n如果是求职或技能认证相关平台，优先选择业内知名度高、与正规企业有明确合作背书的渠道更为稳妥。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a855527dda1fe7545e63cec",
+    "object": "chat.completion",
+    "created": 1787122984,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前公开渠道关于 **Skillver** 的权威信息较少，我无法给出确切的“靠谱”或“不靠谱”的定论。\n\n建议你通过以下几点自行判断：\n\n1. **查资质**：是否有正规公司主体、ICP 备案或工商注册信息。\n2. **看口碑**：在知乎、脉脉、小红书或招聘论坛搜索真实用户评价，注意辨别水军。\n3. **审模式**：如果涉及**先付费**、承诺“保过/保offer”、或索要过多敏感个人信息，需格外警惕。\n4. **验透明度**：官网/APP 是否有明确的联系方式、退款政策和服务协议。\n\n如果是求职或技能认证相关平台，优先选择业内知名度高、与正规企业有明确合作背书的渠道更为稳妥。",
+          "reasoning_content": "用户问的是 \"Skillver 靠谱吗？\"，这是一个关于某个产品/服务/平台是否可靠的问题。\n\n首先，我需要确定 \"Skillver\" 是什么。根据我的知识，Skillver 似乎是一个与技能验证、在线测试或招聘相关的平台，但我不确定其具体的知名度和可靠性。由于我没有关于 \"Skillver\" 的具体、权威的实时信息，我应该诚实地说明这一点，而不是编造信息。\n\n关键点：\n1. 用户用中文提问，我应该用中文回答。\n2. 要实事求是（be factual）。\n3. 要简洁（concise）。\n4. 我不知道 Skillver 的具体情况，或者至少没有足够的权威信息来给出明确的\"靠谱\"或\"不靠谱\"的判断。\n\n因此，我的回答应该：\n- 说明我没有找到关于 \"Skillver\" 的广泛权威信息。\n- 建议用户如何通过自行调查来判断其可靠性（如查看官网、用户评价、公司背景、是否有明确联系方式等）。\n- 提醒注意风险，特别是如果涉及付费、个人信息或求职。\n\n让我再仔细回忆一下：Skillver 可能是一个相对较新的平台，或者是某个特定领域的小众平台。如果我无法确认其可靠性，最安全的做法是建议用户自行核实。\n\n回答结构：\n1. 直接说明：目前缺乏足够的公开权威信息来确切评价。\n2. 给出判断标准：建议用户从哪些方面考察（资质、口碑、透明度、收费模式）。\n3. 提醒风险：谨慎对待付费要求和个人信息。\n\n确保简洁。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 458,
+      "total_tokens": 500,
+      "completion_tokens_details": {
+        "reasoning_tokens": 304
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:03:18.296405Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "目前公开渠道关于 **Skillver** 的权威信息较少，我无法给出确切的“靠谱”或“不靠谱”的定论。\n\n建议你通过以下几点自行判断：\n\n1. **查资质**：是否有正规公司主体、ICP 备案或工商注册信息。\n2. **看口碑**：在知乎、脉脉、小红书或招聘论坛搜索真实用户评价，注意辨别水军。\n3. **审模式**：如果涉及**先付费**、承诺“保过/保offer”、或索要过多敏感个人信息，需格外警惕。\n4. **验透明度**：官网/APP 是否有明确的联系方式、退款政策和服务协议。\n\n如果是求职或技能认证相关平台，优先选择业内知名度高、与正规企业有明确合作背书的渠道更为稳妥。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

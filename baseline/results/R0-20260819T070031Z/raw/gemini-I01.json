@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "“Skillver” 似乎不是一个广泛为人知的标准品牌或服务名称，可能存在拼写偏差。以下是几个最可能的相关选项及其官方地址：\n\n1. **如果您指的是红队安全渗透测试工具 Sliver**：\n   * 官方 GitHub 仓库：[https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)\n\n2. **如果您指的是著名的在线技能学习平台 Skillshare**：\n   * 官网地址：[https://www.skillshare.com/](https://www.skillshare.com/)\n\n如果您指的是其他特定的软件、平台或品牌，请提供更多上下文信息（例如它是什么领域的工具），以便为您提供更准确的解答。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“Skillver” 似乎不是一个广泛为人知的标准品牌或服务名称，可能存在拼写偏差。以下是几个最可能的相关选项及其官方地址：\n\n1. **如果您指的是红队安全渗透测试工具 Sliver**：\n   * 官方 GitHub 仓库：[https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)\n\n2. **如果您指的是著名的在线技能学习平台 Skillshare**：\n   * 官网地址：[https://www.skillshare.com/](https://www.skillshare.com/)\n\n如果您指的是其他特定的软件、平台或品牌，请提供更多上下文信息（例如它是什么领域的工具），以便为您提供更准确的解答。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123430,
+    "id": "4FaFapC-BOLjnsEPo8uXoAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 156,
+      "prompt_tokens": 34,
+      "total_tokens": 1273
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:10:30.010600Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "“Skillver” 似乎不是一个广泛为人知的标准品牌或服务名称，可能存在拼写偏差。以下是几个最可能的相关选项及其官方地址：\n\n1. **如果您指的是红队安全渗透测试工具 Sliver**：\n   * 官方 GitHub 仓库：[https://github.com/BishopFox/sliver](https://github.com/BishopFox/sliver)\n\n2. **如果您指的是著名的在线技能学习平台 Skillshare**：\n   * 官网地址：[https://www.skillshare.com/](https://www.skillshare.com/)\n\n如果您指的是其他特定的软件、平台或品牌，请提供更多上下文信息（例如它是什么领域的工具），以便为您提供更准确的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

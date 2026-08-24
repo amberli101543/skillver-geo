@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "关于 **Skillver** 是否收费，我需要说明：\n\n我的知识截止日期是 **2025年初**，我没有关于 Skillver 最新收费政策的确切信息。\n\n建议您：\n1. **直接访问 Skillver 官网**，查看最新的定价页面\n2. **联系其客服**了解当前的收费方案\n\n不同时期平台的收费模式可能会有变化，以官方最新信息为准。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBhSNmEVkGxow9UbXrWz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 **Skillver** 是否收费，我需要说明：\n\n我的知识截止日期是 **2025年初**，我没有关于 Skillver 最新收费政策的确切信息。\n\n建议您：\n1. **直接访问 Skillver 官网**，查看最新的定价页面\n2. **联系其客服**了解当前的收费方案\n\n不同时期平台的收费模式可能会有变化，以官方最新信息为准。"
+        }
+      }
+    ],
+    "created": 1787123834,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 143,
+      "prompt_tokens": 48,
+      "total_tokens": 191
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:14.230933Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "关于 **Skillver** 是否收费，我需要说明：\n\n我的知识截止日期是 **2025年初**，我没有关于 Skillver 最新收费政策的确切信息。\n\n建议您：\n1. **直接访问 Skillver 官网**，查看最新的定价页面\n2. **联系其客服**了解当前的收费方案\n\n不同时期平台的收费模式可能会有变化，以官方最新信息为准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

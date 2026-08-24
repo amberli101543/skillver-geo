@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "AI 模拟面试工具可以帮助求职者进行针对性练习，并提供语言表达、逻辑和专业内容的反馈。以下是目前国内外主流的 AI 模拟面试工具：\n\n### 一、 国内主流工具（更适合中文及本土企业面试）\n\n1. **牛客 AI 模拟面试**\n   * **特点**：专注技术、IT、互联网大厂及校园招聘。积累了大量真实大厂面试题库，提供技术面和通用面的 AI 模拟及详细报告。\n2. **AI 面试鸭**\n   * **特点**：提供多种岗位（产品、运营、销售、公考等）的 AI 模拟面试，支持 AI 追问，并在面试后给出多维度的打分和修改建议。\n3. **主流招聘平台内置 AI 面试**（如**智联招聘**、**前程无忧**、**猎聘**等）\n   * **特点**：这些平台通常提供“AI 面试模拟”功能，模拟企业真实的 AI 初筛场景（如单向视频面试），帮助熟悉系统流程。\n4. **闪面 AI (Shine) / 扣子 (Coze) 上的面试智能体**\n   * **特点**：基于大语言模型的面试机器人，用户可以根据特定岗位自定义面试官的性格和专业背景。\n\n---\n\n### 二、 国外主流工具（更适合外企、出海企业及英文面试）\n\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的**免费**工具。主要针对科技、数据分析、项目管理、网络安全和电商等岗位，通过语音或文字回答，AI 会实时分析你的回答特征（如高频词、专业术语）。\n2. **Yoodli**\n   * **特点**：AI 沟通教练。不仅分析回答内容，还重点分析你的**演讲表达**（如语速、口头禅、眼神交流、自信度等），非常适合提升面试表现力。\n3. **Prepper (by Barrax)**\n   * **特点**：输入你想面试的岗位和公司，AI 会自动生成针对性的面试问题，并对你的回答进行评分和润色。\n4. **Interviewing.io**\n   * **特点**：专注于软件工程、系统设计等技术面试。提供 AI 模拟和匿名真人（来自 Meta、Google 等）模拟面试。\n\n---\n\n### 三、 通用大模型（免费且高度自定义）\n\n你也可以直接使用 **ChatGPT、Claude、Kimi 或 智谱清言** 等通用大模型。\n* **使用方法**：输入提示词（Prompt），例如：“*请扮演 [公司名] 的 [岗位名] 面试官，对我进行模拟面试。每次只提一个问题，在我回答后给予反馈并提下一个问题。*”",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "AI 模拟面试工具可以帮助求职者进行针对性练习，并提供语言表达、逻辑和专业内容的反馈。以下是目前国内外主流的 AI 模拟面试工具：\n\n### 一、 国内主流工具（更适合中文及本土企业面试）\n\n1. **牛客 AI 模拟面试**\n   * **特点**：专注技术、IT、互联网大厂及校园招聘。积累了大量真实大厂面试题库，提供技术面和通用面的 AI 模拟及详细报告。\n2. **AI 面试鸭**\n   * **特点**：提供多种岗位（产品、运营、销售、公考等）的 AI 模拟面试，支持 AI 追问，并在面试后给出多维度的打分和修改建议。\n3. **主流招聘平台内置 AI 面试**（如**智联招聘**、**前程无忧**、**猎聘**等）\n   * **特点**：这些平台通常提供“AI 面试模拟”功能，模拟企业真实的 AI 初筛场景（如单向视频面试），帮助熟悉系统流程。\n4. **闪面 AI (Shine) / 扣子 (Coze) 上的面试智能体**\n   * **特点**：基于大语言模型的面试机器人，用户可以根据特定岗位自定义面试官的性格和专业背景。\n\n---\n\n### 二、 国外主流工具（更适合外企、出海企业及英文面试）\n\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的**免费**工具。主要针对科技、数据分析、项目管理、网络安全和电商等岗位，通过语音或文字回答，AI 会实时分析你的回答特征（如高频词、专业术语）。\n2. **Yoodli**\n   * **特点**：AI 沟通教练。不仅分析回答内容，还重点分析你的**演讲表达**（如语速、口头禅、眼神交流、自信度等），非常适合提升面试表现力。\n3. **Prepper (by Barrax)**\n   * **特点**：输入你想面试的岗位和公司，AI 会自动生成针对性的面试问题，并对你的回答进行评分和润色。\n4. **Interviewing.io**\n   * **特点**：专注于软件工程、系统设计等技术面试。提供 AI 模拟和匿名真人（来自 Meta、Google 等）模拟面试。\n\n---\n\n### 三、 通用大模型（免费且高度自定义）\n\n你也可以直接使用 **ChatGPT、Claude、Kimi 或 智谱清言** 等通用大模型。\n* **使用方法**：输入提示词（Prompt），例如：“*请扮演 [公司名] 的 [岗位名] 面试官，对我进行模拟面试。每次只提一个问题，在我回答后给予反馈并提下一个问题。*”",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvcYCvQYARFNMg9ShW79h6zulynuNb4CrfO/KJWwdF0SsN0aCiMs+3Ecq75vWTCCVJu6EcwEl8hPImPxXXgrhNsgtTDR2nmEnjj05W/7pT/4Dai8kWPYIwVKATns9k/T6oMQHaX535cY+NCmNq7d/87couPJZwXn6Q18MLkAdA7EFYDvi2ZQhvf4DJCcNfrM8i31syTqg5kRruouDDqyjmdz1hW7DLvlm3PkxRigggwUWwsrCJLS4E0wj4d1CbnIDDx4y3qE0NEqAaaGXiZKlN/to+VtTPdf1/MMe6+9WB/OQ+SR6gx8zG0DfxKdTR5bR5hmTWvKzvM4HxXFyjC24O0qDsw8/nMoHQIQk25jKuRxBzgxpkvrHDtnUr/Cc8qDMBt5DyOJKdPlUuMejOZiF7OmDiXP3x60r8Dc6gzAgS0f7RYR/EGo5KjEmR6DvLYX040APh00X7moYZRKN2tjSJh7I18tznl53JtDK5BAnaghiTS8eRURW8a/K1uE8aOxK3XHljHWaX7PKG03APHikyzSnGvJViQ2eHKnArzrh11vuVy9AVNfw6RP2OXtKxp1wfEqUB0xOUrUQOxQbLJGghu68xS5/mNzQ+r4fCt2VQWuKmrFi42SJI3d8KHa9dAnimrNA7c8/qTqI2YAA3Siq9JU8bk82IC292u7/KZapzDKFoKkNBPYMgisnUdr/fpHI/VamVuYGZvqJPFWOzEVwiHlQSQfWq8Fcbf/J50pb3MWf7pyUoO5Qcn8eJL3ZHtW6luCxvLI5kNc2wgFfosQW2MIUCcCO+GKuxW4Z0UyUfAquod0MGU+6qC3xndz/bAXjERYU1XiqcP0AeKjtZEj669flzmZDk0HCx3icfxXcfN3aOjuV2iMUJHxd4u3KHRfjmotLcdAyydFloCqhn6Og0PP2mwg2othiPqMHszMCp2QYu0Z7/hgDmhthB7wx0c7SyJFTTFPh5GKh2C8sZBgXGgtuO04yBEDj3f7HXiEB+aac3FufuTKfzYKn78uxKzDqnTjIgCPrVJn6oCiKswwlsojjCYg0bBMJJvQAZAd0ijo5HSBsSIgLQrnfk4jQg6d0uLb4T3gttaeOkn/PjWi0ksB4H8YqwN7hXZiLI0Jufz99h5SM104NhvaHdGsm4KKH59TTRNDbCHmJ4Qn5UzqQT65GZrILZgwgTAizXXusg0Jw0BQD8ukpNvTwRKiqOpsqU1LY0nQLpQC+ASmOIYMXjIfcvPx4oNNDMOybt7rnnrri3cqMfjOY9WottDhIAaPMecUjGAkhNxQgo0slph7/KxKU8N5sTFmDb2FpGc15g4hvEuYO79m9J5ThXMK7Ai7d0GvTH2dvWx6TVlBO+y514PKKjJ1e8pxY+TuGJhR3lTJiZ8Ty5DwgpL36Ojj1nBWXgjYoUyOkSBFBxqQaWJFxwYRXYNd3HSdszSPPgz2tSuw8YCxWjYQ/ft8s1hkRAt4tTP7uHI0xhmbAHFF06W4NgpeoA7sUBlgraXYxny8tPK3WXB/LPbrp/B/KXy+N8OJovuebsHQwOp8L+fr4+VQrXSujFZ8LD3sXhzbKdFPGV6gyivu7Ei+6RTtMDiwZM5Y3J7s2QJEYE8TbeWrFmHoGsszyYph9uhzutty3zjT1SZrPXbYaGFAZQDwpRMLBe6l9Xi5DwT6QUPbFVQ0CevEhKMrKU/yFKsadmBn+f8e85Bsu6EQ0OdjrqLVHmvcbsrLVu57Ytj9zK1ROR/Zn0CuyhbUPZC5wCLcCzAUEcA7P+883xaEFt+zpCFYULyfJ1jQGjsh1TRivhQ1nXjR716b6Whd7DWoiePrekmBi6U34XIr143eyhEwzJULx6rWq/+tFirdDV0XFzqisN4Vt7Tzrbg1Nl8YfC/Hx+7OfSmkclrm8Hd7sOTUtK82rmML5eF2Zx2q80eLosHLIEd1szFyTnEg5aTmrl0KUudZOguo+/et0EF2zETXEB5kOW62j7iAZ4NTWjr59uyZHKQp1KnhJYG+jSGRgJ33djs1SkYtmAD5K/0pba/wSZYoNwSwvBnxnPJcWnxjt3ZkVQgO6AwTbevoKOsMItwXhhvO5BYt33WE1ZyX2B0TPho8l04K5MPLZT0TRsE5jr0HOjk4p11USbTgXyOcF0stUywED4hx/+OWN7pBWXm4TR4Om9h+mJ4T6Ec2ldtWJ/yivDebJMvRr7ndaCf3AUgZDCwfl18GRYTcgqP5ExpTiQflbQpJnKgzKRru0lzQlDjlaFf+MXD4JEgRU5sqx022KuCTyTS1DHRqwJMCSt3HAD8AZQGLJNb53ULAls7Iuu/zVtRnftOD8vnlLkMr4UadP7xBOXou5gMVtoHC7XGWjQxBTJPZMR7BPy63CfA1AJuiz5O/YULEAFLSmgHyjxtVmfV+tS4knSVCnTiLGVWVH8BlCFLPlIhrWy1KGdql3zOK0MH95vrfAM9QIhHBLSXCQBd8uAvFoAKFPFBnjgHYrNwHHOwMeLO0a7akBJMkHZ8+Uy1NJNK2hHr/gmRbQt7jdu+FM8A11CGf/62QplYzSigtqPGzRMBPQvDfZ0151OjD5NFEzjcCcj5EaYdn0oU2V2F3/9dcINmvlMkAeH/9wPijSwV+hj9xWTVBhzQCIQJyKZ3FJkCb7HKWfJ4KIiecz+Zq/HlNVPn9XrhYd+LJQumPxffjodrv6EaSENsQMYsD3QIydNA/3+smb6kcA5GR4FnYBRnO5yilWu27K6l150ActxOGjewjwn+AfBPD/jhZj8MqZgQPGV3aoFMquNfTb/i8LOQ+18neKZVmeS8aQ0FYw5kxWboYwbIthOvQEM98ks/gHSNJnwjLFXFt74WrgAMPuoeAwg0r4VFZzIjW251XS7KjXjr5HcwXvn11SKfLGkYSr0/VZYKAfIOSH3vty4jd0tLZsBBsJhqILBlK7nm/8rjV1XdhnLcP7a1B5rla181Ha2APiqH1OBR5r5Lp+Cg3gtIrkfilfOg9rSE5yqAZQFOlD2K5J/P1qkrnftpBh3E7HwTIn5D3DhAZBrmzryA6OPIqR+XZN9e8RAkfCWkvlu3YTzWQyypY9xeNKtNgTGXhkLyjRw3w7bhNi6wWsNpMA11KSVu2hNJxtOR4S5GvuK4M0baDUUXOzDYr/st2DYDOncJ6FDAvafvKhjVQkewB5qIC7qLpTrOFgoDooG4GU/bQD+hvhxYyZXDjxzl5cQeGVLi157eUQd0mz74gkJzUEzNSkdzsjSbKRNp/nIjcCMBulP9ESoFJtOw8Ip6aBiaO76/fuSsmqZQHhWRBpulcypDdhjqKUCWtdagPNH5JqPmDF9ZyGxwktlN+tbEf6bzBnLD3KKcy+E8Hd6i+p9l8zYzI3us95Td/1P8F6RdYEL4GotDMrPfGsOcSbezsdrE0z0ZAarQfegembVy6uKK5xKtHzUslLDEWgQEib4zvMsQBVQpi7SdmvdPTYY4N4wY8uFMNvUtZQIQx8eI67H0Fr40mYEn/dqlCGSFKj6OLdH+AaogeT31beW5JvufDzd2hLZtb2a6fkbWj5UmIPVoXHcrZpg/c6ekYN/Y/eFBqhJMRblWmeFtiZeo++hwC0djspdxBhDX7VxBf3CWfpQibuZjo6E9tky6BF/DaBtwpq5IXzSwCNUXJYjfMhg4s+SlfSzdQwAyXYr5zrwhNoc/E21vJCpRzXVHYwUGhOcyXVZ8dRtlcBpQ5p1T76NFOn6c4txtwE3/tcr6hIAc6wUfRBAobG3KDNm0jBuhBmX0bYnCcVXUxsMN4wYrGdpPO9pnaI02yFQqaFXIF+2woiZJPakY9UVNTs10c/Do9sADksG/OOdCcdHC1neIsNKCGu7BGlYskCYIw1NKRhOtq5pWGORGOwpPANc1Ki7H0MGMva0ZhVdXvRLncohyp50sJM8bAnyt3jtAf48zbLUyIkDdo/QFkwWOxah7N9eHRdBn2Iv877QZ2Q6sA95Ut/+aIkw2sPerYX4P/xp9rSGsqLGcMFbVmis/vzaiUNNUf5Zz7j+SsUUUSx9/DuaU7mXKuy5eF/IJ0TTqNcrzL/FoUPKJKOo0T7UOpMFUlo+B5hNdyjKiOY8O3l7jxP0GNx8RcK8IcnL2lp6DyNkLFG1aJ/Z6uxTcCHyrNqWqCbu4yeqa36o44XON1VIgdZQHFoYPH1jgGH/GsKjInTQKCKAa+Pr8m8zBIwVhQ+teHU7zSEw3V0slfmuO5LFrTSgJMbPKrKZFaU6wuiNuo8ZKL4VCekkk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124792,
+    "id": "MVyFaquNBdehnsEP-bymuAM",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 611,
+      "prompt_tokens": 36,
+      "total_tokens": 1465
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:33:14.099698Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "AI 模拟面试工具可以帮助求职者进行针对性练习，并提供语言表达、逻辑和专业内容的反馈。以下是目前国内外主流的 AI 模拟面试工具：\n\n### 一、 国内主流工具（更适合中文及本土企业面试）\n\n1. **牛客 AI 模拟面试**\n   * **特点**：专注技术、IT、互联网大厂及校园招聘。积累了大量真实大厂面试题库，提供技术面和通用面的 AI 模拟及详细报告。\n2. **AI 面试鸭**\n   * **特点**：提供多种岗位（产品、运营、销售、公考等）的 AI 模拟面试，支持 AI 追问，并在面试后给出多维度的打分和修改建议。\n3. **主流招聘平台内置 AI 面试**（如**智联招聘**、**前程无忧**、**猎聘**等）\n   * **特点**：这些平台通常提供“AI 面试模拟”功能，模拟企业真实的 AI 初筛场景（如单向视频面试），帮助熟悉系统流程。\n4. **闪面 AI (Shine) / 扣子 (Coze) 上的面试智能体**\n   * **特点**：基于大语言模型的面试机器人，用户可以根据特定岗位自定义面试官的性格和专业背景。\n\n---\n\n### 二、 国外主流工具（更适合外企、出海企业及英文面试）\n\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的**免费**工具。主要针对科技、数据分析、项目管理、网络安全和电商等岗位，通过语音或文字回答，AI 会实时分析你的回答特征（如高频词、专业术语）。\n2. **Yoodli**\n   * **特点**：AI 沟通教练。不仅分析回答内容，还重点分析你的**演讲表达**（如语速、口头禅、眼神交流、自信度等），非常适合提升面试表现力。\n3. **Prepper (by Barrax)**\n   * **特点**：输入你想面试的岗位和公司，AI 会自动生成针对性的面试问题，并对你的回答进行评分和润色。\n4. **Interviewing.io**\n   * **特点**：专注于软件工程、系统设计等技术面试。提供 AI 模拟和匿名真人（来自 Meta、Google 等）模拟面试。\n\n---\n\n### 三、 通用大模型（免费且高度自定义）\n\n你也可以直接使用 **ChatGPT、Claude、Kimi 或 智谱清言** 等通用大模型。\n* **使用方法**：输入提示词（Prompt），例如：“*请扮演 [公司名] 的 [岗位名] 面试官，对我进行模拟面试。每次只提一个问题，在我回答后给予反馈并提下一个问题。*”",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

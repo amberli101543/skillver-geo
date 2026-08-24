@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试，可以从**知识体系构建、刷题练习、模拟面试、项目与简历**四个维度选择合适的工具。以下按类别推荐：\n\n---\n\n### 1. 知识体系构建（打基础）\n- **《统计学习方法》+ 南瓜书**：李航的经典教材，南瓜书（DataWhale 开源）帮你推导公式，夯实机器学习基础。\n- **CS229 / CS230 课程**：吴恩达在 Stanford 的课程（视频 + 讲义），适合系统梳理 ML/DL 原理。\n- **《深度学习》（花书）**：深度学习理论核心，面试常考的反向传播、优化器、正则化等概念都源于此。\n- **AI 面试知识库（开源仓库）**：比如 `pengzhile/ai-interview`、`CyC2018/CS-Notes` 的 AI 部分，涵盖常见面试题和答案。\n\n---\n\n### 2. 刷题与代码练习（算法/手撕）\n- **LeetCode**：重点刷**Hot 100**、**Top Interview 150**，特别是**数组、链表、树、动态规划、二分、图**。AI 岗位通常考 medium 难度，但大厂会加一道 hard。\n- **HackerRank / Codeforces**：如果目标是外企（如 Google、Meta），建议用 HackerRank 熟悉英文题面。\n- **Knowledge 类题库**：`AI 面试大全`（GitHub 项目）、`DeepLearning.AI` 的测验题，专门针对模型原理（如 Transformer 结构、Attention 机制）。\n\n---\n\n### 3. 模型原理与手撕（重点突击）\n- **Transformer 相关**：阅读原始论文《Attention Is All You Need》，并用 **Hugging Face** 的教程跑通一个小模型，理解 `self-attention` 的计算流程（Q/K/V、多头、mask）。\n- **PyTorch 手撕**：用 Jupyter Notebook 手写 **softmax、交叉熵、反向传播（手动梯度）、自注意力**，很多面试会现场考察。\n- **神经网络可视化**：用 **Netron** 查看模型结构，**TensorBoard** 观察训练过程，加深对权重和梯度流的理解。\n\n---\n\n### 4. 模拟面试（实战演练）\n- **Pramp**：免费一对一模拟面试（可约 AI 方向），有真实互评环节。\n- **Interviewing.io**：付费可匿名约大厂工程师模拟，侧重系统设计和技术深度。\n- **ChatGPT / Claude 扮演面试官**：可以让 AI 随机提问“假设你面试 NLP 岗，问 5 个 Transformer 相关问题”，并给出评分和改进建议。\n- **牛客网**：国内企业常驻面经，可搜索具体公司的“AI 算法岗面经”，针对性准备。\n\n---\n\n### 5. 项目与简历（加分项）\n- **Kaggle**：挑 1-2 个比赛（如房价预测、图像分类、NLP 情感分析）完整跑通，写进简历体现工程能力。\n- **GitHub 开源项目**：研究并复现一篇顶会论文（如 3D 重建、目标检测 YOLO），面试时能讲清楚代码结构和损失函数。\n- **Notion / Obsidian**：用于记录面试错题、公式推导笔记，形成错题本。\n\n---\n\n### 6. 硬核工具（查漏补缺）\n- **Papers with Code**：快速查看顶会（NeurIPS/ICML/CVPR）的最新模型和代码，面试时能聊到前沿（如扩散模型、LLM 微调）。\n- **Hugging Face Space**：试玩现成大模型（如 Llama 3、Stable Diffusion），加深对生成式 AI 边界和 prompt 工程的理解。\n\n---\n\n### 建议的备考节奏（1-2 个月）\n1. **前 2 周**：用 CS229 复习 ML 基础 + LeetCode 每日 2 题（重点链表/树/DP）。\n2. **中 2 周**：主攻 Transformer 原理（读论文、跑代码）+ 手撕自注意力。\n3. **后 2 周**：模拟面试（Pramp/牛客）+ 复盘面经 + 打磨项目细节。\n\n如果时间紧张，优先把 **LeetCode 简单/中等题**和 **Transformer 原理**吃透，这两项占 AI 岗技术面的 70% 以上。祝面试顺利！",
+  "sources": [],
+  "raw": {
+    "id": "8f082c06-ba36-40d8-aabb-264b8efcab82",
+    "object": "chat.completion",
+    "created": 1787124868,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "准备 AI 岗位面试，可以从**知识体系构建、刷题练习、模拟面试、项目与简历**四个维度选择合适的工具。以下按类别推荐：\n\n---\n\n### 1. 知识体系构建（打基础）\n- **《统计学习方法》+ 南瓜书**：李航的经典教材，南瓜书（DataWhale 开源）帮你推导公式，夯实机器学习基础。\n- **CS229 / CS230 课程**：吴恩达在 Stanford 的课程（视频 + 讲义），适合系统梳理 ML/DL 原理。\n- **《深度学习》（花书）**：深度学习理论核心，面试常考的反向传播、优化器、正则化等概念都源于此。\n- **AI 面试知识库（开源仓库）**：比如 `pengzhile/ai-interview`、`CyC2018/CS-Notes` 的 AI 部分，涵盖常见面试题和答案。\n\n---\n\n### 2. 刷题与代码练习（算法/手撕）\n- **LeetCode**：重点刷**Hot 100**、**Top Interview 150**，特别是**数组、链表、树、动态规划、二分、图**。AI 岗位通常考 medium 难度，但大厂会加一道 hard。\n- **HackerRank / Codeforces**：如果目标是外企（如 Google、Meta），建议用 HackerRank 熟悉英文题面。\n- **Knowledge 类题库**：`AI 面试大全`（GitHub 项目）、`DeepLearning.AI` 的测验题，专门针对模型原理（如 Transformer 结构、Attention 机制）。\n\n---\n\n### 3. 模型原理与手撕（重点突击）\n- **Transformer 相关**：阅读原始论文《Attention Is All You Need》，并用 **Hugging Face** 的教程跑通一个小模型，理解 `self-attention` 的计算流程（Q/K/V、多头、mask）。\n- **PyTorch 手撕**：用 Jupyter Notebook 手写 **softmax、交叉熵、反向传播（手动梯度）、自注意力**，很多面试会现场考察。\n- **神经网络可视化**：用 **Netron** 查看模型结构，**TensorBoard** 观察训练过程，加深对权重和梯度流的理解。\n\n---\n\n### 4. 模拟面试（实战演练）\n- **Pramp**：免费一对一模拟面试（可约 AI 方向），有真实互评环节。\n- **Interviewing.io**：付费可匿名约大厂工程师模拟，侧重系统设计和技术深度。\n- **ChatGPT / Claude 扮演面试官**：可以让 AI 随机提问“假设你面试 NLP 岗，问 5 个 Transformer 相关问题”，并给出评分和改进建议。\n- **牛客网**：国内企业常驻面经，可搜索具体公司的“AI 算法岗面经”，针对性准备。\n\n---\n\n### 5. 项目与简历（加分项）\n- **Kaggle**：挑 1-2 个比赛（如房价预测、图像分类、NLP 情感分析）完整跑通，写进简历体现工程能力。\n- **GitHub 开源项目**：研究并复现一篇顶会论文（如 3D 重建、目标检测 YOLO），面试时能讲清楚代码结构和损失函数。\n- **Notion / Obsidian**：用于记录面试错题、公式推导笔记，形成错题本。\n\n---\n\n### 6. 硬核工具（查漏补缺）\n- **Papers with Code**：快速查看顶会（NeurIPS/ICML/CVPR）的最新模型和代码，面试时能聊到前沿（如扩散模型、LLM 微调）。\n- **Hugging Face Space**：试玩现成大模型（如 Llama 3、Stable Diffusion），加深对生成式 AI 边界和 prompt 工程的理解。\n\n---\n\n### 建议的备考节奏（1-2 个月）\n1. **前 2 周**：用 CS229 复习 ML 基础 + LeetCode 每日 2 题（重点链表/树/DP）。\n2. **中 2 周**：主攻 Transformer 原理（读论文、跑代码）+ 手撕自注意力。\n3. **后 2 周**：模拟面试（Pramp/牛客）+ 复盘面经 + 打磨项目细节。\n\n如果时间紧张，优先把 **LeetCode 简单/中等题**和 **Transformer 原理**吃透，这两项占 AI 岗技术面的 70% 以上。祝面试顺利！"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 970,
+      "total_tokens": 1008,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:34:38.810411Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试，可以从**知识体系构建、刷题练习、模拟面试、项目与简历**四个维度选择合适的工具。以下按类别推荐：\n\n---\n\n### 1. 知识体系构建（打基础）\n- **《统计学习方法》+ 南瓜书**：李航的经典教材，南瓜书（DataWhale 开源）帮你推导公式，夯实机器学习基础。\n- **CS229 / CS230 课程**：吴恩达在 Stanford 的课程（视频 + 讲义），适合系统梳理 ML/DL 原理。\n- **《深度学习》（花书）**：深度学习理论核心，面试常考的反向传播、优化器、正则化等概念都源于此。\n- **AI 面试知识库（开源仓库）**：比如 `pengzhile/ai-interview`、`CyC2018/CS-Notes` 的 AI 部分，涵盖常见面试题和答案。\n\n---\n\n### 2. 刷题与代码练习（算法/手撕）\n- **LeetCode**：重点刷**Hot 100**、**Top Interview 150**，特别是**数组、链表、树、动态规划、二分、图**。AI 岗位通常考 medium 难度，但大厂会加一道 hard。\n- **HackerRank / Codeforces**：如果目标是外企（如 Google、Meta），建议用 HackerRank 熟悉英文题面。\n- **Knowledge 类题库**：`AI 面试大全`（GitHub 项目）、`DeepLearning.AI` 的测验题，专门针对模型原理（如 Transformer 结构、Attention 机制）。\n\n---\n\n### 3. 模型原理与手撕（重点突击）\n- **Transformer 相关**：阅读原始论文《Attention Is All You Need》，并用 **Hugging Face** 的教程跑通一个小模型，理解 `self-attention` 的计算流程（Q/K/V、多头、mask）。\n- **PyTorch 手撕**：用 Jupyter Notebook 手写 **softmax、交叉熵、反向传播（手动梯度）、自注意力**，很多面试会现场考察。\n- **神经网络可视化**：用 **Netron** 查看模型结构，**TensorBoard** 观察训练过程，加深对权重和梯度流的理解。\n\n---\n\n### 4. 模拟面试（实战演练）\n- **Pramp**：免费一对一模拟面试（可约 AI 方向），有真实互评环节。\n- **Interviewing.io**：付费可匿名约大厂工程师模拟，侧重系统设计和技术深度。\n- **ChatGPT / Claude 扮演面试官**：可以让 AI 随机提问“假设你面试 NLP 岗，问 5 个 Transformer 相关问题”，并给出评分和改进建议。\n- **牛客网**：国内企业常驻面经，可搜索具体公司的“AI 算法岗面经”，针对性准备。\n\n---\n\n### 5. 项目与简历（加分项）\n- **Kaggle**：挑 1-2 个比赛（如房价预测、图像分类、NLP 情感分析）完整跑通，写进简历体现工程能力。\n- **GitHub 开源项目**：研究并复现一篇顶会论文（如 3D 重建、目标检测 YOLO），面试时能讲清楚代码结构和损失函数。\n- **Notion / Obsidian**：用于记录面试错题、公式推导笔记，形成错题本。\n\n---\n\n### 6. 硬核工具（查漏补缺）\n- **Papers with Code**：快速查看顶会（NeurIPS/ICML/CVPR）的最新模型和代码，面试时能聊到前沿（如扩散模型、LLM 微调）。\n- **Hugging Face Space**：试玩现成大模型（如 Llama 3、Stable Diffusion），加深对生成式 AI 边界和 prompt 工程的理解。\n\n---\n\n### 建议的备考节奏（1-2 个月）\n1. **前 2 周**：用 CS229 复习 ML 基础 + LeetCode 每日 2 题（重点链表/树/DP）。\n2. **中 2 周**：主攻 Transformer 原理（读论文、跑代码）+ 手撕自注意力。\n3. **后 2 周**：模拟面试（Pramp/牛客）+ 复盘面经 + 打磨项目细节。\n\n如果时间紧张，优先把 **LeetCode 简单/中等题**和 **Transformer 原理**吃透，这两项占 AI 岗技术面的 70% 以上。祝面试顺利！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

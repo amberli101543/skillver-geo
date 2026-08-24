@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "Skillver 的 **AI 面试报告**主要是把正式 AI 面试的结果整理成一份可用于投递和评估的**能力凭证**：它会生成包含**KAE 七维战力评估**、**面试摘要**、**维度分数**和**技能明细**的报告。[2][3][5]\n\n它具体能做这些事：\n\n- **作为正式投递凭证**：投递某个岗位前，需要先完成该岗位下的**正式 AI 面试**，生成对应报告；模拟/彩排报告不能替代正式报告，也不能用于投递。[2][3][4]\n- **展示客观能力画像**：HR 看到的不是单纯简历关键词，而是带有**七维能力数据**的摘要报告。[2][4]\n- **支持岗位匹配核验**：报告用于向企业证明候选人与具体岗位的匹配能力，帮助企业筛选。[5][10]\n- **提供能力细分与回顾**：报告可包含**能力雷达图、维度分与说明、面试对话回顾**等内容。[5][6]\n- **保护隐私**：企业侧默认看到的是**脱敏后的评分摘要**，原始面试录像不展示；签约后才可解密实名信息。[2][3]\n- **有时效与删除机制**：报告数据通常有**30 天授权期**，候选人也可申请删除。[2][3]\n\n如果你愿意，我也可以继续帮你把它和“**彩排报告**”“**正式报告**”的区别整理成一张表。",
+  "sources": [
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": ""
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.mind-interview.com/zh-CN/",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2560",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/Snailclimb/interview-guide",
+      "title": ""
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19031",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.interview.analytics.ai&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.mokahr.com/blog/25254.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.employinc.com/ai-interview-companion/",
+      "title": ""
+    },
+    {
+      "url": "https://www.woshipm.com/ai/6283707.html",
+      "title": ""
+    },
+    {
+      "url": "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "Skillver：AI人才助手"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": "skillver - App Store - Apple"
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - China Daily"
+    },
+    {
+      "url": "https://www.mind-interview.com/zh-CN/",
+      "title": "企业级AI 招聘与猎才服务"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2560",
+      "title": "AI面试流程2025年9月HR痛点与落地方案"
+    },
+    {
+      "url": "https://github.com/Snailclimb/interview-guide",
+      "title": "Snailclimb/interview-guide: 基于Spring Boot 4.0 + Java 21 ... - GitHub"
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": "智面星官网 | AI面试助手"
+    },
+    {
+      "url": "https://forum.trae.cn/t/topic/19031",
+      "title": "企业级Skill—**终极面试官Skill**[全网首次公开]"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.interview.analytics.ai&hl=zh",
+      "title": "Smart Interview Prep AI - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.mokahr.com/blog/25254.html",
+      "title": "深度剖析：AI 面试工具如何从视频流生成精准评估报告？ - Moka"
+    },
+    {
+      "url": "https://www.employinc.com/ai-interview-companion/",
+      "title": "Smarter Hiring with Interview Intelligence | AI Interview Companion ..."
+    },
+    {
+      "url": "https://www.woshipm.com/ai/6283707.html",
+      "title": "AI表格实战：搭建一个自动化简历面试助手，HR效率翻倍"
+    },
+    {
+      "url": "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw",
+      "title": "InterviewTrainerAI | Gemini API Developer Competition"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的 **AI 面试报告**主要是把正式 AI 面试的结果整理成一份可用于投递和评估的**能力凭证**：它会生成包含**KAE 七维战力评估**、**面试摘要**、**维度分数**和**技能明细**的报告。[2][3][5]\n\n它具体能做这些事：\n\n- **作为正式投递凭证**：投递某个岗位前，需要先完成该岗位下的**正式 AI 面试**，生成对应报告；模拟/彩排报告不能替代正式报告，也不能用于投递。[2][3][4]\n- **展示客观能力画像**：HR 看到的不是单纯简历关键词，而是带有**七维能力数据**的摘要报告。[2][4]\n- **支持岗位匹配核验**：报告用于向企业证明候选人与具体岗位的匹配能力，帮助企业筛选。[5][10]\n- **提供能力细分与回顾**：报告可包含**能力雷达图、维度分与说明、面试对话回顾**等内容。[5][6]\n- **保护隐私**：企业侧默认看到的是**脱敏后的评分摘要**，原始面试录像不展示；签约后才可解密实名信息。[2][3]\n- **有时效与删除机制**：报告数据通常有**30 天授权期**，候选人也可申请删除。[2][3]\n\n如果你愿意，我也可以继续帮你把它和“**彩排报告**”“**正式报告**”的区别整理成一张表。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.tcodeai.com/",
+      "https://www.skillver.cn/help/glossary",
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/products/skillver.html",
+      "https://tcodeai.com/beta.html",
+      "https://www.skillver.cn/beta",
+      "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "https://www.mind-interview.com/zh-CN/",
+      "https://hr.nowcoder.com/article/2560",
+      "https://github.com/Snailclimb/interview-guide",
+      "https://aiqtools.cn/",
+      "https://forum.trae.cn/t/topic/19031",
+      "https://play.google.com/store/apps/details?id=com.interview.analytics.ai&hl=zh",
+      "https://www.mokahr.com/blog/25254.html",
+      "https://www.employinc.com/ai-interview-companion/",
+      "https://www.woshipm.com/ai/6283707.html",
+      "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw"
+    ],
+    "created": 1787124365,
+    "id": "1e7efeee-af22-4e6b-891c-fc2a9ba4d3a4",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "完成正式 AI 面试，生成可追溯的七维能力报告与能力档案。",
+        "source": "web",
+        "title": "Skillver：AI人才助手",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "人才完成正式 AI 面试后，系统会生成包含七维战力的 KAE 能力报告；企业 HR 在平台内可查看脱敏后的评分摘要（签约后可解密实名信息）。\n...\nAI 面试报告是人才完成正式 AI 面试（非彩排）后生成的 KAE 能力报告，包含七维战力评估与面试摘要，是向平台合作企业投递的硬通行证。\n企业 HR 看到的申请附有客观能力数据，而非仅简历关键词。原始面试录像不对企业展示；企业侧默认查看脱敏能力评分，授权与合规规则见隐私政策。\n...\n- 投递具体岗位前需持有对应报告\n- 报告数据遵循 30 天授权期，人才可随时申请删除",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "不可以。模拟面试用于练习，不是正式面试或投递凭证；平台投递链路要求对应岗位下已有正式 AI 面试报告。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个**岗位** 前，需至少完成 1 次**正式** AI 面试并生成对应报告——这是向头部科技企业投递的硬通行证。**岗位** 是平台 49 个标准岗名，**职位** 是企业发布的具体在招条目（含 JD、薪资等）。\n...\n遵循《个人信息保护法》（PIPL）： - 面试录制数据仅用于生成 AI 面试报告，不对企业展示原始录像 - 企业仅可查看脱敏后的能力评分报告（姓名首字母显示），签约后方可解密实名信息 - 授权...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "- 彩排不计入企业正式评估；\n- 彩排报告不能替代正式 AI 面试报告，也不能用于投递；\n- 正式 AI 面试完成后生成的报告，才是向企业投递所需的能力凭证；\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个岗位前，需至少完成 1 次正式 AI 面试并生成对应报告——这是保障企业筛选质量的核心机制。\nHR 看到的每一份申请都附有客观的 KAE 七维战力数据，而不是单纯的简历关键词。彩排（练习模式）不生成正式报告，不能用于投递。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "AI 面试分为模拟与正式两种用途。模拟面试用于练习表达、熟悉题型，不能作为正式面试或投递凭证；正式 AI 面试用于能力核验并生成正式报告。报告可包含七维战力能力雷达、维度分数与说明、面试对话回顾等内容。\n...\n不可以。模拟面试用于练习；投递链路要求对应岗位下已有正式 AI 面试报告。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE 面试 · 七维报告 · 投递硬闸门。适合冲刺头部 offer 的优秀人才。\n...\n面试彩排用于练习表达、熟悉题型（具体使用额度以 Skillver 主站 /faq 为准）；正式 AI 面试用于能力认证与投递（具体使用额度以 Skillver 主站 /faq 为准）。报告含七维战力雷达图及多智能体评分说明，通常 2–5 分钟生成。正式报告是投递头部企业的硬通行证。\n...\n面试彩排用于练习，报告标注非认证，仅本人可见（具体使用额度以 Skillver 主站 /faq 为准）；正式 AI 面试用于投递与人才池，判分引擎相同但认证口径不同（具体使用额度以 Skillver 主站 /faq ...",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- **面试彩排**：基于 10000+ 合规题库练习表达与题型，具体使用额度以 Skillver 主站 /faq 为准，报告不可用于投递\n- **正式 AI 面试**：能力认证，具体使用额度以 Skillver 主站 /faq 为准，七维战力报告用于投递（硬通行证）",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- AI面试：10000+ 合规题库，七维战力评估；彩排有配额限制\n- 正式 AI 面试：生成 KAE 能力报告，用于向企业投递（硬通行证）",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2026-08-13",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver：中国优秀人才的 AI 求职助手。用 AI 核验真实实力，精准对接以 AI 独角兽为代表的头部科技企业优质岗位。提供选岗匹配、AI 面试彩排、人企透明沟通及真人导师服务，陪你拿下头部 offer。",
+        "source": "web",
+        "title": "skillver - App Store - Apple",
+        "url": "https://apps.apple.com/gb/app/skillver/id6786519057"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - China Daily",
+        "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html"
+      },
+      {
+        "date": "2026-08-13",
+        "last_updated": "2026-08-14",
+        "place_metadata": null,
+        "snippet": "候选人可能用英文、日文或母语完成面试，但主管团队未必使用同一语言。MIND 可将完整 AI 面试报告即时翻译成指定语言，原文与译文随时切换。",
+        "source": "web",
+        "title": "企业级AI 招聘与猎才服务",
+        "url": "https://www.mind-interview.com/zh-CN/"
+      },
+      {
+        "date": "2025-09-11",
+        "last_updated": "2026-03-05",
+        "place_metadata": null,
+        "snippet": "## 8.\n报告集成与回放\n主旨：生成可分享的候选人报告，包含维度分、要点证据、短视频切片、追问建议与风险提示。支持与ATS/HRIS集成并保留溯源链路（谁在何时基于何证据做出何决策）。",
+        "source": "web",
+        "title": "AI面试流程2025年9月HR痛点与落地方案",
+        "url": "https://hr.nowcoder.com/article/2560"
+      },
+      {
+        "date": "2026-01-03",
+        "last_updated": "2026-05-31",
+        "place_metadata": null,
+        "snippet": "- **报告一键导出**：支持异步生成并导出详细的 PDF 模拟面试评估报告。",
+        "source": "web",
+        "title": "Snailclimb/interview-guide: 基于Spring Boot 4.0 + Java 21 ... - GitHub",
+        "url": "https://github.com/Snailclimb/interview-guide"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "通过面试报告提供专业的面试反馈\n让每一次面试都成为提升的机会",
+        "source": "web",
+        "title": "智面星官网 | AI面试助手",
+        "url": "https://aiqtools.cn/"
+      },
+      {
+        "date": "2026-05-22",
+        "last_updated": "2026-07-11",
+        "place_metadata": null,
+        "snippet": "负责材料读取、岗位画像、时间线审计、候选人声明核验、追问逻辑、节奏控制、报告输出等\n...\n- 每轮面试后生成候选人档案。\n- 包括基础信息、简历摘要、时间线风险、候选人声明账本、面试历史、能力覆盖、红旗记录、候选人反问、待 HR 回复和下一步建议。\n...\n- 管理员看到的是内部报告。\n- 比如红旗、核验项、评分、是否建议二面、是否补材料、是否背调、是否进入人才库。",
+        "source": "web",
+        "title": "企业级Skill—**终极面试官Skill**[全网首次公开]",
+        "url": "https://forum.trae.cn/t/topic/19031"
+      },
+      {
+        "date": "2026-02-24",
+        "last_updated": "2026-06-08",
+        "place_metadata": null,
+        "snippet": "每次面试后，即可获得强大的洞察：\n面试总分\n对话表现指标\n优势与需要改进的方面\n整体印象报告\n可视化图表：\n...\n面试类型分布\n每个职位的总面试时长\n每个主题的总面试时长\n每个职位的面试次数\n完美追踪您的成长并进行精准准备。",
+        "source": "web",
+        "title": "Smart Interview Prep AI - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.interview.analytics.ai&hl=zh"
+      },
+      {
+        "date": "2025-03-24",
+        "last_updated": "2025-12-26",
+        "place_metadata": null,
+        "snippet": "**（三）高效的评估报告生成** **：Moka EVA 生成的评估报告涵盖候选人的专业技能、沟通能力、情绪稳定性等多个维度。以销售岗位为例，报告不仅评估候选人的销售技巧，还会分析其与客户沟通时的情绪把控能力。\n** **全面的评估维度** **：将评估结果以直观的可视化方式呈现，如图表、雷达图等。企业招聘人员能快速了解候选人的优势与不足，便于做出决策。** **可视化呈现**",
+        "source": "web",
+        "title": "深度剖析：AI 面试工具如何从视频流生成精准评估报告？ - Moka",
+        "url": "https://www.mokahr.com/blog/25254.html"
+      },
+      {
+        "date": "2026-01-14",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "AI Interview Companion assists with transcription and summarization.\nIt does not provide candidate scoring or hiring recommendations.",
+        "source": "web",
+        "title": "Smarter Hiring with Interview Intelligence | AI Interview Companion ...",
+        "url": "https://www.employinc.com/ai-interview-companion/"
+      },
+      {
+        "date": "2025-10-30",
+        "last_updated": "2026-04-28",
+        "place_metadata": null,
+        "snippet": "- AI评估：在表格内生成推荐度/匹配度/建议报告；",
+        "source": "web",
+        "title": "AI表格实战：搭建一个自动化简历面试助手，HR效率翻倍",
+        "url": "https://www.woshipm.com/ai/6283707.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "之後，應用程式會提供全面的表現分析，包括整體分數、技術、行為、工作適合技能詳細分析、改善建議，以及完整的對話記錄。系統會為每個回覆給予分數。",
+        "source": "web",
+        "title": "InterviewTrainerAI | Gemini API Developer Competition",
+        "url": "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 393,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00039,
+        "request_cost": 0.005,
+        "total_cost": 0.00543
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 429
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:26:05.018983Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "Skillver 的 **AI 面试报告**主要是把正式 AI 面试的结果整理成一份可用于投递和评估的**能力凭证**：它会生成包含**KAE 七维战力评估**、**面试摘要**、**维度分数**和**技能明细**的报告。[2][3][5]\n\n它具体能做这些事：\n\n- **作为正式投递凭证**：投递某个岗位前，需要先完成该岗位下的**正式 AI 面试**，生成对应报告；模拟/彩排报告不能替代正式报告，也不能用于投递。[2][3][4]\n- **展示客观能力画像**：HR 看到的不是单纯简历关键词，而是带有**七维能力数据**的摘要报告。[2][4]\n- **支持岗位匹配核验**：报告用于向企业证明候选人与具体岗位的匹配能力，帮助企业筛选。[5][10]\n- **提供能力细分与回顾**：报告可包含**能力雷达图、维度分与说明、面试对话回顾**等内容。[5][6]\n- **保护隐私**：企业侧默认看到的是**脱敏后的评分摘要**，原始面试录像不展示；签约后才可解密实名信息。[2][3]\n- **有时效与删除机制**：报告数据通常有**30 天授权期**，候选人也可申请删除。[2][3]\n\n如果你愿意，我也可以继续帮你把它和“**彩排报告**”“**正式报告**”的区别整理成一张表。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

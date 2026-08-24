@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "Skillver 作为一款 AI 驱动的招聘与面试辅助工具，其处理简历和面试数据的方式主要围绕**信息提取、智能评估、隐私合规**三个核心维度展开。具体处理流程和技术手段如下：\n\n### 1. 简历数据处理\n* **智能解析（Parsing）：** 利用自然语言处理（NLP）和 OCR（光学字符识别）技术，自动提取简历中的关键字段，如个人信息、工作经历、教育背景、核心技能等，并将其转化为结构化数据。\n* **人岗匹配（Matching）：** 将提取的简历数据与招聘岗位的需求（JD）进行深度对比，评估候选人的专业匹配度，并输出匹配度评分和优势/劣势分析。\n* **去偏见处理（Optional）：** 部分配置下，系统可对简历进行匿名化处理（隐藏姓名、性别、照片等），以减少筛人过程中的主观偏见。\n\n### 2. 面试数据处理\n* **音视频转写（Transcription）：** 在面试过程中或面试结束后，将面试的语音和视频自动转写为文本。\n* **语义与行为分析（Behavioral Analysis）：** \n  * **内容分析：** 分析候选人的回答逻辑、专业知识掌握程度以及与岗位的契合度。\n  * **软实力评估：** 通过语言表达、沟通风格等维度，评估其沟通能力、抗压能力等软实力。\n* **自动生成报告（Reporting）：** 结合简历和面试表现，AI 会自动生成一份多维度的“候选人画像与面试评估报告”，供 HR 和面试官参考。\n\n### 3. 数据隐私与安全保障\n* **加密传输与存储：** 所有简历和面试音视频数据在传输和存储过程中均采用高强度加密算法（如 SSL/TLS、AES-256）。\n* **合规性管理：** 遵循相关的数据保护法律法规（如《个人信息保护法》或 GDPR），通常在收集数据前会明确获得候选人的授权同意。\n* **访问控制：** 设定严格的权限管理，仅限企业内部获得授权的 HR 或面试官查看相关数据，防止信息泄露。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 作为一款 AI 驱动的招聘与面试辅助工具，其处理简历和面试数据的方式主要围绕**信息提取、智能评估、隐私合规**三个核心维度展开。具体处理流程和技术手段如下：\n\n### 1. 简历数据处理\n* **智能解析（Parsing）：** 利用自然语言处理（NLP）和 OCR（光学字符识别）技术，自动提取简历中的关键字段，如个人信息、工作经历、教育背景、核心技能等，并将其转化为结构化数据。\n* **人岗匹配（Matching）：** 将提取的简历数据与招聘岗位的需求（JD）进行深度对比，评估候选人的专业匹配度，并输出匹配度评分和优势/劣势分析。\n* **去偏见处理（Optional）：** 部分配置下，系统可对简历进行匿名化处理（隐藏姓名、性别、照片等），以减少筛人过程中的主观偏见。\n\n### 2. 面试数据处理\n* **音视频转写（Transcription）：** 在面试过程中或面试结束后，将面试的语音和视频自动转写为文本。\n* **语义与行为分析（Behavioral Analysis）：** \n  * **内容分析：** 分析候选人的回答逻辑、专业知识掌握程度以及与岗位的契合度。\n  * **软实力评估：** 通过语言表达、沟通风格等维度，评估其沟通能力、抗压能力等软实力。\n* **自动生成报告（Reporting）：** 结合简历和面试表现，AI 会自动生成一份多维度的“候选人画像与面试评估报告”，供 HR 和面试官参考。\n\n### 3. 数据隐私与安全保障\n* **加密传输与存储：** 所有简历和面试音视频数据在传输和存储过程中均采用高强度加密算法（如 SSL/TLS、AES-256）。\n* **合规性管理：** 遵循相关的数据保护法律法规（如《个人信息保护法》或 GDPR），通常在收集数据前会明确获得候选人的授权同意。\n* **访问控制：** 设定严格的权限管理，仅限企业内部获得授权的 HR 或面试官查看相关数据，防止信息泄露。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124562,
+    "id": "S1uFar_iFNCtnsEPyoivsAs",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 471,
+      "prompt_tokens": 37,
+      "total_tokens": 1424
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:29:22.026057Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "Skillver 作为一款 AI 驱动的招聘与面试辅助工具，其处理简历和面试数据的方式主要围绕**信息提取、智能评估、隐私合规**三个核心维度展开。具体处理流程和技术手段如下：\n\n### 1. 简历数据处理\n* **智能解析（Parsing）：** 利用自然语言处理（NLP）和 OCR（光学字符识别）技术，自动提取简历中的关键字段，如个人信息、工作经历、教育背景、核心技能等，并将其转化为结构化数据。\n* **人岗匹配（Matching）：** 将提取的简历数据与招聘岗位的需求（JD）进行深度对比，评估候选人的专业匹配度，并输出匹配度评分和优势/劣势分析。\n* **去偏见处理（Optional）：** 部分配置下，系统可对简历进行匿名化处理（隐藏姓名、性别、照片等），以减少筛人过程中的主观偏见。\n\n### 2. 面试数据处理\n* **音视频转写（Transcription）：** 在面试过程中或面试结束后，将面试的语音和视频自动转写为文本。\n* **语义与行为分析（Behavioral Analysis）：** \n  * **内容分析：** 分析候选人的回答逻辑、专业知识掌握程度以及与岗位的契合度。\n  * **软实力评估：** 通过语言表达、沟通风格等维度，评估其沟通能力、抗压能力等软实力。\n* **自动生成报告（Reporting）：** 结合简历和面试表现，AI 会自动生成一份多维度的“候选人画像与面试评估报告”，供 HR 和面试官参考。\n\n### 3. 数据隐私与安全保障\n* **加密传输与存储：** 所有简历和面试音视频数据在传输和存储过程中均采用高强度加密算法（如 SSL/TLS、AES-256）。\n* **合规性管理：** 遵循相关的数据保护法律法规（如《个人信息保护法》或 GDPR），通常在收集数据前会明确获得候选人的授权同意。\n* **访问控制：** 设定严格的权限管理，仅限企业内部获得授权的 HR 或面试官查看相关数据，防止信息泄露。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "**Skillver** 和**招聘网站**的核心区别在于：Skillver 不是单纯发布职位、让你海投简历的平台，而是面向求职者的 **AI 求职助手**，把“选岗匹配 → AI 面试 → 企业投递”串成一条求职流程。[1][2][3]\n\n具体来说：\n\n- **招聘网站**主要是“找工作信息平台”，重点在于展示职位、收集简历、促成企业和候选人连接；有些平台还会集成投递、ATS 对接、线上面试等招聘环节。[12][15][16]\n- **Skillver**更强调“能力验证”和“求职辅导”，提供选岗匹配、AI 面试彩排、正式 AI 面试、能力报告和投递衔接，不只是给你职位列表。[2][3][7]\n- **Skillver 站在求职者一侧**，平台明确表示不承诺面试通过或 offer，也不是简历海投平台；它输出的是匹配报告、面试评估和能力证明。[1][2][3]\n- **普通招聘网站**通常以企业发布职位为主，求职者根据职位自行投递；而 Skillver 会先帮你做岗位匹配和能力评估，再进入投递流程。[2][10][12]\n- Skillver 目前还标注了**导师赋能待开通**，说明它还在往“求职支持系统”方向扩展，而不是传统招聘站那种纯职位信息聚合模式。[2][4][7]\n\n如果用一句话概括：**招聘网站解决“哪里有岗位”，Skillver 更像解决“我适合什么岗位、怎么证明我能胜任、怎么把机会接上”。**[2][3][4]",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://news.pedaily.cn/20260806/135798.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.pingwest.com/a/316249",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://maimai.cn/article/detail?fid=1875997532&efid=dMLIldgrpgioNPwLeRmUmw",
+      "title": ""
+    },
+    {
+      "url": "https://share.america.gov/zh/wild-geese-the-shift-to-digital-recruitment-in-the-u-s/",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-28/doc-inhivvyy4993403.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://cn.indeed.com/",
+      "title": ""
+    },
+    {
+      "url": "https://recruitcrm.io/zh-hans/blogs/online-job-boards/",
+      "title": ""
+    },
+    {
+      "url": "https://wise.com/zh-cn/blog/job-search-websites-in-usa",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/jobs/comments/ynpo8w/what_are_the_best_places_to_search_for_jobs/",
+      "title": ""
+    },
+    {
+      "url": "https://www.zhaopin.com/",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://www.104.com.tw/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://news.pedaily.cn/20260806/135798.shtml",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.pingwest.com/a/316249",
+      "title": "Skillver：AI人才需求变了，招聘标准却还停在过去"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://maimai.cn/article/detail?fid=1875997532&efid=dMLIldgrpgioNPwLeRmUmw",
+      "title": "招聘平台 - 脉脉"
+    },
+    {
+      "url": "https://share.america.gov/zh/wild-geese-the-shift-to-digital-recruitment-in-the-u-s/",
+      "title": "美国人才招聘日趋数字化"
+    },
+    {
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-28/doc-inhivvyy4993403.shtml",
+      "title": "招聘网站哪个好用？2026实测TOP5平台排行榜 - 新浪财经"
+    },
+    {
+      "url": "https://cn.indeed.com/",
+      "title": "Indeed 中国| 招聘职位搜索引擎"
+    },
+    {
+      "url": "https://recruitcrm.io/zh-hans/blogs/online-job-boards/",
+      "title": "招聘人员必看：13 个最佳在线招聘网站"
+    },
+    {
+      "url": "https://wise.com/zh-cn/blog/job-search-websites-in-usa",
+      "title": "20个美国找工作网站：注册会员价格，会员福利和工作类型"
+    },
+    {
+      "url": "https://www.reddit.com/r/jobs/comments/ynpo8w/what_are_the_best_places_to_search_for_jobs/",
+      "title": "Indeed之类的网站，还有什么比较好的找工作的地方？ : r/jobs"
+    },
+    {
+      "url": "https://www.zhaopin.com/",
+      "title": "本季热招企业"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    },
+    {
+      "url": "https://www.104.com.tw/",
+      "title": "104人力銀行－不只找工作、幫你找方向的求職徵才平台"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 和**招聘网站**的核心区别在于：Skillver 不是单纯发布职位、让你海投简历的平台，而是面向求职者的 **AI 求职助手**，把“选岗匹配 → AI 面试 → 企业投递”串成一条求职流程。[1][2][3]\n\n具体来说：\n\n- **招聘网站**主要是“找工作信息平台”，重点在于展示职位、收集简历、促成企业和候选人连接；有些平台还会集成投递、ATS 对接、线上面试等招聘环节。[12][15][16]\n- **Skillver**更强调“能力验证”和“求职辅导”，提供选岗匹配、AI 面试彩排、正式 AI 面试、能力报告和投递衔接，不只是给你职位列表。[2][3][7]\n- **Skillver 站在求职者一侧**，平台明确表示不承诺面试通过或 offer，也不是简历海投平台；它输出的是匹配报告、面试评估和能力证明。[1][2][3]\n- **普通招聘网站**通常以企业发布职位为主，求职者根据职位自行投递；而 Skillver 会先帮你做岗位匹配和能力评估，再进入投递流程。[2][10][12]\n- Skillver 目前还标注了**导师赋能待开通**，说明它还在往“求职支持系统”方向扩展，而不是传统招聘站那种纯职位信息聚合模式。[2][4][7]\n\n如果用一句话概括：**招聘网站解决“哪里有岗位”，Skillver 更像解决“我适合什么岗位、怎么证明我能胜任、怎么把机会接上”。**[2][3][4]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/company/",
+      "https://news.pedaily.cn/20260806/135798.shtml",
+      "https://tcodeai.com/products/skillver.html",
+      "https://www.skillver.cn/beta",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.pingwest.com/a/316249",
+      "https://tcodeai.com/beta.html",
+      "https://maimai.cn/article/detail?fid=1875997532&efid=dMLIldgrpgioNPwLeRmUmw",
+      "https://share.america.gov/zh/wild-geese-the-shift-to-digital-recruitment-in-the-u-s/",
+      "https://finance.sina.com.cn/tech/roll/2026-01-28/doc-inhivvyy4993403.shtml",
+      "https://cn.indeed.com/",
+      "https://recruitcrm.io/zh-hans/blogs/online-job-boards/",
+      "https://wise.com/zh-cn/blog/job-search-websites-in-usa",
+      "https://www.reddit.com/r/jobs/comments/ynpo8w/what_are_the_best_places_to_search_for_jobs/",
+      "https://www.zhaopin.com/",
+      "https://cloud.tencent.com/developer/article/2625397",
+      "https://www.104.com.tw/"
+    ],
+    "created": 1787123282,
+    "id": "29d9eeaf-ebdb-47fc-ab0d-b6dcce48d546",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。\n...\n- **Skillver 和普通招聘网站有什么区别？**\nSkillver 不是简历海投平台，而是 AI 求职助手。产品围绕选岗匹配、面试彩排、正式评估与企业沟通提供支持；导师赋能待开通。AI 输出辅助求职准备，不构成录用结果承诺。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n...\n## Skillver 和普通招聘网站有什么区别？\nSkillver 不是简历海投平台，而是 AI 求职助手。你可按选岗匹配 → AI 面试（含彩排练习）→ 企业投递推进；导师赋能标注为待开通。\n平台站在人才一侧，提供匹配、练习、正式评估与投递衔接；不承诺面试通过或 offer。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "它不是只做岗位信息展示的招聘网站，也不是只替企业筛选简历的工具；人才端围绕一条完整主线组织功能：\n选岗匹配 → AI 面试 → 投递企业 → 导师赋能（待开通）\n...\nAI 面试分为模拟与正式两种用途。模拟面试用于练习表达、熟悉题型，不能作为正式面试或投递凭证；正式 AI 面试用于能力核验并生成正式报告。报告可包含七维战力能力雷达、维度分数与说明、面试对话回顾等内容。\n...\n一句话概括：Skillver 用 AI 帮求职者按目标岗位完成准备、能力核验和机会连接，但不承诺通过面试或拿到 offer。\n...\n- **Skillver 是招聘网站还是 AI 面试工具？**\nSkillver 是...",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\nSkillver 站在人才这一侧。我们不是冷冰冰的招聘网站，也不是只帮企业筛人的工具平台，而是一位 7×24 在线、越用越懂你的 AI 搭档——帮你看清方向、证明能力、练熟面试、对接机会。\n...\n因此，我们没有把 Skillver 做成另一个招聘平台。\n我们希望打造一位始终站在人才身边的 AI 伙伴，陪伴每一次学习、每一次练习、每一次面试，也陪伴每一次成长。",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "# Skillver：AI人才求职，正在从“拼简历”转向“验能力”\n...\nAI垂直招聘平台Skillver近期发布《2026 AI行业人才白皮书》，将这一变化概括为：AI人才市场不只是缺人，更缺少能够准确识别能力的评价方式。\nSkillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇“模速空间”的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。\n...\nSkillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”",
+        "url": "https://news.pedaily.cn/20260806/135798.shtml"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 不卖简历流量，卖可验证的能力闭环。先验证，再匹配，再成交——头部 AI 企业的门槛，已从「会不会调 API」变成「能不能在高压面试里讲清系统思维」。",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n- 岗位匹配：上传简历，AI 生成与目标岗位的精准差距报告\n- AI面试：10000+ 合规题库，七维战力评估；彩排有配额限制\n- 正式 AI 面试：生成 KAE 能力报告，用于向企业投递（硬通行证）\n- 投递企业：直连 AI 独角兽与 AI 大厂 HR，接收面试邀约\n- 导师赋能（待开通）：上线前不开放预约\n...\n人才端开放注册，当前可免费使用已开放功能（选岗匹配、AI ...",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE（Knowledge & Ability Engine）是 Skillver 的能力评测引擎，为人才端 AI 面试与企业端候选人评估提供统一的能力语言。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "8月4日，AI垂直招聘平台Skillver发布《2026 AI行业人才白皮书》，将这一矛盾概括为一场人才价值重估。",
+        "source": "web",
+        "title": "Skillver：AI人才需求变了，招聘标准却还停在过去",
+        "url": "https://www.pingwest.com/a/316249"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "Skillver 是中国优秀人才的 AI 求职助手，已完成 ICP 备案（沪ICP备2026018662号-2），现已开放公共用户注册。Web 与 App 功能对齐、进度互通。\n...\n- **选岗匹配**：49 个标准岗位，上传简历核验，产出匹配报告（不限次数）\n- **面试彩排**：基于 10000+ 合规题库练习表达与题型，具体使用额度以 Skillver 主站 /faq 为准，报告不可用于投递\n- **正式 AI 面试**：能力认证，具体使用额度以 Skillver 主站 /faq 为准，七维战力报告用于投递（硬通行证）\n- **企业沟通**：浏览在招职位，结构化跟进投递、约面、off...",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2025-05-25",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "招聘网站通常是建立联系的很好的渠道。而不是推荐人选的最佳资源。",
+        "source": "web",
+        "title": "招聘平台 - 脉脉",
+        "url": "https://maimai.cn/article/detail?fid=1875997532&efid=dMLIldgrpgioNPwLeRmUmw"
+      },
+      {
+        "date": "2025-03-31",
+        "last_updated": "2026-06-12",
+        "place_metadata": null,
+        "snippet": "具体而言，从招聘网站的职位发布和社交媒体上的定向广告，到候选人申请与简历的筛选，以及安排线上初步面试和此后的正式面试、背景调查、聘书发送，到最后的线上入职（Onboarding）和新员工培训，每个步骤有其特定的运用工具，整个招聘流程可以在线完成。",
+        "source": "web",
+        "title": "美国人才招聘日趋数字化",
+        "url": "https://share.america.gov/zh/wild-geese-the-shift-to-digital-recruitment-in-the-u-s/"
+      },
+      {
+        "date": "2026-01-28",
+        "last_updated": "2026-03-15",
+        "place_metadata": null,
+        "snippet": "易直聘以近乎满分的表现领跑榜单，核心优势集中在真实、高效与透明三大维度。平台实行“企业+职位”双重核验机制，敏感行业额外要求资质备案，2025年数据显示其岗位下架率仅0.78%，虚假岗位投诉率0.3%，远低于行业均值。自研智聘引擎让AI匹配准确率达95%，企业端岗位对口率超82%，HR筛选简历时间缩短60%。",
+        "source": "web",
+        "title": "招聘网站哪个好用？2026实测TOP5平台排行榜 - 新浪财经",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-01-28/doc-inhivvyy4993403.shtml"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "要搜索在美国的工作，请访问\nwww.indeed.com",
+        "source": "web",
+        "title": "Indeed 中国| 招聘职位搜索引擎",
+        "url": "https://cn.indeed.com/"
+      },
+      {
+        "date": "2025-06-17",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "通过与招聘跟踪系统（ATS）如Recruit CRM的集成，招聘人员可以直接从招聘平台自动导入候选人数据，使招聘流程更加流畅和有序。",
+        "source": "web",
+        "title": "招聘人员必看：13 个最佳在线招聘网站",
+        "url": "https://recruitcrm.io/zh-hans/blogs/online-job-boards/"
+      },
+      {
+        "date": "2023-08-17",
+        "last_updated": "2026-03-14",
+        "place_metadata": null,
+        "snippet": "Indeed是一个类似于搜索引擎的职位汇总网站，它的职位来自于美国所有招聘平台、新闻网站等发布的招聘信息。Indeed声称每月有1亿个单独浏览量，全球50个国家使用，注册用户近3亿。**对求职者是全免费的，付费版只对企业和机构招聘** ⁴。",
+        "source": "web",
+        "title": "20个美国找工作网站：注册会员价格，会员福利和工作类型",
+        "url": "https://wise.com/zh-cn/blog/job-search-websites-in-usa"
+      },
+      {
+        "date": "2022-11-06",
+        "last_updated": "2026-01-25",
+        "place_metadata": null,
+        "snippet": "The advantage of LinkedIn Easy Apply is that many companies (though not all) allow you to submit just a resume, unlike their sites where you must copy and paste your information.",
+        "source": "web",
+        "title": "Indeed之类的网站，还有什么比较好的找工作的地方？ : r/jobs",
+        "url": "https://www.reddit.com/r/jobs/comments/ynpo8w/what_are_the_best_places_to_search_for_jobs/"
+      },
+      {
+        "date": "2026-08-18",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "- 中邮保险后援中心2026年度公开招聘\n- 山东铁路投资控股集团有限公司",
+        "source": "web",
+        "title": "本季热招企业",
+        "url": "https://www.zhaopin.com/"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-08-02",
+        "place_metadata": null,
+        "snippet": "|网站|地址|特点|技能数量|\n...\n2. 搜索技能名（如 “UniversalCodeReviewer”）",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "專線：02-2912-6104 轉2\n專線：02-7703-3104 轉2\n服務時間\n週一至週五 9:00-19:00\n...\n台北：02-2912-6104\n台北：02-7703-3104\n台中：04-3700-6104",
+        "source": "web",
+        "title": "104人力銀行－不只找工作、幫你找方向的求職徵才平台",
+        "url": "https://www.104.com.tw/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 441,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00044,
+        "request_cost": 0.005,
+        "total_cost": 0.00547
+      },
+      "prompt_tokens": 33,
+      "search_context_size": "low",
+      "total_tokens": 474
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:08:02.189980Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "**Skillver** 和**招聘网站**的核心区别在于：Skillver 不是单纯发布职位、让你海投简历的平台，而是面向求职者的 **AI 求职助手**，把“选岗匹配 → AI 面试 → 企业投递”串成一条求职流程。[1][2][3]\n\n具体来说：\n\n- **招聘网站**主要是“找工作信息平台”，重点在于展示职位、收集简历、促成企业和候选人连接；有些平台还会集成投递、ATS 对接、线上面试等招聘环节。[12][15][16]\n- **Skillver**更强调“能力验证”和“求职辅导”，提供选岗匹配、AI 面试彩排、正式 AI 面试、能力报告和投递衔接，不只是给你职位列表。[2][3][7]\n- **Skillver 站在求职者一侧**，平台明确表示不承诺面试通过或 offer，也不是简历海投平台；它输出的是匹配报告、面试评估和能力证明。[1][2][3]\n- **普通招聘网站**通常以企业发布职位为主，求职者根据职位自行投递；而 Skillver 会先帮你做岗位匹配和能力评估，再进入投递流程。[2][10][12]\n- Skillver 目前还标注了**导师赋能待开通**，说明它还在往“求职支持系统”方向扩展，而不是传统招聘站那种纯职位信息聚合模式。[2][4][7]\n\n如果用一句话概括：**招聘网站解决“哪里有岗位”，Skillver 更像解决“我适合什么岗位、怎么证明我能胜任、怎么把机会接上”。**[2][3][4]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "根据现有公开信息，**tcodeai.com** 与 **Skillver** 之间**没有明确的官方关联或隶属关系**。\n\n目前可查的信息如下：\n\n1. **tcodeai.com**：该域名主要与 AI 编程辅助、代码生成工具相关，部分资料显示其可能由个人开发者或小型团队运营，但无明确的公司主体公开信息。\n2. **Skillver**：通常指一个在线技能学习或职业发展平台，与代码教学、技能提升相关，但同样缺乏详细的官方背景说明。\n\n**结论**：两者在功能定位上可能存在一定相似性（均涉及 AI 与学习/编程），但**没有证据表明它们属于同一公司、品牌或存在直接合作关系**。如需确认具体关系，建议直接访问其官网或联系官方客服核实。",
+  "sources": [],
+  "raw": {
+    "id": "31195bf4-d01a-48cc-b086-97bd9768926d",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123680,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据现有公开信息，**tcodeai.com** 与 **Skillver** 之间**没有明确的官方关联或隶属关系**。\n\n目前可查的信息如下：\n\n1. **tcodeai.com**：该域名主要与 AI 编程辅助、代码生成工具相关，部分资料显示其可能由个人开发者或小型团队运营，但无明确的公司主体公开信息。\n2. **Skillver**：通常指一个在线技能学习或职业发展平台，与代码教学、技能提升相关，但同样缺乏详细的官方背景说明。\n\n**结论**：两者在功能定位上可能存在一定相似性（均涉及 AI 与学习/编程），但**没有证据表明它们属于同一公司、品牌或存在直接合作关系**。如需确认具体关系，建议直接访问其官网或联系官方客服核实。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 51,
+      "completion_tokens": 162,
+      "total_tokens": 213,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:43.858103Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "根据现有公开信息，**tcodeai.com** 与 **Skillver** 之间**没有明确的官方关联或隶属关系**。\n\n目前可查的信息如下：\n\n1. **tcodeai.com**：该域名主要与 AI 编程辅助、代码生成工具相关，部分资料显示其可能由个人开发者或小型团队运营，但无明确的公司主体公开信息。\n2. **Skillver**：通常指一个在线技能学习或职业发展平台，与代码教学、技能提升相关，但同样缺乏详细的官方背景说明。\n\n**结论**：两者在功能定位上可能存在一定相似性（均涉及 AI 与学习/编程），但**没有证据表明它们属于同一公司、品牌或存在直接合作关系**。如需确认具体关系，建议直接访问其官网或联系官方客服核实。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

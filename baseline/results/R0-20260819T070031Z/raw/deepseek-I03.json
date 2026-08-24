@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "目前我没有查到名为“Skillver”的官方平台或服务的具体注册流程。如果它是一款新出的应用、网站或工具，建议你：\n\n1. **访问官网**：直接在浏览器搜索“Skillver 官网”或“Skillver 注册”，进入其官方网站查看注册入口。\n2. **查看应用商店**：如果是App，在App Store或安卓应用商店搜索“Skillver”，下载后按提示用邮箱或手机号注册。\n3. **联系客服**：若官网不明确，可查看页面底部的联系邮箱或客服电话咨询。\n\n如果你有该平台的具体网址或更多描述（如用途、国家/地区），我可以帮你进一步分析。",
+  "sources": [],
+  "raw": {
+    "id": "594bb799-9494-4da7-bba1-0ce62dcf2c37",
+    "object": "chat.completion",
+    "created": 1787123541,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前我没有查到名为“Skillver”的官方平台或服务的具体注册流程。如果它是一款新出的应用、网站或工具，建议你：\n\n1. **访问官网**：直接在浏览器搜索“Skillver 官网”或“Skillver 注册”，进入其官方网站查看注册入口。\n2. **查看应用商店**：如果是App，在App Store或安卓应用商店搜索“Skillver”，下载后按提示用邮箱或手机号注册。\n3. **联系客服**：若官网不明确，可查看页面底部的联系邮箱或客服电话咨询。\n\n如果你有该平台的具体网址或更多描述（如用途、国家/地区），我可以帮你进一步分析。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 141,
+      "total_tokens": 175,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:22.978603Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "目前我没有查到名为“Skillver”的官方平台或服务的具体注册流程。如果它是一款新出的应用、网站或工具，建议你：\n\n1. **访问官网**：直接在浏览器搜索“Skillver 官网”或“Skillver 注册”，进入其官方网站查看注册入口。\n2. **查看应用商店**：如果是App，在App Store或安卓应用商店搜索“Skillver”，下载后按提示用邮箱或手机号注册。\n3. **联系客服**：若官网不明确，可查看页面底部的联系邮箱或客服电话咨询。\n\n如果你有该平台的具体网址或更多描述（如用途、国家/地区），我可以帮你进一步分析。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

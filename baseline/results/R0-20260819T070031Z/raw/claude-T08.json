@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "# Skillver 如何处理简历和面试数据？\n\n## 关于 Skillver\n\nSkillver 是一个 AI 驱动的求职/面试辅助平台，以下是其通常的数据处理方式：\n\n---\n\n## 数据处理方式\n\n### 📄 简历数据\n- **上传与解析**：用户上传简历后，AI 会自动解析提取关键信息（技能、经历、教育背景等）\n- **优化建议**：系统分析简历内容，提供针对性的改进建议\n- **存储**：简历数据通常存储在用户账户中，用于后续匹配和分析\n\n### 🎤 面试数据\n- **模拟面试录制**：用户进行模拟面试时，可能会录制音视频\n- **AI 分析**：分析回答内容、表达方式、关键词匹配等\n- **反馈生成**：基于分析结果提供改进建议\n\n---\n\n## ⚠️ 隐私注意事项\n\n建议您直接查阅 Skillver 官方的：\n- **隐私政策（Privacy Policy）**\n- **服务条款（Terms of Service）**\n\n重点关注：\n- 数据是否与第三方共享\n- 数据保留期限\n- 是否用于模型训练\n- 数据删除权利\n\n---\n\n> 如需准确信息，建议访问 **Skillver 官网**或联系其客服团队获取最新隐私政策说明。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBiP6eehsM5aPERsy2mb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 如何处理简历和面试数据？\n\n## 关于 Skillver\n\nSkillver 是一个 AI 驱动的求职/面试辅助平台，以下是其通常的数据处理方式：\n\n---\n\n## 数据处理方式\n\n### 📄 简历数据\n- **上传与解析**：用户上传简历后，AI 会自动解析提取关键信息（技能、经历、教育背景等）\n- **优化建议**：系统分析简历内容，提供针对性的改进建议\n- **存储**：简历数据通常存储在用户账户中，用于后续匹配和分析\n\n### 🎤 面试数据\n- **模拟面试录制**：用户进行模拟面试时，可能会录制音视频\n- **AI 分析**：分析回答内容、表达方式、关键词匹配等\n- **反馈生成**：基于分析结果提供改进建议\n\n---\n\n## ⚠️ 隐私注意事项\n\n建议您直接查阅 Skillver 官方的：\n- **隐私政策（Privacy Policy）**\n- **服务条款（Terms of Service）**\n\n重点关注：\n- 数据是否与第三方共享\n- 数据保留期限\n- 是否用于模型训练\n- 数据删除权利\n\n---\n\n> 如需准确信息，建议访问 **Skillver 官网**或联系其客服团队获取最新隐私政策说明。"
+        }
+      }
+    ],
+    "created": 1787124583,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 441,
+      "prompt_tokens": 53,
+      "total_tokens": 494
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:29:42.774453Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "# Skillver 如何处理简历和面试数据？\n\n## 关于 Skillver\n\nSkillver 是一个 AI 驱动的求职/面试辅助平台，以下是其通常的数据处理方式：\n\n---\n\n## 数据处理方式\n\n### 📄 简历数据\n- **上传与解析**：用户上传简历后，AI 会自动解析提取关键信息（技能、经历、教育背景等）\n- **优化建议**：系统分析简历内容，提供针对性的改进建议\n- **存储**：简历数据通常存储在用户账户中，用于后续匹配和分析\n\n### 🎤 面试数据\n- **模拟面试录制**：用户进行模拟面试时，可能会录制音视频\n- **AI 分析**：分析回答内容、表达方式、关键词匹配等\n- **反馈生成**：基于分析结果提供改进建议\n\n---\n\n## ⚠️ 隐私注意事项\n\n建议您直接查阅 Skillver 官方的：\n- **隐私政策（Privacy Policy）**\n- **服务条款（Terms of Service）**\n\n重点关注：\n- 数据是否与第三方共享\n- 数据保留期限\n- 是否用于模型训练\n- 数据删除权利\n\n---\n\n> 如需准确信息，建议访问 **Skillver 官网**或联系其客服团队获取最新隐私政策说明。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

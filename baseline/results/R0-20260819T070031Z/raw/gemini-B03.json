@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "**Skillver（通常指“学威教育”或“学威在职硕士”旗下的在线学习平台/品牌）**是否靠谱，取决于你的**核心需求**。它不是骗子公司，是一家运营多年的正规教育培训机构，但其提供的学位和证书存在特定的局限性。\n\n以下是关于 Skillver 的客观分析，供你参考：\n\n### 一、 靠谱的地方（优势）\n1. **真实存在，合规运营**：学威教育（Skillver）在国内有实体门店和多年运营历史，提供真实的海外院校免联考 MBA、硕士、博士项目。\n2. **免统考，毕业相对容易**：对于不想参加国内严苛的硕士研究生全国联考，又需要一个硕士学位头衔的在职人员来说，它提供了一条“宽进严出”或“宽进宽出”的通道。\n3. **适合特定群体**：如果你在**私企、外企工作，或者自己创业**，需要用 MBA 学位来升职加薪、装点门面或拓展人脉，Skillver 提供的海外院校证书在这些领域是有一定认可度的。\n\n### 二、 不够“靠谱”或需要注意的地方（风险与局限）\n1. **最核心问题：留服认证（中留服认证）**\n   * Skillver 合作的很多海外院校项目是**纯线上授课（网课）**。根据中国教育部留学服务中心（CSCSE）的现行政策，**跨境远程国（境）外学历学位证书原则上不予认证**。\n   * 如果你拿不到“留服认证”，这个学位在**公务员报考、事业单位招聘、国企央企晋升、落户积分**等方面是**完全无效**的。\n2. **合作院校含金量一般**：\n   * 其合作的海外高校大多是欧洲、美洲的私立大学、应用技术大学或排名靠后的学校（例如西班牙、法国的一些商学院）。这些学校在国际或国内的学术排名通常不高。\n3. **退费难与销售套路**：\n   * 网上有较多关于其销售人员前期过度承诺（如暗示可以认证、保证毕业等）、后期服务跟不上以及退费困难的投诉。\n\n### 总结建议：\n* **不建议报名的群体**：体制内人员（公务员、国企、事业单位）、需要落户积分者、计划用此学历报考高要求岗位者。因为**大概率无法通过留服认证**。\n* **可以考虑的群体**：私企/外企中高管、创业者。如果你的目的是**学习管理知识、拓展商业人脉、在非体制内单位晋升**，且预算充足，它是一个可以考虑的通道，但签约前务必看清合同条款，不要轻信口头承诺。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver（通常指“学威教育”或“学威在职硕士”旗下的在线学习平台/品牌）**是否靠谱，取决于你的**核心需求**。它不是骗子公司，是一家运营多年的正规教育培训机构，但其提供的学位和证书存在特定的局限性。\n\n以下是关于 Skillver 的客观分析，供你参考：\n\n### 一、 靠谱的地方（优势）\n1. **真实存在，合规运营**：学威教育（Skillver）在国内有实体门店和多年运营历史，提供真实的海外院校免联考 MBA、硕士、博士项目。\n2. **免统考，毕业相对容易**：对于不想参加国内严苛的硕士研究生全国联考，又需要一个硕士学位头衔的在职人员来说，它提供了一条“宽进严出”或“宽进宽出”的通道。\n3. **适合特定群体**：如果你在**私企、外企工作，或者自己创业**，需要用 MBA 学位来升职加薪、装点门面或拓展人脉，Skillver 提供的海外院校证书在这些领域是有一定认可度的。\n\n### 二、 不够“靠谱”或需要注意的地方（风险与局限）\n1. **最核心问题：留服认证（中留服认证）**\n   * Skillver 合作的很多海外院校项目是**纯线上授课（网课）**。根据中国教育部留学服务中心（CSCSE）的现行政策，**跨境远程国（境）外学历学位证书原则上不予认证**。\n   * 如果你拿不到“留服认证”，这个学位在**公务员报考、事业单位招聘、国企央企晋升、落户积分**等方面是**完全无效**的。\n2. **合作院校含金量一般**：\n   * 其合作的海外高校大多是欧洲、美洲的私立大学、应用技术大学或排名靠后的学校（例如西班牙、法国的一些商学院）。这些学校在国际或国内的学术排名通常不高。\n3. **退费难与销售套路**：\n   * 网上有较多关于其销售人员前期过度承诺（如暗示可以认证、保证毕业等）、后期服务跟不上以及退费困难的投诉。\n\n### 总结建议：\n* **不建议报名的群体**：体制内人员（公务员、国企、事业单位）、需要落户积分者、计划用此学历报考高要求岗位者。因为**大概率无法通过留服认证**。\n* **可以考虑的群体**：私企/外企中高管、创业者。如果你的目的是**学习管理知识、拓展商业人脉、在非体制内单位晋升**，且预算充足，它是一个可以考虑的通道，但签约前务必看清合同条款，不要轻信口头承诺。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123023,
+    "id": "Q1WFaoHGOuGzkdUPucff0Ag",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 621,
+      "prompt_tokens": 35,
+      "total_tokens": 1974
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:03:42.967822Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "**Skillver（通常指“学威教育”或“学威在职硕士”旗下的在线学习平台/品牌）**是否靠谱，取决于你的**核心需求**。它不是骗子公司，是一家运营多年的正规教育培训机构，但其提供的学位和证书存在特定的局限性。\n\n以下是关于 Skillver 的客观分析，供你参考：\n\n### 一、 靠谱的地方（优势）\n1. **真实存在，合规运营**：学威教育（Skillver）在国内有实体门店和多年运营历史，提供真实的海外院校免联考 MBA、硕士、博士项目。\n2. **免统考，毕业相对容易**：对于不想参加国内严苛的硕士研究生全国联考，又需要一个硕士学位头衔的在职人员来说，它提供了一条“宽进严出”或“宽进宽出”的通道。\n3. **适合特定群体**：如果你在**私企、外企工作，或者自己创业**，需要用 MBA 学位来升职加薪、装点门面或拓展人脉，Skillver 提供的海外院校证书在这些领域是有一定认可度的。\n\n### 二、 不够“靠谱”或需要注意的地方（风险与局限）\n1. **最核心问题：留服认证（中留服认证）**\n   * Skillver 合作的很多海外院校项目是**纯线上授课（网课）**。根据中国教育部留学服务中心（CSCSE）的现行政策，**跨境远程国（境）外学历学位证书原则上不予认证**。\n   * 如果你拿不到“留服认证”，这个学位在**公务员报考、事业单位招聘、国企央企晋升、落户积分**等方面是**完全无效**的。\n2. **合作院校含金量一般**：\n   * 其合作的海外高校大多是欧洲、美洲的私立大学、应用技术大学或排名靠后的学校（例如西班牙、法国的一些商学院）。这些学校在国际或国内的学术排名通常不高。\n3. **退费难与销售套路**：\n   * 网上有较多关于其销售人员前期过度承诺（如暗示可以认证、保证毕业等）、后期服务跟不上以及退费困难的投诉。\n\n### 总结建议：\n* **不建议报名的群体**：体制内人员（公务员、国企、事业单位）、需要落户积分者、计划用此学历报考高要求岗位者。因为**大概率无法通过留服认证**。\n* **可以考虑的群体**：私企/外企中高管、创业者。如果你的目的是**学习管理知识、拓展商业人脉、在非体制内单位晋升**，且预算充足，它是一个可以考虑的通道，但签约前务必看清合同条款，不要轻信口头承诺。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

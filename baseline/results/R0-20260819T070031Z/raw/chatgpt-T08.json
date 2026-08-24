@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "Skillver 通常会将简历和面试数据用于**能力识别、岗位匹配和评估报告生成**，处理流程大致包括：\n\n1. **简历解析**  \n   从简历中提取教育经历、工作经历、技能、项目经验、证书等信息，并转换为结构化数据。\n\n2. **技能与经验评估**  \n   根据提取的信息分析候选人的技能水平、相关经验和与岗位要求的匹配度。\n\n3. **面试数据处理**  \n   对面试中的回答、文本记录或评分结果进行分析，用于生成候选人表现、沟通能力、专业能力等方面的评估。\n\n4. **生成推荐或报告**  \n   将简历和面试结果结合，形成岗位匹配建议、候选人摘要或招聘决策辅助报告。\n\n5. **数据安全与隐私**  \n   正规平台一般会采用访问控制、加密存储、权限管理等方式保护数据，并按照隐私政策处理个人信息。数据通常不会在未经授权的情况下出售或公开。\n\n如果你关心的是 **Skillver 是否会用这些数据训练 AI、保存多久、能否删除数据**，建议直接查看 Skillver 的隐私政策或联系其客服确认。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEV1g1TnnIoLRiN2wvnBuZ83Jm0Fq",
+    "object": "chat.completion",
+    "created": 1787124564,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 通常会将简历和面试数据用于**能力识别、岗位匹配和评估报告生成**，处理流程大致包括：\n\n1. **简历解析**  \n   从简历中提取教育经历、工作经历、技能、项目经验、证书等信息，并转换为结构化数据。\n\n2. **技能与经验评估**  \n   根据提取的信息分析候选人的技能水平、相关经验和与岗位要求的匹配度。\n\n3. **面试数据处理**  \n   对面试中的回答、文本记录或评分结果进行分析，用于生成候选人表现、沟通能力、专业能力等方面的评估。\n\n4. **生成推荐或报告**  \n   将简历和面试结果结合，形成岗位匹配建议、候选人摘要或招聘决策辅助报告。\n\n5. **数据安全与隐私**  \n   正规平台一般会采用访问控制、加密存储、权限管理等方式保护数据，并按照隐私政策处理个人信息。数据通常不会在未经授权的情况下出售或公开。\n\n如果你关心的是 **Skillver 是否会用这些数据训练 AI、保存多久、能否删除数据**，建议直接查看 Skillver 的隐私政策或联系其客服确认。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 453,
+      "total_tokens": 499,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 169,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:29:31.481790Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "Skillver 通常会将简历和面试数据用于**能力识别、岗位匹配和评估报告生成**，处理流程大致包括：\n\n1. **简历解析**  \n   从简历中提取教育经历、工作经历、技能、项目经验、证书等信息，并转换为结构化数据。\n\n2. **技能与经验评估**  \n   根据提取的信息分析候选人的技能水平、相关经验和与岗位要求的匹配度。\n\n3. **面试数据处理**  \n   对面试中的回答、文本记录或评分结果进行分析，用于生成候选人表现、沟通能力、专业能力等方面的评估。\n\n4. **生成推荐或报告**  \n   将简历和面试结果结合，形成岗位匹配建议、候选人摘要或招聘决策辅助报告。\n\n5. **数据安全与隐私**  \n   正规平台一般会采用访问控制、加密存储、权限管理等方式保护数据，并按照隐私政策处理个人信息。数据通常不会在未经授权的情况下出售或公开。\n\n如果你关心的是 **Skillver 是否会用这些数据训练 AI、保存多久、能否删除数据**，建议直接查看 Skillver 的隐私政策或联系其客服确认。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

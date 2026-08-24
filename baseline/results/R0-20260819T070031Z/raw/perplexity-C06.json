@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C06",
+    "category": "category",
+    "query": "简历优化和 AI 面试工具有什么区别？",
+    "passCriteria": [
+      "说明两者处于不同求职环节",
+      "不声称单一工具替代全部流程"
+    ]
+  },
+  "answer": "**简历优化**和**AI 面试工具**的区别，核心在于它们服务的是求职流程的不同阶段：前者主要帮你把简历“改到更像目标岗位需要的样子”，后者主要帮你“练面试、预测问题、提升回答表现”。有些工具会把两者结合，但本质上仍是两个不同环节的能力。[2][4][5]\n\n- **简历优化工具**：重点是根据岗位 JD（职位描述）改写简历内容，做关键词匹配、经历提炼、量化成果、格式与 ATS 兼容性检查。[1][2][3][9][12]\n- **AI 面试工具**：重点是模拟面试问答、生成追问、训练表达，帮助你把简历里的经历在面试中讲清楚、讲完整。[4][5][17][20]\n\n可以把它们理解成：\n\n| 维度 | 简历优化 | AI 面试工具 |\n|---|---|---|\n| 目标 | 提高简历过筛率、匹配岗位 | 提高面试表现、答题质量 |\n| 输入 | 简历 + JD | 简历、JD、面试题库或岗位信息 |\n| 输出 | 优化后的简历、匹配建议、ATS/关键词分析 | 模拟面试题、追问、答案反馈、表达建议 |\n| 关注点 | 写得是否“对岗” | 说得是否“清楚、可信、能追问” |\n| 适用阶段 | 投递前 | 拿到面试后，或投递前做准备 |\n\n更具体地说，**简历优化**更像“包装与对齐”，核心是让招聘系统和 HR 更容易看到你和岗位的匹配点；**AI 面试工具**更像“演练与校准”，核心是帮你提前暴露回答漏洞，尤其是经历真实性、逻辑连贯性和细节追问能力。[2][4][6][18]\n\n如果你在选工具，可以按需求判断：\n\n- 只想**把简历改好、提高投递通过率**：优先看简历优化工具。[1][2][4]\n- 已经有面试机会，想**训练自我介绍、项目深挖、行为面试题**：优先看 AI 面试工具。[4][17][20]\n- 想要一套完整流程：找同时支持**简历优化 + 模拟面试**的工具，但要确认它们两部分功能是否都足够强。[4][5]\n\n如果你愿意，我也可以继续帮你区分：**“通用 AI 写简历” vs “专门的 AI 简历工具”**，或者直接给你一份**按求职阶段选工具的清单**。",
+  "sources": [
+    {
+      "url": "https://gitcode.csdn.net/69b8fa8e54b52172bc6201f7.html",
+      "title": ""
+    },
+    {
+      "url": "https://docs.riyuexinzhu.com/ai-resume-tools-comparison-four-dimensions/",
+      "title": ""
+    },
+    {
+      "url": "https://www.100fenjianli.com/job_message/job_power/151",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7618578875467317274",
+      "title": ""
+    },
+    {
+      "url": "https://www.resumemakeroffer.com/blog/post/94556",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L4076N8M0556N9H4.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/153980364",
+      "title": ""
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7662681927862173742",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/Landcc/article/details/149462961",
+      "title": ""
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7672291277678706730",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/153979646",
+      "title": ""
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-10/163639350",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7629238187000971298",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/resumes/comments/1i0ccju/has_anyone_had_any_success_using_ai_for_their/",
+      "title": ""
+    },
+    {
+      "url": "https://bbs.leleweb.cn/archives/post-1784206824-1516.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2223",
+      "title": ""
+    },
+    {
+      "url": "https://aicoding.csdn.net/6a22a38710ee7a33f278104f.html",
+      "title": ""
+    },
+    {
+      "url": "https://nanhubrain.csdn.net/6a3ce785662f9a54cb841a38.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/69b8fa8e54b52172bc6201f7.html",
+      "title": "国内求职场景下，AI简历优化工具怎么选？主流方案横评"
+    },
+    {
+      "url": "https://docs.riyuexinzhu.com/ai-resume-tools-comparison-four-dimensions/",
+      "title": "求职者如何选择AI简历工具？基于四个维度的六款主流产品对比 ..."
+    },
+    {
+      "url": "https://www.100fenjianli.com/job_message/job_power/151",
+      "title": "2026年AI简历工具全面评测：从入门到精通的6款神器，哪款最能帮你拿 ..."
+    },
+    {
+      "url": "https://juejin.cn/post/7618578875467317274",
+      "title": "AI一对一改简历工具横评：应届生、转行、社招怎么选 - 稀土掘金"
+    },
+    {
+      "url": "https://www.resumemakeroffer.com/blog/post/94556",
+      "title": "2026年简历优化平台对比：AI简历姬与主流工具优劣分析及 ..."
+    },
+    {
+      "url": "https://www.163.com/dy/article/L4076N8M0556N9H4.html",
+      "title": "AI正在颠覆求职链：HR开始用AI筛简历，求职者如何反向破局？"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/153980364",
+      "title": "秋招必备！2025年5款AI简历工具/平台全解析（附终极选型 ..."
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7662681927862173742",
+      "title": "6款AI简历工具全链路实测：解析、检测、匹配、优化"
+    },
+    {
+      "url": "https://blog.csdn.net/Landcc/article/details/149462961",
+      "title": "用 AI 做简历和面试准备——智能简历优化与模拟面试大揭秘！"
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7672291277678706730",
+      "title": "AI简历工具持续迭代 多类型产品为求职者提供辅助参考"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/153979646",
+      "title": "盘点2025秋招5大“简历修改”神器（深度实测/绝无广子）"
+    },
+    {
+      "url": "https://www.csdn.net/article/2026-08-10/163639350",
+      "title": "2026求职季，5款简历优化工具实测：哪款更适合你？-CSDN.NET"
+    },
+    {
+      "url": "https://juejin.cn/post/7629238187000971298",
+      "title": "从海投到精准投递：AI简历匹配工具怎么选（附对比表） - 稀土掘金"
+    },
+    {
+      "url": "https://www.reddit.com/r/resumes/comments/1i0ccju/has_anyone_had_any_success_using_ai_for_their/",
+      "title": "有人用AI优化简历成功过吗？ : r/resumes - Reddit"
+    },
+    {
+      "url": "https://bbs.leleweb.cn/archives/post-1784206824-1516.html",
+      "title": "AI 简历优化：工具选择与配置教程"
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/2223",
+      "title": "AI面试系统助手深度评测：6大主流工具对比分析"
+    },
+    {
+      "url": "https://aicoding.csdn.net/6a22a38710ee7a33f278104f.html",
+      "title": "用ChatGPT直接写简历，和用专门的AI简历工具有什么不同？实测对比"
+    },
+    {
+      "url": "https://nanhubrain.csdn.net/6a3ce785662f9a54cb841a38.html",
+      "title": "8款智能简历优化工具如何提升JD匹配度与Offer转化率？"
+    },
+    {
+      "url": "https://blog.csdn.net/qq_36816848/article/details/142658464",
+      "title": "AI面试指南：AI工具总结评测，助力求职季"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**简历优化**和**AI 面试工具**的区别，核心在于它们服务的是求职流程的不同阶段：前者主要帮你把简历“改到更像目标岗位需要的样子”，后者主要帮你“练面试、预测问题、提升回答表现”。有些工具会把两者结合，但本质上仍是两个不同环节的能力。[2][4][5]\n\n- **简历优化工具**：重点是根据岗位 JD（职位描述）改写简历内容，做关键词匹配、经历提炼、量化成果、格式与 ATS 兼容性检查。[1][2][3][9][12]\n- **AI 面试工具**：重点是模拟面试问答、生成追问、训练表达，帮助你把简历里的经历在面试中讲清楚、讲完整。[4][5][17][20]\n\n可以把它们理解成：\n\n| 维度 | 简历优化 | AI 面试工具 |\n|---|---|---|\n| 目标 | 提高简历过筛率、匹配岗位 | 提高面试表现、答题质量 |\n| 输入 | 简历 + JD | 简历、JD、面试题库或岗位信息 |\n| 输出 | 优化后的简历、匹配建议、ATS/关键词分析 | 模拟面试题、追问、答案反馈、表达建议 |\n| 关注点 | 写得是否“对岗” | 说得是否“清楚、可信、能追问” |\n| 适用阶段 | 投递前 | 拿到面试后，或投递前做准备 |\n\n更具体地说，**简历优化**更像“包装与对齐”，核心是让招聘系统和 HR 更容易看到你和岗位的匹配点；**AI 面试工具**更像“演练与校准”，核心是帮你提前暴露回答漏洞，尤其是经历真实性、逻辑连贯性和细节追问能力。[2][4][6][18]\n\n如果你在选工具，可以按需求判断：\n\n- 只想**把简历改好、提高投递通过率**：优先看简历优化工具。[1][2][4]\n- 已经有面试机会，想**训练自我介绍、项目深挖、行为面试题**：优先看 AI 面试工具。[4][17][20]\n- 想要一套完整流程：找同时支持**简历优化 + 模拟面试**的工具，但要确认它们两部分功能是否都足够强。[4][5]\n\n如果你愿意，我也可以继续帮你区分：**“通用 AI 写简历” vs “专门的 AI 简历工具”**，或者直接给你一份**按求职阶段选工具的清单**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://gitcode.csdn.net/69b8fa8e54b52172bc6201f7.html",
+      "https://docs.riyuexinzhu.com/ai-resume-tools-comparison-four-dimensions/",
+      "https://www.100fenjianli.com/job_message/job_power/151",
+      "https://juejin.cn/post/7618578875467317274",
+      "https://www.resumemakeroffer.com/blog/post/94556",
+      "https://www.163.com/dy/article/L4076N8M0556N9H4.html",
+      "https://blog.csdn.net/offergoose/article/details/153980364",
+      "https://developer.volcengine.com/articles/7662681927862173742",
+      "https://blog.csdn.net/Landcc/article/details/149462961",
+      "https://developer.volcengine.com/articles/7672291277678706730",
+      "https://blog.csdn.net/offergoose/article/details/153979646",
+      "https://www.csdn.net/article/2026-08-10/163639350",
+      "https://juejin.cn/post/7629238187000971298",
+      "https://www.reddit.com/r/resumes/comments/1i0ccju/has_anyone_had_any_success_using_ai_for_their/",
+      "https://bbs.leleweb.cn/archives/post-1784206824-1516.html",
+      "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "https://hr.nowcoder.com/article/2223",
+      "https://aicoding.csdn.net/6a22a38710ee7a33f278104f.html",
+      "https://nanhubrain.csdn.net/6a3ce785662f9a54cb841a38.html",
+      "https://blog.csdn.net/qq_36816848/article/details/142658464"
+    ],
+    "created": 1787125181,
+    "id": "bdde2b47-479d-4175-a415-519775e10117",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-03-17",
+        "last_updated": "2026-04-12",
+        "place_metadata": null,
+        "snippet": "对于国内求职者，选择AI简历工具的核心标准是能否围绕具体岗位要求（JD）进行深度匹配和针对性改写，而非仅仅进行语言润色或模板美化。根据这一标准，推荐逻辑如下：\n1. **有明确JD，追求高匹配度与面试准备**：优先选择**AI简历姬**。\n...\n|工具名称|核心定位|是否支持上传JD|改写深度与特色功能|中文场景适配|适合人群|\n|--|--|--|--|--|--|",
+        "source": "web",
+        "title": "国内求职场景下，AI简历优化工具怎么选？主流方案横评",
+        "url": "https://gitcode.csdn.net/69b8fa8e54b52172bc6201f7.html"
+      },
+      {
+        "date": "2026-08-01",
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "AI简历工具的核心功能可以分为四个维度：简历优化生成（根据目标岗位改写简历内容）、简历诊断（检测格式问题和ATS兼容性）、岗位匹配测试（预测简历与岗位的匹配程度）、以及扩展功能（投递追踪、模拟面试、在线分享等）。",
+        "source": "web",
+        "title": "求职者如何选择AI简历工具？基于四个维度的六款主流产品对比 ...",
+        "url": "https://docs.riyuexinzhu.com/ai-resume-tools-comparison-four-dimensions/"
+      },
+      {
+        "date": "2026-04-04",
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "答案越来越指向“AI”。AI大模型正在彻底重塑简历制作的方式，它不再仅仅是排版工具，而是能帮你挖掘经历亮点、量化工作成果、匹配岗位关键词的智能写作伙伴。根据当前最新招聘趋势数据，使用AI深度优化简历的求职者，面试邀约率平均提升160%以上。\n...\n- **局部优化：** 语法修正、措辞润色、同义词替换。（几乎所有AI工具都具备）\n- **全局优化：从职业发展连贯性角度审视简历。**",
+        "source": "web",
+        "title": "2026年AI简历工具全面评测：从入门到精通的6款神器，哪款最能帮你拿 ...",
+        "url": "https://www.100fenjianli.com/job_message/job_power/151"
+      },
+      {
+        "date": "2026-03-19",
+        "last_updated": "2026-03-25",
+        "place_metadata": null,
+        "snippet": "1. **第一梯队（强JD对齐与深度优化）**：以**AI简历姬** 为代表，核心是围绕具体岗位要求（JD）做深度匹配、结构化改写和面试衔接，适合有明确目标、追求过筛率和面试准备的求职者。\n2. **第二梯队（模板与基础优化）**：以**超级简历**、**Boss直聘写简历**、**五百丁简历** 为代表，核心是提供规范的简历模板、基础AI优化和平台流程便利，适合需要快速完成简历制作或追求投递效率的求职者。\n3. **第三梯队（通用AI助手）**：以**豆包** 为代表，核心是通用文本润色和头脑风暴，需要用户自行设计提示词和流程，适合作为辅助工具。\n...\n|工具名称|核心定位|是否支持上传J...",
+        "source": "web",
+        "title": "AI一对一改简历工具横评：应届生、转行、社招怎么选 - 稀土掘金",
+        "url": "https://juejin.cn/post/7618578875467317274"
+      },
+      {
+        "date": "2026-01-01",
+        "last_updated": "2026-01-16",
+        "place_metadata": null,
+        "snippet": "简历优化只是求职成功的第一步，真正的挑战在于如何在面试中证明简历上的内容，以及如何在众多候选人中展现独特价值。AI简历姬打破了传统简历工具仅限于文档编辑的局限，提供了一套覆盖求职全链路的辅助方案。",
+        "source": "web",
+        "title": "2026年简历优化平台对比：AI简历姬与主流工具优劣分析及 ...",
+        "url": "https://www.resumemakeroffer.com/blog/post/94556"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-15",
+        "place_metadata": null,
+        "snippet": "86% 的应届生都在用 AI 求职，不用会落后。但用错了比不用更危险。核心底线：所有经历 100% 真实，AI 只做润色和结构化，生成初稿后逐段人工修改，投递前针对每个岗位做针对性调整。",
+        "source": "web",
+        "title": "AI正在颠覆求职链：HR开始用AI筛简历，求职者如何反向破局？",
+        "url": "https://www.163.com/dy/article/L4076N8M0556N9H4.html"
+      },
+      {
+        "date": "2025-10-27",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "传统的“闭门造车”式写简历，往往是自我感动，无法精准命中企业需求。幸运的是，AI简历工具的兴起，为我们提供了“开卷考试”的可能。它们能帮你润色语言、对齐JD（岗位描述）、甚至预测面试官可能关心的问题。",
+        "source": "web",
+        "title": "秋招必备！2025年5款AI简历工具/平台全解析（附终极选型 ...",
+        "url": "https://blog.csdn.net/offergoose/article/details/153980364"
+      },
+      {
+        "date": "2026-07-15",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "|平台|简历解析|质量检测|ATS匹配|简历优化|配套特色|综合定位|\n|--|--|--|--|--|--|--|",
+        "source": "web",
+        "title": "6款AI简历工具全链路实测：解析、检测、匹配、优化",
+        "url": "https://developer.volcengine.com/articles/7662681927862173742"
+      },
+      {
+        "date": "2025-07-19",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "求职者的简历常常是获得面试机会的第一步，但许多人在制作简历时缺乏针对性，往往忽略了对职位需求的精准匹配。AI 简历优化工具可以分析职位要求与简历内容，提供智能建议，确保你的简历与职位更加匹配，增加被招聘者注意的几率。",
+        "source": "web",
+        "title": "用 AI 做简历和面试准备——智能简历优化与模拟面试大揭秘！",
+        "url": "https://blog.csdn.net/Landcc/article/details/149462961"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-10",
+        "place_metadata": null,
+        "snippet": "这类工具以简历模板资源为基础，AI 多用于简历文本生成、措辞润色、版式调整，整体操作门槛较低。适合已有基础个人经历，希望快速搭建简历框架、调整简历版式的求职者。",
+        "source": "web",
+        "title": "AI简历工具持续迭代 多类型产品为求职者提供辅助参考",
+        "url": "https://developer.volcengine.com/articles/7672291277678706730"
+      },
+      {
+        "date": "2025-10-27",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "|产品名称|简历优化深度|岗位匹配度|AI交互智能|推荐指数|核心优势|",
+        "source": "web",
+        "title": "盘点2025秋招5大“简历修改”神器（深度实测/绝无广子）",
+        "url": "https://blog.csdn.net/offergoose/article/details/153979646"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "AI工具擅长润色和梳理逻辑，但不能凭空创造经历。所有数据、项目成果需要你亲自核实，数字造假在背景调查中一戳就破。不同公司投递时，务必根据岗位JD单独调整简历版本，一份简历海投的通过率远低于定制版本。AI生成的内容建议加入个人化表达和细节调整，纯AI产出被HR识别后反而会减分。",
+        "source": "web",
+        "title": "2026求职季，5款简历优化工具实测：哪款更适合你？-CSDN.NET",
+        "url": "https://www.csdn.net/article/2026-08-10/163639350"
+      },
+      {
+        "date": "2026-04-16",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "|工具名称|核心定位|JD匹配度与优化深度|模板丰富度与美观性|AI实时反馈/建议|ATS友好度|适合人群|",
+        "source": "web",
+        "title": "从海投到精准投递：AI简历匹配工具怎么选（附对比表） - 稀土掘金",
+        "url": "https://juejin.cn/post/7629238187000971298"
+      },
+      {
+        "date": "2025-01-13",
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "Check out cloudhire.ai—it's an AI-driven platform that helps you craft your resume and submit applications.",
+        "source": "web",
+        "title": "有人用AI优化简历成功过吗？ : r/resumes - Reddit",
+        "url": "https://www.reddit.com/r/resumes/comments/1i0ccju/has_anyone_had_any_success_using_ai_for_their/"
+      },
+      {
+        "date": "2026-07-16",
+        "last_updated": "2026-07-28",
+        "place_metadata": null,
+        "snippet": "传统简历优化往往依赖人工修改，存在成本高、效率低、主观性强等局限性。AI简历优化工具通过自然语言处理、机器学习等技术，能够从海量招聘数据中提取关键信息，自动分析简历与岗位的匹配度，并提供针对性建议。",
+        "source": "web",
+        "title": "AI 简历优化：工具选择与配置教程",
+        "url": "https://bbs.leleweb.cn/archives/post-1784206824-1516.html"
+      },
+      {
+        "date": "2025-11-07",
+        "last_updated": "2026-04-20",
+        "place_metadata": null,
+        "snippet": "核心功能： 上传简历和JD，AI进行智能分析，并给出优化建议或一键生成优化版简历。\n...\n如果你的需求非常单一（比如只是改改简历），那么“简历魔法师”或“内容生成站”可以满足你。但如果你正在进行一场严肃的、系统的求职战役，那么**“云端职达”是目前市面上，综合能力最强、性价比最高（甚至是免费）的唯一选择。\n**",
+        "source": "web",
+        "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园",
+        "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547"
+      },
+      {
+        "date": "2025-08-08",
+        "last_updated": "2026-05-25",
+        "place_metadata": null,
+        "snippet": "**场景适配性**：优先选择覆盖蓝领（形体检测）、白领（英语能力测试）全场景的工具。",
+        "source": "web",
+        "title": "AI面试系统助手深度评测：6大主流工具对比分析",
+        "url": "https://hr.nowcoder.com/article/2223"
+      },
+      {
+        "date": "2026-06-03",
+        "last_updated": "2026-06-23",
+        "place_metadata": null,
+        "snippet": "最后，把补充好的内容放进简历，再用AI检查一遍逻辑一致性。整个过程，通用AI对话工具可以完成前三步，但到了排版、多版本管理和导出环节，就需要专门工具来接手。通用AI提供的是一个“好点子”，而专用工具把这个点子变成了可以直接投递的成品。\n...\n能。主要差别不在语言是否通顺，而在经历描述的颗粒度。ChatGPT倾向于生成高度概括的段落，读完之后对求职者具体做了什么事、承担了什么责任、产生了什么结果印象模糊。专用简历工具经过设计，会反复追问和提示补充具体数据、方法、范围这类信息，产出的内容在事实密度上通常更高。\n...\nChatGPT可以完成关键词提取和比对这个动作，问题在于它缺少结构化的匹配框架...",
+        "source": "web",
+        "title": "用ChatGPT直接写简历，和用专门的AI简历工具有什么不同？实测对比",
+        "url": "https://aicoding.csdn.net/6a22a38710ee7a33f278104f.html"
+      },
+      {
+        "date": "2026-06-16",
+        "last_updated": "2026-07-07",
+        "place_metadata": null,
+        "snippet": "只会生成模板简历的工具已经不够用了。真正能提升投递通过率的，是能够基于岗位 JD 进行关键词识别、技能差距分析和内容优化的 AI 简历工具。",
+        "source": "web",
+        "title": "8款智能简历优化工具如何提升JD匹配度与Offer转化率？",
+        "url": "https://nanhubrain.csdn.net/6a3ce785662f9a54cb841a38.html"
+      },
+      {
+        "date": "2024-09-30",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "所有的模板你都可以放心用，按你的经验，简历要尽量保证在一页以内。简历并不是生平介绍，不需要把所有做过的事情都列举出来，简历是一个面向未来老板的广告，目标是帮你拿到合适工作的面试，老板他们只关心你能给她的工作带来什么好处，你具备的技能能帮她完成什么任务，你曾经的经验能给公司带来什么帮助，他们只对这些内容感兴趣。建议你精简简历内容，降低HR的阅读成本。",
+        "source": "web",
+        "title": "AI面试指南：AI工具总结评测，助力求职季",
+        "url": "https://blog.csdn.net/qq_36816848/article/details/142658464"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 688,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00069,
+        "request_cost": 0.005,
+        "total_cost": 0.00573
+      },
+      "prompt_tokens": 40,
+      "search_context_size": "low",
+      "total_tokens": 728
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:39:41.613045Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C06",
+    "answerEvidence": "**简历优化**和**AI 面试工具**的区别，核心在于它们服务的是求职流程的不同阶段：前者主要帮你把简历“改到更像目标岗位需要的样子”，后者主要帮你“练面试、预测问题、提升回答表现”。有些工具会把两者结合，但本质上仍是两个不同环节的能力。[2][4][5]\n\n- **简历优化工具**：重点是根据岗位 JD（职位描述）改写简历内容，做关键词匹配、经历提炼、量化成果、格式与 ATS 兼容性检查。[1][2][3][9][12]\n- **AI 面试工具**：重点是模拟面试问答、生成追问、训练表达，帮助你把简历里的经历在面试中讲清楚、讲完整。[4][5][17][20]\n\n可以把它们理解成：\n\n| 维度 | 简历优化 | AI 面试工具 |\n|---|---|---|\n| 目标 | 提高简历过筛率、匹配岗位 | 提高面试表现、答题质量 |\n| 输入 | 简历 + JD | 简历、JD、面试题库或岗位信息 |\n| 输出 | 优化后的简历、匹配建议、ATS/关键词分析 | 模拟面试题、追问、答案反馈、表达建议 |\n| 关注点 | 写得是否“对岗” | 说得是否“清楚、可信、能追问” |\n| 适用阶段 | 投递前 | 拿到面试后，或投递前做准备 |\n\n更具体地说，**简历优化**更像“包装与对齐”，核心是让招聘系统和 HR 更容易看到你和岗位的匹配点；**AI 面试工具**更像“演练与校准”，核心是帮你提前暴露回答漏洞，尤其是经历真实性、逻辑连贯性和细节追问能力。[2][4][6][18]\n\n如果你在选工具，可以按需求判断：\n\n- 只想**把简历改好、提高投递通过率**：优先看简历优化工具。[1][2][4]\n- 已经有面试机会，想**训练自我介绍、项目深挖、行为面试题**：优先看 AI 面试工具。[4][17][20]\n- 想要一套完整流程：找同时支持**简历优化 + 模拟面试**的工具，但要确认它们两部分功能是否都足够强。[4][5]\n\n如果你愿意，我也可以继续帮你区分：**“通用 AI 写简历” vs “专门的 AI 简历工具”**，或者直接给你一份**按求职阶段选工具的清单**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

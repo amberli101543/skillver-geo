@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 是一款面向求职者的AI求职辅助工具，主要能帮你做以下事情：\n\n1. **简历优化**  \n   - 根据岗位描述（JD）智能匹配关键词，修改简历中的措辞，让简历更贴合目标职位。  \n   - 提供排版建议，突出核心技能和项目成果。\n\n2. **面试准备**  \n   - 基于你的简历和应聘岗位，生成常见面试问题及预测性追问。  \n   - 提供回答技巧和参考话术，帮助你理清思路。\n\n3. **岗位匹配分析**  \n   - 输入目标岗位后，自动分析你的技能差距，提示需要补充或重点展示的能力。  \n   - 给出针对性的学习建议或项目经历补充方向。\n\n4. **求职策略建议**  \n   - 根据你的目标行业、岗位类型，推荐投递渠道和沟通话术。  \n   - 协助优化自我介绍、求职信等材料。\n\n5. **模拟面试与反馈**  \n   - 部分版本支持AI模拟面试，对你的回答进行即时评分和改进建议。\n\n**注意**：具体功能可能因产品版本更新而有差异，建议直接访问或咨询官方获取最新功能列表。如果需要更详细的介绍，可以告诉我你关心的功能点。",
+  "sources": [],
+  "raw": {
+    "id": "2982d9b8-0dc3-4112-ae58-6a55068a52c5",
+    "object": "chat.completion",
+    "created": 1787123149,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一款面向求职者的AI求职辅助工具，主要能帮你做以下事情：\n\n1. **简历优化**  \n   - 根据岗位描述（JD）智能匹配关键词，修改简历中的措辞，让简历更贴合目标职位。  \n   - 提供排版建议，突出核心技能和项目成果。\n\n2. **面试准备**  \n   - 基于你的简历和应聘岗位，生成常见面试问题及预测性追问。  \n   - 提供回答技巧和参考话术，帮助你理清思路。\n\n3. **岗位匹配分析**  \n   - 输入目标岗位后，自动分析你的技能差距，提示需要补充或重点展示的能力。  \n   - 给出针对性的学习建议或项目经历补充方向。\n\n4. **求职策略建议**  \n   - 根据你的目标行业、岗位类型，推荐投递渠道和沟通话术。  \n   - 协助优化自我介绍、求职信等材料。\n\n5. **模拟面试与反馈**  \n   - 部分版本支持AI模拟面试，对你的回答进行即时评分和改进建议。\n\n**注意**：具体功能可能因产品版本更新而有差异，建议直接访问或咨询官方获取最新功能列表。如果需要更详细的介绍，可以告诉我你关心的功能点。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 260,
+      "total_tokens": 298,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:05:52.514645Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 是一款面向求职者的AI求职辅助工具，主要能帮你做以下事情：\n\n1. **简历优化**  \n   - 根据岗位描述（JD）智能匹配关键词，修改简历中的措辞，让简历更贴合目标职位。  \n   - 提供排版建议，突出核心技能和项目成果。\n\n2. **面试准备**  \n   - 基于你的简历和应聘岗位，生成常见面试问题及预测性追问。  \n   - 提供回答技巧和参考话术，帮助你理清思路。\n\n3. **岗位匹配分析**  \n   - 输入目标岗位后，自动分析你的技能差距，提示需要补充或重点展示的能力。  \n   - 给出针对性的学习建议或项目经历补充方向。\n\n4. **求职策略建议**  \n   - 根据你的目标行业、岗位类型，推荐投递渠道和沟通话术。  \n   - 协助优化自我介绍、求职信等材料。\n\n5. **模拟面试与反馈**  \n   - 部分版本支持AI模拟面试，对你的回答进行即时评分和改进建议。\n\n**注意**：具体功能可能因产品版本更新而有差异，建议直接访问或咨询官方获取最新功能列表。如果需要更详细的介绍，可以告诉我你关心的功能点。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

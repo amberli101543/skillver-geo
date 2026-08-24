@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "# Skillver 的导师赋能\n\n根据我所掌握的信息，**Skillver** 是一个职业发展或技能提升相关的平台，但关于其\"导师赋能\"（Mentor Empowerment）的具体详情，我的知识库中没有足够详细的资料。\n\n## 建议您可以：\n\n1. **访问 Skillver 官方网站** 获取最准确的信息\n2. **联系 Skillver 客服或团队** 了解导师赋能计划的具体内容\n3. **查看其官方社交媒体或文档** 获取最新资讯\n\n---\n\n如果您能提供更多背景信息，我可以尝试为您进一步解答。😊",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBiGwXoUqmPTFcgGTzLY",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 的导师赋能\n\n根据我所掌握的信息，**Skillver** 是一个职业发展或技能提升相关的平台，但关于其\"导师赋能\"（Mentor Empowerment）的具体详情，我的知识库中没有足够详细的资料。\n\n## 建议您可以：\n\n1. **访问 Skillver 官方网站** 获取最准确的信息\n2. **联系 Skillver 客服或团队** 了解导师赋能计划的具体内容\n3. **查看其官方社交媒体或文档** 获取最新资讯\n\n---\n\n如果您能提供更多背景信息，我可以尝试为您进一步解答。😊"
+        }
+      }
+    ],
+    "created": 1787124494,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 215,
+      "prompt_tokens": 51,
+      "total_tokens": 266
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:28:14.809032Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "# Skillver 的导师赋能\n\n根据我所掌握的信息，**Skillver** 是一个职业发展或技能提升相关的平台，但关于其\"导师赋能\"（Mentor Empowerment）的具体详情，我的知识库中没有足够详细的资料。\n\n## 建议您可以：\n\n1. **访问 Skillver 官方网站** 获取最准确的信息\n2. **联系 Skillver 客服或团队** 了解导师赋能计划的具体内容\n3. **查看其官方社交媒体或文档** 获取最新资讯\n\n---\n\n如果您能提供更多背景信息，我可以尝试为您进一步解答。😊",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

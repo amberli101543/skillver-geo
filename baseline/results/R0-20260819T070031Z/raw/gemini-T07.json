@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "**Skillver**（通常指一家专注于求职辅导、留学规划及职业发展的教育咨询平台）的**“导师赋能”**主要包含以下两个维度的含义：\n\n### 1. 平台对导师的赋能（Platform to Mentors）\n平台为来自各大名企（如咨询、投行、科技等行业）的在职导师提供支持，确保教学质量：\n* **标准化教学体系**：提供统一的咨询方法论、课程课件和辅导工具，降低导师的备课成本。\n* **学员匹配与管理**：利用系统精准匹配学员，并提供日常教务支持，让导师专注于专业指导。\n* **导师培训与成长**：定期对导师进行教学技能、沟通技巧的培训，提升其辅导水平。\n\n### 2. 导师对学员的赋能（Mentors to Students）\n导师利用自身行业经验和资源，全方位提升学员的求职竞争力：\n* **认知赋能**：分享真实的行业内幕、工作日常和晋升路径，打破信息差，帮学员明确职业规划。\n* **技能赋能**：进行针对性的简历修改、模拟面试（Mock Interview）以及专业硬技能（如Case分析、数据分析等）的辅导。\n* **资源赋能**：在合适的情况下，为优秀学员提供内推机会或人脉拓展渠道。\n\n**总结：**\nSkillver 的导师赋能是一种**“双向赋能”机制**。平台通过工具和系统赋能导师，导师再将自身的专业能力和行业资源转化为学员的求职竞争力，最终帮助学员获得心仪的 Offer。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver**（通常指一家专注于求职辅导、留学规划及职业发展的教育咨询平台）的**“导师赋能”**主要包含以下两个维度的含义：\n\n### 1. 平台对导师的赋能（Platform to Mentors）\n平台为来自各大名企（如咨询、投行、科技等行业）的在职导师提供支持，确保教学质量：\n* **标准化教学体系**：提供统一的咨询方法论、课程课件和辅导工具，降低导师的备课成本。\n* **学员匹配与管理**：利用系统精准匹配学员，并提供日常教务支持，让导师专注于专业指导。\n* **导师培训与成长**：定期对导师进行教学技能、沟通技巧的培训，提升其辅导水平。\n\n### 2. 导师对学员的赋能（Mentors to Students）\n导师利用自身行业经验和资源，全方位提升学员的求职竞争力：\n* **认知赋能**：分享真实的行业内幕、工作日常和晋升路径，打破信息差，帮学员明确职业规划。\n* **技能赋能**：进行针对性的简历修改、模拟面试（Mock Interview）以及专业硬技能（如Case分析、数据分析等）的辅导。\n* **资源赋能**：在合适的情况下，为优秀学员提供内推机会或人脉拓展渠道。\n\n**总结：**\nSkillver 的导师赋能是一种**“双向赋能”机制**。平台通过工具和系统赋能导师，导师再将自身的专业能力和行业资源转化为学员的求职竞争力，最终帮助学员获得心仪的 Offer。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtEjCs4jARFNMg95F6T+Hgiisu37fOrA+Q2FAMHj/j1cUIXNaNzH6QFzhBF+pme1BGL0N5aBMdqKeZDUW4SgOJPOou7oEQMbVRZRVyD+0FNp9TGWtiUsp/D/Kvf1mMCAlqfBDj1kuUCalncTaH4E8cagzkC0bkBu7QuvdZ6iIDF107RswbjTJlee/tkic9VKRdVxtGP30SCPXY9owdw6IbT3LH8U+Cph3RRE00+iPYnqSV2INpQ5P0WDCcz4gc6Nn6IbfS53f6Q2A3k4Xyj/jafxldisL5xJJc+6mhWaNg5FcQde+GlDx34Sxg09BJeND5gPCdbV+9Qh11J6+0LyFwhtjkD+IgxU6od1EfoiXIraSFtpWNAtstO6DZ7IrjkHF3tY+ok9RnKPwVRd/Z0Z49PTk+sSSqnHNIe1OAbo4N0hKhTd9NiZxT/n/UxVM93EpqTYqG083so2HcH1tthlWSyV3U2PP6dsDzbOsBRkq5lf1Ty8g5No4Hglr7sEFKqmsw5hgC9ZmNZ1XiHjwPuZvTx9I1B7mcr1MmTHd8OmCfDmQrmsbTZrZxWLy2GOg+vBSL8nG6R+vRV0U+7Hwp7bi3xg3dbb89V1Z+YKyddnYhIEgKkOcIDbuZKrMHw5j3W45AfNW4rP4n6oJeW2T/NONFe5wmNjcl9ktGhcikSrZ5ocAx2KlZDAUD0nVjpWvq231VwPDzGP0aegOG10KCZsLr6tIW0pS49l/kaR+NAR787hl8o+t9qp2Zo8kuS4Vodj0cS9DPEL0f2lmXakfIYG6OCq1TtciL5dJXsLyL1kc6OmSHjaiOrbPfkmIVh0lSorGQD9Izt8gSQh4lj/8cLyDvPsV5oX2xPYUb0A28Upey25ZZi/omKorNtOeFwqKo3w003T9o0/p8CrcTvo1+g5FSN8yqBQslDEkkhNK3w9x6Ir5ygyfYHJ6nIPOrEZHONQbcVzJlSpxf1wblb4gdwaB+ybHCLoN8ya81YDQ8VZDe6NRu4i2U/utXq8bHtQd2r23l7e5ccD/bPLl1/25GhMAzrsTaeMIUQVpnA2DcXlAvSU6eC3E369wdHsdBR4ZzIPgmeX+uh0yRRo9Qs7eZO6vX+2vrfNZ4CPszxvIagkmU9FENAOzpMVQHYOZGaBxZFuUu6IRJcwe7goTL/Scxym/vGlGdPSuD2am7Gaf7JHO9LFpYK8+06utz4svZPgZaCYL5YIb7FqV2wITvc1ANpfdXuwqFoFeTyPbrFBeR1Rz/hwGsaZ5cDGJKttMr/zviciZ1VtYIqhOGjM4Esbu0bszM1Z2srtooce4ZXLlqz9+jx47Ksdcr7fOc7+d8ihGnRSqEXPyqApzEFhjOqhZxAstqUL9u/RIYCfg8liUZn3XqLjl5KcXzcICvJ6+FVvo++p5q7nPhInjr0GdRLKzHQ642ZGjqpNKvqpNbw+GMdRPxs1H8lr1JCrS4Us2pA4VnmTWfiQdv6xGIqkhdE66NkdN2VwSyRHg55ARZgVevD1ae+yXeew8LPEI8PjR0J8sRcdfVu6sCuRj4gGgPuqQGkh8ZurSvokBmMYX3blK5lZiYu/s74CyAdbPEwY+U4+OgI6jF9dKi41GlJ0KIDEEJqzqNxE7rJyS+86bV6zAnxSFE38g1wWs1ExtSKZHyxyyofTIgO3tMGr6HOA218IXUd7HAqQoOusvw6Lyr2YDVeAgjEtAjvr7zq9A4Y6Yv8I5ptakXjVMw+y3hkwyIpJEBdk4m+fieyJmPlpzoMywPwglY8gHl/QH6sHnt5lK06aF6hHSHuGQpYVq7M/mHL08sm/0SmcOfCOfh8pp6+Z5JecRAyn+u9NpYy2hwZCPRrRvnrk+PQCoFBCIBl9Dn6OhlmgdO93RkLOmgpoLSP+QPnYoZkaOoS+T9coRlJfuSIucTiW0iFnsY0SF1mRkypkvMcRDVfpZ87Ytij46EbKhS8m7Se9loWWn4gSgCMqb9qZeE0FKjOYL7/M/v3Ig9MWrz0uIJY0B4Zp87wwOuWOcEj0HOxdyEMGm5U+QiT34OmZ500CjlrIxD2LONJRM0Gop9T9GMW3HcqyR161hP43LbOb4L0ZDGRuVz3ifgkJY8Iiy4SLQy+Jyp8tda7jByfyZ3MQ6AWEJcT/qEKYig0UdV9V2p2Q657clL2bwjdvhTaHfmRGJebs8BfX5JlFfe6jAlvQxPvmfHtTE6VA0qfBLMQBwfWWaSfser6ZRH7dD/YJXIDO4/PPCUh1MCz8oBC8iQEXlIYkGKbzXxNpM3KIArfx5k6mz4icsUH12BgFoMc03soScudShVUL+tOYr3J3NvrsSTbV5vmDb9JpCDZkJ2QWIt2ZbyKwIUmA+naGaDndJb87aKXK80q8IRRjp3sMSMuV5ZMMWZ99H9GoGVe5g2CkvSOp4N49Y7AYDwJ1Fy/dYc7xdOtAKjJtXMMg0CBLpxKIc5HJ2reIGYP5633VxnwZCn5HnUwA7OUoHazTTBSAnlxk9xAZufHohpVGiTpLT3nEMi/0+AOu8sZ4T8Wov5OhNM5LxVnfjF/8TQByHRBGj/MMgenLTfCHscrWnjSgj3DSCqYW09k+DX9mlObDRdP9tYS09V1rhVKmr/zo2GoyJCUSOeExCCWArCRKaHX90bm6EBKCEQCXgTC0zXQI0RKq6r+zgo6sgLh02b0pbDkCKEVxtQIiwsintUTVkv+5uhAJl82ad9CcSIQ6BjHDhF73EQTFoJXBsv+sYLHewbw8+jpKn26veaGBgEZFIPR2meIe0JjZG0pCGCJbwWSfXsMgeHBiSfS9uKRT0PsgeERByOaN28+8g/ViI8l518jGxc32XfsMMoQdBBL7jH8osG3HUxtiNGk7RAyUIgxRLep6k3t+u9x8JTVPVRV8q5G82TP52AoHUlhVDvKbYwJQFlpVI1Je6QzeSGyV8KbObvp00eFIxGgXVslDoWo2SGYRgkWoOg/SI78QF+9vntEJ2tuMqy3l56PftHgAVWu0k7sm0muXmOtOpxe93SIC3CmfuScUI6PuNJutkIRYfprgVYA71FotXR5yC8XQ3YI80+TwiZ4UI2BZUxqdTkUNvlV+AmteQ1tTxfq8/iBxx+xEctNX4dbvC+J5Np4qLwB+1WJeAeYDPB6Nz6vcrRE+Sl4/uOahbJ9xQHJge+5lJvwItSPm1gypkJ/ej6s9cl5q/kyDTEcTMgdKR7sYXnULtj/pbWPHhZ8utK4oS+Y5melwhxVDD7aOZA8PXjtihhBc2OpM8DUJ1sDhJnj8S3Ub9XCoiY8vgKCuwXDtq3hAw/0UFsFbA8f7WHqmqp6nw19vWkIgfjJZY35IHgrPPg/WAwZq9N6TILNGBD6wNEiG1KQ3uW/iScfPpFGDa5NNINFYmYeZhzkoZOttWoUHhoU3fryPws4D6WKO5tlvg4foMqVQnl4tMGWcdgue9E4q3l+7Wdo50oXmVg/TnhUm6ZeAcyoRBnO2ID1PO5DH658v2gOHMhoKhfMidl4mxRO8vBHa51t5XQDPYTEL+yubPOr/zRfnOyUgs0qwsQlIc1iOl9K6bbi1HQbYEOBRftvXlZDAp+EZFOO/c6ZZwAU+G51518i8svEnT9hb5v2IZ9nq/7GOoGXCxlgh+qAk97zps1Q9/X9+6BIVcwp0XYD2Ksm2PCzu5XChSa2RqUHBtpt+F32W0WYe/rH51sqQVCOS9K2KIGuJx4Nafz3E7Hk+IWwoOPRrY7x/j1oleH4cbiRdgaY6Zb+GghQI2N88WaOsePv4ksir6n9uh/fUAlLuTP+sHfJ/jlwwWumpWd71psJtrdyz2Xa4AJNRgC+Xfd1AFyeIoUlIOBQgz6Hltjlcd6hKRKA9yaXlP+YztOf/EIxF9EEg/wiIRe0Y3JXxtoO7DN4bkJKNRp/3Rx0doXM1XviwDH2Usfiy3de7Am6zZpXw5TVUXAogvevfj3lRlStRg2r2T7ASv/0ghuoP3ncIWJPThuG5W3tWKju8oJV4VlKnE5KHR7VATTWBI9UFEQaywkMRpcaS39dJso9SH5Mb94xuwgiWdNtkdJDzJ9BIeBEITLQn0IHingdRmi4kqmMfDEk6xxURLRK9hs5YzrhILAfB6nBBQnvOLrvJ9sLy/FcOEs4VAtGuTOlUb91jCZDEofMssZZVuVNX/3LS8eGyNUdGBzg7/YSMkzjDV3ZroZMfU7ACAiozU4m6TNSsElhSZxS5MrKsN6/7YitbUtr50ysyVBjrSzOeZVtOgai7+jQBnkW4O7jYqDkJ1nxVV3MsnGRqI98a2p6rJI1VqE1IFOfYKaWjkpLaT1rjVcUG7fdGg1mTft+N0sOZ+s92jcab41UMo0UJ1UYWRi1zH+VktQQA1/8HKpduoKqD7UMS8hoNDpNKnan+sHSKc7uJMv3jxM1XmrJW9RT5R01gV4TVAAH1AmA/iTBaxVzBkRPhPYPaaFBBo6kr1eYnZdtuj2kz1sovMkf4d+zUnX3GjuSYjB6T3Tz/+awfP5kKoDUqJI0X7U8b3FUEzOGLomLVTDOtKXNxuAs5HiFPnb9/qCWaUuzIgVLcw7uzqfHlfoq5qFfszxwo1/J65VU3h3x4VCKf5T4AHXXCmIRkQshGfnXiTr38yF/U5hmHAlnuhRjkO3IZO7gkSQlhQCZcCN1eyxEohDP1b2s0CzdKcqoxMdTcrL7Eyzk07v6eUgepqkEpErZUoHe+YVcWsag8L6wul+gEtHRX6jLX/ZU36kLoGHxUWS2jVIjwOj/F8ehcppizX+2Fb3bQxv7z6/bFwrAOKUmWfUaVKB4ozk0y/yaar4pFcOFNDfzO4GBfwhsg97Pk6PluN3xFb3zMv49uw7cn+uzEgdh0mFm4y65xEYDU7heArilBp434vhyfr7I3V3b4IyJd3zXS8ZWzX9Au7a1cNo/tvNWFwQM9Jt2fJqmWCzvPQFEWwdG/K6HE3F1i1BHzzbkzhDOqyJDmIQ82acjOnvPxpO1xT2/iaejzGNugFPWadhFP7xgLxBQEk/jiLw7wwgOktCbf/aaQ8HuPpt9WoXJ5qR0tGHBfMQvjt8u5O08N8Xi04MLZoh3e0vHCk7XXzlVwv6Z01odS5Y27a0DLnK7HvaY8gjfgMmmpKhFWiikDhJVnFSg3NkOmjHNebWr/z1uKYnz0pDxyeyJj1uwGh8DQFK5tNQPZfQIXGwuE9BStck2ecz0X2tP6pYRccdGUFnjNuecjWK+srBChEW5Th9528nOnU+4g5l9H9uco3U1hRRx8U1IiJs4YjGjV2Z9eDLrMnsKoG/n2ddNhbB90T6x15tWbBZLAkBjGhaVywEmVT8KDzrj7Cbkpbi8MkjLoL4P4tld6KhDEA4LHk9bUi7287kjPzTlTt2886CeoqopHhLvPycSoSCkpfDyDxfoLAfeJQuwRYhazQfD4iARHCKbiWmfqQ3RCPu+0HImY7B7Ue31kJ3COxMKfg2RRs0pHpd2PDh5R3Nz2IX4rJajIEdpHQlEDHkX42x82PJc33qM2+aBn1xE5FydJjorh2jgtmhTxhYVZa7oDWQnceGCdmrQGris+nFByYEJ6BVSvE3yqcfbimsO0ydKbvcHy08ugsBpt0l99LscCwsS9SuyDlHTGOwkWriYZheYQcupKikTWvCAYzzZdveDYMWcAs91MAF+DY4LrWag+kXKh51r0FW6bEk9kfSQVt91doryd8vD68e/nWbJ+A0bdWL5sMKGxIJvVnm/6RvMF3ahXksKW7gqsPdGpA5+DYhzHB3bNYzIMev9Pi135Aucg4p8Y0smR2Jqpj18iUyIHHAKf6/pZ60SFxzsOw+qt+LCyYiuMELBTrv6LlsZrYRvjzI6aePNZO6ZCel7iSuw+7VA12Gy/jRTVMzBLACx8ER7+PSVbEKZNIjfpjYBDQI9YD8Z2EkHCwxzXjX32Lj1PzxlkJteGpF4URiHDuFSKEE4Np0X7O0Xic9kbT3to2esyfU1wKmcYxDog9RtByuYzYvDNGcmlYCV2WZJC/GmbXKft3DpuucnoZM49HZ4bmso2ss76NAd2x5MNohzMlMCvLjdD2c3Y3ZkLYtaxF/jdgKwuvonn4Q=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124477,
+    "id": "9lqFaoycLYOunsEP1NDdsQE",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 357,
+      "prompt_tokens": 36,
+      "total_tokens": 1398
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:27:57.572946Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "**Skillver**（通常指一家专注于求职辅导、留学规划及职业发展的教育咨询平台）的**“导师赋能”**主要包含以下两个维度的含义：\n\n### 1. 平台对导师的赋能（Platform to Mentors）\n平台为来自各大名企（如咨询、投行、科技等行业）的在职导师提供支持，确保教学质量：\n* **标准化教学体系**：提供统一的咨询方法论、课程课件和辅导工具，降低导师的备课成本。\n* **学员匹配与管理**：利用系统精准匹配学员，并提供日常教务支持，让导师专注于专业指导。\n* **导师培训与成长**：定期对导师进行教学技能、沟通技巧的培训，提升其辅导水平。\n\n### 2. 导师对学员的赋能（Mentors to Students）\n导师利用自身行业经验和资源，全方位提升学员的求职竞争力：\n* **认知赋能**：分享真实的行业内幕、工作日常和晋升路径，打破信息差，帮学员明确职业规划。\n* **技能赋能**：进行针对性的简历修改、模拟面试（Mock Interview）以及专业硬技能（如Case分析、数据分析等）的辅导。\n* **资源赋能**：在合适的情况下，为优秀学员提供内推机会或人脉拓展渠道。\n\n**总结：**\nSkillver 的导师赋能是一种**“双向赋能”机制**。平台通过工具和系统赋能导师，导师再将自身的专业能力和行业资源转化为学员的求职竞争力，最终帮助学员获得心仪的 Offer。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

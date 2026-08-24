@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "**可以。** Skillver 的**人才端/求职者端**已开放注册，**无需邀请码**，直接访问 Skillver 双域（www.skillver.cn 或 www.skillver.ai）点击“免费注册”，用手机号完成注册即可使用已开放功能。[1][2][7][8]\n\n需要注意的是，**企业端**和**导师端**仍然需要邀请码或申请流程开通；企业可先提交入驻申请，审核通过后再获取企业端邀请码。[1][2][5]",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://forum.gamer.com.tw/C.php?bsn=78260&snA=1265",
+      "title": ""
+    },
+    {
+      "url": "https://steamcommunity.com/app/413150/discussions/0/4139438760455771845/?l=schinese",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_47648041/article/details/116305201",
+      "title": ""
+    },
+    {
+      "url": "https://tieba.baidu.com/p/8592639238",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/6899341855554142221",
+      "title": ""
+    },
+    {
+      "url": "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": ""
+    },
+    {
+      "url": "https://www.runoob.com/ai-agent/skills-agent.html",
+      "title": ""
+    },
+    {
+      "url": "https://qianchuan.jinritemai.com/support/content/125064",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "Skillver：AI人才助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手封闭内测"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://forum.gamer.com.tw/C.php?bsn=78260&snA=1265",
+      "title": "【問題】邀請碼無法使用 @Once Human 哈啦板 - 巴哈姆特"
+    },
+    {
+      "url": "https://steamcommunity.com/app/413150/discussions/0/4139438760455771845/?l=schinese",
+      "title": "没有邀请码选项怎么办:: Stardew Valley 综合讨论"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "title": "SkillVerse - Google Play 應用程式"
+    },
+    {
+      "url": "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html",
+      "title": "App免填邀请码安装如何实现？"
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_47648041/article/details/116305201",
+      "title": "【免填邀请码】让邀请裂变活动事半功倍"
+    },
+    {
+      "url": "https://tieba.baidu.com/p/8592639238",
+      "title": "注册要邀请码，没邀请码怎么办？"
+    },
+    {
+      "url": "https://juejin.cn/post/6899341855554142221",
+      "title": "app免填邀请码如何实现？"
+    },
+    {
+      "url": "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn",
+      "title": "编写Google Antigravity Skills - Codelabs"
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理"
+    },
+    {
+      "url": "https://www.runoob.com/ai-agent/skills-agent.html",
+      "title": "Skills 教程"
+    },
+    {
+      "url": "https://qianchuan.jinritemai.com/support/content/125064",
+      "title": "undefined - 巨量千川 - 抖店"
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md",
+      "title": "Extra08-如何写出好的Skill.md - GitHub"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**可以。** Skillver 的**人才端/求职者端**已开放注册，**无需邀请码**，直接访问 Skillver 双域（www.skillver.cn 或 www.skillver.ai）点击“免费注册”，用手机号完成注册即可使用已开放功能。[1][2][7][8]\n\n需要注意的是，**企业端**和**导师端**仍然需要邀请码或申请流程开通；企业可先提交入驻申请，审核通过后再获取企业端邀请码。[1][2][5]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://www.skillver.cn/beta",
+      "https://www.tcodeai.com/",
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://tcodeai.com/faq.html",
+      "https://tcodeai.com/products/skillver-download.html",
+      "https://tcodeai.com/beta.html",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://forum.gamer.com.tw/C.php?bsn=78260&snA=1265",
+      "https://steamcommunity.com/app/413150/discussions/0/4139438760455771845/?l=schinese",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html",
+      "https://blog.csdn.net/weixin_47648041/article/details/116305201",
+      "https://tieba.baidu.com/p/8592639238",
+      "https://juejin.cn/post/6899341855554142221",
+      "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn",
+      "https://github.com/anbeime/skill",
+      "https://www.runoob.com/ai-agent/skills-agent.html",
+      "https://qianchuan.jinritemai.com/support/content/125064",
+      "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md"
+    ],
+    "created": 1787123907,
+    "id": "614ff905-4e71-4e64-8dbe-f1963a18acb7",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "人才端（求职者）已开放注册，无需邀请码：\n1. 访问 www.skillver.cn 或 www.skillver.ai（双域功能相同）；\n2. 点击「免费注册」，使用手机号完成注册即可开始使用。\n企业端与导师端：需通过邀请码或申请流程开通。企业请通过入驻申请页提交公司信息，审核通过后获得企业端邀请码；导师端请联系运营获取邀请码。\n- 企业入驻申请可邮件联系 janet.chen@tcodeai.com；\n- www.tcodeai.com 是品牌内容站，注册与使用产品请访问 skillver 双域。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skil...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n人才端开放注册，当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）。后续收费策略以届时公告为准。\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排\n...\n企业端与导师端需通过邀请码或入驻申请开通。企业请通过 /enterprise/apply ...",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "打开 skillver.cn，3 分钟完成注册，今天就能开始第一场 AI 面试彩排。",
+        "source": "web",
+        "title": "Skillver：AI人才助手",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。\n...\n1. **开放公共用户注册**：人才端可直接在 Skillver 双域完成注册，无需额外邀请。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver 现已开放公共用户注册，**核心功能可免费使用**。该口径仅适用于当前版本，不构成长期价格承诺。\n...\nSkillver 现已开放公共用户注册。请访问 www.skillver.cn 或 www.skillver.ai 完成免费注册；导师赋能待开通。\n...\n不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai ——两个域名功能完全相同，任选其一即可。\n**ww...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "电脑或手机浏览器打开即可，无需安装。推荐优先使用 Web 端，与 App 同一账号进度互通。\n...\n## 三步开始使用\n1. 1. 免费注册 — 访问 skillver.cn 完成注册。详见开始使用说明\n2. 2. 注册账号 — 打开 Web 或 App，选择「人才 / 求职者」，用手机号 + 短信验证码完成注册\n3. 3. 开始求职 — 选岗匹配 → 上传简历核验 → 面试彩排或正式 AI 面试 → 持正式报告投递\n…\n...\n## 如何免费注册？\n1. 通过已注册用户的邀请链接直接激活\n2. 在\n开始使用说明 了解详情；或邮件联系 janet.chen@tcodeai.com 免费注册（...",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手封闭内测",
+        "url": "https://tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "现已开放公共用户注册，核心功能可免费使用。功能范围、使用额度与费用边界以 Skillver 主站 /faq 为准。\n...\n访问 www.skillver.cn 或 www.skillver.ai 完成免费注册。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。\n...\nSkillver 现已 **开放公共用户注册**，**核心功能可免费使用**。产品仍在持续迭代评分校准、多模态临场感和真人辅导产品化等环节。\n...\n现已开放公共用户注册，核心功能可免费使用。访问 skillver.cn 或 skillver.ai 即可完成注册。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2024-08-15",
+        "last_updated": "2026-05-06",
+        "place_metadata": null,
+        "snippet": "我在PVE02服要邀朋友進來...點顯示邀請碼.彈出註冊未滿  暫無法使用邀請碼",
+        "source": "web",
+        "title": "【問題】邀請碼無法使用 @Once Human 哈啦板 - 巴哈姆特",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=78260&snA=1265"
+      },
+      {
+        "date": "2024-01-01",
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "安装 Steam登录 | 语言\n繁體中文（繁体中文） 日本語（日语） 한국어（韩语） ไทย（泰语） български（保加利亚语） Čeština（捷克语） Dansk（丹麦语） Deutsch（德语） English（英语） Español-España（西班牙\n...\n貌似",
+        "source": "web",
+        "title": "没有邀请码选项怎么办:: Stardew Valley 综合讨论",
+        "url": "https://steamcommunity.com/app/413150/discussions/0/4139438760455771845/?l=schinese"
+      },
+      {
+        "date": "2025-03-03",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "支援電郵地址\nsupport@skillverse.com\n...\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-01-19",
+        "place_metadata": null,
+        "snippet": "**免填邀请码安装功能：**新用户通过落地页点击下载，会自动匹配与分享人的邀请关系，注册后实现免填邀请码自动获取奖励。\n该功能使用户有奖邀请及渠道分发无需再填写邀请码或下载渠道包，就能实现自动绑定关系和业绩统计的效果。",
+        "source": "web",
+        "title": "App免填邀请码安装如何实现？",
+        "url": "https://jingyan.baidu.com/article/4b52d70285f3c0bd5d774b2a.html"
+      },
+      {
+        "date": "2022-12-14",
+        "last_updated": "2025-01-09",
+        "place_metadata": null,
+        "snippet": "除了以上两种传统邀请方式，还有一种无需邀请码和web填写信息，就能判断邀请关系的流程，称为“免填邀请码安装”。\n**免填邀请码安装的流程**：邀请人正常分享邀请链接，受邀请方通过该链接正常下载App，并登录注册即可完成邀请。\n...\n免填邀请码安装流程精简、高效，让邀请流程无需“填写邀请码”、“邀请页面提前注册（填写手机号码、验证码）”，只需按照正常邀请流程点击下载即可绑定，大大提高邀请转化率，真正意义上使App邀请活动达到“事半”、“功倍”的效果。\n...\n免填邀请码安装的本质，是由openinstall传递自定义参数实现的，该参数在邀请流程中可以定义为邀请码，只要App服务端可以获取到此参...",
+        "source": "web",
+        "title": "【免填邀请码】让邀请裂变活动事半功倍",
+        "url": "https://blog.csdn.net/weixin_47648041/article/details/116305201"
+      },
+      {
+        "date": "2023-09-09",
+        "last_updated": "2025-03-03",
+        "place_metadata": null,
+        "snippet": "部分网站会为新用户提供无需邀请码即可直接注册的通道。例如，某些网站允许通过邮箱验证或手机验证码等方式完成快速注册过程。您可以查阅Zod网站的注册指南或者联系客服了解是否存在其他的注册选项。5.\n等候开放日或者其他活动获取免费邀请码。",
+        "source": "web",
+        "title": "注册要邀请码，没邀请码怎么办？",
+        "url": "https://tieba.baidu.com/p/8592639238"
+      },
+      {
+        "date": "2021-12-12",
+        "last_updated": "2025-06-10",
+        "place_metadata": null,
+        "snippet": "- 通过分享的链接，Xinstall 通过数据算法自动获取和传递参数，通过 JS SDK 写入用户 ID (即邀请码)\n- 客户端集成 iOS SDK 通过 SDK 获取到用户的邀请码，邀请码会自动上传给 APP 服务端，服务端自动绑定邀请关系，即实现免填邀请码。\n- 匹配到来源的邀请行为，绑定邀请及好友关系，客户可通过绑定关系进行奖励等操作。",
+        "source": "web",
+        "title": "app免填邀请码如何实现？",
+        "url": "https://juejin.cn/post/6899341855554142221"
+      },
+      {
+        "date": "2026-06-18",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "**第 2 步**：现在，根据您使用的是 Antigravity 还是 Antigravity CLI，您可以进入 `antigravity-skills/skills_tutorial` 文件夹。\n**第 3 步**：您会看到一组技能，这些技能已打包到各自的文件夹中。复制以下 4 个文件夹：",
+        "source": "web",
+        "title": "编写Google Antigravity Skills - Codelabs",
+        "url": "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn"
+      },
+      {
+        "date": "2026-02-02",
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "克隆仓库\n...\ngit clone https://github.com/anbeime/skill.git\ncd skill\n```",
+        "source": "web",
+        "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理",
+        "url": "https://github.com/anbeime/skill"
+      },
+      {
+        "date": "2026-01-01",
+        "last_updated": "2026-02-07",
+        "place_metadata": null,
+        "snippet": "本章节再项目目录下测试，先创建个目录 claude-test:",
+        "source": "web",
+        "title": "Skills 教程",
+        "url": "https://www.runoob.com/ai-agent/skills-agent.html"
+      },
+      {
+        "date": "2022-06-10",
+        "last_updated": "2026-01-13",
+        "place_metadata": null,
+        "snippet": "【巨量千川】标准投放成本保障规则（ROI出价产品）\n上一篇：",
+        "source": "web",
+        "title": "undefined - 巨量千川 - 抖店",
+        "url": "https://qianchuan.jinritemai.com/support/content/125064"
+      },
+      {
+        "date": "2025-09-07",
+        "last_updated": "2026-05-19",
+        "place_metadata": null,
+        "snippet": "> When creating a new skill from scratch, always run the `init_skill.py` script.",
+        "source": "web",
+        "title": "Extra08-如何写出好的Skill.md - GitHub",
+        "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 132,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00013,
+        "request_cost": 0.005,
+        "total_cost": 0.00517
+      },
+      "prompt_tokens": 40,
+      "search_context_size": "low",
+      "total_tokens": 172
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:18:27.168708Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "**可以。** Skillver 的**人才端/求职者端**已开放注册，**无需邀请码**，直接访问 Skillver 双域（www.skillver.cn 或 www.skillver.ai）点击“免费注册”，用手机号完成注册即可使用已开放功能。[1][2][7][8]\n\n需要注意的是，**企业端**和**导师端**仍然需要邀请码或申请流程开通；企业可先提交入驻申请，审核通过后再获取企业端邀请码。[1][2][5]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

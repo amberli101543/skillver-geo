@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "“**七维战力评估**”不是一个在公开、统一标准中广泛固定使用的正式术语。结合现有资料，它更像是把战斗力/作战能力拆成**七个维度**来做综合评估的方法，而不是单一标准名词。[2][4][6]\n\n常见理解有两类：\n\n- **军事评估中的多维战力模型**：战斗力评估通常是对实力大小、结构、方向及影响因素进行定性和定量分析；现代作战评估也强调把情报、指挥控制、火力打击、机动突击、防护、保障等能力纳入体系化衡量。[2][3][16]\n- **“七维”只是维度划分方式**：有些讨论把作战空间扩展到更广的维度，比如地、海、空、天、网、电磁、认知等，或将“比较、趋势、场景、效能、效率、平衡、诊断”等作为七个分析主题；不同语境下“七维”所指并不一致。[6][18][19][20]\n\n如果你问的是**军事实力/作战效能评估**里的“七维”，它的核心含义通常是：用**七个指标维度**去综合判断一个单位、体系或国家的战斗能力，而不是只看单一火力或人数。[3][4][12]\n\n如果你愿意，我可以进一步按你的场景解释成：\n\n- **游戏/小说设定里的七维战力**\n- **军事作战评估里的七维指标**\n- **企业/团队能力评估里的七维模型**",
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/ShadowSlave/comments/1dgrg86/comprehensive_power_scaling_explanation/",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/167758101_114882",
+      "title": ""
+    },
+    {
+      "url": "http://www.mod.gov.cn/gfbw/wzll/lj/4866783.html?big=fan",
+      "title": ""
+    },
+    {
+      "url": "https://mil.news.sina.com.cn/2014-07-18/0730790799.html",
+      "title": ""
+    },
+    {
+      "url": "http://yay.yayqq.com/articleshow4.asp?ArticleID=12615",
+      "title": ""
+    },
+    {
+      "url": "http://www.81.cn/yw_208727/16442638.html",
+      "title": ""
+    },
+    {
+      "url": "http://www.81.cn/jwzl/2015-11/05/content_6755808.htm",
+      "title": ""
+    },
+    {
+      "url": "http://www.81.cn/jfjbmap/content/1/2023-02/16/07/2023021607_pdf.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/Evil_Carl/article/details/121664026",
+      "title": ""
+    },
+    {
+      "url": "http://www.uml.org.cn/qiyezjjs/202506174.asp?artid=26886",
+      "title": ""
+    },
+    {
+      "url": "http://mil.news.sina.com.cn/2014-05-29/0630781935.html?from=wap",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-08-11/doc-inimxewt4413467.shtml?cref=cj",
+      "title": ""
+    },
+    {
+      "url": "https://www.secrss.com/articles/76612",
+      "title": ""
+    },
+    {
+      "url": "https://www.secrss.com/articles/74353",
+      "title": ""
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%83%E7%BB%B4%E7%A9%BA%E9%97%B4",
+      "title": ""
+    },
+    {
+      "url": "https://patents.google.com/patent/CN111652475A/zh",
+      "title": ""
+    },
+    {
+      "url": "https://journal.bit.edu.cn/zr/cn/article/pdf/preview/10.15918/j.tbit1001-0645.2024.095.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://user.guancha.cn/main/content?id=449546&s=fwzwyzzwzbt",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/vucndnrzk8iwx/article/details/146781649",
+      "title": ""
+    },
+    {
+      "url": "http://military.people.com.cn/BIG5/n1/2017/0124/c1011-29046189.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/ShadowSlave/comments/1dgrg86/comprehensive_power_scaling_explanation/",
+      "title": "全面的战力评估解释: r/ShadowSlave - Reddit"
+    },
+    {
+      "url": "https://www.sohu.com/a/167758101_114882",
+      "title": "李璟：战斗力标准与量化评估理论"
+    },
+    {
+      "url": "http://www.mod.gov.cn/gfbw/wzll/lj/4866783.html?big=fan",
+      "title": "第七十二集团军某旅细化战斗力指标"
+    },
+    {
+      "url": "https://mil.news.sina.com.cn/2014-07-18/0730790799.html",
+      "title": "作战试验与评估衡量美国陆军战斗力的“标尺” - 新浪军事"
+    },
+    {
+      "url": "http://yay.yayqq.com/articleshow4.asp?ArticleID=12615",
+      "title": "李国琥：国别军事实力评估指标体系构建策略报告 - 云阿云智库"
+    },
+    {
+      "url": "http://www.81.cn/yw_208727/16442638.html",
+      "title": "军事论坛丨浅析智能时代联合作战效果评估新趋势 - 中国军网"
+    },
+    {
+      "url": "http://www.81.cn/jwzl/2015-11/05/content_6755808.htm",
+      "title": "多维度把握战斗力标准"
+    },
+    {
+      "url": "http://www.81.cn/jfjbmap/content/1/2023-02/16/07/2023021607_pdf.pdf",
+      "title": "jfjb07b20230216C"
+    },
+    {
+      "url": "https://blog.csdn.net/Evil_Carl/article/details/121664026",
+      "title": "【游戏精粹】使用战力值评估模型进行战争役分析"
+    },
+    {
+      "url": "http://www.uml.org.cn/qiyezjjs/202506174.asp?artid=26886",
+      "title": "30种作战效能评估方法，你都了解吗？评估指标如何构建，你都掌握吗？"
+    },
+    {
+      "url": "http://mil.news.sina.com.cn/2014-05-29/0630781935.html?from=wap",
+      "title": "本期邀请国防大学军事专家李璟为您讲述—— 量化分析，开启战斗力标准科学之门"
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-08-11/doc-inimxewt4413467.shtml?cref=cj",
+      "title": "立起战斗力贡献率硬标尺"
+    },
+    {
+      "url": "https://www.secrss.com/articles/76612",
+      "title": "AIGC军事大模型评估体系框架研究 - 安全内参"
+    },
+    {
+      "url": "https://www.secrss.com/articles/74353",
+      "title": "智能化作战效能评估指标体系构建方法"
+    },
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%83%E7%BB%B4%E7%A9%BA%E9%97%B4",
+      "title": "七维空间- 维基百科，自由的百科全书"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN111652475A/zh",
+      "title": "联合作战体系作战能力多层次分析评估方法以及存储介质"
+    },
+    {
+      "url": "https://journal.bit.edu.cn/zr/cn/article/pdf/preview/10.15918/j.tbit1001-0645.2024.095.pdf",
+      "title": "考虑动静态能力的作战体系综合效能评估方法"
+    },
+    {
+      "url": "https://user.guancha.cn/main/content?id=449546&s=fwzwyzzwzbt",
+      "title": "易评估：简述美军净评估的基本原则 - 观察者"
+    },
+    {
+      "url": "https://blog.csdn.net/vucndnrzk8iwx/article/details/146781649",
+      "title": "制智权：第七维认知原创"
+    },
+    {
+      "url": "http://military.people.com.cn/BIG5/n1/2017/0124/c1011-29046189.html",
+      "title": "戴旭：全球迎來第七代戰爭我們的認知體系亟須升級"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“**七维战力评估**”不是一个在公开、统一标准中广泛固定使用的正式术语。结合现有资料，它更像是把战斗力/作战能力拆成**七个维度**来做综合评估的方法，而不是单一标准名词。[2][4][6]\n\n常见理解有两类：\n\n- **军事评估中的多维战力模型**：战斗力评估通常是对实力大小、结构、方向及影响因素进行定性和定量分析；现代作战评估也强调把情报、指挥控制、火力打击、机动突击、防护、保障等能力纳入体系化衡量。[2][3][16]\n- **“七维”只是维度划分方式**：有些讨论把作战空间扩展到更广的维度，比如地、海、空、天、网、电磁、认知等，或将“比较、趋势、场景、效能、效率、平衡、诊断”等作为七个分析主题；不同语境下“七维”所指并不一致。[6][18][19][20]\n\n如果你问的是**军事实力/作战效能评估**里的“七维”，它的核心含义通常是：用**七个指标维度**去综合判断一个单位、体系或国家的战斗能力，而不是只看单一火力或人数。[3][4][12]\n\n如果你愿意，我可以进一步按你的场景解释成：\n\n- **游戏/小说设定里的七维战力**\n- **军事作战评估里的七维指标**\n- **企业/团队能力评估里的七维模型**",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.reddit.com/r/ShadowSlave/comments/1dgrg86/comprehensive_power_scaling_explanation/",
+      "https://www.sohu.com/a/167758101_114882",
+      "http://www.mod.gov.cn/gfbw/wzll/lj/4866783.html?big=fan",
+      "https://mil.news.sina.com.cn/2014-07-18/0730790799.html",
+      "http://yay.yayqq.com/articleshow4.asp?ArticleID=12615",
+      "http://www.81.cn/yw_208727/16442638.html",
+      "http://www.81.cn/jwzl/2015-11/05/content_6755808.htm",
+      "http://www.81.cn/jfjbmap/content/1/2023-02/16/07/2023021607_pdf.pdf",
+      "https://blog.csdn.net/Evil_Carl/article/details/121664026",
+      "http://www.uml.org.cn/qiyezjjs/202506174.asp?artid=26886",
+      "http://mil.news.sina.com.cn/2014-05-29/0630781935.html?from=wap",
+      "https://finance.sina.com.cn/wm/2026-08-11/doc-inimxewt4413467.shtml?cref=cj",
+      "https://www.secrss.com/articles/76612",
+      "https://www.secrss.com/articles/74353",
+      "https://zh.wikipedia.org/zh-hans/%E4%B8%83%E7%BB%B4%E7%A9%BA%E9%97%B4",
+      "https://patents.google.com/patent/CN111652475A/zh",
+      "https://journal.bit.edu.cn/zr/cn/article/pdf/preview/10.15918/j.tbit1001-0645.2024.095.pdf",
+      "https://user.guancha.cn/main/content?id=449546&s=fwzwyzzwzbt",
+      "https://blog.csdn.net/vucndnrzk8iwx/article/details/146781649",
+      "http://military.people.com.cn/BIG5/n1/2017/0124/c1011-29046189.html"
+    ],
+    "created": 1787124130,
+    "id": "fa34d536-5669-475d-b325-78be21c4c691",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2024-06-15",
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "Humans can't (typically) have more than one core, while NCs can have up to 7, giving them 7x the amount of essence available at rank and more abilities.",
+        "source": "web",
+        "title": "全面的战力评估解释: r/ShadowSlave - Reddit",
+        "url": "https://www.reddit.com/r/ShadowSlave/comments/1dgrg86/comprehensive_power_scaling_explanation/"
+      },
+      {
+        "date": "2017-08-28",
+        "last_updated": "2025-01-23",
+        "place_metadata": null,
+        "snippet": "战斗力评估是指对战斗实力的大小、方向、结构及其影响因素等进行定性定量分析、评价和估算的过程。从理论上说，战斗力评估应该包括对战斗活力的评估，但由于敌情、士气和谋略以及其他偶然性和不确定性因素的影响，战斗活力具有瞬时性、动态性和不确定性，既难以在作战行动之前进行事先评估，也难以在作战行动之中进行跟踪评估。",
+        "source": "web",
+        "title": "李璟：战斗力标准与量化评估理论",
+        "url": "https://www.sohu.com/a/167758101_114882"
+      },
+      {
+        "date": "2020-06-16",
+        "last_updated": "2025-03-22",
+        "place_metadata": null,
+        "snippet": "在合成一营进行的战术演练中，针对快速反应、机动投送、战场侦察、火力打击、指挥控制、综合保障等10种能力及50余项能力要素，导调组以数据指标为依据展开战斗力评估。",
+        "source": "web",
+        "title": "第七十二集团军某旅细化战斗力指标",
+        "url": "http://www.mod.gov.cn/gfbw/wzll/lj/4866783.html?big=fan"
+      },
+      {
+        "date": "2014-07-18",
+        "last_updated": "2026-01-17",
+        "place_metadata": null,
+        "snippet": "战斗力并不仅是一个普通军语，它是量化一支部队作战能力的指标体系，更是一系列以指数量化为特征的数学模型。观察美军对战斗力的评估标准，其以数字说话的理念令人印象深刻。",
+        "source": "web",
+        "title": "作战试验与评估衡量美国陆军战斗力的“标尺” - 新浪军事",
+        "url": "https://mil.news.sina.com.cn/2014-07-18/0730790799.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-02",
+        "place_metadata": null,
+        "snippet": "*摘要与提纲** **基于打赢战争的指导原则,本研究构建的国别军事实力评估指标体系采用分层模块化结构,包括6个一级指标、18个二级指标和127个三级指标,形成全面覆盖、重点突出的评估框架。指标体系由上至下依次为目标层、准则层和指标层,通过这种梯阶层次结构,既确保评估的系统性和完整性,又保证评估的可操作性和针对性。** **《国别军事实力评估指标体系构建策略报告》提纲如下:** **一、评估指标体系的理论基础与指导原则**:介绍军事实力评估的理论演进和基于打赢战争的核心指导原则,使用表格对比不同理论流派的观点和方法。**二、国别军事实力评估指标体系的总体设计**:阐述指标体系的框架设计、构建流程...",
+        "source": "web",
+        "title": "李国琥：国别军事实力评估指标体系构建策略报告 - 云阿云智库",
+        "url": "http://yay.yayqq.com/articleshow4.asp?ArticleID=12615"
+      },
+      {
+        "date": "2026-02-12",
+        "last_updated": "2026-03-06",
+        "place_metadata": null,
+        "snippet": "拓展跨域评估维度。将太空、电磁、网络以及认知域等新型作战域纳入评估体系，既评估各域内作战效果，如网络域的敌方指挥系统瘫痪程度等，也分析跨域行动的协同效果，如卫星侦察对地面部队火力打击的引导效率，以及认知域心理战对敌方作战意志的削弱效果，确保评估内容覆盖全域作战空间。",
+        "source": "web",
+        "title": "军事论坛丨浅析智能时代联合作战效果评估新趋势 - 中国军网",
+        "url": "http://www.81.cn/yw_208727/16442638.html"
+      },
+      {
+        "date": "2015-11-05",
+        "last_updated": "2025-03-29",
+        "place_metadata": null,
+        "snippet": "战斗力标准是对军事活动客观规律的深刻揭示，在理论上直接根植于辩证唯物主义认识论，与“实践是检验真理的唯一标准”具有很强的一致性。一是检验标准同源。唯物史观认为：实践，是认识主体发现、检验并确定认识客体具有真理性的中介、方法和途径，其外在形式为人类在改造和利用自然中的主观能动行为。战斗力是军事实践活动中主体能力的抽象，它所反映的是军事实践中最基本的关系，即战争主体与客体的关系，标志着人类对战争的认识和控制程度。因此，军人提高战斗力的实践活动，是军队质量建设最基本的实践活动，与“实践标准”中的实践同属人类实践范畴。二是检验对象同类。唯物史观实践标准中的真理，是人类对于客观事物及其规律的主观反映，属...",
+        "source": "web",
+        "title": "多维度把握战斗力标准",
+        "url": "http://www.81.cn/jwzl/2015-11/05/content_6755808.htm"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-02-11",
+        "place_metadata": null,
+        "snippet": "是评估的生命。评估活动必须用事实\n...\n公平、\n公正\n...\n可靠、\n可用的结论，\n不能带有任何偏见，",
+        "source": "web",
+        "title": "jfjb07b20230216C",
+        "url": "http://www.81.cn/jfjbmap/content/1/2023-02/16/07/2023021607_pdf.pdf"
+      },
+      {
+        "date": "2024-08-11",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "QJM不仅是一种战争模型也是一种战争理论。最初，它是用来模拟历史上的战争，后来，经过进一步的修改它被用于现代战争的预测。这是预测游戏中潜在胜利者的一个理想系统。在本文中，我们将描述基本的QJM公式。可以通过增加模型来进一步的扩充这个基本公式，例如，磨损计算模型、单位的空间效力模型和伤亡效力模型。",
+        "source": "web",
+        "title": "【游戏精粹】使用战力值评估模型进行战争役分析",
+        "url": "https://blog.csdn.net/Evil_Carl/article/details/121664026"
+      },
+      {
+        "date": "2011-11-29",
+        "last_updated": "2025-07-31",
+        "place_metadata": null,
+        "snippet": "• 机动生存能力：如装备最大机动速度、隐身性能（雷达反射面积）、抗干扰能力。",
+        "source": "web",
+        "title": "30种作战效能评估方法，你都了解吗？评估指标如何构建，你都掌握吗？",
+        "url": "http://www.uml.org.cn/qiyezjjs/202506174.asp?artid=26886"
+      },
+      {
+        "date": "2014-05-29",
+        "last_updated": "2025-03-22",
+        "place_metadata": null,
+        "snippet": "力有大小、方向、作用点三个要素。战斗力同样具有这三个要素，其大小均可通过算法计算，而作用点就是打击目标。\n战斗力通常有九种方向：地对地，地对海，地对空，海对地，海对海，海对空，空对地，空对海，空对空。在实施联合作战中，可由多军兵种部队构成多方向战斗力，而此时的战斗力大小不能简单用数值来表达，可用数值构成的矩阵来加以表述，从而形成体系战斗力。",
+        "source": "web",
+        "title": "本期邀请国防大学军事专家李璟为您讲述—— 量化分析，开启战斗力标准科学之门",
+        "url": "http://mil.news.sina.com.cn/2014-05-29/0630781935.html?from=wap"
+      },
+      {
+        "date": "2026-08-11",
+        "last_updated": "2026-08-11",
+        "place_metadata": null,
+        "snippet": "考核评价内容务必全面客观：既看硬实力也看软实力——练兵比武和训练考核成绩等是硬实力，战备秩序、作风纪律等则是支撑打赢的软实力；既看当前成效也看长远发展——",
+        "source": "web",
+        "title": "立起战斗力贡献率硬标尺",
+        "url": "https://finance.sina.com.cn/wm/2026-08-11/doc-inimxewt4413467.shtml?cref=cj"
+      },
+      {
+        "date": "2025-03-13",
+        "last_updated": "2026-06-05",
+        "place_metadata": null,
+        "snippet": "指大模型技术对外输出表现出来的性能，即可解释性、可拓展性、可信任性、可审查性、鲁棒性等；体系效能域，主要是指智能化装备体系的自主性、协同性、学习性，由其涌现迁移产生的新质战斗力，主要通过作战模拟仿真进行验证评估 ^［12］^。",
+        "source": "web",
+        "title": "AIGC军事大模型评估体系框架研究 - 安全内参",
+        "url": "https://www.secrss.com/articles/76612"
+      },
+      {
+        "date": "2025-01-06",
+        "last_updated": "2026-06-18",
+        "place_metadata": null,
+        "snippet": "首先,研究智能化作战能力生成机理,分析智能化作战的制胜机理,辨识决策优势、杀伤网等智能化战争制胜的关键要素。",
+        "source": "web",
+        "title": "智能化作战效能评估指标体系构建方法",
+        "url": "https://www.secrss.com/articles/74353"
+      },
+      {
+        "date": "2017-03-08",
+        "last_updated": "2025-01-30",
+        "place_metadata": null,
+        "snippet": "在数学中， 一个*n*实数的序列可以被理解为*n维*空间中的一个位置。当*n*等于七时， 所有这样的位置的集合被称为**七维空间**。",
+        "source": "web",
+        "title": "七维空间- 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%83%E7%BB%B4%E7%A9%BA%E9%97%B4"
+      },
+      {
+        "date": "2020-05-12",
+        "last_updated": "2025-08-16",
+        "place_metadata": null,
+        "snippet": "(3)所述能力空间主要由情报信息、指挥控制、火力打击、机动突击、全维防护、综合保障的子系统构成；",
+        "source": "web",
+        "title": "联合作战体系作战能力多层次分析评估方法以及存储介质",
+        "url": "https://patents.google.com/patent/CN111652475A/zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-15",
+        "place_metadata": null,
+        "snippet": "摘  要：为解决现有作战体系效能评估方法不全面、不细致的问题，提出了一种考虑动静态能力的作战体系综合",
+        "source": "web",
+        "title": "考虑动静态能力的作战体系综合效能评估方法",
+        "url": "https://journal.bit.edu.cn/zr/cn/article/pdf/preview/10.15918/j.tbit1001-0645.2024.095.pdf"
+      },
+      {
+        "date": "2021-01-18",
+        "last_updated": "2026-04-19",
+        "place_metadata": null,
+        "snippet": "其大意聚焦于比较、趋势、场景、效能、效率、平衡和诊断等七个主题。这些原则虽然诞生于四十多年前，但是时至今日仍在美国战略创新上发挥着重要作用，并被开发应用到其他领域和层次，甚至其他国家和地区，对开展战略竞争或竞争战略研究亦具有重要参考价值。\n...\n后来，国防部官方把净评估术语定义为“对决定国家相对军事能力的军事、技术、政治、经济和其他因素的比较分析。”进而将任何可能影响到美国与对手战略竞争关系和安全环境的因素都纳入研究范围。",
+        "source": "web",
+        "title": "易评估：简述美军净评估的基本原则 - 观察者",
+        "url": "https://user.guancha.cn/main/content?id=449546&s=fwzwyzzwzbt"
+      },
+      {
+        "date": "2025-03-30",
+        "last_updated": "2026-03-23",
+        "place_metadata": null,
+        "snippet": "综上所述，制智权与制海权、制空权、制陆权、制天权、制信息（网）权、制电磁权等其他六个维度相互依存、相互作用，共同构成现代战争的人、机、环境多维系统作战体系。",
+        "source": "web",
+        "title": "制智权：第七维认知原创",
+        "url": "https://blog.csdn.net/vucndnrzk8iwx/article/details/146781649"
+      },
+      {
+        "date": "2017-01-24",
+        "last_updated": "2025-12-31",
+        "place_metadata": null,
+        "snippet": "戴旭：網絡把世界聯在一起，開辟第六維空間——心理空間，無形之心被無形之網推舉，放大為戰爭制勝的新高地，“攻心為上”古樹發新枝。在“網”“心”交織的變形空間中，大國戰略博弈的主要樣式已轉向“信息思想戰”。",
+        "source": "web",
+        "title": "戴旭：全球迎來第七代戰爭我們的認知體系亟須升級",
+        "url": "http://military.people.com.cn/BIG5/n1/2017/0124/c1011-29046189.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 409,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00041,
+        "request_cost": 0.005,
+        "total_cost": 0.00544
+      },
+      "prompt_tokens": 33,
+      "search_context_size": "low",
+      "total_tokens": 442
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:22:10.228324Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "“**七维战力评估**”不是一个在公开、统一标准中广泛固定使用的正式术语。结合现有资料，它更像是把战斗力/作战能力拆成**七个维度**来做综合评估的方法，而不是单一标准名词。[2][4][6]\n\n常见理解有两类：\n\n- **军事评估中的多维战力模型**：战斗力评估通常是对实力大小、结构、方向及影响因素进行定性和定量分析；现代作战评估也强调把情报、指挥控制、火力打击、机动突击、防护、保障等能力纳入体系化衡量。[2][3][16]\n- **“七维”只是维度划分方式**：有些讨论把作战空间扩展到更广的维度，比如地、海、空、天、网、电磁、认知等，或将“比较、趋势、场景、效能、效率、平衡、诊断”等作为七个分析主题；不同语境下“七维”所指并不一致。[6][18][19][20]\n\n如果你问的是**军事实力/作战效能评估**里的“七维”，它的核心含义通常是：用**七个指标维度**去综合判断一个单位、体系或国家的战斗能力，而不是只看单一火力或人数。[3][4][12]\n\n如果你愿意，我可以进一步按你的场景解释成：\n\n- **游戏/小说设定里的七维战力**\n- **军事作战评估里的七维指标**\n- **企业/团队能力评估里的七维模型**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

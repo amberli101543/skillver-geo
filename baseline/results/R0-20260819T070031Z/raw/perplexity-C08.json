@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "冲刺 **AI 大厂面试**，最有效的方法不是“广撒网式刷题”，而是把准备拆成 **算法 / 机器学习基础 / 项目深挖 / 系统设计 / 模拟面试** 五条线并行推进。多数经验贴都指向同一个结论：先补基础，再针对目标岗位高频题和项目追问做冲刺。[1][4][12]\n\n你可以按下面这个思路准备：\n\n- **先明确岗位画像**\n- 不同岗位侧重点不同：算法岗更看重 LeetCode、ML/DL 基础和项目追问；AI 产品岗更看重项目表达、业务理解和竞品分析；大模型应用岗还会关注 AI 工具链、工作流和工程落地。[12][17][20][7]\n\n- **刷题要“少而精”**\n- 多个面经都强调高频题优先，而不是盲目刷海量题。\n- 常见建议是集中刷 **Top 100 / Hot 100 / 剑指 Offer**，重点放在数组、链表、哈希、树、动态规划、贪心等高频类型，并且每题都要讲清楚复杂度和边界条件。[2][4][8]\n- 如果时间很紧，先把 **Easy + Medium** 打牢，再补少量 Hard 作为拔高。[2]\n\n- **机器学习 / 深度学习基础要系统复习**\n- 高频问题通常集中在过拟合、正则化、损失函数、BatchNorm vs LayerNorm、Transformer 注意力机制等基础点。[9]\n- 准备时不要只背定义，要能回答“为什么这样设计”“有什么 trade-off”“在什么场景下失效”。[4][9]\n\n- **项目准备要能讲透**\n- 面试官通常会追问你做了什么、为什么这么做、如果重做会怎么改。[9]\n- 建议重点准备 **2–3 个核心项目**，每个项目都整理成一套固定表达：问题背景、你的贡献、技术方案、结果指标、失败与迭代。[5][20]\n- 如果你有论文或较重的项目经历，可以准备一份简洁 PPT，帮助你在面试中更结构化地讲述。[2]\n\n- **补系统设计和工程化思维**\n- 大厂面试不只看“会不会写题”，也看你能不能把方案落地。\n- 常见准备内容包括推荐系统、CV/NLP 专项、数据处理、模型训练流程、接口与性能取舍等。[6][15]\n- 对大模型应用方向，还要准备 AI 辅助编码、调试、测试、代码审查、文档协作等工作流理解。[7]\n\n- **做真题和模拟面试**\n- 先收集目标公司的面经，提炼高频问题，再做完整模拟，比漫无目的刷题更有效。[9][13]\n- 多篇材料都建议在最后 2–4 周集中做 **AI 模拟面试**、复盘表达和临场反应。[1][3][6]\n- 每次模拟后记录答得不好的点，第二天重新组织答案。[14]\n\n- **准备简历和表达方式**\n- 简历上的每一项都要能经得起追问，尤其是项目细节、数据指标和个人贡献。[14][20]\n- 回答时尽量结构化：先结论，再展开；先方案，再原因；先结果，再反思。表达清晰、不卡壳，往往比堆术语更重要。[14][20]\n\n如果你只想要一个 **冲刺版 2–4 周计划**，可以这样安排：\n\n- **第 1 周**：梳理简历、确定目标岗位、整理高频题库、复习 ML/DL 基础\n- **第 2 周**：集中刷题 + 项目深挖 + 系统设计入门\n- **第 3 周**：真题训练 + 模拟面试 + 修正表达\n- **第 4 周**：查漏补缺、复盘错题、稳定心态、背熟项目和简历内容[1][6]\n\n如果你愿意，我可以继续帮你做一版更具体的：\n- **算法岗 30 天冲刺计划**\n- **大模型应用岗面试清单**\n- **AI 产品经理面试准备表**",
+  "sources": [
+    {
+      "url": "https://www.mianlingai.com/blog/algo-engineer-interview-ai-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://adg.csdn.net/69708cc4437a6b40336aab3f.html",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/adongwanai/AgentGuide",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/69e7775d0a2f6a37c5a15b37.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cuemate.net/blog/7",
+      "title": ""
+    },
+    {
+      "url": "https://adg.csdn.net/69707536437a6b40336a5527.html",
+      "title": ""
+    },
+    {
+      "url": "https://juejin.cn/post/7643984132234559540",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2501_91798322/article/details/148344401",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/69f2c04d54b52172bc70e77c.html",
+      "title": ""
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20250915A04E8100",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md",
+      "title": ""
+    },
+    {
+      "url": "https://irenshi.cn/p/389674/",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1421304",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/69e785b954b52172bc6b4f88.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/limingqi/p/20068242",
+      "title": ""
+    },
+    {
+      "url": "https://time.geekbang.org/column/article/936200",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2401_84495872/article/details/149396973",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1498562",
+      "title": ""
+    },
+    {
+      "url": "https://www.jiemian.com/article/14710916.html",
+      "title": ""
+    },
+    {
+      "url": "https://adg.csdn.net/69708b8c437a6b40336aa47c.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/algo-engineer-interview-ai-guide/",
+      "title": "算法工程师面试准备全攻略：手撕代码+项目追问+AI模拟"
+    },
+    {
+      "url": "https://adg.csdn.net/69708cc4437a6b40336aab3f.html",
+      "title": "AI行业求职秘籍：揭秘大厂Offer获取之道，助你跨越信息鸿沟"
+    },
+    {
+      "url": "https://github.com/adongwanai/AgentGuide",
+      "title": "AgentGuide"
+    },
+    {
+      "url": "https://gitcode.csdn.net/69e7775d0a2f6a37c5a15b37.html",
+      "title": "AI算法工程师面试宝典【大厂手撕代码与数据结构高频实战】【第 ..."
+    },
+    {
+      "url": "https://www.cuemate.net/blog/7",
+      "title": "2025秋招笔试面试全攻略：AI助手让你轻松拿下大厂Offer"
+    },
+    {
+      "url": "https://adg.csdn.net/69707536437a6b40336a5527.html",
+      "title": "算法工程师面试上岸指南：横扫大厂60W+ Offer的核心秘籍（附 ..."
+    },
+    {
+      "url": "https://juejin.cn/post/7643984132234559540",
+      "title": "大厂校招变了：AI 能力正在进入笔试和面试 - 稀土掘金"
+    },
+    {
+      "url": "https://blog.csdn.net/2501_91798322/article/details/148344401",
+      "title": "校招生必看：大厂AI岗面试官最在意的3个核心能力（人工智能丨深度学习丨算法工程师丨AI产品经理丨就业）"
+    },
+    {
+      "url": "https://gitcode.csdn.net/69f2c04d54b52172bc70e77c.html",
+      "title": "AI工程师面试紧张？准备与临场发挥技巧 - AtomGit开源社区"
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20250915A04E8100",
+      "title": "面试不是考试，是表演！新晋OpenAI员工：重磅揭秘顶级AI岗通关密码"
+    },
+    {
+      "url": "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md",
+      "title": "Deep-Learning-Interview-Book/docs/面试经验.md at master · amusi/Deep-Learning-Interview-Book"
+    },
+    {
+      "url": "https://irenshi.cn/p/389674/",
+      "title": "AI企业面试技巧解析，如何在AI企业面试中脱颖而出？"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1421304",
+      "title": "从对ML一窍不通到斩获AT等special offer，拿下大厂算法岗就靠它了-腾讯云开发者社区-腾讯云"
+    },
+    {
+      "url": "https://gitcode.csdn.net/69e785b954b52172bc6b4f88.html",
+      "title": "5年经验AI大模型应用开发面经揭秘：手把手教你拿下阿里"
+    },
+    {
+      "url": "https://www.cnblogs.com/limingqi/p/20068242",
+      "title": "《AI Agent工程师面试指南》目录- limingqi"
+    },
+    {
+      "url": "https://time.geekbang.org/column/article/936200",
+      "title": "AI 大模型岗位求职全攻略 - 极客时间"
+    },
+    {
+      "url": "https://blog.csdn.net/2401_84495872/article/details/149396973",
+      "title": "【大厂算法实习面试指南】别人都在偷偷刷！大模型算法工程师经典百问！"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/1498562",
+      "title": "谷歌、微软等大企业AI面试题来袭，看看你会多少？ - 腾讯云"
+    },
+    {
+      "url": "https://www.jiemian.com/article/14710916.html",
+      "title": "这届大厂面试官，上来就问“你怎么用AI干活”"
+    },
+    {
+      "url": "https://adg.csdn.net/69708b8c437a6b40336aa47c.html",
+      "title": "AI产品经理面试必备：五大厂真实面经揭秘，超详细，值得收藏！"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "冲刺 **AI 大厂面试**，最有效的方法不是“广撒网式刷题”，而是把准备拆成 **算法 / 机器学习基础 / 项目深挖 / 系统设计 / 模拟面试** 五条线并行推进。多数经验贴都指向同一个结论：先补基础，再针对目标岗位高频题和项目追问做冲刺。[1][4][12]\n\n你可以按下面这个思路准备：\n\n- **先明确岗位画像**\n- 不同岗位侧重点不同：算法岗更看重 LeetCode、ML/DL 基础和项目追问；AI 产品岗更看重项目表达、业务理解和竞品分析；大模型应用岗还会关注 AI 工具链、工作流和工程落地。[12][17][20][7]\n\n- **刷题要“少而精”**\n- 多个面经都强调高频题优先，而不是盲目刷海量题。\n- 常见建议是集中刷 **Top 100 / Hot 100 / 剑指 Offer**，重点放在数组、链表、哈希、树、动态规划、贪心等高频类型，并且每题都要讲清楚复杂度和边界条件。[2][4][8]\n- 如果时间很紧，先把 **Easy + Medium** 打牢，再补少量 Hard 作为拔高。[2]\n\n- **机器学习 / 深度学习基础要系统复习**\n- 高频问题通常集中在过拟合、正则化、损失函数、BatchNorm vs LayerNorm、Transformer 注意力机制等基础点。[9]\n- 准备时不要只背定义，要能回答“为什么这样设计”“有什么 trade-off”“在什么场景下失效”。[4][9]\n\n- **项目准备要能讲透**\n- 面试官通常会追问你做了什么、为什么这么做、如果重做会怎么改。[9]\n- 建议重点准备 **2–3 个核心项目**，每个项目都整理成一套固定表达：问题背景、你的贡献、技术方案、结果指标、失败与迭代。[5][20]\n- 如果你有论文或较重的项目经历，可以准备一份简洁 PPT，帮助你在面试中更结构化地讲述。[2]\n\n- **补系统设计和工程化思维**\n- 大厂面试不只看“会不会写题”，也看你能不能把方案落地。\n- 常见准备内容包括推荐系统、CV/NLP 专项、数据处理、模型训练流程、接口与性能取舍等。[6][15]\n- 对大模型应用方向，还要准备 AI 辅助编码、调试、测试、代码审查、文档协作等工作流理解。[7]\n\n- **做真题和模拟面试**\n- 先收集目标公司的面经，提炼高频问题，再做完整模拟，比漫无目的刷题更有效。[9][13]\n- 多篇材料都建议在最后 2–4 周集中做 **AI 模拟面试**、复盘表达和临场反应。[1][3][6]\n- 每次模拟后记录答得不好的点，第二天重新组织答案。[14]\n\n- **准备简历和表达方式**\n- 简历上的每一项都要能经得起追问，尤其是项目细节、数据指标和个人贡献。[14][20]\n- 回答时尽量结构化：先结论，再展开；先方案，再原因；先结果，再反思。表达清晰、不卡壳，往往比堆术语更重要。[14][20]\n\n如果你只想要一个 **冲刺版 2–4 周计划**，可以这样安排：\n\n- **第 1 周**：梳理简历、确定目标岗位、整理高频题库、复习 ML/DL 基础\n- **第 2 周**：集中刷题 + 项目深挖 + 系统设计入门\n- **第 3 周**：真题训练 + 模拟面试 + 修正表达\n- **第 4 周**：查漏补缺、复盘错题、稳定心态、背熟项目和简历内容[1][6]\n\n如果你愿意，我可以继续帮你做一版更具体的：\n- **算法岗 30 天冲刺计划**\n- **大模型应用岗面试清单**\n- **AI 产品经理面试准备表**",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.mianlingai.com/blog/algo-engineer-interview-ai-guide/",
+      "https://adg.csdn.net/69708cc4437a6b40336aab3f.html",
+      "https://github.com/adongwanai/AgentGuide",
+      "https://gitcode.csdn.net/69e7775d0a2f6a37c5a15b37.html",
+      "https://www.cuemate.net/blog/7",
+      "https://adg.csdn.net/69707536437a6b40336a5527.html",
+      "https://juejin.cn/post/7643984132234559540",
+      "https://blog.csdn.net/2501_91798322/article/details/148344401",
+      "https://gitcode.csdn.net/69f2c04d54b52172bc70e77c.html",
+      "https://news.qq.com/rain/a/20250915A04E8100",
+      "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md",
+      "https://irenshi.cn/p/389674/",
+      "https://cloud.tencent.com/developer/article/1421304",
+      "https://gitcode.csdn.net/69e785b954b52172bc6b4f88.html",
+      "https://www.cnblogs.com/limingqi/p/20068242",
+      "https://time.geekbang.org/column/article/936200",
+      "https://blog.csdn.net/2401_84495872/article/details/149396973",
+      "https://cloud.tencent.com/developer/article/1498562",
+      "https://www.jiemian.com/article/14710916.html",
+      "https://adg.csdn.net/69708b8c437a6b40336aa47c.html"
+    ],
+    "created": 1787125419,
+    "id": "82d41319-8cde-43ae-b0f1-44bb5f3b7b8b",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-04-10",
+        "last_updated": "2026-08-04",
+        "place_metadata": null,
+        "snippet": "|3—6个月前|LeetCode按题型分类刷（目标200题），ML基础知识系统学习|\n|1—3个月前|项目经验梳理，系统设计入门，参加牛客周赛练手|\n|2—4周前|大厂真题刷题，AI模拟面试打磨口头表达|\n|最后1周|高频题复盘，面试流程模拟，稳定心态|",
+        "source": "web",
+        "title": "算法工程师面试准备全攻略：手撕代码+项目追问+AI模拟",
+        "url": "https://www.mianlingai.com/blog/algo-engineer-interview-ai-guide/"
+      },
+      {
+        "date": "2025-10-14",
+        "last_updated": "2026-06-14",
+        "place_metadata": null,
+        "snippet": "刷题：LeetCode Hot 100 刷两遍基本就够了，特别是当你项目经历丰富时，一般不会问很难的代码题。Easy 和 Medium 难度为主，我没被问过 Hard。两周刷完两遍是完全可以的。\n看面经：在秋招和暑期实习季，多看牛客和小红书。有很多热心的大佬会分享刚出炉的面经。如果你善于搜索，可能会搜到同一个岗位的面试题。\n打听面试官风格：如果有机会，可以提前打听一下面试官的风格。如果你知道是被哪个组捞起来的，可以找里面的学长学姐问一下，这个面试官是喜欢问代码、问八股，还是问项目，然后针对性地准备。\n...\n准备 PPT：如果你有比较多的论文或项目，可以做一个 PPT，这样讲解时会给面试官留下...",
+        "source": "web",
+        "title": "AI行业求职秘籍：揭秘大厂Offer获取之道，助你跨越信息鸿沟",
+        "url": "https://adg.csdn.net/69708cc4437a6b40336aab3f.html"
+      },
+      {
+        "date": "2025-11-03",
+        "last_updated": "2026-05-19",
+        "place_metadata": null,
+        "snippet": "第三阶段（1-2周）：冲刺突破\n├─ 12-真实面经 → 模拟完整面试",
+        "source": "web",
+        "title": "AgentGuide",
+        "url": "https://github.com/adongwanai/AgentGuide"
+      },
+      {
+        "date": "2026-04-21",
+        "last_updated": "2026-05-14",
+        "place_metadata": null,
+        "snippet": "1. **手撕代码训练**：每天2-3道LeetCode（优先Top 100和剑指Offer），重点掌握数组、链表、哈希表、树、动态规划、贪心。写代码时注意边界条件、命名规范、复杂度分析。\n2. **深入理解而非死记**：不仅要能写出快排，还要能分析最坏情况、说出优化方法；不仅会用装饰器，还要能解释闭包和`wraps`的作用。\n3. **工具库熟练度**：能够在不查文档的情况下用NumPy完成矩阵运算，用Pandas完成数据清洗和分组聚合。面试中可能会要求手写Pandas操作。\n4. **复杂度敏感**：每道题主动分析时间和空间复杂度，面试官非常看重这一点。",
+        "source": "web",
+        "title": "AI算法工程师面试宝典【大厂手撕代码与数据结构高频实战】【第 ...",
+        "url": "https://gitcode.csdn.net/69e7775d0a2f6a37c5a15b37.html"
+      },
+      {
+        "date": "2026-07-04",
+        "last_updated": "2026-07-04",
+        "place_metadata": null,
+        "snippet": "2. **项目准备**：深入准备2-3个核心项目，能够详细讲述\n...\n- **真题练习**：重点练习目标公司的历年真题\n...\n- **简历优化**：突出与目标岗位匹配的项目经验\n- **模拟面试**：找朋友或使用AI工具进行模拟练习\n- **知识梳理**：系统复习计算机基础知识\n- **心理准备**：保持良好心态，相信自己的能力",
+        "source": "web",
+        "title": "2025秋招笔试面试全攻略：AI助手让你轻松拿下大厂Offer",
+        "url": "https://www.cuemate.net/blog/7"
+      },
+      {
+        "date": "2025-11-10",
+        "last_updated": "2026-01-29",
+        "place_metadata": null,
+        "snippet": "**每日任务**：5道LeetCode + 2个机器学习概念 **重点突破**：动态规划、树相关题目 **产出物**：个人技术笔记库\n...\n**每日任务**：1个系统设计题 + 1个项目复盘 **重点突破**：推荐系统/CV/NLP专项 **产出物**：项目介绍脚本\n...\n**每日任务**：2场模拟面试 + 针对性改进 **重点突破**：表达逻辑、解题思路 **产出物**：面试问题清单\n#### 第四周：查漏补缺\n**每日任务**：弱点专项训练 + 简历优化 **重点突破**：行为面试、薪资谈判 **产出物**：最终版面试材料",
+        "source": "web",
+        "title": "算法工程师面试上岸指南：横扫大厂60W+ Offer的核心秘籍（附 ...",
+        "url": "https://adg.csdn.net/69707536437a6b40336a5527.html"
+      },
+      {
+        "date": "2026-05-26",
+        "last_updated": "2026-06-09",
+        "place_metadata": null,
+        "snippet": "更现实的路径是： 先把基础岗位能力补好，再把 AI 融入工作流。\n...\n|能力方向|重点准备内容|\n...\n|AI 辅助编码|需求拆解、代码生成、代码解释、代码重构|\n|AI 辅助调试|报错分析、日志定位、异常复现、修复建议|\n|AI 辅助测试|测试点生成、测试用例生成、自动化脚本生成|\n|AI 代码审查|识别 bug、性能问题、安全风险、边界缺失|\n|AI 工程协作|文档生成、接口说明、项目理解、代码规范优化|",
+        "source": "web",
+        "title": "大厂校招变了：AI 能力正在进入笔试和面试 - 稀土掘金",
+        "url": "https://juejin.cn/post/7643984132234559540"
+      },
+      {
+        "date": "2025-05-30",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "INFO 编码黄金法则：面试中先写伪代码理清逻辑，再补充边界条件（空值/极值/异常输入）",
+        "source": "web",
+        "title": "校招生必看：大厂AI岗面试官最在意的3个核心能力（人工智能丨深度学习丨算法工程师丨AI产品经理丨就业）",
+        "url": "https://blog.csdn.net/2501_91798322/article/details/148344401"
+      },
+      {
+        "date": "2026-04-30",
+        "last_updated": "2026-05-09",
+        "place_metadata": null,
+        "snippet": "建立你自己的面试题库**\n不要漫无目的地刷题。花一周时间，把你目标公司的面经（牛客、一亩三分地、小红书）全部过一遍，提炼出高频问题。你会发现，AI工程师的面试题翻来覆去就那么几十个：过拟合怎么解决？L1和L2的区别？Transformer的注意力公式？Batch Norm和Layer Norm的区别？把这些问题整理成文档，每个问题准备一个1-2分钟的回答框架。\n...\n每个写在简历上的项目，必须准备好三个问题的答案：你解决了什么核心问题？你为什么选择这个方案而不是其他？如果重新做一次，你会改进哪里？把这三个问题写下来，对着镜子练三遍。不要背稿子，但要保证每次都能在2分钟内说清楚。",
+        "source": "web",
+        "title": "AI工程师面试紧张？准备与临场发挥技巧 - AtomGit开源社区",
+        "url": "https://gitcode.csdn.net/69f2c04d54b52172bc70e77c.html"
+      },
+      {
+        "date": "2025-09-15",
+        "last_updated": "2025-10-03",
+        "place_metadata": null,
+        "snippet": "**你可以学习新技能、阅读论文，或者重温一些经典研究**。\n...\n**Bas van Opheusden建议花费大约100小时在LeetCode练习上，同样多的时间阅读论文、使用类似Deep Research来复习相关知识并多与朋友交流**。",
+        "source": "web",
+        "title": "面试不是考试，是表演！新晋OpenAI员工：重磅揭秘顶级AI岗通关密码",
+        "url": "https://news.qq.com/rain/a/20250915A04E8100"
+      },
+      {
+        "date": "2019-06-24",
+        "last_updated": "2026-04-16",
+        "place_metadata": null,
+        "snippet": "3. **能提前准备尽量别临时抱佛脚**。这是很多同学意识不到的，其实我们的秋招不止发生在这几个月，从你简历上第一段经历开始，已经是在为求职铺路了。学校，比赛，论文，其实这些都是面试的主要参考，如果能在更早的让简历变的丰富，让自己的编程和算法基本功变得扎实，将会在秋招中脱颖而出。",
+        "source": "web",
+        "title": "Deep-Learning-Interview-Book/docs/面试经验.md at master · amusi/Deep-Learning-Interview-Book",
+        "url": "https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C.md"
+      },
+      {
+        "date": "2025-11-21",
+        "last_updated": "2026-03-02",
+        "place_metadata": null,
+        "snippet": "要在AI企业面试中脱颖而出，核心在于：1、精准匹配岗位画像与评估维度；2、用可量化结果讲清项目价值；3、算法、工程与业务落地“三位一体”；4、用结构化方法应答与复盘；5、针对LLM与MLOps等热门方向做专项准备。",
+        "source": "web",
+        "title": "AI企业面试技巧解析，如何在AI企业面试中脱颖而出？",
+        "url": "https://irenshi.cn/p/389674/"
+      },
+      {
+        "date": "2019-05-06",
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "只要你有去 AI 行业的决心，你就一定会朝着这个方向走下去。如果你想去心仪公司的算法岗，就要努力提升自己的技术实力，在面试前做好前期准备，除了不断大量刷题外，最有效的“捷径”当然是要知道这些大厂在面试时要考察的问题，然后反推自己要补足哪些技术能力上的缺陷。",
+        "source": "web",
+        "title": "从对ML一窍不通到斩获AT等special offer，拿下大厂算法岗就靠它了-腾讯云开发者社区-腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/1421304"
+      },
+      {
+        "date": "2026-04-21",
+        "last_updated": "2026-06-04",
+        "place_metadata": null,
+        "snippet": "- 每次面完都要复盘，没答好的问题，一定要重新梳理答案。\n...\n- 简历可以让Al帮你润色，但自己要check一遍，别吹过头了。\n- 多看技术文章，扩展技术视野，提高二面面试官对你的印象。\n- 表达一定要流畅清晰，不要断断续续的，面试官会觉得你思路不清晰。",
+        "source": "web",
+        "title": "5年经验AI大模型应用开发面经揭秘：手把手教你拿下阿里",
+        "url": "https://gitcode.csdn.net/69e785b954b52172bc6b4f88.html"
+      },
+      {
+        "date": "2026-05-18",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "3.1.2 设计题：需求分析→方案选型→架构设计→trade-off分析",
+        "source": "web",
+        "title": "《AI Agent工程师面试指南》目录- limingqi",
+        "url": "https://www.cnblogs.com/limingqi/p/20068242"
+      },
+      {
+        "date": "2025-12-24",
+        "last_updated": "2026-06-05",
+        "place_metadata": null,
+        "snippet": "York：大厂面试流程每家公司不同，但通常在 3-5 轮之间。常见流程包括：第一轮是直属领导面，第二轮是技术面，第三轮是交叉面，之后是大老板面，最后是 HR 面。每轮面试时，如果是猎头推荐，一定要问清楚面试官是谁，这一点很重要。",
+        "source": "web",
+        "title": "AI 大模型岗位求职全攻略 - 极客时间",
+        "url": "https://time.geekbang.org/column/article/936200"
+      },
+      {
+        "date": "2025-07-16",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "（估计占比20%）：熟练掌握一门或多门主流编程语言（如Python、Java、SQL、C++等）的基本语法、面向对象设计、异常处理、并发编程等基础知识。",
+        "source": "web",
+        "title": "【大厂算法实习面试指南】别人都在偷偷刷！大模型算法工程师经典百问！",
+        "url": "https://blog.csdn.net/2401_84495872/article/details/149396973"
+      },
+      {
+        "date": "2019-09-04",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "**1.从基本Python开始（计划：2天）**",
+        "source": "web",
+        "title": "谷歌、微软等大企业AI面试题来袭，看看你会多少？ - 腾讯云",
+        "url": "https://cloud.tencent.com/developer/article/1498562"
+      },
+      {
+        "date": "2026-07-07",
+        "last_updated": "2026-07-13",
+        "place_metadata": null,
+        "snippet": "楠楠的做法是先用ChatGPT拆解需求，补齐行业常识，搭出方案的整体框架；再用Claude生成PPT初稿，填充基础内容；最后自己调整逻辑、优化细节，补充创意亮点。最终提交的方案顺利通过笔试，进入了下一轮面试。",
+        "source": "web",
+        "title": "这届大厂面试官，上来就问“你怎么用AI干活”",
+        "url": "https://www.jiemian.com/article/14710916.html"
+      },
+      {
+        "date": "2025-05-30",
+        "last_updated": "2026-06-10",
+        "place_metadata": null,
+        "snippet": "总结：1）想要做AI产品，项目经验/实习经验很重要，基本都会问！2）简历内容一点要滚瓜烂熟，提前准备高频问题以及答案3）回答问题，条理清晰，逻辑清楚，电面或视频面可以准备小本本写一些容易忘的内容4）竞品分析报告必须得有一份5）面完一次，总结一次！",
+        "source": "web",
+        "title": "AI产品经理面试必备：五大厂真实面经揭秘，超详细，值得收藏！",
+        "url": "https://adg.csdn.net/69708b8c437a6b40336aa47c.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 1066,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00107,
+        "request_cost": 0.005,
+        "total_cost": 0.0061
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 1102
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:43:39.551419Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "冲刺 **AI 大厂面试**，最有效的方法不是“广撒网式刷题”，而是把准备拆成 **算法 / 机器学习基础 / 项目深挖 / 系统设计 / 模拟面试** 五条线并行推进。多数经验贴都指向同一个结论：先补基础，再针对目标岗位高频题和项目追问做冲刺。[1][4][12]\n\n你可以按下面这个思路准备：\n\n- **先明确岗位画像**\n- 不同岗位侧重点不同：算法岗更看重 LeetCode、ML/DL 基础和项目追问；AI 产品岗更看重项目表达、业务理解和竞品分析；大模型应用岗还会关注 AI 工具链、工作流和工程落地。[12][17][20][7]\n\n- **刷题要“少而精”**\n- 多个面经都强调高频题优先，而不是盲目刷海量题。\n- 常见建议是集中刷 **Top 100 / Hot 100 / 剑指 Offer**，重点放在数组、链表、哈希、树、动态规划、贪心等高频类型，并且每题都要讲清楚复杂度和边界条件。[2][4][8]\n- 如果时间很紧，先把 **Easy + Medium** 打牢，再补少量 Hard 作为拔高。[2]\n\n- **机器学习 / 深度学习基础要系统复习**\n- 高频问题通常集中在过拟合、正则化、损失函数、BatchNorm vs LayerNorm、Transformer 注意力机制等基础点。[9]\n- 准备时不要只背定义，要能回答“为什么这样设计”“有什么 trade-off”“在什么场景下失效”。[4][9]\n\n- **项目准备要能讲透**\n- 面试官通常会追问你做了什么、为什么这么做、如果重做会怎么改。[9]\n- 建议重点准备 **2–3 个核心项目**，每个项目都整理成一套固定表达：问题背景、你的贡献、技术方案、结果指标、失败与迭代。[5][20]\n- 如果你有论文或较重的项目经历，可以准备一份简洁 PPT，帮助你在面试中更结构化地讲述。[2]\n\n- **补系统设计和工程化思维**\n- 大厂面试不只看“会不会写题”，也看你能不能把方案落地。\n- 常见准备内容包括推荐系统、CV/NLP 专项、数据处理、模型训练流程、接口与性能取舍等。[6][15]\n- 对大模型应用方向，还要准备 AI 辅助编码、调试、测试、代码审查、文档协作等工作流理解。[7]\n\n- **做真题和模拟面试**\n- 先收集目标公司的面经，提炼高频问题，再做完整模拟，比漫无目的刷题更有效。[9][13]\n- 多篇材料都建议在最后 2–4 周集中做 **AI 模拟面试**、复盘表达和临场反应。[1][3][6]\n- 每次模拟后记录答得不好的点，第二天重新组织答案。[14]\n\n- **准备简历和表达方式**\n- 简历上的每一项都要能经得起追问，尤其是项目细节、数据指标和个人贡献。[14][20]\n- 回答时尽量结构化：先结论，再展开；先方案，再原因；先结果，再反思。表达清晰、不卡壳，往往比堆术语更重要。[14][20]\n\n如果你只想要一个 **冲刺版 2–4 周计划**，可以这样安排：\n\n- **第 1 周**：梳理简历、确定目标岗位、整理高频题库、复习 ML/DL 基础\n- **第 2 周**：集中刷题 + 项目深挖 + 系统设计入门\n- **第 3 周**：真题训练 + 模拟面试 + 修正表达\n- **第 4 周**：查漏补缺、复盘错题、稳定心态、背熟项目和简历内容[1][6]\n\n如果你愿意，我可以继续帮你做一版更具体的：\n- **算法岗 30 天冲刺计划**\n- **大模型应用岗面试清单**\n- **AI 产品经理面试准备表**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

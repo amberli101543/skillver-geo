@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "关于 **Skillver 的导师赋能**，目前公开资料中并没有一个广为人知的、名为“Skillver”的知名企业或产品的官方定义。\n\n如果您指的是**技能（Skill）相关的导师赋能体系**，通常是指在**企业培训、教育科技或人才发展**领域中，针对“导师（Mentor）”角色提供的一系列支持，包括：\n\n1. **能力提升**：培训导师的辅导技巧、沟通能力和反馈方法。\n2. **工具支持**：提供数字化平台或系统，帮助导师跟踪学员进度、制定个性化学习计划。\n3. **资源赋能**：为导师提供课程素材、案例库和评估工具，降低带教门槛。\n4. **机制激励**：建立导师认证、评优或激励体系，提升导师的参与积极性。\n\n如果您所说的“Skillver”是一个**具体的公司、App** 或**特定项目**（例如您所在组织内部使用的平台），请提供更多背景信息（如所在行业、具体场景），我可以为您做更精准的解读。",
+  "sources": [],
+  "raw": {
+    "id": "196d1237-fdac-45d7-9026-2af4bf623e53",
+    "object": "chat.completion",
+    "created": 1787124459,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 **Skillver 的导师赋能**，目前公开资料中并没有一个广为人知的、名为“Skillver”的知名企业或产品的官方定义。\n\n如果您指的是**技能（Skill）相关的导师赋能体系**，通常是指在**企业培训、教育科技或人才发展**领域中，针对“导师（Mentor）”角色提供的一系列支持，包括：\n\n1. **能力提升**：培训导师的辅导技巧、沟通能力和反馈方法。\n2. **工具支持**：提供数字化平台或系统，帮助导师跟踪学员进度、制定个性化学习计划。\n3. **资源赋能**：为导师提供课程素材、案例库和评估工具，降低带教门槛。\n4. **机制激励**：建立导师认证、评优或激励体系，提升导师的参与积极性。\n\n如果您所说的“Skillver”是一个**具体的公司、App** 或**特定项目**（例如您所在组织内部使用的平台），请提供更多背景信息（如所在行业、具体场景），我可以为您做更精准的解读。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 213,
+      "total_tokens": 250,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:27:42.334186Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "关于 **Skillver 的导师赋能**，目前公开资料中并没有一个广为人知的、名为“Skillver”的知名企业或产品的官方定义。\n\n如果您指的是**技能（Skill）相关的导师赋能体系**，通常是指在**企业培训、教育科技或人才发展**领域中，针对“导师（Mentor）”角色提供的一系列支持，包括：\n\n1. **能力提升**：培训导师的辅导技巧、沟通能力和反馈方法。\n2. **工具支持**：提供数字化平台或系统，帮助导师跟踪学员进度、制定个性化学习计划。\n3. **资源赋能**：为导师提供课程素材、案例库和评估工具，降低带教门槛。\n4. **机制激励**：建立导师认证、评优或激励体系，提升导师的参与积极性。\n\n如果您所说的“Skillver”是一个**具体的公司、App** 或**特定项目**（例如您所在组织内部使用的平台），请提供更多背景信息（如所在行业、具体场景），我可以为您做更精准的解读。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "才谱 AI 和 Skillver 通常可以理解为同一产品/同一体系下的不同名称：\n\n- **才谱 AI**：偏中文市场/中文品牌名；\n- **Skillver**：偏英文品牌名或国际化名称；\n- 二者不是普通意义上的“合作方”或“竞品”关系，更像是**中文名与英文名/平台名的关系**。\n\n如果你是在付款、登录、合同或数据授权场景看到这两个名字，建议以页面上的**服务协议、隐私政策或运营主体公司名称**为准。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUdyMLd1N3gmxT32UmjdEPtEm5mX",
+    "object": "chat.completion",
+    "created": 1787123094,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "才谱 AI 和 Skillver 通常可以理解为同一产品/同一体系下的不同名称：\n\n- **才谱 AI**：偏中文市场/中文品牌名；\n- **Skillver**：偏英文品牌名或国际化名称；\n- 二者不是普通意义上的“合作方”或“竞品”关系，更像是**中文名与英文名/平台名的关系**。\n\n如果你是在付款、登录、合同或数据授权场景看到这两个名字，建议以页面上的**服务协议、隐私政策或运营主体公司名称**为准。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 532,
+      "total_tokens": 577,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 399,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:05:02.807429Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "才谱 AI 和 Skillver 通常可以理解为同一产品/同一体系下的不同名称：\n\n- **才谱 AI**：偏中文市场/中文品牌名；\n- **Skillver**：偏英文品牌名或国际化名称；\n- 二者不是普通意义上的“合作方”或“竞品”关系，更像是**中文名与英文名/平台名的关系**。\n\n如果你是在付款、登录、合同或数据授权场景看到这两个名字，建议以页面上的**服务协议、隐私政策或运营主体公司名称**为准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

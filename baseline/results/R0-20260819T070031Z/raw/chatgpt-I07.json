@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "我这边无法实时确认 Skillver 的最新收费状态。一般这类产品可能会有：\n\n- 免费版 / 免费试用\n- 付费订阅\n- 部分高级功能收费\n\n建议你以 Skillver 官网、App 内的「Pricing / 订阅 / 会员」页面，或 App Store / Google Play 的订阅信息为准。\n\n如果你把 Skillver 的链接或截图发我，我可以帮你看它现在是否收费。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUpkLbW12g9iSlHCjCyWue3WJvGd",
+    "object": "chat.completion",
+    "created": 1787123824,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我这边无法实时确认 Skillver 的最新收费状态。一般这类产品可能会有：\n\n- 免费版 / 免费试用\n- 付费订阅\n- 部分高级功能收费\n\n建议你以 Skillver 官网、App 内的「Pricing / 订阅 / 会员」页面，或 App Store / Google Play 的订阅信息为准。\n\n如果你把 Skillver 的链接或截图发我，我可以帮你看它现在是否收费。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 298,
+      "total_tokens": 340,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 190,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:08.791429Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "我这边无法实时确认 Skillver 的最新收费状态。一般这类产品可能会有：\n\n- 免费版 / 免费试用\n- 付费订阅\n- 部分高级功能收费\n\n建议你以 Skillver 官网、App 内的「Pricing / 订阅 / 会员」页面，或 App Store / Google Play 的订阅信息为准。\n\n如果你把 Skillver 的链接或截图发我，我可以帮你看它现在是否收费。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

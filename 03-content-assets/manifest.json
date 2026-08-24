@@ -9,7 +9,7 @@
       "status": "current",
       "role": "geo-content-ssot",
       "upstreamSource": null,
-      "sha256": "e5de442581e69a6d4da0a1c665451b6d8e0832e47fe44ecee66f15aae6a74f7f",
+      "sha256": "4c24fbb561cd97f03e52b96a8ea651f72010751bd7cbf97ad1004d27ba3246dc",
       "notes": "GEO 母稿首要事实源；变更后需同步 content/ 与 publish-ready/"
     },
     {
@@ -17,7 +17,7 @@
       "status": "derived",
       "role": "geo-content-ssot",
       "upstreamSource": "skillver_v1/docs/active/v1/CP_USER_MANUAL_V1.0.md",
-      "sha256": "f6a5f6c22285529225729c42fe4ba535a48bcf0569779d637be5de9a94f74e4c",
+      "sha256": "7886f3a8b106c12989e36292a41bd630d7b574b6852738c229e641eacefd9bfb",
       "notes": "与主仓用户手册存在漂移；涉及次数、配额、期限时以 upstream 快照与受保护指针复核"
     },
     {
@@ -25,8 +25,16 @@
       "status": "derived",
       "role": "geo-content-ssot",
       "upstreamSource": "03-content-assets/Skillver V1.0 用户使用手册.txt",
-      "sha256": "1068f530ef322a907e97d8b34ed9229778ade8521b42d68585d230d3eb7d1a44",
+      "sha256": "84c233aed25ec8fbc69438a4163e4e84a2b61f9dbe8f27228e98b26ff3cb9b7b",
       "notes": "手册精简派生版；不得作为独立产品 SSOT"
+    },
+    {
+      "file": "03-content-assets/skillver 术语清单.md",
+      "status": "current",
+      "role": "geo-terminology-ssot",
+      "upstreamSource": null,
+      "sha256": "9678733b9d0b7686e8c7d769437efd41ee45e28cb63853000f2eeecdda19b52b",
+      "notes": "GEO 对外术语与58个标准岗位口径正本；母稿和渠道变体不得独立改写定义"
     },
     {
       "file": "03-content-assets/Skillver Talent White Paper《2026 AI行业人才白皮书》.txt",

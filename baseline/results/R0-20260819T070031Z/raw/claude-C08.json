@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "# 冲刺 AI 大厂面试准备指南\n\n## 🎯 目标公司定位\n- **国内**：字节跳动、百度、阿里、腾讯、华为、商汤、旷视、智谱AI、月之暗面\n- **海外**：Google、Meta、OpenAI、Microsoft、DeepMind、Anthropic\n\n---\n\n## 📚 核心知识体系\n\n### 1. 机器学习基础\n- 经典算法：线性回归、SVM、决策树、随机森林、XGBoost\n- 优化方法：SGD、Adam、学习率调度\n- 正则化、过拟合、偏差-方差权衡\n- 评估指标：AUC、F1、PR曲线等\n\n### 2. 深度学习\n- CNN、RNN、LSTM、Transformer 架构原理\n- Attention 机制（Self-Attention、Multi-Head）\n- BatchNorm、Dropout、残差连接\n- 反向传播推导\n\n### 3. 大模型（LLM）专项 🔥\n- Pre-training / Fine-tuning / RLHF\n- Prompt Engineering\n- RAG（检索增强生成）\n- LoRA、PEFT 等参数高效微调\n- 模型量化、推理加速（vLLM、TensorRT）\n- Scaling Law、Emergent Abilities\n\n### 4. 编程能力\n- **LeetCode**：至少刷 200-300 题（重点：动态规划、图、二叉树、滑动窗口）\n- Python 熟练度（NumPy、PyTorch/TensorFlow）\n- 手撕代码：手写 Attention、Transformer、反向传播\n\n---\n\n## 💡 面试题类型\n\n| 类型 | 内容 |\n|------|------|\n| 算法题 | LeetCode 中高难度 |\n| ML理论 | 原理推导、公式手写 |\n| 系统设计 | 推荐系统、搜索系统、MLOps |\n| 项目深挖 | STAR法则讲清楚 |\n| 场景题 | 给你一个业务问题怎么建模 |\n\n---\n\n## 🗓️ 备考时间规划（3个月）\n\n### 第1个月：打牢基础\n- 每天 2-3 道 LeetCode\n- 复习 ML/DL 核心理论\n- 精读经典论文（Attention is All You Need、BERT、GPT系列）\n\n### 第2个月：专项突破\n- 大模型专项学习\n- 系统设计练习\n- 模拟面试（找朋友或用 AI 练习）\n\n### 第3个月：冲刺阶段\n- 刷真题（牛客、LeetCode 公司题库）\n- 每天复盘总结\n- 投简历 + 笔试\n\n---\n\n## 📖 推荐资源\n\n### 书籍\n- 《深度学习》（花书）\n- 《统计学习方法》李航\n- 《动手学深度学习》李沐\n\n### 在线课程\n- 李沐 B站课程（LLM系列）\n- CS229 / CS224N（Stanford）\n- Andrej Karpathy 的 YouTube\n\n### 刷题\n- LeetCode（分类刷）\n- 牛客网（大厂真题）\n\n---\n\n## 🔑 关键成功要素\n\n1. **项目要有亮点**：能量化的结果（提升了XX%指标）\n2. **紧跟前沿**：关注 arxiv、跟进最新论文\n3. **表达清晰**：面试时先说思路，再写代码\n4. **多练模拟面试**：和同学互相面试或找专业辅导\n\n---\n\n> 💬 **你目前的背景是什么？**（研究生/工作经验/目标岗位）可以给你更针对性的建议！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBjR6GFf873eJeSzy3i7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 冲刺 AI 大厂面试准备指南\n\n## 🎯 目标公司定位\n- **国内**：字节跳动、百度、阿里、腾讯、华为、商汤、旷视、智谱AI、月之暗面\n- **海外**：Google、Meta、OpenAI、Microsoft、DeepMind、Anthropic\n\n---\n\n## 📚 核心知识体系\n\n### 1. 机器学习基础\n- 经典算法：线性回归、SVM、决策树、随机森林、XGBoost\n- 优化方法：SGD、Adam、学习率调度\n- 正则化、过拟合、偏差-方差权衡\n- 评估指标：AUC、F1、PR曲线等\n\n### 2. 深度学习\n- CNN、RNN、LSTM、Transformer 架构原理\n- Attention 机制（Self-Attention、Multi-Head）\n- BatchNorm、Dropout、残差连接\n- 反向传播推导\n\n### 3. 大模型（LLM）专项 🔥\n- Pre-training / Fine-tuning / RLHF\n- Prompt Engineering\n- RAG（检索增强生成）\n- LoRA、PEFT 等参数高效微调\n- 模型量化、推理加速（vLLM、TensorRT）\n- Scaling Law、Emergent Abilities\n\n### 4. 编程能力\n- **LeetCode**：至少刷 200-300 题（重点：动态规划、图、二叉树、滑动窗口）\n- Python 熟练度（NumPy、PyTorch/TensorFlow）\n- 手撕代码：手写 Attention、Transformer、反向传播\n\n---\n\n## 💡 面试题类型\n\n| 类型 | 内容 |\n|------|------|\n| 算法题 | LeetCode 中高难度 |\n| ML理论 | 原理推导、公式手写 |\n| 系统设计 | 推荐系统、搜索系统、MLOps |\n| 项目深挖 | STAR法则讲清楚 |\n| 场景题 | 给你一个业务问题怎么建模 |\n\n---\n\n## 🗓️ 备考时间规划（3个月）\n\n### 第1个月：打牢基础\n- 每天 2-3 道 LeetCode\n- 复习 ML/DL 核心理论\n- 精读经典论文（Attention is All You Need、BERT、GPT系列）\n\n### 第2个月：专项突破\n- 大模型专项学习\n- 系统设计练习\n- 模拟面试（找朋友或用 AI 练习）\n\n### 第3个月：冲刺阶段\n- 刷真题（牛客、LeetCode 公司题库）\n- 每天复盘总结\n- 投简历 + 笔试\n\n---\n\n## 📖 推荐资源\n\n### 书籍\n- 《深度学习》（花书）\n- 《统计学习方法》李航\n- 《动手学深度学习》李沐\n\n### 在线课程\n- 李沐 B站课程（LLM系列）\n- CS229 / CS224N（Stanford）\n- Andrej Karpathy 的 YouTube\n\n### 刷题\n- LeetCode（分类刷）\n- 牛客网（大厂真题）\n\n---\n\n## 🔑 关键成功要素\n\n1. **项目要有亮点**：能量化的结果（提升了XX%指标）\n2. **紧跟前沿**：关注 arxiv、跟进最新论文\n3. **表达清晰**：面试时先说思路，再写代码\n4. **多练模拟面试**：和同学互相面试或找专业辅导\n\n---\n\n> 💬 **你目前的背景是什么？**（研究生/工作经验/目标岗位）可以给你更针对性的建议！"
+        }
+      }
+    ],
+    "created": 1787125407,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 1129,
+      "prompt_tokens": 55,
+      "total_tokens": 1184
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:43:27.719882Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "# 冲刺 AI 大厂面试准备指南\n\n## 🎯 目标公司定位\n- **国内**：字节跳动、百度、阿里、腾讯、华为、商汤、旷视、智谱AI、月之暗面\n- **海外**：Google、Meta、OpenAI、Microsoft、DeepMind、Anthropic\n\n---\n\n## 📚 核心知识体系\n\n### 1. 机器学习基础\n- 经典算法：线性回归、SVM、决策树、随机森林、XGBoost\n- 优化方法：SGD、Adam、学习率调度\n- 正则化、过拟合、偏差-方差权衡\n- 评估指标：AUC、F1、PR曲线等\n\n### 2. 深度学习\n- CNN、RNN、LSTM、Transformer 架构原理\n- Attention 机制（Self-Attention、Multi-Head）\n- BatchNorm、Dropout、残差连接\n- 反向传播推导\n\n### 3. 大模型（LLM）专项 🔥\n- Pre-training / Fine-tuning / RLHF\n- Prompt Engineering\n- RAG（检索增强生成）\n- LoRA、PEFT 等参数高效微调\n- 模型量化、推理加速（vLLM、TensorRT）\n- Scaling Law、Emergent Abilities\n\n### 4. 编程能力\n- **LeetCode**：至少刷 200-300 题（重点：动态规划、图、二叉树、滑动窗口）\n- Python 熟练度（NumPy、PyTorch/TensorFlow）\n- 手撕代码：手写 Attention、Transformer、反向传播\n\n---\n\n## 💡 面试题类型\n\n| 类型 | 内容 |\n|------|------|\n| 算法题 | LeetCode 中高难度 |\n| ML理论 | 原理推导、公式手写 |\n| 系统设计 | 推荐系统、搜索系统、MLOps |\n| 项目深挖 | STAR法则讲清楚 |\n| 场景题 | 给你一个业务问题怎么建模 |\n\n---\n\n## 🗓️ 备考时间规划（3个月）\n\n### 第1个月：打牢基础\n- 每天 2-3 道 LeetCode\n- 复习 ML/DL 核心理论\n- 精读经典论文（Attention is All You Need、BERT、GPT系列）\n\n### 第2个月：专项突破\n- 大模型专项学习\n- 系统设计练习\n- 模拟面试（找朋友或用 AI 练习）\n\n### 第3个月：冲刺阶段\n- 刷真题（牛客、LeetCode 公司题库）\n- 每天复盘总结\n- 投简历 + 笔试\n\n---\n\n## 📖 推荐资源\n\n### 书籍\n- 《深度学习》（花书）\n- 《统计学习方法》李航\n- 《动手学深度学习》李沐\n\n### 在线课程\n- 李沐 B站课程（LLM系列）\n- CS229 / CS224N（Stanford）\n- Andrej Karpathy 的 YouTube\n\n### 刷题\n- LeetCode（分类刷）\n- 牛客网（大厂真题）\n\n---\n\n## 🔑 关键成功要素\n\n1. **项目要有亮点**：能量化的结果（提升了XX%指标）\n2. **紧跟前沿**：关注 arxiv、跟进最新论文\n3. **表达清晰**：面试时先说思路，再写代码\n4. **多练模拟面试**：和同学互相面试或找专业辅导\n\n---\n\n> 💬 **你目前的背景是什么？**（研究生/工作经验/目标岗位）可以给你更针对性的建议！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

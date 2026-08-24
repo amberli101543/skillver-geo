@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B05",
+    "category": "brand",
+    "query": "Skillver 能帮求职者做什么？",
+    "passCriteria": [
+      "覆盖选岗匹配、AI 面试、投递沟通",
+      "导师能力标注待开通"
+    ]
+  },
+  "answer": "Skillver 是一个专注于**技能导向求职**的平台，主要能为求职者提供以下几方面的帮助：\n\n1. **技能匹配岗位推荐**  \n   基于你的技能标签（而非单纯学历或年限），智能推荐更契合你实际能力的职位，减少无效投递。\n\n2. **技能认证与展示**  \n   支持上传项目作品、证书、技能测评结果等，让简历更直观、有说服力，弥补传统简历的不足。\n\n3. **技能提升与学习资源**  \n   提供针对性课程、实战项目或测评，帮你补齐技能短板，提升求职竞争力。\n\n4. **直连招聘方**  \n   部分岗位由企业直接对接，减少中间环节，提高沟通效率。\n\n5. **职业路径规划**  \n   根据你的现有技能，给出进阶方向和岗位建议，辅助长期职业发展。\n\n如果你有具体想了解的功能（比如简历优化、面试准备等），可以告诉我，我可以进一步说明。",
+  "sources": [],
+  "raw": {
+    "id": "b9b8a1ae-8d33-4277-a6d7-072e28d9f518",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123155,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个专注于**技能导向求职**的平台，主要能为求职者提供以下几方面的帮助：\n\n1. **技能匹配岗位推荐**  \n   基于你的技能标签（而非单纯学历或年限），智能推荐更契合你实际能力的职位，减少无效投递。\n\n2. **技能认证与展示**  \n   支持上传项目作品、证书、技能测评结果等，让简历更直观、有说服力，弥补传统简历的不足。\n\n3. **技能提升与学习资源**  \n   提供针对性课程、实战项目或测评，帮你补齐技能短板，提升求职竞争力。\n\n4. **直连招聘方**  \n   部分岗位由企业直接对接，减少中间环节，提高沟通效率。\n\n5. **职业路径规划**  \n   根据你的现有技能，给出进阶方向和岗位建议，辅助长期职业发展。\n\n如果你有具体想了解的功能（比如简历优化、面试准备等），可以告诉我，我可以进一步说明。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 200,
+      "total_tokens": 248,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:05:58.968228Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B05",
+    "answerEvidence": "Skillver 是一个专注于**技能导向求职**的平台，主要能为求职者提供以下几方面的帮助：\n\n1. **技能匹配岗位推荐**  \n   基于你的技能标签（而非单纯学历或年限），智能推荐更契合你实际能力的职位，减少无效投递。\n\n2. **技能认证与展示**  \n   支持上传项目作品、证书、技能测评结果等，让简历更直观、有说服力，弥补传统简历的不足。\n\n3. **技能提升与学习资源**  \n   提供针对性课程、实战项目或测评，帮你补齐技能短板，提升求职竞争力。\n\n4. **直连招聘方**  \n   部分岗位由企业直接对接，减少中间环节，提高沟通效率。\n\n5. **职业路径规划**  \n   根据你的现有技能，给出进阶方向和岗位建议，辅助长期职业发展。\n\n如果你有具体想了解的功能（比如简历优化、面试准备等），可以告诉我，我可以进一步说明。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B05.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

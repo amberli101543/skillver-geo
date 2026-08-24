@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C07",
+    "category": "category",
+    "query": "AI 面试彩排和真人模拟面试怎么选？",
+    "passCriteria": [
+      "客观说明两者侧重点",
+      "不虚构效果数据"
+    ]
+  },
+  "answer": "如果你问的是**求职者做面试准备**，通常不是二选一，而是**AI 面试彩排打底 + 真人模拟面试冲刺**最有效：AI 更适合高频练习、结构化答题和快速反馈，真人更适合训练追问应对、临场压力和表达细节[3][8][12]。\n\n- **先选 AI 面试彩排**，如果你的目标是：\n- 快速练习很多轮，打磨自我介绍、项目经历、行为题框架和语言流畅度；AI 练习的优势是随时可用、可重复、反馈快，但它不能完全模拟真实人的追问、沉默和压迫感[3][8][12]。\n- 适合在准备早期使用，尤其是你还在整理答案、优化表达、减少卡顿的时候[3][12]。\n\n- **先选真人模拟面试**，如果你的目标是：\n- 训练真实面试场景下的临场反应，比如被打断、被追问、回答偏题后的修正、情绪管理和非语言表达；真人能提供更丰富的判断，但练习机会更少、成本更高[1][3][8]。\n- 适合中后期冲刺，尤其是校招、转岗、晋升、面试难度高的岗位[1][12]。\n\n- **怎么选，按场景判断**：\n- **基础岗位/标准化岗位**：优先 AI 彩排，因为重点是把回答练熟、节奏练顺[2][5][6]。\n- **高级岗位/管理岗/强文化匹配岗位**：真人模拟更重要，因为这些场景更看重沟通深度、价值观和互动感[2][5][14]。\n- **时间很紧**：先用 AI 快速补基础，再找真人做最后一轮校准[3][12]。\n\n- **最实用的组合**：\n- 前期用 AI 反复练 3 到 5 轮，固定核心题库和表达框架[3][12]。\n- 中期用真人模拟 1 到 2 轮，重点看追问、气场和逻辑漏洞[1][8]。\n- 最后再回到 AI 做高频修正，提升稳定性和完成度[3][12]。\n\n如果你愿意，我可以直接按你的情况给你一句话建议，比如：\n- **校招/社招**\n- **产品/运营/研发/销售**\n- **面试准备只剩 2 天/1 周/1 个月**",
+  "sources": [
+    {
+      "url": "https://www.linkedin.com/pulse/ai-mock-interview-vs-real-person-pros-cons-4l8ec",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8298?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://subcue.ai/zh/answers/do-mock-interviews-actually-help",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/3383",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/9770",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8265?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/7047",
+      "title": ""
+    },
+    {
+      "url": "https://subcue.ai/zh/answers/mock-interview-vs-real-interview",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8873",
+      "title": ""
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/8356",
+      "title": ""
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/6158",
+      "title": ""
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026",
+      "title": ""
+    },
+    {
+      "url": "https://www.bbc.com/zhongwen/simp/world-55985943",
+      "title": ""
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/8247",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_49004062/article/details/151756350",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8751?urlSource=home-api",
+      "title": ""
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/7850",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/11134",
+      "title": ""
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/167150449614980.html",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_49004062/article/details/151063331",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/ai-mock-interview-vs-real-person-pros-cons-4l8ec",
+      "title": "AI Mock Interview vs. Real Person Mock Interview: Pros and Cons"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8298?urlSource=home-api",
+      "title": "AI面试vs真人面试：提升招聘效率的2025对比报告"
+    },
+    {
+      "url": "https://subcue.ai/zh/answers/do-mock-interviews-actually-help",
+      "title": "模拟面试真的有用吗？证据怎么说 — SubcueAI | 适用于 macOS 和 Windows 的 AI 面试助手"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/3383",
+      "title": "AI面试与真人面试优缺点全解析2025：HR数字化招聘新范式"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/9770",
+      "title": "2025年HR招聘新趋势：AI面试VS真人面试优劣全解析"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8265?urlSource=home-api",
+      "title": "AI面试和真人面试优缺点深度对比｜2025年招聘场景权威解析"
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/7047",
+      "title": "AI面试VS真人面试优劣深度对比：2025年HR必读招聘工具分析 - 牛客"
+    },
+    {
+      "url": "https://subcue.ai/zh/answers/mock-interview-vs-real-interview",
+      "title": "模拟面试与真实面试：哪些能迁移，哪些不能 — SubcueAI | 适用于 macOS 和 Windows 的 AI…"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8873",
+      "title": "2025招聘季：AI面试和真人面试优缺点全解析，HR高效招才新解法"
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/8356",
+      "title": "2025年AI面试和真人面试优缺点深度对比：HR高效招聘新选择"
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/6158",
+      "title": "2025年HR高频痛点：AI面试对比真人面试，如何高效破解招聘 ..."
+    },
+    {
+      "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026",
+      "title": "AI模拟面试怎么用才有效？从选工具到上场的完整指南 - 面灵AI博客"
+    },
+    {
+      "url": "https://www.bbc.com/zhongwen/simp/world-55985943",
+      "title": "BBC记者亲试人工智能面试官的优势与挑战 - BBC News 中文"
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/8247",
+      "title": "AI面试与真人面试优劣势全解析：2025年下一代招聘解决方案 - 牛客网"
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_49004062/article/details/151756350",
+      "title": "AI面试vs真人面试：2025年企业招聘转型痛点与突破原创"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/8751?urlSource=home-api",
+      "title": "2025年HR热议：AI面试与真人面试优缺点全解"
+    },
+    {
+      "url": "https://hr-pre.nowcoder.com/article/7850",
+      "title": "AI面试与真人面试优缺点深度对比分析（2025招聘必读）"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/11134",
+      "title": "AI招聘深度测评：五大主流工具实战对比（2026年版）"
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/167150449614980.html",
+      "title": "当机器人成为“面试官”"
+    },
+    {
+      "url": "https://blog.csdn.net/weixin_49004062/article/details/151063331",
+      "title": "2025招聘新趋势：AI面试VS真人面试谁是最优解？ 原创 - CSDN博客"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果你问的是**求职者做面试准备**，通常不是二选一，而是**AI 面试彩排打底 + 真人模拟面试冲刺**最有效：AI 更适合高频练习、结构化答题和快速反馈，真人更适合训练追问应对、临场压力和表达细节[3][8][12]。\n\n- **先选 AI 面试彩排**，如果你的目标是：\n- 快速练习很多轮，打磨自我介绍、项目经历、行为题框架和语言流畅度；AI 练习的优势是随时可用、可重复、反馈快，但它不能完全模拟真实人的追问、沉默和压迫感[3][8][12]。\n- 适合在准备早期使用，尤其是你还在整理答案、优化表达、减少卡顿的时候[3][12]。\n\n- **先选真人模拟面试**，如果你的目标是：\n- 训练真实面试场景下的临场反应，比如被打断、被追问、回答偏题后的修正、情绪管理和非语言表达；真人能提供更丰富的判断，但练习机会更少、成本更高[1][3][8]。\n- 适合中后期冲刺，尤其是校招、转岗、晋升、面试难度高的岗位[1][12]。\n\n- **怎么选，按场景判断**：\n- **基础岗位/标准化岗位**：优先 AI 彩排，因为重点是把回答练熟、节奏练顺[2][5][6]。\n- **高级岗位/管理岗/强文化匹配岗位**：真人模拟更重要，因为这些场景更看重沟通深度、价值观和互动感[2][5][14]。\n- **时间很紧**：先用 AI 快速补基础，再找真人做最后一轮校准[3][12]。\n\n- **最实用的组合**：\n- 前期用 AI 反复练 3 到 5 轮，固定核心题库和表达框架[3][12]。\n- 中期用真人模拟 1 到 2 轮，重点看追问、气场和逻辑漏洞[1][8]。\n- 最后再回到 AI 做高频修正，提升稳定性和完成度[3][12]。\n\n如果你愿意，我可以直接按你的情况给你一句话建议，比如：\n- **校招/社招**\n- **产品/运营/研发/销售**\n- **面试准备只剩 2 天/1 周/1 个月**",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.linkedin.com/pulse/ai-mock-interview-vs-real-person-pros-cons-4l8ec",
+      "https://hr.nowcoder.com/article/8298?urlSource=home-api",
+      "https://subcue.ai/zh/answers/do-mock-interviews-actually-help",
+      "https://hr.nowcoder.com/article/3383",
+      "https://hr.nowcoder.com/article/9770",
+      "https://hr.nowcoder.com/article/8265?urlSource=home-api",
+      "https://hr-pre.nowcoder.com/article/7047",
+      "https://subcue.ai/zh/answers/mock-interview-vs-real-interview",
+      "https://hr.nowcoder.com/article/8873",
+      "https://hr-pre.nowcoder.com/article/8356",
+      "https://hr-pre.nowcoder.com/article/6158",
+      "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026",
+      "https://www.bbc.com/zhongwen/simp/world-55985943",
+      "https://hr-pre.nowcoder.com/article/8247",
+      "https://blog.csdn.net/weixin_49004062/article/details/151756350",
+      "https://hr.nowcoder.com/article/8751?urlSource=home-api",
+      "https://hr-pre.nowcoder.com/article/7850",
+      "https://hr.nowcoder.com/article/11134",
+      "https://m.bjnews.com.cn/detail/167150449614980.html",
+      "https://blog.csdn.net/weixin_49004062/article/details/151063331"
+    ],
+    "created": 1787125275,
+    "id": "f66c1f55-6e24-445d-9570-0bbe46049770",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2024-09-06",
+        "last_updated": "2026-07-23",
+        "place_metadata": null,
+        "snippet": "While AI can simulate an interview, it lacks the nuances of real human interaction.\nIt can’t read body language, tone, or emotions, which are crucial elements of a real-world interview.",
+        "source": "web",
+        "title": "AI Mock Interview vs. Real Person Mock Interview: Pros and Cons",
+        "url": "https://www.linkedin.com/pulse/ai-mock-interview-vs-real-person-pros-cons-4l8ec"
+      },
+      {
+        "date": "2025-12-15",
+        "last_updated": "2026-04-25",
+        "place_metadata": null,
+        "snippet": "|对比维度|AI面试|真人面试|\n|--|--|--|\n|批量效率|7×24自动运行、单职位日均筛查量≥500人|受排班和人力限制，平均日筛查量30-80人|\n|客观性与标准化|结构化评分、规则一致，消除主观偏见|依赖面试官水平，标准易波动|\n|多维人才画像|语音、表情、逻辑、性格维度深度分析|主要靠经验“观察”与主观判断|\n|数据可复盘性|所有答题、评估全链路可追溯，结果量化|记录有限，难回溯分析|\n|候选人体验|流程便捷、可快速约面、降低等待焦虑|面对面交流有温度但约面周期长|\n|适用岗位范围|通用性强，适用于大规模校园/蓝领/客服等|高级岗位、文化敏感型/创新岗位更适用|",
+        "source": "web",
+        "title": "AI面试vs真人面试：提升招聘效率的2025对比报告",
+        "url": "https://hr.nowcoder.com/article/8298?urlSource=home-api"
+      },
+      {
+        "date": "2026-01-01",
+        "last_updated": "2026-07-24",
+        "place_metadata": null,
+        "snippet": "它用可用性和重复次数换取了真人的直觉判断。经验丰富的真人面试官每次会话能给出更丰富的判断；AI 助手让你每天任何时间都能进行真实的口头练习。对大多数求职者而言，限制因素是练习次数，而非判断质量。",
+        "source": "web",
+        "title": "模拟面试真的有用吗？证据怎么说 — SubcueAI | 适用于 macOS 和 Windows 的 AI 面试助手",
+        "url": "https://subcue.ai/zh/answers/do-mock-interviews-actually-help"
+      },
+      {
+        "date": "2025-09-25",
+        "last_updated": "2025-11-17",
+        "place_metadata": null,
+        "snippet": "|对比项|AI面试|真人面试|\n|--|--|--|\n|单人平均时间|10-15分钟|45-60分钟|\n|成本|低（1套题无限次使用）|高（需专业面试官参与）|\n|主观性|低（AI标准化评分）|高（面试官决策影响大）|",
+        "source": "web",
+        "title": "AI面试与真人面试优缺点全解析2025：HR数字化招聘新范式",
+        "url": "https://hr.nowcoder.com/article/3383"
+      },
+      {
+        "date": "2026-01-05",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "|比较维度|AI面试|真人面试|\n...\n|效率|不限候选人数量，自动筛选，支持7x24小时|排期受限，效率受人力影响|\n|客观性|标准算法+流程，减少偏见|主观因素较多，评估一致性弱|\n|成本|边际成本极低，可持续集成|人力、时间、调度成本高|\n|体验|流程标准化，灵活便捷|个性化交流，雇主品牌加分|\n...\n- ·大批量招聘/校招/基础岗位：优先采用AI面试工具 （如牛客AI面试系统 ）协助初筛，快速锁定达标候选人\n- ·稀缺岗位/高管/文化敏感岗位：配套真人面试，再结合AI辅助评测，提升决策科学性",
+        "source": "web",
+        "title": "2025年HR招聘新趋势：AI面试VS真人面试优劣全解析",
+        "url": "https://hr.nowcoder.com/article/9770"
+      },
+      {
+        "date": "2025-12-15",
+        "last_updated": "2026-01-08",
+        "place_metadata": null,
+        "snippet": "|效率表现|支持7×24小时，1000+候选人并发处理|受限于面试官工时与时间，效率有限|\n|评估一致性|标准化流程，减少人为主观偏差|受经验波动影响，主观性强|\n|信息采集能力|智能抓取语言、表情、微表情|灵活捕捉上下文、场外因素|\n|体验反馈|标准化，友好但稍欠人情味|沉浸感强，善于识别情感波动|\n|成本结构|按量付费，成本可控|人工投入高，成本随规模上升|",
+        "source": "web",
+        "title": "AI面试和真人面试优缺点深度对比｜2025年招聘场景权威解析",
+        "url": "https://hr.nowcoder.com/article/8265?urlSource=home-api"
+      },
+      {
+        "date": "2025-11-24",
+        "last_updated": "2026-04-15",
+        "place_metadata": null,
+        "snippet": "|招聘成本|低（平台自动化，无需大量面试官）|高（需大量HR/专家，场地与时间消耗）|\n|效率|高（24h不限时批量面试）|低（需预约，周期长）|\n|客观性|强（算法标准化评分）|难控（主观因素影响大）|\n|候选人体验|灵活，随时接入|不确定，受场次限制|",
+        "source": "web",
+        "title": "AI面试VS真人面试优劣深度对比：2025年HR必读招聘工具分析 - 牛客",
+        "url": "https://hr-pre.nowcoder.com/article/7047"
+      },
+      {
+        "date": "2026-01-01",
+        "last_updated": "2026-07-09",
+        "place_metadata": null,
+        "snippet": "内容几乎完全可以迁移：反复练习的故事、回答结构和追问应对都能直接发挥作用。无法迁移的是真实压力带来的肾上腺素以及陌生人的不可预测性。预期真实面试会比你最好的模拟表现难 20 percent，并为这一差距做好规划。",
+        "source": "web",
+        "title": "模拟面试与真实面试：哪些能迁移，哪些不能 — SubcueAI | 适用于 macOS 和 Windows 的 AI…",
+        "url": "https://subcue.ai/zh/answers/mock-interview-vs-real-interview"
+      },
+      {
+        "date": "2025-12-23",
+        "last_updated": "2026-04-12",
+        "place_metadata": null,
+        "snippet": "|环节|AI面试表现|真人面试表现|集成协同效果|",
+        "source": "web",
+        "title": "2025招聘季：AI面试和真人面试优缺点全解析，HR高效招才新解法",
+        "url": "https://hr.nowcoder.com/article/8873"
+      },
+      {
+        "date": "2025-12-16",
+        "last_updated": "2026-03-08",
+        "place_metadata": null,
+        "snippet": "|结构化程度|依赖面试官，难以统一|题库标准化流程，客观一致|\n|评估方式|主观打分，偶有偏见|多维度能力，数据化量化评分|\n|适合场景|高管、小规模招聘更佳|规模化、海量岗位更优|",
+        "source": "web",
+        "title": "2025年AI面试和真人面试优缺点深度对比：HR高效招聘新选择",
+        "url": "https://hr-pre.nowcoder.com/article/8356"
+      },
+      {
+        "date": "2025-11-10",
+        "last_updated": "2026-05-13",
+        "place_metadata": null,
+        "snippet": "|流程环节|AI面试|真人面试|\n...\n|评分标准|系统算法统一、可复查|面试官主观判断波动大|\n|筛选效率|分钟级完成|小时/天级完成|\n|候选人体验|灵活可选时/地，支持线上笔试|受时间限制|\n|过程数据沉淀|自动归档、长尾分析|需人工记录、容易遗漏|",
+        "source": "web",
+        "title": "2025年HR高频痛点：AI面试对比真人面试，如何高效破解招聘 ...",
+        "url": "https://hr-pre.nowcoder.com/article/6158"
+      },
+      {
+        "date": "2026-04-06",
+        "last_updated": "2026-06-23",
+        "place_metadata": null,
+        "snippet": "> **一句话回答**：AI模拟面试是让AI扮演面试官、对你出题并给出反馈的练习方式，适合用来打磨答题框架和语言流畅度，但练不了真实压力下的临场反应——两者配合用效果才好。\n...\n- **压力反应练不了**。真实面试有沉默、有追问、有面试官面无表情盯着你的场景。AI不会给你这种压迫感，所以你的紧张、大脑空白、回答跑偏——这些在模拟里不会暴露。\n...\n知道这两面，你才能配合使用：AI模拟面试打基础，真人模拟或者实战面试冲锤炼临场。",
+        "source": "web",
+        "title": "AI模拟面试怎么用才有效？从选工具到上场的完整指南 - 面灵AI博客",
+        "url": "https://www.mianlingai.com/blog/ai-mock-interview-guide-2026"
+      },
+      {
+        "date": "2021-02-08",
+        "last_updated": "2024-09-17",
+        "place_metadata": null,
+        "snippet": "HireVue的首席执行官帕克（Kevin Parker）表示，AI比真人招聘官更公平，因为它没有偏见。",
+        "source": "web",
+        "title": "BBC记者亲试人工智能面试官的优势与挑战 - BBC News 中文",
+        "url": "https://www.bbc.com/zhongwen/simp/world-55985943"
+      },
+      {
+        "date": "2025-12-15",
+        "last_updated": "2026-03-11",
+        "place_metadata": null,
+        "snippet": "|对比维度|AI面试|真人面试|\n...\n|效率|高——支持批量、7×24小时处理|中——任务安排受限，人力成本高|\n|公平性|强——可屏蔽敏感信息，消除偏见|易受偏见影响，需要主观校准|\n|数据管理|自动归档、沉淀、可追溯|分散记录，难以系统归档|\n|候选人体验|高——随时体验、实时反馈|中——等待与配合度影响整体体验|\n|文化与个性识别|初审有限，辅助数据决策|强——直观识别人岗文化深度匹配|",
+        "source": "web",
+        "title": "AI面试与真人面试优劣势全解析：2025年下一代招聘解决方案 - 牛客网",
+        "url": "https://hr-pre.nowcoder.com/article/8247"
+      },
+      {
+        "date": "2025-09-16",
+        "last_updated": "2026-03-23",
+        "place_metadata": null,
+        "snippet": "真人面试环节繁杂，HR需要大量时间协调面试官与候选人，平均一轮招聘周期常超20天，成本居高不下（数据源：行业统计）。",
+        "source": "web",
+        "title": "AI面试vs真人面试：2025年企业招聘转型痛点与突破原创",
+        "url": "https://blog.csdn.net/weixin_49004062/article/details/151756350"
+      },
+      {
+        "date": "2025-12-22",
+        "last_updated": "2026-02-08",
+        "place_metadata": null,
+        "snippet": "|效率|24/7自动化、批量面、2-10倍缩短周期|需人工参与、排期难、易人手紧缺|\n|公平性|统一模板、无主观情绪、可溯源|面试官主观判断、人情因素较多|\n|数据与评估|多维度结构化采分，输出数据报告|非结构化记录，口头/纸质反馈为主|",
+        "source": "web",
+        "title": "2025年HR热议：AI面试与真人面试优缺点全解",
+        "url": "https://hr.nowcoder.com/article/8751?urlSource=home-api"
+      },
+      {
+        "date": "2025-12-08",
+        "last_updated": "2026-03-11",
+        "place_metadata": null,
+        "snippet": "|对比维度|AI面试|真人面试|数据来源|\n...\n|效率|1人负责500+面试/天|最多15-20人/天|牛客2025技术实践|\n|评分公平性|多模型交叉验证，偏差低|主观波动大，评分分布离散|牛客2025技术白皮书|\n|候选人体验|全流程自动，无需等待，灵活|需约时排队，放弃率高|脉脉2024报告|\n|数据可回溯|全程记录，可溯源、可复盘|手动记录，信息易遗失|牛客2025技术白皮书|",
+        "source": "web",
+        "title": "AI面试与真人面试优缺点深度对比分析（2025招聘必读）",
+        "url": "https://hr-pre.nowcoder.com/article/7850"
+      },
+      {
+        "date": "2026-01-28",
+        "last_updated": "2026-03-05",
+        "place_metadata": null,
+        "snippet": "A：不能。AI适合初筛环节，但终审仍需人工。AI面试可替代80%标准化初面，但终审仍需人工。",
+        "source": "web",
+        "title": "AI招聘深度测评：五大主流工具实战对比（2026年版）",
+        "url": "https://hr.nowcoder.com/article/11134"
+      },
+      {
+        "date": "2022-12-20",
+        "last_updated": "2026-06-25",
+        "place_metadata": null,
+        "snippet": "在万森看来，AI面试存在着明显的优点。比如机器的统一标准能规避人类面试官的主观性判断。万森曾做过一项研究发现，面试官更倾向于录取与自己同校的候选人。而当面试官精力有限，比如工作了4小时或更长时间以后会出现“疲劳审视”，也会影响对候选人的判断。",
+        "source": "web",
+        "title": "当机器人成为“面试官”",
+        "url": "https://m.bjnews.com.cn/detail/167150449614980.html"
+      },
+      {
+        "date": "2025-09-01",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "- **终面阶段**：保留真人面试判断文化适配度与团队协作潜力，形成“AI+人工”互补模式。",
+        "source": "web",
+        "title": "2025招聘新趋势：AI面试VS真人面试谁是最优解？ 原创 - CSDN博客",
+        "url": "https://blog.csdn.net/weixin_49004062/article/details/151063331"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 643,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00064,
+        "request_cost": 0.005,
+        "total_cost": 0.00568
+      },
+      "prompt_tokens": 40,
+      "search_context_size": "low",
+      "total_tokens": 683
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:41:15.548064Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C07",
+    "answerEvidence": "如果你问的是**求职者做面试准备**，通常不是二选一，而是**AI 面试彩排打底 + 真人模拟面试冲刺**最有效：AI 更适合高频练习、结构化答题和快速反馈，真人更适合训练追问应对、临场压力和表达细节[3][8][12]。\n\n- **先选 AI 面试彩排**，如果你的目标是：\n- 快速练习很多轮，打磨自我介绍、项目经历、行为题框架和语言流畅度；AI 练习的优势是随时可用、可重复、反馈快，但它不能完全模拟真实人的追问、沉默和压迫感[3][8][12]。\n- 适合在准备早期使用，尤其是你还在整理答案、优化表达、减少卡顿的时候[3][12]。\n\n- **先选真人模拟面试**，如果你的目标是：\n- 训练真实面试场景下的临场反应，比如被打断、被追问、回答偏题后的修正、情绪管理和非语言表达；真人能提供更丰富的判断，但练习机会更少、成本更高[1][3][8]。\n- 适合中后期冲刺，尤其是校招、转岗、晋升、面试难度高的岗位[1][12]。\n\n- **怎么选，按场景判断**：\n- **基础岗位/标准化岗位**：优先 AI 彩排，因为重点是把回答练熟、节奏练顺[2][5][6]。\n- **高级岗位/管理岗/强文化匹配岗位**：真人模拟更重要，因为这些场景更看重沟通深度、价值观和互动感[2][5][14]。\n- **时间很紧**：先用 AI 快速补基础，再找真人做最后一轮校准[3][12]。\n\n- **最实用的组合**：\n- 前期用 AI 反复练 3 到 5 轮，固定核心题库和表达框架[3][12]。\n- 中期用真人模拟 1 到 2 轮，重点看追问、气场和逻辑漏洞[1][8]。\n- 最后再回到 AI 做高频修正，提升稳定性和完成度[3][12]。\n\n如果你愿意，我可以直接按你的情况给你一句话建议，比如：\n- **校招/社招**\n- **产品/运营/研发/销售**\n- **面试准备只剩 2 天/1 周/1 个月**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C07.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

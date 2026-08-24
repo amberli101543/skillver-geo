@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "Skillver 的“导师赋能”通常指：通过一套方法、工具和支持体系，帮助导师更好地进行教学、辅导和人才培养。\n\n一般包括：\n\n- **导师培训**：提升导师的授课、辅导、反馈和带教能力  \n- **课程/内容支持**：帮助导师设计课程、案例、任务和学习路径  \n- **工具赋能**：提供学习管理、学员跟踪、作业反馈等工具  \n- **过程管理**：支持导师跟进学员进度、发现问题并及时干预  \n- **评估反馈**：通过数据和反馈帮助导师优化教学效果  \n- **经验沉淀**：将优秀导师的方法、案例和经验标准化、复制化\n\n简单来说，Skillver 的导师赋能就是让导师“不只是会做”，还能够“会教、会带、会评估”，从而提升学员或团队的成长效果。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEV0K1WWncxxGVV1gNBLQ4zY6lpOL",
+    "object": "chat.completion",
+    "created": 1787124480,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的“导师赋能”通常指：通过一套方法、工具和支持体系，帮助导师更好地进行教学、辅导和人才培养。\n\n一般包括：\n\n- **导师培训**：提升导师的授课、辅导、反馈和带教能力  \n- **课程/内容支持**：帮助导师设计课程、案例、任务和学习路径  \n- **工具赋能**：提供学习管理、学员跟踪、作业反馈等工具  \n- **过程管理**：支持导师跟进学员进度、发现问题并及时干预  \n- **评估反馈**：通过数据和反馈帮助导师优化教学效果  \n- **经验沉淀**：将优秀导师的方法、案例和经验标准化、复制化\n\n简单来说，Skillver 的导师赋能就是让导师“不只是会做”，还能够“会教、会带、会评估”，从而提升学员或团队的成长效果。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 378,
+      "total_tokens": 421,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 166,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:28:07.140614Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "Skillver 的“导师赋能”通常指：通过一套方法、工具和支持体系，帮助导师更好地进行教学、辅导和人才培养。\n\n一般包括：\n\n- **导师培训**：提升导师的授课、辅导、反馈和带教能力  \n- **课程/内容支持**：帮助导师设计课程、案例、任务和学习路径  \n- **工具赋能**：提供学习管理、学员跟踪、作业反馈等工具  \n- **过程管理**：支持导师跟进学员进度、发现问题并及时干预  \n- **评估反馈**：通过数据和反馈帮助导师优化教学效果  \n- **经验沉淀**：将优秀导师的方法、案例和经验标准化、复制化\n\n简单来说，Skillver 的导师赋能就是让导师“不只是会做”，还能够“会教、会带、会评估”，从而提升学员或团队的成长效果。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

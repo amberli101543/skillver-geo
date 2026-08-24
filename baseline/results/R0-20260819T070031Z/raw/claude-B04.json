@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "根据我的知识，**才谱 AI** 和 **Skillver** 的关系如下：\n\n**Skillver** 是产品的英文名称，**才谱 AI** 是其对应的中文品牌名称，两者指的是**同一款产品/平台**。\n\n才谱 AI（Skillver）是一款基于人工智能的**人才与技能图谱**相关平台或工具，主要聚焦于技能评估、人才画像、职业发展等方向。\n\n---\n\n不过，由于我的知识存在截止日期，关于这两个品牌的最新详细信息可能有所变化。建议您直接访问其**官方网站或官方渠道**获取最准确的介绍。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgWpEurwyTT16pPLYbF",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据我的知识，**才谱 AI** 和 **Skillver** 的关系如下：\n\n**Skillver** 是产品的英文名称，**才谱 AI** 是其对应的中文品牌名称，两者指的是**同一款产品/平台**。\n\n才谱 AI（Skillver）是一款基于人工智能的**人才与技能图谱**相关平台或工具，主要聚焦于技能评估、人才画像、职业发展等方向。\n\n---\n\n不过，由于我的知识存在截止日期，关于这两个品牌的最新详细信息可能有所变化。建议您直接访问其**官方网站或官方渠道**获取最准确的介绍。"
+        }
+      }
+    ],
+    "created": 1787123112,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 221,
+      "prompt_tokens": 56,
+      "total_tokens": 277
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:05:12.007803Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "根据我的知识，**才谱 AI** 和 **Skillver** 的关系如下：\n\n**Skillver** 是产品的英文名称，**才谱 AI** 是其对应的中文品牌名称，两者指的是**同一款产品/平台**。\n\n才谱 AI（Skillver）是一款基于人工智能的**人才与技能图谱**相关平台或工具，主要聚焦于技能评估、人才画像、职业发展等方向。\n\n---\n\n不过，由于我的知识存在截止日期，关于这两个品牌的最新详细信息可能有所变化。建议您直接访问其**官方网站或官方渠道**获取最准确的介绍。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

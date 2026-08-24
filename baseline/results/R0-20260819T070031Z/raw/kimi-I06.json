@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "在我目前的知识库中，没有关于 **Skillver** 这一产品或平台的明确信息，因此无法确认它是否有移动端 App 或移动端网页支持。\n\n有可能是以下情况之一：\n\n1. **拼写相近的平台**：您是否指的是 **Skillshare**（知名在线学习平台）？Skillshare 提供 iOS 和 Android 移动端 App。\n2. **小众或新兴产品**：如果 Skillver 是某个公司内部的系统、新上线的工具或小众产品，公开信息可能较少。\n3. **名称略有不同**：例如 Skillverse、Skiller 等类似名称的产品。\n\n**建议您：**\n- 直接访问该产品的官方网站，查看是否有 App 下载入口或“下载到手机”等提示；\n- 在应用商店（App Store / 华为应用市场 / Google Play 等）搜索“Skillver”；\n- 或补充提供更多背景信息（如 Skillver 的官网、所属公司或主要用途），我可以帮您进一步核实。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a85580133249fcd7471bca4",
+    "object": "chat.completion",
+    "created": 1787123713,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "在我目前的知识库中，没有关于 **Skillver** 这一产品或平台的明确信息，因此无法确认它是否有移动端 App 或移动端网页支持。\n\n有可能是以下情况之一：\n\n1. **拼写相近的平台**：您是否指的是 **Skillshare**（知名在线学习平台）？Skillshare 提供 iOS 和 Android 移动端 App。\n2. **小众或新兴产品**：如果 Skillver 是某个公司内部的系统、新上线的工具或小众产品，公开信息可能较少。\n3. **名称略有不同**：例如 Skillverse、Skiller 等类似名称的产品。\n\n**建议您：**\n- 直接访问该产品的官方网站，查看是否有 App 下载入口或“下载到手机”等提示；\n- 在应用商店（App Store / 华为应用市场 / Google Play 等）搜索“Skillver”；\n- 或补充提供更多背景信息（如 Skillver 的官网、所属公司或主要用途），我可以帮您进一步核实。",
+          "reasoning_content": "用户问的是 \"Skillver 有移动端吗？\"，这是一个关于特定产品或服务（Skillver）是否有移动应用或移动端支持的问题。\n\n首先，我需要确认 \"Skillver\" 是什么。根据我的知识，Skillver 似乎不是一个广为人知的、普遍存在的产品或服务名称。可能是：\n1. 某个特定公司的产品\n2. 某个拼写错误（比如 Skillshare？但用户明确写了 Skillver）\n3. 某个小众或新兴的平台\n4. 可能是 \"Skillverse\" 或其他类似名称的简写\n\n由于我的训练数据截止于2024年4月，且 \"Skillver\" 不是一个我能够明确识别的主流应用或平台，我应该诚实地说明我不确定这个具体产品，而不是编造信息。\n\n但是，用户可能指的是：\n- 某个招聘/技能验证平台？\n- 某个学习管理系统？\n\n鉴于我无法确认 Skillver 的具体身份，最佳做法是：\n1. 说明我没有找到关于 \"Skillver\" 的明确信息\n2. 询问用户是否指的是其他产品（如 Skillshare）\n3. 或者请用户提供更多背景信息（比如 Skillver 是什么类型的平台）\n\n不过，等等，让我再仔细想想。是否有可能是 \"Skilver\"？或者某个中文语境下的产品？\n\n实际上，我应该基于事实回答。如果我不知道，就说不知道。\n\n回答结构：\n- 直接说明：在我目前的知识范围内，没有关于 \"Skillver\" 这个产品的明确信息\n- 询问是否是拼写错误，比如 Skillshare（一个非常流行的在线学习平台，有移动端）\n- 或者请用户提供更多上下文，比如官网或所属公司，以便给出准确答案\n\n用中文回答，因为用户用中文提问。\n\n让我再想想，是否有 Skillver 这个公司？可能是做技能认证或招聘相关的？即便如此，没有足够可靠的信息来确认其移动端存在与否。\n\n最终决定：诚实回答无法确认，并请求澄清。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 588,
+      "total_tokens": 631,
+      "completion_tokens_details": {
+        "reasoning_tokens": 387
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:15:30.160507Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "在我目前的知识库中，没有关于 **Skillver** 这一产品或平台的明确信息，因此无法确认它是否有移动端 App 或移动端网页支持。\n\n有可能是以下情况之一：\n\n1. **拼写相近的平台**：您是否指的是 **Skillshare**（知名在线学习平台）？Skillshare 提供 iOS 和 Android 移动端 App。\n2. **小众或新兴产品**：如果 Skillver 是某个公司内部的系统、新上线的工具或小众产品，公开信息可能较少。\n3. **名称略有不同**：例如 Skillverse、Skiller 等类似名称的产品。\n\n**建议您：**\n- 直接访问该产品的官方网站，查看是否有 App 下载入口或“下载到手机”等提示；\n- 在应用商店（App Store / 华为应用市场 / Google Play 等）搜索“Skillver”；\n- 或补充提供更多背景信息（如 Skillver 的官网、所属公司或主要用途），我可以帮您进一步核实。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

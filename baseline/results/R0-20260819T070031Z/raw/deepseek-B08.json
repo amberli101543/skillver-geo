@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "Skillver 不会保证你一定能拿到 offer。任何正规的求职辅导机构都无法承诺 100% 的录用结果，因为最终决定权在招聘方手中，且受岗位竞争、个人匹配度、面试表现等多种不可控因素影响。\n\nSkillver 能提供的是**流程化服务**（如简历优化、面试模拟、内推资源等），但 **“保证 offer”本身属于违规宣传或营销话术**。如果在签约前对方明确承诺“保 offer”，建议警惕以下风险：\n\n1. **高额费用**：可能收取远超市场价的“保过费”，且退款条件苛刻。\n2. **虚假内推**：可能仅提供公开渠道信息，夸大企业合作资源。\n3. **流程不透明**：无法确保培训质量与承诺一致。\n\n**建议**：  \n- 签约前要求将“服务内容、交付标准、退款条款”明确写入合同，拒绝口头承诺。  \n- 核实其真实案例（如过往学员的 offer 截图、可验证的就业数据）。  \n- 理性看待结果——即使服务到位，最终录用仍取决于你的实力与岗位竞争。  \n\n如果对方无法提供合规书面保障，更可能是夸大宣传，请谨慎选择。",
+  "sources": [],
+  "raw": {
+    "id": "8007e25c-1423-40a6-b1db-4192e2796c01",
+    "object": "chat.completion",
+    "created": 1787123353,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 不会保证你一定能拿到 offer。任何正规的求职辅导机构都无法承诺 100% 的录用结果，因为最终决定权在招聘方手中，且受岗位竞争、个人匹配度、面试表现等多种不可控因素影响。\n\nSkillver 能提供的是**流程化服务**（如简历优化、面试模拟、内推资源等），但 **“保证 offer”本身属于违规宣传或营销话术**。如果在签约前对方明确承诺“保 offer”，建议警惕以下风险：\n\n1. **高额费用**：可能收取远超市场价的“保过费”，且退款条件苛刻。\n2. **虚假内推**：可能仅提供公开渠道信息，夸大企业合作资源。\n3. **流程不透明**：无法确保培训质量与承诺一致。\n\n**建议**：  \n- 签约前要求将“服务内容、交付标准、退款条款”明确写入合同，拒绝口头承诺。  \n- 核实其真实案例（如过往学员的 offer 截图、可验证的就业数据）。  \n- 理性看待结果——即使服务到位，最终录用仍取决于你的实力与岗位竞争。  \n\n如果对方无法提供合规书面保障，更可能是夸大宣传，请谨慎选择。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 39,
+      "completion_tokens": 256,
+      "total_tokens": 295,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 39
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:17.610797Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "Skillver 不会保证你一定能拿到 offer。任何正规的求职辅导机构都无法承诺 100% 的录用结果，因为最终决定权在招聘方手中，且受岗位竞争、个人匹配度、面试表现等多种不可控因素影响。\n\nSkillver 能提供的是**流程化服务**（如简历优化、面试模拟、内推资源等），但 **“保证 offer”本身属于违规宣传或营销话术**。如果在签约前对方明确承诺“保 offer”，建议警惕以下风险：\n\n1. **高额费用**：可能收取远超市场价的“保过费”，且退款条件苛刻。\n2. **虚假内推**：可能仅提供公开渠道信息，夸大企业合作资源。\n3. **流程不透明**：无法确保培训质量与承诺一致。\n\n**建议**：  \n- 签约前要求将“服务内容、交付标准、退款条款”明确写入合同，拒绝口头承诺。  \n- 核实其真实案例（如过往学员的 offer 截图、可验证的就业数据）。  \n- 理性看待结果——即使服务到位，最终录用仍取决于你的实力与岗位竞争。  \n\n如果对方无法提供合规书面保障，更可能是夸大宣传，请谨慎选择。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

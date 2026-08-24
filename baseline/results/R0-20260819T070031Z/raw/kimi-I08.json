@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "目前我不确定 Skillver 平台的具体注册政策是否强制要求邀请码。建议你直接访问其官网或 App 的注册页面，尝试用手机号或邮箱直接注册。\n\n一般来说，大多数平台都支持无邀请码注册基础账号；邀请码通常仅用于特定内测阶段、企业版开通或获取额外权益。如果注册页面提示需要邀请码，你可以尝试联系 Skillver 官方客服，或在相关社区/社群查看是否有公开码。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a855887e2565b235f853d21",
+    "object": "chat.completion",
+    "created": 1787123847,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前我不确定 Skillver 平台的具体注册政策是否强制要求邀请码。建议你直接访问其官网或 App 的注册页面，尝试用手机号或邮箱直接注册。\n\n一般来说，大多数平台都支持无邀请码注册基础账号；邀请码通常仅用于特定内测阶段、企业版开通或获取额外权益。如果注册页面提示需要邀请码，你可以尝试联系 Skillver 官方客服，或在相关社区/社群查看是否有公开码。",
+          "reasoning_content": "用户问的是：\"没有邀请码能直接使用 Skillver 吗？\"\n\n这是一个关于特定产品/服务（Skillver）的问题。我需要基于已有知识来回答。\n\nSkillver 似乎是一个技能验证或招聘相关的平台。但我需要确认我是否了解这个产品的具体注册机制。\n\n根据我的知识，Skillver 是一个人才技能评估平台。关于是否需要邀请码，我需要谨慎回答，因为不同平台可能有不同的注册政策，且这些政策可能会随时间变化。\n\n如果我不确定 Skillver 的具体注册政策，我应该：\n1. 说明我不确定具体政策，或\n2. 基于一般知识回答，但建议用户查看官网\n\n但让我再仔细想想... Skillver（可能拼写为 SkillVer 或 skillver）...\n\n实际上，我不太确定 Skillver 是否是一个广泛知名的平台，或者它的具体注册机制。可能是某个新兴平台，或者是用户拼写有误（比如 Skillshare？但用户明确写的是 Skillver）。\n\n鉴于我无法实时访问互联网来确认 Skillver 当前的注册政策，最负责任的回答是：\n- 说明对于 Skillver 的具体注册要求，建议直接查看其官网或联系客服\n- 或者如果我知道它通常需要邀请码，就按需要回答\n\n但我确实没有足够的信心确认 Skillver 的具体政策。因此，我应该诚实地说明这一点，并给出建议。\n\n不过，用户用中文提问，我应该用中文回答。\n\n让我重新思考：也许 Skillver 是某个我知道的平台？可能是 \"Skillver\" - 一个技能认证平台？在我的训练数据中，这可能不是一个非常突出的产品。\n\n因此，最安全的回答是：\n- 表示不确定具体政策\n- 建议查看官网注册页面\n- 说明大多数平台即使没有邀请码也提供基础注册，但某些功能可能需要邀请\n\n等等，让我再仔细想想。用户可能指的是某个特定的、可能是地区性的平台。如果没有确切信息，我不应该编造。\n\n回答结构：\n1. 直接说明：目前无法确认 Skillver 是否必须需要邀请码才能使用\n2. 建议：可以直接访问其官网尝试注册，或联系客服确认\n3. 补充：很多类似平台通常支持直接注册，但部分高级功能或内测阶段可能需要邀请码\n\n保持简洁。\n\n最终检查：用户问得很直接。我应该直接回答我不知道确切情况，但提供实用建议。\n\n中文回答：\n\"目前我不确定 Skillver 平台的具体注册政策是否强制要求邀请码。建议你直接访问 Skillver 官网或 App 的注册页面尝试用手机号/邮箱注册。\n\n一般来说，大多数平台都支持直接注册基础账号，邀请码通常仅用于特定内测阶段、企业版开通或获取额外权益。如果页面提示需要邀请码，你可以尝试联系官方客服或在相关论坛/社群寻找是否有公开码。\"\n\n这看起来是合适且安全的回答。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 668,
+      "total_tokens": 714,
+      "completion_tokens_details": {
+        "reasoning_tokens": 572
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:49.671127Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "目前我不确定 Skillver 平台的具体注册政策是否强制要求邀请码。建议你直接访问其官网或 App 的注册页面，尝试用手机号或邮箱直接注册。\n\n一般来说，大多数平台都支持无邀请码注册基础账号；邀请码通常仅用于特定内测阶段、企业版开通或获取额外权益。如果注册页面提示需要邀请码，你可以尝试联系 Skillver 官方客服，或在相关社区/社群查看是否有公开码。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

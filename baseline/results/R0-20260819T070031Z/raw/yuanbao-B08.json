@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "Skillver 是专注于技能提升和求职辅导的平台，**无法保证用户一定能拿到 Offer**。求职结果受个人能力、岗位匹配度、面试表现、市场环境等多重因素影响，平台的作用更多是提供技能培训、简历优化、面试指导等支持，帮助用户提升竞争力，但不能直接决定招聘结果。\n\n建议结合平台资源积极准备，但需理性看待“保Offer”类宣传，若有相关承诺需仔细核实条款细节。",
+  "sources": [],
+  "raw": {
+    "id": "1364d651-de20-4a59-b4fc-db33f9cb7b0f",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123360,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是专注于技能提升和求职辅导的平台，**无法保证用户一定能拿到 Offer**。求职结果受个人能力、岗位匹配度、面试表现、市场环境等多重因素影响，平台的作用更多是提供技能培训、简历优化、面试指导等支持，帮助用户提升竞争力，但不能直接决定招聘结果。\n\n建议结合平台资源积极准备，但需理性看待“保Offer”类宣传，若有相关承诺需仔细核实条款细节。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 90,
+      "total_tokens": 140,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:22.643691Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "Skillver 是专注于技能提升和求职辅导的平台，**无法保证用户一定能拿到 Offer**。求职结果受个人能力、岗位匹配度、面试表现、市场环境等多重因素影响，平台的作用更多是提供技能培训、简历优化、面试指导等支持，帮助用户提升竞争力，但不能直接决定招聘结果。\n\n建议结合平台资源积极准备，但需理性看待“保Offer”类宣传，若有相关承诺需仔细核实条款细节。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

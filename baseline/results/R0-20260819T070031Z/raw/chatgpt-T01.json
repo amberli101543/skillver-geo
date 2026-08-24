@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "KAE 技能体系通常指一种岗位能力/人才培养框架，用来描述一个人或岗位需要具备的核心能力。常见解释是：\n\n**KAE = Knowledge + Ability + Experience**\n\n1. **K：Knowledge，知识**\n   - 需要掌握的理论、业务、产品、流程、行业知识等。\n   - 例如：行业知识、产品知识、客户知识、公司制度等。\n\n2. **A：Ability，能力**\n   - 把知识转化为实际工作的能力。\n   - 例如：沟通能力、销售能力、问题分析能力、项目推进能力、谈判能力等。\n\n3. **E：Experience，经验**\n   - 在真实场景中积累的实践经验和案例沉淀。\n   - 例如：客户项目经验、成功案例、失败复盘、复杂问题处理经验等。\n\n简单来说，**KAE 技能体系就是用“知道什么、会做什么、做过什么”来评估和培养一个人的能力体系**。\n\n如果你说的 KAE 是指 **Key Account Executive / 大客户销售岗位**，那它的技能体系一般会包括：客户洞察、关系经营、方案销售、商务谈判、项目管理、数据分析和行业理解等能力。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUsI3yvMgHt3RdvcL7tLHhDHDAOa",
+    "object": "chat.completion",
+    "created": 1787123982,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "KAE 技能体系通常指一种岗位能力/人才培养框架，用来描述一个人或岗位需要具备的核心能力。常见解释是：\n\n**KAE = Knowledge + Ability + Experience**\n\n1. **K：Knowledge，知识**\n   - 需要掌握的理论、业务、产品、流程、行业知识等。\n   - 例如：行业知识、产品知识、客户知识、公司制度等。\n\n2. **A：Ability，能力**\n   - 把知识转化为实际工作的能力。\n   - 例如：沟通能力、销售能力、问题分析能力、项目推进能力、谈判能力等。\n\n3. **E：Experience，经验**\n   - 在真实场景中积累的实践经验和案例沉淀。\n   - 例如：客户项目经验、成功案例、失败复盘、复杂问题处理经验等。\n\n简单来说，**KAE 技能体系就是用“知道什么、会做什么、做过什么”来评估和培养一个人的能力体系**。\n\n如果你说的 KAE 是指 **Key Account Executive / 大客户销售岗位**，那它的技能体系一般会包括：客户洞察、关系经营、方案销售、商务谈判、项目管理、数据分析和行业理解等能力。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 793,
+      "total_tokens": 835,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 512,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:19:53.807851Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "KAE 技能体系通常指一种岗位能力/人才培养框架，用来描述一个人或岗位需要具备的核心能力。常见解释是：\n\n**KAE = Knowledge + Ability + Experience**\n\n1. **K：Knowledge，知识**\n   - 需要掌握的理论、业务、产品、流程、行业知识等。\n   - 例如：行业知识、产品知识、客户知识、公司制度等。\n\n2. **A：Ability，能力**\n   - 把知识转化为实际工作的能力。\n   - 例如：沟通能力、销售能力、问题分析能力、项目推进能力、谈判能力等。\n\n3. **E：Experience，经验**\n   - 在真实场景中积累的实践经验和案例沉淀。\n   - 例如：客户项目经验、成功案例、失败复盘、复杂问题处理经验等。\n\n简单来说，**KAE 技能体系就是用“知道什么、会做什么、做过什么”来评估和培养一个人的能力体系**。\n\n如果你说的 KAE 是指 **Key Account Executive / 大客户销售岗位**，那它的技能体系一般会包括：客户洞察、关系经营、方案销售、商务谈判、项目管理、数据分析和行业理解等能力。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

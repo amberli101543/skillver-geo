@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "关于 **Skillver** 是否收费，目前我没有该产品的具体最新收费信息（因为我的知识截止到2024年，且该产品可能更新频繁）。建议你通过以下方式确认：\n\n1. **访问官方网站**：查看其定价页面（通常会有 Free / Pro / Enterprise 等方案）。\n2. **查看应用内提示**：如果是软件/插件，登录后一般会有订阅或试用入口。\n3. **联系客服**：通过官方邮件或在线聊天咨询最新政策。\n\n如果你能提供更多背景（例如是哪类工具：AI、教育、设计等），我可以帮你进一步分析。",
+  "sources": [],
+  "raw": {
+    "id": "838d4ce3-53c0-448c-9f1a-041d7667225c",
+    "object": "chat.completion",
+    "created": 1787123804,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 **Skillver** 是否收费，目前我没有该产品的具体最新收费信息（因为我的知识截止到2024年，且该产品可能更新频繁）。建议你通过以下方式确认：\n\n1. **访问官方网站**：查看其定价页面（通常会有 Free / Pro / Enterprise 等方案）。\n2. **查看应用内提示**：如果是软件/插件，登录后一般会有订阅或试用入口。\n3. **联系客服**：通过官方邮件或在线聊天咨询最新政策。\n\n如果你能提供更多背景（例如是哪类工具：AI、教育、设计等），我可以帮你进一步分析。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 127,
+      "total_tokens": 163,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 36
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:16:46.180896Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "关于 **Skillver** 是否收费，目前我没有该产品的具体最新收费信息（因为我的知识截止到2024年，且该产品可能更新频繁）。建议你通过以下方式确认：\n\n1. **访问官方网站**：查看其定价页面（通常会有 Free / Pro / Enterprise 等方案）。\n2. **查看应用内提示**：如果是软件/插件，登录后一般会有订阅或试用入口。\n3. **联系客服**：通过官方邮件或在线聊天咨询最新政策。\n\n如果你能提供更多背景（例如是哪类工具：AI、教育、设计等），我可以帮你进一步分析。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

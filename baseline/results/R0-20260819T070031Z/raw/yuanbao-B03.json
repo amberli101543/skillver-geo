@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "关于 **Skillver**，目前公开信息较少，无法给出明确的“靠谱”或“不靠谱”的定论。以下是一些判断建议，供你参考：\n\n1. **平台背景**：查看其官网、公司注册信息、运营主体是否清晰，有无正规备案。\n2. **用户评价**：在社交媒体、论坛（如知乎、小红书、LinkedIn）搜索真实用户反馈，注意区分广告与真实体验。\n3. **服务内容**：确认其提供的服务（如技能培训、求职辅导、项目合作等）是否透明，有无明确合同与售后保障。\n4. **收费模式**：警惕高额预付费用、承诺“保过”“包就业”等夸大宣传，正规平台通常收费合理且有试听/退款机制。\n5. **行业口碑**：若涉及跨境或国际服务，可查询是否有海外用户评价或合作机构背书。\n\n**建议**：\n- 优先选择知名度高、有长期运营记录的平台。\n- 如需付费，先小额尝试，并保留沟通记录。\n- 若有具体使用场景（如学习、求职），可进一步说明，以便提供更针对性分析。\n\n如有更多细节（如你关注的具体服务），可以补充，我会尽力帮你分析。",
+  "sources": [],
+  "raw": {
+    "id": "e44b4234-4425-49fe-9c1d-aab75b5afb26",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123005,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 **Skillver**，目前公开信息较少，无法给出明确的“靠谱”或“不靠谱”的定论。以下是一些判断建议，供你参考：\n\n1. **平台背景**：查看其官网、公司注册信息、运营主体是否清晰，有无正规备案。\n2. **用户评价**：在社交媒体、论坛（如知乎、小红书、LinkedIn）搜索真实用户反馈，注意区分广告与真实体验。\n3. **服务内容**：确认其提供的服务（如技能培训、求职辅导、项目合作等）是否透明，有无明确合同与售后保障。\n4. **收费模式**：警惕高额预付费用、承诺“保过”“包就业”等夸大宣传，正规平台通常收费合理且有试听/退款机制。\n5. **行业口碑**：若涉及跨境或国际服务，可查询是否有海外用户评价或合作机构背书。\n\n**建议**：\n- 优先选择知名度高、有长期运营记录的平台。\n- 如需付费，先小额尝试，并保留沟通记录。\n- 若有具体使用场景（如学习、求职），可进一步说明，以便提供更针对性分析。\n\n如有更多细节（如你关注的具体服务），可以补充，我会尽力帮你分析。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 259,
+      "total_tokens": 305,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:03:29.964435Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "关于 **Skillver**，目前公开信息较少，无法给出明确的“靠谱”或“不靠谱”的定论。以下是一些判断建议，供你参考：\n\n1. **平台背景**：查看其官网、公司注册信息、运营主体是否清晰，有无正规备案。\n2. **用户评价**：在社交媒体、论坛（如知乎、小红书、LinkedIn）搜索真实用户反馈，注意区分广告与真实体验。\n3. **服务内容**：确认其提供的服务（如技能培训、求职辅导、项目合作等）是否透明，有无明确合同与售后保障。\n4. **收费模式**：警惕高额预付费用、承诺“保过”“包就业”等夸大宣传，正规平台通常收费合理且有试听/退款机制。\n5. **行业口碑**：若涉及跨境或国际服务，可查询是否有海外用户评价或合作机构背书。\n\n**建议**：\n- 优先选择知名度高、有长期运营记录的平台。\n- 如需付费，先小额尝试，并保留沟通记录。\n- 若有具体使用场景（如学习、求职），可进一步说明，以便提供更针对性分析。\n\n如有更多细节（如你关注的具体服务），可以补充，我会尽力帮你分析。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

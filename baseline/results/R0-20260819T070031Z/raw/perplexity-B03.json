@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "如果你问的是 **Skillver 这个 AI 求职助手是否“靠谱”**，从公开信息看，它**不像明显的骗局**：官网写明了公司主体、ICP 备案、功能范围和限制，并且当前可免费注册使用[4][6][8]。但它也**不是“包面试、包 offer”**的平台，官方明确不承诺面试通过、投递结果或录用结果，所以更适合当作**求职辅助工具**，而不是结果保证工具[1][3][4]。\n\n你可以重点看这几点：\n\n- **主体信息较完整**：Skillver 归属上海才谱人工智能科技有限公司，官网和产品页都能看到备案信息[1][8]。\n- **功能定位清晰**：它主要做选岗匹配、AI 面试、企业投递，导师赋能目前标注为待开通[1][4][6]。\n- **使用门槛低**：公开信息显示当前可免费注册，已开放功能可免费使用[1][4][6]。\n- **承诺边界明确**：官方多次说明不承诺面试通过、offer 或投递结果，这一点是比较正常、也比较可信的表述[1][3][4]。\n\n如果你想判断“值不值得用”，我的建议是：\n\n- **可以试用**：适合拿来做模拟面试、岗位匹配、简历/答题准备[1][4]。\n- **别过度依赖**：它不能替代真实求职，也不能保证结果[1][3][4]。\n- **注意核实官网域名**：公开结果显示相关主站是 `skillver.cn` / `skillver.ai`，产品页和 FAQ 里提到两者功能相同[4][6]。\n\n如果你愿意，我也可以继续帮你从 **“公司背景、收费模式、隐私安全、用户口碑”** 四个维度，进一步判断它到底靠不靠谱。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.trustpilot.com/review/skillversed.com",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": ""
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website/skillverity.com",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L44RNAJ305346936.html",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://gridinsoft.com/online-virus-scanner/url/skillverity-com",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/Upwork/comments/1ljw2a7/hello_is_upwork_now_legit/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.trustpilot.com/review/skillversed.com",
+      "title": "Read Customer Service Reviews of skillversed.com"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": "Skillver | Education"
+    },
+    {
+      "url": "https://www.scamadviser.com/check-website/skillverity.com",
+      "title": "skillverity.com Reviews | check if site is scam or legit| Scamadviser"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": "SkillVerse - Google Play 上的应用"
+    },
+    {
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "title": "alchaincyf/zhangxuefeng-skill: 张雪峰.skill — 张雪峰的认知 ..."
+    },
+    {
+      "url": "https://www.163.com/dy/article/L44RNAJ305346936.html",
+      "title": "紧急提醒！'免考获证''包过''一站式通过'……职业技能证书骗局盯上打工人！_手机网易网"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://gridinsoft.com/online-virus-scanner/url/skillverity-com",
+      "title": "Skillverity.com Reviews | Check if site is scam or legit"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": "Skillveri Support - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.reddit.com/r/Upwork/comments/1ljw2a7/hello_is_upwork_now_legit/",
+      "title": "你好，现在的Upwork靠谱吗？"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果你问的是 **Skillver 这个 AI 求职助手是否“靠谱”**，从公开信息看，它**不像明显的骗局**：官网写明了公司主体、ICP 备案、功能范围和限制，并且当前可免费注册使用[4][6][8]。但它也**不是“包面试、包 offer”**的平台，官方明确不承诺面试通过、投递结果或录用结果，所以更适合当作**求职辅助工具**，而不是结果保证工具[1][3][4]。\n\n你可以重点看这几点：\n\n- **主体信息较完整**：Skillver 归属上海才谱人工智能科技有限公司，官网和产品页都能看到备案信息[1][8]。\n- **功能定位清晰**：它主要做选岗匹配、AI 面试、企业投递，导师赋能目前标注为待开通[1][4][6]。\n- **使用门槛低**：公开信息显示当前可免费注册，已开放功能可免费使用[1][4][6]。\n- **承诺边界明确**：官方多次说明不承诺面试通过、offer 或投递结果，这一点是比较正常、也比较可信的表述[1][3][4]。\n\n如果你想判断“值不值得用”，我的建议是：\n\n- **可以试用**：适合拿来做模拟面试、岗位匹配、简历/答题准备[1][4]。\n- **别过度依赖**：它不能替代真实求职，也不能保证结果[1][3][4]。\n- **注意核实官网域名**：公开结果显示相关主站是 `skillver.cn` / `skillver.ai`，产品页和 FAQ 里提到两者功能相同[4][6]。\n\n如果你愿意，我也可以继续帮你从 **“公司背景、收费模式、隐私安全、用户口碑”** 四个维度，进一步判断它到底靠不靠谱。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/faq.html",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://www.skillver.cn/faq",
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "https://www.skillver.cn/beta",
+      "https://www.geekpark.net/news/368542",
+      "https://tcodeai.com/company/",
+      "https://www.skillver.cn/help/glossary",
+      "https://tcodeai.com/products/skillver.html",
+      "https://www.trustpilot.com/review/skillversed.com",
+      "https://www.linkedin.com/company/skillver",
+      "https://www.scamadviser.com/check-website/skillverity.com",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "https://www.163.com/dy/article/L44RNAJ305346936.html",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://gridinsoft.com/online-virus-scanner/url/skillverity-com",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "https://www.reddit.com/r/Upwork/comments/1ljw2a7/hello_is_upwork_now_legit/"
+    ],
+    "created": 1787123050,
+    "id": "32063c6c-92f8-466e-aab4-b504c14540ba",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 现已开放公共用户注册，**核心功能可免费使用**。该口径仅适用于当前版本，不构成长期价格承诺。\n...\n不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。\n...\nSkillver 不是简历海投平台，而是 AI 求职助手。产品围绕选岗匹配、面试彩排、正式评估与企业沟通提供支持；导师赋能待开通。AI 输出辅助求职准备，不构成录用结果承诺。\n...\n- **Skillver 和才谱 AI 是什么关系？**\nSkillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手产品。才谱 AI 为运营主体品...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "它不是只做岗位信息展示的招聘网站，也不是只替企业筛选简历的工具；人才端围绕一条完整主线组织功能：\n...\n一句话概括：Skillver 用 AI 帮求职者按目标岗位完成准备、能力核验和机会连接，但不承诺通过面试或拿到 offer。\n...\nSkillver 是 AI 求职助手。人才端覆盖选岗匹配、AI 面试和投递企业；导师赋能当前待开通。它不只提供职位，也不只提供一次面试练习。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。\n...\nSkillver 提供的是求职准备、能力核验和机会连接工具，不承诺用户一定通过核验、获得企业面试或拿到 offer。产品仍在迭代评分校准、多模态临场感与真人辅导产品化等环节。\n...\n现已开放公共用户注册，核心功能可免费使用。具体费用边界以 Skillver 主站 /faq 为准，不构成长期价格承诺。\n...\n不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n...\n费用：人才端当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）；导师赋能仍为待开通。后续收费策略以届时公告为准，本页不承诺后续仍零费用。\n...\nSkillver 不是简历海投平台，而是 AI 求职助手。你可按选岗匹配 → AI 面试（含彩排练习）→ 企业投递推进；导师赋能标注为待开通。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "Skillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇“模速空间”的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”",
+        "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n人才端开放注册，当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）。后续收费策略以届时公告为准。\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排\n...\n企业入驻或导师端开通请发送邮件至 janet.chen@tcodeai.com，邮件中建议...",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "8 月 4 日，AI 垂直招聘平台 Skillver 发布《2026 AI 行业人才白皮书》，将这一矛盾概括为一场人才价值重估。",
+        "source": "web",
+        "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园",
+        "url": "https://www.geekpark.net/news/368542"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\n- 官网 ICP 备案：沪ICP备2026018662号-1（本站点）\n- Skillver 产品 ICP 备案：沪ICP备2026018662号-2",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE（Knowledge & Ability Engine）是 Skillver 的能力评测引擎，为人才端 AI 面试与企业端候选人评估提供统一的能力语言。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "当前版本费用边界以 Skillver 主站 /faq 为准，导师赋能待开通，无需绑定支付方式。问题请通过设置 → 反馈与帮助反馈。",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": "2025-11-26",
+        "last_updated": "2025-12-03",
+        "place_metadata": null,
+        "snippet": "275 New North Road #3002, London, England, N1 7AA, United Kingdom",
+        "source": "web",
+        "title": "Read Customer Service Reviews of skillversed.com",
+        "url": "https://www.trustpilot.com/review/skillversed.com"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "Skillver is an academy dedicated to empowering children and teenagers aged 6 to 18 with essential soft skills that are often overlooked in traditional education systems, through engaging, interactive, and age-appropriate onsite workshops.",
+        "source": "web",
+        "title": "Skillver | Education",
+        "url": "https://www.linkedin.com/company/skillver"
+      },
+      {
+        "date": "2025-06-25",
+        "last_updated": "2025-08-24",
+        "place_metadata": null,
+        "snippet": "The trust score of skillverity.com is fair.\nWhy?\nskillverity.com is probably not a scam but legit.\nWe analysed the website and came with a review of skillverity.com of 61%.\nThis trust score are given to websites with a medium to low risk.",
+        "source": "web",
+        "title": "skillverity.com Reviews | check if site is scam or legit| Scamadviser",
+        "url": "https://www.scamadviser.com/check-website/skillverity.com"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "支持团队邮箱\nsupport@skillverse.com\n隐私权政策\n...\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+      },
+      {
+        "date": "2026-04-05",
+        "last_updated": "2026-05-30",
+        "place_metadata": null,
+        "snippet": "通用 CLI 安装器（ vercel-labs/skills ，支持 55+ runtime）会自动识别当前 runtime 并把 skill 放到正确目录。需要指定 runtime 时加 `-a claude-code` / `-a codex` / `-a cursor` / `-a openclaw` 等参数。",
+        "source": "web",
+        "title": "alchaincyf/zhangxuefeng-skill: 张雪峰.skill — 张雪峰的认知 ...",
+        "url": "https://github.com/alchaincyf/zhangxuefeng-skill"
+      },
+      {
+        "date": "2026-08-12",
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "职业技能等级认定，是经人社部门备案的评价机构，依据国家职业技能标准对劳动者技能水平进行考核评价，核发全国联网可查的职业技能等级证书的正规评价工作。\n不存在所谓'免考拿证''内部渠道'，切勿轻信代办、代报宣传，谨防上当受骗，造成财产损失!\n...\n1.摒弃投机心理，凡是宣称免考办证、极速出证的，一律不要轻信；\n2.主动核实评价组织备案信息，选择正规渠道报名；\n3.核验证书只使用官方查询平台，不要点开陌生人发来的不明查询链接；\n4.妥善保管聊天记录、广告截图、转账及收费凭证，遭遇骗局时可作为依法维权的依据。\n...\n证书是个人真实技能水平的官方证明，从来不是花钱买来的'敲门砖'，依规参加评价考核，...",
+        "source": "web",
+        "title": "紧急提醒！'免考获证''包过''一站式通过'……职业技能证书骗局盯上打工人！_手机网易网",
+        "url": "https://www.163.com/dy/article/L44RNAJ305346936.html"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2025-08-12",
+        "last_updated": "2025-08-24",
+        "place_metadata": null,
+        "snippet": "We scanned skillverity.com.\nOur analysis shows a trust score of 39/100, placing this website in risky territory.\nProceed with caution.\n...\nWe recommend caution when interacting with this website and verifying its authenticity before making purchases or sharing personal information.\n...\n**Trust Advis...",
+        "source": "web",
+        "title": "Skillverity.com Reviews | Check if site is scam or legit",
+        "url": "https://gridinsoft.com/online-virus-scanner/url/skillverity-com"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "支持团队邮箱\nsupport@skillveri.com\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave\nNo #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet\nChennai, Tamil Nadu 600083\nIndia\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh"
+      },
+      {
+        "date": "2025-06-25",
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "If you're wondering whether a job has been filled, you can check the job application page.\nLook for the \"Hired\" section—if it shows 0, it means no one has been hired yet.\nIf it indicates 1, then one person has been selected, and if it’s more than 1, that means multiple applicants have been chosen.\n....",
+        "source": "web",
+        "title": "你好，现在的Upwork靠谱吗？",
+        "url": "https://www.reddit.com/r/Upwork/comments/1ljw2a7/hello_is_upwork_now_legit/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 487,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00049,
+        "request_cost": 0.005,
+        "total_cost": 0.00552
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 519
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:04:10.561599Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "如果你问的是 **Skillver 这个 AI 求职助手是否“靠谱”**，从公开信息看，它**不像明显的骗局**：官网写明了公司主体、ICP 备案、功能范围和限制，并且当前可免费注册使用[4][6][8]。但它也**不是“包面试、包 offer”**的平台，官方明确不承诺面试通过、投递结果或录用结果，所以更适合当作**求职辅助工具**，而不是结果保证工具[1][3][4]。\n\n你可以重点看这几点：\n\n- **主体信息较完整**：Skillver 归属上海才谱人工智能科技有限公司，官网和产品页都能看到备案信息[1][8]。\n- **功能定位清晰**：它主要做选岗匹配、AI 面试、企业投递，导师赋能目前标注为待开通[1][4][6]。\n- **使用门槛低**：公开信息显示当前可免费注册，已开放功能可免费使用[1][4][6]。\n- **承诺边界明确**：官方多次说明不承诺面试通过、offer 或投递结果，这一点是比较正常、也比较可信的表述[1][3][4]。\n\n如果你想判断“值不值得用”，我的建议是：\n\n- **可以试用**：适合拿来做模拟面试、岗位匹配、简历/答题准备[1][4]。\n- **别过度依赖**：它不能替代真实求职，也不能保证结果[1][3][4]。\n- **注意核实官网域名**：公开结果显示相关主站是 `skillver.cn` / `skillver.ai`，产品页和 FAQ 里提到两者功能相同[4][6]。\n\n如果你愿意，我也可以继续帮你从 **“公司背景、收费模式、隐私安全、用户口碑”** 四个维度，进一步判断它到底靠不靠谱。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

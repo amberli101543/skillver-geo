@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T04",
+    "category": "term",
+    "query": "Skillver 正式 AI 面试是什么？",
+    "passCriteria": [
+      "说明正式面试与彩排不同",
+      "不虚构次数或通过率"
+    ]
+  },
+  "answer": "**Skillver 的“正式 AI 面试”**，指的是一种用于**能力认证**和**投递凭证**的面试流程；与“彩排/模拟面试”不同，它生成的正式报告可用于向平台合作企业投递，平台也明确要求投递某个岗位前，至少完成 1 次正式 AI 面试并生成对应报告。[1][2][5][6]\n\n它的核心特点是：\n\n- **目的不同**：彩排用于练习表达、熟悉题型；正式 AI 面试用于能力核验与投递。[1][4][5]\n- **结果不同**：正式面试会生成 **KAE 能力报告**，包含七维战力评估、维度分数与说明等内容。[4][5][6]\n- **投递要求**：在 Skillver 的链路里，某个岗位下需要至少有 1 份正式 AI 面试报告，彩排报告不能替代正式报告。[1][2][5]\n- **流程形式**：通常会让你完成岗位相关题目，支持文字或语音输入，面试结束后约 2–5 分钟生成报告。[2]\n\n如果你愿意，我也可以继续帮你解释：**Skillver 正式 AI 面试具体怎么做**、**和彩排的区别**，或者**这份报告企业会看到什么**。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.jiemian.com/article/14885278.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": ""
+    },
+    {
+      "url": "https://www.hina.com/blog/104",
+      "title": ""
+    },
+    {
+      "url": "https://www.dayee.com/html/newsDetail-443.html",
+      "title": ""
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/1764895087168089.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/javaguide/p/19637656",
+      "title": ""
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/167150449614980.html",
+      "title": ""
+    },
+    {
+      "url": "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw",
+      "title": ""
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "Skillver：AI人才助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - China Daily"
+    },
+    {
+      "url": "https://www.jiemian.com/article/14885278.html",
+      "title": "AI 行业重构人才评价履历让位实战成果 - 界面新闻"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": "skillver - App Store - Apple"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园"
+    },
+    {
+      "url": "https://www.hina.com/blog/104",
+      "title": "什么是AI面试？AI面试有什么技巧？"
+    },
+    {
+      "url": "https://www.dayee.com/html/newsDetail-443.html",
+      "title": "什么是AI面试?深入了解AI面试工具 - 招聘系统"
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/1764895087168089.html",
+      "title": "上千题喂出来的AI面试官，是如何淘汰应聘者的？"
+    },
+    {
+      "url": "https://www.cnblogs.com/javaguide/p/19637656",
+      "title": "7 道AI 编程高频面试题！涵盖Cursor、Claude Code、Skills"
+    },
+    {
+      "url": "https://m.bjnews.com.cn/detail/167150449614980.html",
+      "title": "当机器人成为“面试官” - 新京报"
+    },
+    {
+      "url": "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw",
+      "title": "InterviewTrainerAI | Gemini API Developer Competition"
+    },
+    {
+      "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills",
+      "title": "GitHub - jennifer88huang/interview-skills: 大厂 AI 模拟面试官 Skill。AI mock interview: generate personalized interview questions from JD and resume, with follow-up practice for Big Tech interviews."
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver 的“正式 AI 面试”**，指的是一种用于**能力认证**和**投递凭证**的面试流程；与“彩排/模拟面试”不同，它生成的正式报告可用于向平台合作企业投递，平台也明确要求投递某个岗位前，至少完成 1 次正式 AI 面试并生成对应报告。[1][2][5][6]\n\n它的核心特点是：\n\n- **目的不同**：彩排用于练习表达、熟悉题型；正式 AI 面试用于能力核验与投递。[1][4][5]\n- **结果不同**：正式面试会生成 **KAE 能力报告**，包含七维战力评估、维度分数与说明等内容。[4][5][6]\n- **投递要求**：在 Skillver 的链路里，某个岗位下需要至少有 1 份正式 AI 面试报告，彩排报告不能替代正式报告。[1][2][5]\n- **流程形式**：通常会让你完成岗位相关题目，支持文字或语音输入，面试结束后约 2–5 分钟生成报告。[2]\n\n如果你愿意，我也可以继续帮你解释：**Skillver 正式 AI 面试具体怎么做**、**和彩排的区别**，或者**这份报告企业会看到什么**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/products/skillver.html",
+      "https://tcodeai.com/faq.html",
+      "https://www.tcodeai.com/",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://www.skillver.cn/faq",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.skillver.cn/beta",
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "https://www.jiemian.com/article/14885278.html",
+      "https://tcodeai.com/beta.html",
+      "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "https://tcodeai.com/company/",
+      "https://www.geekpark.net/news/368542",
+      "https://www.hina.com/blog/104",
+      "https://www.dayee.com/html/newsDetail-443.html",
+      "https://m.bjnews.com.cn/detail/1764895087168089.html",
+      "https://www.cnblogs.com/javaguide/p/19637656",
+      "https://m.bjnews.com.cn/detail/167150449614980.html",
+      "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw",
+      "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills"
+    ],
+    "created": 1787124294,
+    "id": "9a535e21-0aaa-4200-8642-ce4f422fc188",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "面试彩排用于练习表达、熟悉题型（具体使用额度以 Skillver 主站 /faq 为准）；正式 AI 面试用于能力认证与投递（具体使用额度以 Skillver 主站 /faq 为准）。报告含七维战力雷达图及多智能体评分说明，通常 2–5 分钟生成。正式报告是投递头部企业的硬通行证。\n...\n- **面试彩排和正式 AI 面试有什么区别？**\n面试彩排用于练习，报告标注非认证，仅本人可见（具体使用额度以 Skillver 主站 /faq 为准）；正式 AI 面试用于投递与人才池，判分引擎相同但认证口径不同（具体使用额度以 Skillver 主站 /faq 为准）。向某职位投递前，须在该岗位下至少...",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "不可以。模拟面试用于练习，不是正式面试或投递凭证；平台投递链路要求对应岗位下已有正式 AI 面试报告。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个**岗位** 前，需至少完成 1 次**正式** AI 面试并生成对应报告——这是向头部科技企业投递的硬通行证。**岗位** 是平台 49 个标准岗名，**职位** 是企业发布的具体在招条目（含 JD、薪资等）。\n...\n**做一场 Skillver AI 面试具体要做什么？**\n面试前允许摄像头与麦克风权限，预留约 30 分钟，并确认彩排或正式；面试中完成岗位专属真题（如选择题、简答题），简答题可用文字或语音...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "1. 01\n### 确定目标\n从 49 个标准岗位中锁定方向，上传简历看清匹配度与能力缺口。\n2. 02\n### 练习表达\n按目标岗位进行 AI 面试彩排，熟悉真实题型与表达节奏。\n3. 03\n### 正式验证\n完成正式 AI 面试，生成可追溯的七维能力报告与能力档案。\n4. 04\n### 连接机会\n携带正式报告投递，结构化跟进企业邀约、面试与 offer。",
+        "source": "web",
+        "title": "Skillver：AI人才助手",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "AI 面试分为模拟与正式两种用途。模拟面试用于练习表达、熟悉题型，不能作为正式面试或投递凭证；正式 AI 面试用于能力核验并生成正式报告。报告可包含七维战力能力雷达、维度分数与说明、面试对话回顾等内容。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "- 彩排不计入企业正式评估；\n- 彩排报告不能替代正式 AI 面试报告，也不能用于投递；\n- 正式 AI 面试完成后生成的报告，才是向企业投递所需的能力凭证；\n- 平台不承诺正式评估通过、面试邀约或 offer。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个岗位前，需至少完成 1 次正式 AI 面试并生成对应报告——这是保障企业筛选质量的核心机制。\nHR 看到的每一份申请都附有客观的 KAE 七维战力数据，而不是单纯的简历关键词。彩排（练习模式）不生成正式报告，不能用于投递。\n...\nKAE（Knowledge & Ability Engine）是 Ski...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "AI 面试报告是人才完成正式 AI 面试（非彩排）后生成的 KAE 能力报告，包含七维战力评估与面试摘要，是向平台合作企业投递的硬通行证。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- 正式 AI 面试：生成 KAE 能力报告，用于向企业投递（硬通行证）\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - China Daily",
+        "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "能力核验紧随其后。Skillver以KAE技能体系为基础，结合七维战力评估框架和314项技能分类体系，由多个专责AI Agent协同完成评估。公开流程包括选岗、简历核验、面试彩排、正式AI面试和能力报告。\n正式面试不少于30分钟，评估题目从10000+合规题库中按岗位标准动态生成。企业端，候选人以脱敏能力报告参与匹配——企业看到的重点不再是简历上的自我描述，而是与岗位对应的具体能力证据。",
+        "source": "web",
+        "title": "AI 行业重构人才评价履历让位实战成果 - 界面新闻",
+        "url": "https://www.jiemian.com/article/14885278.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- **正式 AI 面试**：能力认证，具体使用额度以 Skillver 主站 /faq 为准，七维战力报告用于投递（硬通行证）",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2026-08-13",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "正式面试出题由各公司发布的岗位JD的skill来定，不再由岗位本身来定。",
+        "source": "web",
+        "title": "skillver - App Store - Apple",
+        "url": "https://apps.apple.com/gb/app/skillver/id6786519057"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\n**使用 Skillver 产品**（注册、登录、AI 面试）请访问 www.skillver.cn 或 www.skillver.ai （双域功能相同）。本站 www.tcodeai.com 承载品牌故事、FAQ 与研究院内容。",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "因此，Skillver 将「AI 应用工程师」与「Agent 工程师」分别定义，不再用模糊的「AI 工程师」覆盖一切。",
+        "source": "web",
+        "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园",
+        "url": "https://www.geekpark.net/news/368542"
+      },
+      {
+        "date": "2021-11-22",
+        "last_updated": "2026-07-26",
+        "place_metadata": null,
+        "snippet": "AI面试与传统的工作面试类似，只是一系列面试问题以数字方式呈现给求职者，而不是由真人面试官来进行面试。求职者会看到屏幕上呈现的问题，然后在规定时间内来回答。在进行面试时会同步录制视频，AI面试会对整个面试过程进行评估。人工智能可以对求职者给出的答案，以及对肢体语言和面部表情进行评估。",
+        "source": "web",
+        "title": "什么是AI面试？AI面试有什么技巧？",
+        "url": "https://www.hina.com/blog/104"
+      },
+      {
+        "date": "2024-03-21",
+        "last_updated": "2026-05-15",
+        "place_metadata": null,
+        "snippet": "简单回答一下“什么是AI面试?”——AI面试是一种前沿的方法，它利用AI来简化和加强招聘过程中对候选人的筛选和评估。",
+        "source": "web",
+        "title": "什么是AI面试?深入了解AI面试工具 - 招聘系统",
+        "url": "https://www.dayee.com/html/newsDetail-443.html"
+      },
+      {
+        "date": "2025-12-05",
+        "last_updated": "2026-06-08",
+        "place_metadata": null,
+        "snippet": "面试时，面试者会随机抽到三道题，用英语回答，随后由AI打分。每道题都是五分制，综合评分达到三分即为通过。",
+        "source": "web",
+        "title": "上千题喂出来的AI面试官，是如何淘汰应聘者的？",
+        "url": "https://m.bjnews.com.cn/detail/1764895087168089.html"
+      },
+      {
+        "date": "2026-02-25",
+        "last_updated": "2026-07-12",
+        "place_metadata": null,
+        "snippet": "4. 你如何看待 AI 对后端开发影响？",
+        "source": "web",
+        "title": "7 道AI 编程高频面试题！涵盖Cursor、Claude Code、Skills",
+        "url": "https://www.cnblogs.com/javaguide/p/19637656"
+      },
+      {
+        "date": "2022-12-20",
+        "last_updated": "2026-06-25",
+        "place_metadata": null,
+        "snippet": "AI面试是指采用语音识别、图像识别等人工智能技术对候选人进行面试，并对答案进行分析，然后根据职位所需的特质进行赋分，给出评分报告，筛选出得分较高的候选人，HR结合简历来判断是否进行后续的面试。",
+        "source": "web",
+        "title": "当机器人成为“面试官” - 新京报",
+        "url": "https://m.bjnews.com.cn/detail/167150449614980.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "InterviewTrainerAI 是一款頂尖應用程式，可模擬真實情境，協助求職者針對特定需求準備面試。應用程式會使用 Gemini API，提供個人化面試體驗，讓使用者不必採用傳統練習方法。",
+        "source": "web",
+        "title": "InterviewTrainerAI | Gemini API Developer Competition",
+        "url": "https://ai.google.dev/competition/projects/interviewtrainerai?hl=zh-tw"
+      },
+      {
+        "date": "2026-04-05",
+        "last_updated": "2026-06-22",
+        "place_metadata": null,
+        "snippet": "Interview Skills is an AI mock interview coach for job seekers.\nIt generates targeted mock interview questions from a real job description and a candidate resume.\n...\n1. 告诉 AI：目标公司 + 岗位名称\n↓\n2. 粘贴 JD 内容（没有也行，有会更精准）\n↓\n3. 上传简历（PDF / 图片 / 文字均可，没有也行）\n↓\n4. 获得 JD vs 简历匹配度分析",
+        "source": "web",
+        "title": "GitHub - jennifer88huang/interview-skills: 大厂 AI 模拟面试官 Skill。AI mock interview: generate personalized interview questions from JD and resume, with follow-up practice for Big Tech interviews.",
+        "url": "https://ithub.global.ssl.fastly.net/jennifer88huang/interview-skills"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 328,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00033,
+        "request_cost": 0.005,
+        "total_cost": 0.00536
+      },
+      "prompt_tokens": 34,
+      "search_context_size": "low",
+      "total_tokens": 362
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:24:54.273071Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T04",
+    "answerEvidence": "**Skillver 的“正式 AI 面试”**，指的是一种用于**能力认证**和**投递凭证**的面试流程；与“彩排/模拟面试”不同，它生成的正式报告可用于向平台合作企业投递，平台也明确要求投递某个岗位前，至少完成 1 次正式 AI 面试并生成对应报告。[1][2][5][6]\n\n它的核心特点是：\n\n- **目的不同**：彩排用于练习表达、熟悉题型；正式 AI 面试用于能力核验与投递。[1][4][5]\n- **结果不同**：正式面试会生成 **KAE 能力报告**，包含七维战力评估、维度分数与说明等内容。[4][5][6]\n- **投递要求**：在 Skillver 的链路里，某个岗位下需要至少有 1 份正式 AI 面试报告，彩排报告不能替代正式报告。[1][2][5]\n- **流程形式**：通常会让你完成岗位相关题目，支持文字或语音输入，面试结束后约 2–5 分钟生成报告。[2]\n\n如果你愿意，我也可以继续帮你解释：**Skillver 正式 AI 面试具体怎么做**、**和彩排的区别**，或者**这份报告企业会看到什么**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

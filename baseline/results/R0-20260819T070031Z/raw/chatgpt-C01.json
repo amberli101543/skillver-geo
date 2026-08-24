@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "下面是一些常见且实用的 **AI 求职助手推荐**，可按你的需求选择：\n\n## 1. 简历优化类\n### ✅ ChatGPT / Claude / Gemini\n适合：修改简历、提炼项目经历、生成求职信  \n可用方式：\n- 优化简历 bullet points\n- 根据 JD 定制简历\n- 生成英文简历/求职信\n- 模拟 HR 筛选视角检查简历\n\n推荐提示词：\n> 请根据以下岗位 JD，帮我优化这份简历，使其更匹配岗位要求，并突出量化成果。\n\n### ✅ Kickresume\n适合：英文简历模板、AI 简历生成  \n特点：模板美观，适合外企、海外求职。\n\n### ✅ Rezi\n适合：ATS 简历优化  \n特点：会根据关键词匹配岗位 JD，适合投递大厂或海外岗位。\n\n---\n\n## 2. 岗位匹配与投递类\n### ✅ LinkedIn AI\n适合：海外/外企求职  \n功能：\n- 岗位推荐\n- 简历与岗位匹配度分析\n- 生成求职信\n\n### ✅ Boss直聘 / 猎聘 / 智联招聘 / 前程无忧\n适合：国内求职  \n虽然不是纯 AI 工具，但岗位推荐和简历曝光较实用。\n\n### ✅ OfferUp / 职徒简历 / 超级简历\n适合：国内简历制作、岗位匹配、求职辅导  \n对中文简历比较友好。\n\n---\n\n## 3. 面试准备类\n### ✅ ChatGPT\n适合：模拟面试、行为面试、技术面试  \n可让 AI 扮演：\n- HR\n- 技术面试官\n- 业务面试官\n- 压力面试官\n\n提示词示例：\n> 你现在是某互联网公司的产品经理面试官，请根据我的简历对我进行一轮 30 分钟模拟面试，并在每个回答后给出改进建议。\n\n### ✅ Pramp\n适合：程序员模拟面试  \n特点：偏技术面试，适合算法和系统设计。\n\n### ✅ Interviewing.io\n适合：海外技术岗模拟面试  \n适合有一定英语基础的求职者。\n\n---\n\n## 4. 程序员求职类\n### ✅ LeetCode + ChatGPT\n适合：算法刷题、题解讲解、模拟技术面  \n用法：\n- 分析题目思路\n- 优化代码\n- 讲解复杂度\n- 模拟算法面试\n\n### ✅ GitHub Copilot\n适合：编码练习、项目完善  \n对技术岗准备作品集有帮助。\n\n---\n\n## 5. 英文求职类\n### ✅ Grammarly\n适合：英文简历、邮件、LinkedIn 简介润色  \n特点：语法纠错和语气优化很好用。\n\n### ✅ DeepL / 有道翻译 / ChatGPT\n适合：中英文简历转换、求职邮件翻译。\n\n---\n\n## 我的推荐组合\n\n### 国内求职：\n**ChatGPT + 超级简历/职徒简历 + Boss直聘/猎聘**\n\n### 海外/外企求职：\n**ChatGPT + LinkedIn + Rezi/Kickresume + Grammarly**\n\n### 程序员求职：\n**ChatGPT + LeetCode + GitHub Copilot + LinkedIn/Boss直聘**\n\n### 应届生求职：\n**ChatGPT + 超级简历 + 牛客网 + Boss直聘**\n\n---\n\n## 使用建议\nAI 工具可以帮你提高效率，但不要完全照搬。重点要做到：\n\n1. 简历内容真实  \n2. 每份简历尽量匹配目标岗位  \n3. 多使用量化成果  \n4. 面试回答要结合个人经历  \n5. 谨慎上传身份证号、手机号、薪资证明等敏感信息  \n\n如果你愿意，也可以把你的 **行业、岗位方向、工作年限、是否需要中文/英文简历** 发给我，我可以帮你推荐更具体的 AI 求职工具组合。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEV3Xn6mnJ3hZEzzJNjSglEpLuJiF",
+    "object": "chat.completion",
+    "created": 1787124679,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "下面是一些常见且实用的 **AI 求职助手推荐**，可按你的需求选择：\n\n## 1. 简历优化类\n### ✅ ChatGPT / Claude / Gemini\n适合：修改简历、提炼项目经历、生成求职信  \n可用方式：\n- 优化简历 bullet points\n- 根据 JD 定制简历\n- 生成英文简历/求职信\n- 模拟 HR 筛选视角检查简历\n\n推荐提示词：\n> 请根据以下岗位 JD，帮我优化这份简历，使其更匹配岗位要求，并突出量化成果。\n\n### ✅ Kickresume\n适合：英文简历模板、AI 简历生成  \n特点：模板美观，适合外企、海外求职。\n\n### ✅ Rezi\n适合：ATS 简历优化  \n特点：会根据关键词匹配岗位 JD，适合投递大厂或海外岗位。\n\n---\n\n## 2. 岗位匹配与投递类\n### ✅ LinkedIn AI\n适合：海外/外企求职  \n功能：\n- 岗位推荐\n- 简历与岗位匹配度分析\n- 生成求职信\n\n### ✅ Boss直聘 / 猎聘 / 智联招聘 / 前程无忧\n适合：国内求职  \n虽然不是纯 AI 工具，但岗位推荐和简历曝光较实用。\n\n### ✅ OfferUp / 职徒简历 / 超级简历\n适合：国内简历制作、岗位匹配、求职辅导  \n对中文简历比较友好。\n\n---\n\n## 3. 面试准备类\n### ✅ ChatGPT\n适合：模拟面试、行为面试、技术面试  \n可让 AI 扮演：\n- HR\n- 技术面试官\n- 业务面试官\n- 压力面试官\n\n提示词示例：\n> 你现在是某互联网公司的产品经理面试官，请根据我的简历对我进行一轮 30 分钟模拟面试，并在每个回答后给出改进建议。\n\n### ✅ Pramp\n适合：程序员模拟面试  \n特点：偏技术面试，适合算法和系统设计。\n\n### ✅ Interviewing.io\n适合：海外技术岗模拟面试  \n适合有一定英语基础的求职者。\n\n---\n\n## 4. 程序员求职类\n### ✅ LeetCode + ChatGPT\n适合：算法刷题、题解讲解、模拟技术面  \n用法：\n- 分析题目思路\n- 优化代码\n- 讲解复杂度\n- 模拟算法面试\n\n### ✅ GitHub Copilot\n适合：编码练习、项目完善  \n对技术岗准备作品集有帮助。\n\n---\n\n## 5. 英文求职类\n### ✅ Grammarly\n适合：英文简历、邮件、LinkedIn 简介润色  \n特点：语法纠错和语气优化很好用。\n\n### ✅ DeepL / 有道翻译 / ChatGPT\n适合：中英文简历转换、求职邮件翻译。\n\n---\n\n## 我的推荐组合\n\n### 国内求职：\n**ChatGPT + 超级简历/职徒简历 + Boss直聘/猎聘**\n\n### 海外/外企求职：\n**ChatGPT + LinkedIn + Rezi/Kickresume + Grammarly**\n\n### 程序员求职：\n**ChatGPT + LeetCode + GitHub Copilot + LinkedIn/Boss直聘**\n\n### 应届生求职：\n**ChatGPT + 超级简历 + 牛客网 + Boss直聘**\n\n---\n\n## 使用建议\nAI 工具可以帮你提高效率，但不要完全照搬。重点要做到：\n\n1. 简历内容真实  \n2. 每份简历尽量匹配目标岗位  \n3. 多使用量化成果  \n4. 面试回答要结合个人经历  \n5. 谨慎上传身份证号、手机号、薪资证明等敏感信息  \n\n如果你愿意，也可以把你的 **行业、岗位方向、工作年限、是否需要中文/英文简历** 发给我，我可以帮你推荐更具体的 AI 求职工具组合。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 946,
+      "total_tokens": 986,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 36,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:31:32.852865Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "下面是一些常见且实用的 **AI 求职助手推荐**，可按你的需求选择：\n\n## 1. 简历优化类\n### ✅ ChatGPT / Claude / Gemini\n适合：修改简历、提炼项目经历、生成求职信  \n可用方式：\n- 优化简历 bullet points\n- 根据 JD 定制简历\n- 生成英文简历/求职信\n- 模拟 HR 筛选视角检查简历\n\n推荐提示词：\n> 请根据以下岗位 JD，帮我优化这份简历，使其更匹配岗位要求，并突出量化成果。\n\n### ✅ Kickresume\n适合：英文简历模板、AI 简历生成  \n特点：模板美观，适合外企、海外求职。\n\n### ✅ Rezi\n适合：ATS 简历优化  \n特点：会根据关键词匹配岗位 JD，适合投递大厂或海外岗位。\n\n---\n\n## 2. 岗位匹配与投递类\n### ✅ LinkedIn AI\n适合：海外/外企求职  \n功能：\n- 岗位推荐\n- 简历与岗位匹配度分析\n- 生成求职信\n\n### ✅ Boss直聘 / 猎聘 / 智联招聘 / 前程无忧\n适合：国内求职  \n虽然不是纯 AI 工具，但岗位推荐和简历曝光较实用。\n\n### ✅ OfferUp / 职徒简历 / 超级简历\n适合：国内简历制作、岗位匹配、求职辅导  \n对中文简历比较友好。\n\n---\n\n## 3. 面试准备类\n### ✅ ChatGPT\n适合：模拟面试、行为面试、技术面试  \n可让 AI 扮演：\n- HR\n- 技术面试官\n- 业务面试官\n- 压力面试官\n\n提示词示例：\n> 你现在是某互联网公司的产品经理面试官，请根据我的简历对我进行一轮 30 分钟模拟面试，并在每个回答后给出改进建议。\n\n### ✅ Pramp\n适合：程序员模拟面试  \n特点：偏技术面试，适合算法和系统设计。\n\n### ✅ Interviewing.io\n适合：海外技术岗模拟面试  \n适合有一定英语基础的求职者。\n\n---\n\n## 4. 程序员求职类\n### ✅ LeetCode + ChatGPT\n适合：算法刷题、题解讲解、模拟技术面  \n用法：\n- 分析题目思路\n- 优化代码\n- 讲解复杂度\n- 模拟算法面试\n\n### ✅ GitHub Copilot\n适合：编码练习、项目完善  \n对技术岗准备作品集有帮助。\n\n---\n\n## 5. 英文求职类\n### ✅ Grammarly\n适合：英文简历、邮件、LinkedIn 简介润色  \n特点：语法纠错和语气优化很好用。\n\n### ✅ DeepL / 有道翻译 / ChatGPT\n适合：中英文简历转换、求职邮件翻译。\n\n---\n\n## 我的推荐组合\n\n### 国内求职：\n**ChatGPT + 超级简历/职徒简历 + Boss直聘/猎聘**\n\n### 海外/外企求职：\n**ChatGPT + LinkedIn + Rezi/Kickresume + Grammarly**\n\n### 程序员求职：\n**ChatGPT + LeetCode + GitHub Copilot + LinkedIn/Boss直聘**\n\n### 应届生求职：\n**ChatGPT + 超级简历 + 牛客网 + Boss直聘**\n\n---\n\n## 使用建议\nAI 工具可以帮你提高效率，但不要完全照搬。重点要做到：\n\n1. 简历内容真实  \n2. 每份简历尽量匹配目标岗位  \n3. 多使用量化成果  \n4. 面试回答要结合个人经历  \n5. 谨慎上传身份证号、手机号、薪资证明等敏感信息  \n\n如果你愿意，也可以把你的 **行业、岗位方向、工作年限、是否需要中文/英文简历** 发给我，我可以帮你推荐更具体的 AI 求职工具组合。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

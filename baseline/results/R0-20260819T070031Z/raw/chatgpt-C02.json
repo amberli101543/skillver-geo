@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "常见的 **AI 模拟面试工具** 可以分为通用面试、求职面试、程序员技术面试、英语/表达训练几类：\n\n### 一、通用 AI 模拟面试工具\n1. **ChatGPT / Claude / Gemini**\n   - 可让 AI 扮演面试官，按岗位进行追问、评价回答。\n   - 适合：通用岗位、行为面试、简历深挖、英文面试。\n\n2. **Google Interview Warmup**\n   - Google 推出的免费面试练习工具。\n   - 适合：基础面试练习、英文回答训练。\n\n3. **Yoodli**\n   - 偏重口语表达、语速、停顿、眼神和表达清晰度反馈。\n   - 适合：英语面试、演讲、presentation 练习。\n\n4. **Big Interview**\n   - 提供模拟面试题库、录制回答和反馈。\n   - 适合：求职面试系统训练。\n\n5. **Huru**\n   - 基于岗位描述生成面试问题，并给出 AI 反馈。\n   - 适合：快速针对某个 JD 做练习。\n\n---\n\n### 二、求职类 AI 面试工具\n1. **Final Round AI**\n   - 提供模拟面试、实时答题辅助、简历优化等功能。\n   - 适合：准备海外求职、英文面试。\n\n2. **Interview Prep AI**\n   - 上传简历或岗位描述后生成模拟问题。\n   - 适合：简历面、HR 面、行为面试。\n\n3. **LinkedIn Interview Prep**\n   - 提供常见面试问题和参考回答。\n   - 适合：英文求职、职场通用问题准备。\n\n---\n\n### 三、程序员/技术岗模拟面试工具\n1. **LeetCode Interview**\n   - 适合算法题、技术面试刷题和模拟。\n   - 适合：程序员、算法岗、后端、前端。\n\n2. **HackerRank Interview**\n   - 常用于企业技术测评和远程面试。\n   - 适合：代码能力测试、技术笔试。\n\n3. **CoderPad**\n   - 在线代码面试环境。\n   - 适合：技术面试实战模拟。\n\n4. **CodeSignal**\n   - 提供编程能力测评和模拟测试。\n   - 适合：海外技术岗求职。\n\n5. **interviewing.io**\n   - 可与工程师进行匿名技术模拟面试。\n   - 适合：准备硅谷/海外大厂技术面。\n\n6. **Pramp / Exponent**\n   - 提供技术面、产品经理面、系统设计等模拟。\n   - 适合：技术岗、PM、数据岗。\n\n---\n\n### 四、国内可关注的平台\n1. **牛客网**\n   - 有大量笔试、面经、技术面试题和部分 AI/模拟面试功能。\n   - 适合：互联网、校招、技术岗。\n\n2. **BOSS 直聘、智联招聘、前程无忧等招聘平台**\n   - 部分平台会提供简历优化、面试辅导或 AI 面试相关功能。\n   - 适合：国内求职场景。\n\n3. **脉脉、高顿、拉勾等垂直平台**\n   - 可能提供面试经验、岗位题库、职业辅导类服务。\n   - 适合：特定行业或岗位准备。\n\n---\n\n### 五、如果你想自己用 AI 做模拟面试\n可以直接对 ChatGPT 输入：\n\n> 你现在是一名资深面试官，我要面试【产品经理】岗位。请根据以下 JD 和我的简历，对我进行一轮模拟面试。每次只问一个问题，根据我的回答继续追问，最后给出评分和改进建议。\n\n这种方式灵活度最高，适合针对具体岗位反复练习。\n\n---\n\n### 简单推荐\n- **通用岗位/中文面试**：ChatGPT、牛客网、招聘平台自带工具  \n- **英文面试**：Google Interview Warmup、Yoodli、Big Interview  \n- **程序员面试**：LeetCode、HackerRank、CoderPad、interviewing.io  \n- **海外求职**：Final Round AI、Interview Prep AI、Exponent  \n- **想省钱**：ChatGPT + JD + 简历，自定义模拟面试即可。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEV5QRi8xlAV2qokhTQ9qYkJUesSX",
+    "object": "chat.completion",
+    "created": 1787124796,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "常见的 **AI 模拟面试工具** 可以分为通用面试、求职面试、程序员技术面试、英语/表达训练几类：\n\n### 一、通用 AI 模拟面试工具\n1. **ChatGPT / Claude / Gemini**\n   - 可让 AI 扮演面试官，按岗位进行追问、评价回答。\n   - 适合：通用岗位、行为面试、简历深挖、英文面试。\n\n2. **Google Interview Warmup**\n   - Google 推出的免费面试练习工具。\n   - 适合：基础面试练习、英文回答训练。\n\n3. **Yoodli**\n   - 偏重口语表达、语速、停顿、眼神和表达清晰度反馈。\n   - 适合：英语面试、演讲、presentation 练习。\n\n4. **Big Interview**\n   - 提供模拟面试题库、录制回答和反馈。\n   - 适合：求职面试系统训练。\n\n5. **Huru**\n   - 基于岗位描述生成面试问题，并给出 AI 反馈。\n   - 适合：快速针对某个 JD 做练习。\n\n---\n\n### 二、求职类 AI 面试工具\n1. **Final Round AI**\n   - 提供模拟面试、实时答题辅助、简历优化等功能。\n   - 适合：准备海外求职、英文面试。\n\n2. **Interview Prep AI**\n   - 上传简历或岗位描述后生成模拟问题。\n   - 适合：简历面、HR 面、行为面试。\n\n3. **LinkedIn Interview Prep**\n   - 提供常见面试问题和参考回答。\n   - 适合：英文求职、职场通用问题准备。\n\n---\n\n### 三、程序员/技术岗模拟面试工具\n1. **LeetCode Interview**\n   - 适合算法题、技术面试刷题和模拟。\n   - 适合：程序员、算法岗、后端、前端。\n\n2. **HackerRank Interview**\n   - 常用于企业技术测评和远程面试。\n   - 适合：代码能力测试、技术笔试。\n\n3. **CoderPad**\n   - 在线代码面试环境。\n   - 适合：技术面试实战模拟。\n\n4. **CodeSignal**\n   - 提供编程能力测评和模拟测试。\n   - 适合：海外技术岗求职。\n\n5. **interviewing.io**\n   - 可与工程师进行匿名技术模拟面试。\n   - 适合：准备硅谷/海外大厂技术面。\n\n6. **Pramp / Exponent**\n   - 提供技术面、产品经理面、系统设计等模拟。\n   - 适合：技术岗、PM、数据岗。\n\n---\n\n### 四、国内可关注的平台\n1. **牛客网**\n   - 有大量笔试、面经、技术面试题和部分 AI/模拟面试功能。\n   - 适合：互联网、校招、技术岗。\n\n2. **BOSS 直聘、智联招聘、前程无忧等招聘平台**\n   - 部分平台会提供简历优化、面试辅导或 AI 面试相关功能。\n   - 适合：国内求职场景。\n\n3. **脉脉、高顿、拉勾等垂直平台**\n   - 可能提供面试经验、岗位题库、职业辅导类服务。\n   - 适合：特定行业或岗位准备。\n\n---\n\n### 五、如果你想自己用 AI 做模拟面试\n可以直接对 ChatGPT 输入：\n\n> 你现在是一名资深面试官，我要面试【产品经理】岗位。请根据以下 JD 和我的简历，对我进行一轮模拟面试。每次只问一个问题，根据我的回答继续追问，最后给出评分和改进建议。\n\n这种方式灵活度最高，适合针对具体岗位反复练习。\n\n---\n\n### 简单推荐\n- **通用岗位/中文面试**：ChatGPT、牛客网、招聘平台自带工具  \n- **英文面试**：Google Interview Warmup、Yoodli、Big Interview  \n- **程序员面试**：LeetCode、HackerRank、CoderPad、interviewing.io  \n- **海外求职**：Final Round AI、Interview Prep AI、Exponent  \n- **想省钱**：ChatGPT + JD + 简历，自定义模拟面试即可。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 1165,
+      "total_tokens": 1208,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 170,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:33:33.458466Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "常见的 **AI 模拟面试工具** 可以分为通用面试、求职面试、程序员技术面试、英语/表达训练几类：\n\n### 一、通用 AI 模拟面试工具\n1. **ChatGPT / Claude / Gemini**\n   - 可让 AI 扮演面试官，按岗位进行追问、评价回答。\n   - 适合：通用岗位、行为面试、简历深挖、英文面试。\n\n2. **Google Interview Warmup**\n   - Google 推出的免费面试练习工具。\n   - 适合：基础面试练习、英文回答训练。\n\n3. **Yoodli**\n   - 偏重口语表达、语速、停顿、眼神和表达清晰度反馈。\n   - 适合：英语面试、演讲、presentation 练习。\n\n4. **Big Interview**\n   - 提供模拟面试题库、录制回答和反馈。\n   - 适合：求职面试系统训练。\n\n5. **Huru**\n   - 基于岗位描述生成面试问题，并给出 AI 反馈。\n   - 适合：快速针对某个 JD 做练习。\n\n---\n\n### 二、求职类 AI 面试工具\n1. **Final Round AI**\n   - 提供模拟面试、实时答题辅助、简历优化等功能。\n   - 适合：准备海外求职、英文面试。\n\n2. **Interview Prep AI**\n   - 上传简历或岗位描述后生成模拟问题。\n   - 适合：简历面、HR 面、行为面试。\n\n3. **LinkedIn Interview Prep**\n   - 提供常见面试问题和参考回答。\n   - 适合：英文求职、职场通用问题准备。\n\n---\n\n### 三、程序员/技术岗模拟面试工具\n1. **LeetCode Interview**\n   - 适合算法题、技术面试刷题和模拟。\n   - 适合：程序员、算法岗、后端、前端。\n\n2. **HackerRank Interview**\n   - 常用于企业技术测评和远程面试。\n   - 适合：代码能力测试、技术笔试。\n\n3. **CoderPad**\n   - 在线代码面试环境。\n   - 适合：技术面试实战模拟。\n\n4. **CodeSignal**\n   - 提供编程能力测评和模拟测试。\n   - 适合：海外技术岗求职。\n\n5. **interviewing.io**\n   - 可与工程师进行匿名技术模拟面试。\n   - 适合：准备硅谷/海外大厂技术面。\n\n6. **Pramp / Exponent**\n   - 提供技术面、产品经理面、系统设计等模拟。\n   - 适合：技术岗、PM、数据岗。\n\n---\n\n### 四、国内可关注的平台\n1. **牛客网**\n   - 有大量笔试、面经、技术面试题和部分 AI/模拟面试功能。\n   - 适合：互联网、校招、技术岗。\n\n2. **BOSS 直聘、智联招聘、前程无忧等招聘平台**\n   - 部分平台会提供简历优化、面试辅导或 AI 面试相关功能。\n   - 适合：国内求职场景。\n\n3. **脉脉、高顿、拉勾等垂直平台**\n   - 可能提供面试经验、岗位题库、职业辅导类服务。\n   - 适合：特定行业或岗位准备。\n\n---\n\n### 五、如果你想自己用 AI 做模拟面试\n可以直接对 ChatGPT 输入：\n\n> 你现在是一名资深面试官，我要面试【产品经理】岗位。请根据以下 JD 和我的简历，对我进行一轮模拟面试。每次只问一个问题，根据我的回答继续追问，最后给出评分和改进建议。\n\n这种方式灵活度最高，适合针对具体岗位反复练习。\n\n---\n\n### 简单推荐\n- **通用岗位/中文面试**：ChatGPT、牛客网、招聘平台自带工具  \n- **英文面试**：Google Interview Warmup、Yoodli、Big Interview  \n- **程序员面试**：LeetCode、HackerRank、CoderPad、interviewing.io  \n- **海外求职**：Final Round AI、Interview Prep AI、Exponent  \n- **想省钱**：ChatGPT + JD + 简历，自定义模拟面试即可。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

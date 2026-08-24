@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "我无法直接确认 **Skillver 当前是否已开放使用**，因为这取决于它的官方发布/内测状态，且我没有实时访问其官网或公告的能力。\n\n建议你通过以下方式确认：\n\n1. 查看 Skillver 官方网站或登录入口是否开放注册/使用  \n2. 关注官方公告、社群、公众号或 Discord/微信群等渠道  \n3. 如果有邀请码机制，可能仍处于内测或限量开放阶段  \n4. 联系官方客服或项目方确认当前开放范围\n\n如果你能提供 Skillver 的官网链接或截图，我可以帮你判断它目前看起来是公测、内测还是尚未开放。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUhZaDixqtqjkQlJYpFWccz4yxeo",
+    "object": "chat.completion",
+    "created": 1787123317,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我无法直接确认 **Skillver 当前是否已开放使用**，因为这取决于它的官方发布/内测状态，且我没有实时访问其官网或公告的能力。\n\n建议你通过以下方式确认：\n\n1. 查看 Skillver 官方网站或登录入口是否开放注册/使用  \n2. 关注官方公告、社群、公众号或 Discord/微信群等渠道  \n3. 如果有邀请码机制，可能仍处于内测或限量开放阶段  \n4. 联系官方客服或项目方确认当前开放范围\n\n如果你能提供 Skillver 的官网链接或截图，我可以帮你判断它目前看起来是公测、内测还是尚未开放。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 222,
+      "total_tokens": 264,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 69,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:08:40.286805Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "我无法直接确认 **Skillver 当前是否已开放使用**，因为这取决于它的官方发布/内测状态，且我没有实时访问其官网或公告的能力。\n\n建议你通过以下方式确认：\n\n1. 查看 Skillver 官方网站或登录入口是否开放注册/使用  \n2. 关注官方公告、社群、公众号或 Discord/微信群等渠道  \n3. 如果有邀请码机制，可能仍处于内测或限量开放阶段  \n4. 联系官方客服或项目方确认当前开放范围\n\n如果你能提供 Skillver 的官网链接或截图，我可以帮你判断它目前看起来是公测、内测还是尚未开放。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

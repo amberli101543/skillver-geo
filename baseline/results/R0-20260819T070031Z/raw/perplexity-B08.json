@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "不能。根据 Skillver 自己的常见问题和说明，平台提供的是**求职准备、能力核验和机会连接**，但**不承诺**你一定通过评估、拿到面试邀约或最终 offer。[1][2][3][4]\n\n更具体地说，Skillver 明确写到：\n- **注册使用不等于拿到 offer**。[1][2]\n- **正式 AI 面试**生成的报告只是投递所需的能力凭证，不是录用保证。[3][10]\n- 平台提供的是匹配、练习、正式评估与投递衔接，结果仍取决于企业和你的实际表现。[3][4]\n\n如果你愿意，我也可以帮你进一步判断：**Skillver 这种服务值不值得用**，或者**怎么防止被“保 offer”类宣传误导**。",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://sghexport.shobserver.com/html/toutiao/2021/09/05/529810.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/interviews/comments/1g480jv/how_to_tell_if_your_offer_is_a_scam/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "http://finance.people.com.cn/BIG5/n1/2021/0730/c1004-32175264.html",
+      "title": ""
+    },
+    {
+      "url": "http://zqb.cyol.com/html/2021-07/30/nw.D110000zgqnb_20210730_1-08.htm",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/contact-us/",
+      "title": ""
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": ""
+    },
+    {
+      "url": "https://wahve.com/job-offer-scams-how-to-spot-them-before-they-spot-you/",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L409JBEF05561FZI.html",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.fiverr.com/gigs/job-offer",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://sghexport.shobserver.com/html/toutiao/2021/09/05/529810.html",
+      "title": "“6万元保Offer”？当心，这是在割你韭菜"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.reddit.com/r/interviews/comments/1g480jv/how_to_tell_if_your_offer_is_a_scam/",
+      "title": "怎么辨别你的offer是不是骗局: r/interviews - Reddit"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "http://finance.people.com.cn/BIG5/n1/2021/0730/c1004-32175264.html",
+      "title": "高價購買“內推”“保offer”求職服務靠譜嗎"
+    },
+    {
+      "url": "http://zqb.cyol.com/html/2021-07/30/nw.D110000zgqnb_20210730_1-08.htm",
+      "title": "高价购买“内推”“保offer”求职服务靠谱吗 - 中国青年报"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": "Skillver | Education"
+    },
+    {
+      "url": "https://skillveri.com/contact-us/",
+      "title": "Skillveri VR MR Welding & Painting Simulators - Contact Us"
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”"
+    },
+    {
+      "url": "https://wahve.com/job-offer-scams-how-to-spot-them-before-they-spot-you/",
+      "title": "Job Offer Scams: How to Spot Them Before They Spot You - wahve"
+    },
+    {
+      "url": "https://www.163.com/dy/article/L409JBEF05561FZI.html",
+      "title": "3个关键陷阱：选IT培训班前必须看清，否则白花钱_手机网易网"
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.fiverr.com/gigs/job-offer",
+      "title": "24 Best Job Offer Services To Buy Online | Fiverr"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "不能。根据 Skillver 自己的常见问题和说明，平台提供的是**求职准备、能力核验和机会连接**，但**不承诺**你一定通过评估、拿到面试邀约或最终 offer。[1][2][3][4]\n\n更具体地说，Skillver 明确写到：\n- **注册使用不等于拿到 offer**。[1][2]\n- **正式 AI 面试**生成的报告只是投递所需的能力凭证，不是录用保证。[3][10]\n- 平台提供的是匹配、练习、正式评估与投递衔接，结果仍取决于企业和你的实际表现。[3][4]\n\n如果你愿意，我也可以帮你进一步判断：**Skillver 这种服务值不值得用**，或者**怎么防止被“保 offer”类宣传误导**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://sghexport.shobserver.com/html/toutiao/2021/09/05/529810.html",
+      "https://tcodeai.com/beta.html",
+      "https://tcodeai.com/products/skillver.html",
+      "https://www.reddit.com/r/interviews/comments/1g480jv/how_to_tell_if_your_offer_is_a_scam/",
+      "https://www.skillver.cn/beta",
+      "https://www.skillver.cn/help/glossary",
+      "http://finance.people.com.cn/BIG5/n1/2021/0730/c1004-32175264.html",
+      "http://zqb.cyol.com/html/2021-07/30/nw.D110000zgqnb_20210730_1-08.htm",
+      "https://www.linkedin.com/company/skillver",
+      "https://skillveri.com/contact-us/",
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "https://wahve.com/job-offer-scams-how-to-spot-them-before-they-spot-you/",
+      "https://www.163.com/dy/article/L409JBEF05561FZI.html",
+      "https://linktr.ee/Skillver.Academy",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.fiverr.com/gigs/job-offer"
+    ],
+    "created": 1787123393,
+    "id": "11cfbdcd-8656-478d-9316-7f77eca969d1",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "## 四、平台不承诺招聘结果\nSkillver 提供的是求职准备、能力核验和机会连接工具，不承诺用户一定通过核验、获得企业面试或拿到 offer。产品仍在迭代评分校准、多模态临场感与真人辅导产品化等环节。\n...\n- **注册使用就能拿到 offer 吗？**\n不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "- **注册使用就能拿到 offer 吗？**\n不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。\n...\n不可以。模拟面试用于练习，不是正式面试或投递凭证；平台投递链路要求对应岗位下已有正式 AI 面试报告。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个**岗位** 前，需至少完成 1 次**正式** AI 面试并生成对应报告——这是向头部科技企业投递的硬通行证。**岗位** 是平台 49 个标准岗名，**职位** 是企业发布的具体在招条目（含 JD、薪资等）。\n...\nSkil...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "- 彩排不计入企业正式评估；\n- 彩排报告不能替代正式 AI 面试报告，也不能用于投递；\n- 正式 AI 面试完成后生成的报告，才是向企业投递所需的能力凭证；\n- 平台不承诺正式评估通过、面试邀约或 offer。\n...\n平台站在人才一侧，提供匹配、练习、正式评估与投递衔接；不承诺面试通过或 offer。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "AI 面试分为模拟与正式两种用途。模拟面试用于练习表达、熟悉题型，不能作为正式面试或投递凭证；正式 AI 面试用于能力核验并生成正式报告。报告可包含七维战力能力雷达、维度分数与说明、面试对话回顾等内容。\n...\n用户可浏览企业发布的具体职位，投递后跟进企业约面和沟通状态。平台有明确前提：向某个职位投递前，需要在该职位对应的标准岗位下已有正式 AI 面试报告。\n...\n一句话概括：Skillver 用 AI 帮求职者按目标岗位完成准备、能力核验和机会连接，但不承诺通过面试或拿到 offer。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2021-09-05",
+        "last_updated": "2025-10-07",
+        "place_metadata": null,
+        "snippet": "双方签订的合同补充协议还规定，在服务过程中，求职者因个人原因或外界原因而放弃求职，届时职问并未协助求职者取得目标公司目标岗位录用通知书的，双方可签署终止协议。求职者中途自行取得目标Offer，也可以终止协议。\n然而，签订合同后，求职者发现，所谓的内部资源只是内推码和往年的笔试题，没有有效的内部资源，也无法保证Offer。\n...\n但从事职前教育行业的王先生表示，所谓的“保成功Offer”是一个概率事件，如果求职者实力不错，通过培训拿到Offer了，那求职机构就赚翻了。如果没拿到Offer，退一部分钱，平台也不会亏。\n...\n某互联网大厂HR人员回复中新网，不存在出售实习和工作机会的现象。如果候...",
+        "source": "web",
+        "title": "“6万元保Offer”？当心，这是在割你韭菜",
+        "url": "https://sghexport.shobserver.com/html/toutiao/2021/09/05/529810.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "- **企业沟通**：浏览在招职位，结构化跟进投递、约面、offer",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 不卖简历流量，卖可验证的能力闭环。先验证，再匹配，再成交——头部 AI 企业的门槛，已从「会不会调 API」变成「能不能在高压面试里讲清系统思维」。\n...\nKAE 面试 · 七维报告 · 投递硬闸门。适合冲刺头部 offer 的优秀人才。",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": "2024-10-15",
+        "last_updated": "2026-01-19",
+        "place_metadata": null,
+        "snippet": "It's essential to confirm the authenticity of any job proposal you receive, particularly when they promise high salaries and request personal expenditures.",
+        "source": "web",
+        "title": "怎么辨别你的offer是不是骗局: r/interviews - Reddit",
+        "url": "https://www.reddit.com/r/interviews/comments/1g480jv/how_to_tell_if_your_offer_is_a_scam/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "- 投递企业：直连 AI 独角兽与 AI 大厂 HR，接收面试邀约",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "AI 面试报告是人才完成正式 AI 面试（非彩排）后生成的 KAE 能力报告，包含七维战力评估与面试摘要，是向平台合作企业投递的硬通行证。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2021-07-30",
+        "last_updated": "2025-11-19",
+        "place_metadata": null,
+        "snippet": "花錢買‘內推’入職機會大多會被‘打臉’﹔‘保offer’的承諾能否兌現因人而異，如果遇到不靠譜的導師，或者學生自己實力不足、努力不夠，都會導致求職失敗。”\n...\n在這家公司工作期間，王安妮對日益發展的求職服務行業有了更多了解。她估計，真的通過花錢買到“內推”入職機會的不到一成。與此同時，學生、家長前來投訴、要求退費的情況很多。",
+        "source": "web",
+        "title": "高價購買“內推”“保offer”求職服務靠譜嗎",
+        "url": "http://finance.people.com.cn/BIG5/n1/2021/0730/c1004-32175264.html"
+      },
+      {
+        "date": "2021-07-30",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "一位曾先后供职于两家求职辅导机构的专业人士告诉记者：“咨询顾问提供的信息大同小异，自己上网多搜搜、多问问已经工作的学兄学姐一样能了解到。花钱买‘内推’入职机会大多会被‘打脸’；‘保offer’的承诺能否兑现因人而异，如果遇到不靠谱的导师，或者学生自己实力不足、努力不够，都会导致求职失败。”\n...\n在这家公司工作期间，王安妮对日益发展的求职服务行业有了更多了解。她估计，真的通过花钱买到“内推”入职机会的不到一成。与此同时，学生、家长前来投诉、要求退费的情况很多。",
+        "source": "web",
+        "title": "高价购买“内推”“保offer”求职服务靠谱吗 - 中国青年报",
+        "url": "http://zqb.cyol.com/html/2021-07/30/nw.D110000zgqnb_20210730_1-08.htm"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "Skillver is an academy dedicated to empowering children and teenagers aged 6 to 18 with essential soft skills that are often overlooked in traditional education systems, through engaging, interactive, and age-appropriate onsite workshops.",
+        "source": "web",
+        "title": "Skillver | Education",
+        "url": "https://www.linkedin.com/company/skillver"
+      },
+      {
+        "date": "2025-06-05",
+        "last_updated": "2025-06-24",
+        "place_metadata": null,
+        "snippet": "#### Global HQ: Chennai, India\n2nd Floor, Anugraha Business Enclave,\nNew No. 10. Old No. 29, Periyar Salai, Tirunagar, Jafferkhanpet,\nChennai – 600083\nMobile: +91 93458 41361\nLandline: 044 4264 7437 (Mon-Fri, 10 AM – 6 PM IST)\nEmail : sales@skillveri.com\n**North America **\n**Skillveri Inc,\n**8 The G...",
+        "source": "web",
+        "title": "Skillveri VR MR Welding & Painting Simulators - Contact Us",
+        "url": "https://skillveri.com/contact-us/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”",
+        "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html"
+      },
+      {
+        "date": "2026-01-08",
+        "last_updated": "2026-02-10",
+        "place_metadata": null,
+        "snippet": "**1.\nSlow down and scan for red flags.**\n...\n**2.\nAvoid applying through third-party links.**\nEven if a job looks legitimate on a recruiting site, take one extra step:\n- Go directly to the company’s official website.\n- Navigate to its careers page.\n- Apply from there.\n...\n**3.\nFollow your organizati...",
+        "source": "web",
+        "title": "Job Offer Scams: How to Spot Them Before They Spot You - wahve",
+        "url": "https://wahve.com/job-offer-scams-how-to-spot-them-before-they-spot-you/"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-10",
+        "place_metadata": null,
+        "snippet": "但这不是你需要知道的全部。你可以要求机构把就业保证的细节白纸黑字写出来，并问清楚： - 就业保证的具体标准是什么？\n- 是否设有最低出勤率要求？\n- 作业是否必须全部完成？\n- 如果拒绝某一offer会怎样？\n- 推荐就业有没有时间期限？\n- 所谓'就业'是指正式工作，还是仅仅面试机会？",
+        "source": "web",
+        "title": "3个关键陷阱：选IT培训班前必须看清，否则白花钱_手机网易网",
+        "url": "https://www.163.com/dy/article/L409JBEF05561FZI.html"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "Share brand offers and earn for every sign-up or sale\n...\nOffer sessions and earn from your expertise",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-03-05",
+        "place_metadata": null,
+        "snippet": "Complete the task and we'll get you right back into Fiverr.\n...\nThis includes Ad blockers, privacy extensions, or VPNs that may modify web traffic.",
+        "source": "web",
+        "title": "24 Best Job Offer Services To Buy Online | Fiverr",
+        "url": "https://www.fiverr.com/gigs/job-offer"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 208,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00021,
+        "request_cost": 0.005,
+        "total_cost": 0.00524
+      },
+      "prompt_tokens": 35,
+      "search_context_size": "low",
+      "total_tokens": 243
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:53.701979Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "不能。根据 Skillver 自己的常见问题和说明，平台提供的是**求职准备、能力核验和机会连接**，但**不承诺**你一定通过评估、拿到面试邀约或最终 offer。[1][2][3][4]\n\n更具体地说，Skillver 明确写到：\n- **注册使用不等于拿到 offer**。[1][2]\n- **正式 AI 面试**生成的报告只是投递所需的能力凭证，不是录用保证。[3][10]\n- 平台提供的是匹配、练习、正式评估与投递衔接，结果仍取决于企业和你的实际表现。[3][4]\n\n如果你愿意，我也可以帮你进一步判断：**Skillver 这种服务值不值得用**，或者**怎么防止被“保 offer”类宣传误导**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

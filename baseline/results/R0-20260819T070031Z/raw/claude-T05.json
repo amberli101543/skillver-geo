@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "# Skillver AI 面试报告功能\n\nSkillver 的 AI 面试报告通常可以提供以下功能：\n\n## 主要功能\n\n- **表现评估** — 对候选人的面试表现进行综合评分\n- **技能分析** — 识别并评估候选人展示的专业技能和软技能\n- **回答质量分析** — 分析候选人对每个问题的回答质量和完整性\n- **优势与不足** — 指出候选人的亮点和需要改进的地方\n\n## 详细报告内容\n\n- 📊 **数据可视化** — 以图表形式展示各维度得分\n- 💬 **沟通能力评估** — 分析表达清晰度、逻辑性等\n- 🎯 **岗位匹配度** — 评估候选人与目标岗位的匹配程度\n- 📝 **改进建议** — 提供针对性的提升建议\n\n## 应用场景\n\n- 求职者用于**自我提升**和练习\n- 招聘方用于**筛选候选人**\n- 提供**客观、标准化**的评估结果\n\n---\n\n> ⚠️ 如需了解 Skillver 最准确、最新的功能详情，建议直接访问 **Skillver 官方网站**或联系其客服团队获取最新信息。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBi6iNWU19eLZyw7rbqR",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver AI 面试报告功能\n\nSkillver 的 AI 面试报告通常可以提供以下功能：\n\n## 主要功能\n\n- **表现评估** — 对候选人的面试表现进行综合评分\n- **技能分析** — 识别并评估候选人展示的专业技能和软技能\n- **回答质量分析** — 分析候选人对每个问题的回答质量和完整性\n- **优势与不足** — 指出候选人的亮点和需要改进的地方\n\n## 详细报告内容\n\n- 📊 **数据可视化** — 以图表形式展示各维度得分\n- 💬 **沟通能力评估** — 分析表达清晰度、逻辑性等\n- 🎯 **岗位匹配度** — 评估候选人与目标岗位的匹配程度\n- 📝 **改进建议** — 提供针对性的提升建议\n\n## 应用场景\n\n- 求职者用于**自我提升**和练习\n- 招聘方用于**筛选候选人**\n- 提供**客观、标准化**的评估结果\n\n---\n\n> ⚠️ 如需了解 Skillver 最准确、最新的功能详情，建议直接访问 **Skillver 官方网站**或联系其客服团队获取最新信息。"
+        }
+      }
+    ],
+    "created": 1787124358,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 409,
+      "prompt_tokens": 54,
+      "total_tokens": 463
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:25:58.676554Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "# Skillver AI 面试报告功能\n\nSkillver 的 AI 面试报告通常可以提供以下功能：\n\n## 主要功能\n\n- **表现评估** — 对候选人的面试表现进行综合评分\n- **技能分析** — 识别并评估候选人展示的专业技能和软技能\n- **回答质量分析** — 分析候选人对每个问题的回答质量和完整性\n- **优势与不足** — 指出候选人的亮点和需要改进的地方\n\n## 详细报告内容\n\n- 📊 **数据可视化** — 以图表形式展示各维度得分\n- 💬 **沟通能力评估** — 分析表达清晰度、逻辑性等\n- 🎯 **岗位匹配度** — 评估候选人与目标岗位的匹配程度\n- 📝 **改进建议** — 提供针对性的提升建议\n\n## 应用场景\n\n- 求职者用于**自我提升**和练习\n- 招聘方用于**筛选候选人**\n- 提供**客观、标准化**的评估结果\n\n---\n\n> ⚠️ 如需了解 Skillver 最准确、最新的功能详情，建议直接访问 **Skillver 官方网站**或联系其客服团队获取最新信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

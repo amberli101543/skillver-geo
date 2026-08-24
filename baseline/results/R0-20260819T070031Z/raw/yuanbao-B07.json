@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B07",
+    "category": "brand",
+    "query": "Skillver 当前开放使用了吗？",
+    "passCriteria": [
+      "明确已全面开放注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "截止到我最新更新的日期，**Skillver** 尚未正式开放使用，仍处于**内测或等待名单（Waitlist）阶段**。\n\n目前你可以通过其官方网站（skillver.io）加入等待名单，以便后续获得内测资格或正式上线通知。若需了解最新动态，建议直接访问官网或关注其官方社交媒体账号。",
+  "sources": [],
+  "raw": {
+    "id": "00e4ee43-22f3-4b30-b82f-183a8490b92c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123303,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "截止到我最新更新的日期，**Skillver** 尚未正式开放使用，仍处于**内测或等待名单（Waitlist）阶段**。\n\n目前你可以通过其官方网站（skillver.io）加入等待名单，以便后续获得内测资格或正式上线通知。若需了解最新动态，建议直接访问官网或关注其官方社交媒体账号。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 72,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:08:26.019938Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B07",
+    "answerEvidence": "截止到我最新更新的日期，**Skillver** 尚未正式开放使用，仍处于**内测或等待名单（Waitlist）阶段**。\n\n目前你可以通过其官方网站（skillver.io）加入等待名单，以便后续获得内测资格或正式上线通知。若需了解最新动态，建议直接访问官网或关注其官方社交媒体账号。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B07.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

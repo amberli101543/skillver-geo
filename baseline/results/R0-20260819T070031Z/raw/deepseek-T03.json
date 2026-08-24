@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "**Skillver 面试彩排** 是 Skillver（一个职业技能提升与面试准备平台）提供的一项**模拟面试练习服务**，旨在帮助求职者在正式面试前进行逼真的实战演练。\n\n它的核心特点通常包括：\n\n- **模拟真实场景**：提供与目标岗位（如技术、产品、运营等）高度匹配的面试题库和流程，包括行为面试、技术问题或案例分析。\n- **AI 或真人反馈**：通过 AI 语音识别或专业导师，对回答内容、逻辑结构、表达流畅度、语速语调等方面给出即时评估和优化建议。\n- **针对性纠错**：指出候选人常见的回答误区（如缺乏数据支撑、逻辑混乱），并帮助提炼 STAR 法则（情境、任务、行动、结果）式的应答技巧。\n- **降低紧张感**：通过反复彩排，让候选人熟悉面试节奏和高压环境，提升临场应变能力和自信心。\n\n简单来说，它相当于**正式面试前的“预演”**，让你在真实面试中表现更稳定、更专业。如果你正在准备特定公司的面试，建议在彩排时聚焦该公司的文化和岗位 JD（职位描述）进行定制练习。",
+  "sources": [],
+  "raw": {
+    "id": "1400f0a5-37b3-49c9-86af-7b491123181c",
+    "object": "chat.completion",
+    "created": 1787124172,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver 面试彩排** 是 Skillver（一个职业技能提升与面试准备平台）提供的一项**模拟面试练习服务**，旨在帮助求职者在正式面试前进行逼真的实战演练。\n\n它的核心特点通常包括：\n\n- **模拟真实场景**：提供与目标岗位（如技术、产品、运营等）高度匹配的面试题库和流程，包括行为面试、技术问题或案例分析。\n- **AI 或真人反馈**：通过 AI 语音识别或专业导师，对回答内容、逻辑结构、表达流畅度、语速语调等方面给出即时评估和优化建议。\n- **针对性纠错**：指出候选人常见的回答误区（如缺乏数据支撑、逻辑混乱），并帮助提炼 STAR 法则（情境、任务、行动、结果）式的应答技巧。\n- **降低紧张感**：通过反复彩排，让候选人熟悉面试节奏和高压环境，提升临场应变能力和自信心。\n\n简单来说，它相当于**正式面试前的“预演”**，让你在真实面试中表现更稳定、更专业。如果你正在准备特定公司的面试，建议在彩排时聚焦该公司的文化和岗位 JD（职位描述）进行定制练习。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 247,
+      "total_tokens": 284,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:22:55.833251Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "**Skillver 面试彩排** 是 Skillver（一个职业技能提升与面试准备平台）提供的一项**模拟面试练习服务**，旨在帮助求职者在正式面试前进行逼真的实战演练。\n\n它的核心特点通常包括：\n\n- **模拟真实场景**：提供与目标岗位（如技术、产品、运营等）高度匹配的面试题库和流程，包括行为面试、技术问题或案例分析。\n- **AI 或真人反馈**：通过 AI 语音识别或专业导师，对回答内容、逻辑结构、表达流畅度、语速语调等方面给出即时评估和优化建议。\n- **针对性纠错**：指出候选人常见的回答误区（如缺乏数据支撑、逻辑混乱），并帮助提炼 STAR 法则（情境、任务、行动、结果）式的应答技巧。\n- **降低紧张感**：通过反复彩排，让候选人熟悉面试节奏和高压环境，提升临场应变能力和自信心。\n\n简单来说，它相当于**正式面试前的“预演”**，让你在真实面试中表现更稳定、更专业。如果你正在准备特定公司的面试，建议在彩排时聚焦该公司的文化和岗位 JD（职位描述）进行定制练习。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

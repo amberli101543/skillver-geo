@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "如果您指的是 **Skillver**（在线培训/学习平台）：\n它目前主要通过**移动端网页浏览器**（响应式设计）支持移动设备访问，用户可以直接在手机浏览器中登录和使用，通常没有在主流应用商店上架独立的专属 App。\n\n如果您是指拼写相近的 **Skillshare**（知名的创意在线学习平台）：\n是的，**Skillshare 有移动端 App**，支持 iOS (App Store) 和 Android (Google Play) 设备。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果您指的是 **Skillver**（在线培训/学习平台）：\n它目前主要通过**移动端网页浏览器**（响应式设计）支持移动设备访问，用户可以直接在手机浏览器中登录和使用，通常没有在主流应用商店上架独立的专属 App。\n\n如果您是指拼写相近的 **Skillshare**（知名的创意在线学习平台）：\n是的，**Skillshare 有移动端 App**，支持 iOS (App Store) 和 Android (Google Play) 设备。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EsQlCsElARFNMg9v5utq43eloDpbRb9izArsKrj7fVi3fLgAO1OKSOxeJKNI4x5DlguAzZzRJyYLi8xYuLYuLkrpRr2Nhq8NIn3HTcbuBu6vp8MyIBRaGJ57e02/OYFDu1Z8AQXfjcKKz3bPQw+Hip+fs/qnUbfcWcq68/T2YkD9lPAoO8Be3K8dvLlJ2Q2Lrc6tVaE2xe64DvWzJypdqL66ng7ZTdPB2/DPXjQk7wNjEA7eqcHKpv/KHK1HKdXe8/aIR3Xw/eQ1J7pRKUvIWyoHA+CGw4Q0TE/hADbFyZrSNlywS7iMsAWO//njSZqtulbY1tKtX2tNjdPT83jECNu98PAyCPXdDDNAzgsTyKu9rDeV8mLZzuvoNp7RI3n2z6WQ3ksFcW1LL7eoE+wP986aGKPvl2D9MUoDNKnR4vKrEaIQ9PgE2hAHbO7kmaC3SdqmH6j+36HROVytDpgyRI7qiRbt0NMbByrs+AZVrRMfExZDfjAvqpWkfMQoTGMMlp6h8v2q1QpE7W8NApg5YQjoLb7fapX/uscVYCtO0I2npTL95YEkaJ6hXbLRewdWl+7RdhwhYJq95fXw/fl+mdSctSDNs11NGv+V6RdPSBnE1HLTP8Ea81Xmwn1kuJqvJmjYI8SYjqI9/B+YTae4BDom//U85A+CkggqfEc3DC8/UEAtsErPwM1ngAMP9p/I/DNNqPS2NrOfbIYNdaaF6zZ6pLgd8pxiBXdtEE3+cvCD5Oso55NsQgF6u0Yborx0aihiBisMfq1R+BAoVYqCR9juZUAFti1osQNHYqgfE1QBSiXRt7AWTm0nJkQyp4ns2rK5GHJ8nWcE7/HpfWpkPVqn5UEwxy1jdXaVs6eS4joDXHaG56yq4f4Pmd98Plw6e8azpEtNoqdasuq0lcclV0AQZMhxM1lwB5+lm6v+THMcNV/AFlq6MWMqPcSZzUlCnXoSt/JeLQdRSBCbPy2qYMOotQjCdkkPl4yL+MaPVyHPbQvLxfyAan61kBt4ksjRseup6iHmQDhE2W9r4MA3BJlGPA+VI8JRYwyXsAG1spGvTGgaKPUXGMCr3izh10VUI/qutHQYrSX8ryRkCBuWZDQ0ao8sD130CtouNFNgzd97iLlQ+HYAYcO317IdD+JsJNHbfWLhnOUx6gv4Rikt86eEfUD4bHb+rCZDmnws1D6qDvKsxg0WawOyoF6bzOwVpCfOP91jutG0xCsZBVS7gFxQvK5wexTxBs68BoYgqngLdn6aJXHew3qJbq7d4Cs9Dpl3QXJi9kdVET2bSeJy0N7LwppxkD2GN0BEhEMRKBUO7aGvQeIHFrxYJgBgo/dMKZd56Z2wZNVRJj/prUXuCAhRYcbZndj4S1Xry2jokzRhyngA4YdQfJoMBcdV2jfL+s0pguyrcqQfV6Qx+cDNAImypNXnJh8wFwygDaVBN9TQzvVH3iwZENzUkUIl8C6tkA7zYg2+QwdvSreag4VtthlEFwEaLJCPhmVd+NmcOjp/IFQ8/lpzwtSwFaxq96sSeCpoHptI0a6vQr4ChDDEcgW84suo4dFue3zJ+8RXekfJRnbRTYsdlZ278DSq8sD7YDdLFnkF50Y8PxaHwwjtZQqEErA+0wzdhVBpDsTm1kBqiVEZp9507qr36z20hKWJ5OJaeZXZ99MTQSaLx+o0JHLnDVw8pyXU36qE180jXRvc03dOpexyU4HHZnVMezOrnRBSi915h3PrvlBG9iymnHAggnIaLTsJViQUJ2IT61h1cTvYQvVRNhx3zfYAqY6HZKLBwABvWhf4kupkVEtVIyjB3aKxnnPOpL4S8YcV/HKOfqHBS+64UBIQr1iW/bqgJ5v0J4ovy8k3hwcmsTAtYmnqGMLI+QXB/FX92cV3/1Vhos83DiV17EH0GY3Cq9N2Z82HCTjFEQvfXZ2/s1+LHIU3AKmHgHGSMmV6cO2ZkGHGk4yp9hVJZBUvoPlwVq7Srd6b4RFWzL21vNI1vLfLUMNlhMZD7MhOFW0tTU021XhWb39Fs62MwV95oNwgVnd0k0VFW6E68mpGX7elcoYr6wXC6xfFQ34SzCQHTv8HTZ/b5HkW4y4G4Q/LmnxklHRjkLIsaedrQfG+jbnNf/aLIV9ZGIbUalVAos1ieT0nXOaK4pqMJXOy4Z20LwkR1FDpkUJG1nzN7MSC+yd3NE8EiDAwQ4RvRrSnOcI/nQaJmg9VHleRVxBb/5XVzKTEcwyykAiudxDnKBPMhyXMaLTdaCOYVLPKrFQR5esXn+NhS3r/nXYYa2eLqeaTvruHh/rSZaaIw6m6+ORV6FfWYQ8fBeI1K9YXnw7pd+/45W3FOZqn/Z21oMw/l8pwu+AlWGbOFkObfBDlpTCvyP+RrtFsieh9e/j/AnMI6PMPdydoSTL9nr1VKYQHzovxewWfHsXKphcg3brKTVU+1DSztOWbLJfilZuURD3fC2Pfa511eQJOnx3QBAro4RboTGGZcPGN4QcKPPkwhLOX7lHdBVlGGsA4MCbudfEkkkeVVPTCbqW/+w6ePDc6iD2CiAOKFFT2cEFaDo+iCkCI1Rz4FmQGOTEL3zBAVm+l9vpBZ6SS206nP5meP3XlxtZcBv5eMdEX5fbPWHH/TXqTVClJ/WyxYGALTfLHcbl7ojg+Xba74QKKtGKCkb/cxX6lhYWe5QvCWrnFdZ1OpM0+nMsCMlEEasRZtdjTpYMDT6UfUezdNPu633u/A4S2HtUa4OnfuwFF7Zqm/jJ/oC8qaTuCo5HGJFrku7RLZzuCFYGyW9VtB2GRlqfewaOou79/kDUOoXMRZbx99/wDAtEXOmLfIxdv83DXvblTLYMGUNg4FprUzOw8B+stIIiiQEGcCIbWq+u+57wDr6ipiHFw0Mr5evdOa2M2ynhamyi0TLYjVhmGj4CbK3o3icUOfqVjVDJDX1nC8qJDyb1jvLreENpGeYdj9vGhhBI7jHKcEMDqEKORrpXcFDULHp/krXM6TFi2pZ6LdueeudrZAn/Th/uWhi4T8YQvG/alo9+DNCbDFfI0sRF8vSaZ7x29VI1JLL968993yPBd+dxbu1UX/SBzOywbmH1rgR8kwQgcKSir0dm4TmFNtLHY5rj8BcSEjPl+u5AICpeqsSlx3Hl8fkf7+n6sTFJXCN3gUPSsdTBgwgkX7uH3hiu1n7rHZKpRq6HGQ7cHUDyR4LPU3QaHepNa8U3Lm6DsVaGpLmTXSkd1HkD/5PcqJGOSf7tXFMlozKOARmbHRVQw1YmMISRsvJjL5qkkmufePFCcgCrxrgqFl0LE/48iQcgZmBVfGFGjtNQroOwXaZtphFOes1xeWD/zSWq2wkFImIIsw2hPywNufjDE4mq1ZPPTX+i9JFRlpS0SIcBDaWeV5SWXpUtmOsfcGkXdRMQEdpVhWHynDgY3cZhR/6aNXrn+f9S/smKWy2Q4Y5MFKssTgFDWYStyLshHEHP9spbMV0iqfcFQSt5qIJL0uDQSOxVHukHPMUN9jiepuhmuALe0RNc69gkyK6WK2WhyNDDwZ9yRYGIyvcpXkEx4pyn2R//O2FH5YqXEGK++ALO8TjbFGGk/UG6Vuu8p6l9jK8rb2M0nKEr6SjCNaeDEA1Ba5epTavRZ24g9V7uEGCaADSjHLcnkNCTaY85DQGvyy+k2yL4D5s0twQDvnM4jIvbKfWlgnIPKsA7wy4YfqvN1QgPm1HrbbXq070+TIrcRdzLE9PpO8cahuZs7oFmVxSdV6aITft/84gBeXy/f5oPZbrfz2QNJi1sZTwm1xDD2RnLYfldaoZNt2q6qd/OwrrzlT1Kkj9EA08o6gCEfsMMuOFuSB0NKybB+4V6A0RnHaC53jYT2/xUbsycaDJ1eHH0NPHoqpqYfeH0bCEvfJMFh8DLcFzBn2FgRtGmKDoTULyDt6udZeO05Jy+0DorfixOzCZ7sODzcSF9PK00w8/nd0Lbr3vexSnr8mYCx4iDMD0hyKle2p+o2B0+HoHeah4arNZaBLrgkPXdIXhTSyIyJ1DgZ/Jn5wFnZHQwC+uvtgLd0M7/GkLRFb8aQIH3l7gZMCMPUKIPXv+Gj1u4MN6BKDjDwGwq/cSvK+Lrd9iXnWCpn+Ti2AMkOP1mllANdGdorSM1uWzwlc1YNyxGcPjSvsyb8p4N9EoVtK1VVLXuqd1hVEC1eh+UCIcXbMmnkcsP7l+COVU4P+8/LS1VIqlYKVrR4NH1jl9O/wgSUDmJV/7UFZAzdUjWsApLrHf+LRWpipHDZMUtNYoBcr1LNuoRScoVFX1WdTAgrHCrWDYvUXISnvEdLUUVDWpNSlg0NHD0vxn2z68i1wbKFiCDDqTEI7rMUjrklJm8d4MrgsQtvbC4a5V98Hw76XjRCgDla4atmrVTZUmXDkWRgL1yoKjqYlKxJSyQgsjRHLAbS6kVL0gRc/YzHwpF2YGggVJUccmEDfregcbyPHXTCmPi79Uyw6qtYC0riShfYpaT29pzDdM9uTf6vuNZTQjoCurRZf/akdZ3hvLi+PfVTZWL/yqZ0avKvZeQQkQAtMWZxHN5RZ6k7a+FRZ2h2DXe8bGY6fTKHtSZHKd/kbTwFqjfk9yR+Z1lTiDS1kWErB0XnbtH/xFi0e/AJX5lG5Hdy7lxl9F2VPKSolhketXr5io072QI/75HcUG2qhZ9XgK29EPw6/AAeJZR10ryRF1tMSKZvq3rWP3yOeknkQ8s94ojHNAXKxEak2302LmmnYC73rlaf5vyySUESTgqZydbe0jsML4BFJ75cP7s5QSL5vz4VPw5GXSyNZU/xCq5CinDrEqlvG7W25d33ZSIHfXdDkH3dBbMhGPfpE1JLM+Jdct4ZsAuHHHfVt9xkNvJMNtL8Kzv7ep+xfRwWboCMkuHNbwuef1/oDp88ScjKBpR8rC+HSSVH3pve/cxjtmZmdjim5AtkD/w2VG0Ap7NLW1RB7ts4Jod6QHdUObYvBLAD0/s571NapEq1dRERsxeugHeO+9SgyhwjruWqi6RM/6HCNgK5rxu3b4r7/omkMZ3E49GxqKBw50WE2XsG1mTl28gzljt6pj82QI6QQi51npXn8SFmqSlHLADP3zaSKk9KXKzMRfoZ66TQpsxEqvDDthLe4iS/ajRnuUTmEKkGBY4i5ZqfVsMsdrs8grJPiphkTLfh3KIZhJXfj38fuo3FNhLZDJXfCSrNyn5qGfp6SeCZCDHarY9LNobGWpdCI3cnN0NqYQ54ngBeinQYorN63tDAElR96uJ1XJknZvx1QA+jFkTYEhkYKi0+6w4HvcPoNOAyXC/FUl9cm97aypXosjZgoKFIUeIIHf3I/JX88m6r2ljBKwFEXjQ6/F1BB0EpCD5n+QPphG7bnvrhqQaH6TiNJpRTP4OJUajbQbiwk5wT35Iuqyy7ophpEpT8yUR7vnwIO2am2D5/TjCnv9QlrkXyYfGI7jfzkuw95GpKW4iJ/QiPBsi5eV+WInOcqZKqRihrgIGWnu1gpmWxcxRovyMe4ytTxWRimRvuBCwMG0vSzPWy9h0Y0qbmH2SasC9LgSOmQsFMWB/mVycKxrNtgzvLjs84lDhyVBCHkEbOfwrnZz/U44jRih6TjRiIjik2gqXYTFS6ohwARcTJtPTupfHNybhaISJhluj88Aim1h+UuWJ+W2a7U8zQLkYKqGi/N9sSoT1e8vKj8z9u2QHYmg1zxswGAuFo33LOvRODDZiS0epg5KE4Q7NAK1Pdf+9n3xInyLjskFMHj+5mVvKS/85VUuWBUjjVqBP2Y40hXKFvZyqNPnCnmgFqfSnThseBLRcKW9Ggyt0GtvGa9KKUU9axlPOZcuBFH08mPvUiQJYCRyOgEiWHDKM3u64NvJvmx0THXUII870wM4i39DHAPXxO11VbXocpccFCtSJOEIwFzJ2nMwsGkTwXizEZfmHJbdf54uF1Uxrn7+X7eSW+k3TJ2wQ1Ohq47PrU6ElLrK9mtGLR3mqXoAC/0dVrSCDn9Th6LvRfVpNnDadA4bfO4Nl0jGCB4e0tebJ+ziCkvpi8mCfzu3luq/ZkGEdVZ/V9p0FthWiFXE58F2Yw5ZSU2pAGkOtLaGt+Zy5NwV391fBJkC80ojw7lQ80kw9TPf9sWcKqinILnZ7XlVrhZ2Qy4lVIgzKuYy2wsZHfnGSDh7zwGIfmVlhEXHPZURfmFfbBOIwMiSDW3pm7LsurxKX3DzVwVjxIudxJ9/zhJaEr6b3QWpGvgZYumCzAG3E8kEoXDbUjo8JvgWnOPlYMg6GDNkQn6GUhaU4gfZg2zflU8CBPQofSerGELaw9OdVlozigjrmAqoLOgK9ZhCrCakBJaPiFfsptj0YYCYtdBS+HkVy0LrZSTdxOKKQSenMzRd2+6PszzzXbCRdacyT8uw=="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123745,
+    "id": "G1iFat-lCsTlnsEPoNv-kAc",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 102,
+      "prompt_tokens": 35,
+      "total_tokens": 1362
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:15:45.602902Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "如果您指的是 **Skillver**（在线培训/学习平台）：\n它目前主要通过**移动端网页浏览器**（响应式设计）支持移动设备访问，用户可以直接在手机浏览器中登录和使用，通常没有在主流应用商店上架独立的专属 App。\n\n如果您是指拼写相近的 **Skillshare**（知名的创意在线学习平台）：\n是的，**Skillshare 有移动端 App**，支持 iOS (App Store) 和 Android (Google Play) 设备。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "注册 Skillver 一般可以按这些步骤操作：\n\n1. 打开 Skillver 官网或 App  \n2. 点击 **Sign up / Register / 注册**  \n3. 选择注册方式：邮箱、手机号，或 Google/Apple 等第三方账号  \n4. 填写基本信息，如姓名、邮箱/手机号、密码  \n5. 输入验证码，完成邮箱或手机验证  \n6. 按提示完善个人资料  \n7. 登录后即可开始使用\n\n如果页面提示需要 **邀请码** 或 **企业/学校邀请**，你需要联系 Skillver 管理员、机构负责人或客服获取邀请链接/邀请码。\n\n如果你把 Skillver 的注册网址或截图发我，我也可以帮你一步步看怎么注册。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUlUGaVPjhjpJvmv9qFclvTFeQA5",
+    "object": "chat.completion",
+    "created": 1787123560,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "注册 Skillver 一般可以按这些步骤操作：\n\n1. 打开 Skillver 官网或 App  \n2. 点击 **Sign up / Register / 注册**  \n3. 选择注册方式：邮箱、手机号，或 Google/Apple 等第三方账号  \n4. 填写基本信息，如姓名、邮箱/手机号、密码  \n5. 输入验证码，完成邮箱或手机验证  \n6. 按提示完善个人资料  \n7. 登录后即可开始使用\n\n如果页面提示需要 **邀请码** 或 **企业/学校邀请**，你需要联系 Skillver 管理员、机构负责人或客服获取邀请链接/邀请码。\n\n如果你把 Skillver 的注册网址或截图发我，我也可以帮你一步步看怎么注册。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 252,
+      "total_tokens": 292,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 90,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:45.190761Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "注册 Skillver 一般可以按这些步骤操作：\n\n1. 打开 Skillver 官网或 App  \n2. 点击 **Sign up / Register / 注册**  \n3. 选择注册方式：邮箱、手机号，或 Google/Apple 等第三方账号  \n4. 填写基本信息，如姓名、邮箱/手机号、密码  \n5. 输入验证码，完成邮箱或手机验证  \n6. 按提示完善个人资料  \n7. 登录后即可开始使用\n\n如果页面提示需要 **邀请码** 或 **企业/学校邀请**，你需要联系 Skillver 管理员、机构负责人或客服获取邀请链接/邀请码。\n\n如果你把 Skillver 的注册网址或截图发我，我也可以帮你一步步看怎么注册。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

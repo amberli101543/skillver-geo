@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "**Skillver**（通常指 Skillver AI 面试系统）是一款**基于人工智能（AI）技术的模拟面试与彩排工具**。它主要用于帮助求职者在实际面试前进行针对性的练习和准备。\n\n其主要功能和特点包括：\n\n1. **个性化场景模拟**：用户可以上传自己的个人简历和目标岗位的职位描述（JD），系统会利用 AI 技术针对性地生成匹配的面试问题，模拟真实的面试场景。\n2. **AI 互动问答**：系统通过视频、语音或文字形式与用户进行实时交互，模拟面试官提问，求职者在线进行回答。\n3. **多维度智能评估**：面试结束后，AI 会从多个维度生成详细的评估报告，包括：\n   * **回答内容**：评估专业度、逻辑完整性、是否切中要点。\n   * **表达能力**：分析语速、语气、口头禅等。\n   * **仪态仪表**（视频模式下）：分析眼神接触、表情及肢体语言。\n4. **改进建议与话术优化**：系统不仅指出不足，还会提供参考答案或优化后的回答建议，帮助求职者完善表达。\n\n**总结**：Skillver 面试彩排就像是一个“AI 陪练”，旨在帮助求职者消除紧张感、理顺回答逻辑、提升面试通过率。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver**（通常指 Skillver AI 面试系统）是一款**基于人工智能（AI）技术的模拟面试与彩排工具**。它主要用于帮助求职者在实际面试前进行针对性的练习和准备。\n\n其主要功能和特点包括：\n\n1. **个性化场景模拟**：用户可以上传自己的个人简历和目标岗位的职位描述（JD），系统会利用 AI 技术针对性地生成匹配的面试问题，模拟真实的面试场景。\n2. **AI 互动问答**：系统通过视频、语音或文字形式与用户进行实时交互，模拟面试官提问，求职者在线进行回答。\n3. **多维度智能评估**：面试结束后，AI 会从多个维度生成详细的评估报告，包括：\n   * **回答内容**：评估专业度、逻辑完整性、是否切中要点。\n   * **表达能力**：分析语速、语气、口头禅等。\n   * **仪态仪表**（视频模式下）：分析眼神接触、表情及肢体语言。\n4. **改进建议与话术优化**：系统不仅指出不足，还会提供参考答案或优化后的回答建议，帮助求职者完善表达。\n\n**总结**：Skillver 面试彩排就像是一个“AI 陪练”，旨在帮助求职者消除紧张感、理顺回答逻辑、提升面试通过率。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124190,
+    "id": "2VmFaqmTLMKknsEPz6PNmQw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 300,
+      "prompt_tokens": 36,
+      "total_tokens": 971
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:23:10.371407Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "**Skillver**（通常指 Skillver AI 面试系统）是一款**基于人工智能（AI）技术的模拟面试与彩排工具**。它主要用于帮助求职者在实际面试前进行针对性的练习和准备。\n\n其主要功能和特点包括：\n\n1. **个性化场景模拟**：用户可以上传自己的个人简历和目标岗位的职位描述（JD），系统会利用 AI 技术针对性地生成匹配的面试问题，模拟真实的面试场景。\n2. **AI 互动问答**：系统通过视频、语音或文字形式与用户进行实时交互，模拟面试官提问，求职者在线进行回答。\n3. **多维度智能评估**：面试结束后，AI 会从多个维度生成详细的评估报告，包括：\n   * **回答内容**：评估专业度、逻辑完整性、是否切中要点。\n   * **表达能力**：分析语速、语气、口头禅等。\n   * **仪态仪表**（视频模式下）：分析眼神接触、表情及肢体语言。\n4. **改进建议与话术优化**：系统不仅指出不足，还会提供参考答案或优化后的回答建议，帮助求职者完善表达。\n\n**总结**：Skillver 面试彩排就像是一个“AI 陪练”，旨在帮助求职者消除紧张感、理顺回答逻辑、提升面试通过率。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "冲刺 AI 大厂面试，建议按“岗位能力模型 + 高频面试模块 + 项目表达 + 刷题节奏”来准备。\n\n---\n\n## 1. 先明确目标岗位\n\nAI 大厂岗位差异很大，准备方向不同：\n\n### 算法工程师 / 机器学习工程师\n重点考察：\n\n- 机器学习基础\n- 深度学习基础\n- 推荐 / 搜索 / 广告 / CV / NLP / LLM 方向知识\n- 算法题\n- 项目经验\n- 工程落地能力\n\n### 大模型算法 / LLM 应用工程师\n重点考察：\n\n- Transformer、Attention、位置编码\n- SFT、RLHF、DPO、LoRA、QLoRA\n- RAG、Agent、Prompt Engineering\n- 推理优化、模型部署\n- 大模型应用项目经验\n\n### AI Infra / 训练推理框架\n重点考察：\n\n- Python / C++ / CUDA\n- 分布式训练\n- 模型并行、数据并行、流水并行\n- PyTorch 原理\n- 推理加速、TensorRT、vLLM\n- 系统设计能力\n\n---\n\n## 2. 算法题：必须稳定输出\n\n大厂 AI 岗一般仍然会考 LeetCode。\n\n### 高频内容\n\n建议重点刷：\n\n- 数组、字符串\n- 哈希表\n- 双指针、滑动窗口\n- 栈、队列、单调栈\n- 二分查找\n- DFS / BFS\n- 回溯\n- 动态规划\n- 堆、TopK\n- 图论基础\n- 树和二叉树\n\n### 刷题目标\n\n如果时间有限：\n\n- 至少刷 150～200 道高频题\n- 中等题为主\n- 每道题要能讲清楚复杂度\n- 重点复盘错题，而不是盲目刷数量\n\n推荐节奏：\n\n- 每天 2～3 道\n- 每周集中复盘一次\n- 面试前重点看错题本\n\n---\n\n## 3. 机器学习基础必须扎实\n\n高频问题包括：\n\n### 经典模型\n\n- 线性回归、逻辑回归\n- SVM\n- 决策树、随机森林、GBDT、XGBoost、LightGBM\n- KMeans、PCA\n- 朴素贝叶斯\n\n### 高频考点\n\n你需要能讲清楚：\n\n- 过拟合和欠拟合怎么解决？\n- L1 和 L2 正则有什么区别？\n- Bagging 和 Boosting 的区别？\n- GBDT 和 XGBoost 的区别？\n- AUC、Precision、Recall、F1 怎么理解？\n- 类别不平衡怎么处理？\n- 特征工程怎么做？\n- 训练集、验证集、测试集如何划分？\n- 为什么逻辑回归适合二分类？\n\n---\n\n## 4. 深度学习基础要能推导和解释\n\n重点掌握：\n\n- MLP、CNN、RNN、LSTM、GRU\n- Attention\n- Transformer\n- BatchNorm / LayerNorm\n- Dropout\n- 激活函数：ReLU、GELU、Sigmoid、Tanh\n- 优化器：SGD、Adam、AdamW\n- 损失函数：交叉熵、MSE、Triplet Loss、Contrastive Loss\n\n常见问题：\n\n- Transformer 为什么比 RNN 更适合并行？\n- Self-Attention 的计算复杂度是多少？\n- LayerNorm 和 BatchNorm 的区别？\n- Adam 和 SGD 有什么区别？\n- 为什么要做残差连接？\n- 梯度消失和梯度爆炸怎么解决？\n\n---\n\n## 5. 大模型方向重点准备\n\n如果你面的是 LLM / AIGC 方向，建议重点准备：\n\n### 模型原理\n\n- Transformer 架构\n- Multi-Head Attention\n- Masked Attention\n- Positional Encoding / RoPE\n- KV Cache\n- Tokenizer：BPE、WordPiece、SentencePiece\n\n### 训练与微调\n\n- Pretrain、SFT、RLHF、DPO\n- LoRA、QLoRA、Prefix Tuning、Prompt Tuning\n- 指令微调\n- 对齐训练\n- 数据清洗与构造\n\n### RAG\n\n需要理解：\n\n- Embedding\n- 向量数据库\n- Chunk 切分\n- Recall / Rerank\n- BM25 + 向量混合检索\n- 幻觉问题如何缓解\n- 如何评估 RAG 效果\n\n### 推理优化\n\n- KV Cache\n- Quantization\n- Speculative Decoding\n- vLLM / PagedAttention\n- Tensor Parallel\n- Batch 推理\n- 延迟、吞吐、显存优化\n\n---\n\n## 6. 项目经验是决定性因素\n\nAI 大厂非常看重项目。你需要准备 2～3 个能深入讲的项目。\n\n### 项目表达建议使用 STAR 法\n\n每个项目按这个结构讲：\n\n1. **背景**：业务目标是什么？\n2. **问题**：遇到什么困难？\n3. **方案**：你做了什么模型/算法/系统设计？\n4. **效果**：指标提升多少？\n5. **复盘**：还有什么可以优化？\n\n### 面试官常追问\n\n- 为什么选这个模型？\n- 有没有做 ablation study？\n- 数据怎么清洗？\n- 特征怎么设计？\n- 线上指标和离线指标是否一致？\n- 有没有做 A/B Test？\n- 模型效果不好时怎么排查？\n- 延迟和资源成本怎么优化？\n- 你在项目中的核心贡献是什么？\n\n### 项目要避免\n\n不要只说：\n\n> 我用了 BERT / GPT / XGBoost，效果提升了。\n\n要说清楚：\n\n- 为什么用它？\n- 相比 baseline 提升多少？\n- 你解决了什么具体问题？\n- 线上效果如何？\n- 有没有工程落地？\n\n---\n\n## 7. 系统设计与工程能力\n\nAI 岗现在越来越重视工程化。\n\n建议准备：\n\n### 基础工程能力\n\n- Python 熟练\n- PyTorch 熟练\n- Linux 常用命令\n- Git\n- Docker\n- REST API\n- SQL\n\n### 模型部署\n\n- FastAPI / Flask\n- TorchScript / ONNX\n- TensorRT\n- Triton Inference Server\n- vLLM\n- 模型服务高并发设计\n- 监控、日志、灰度发布\n\n### 可能被问\n\n- 如何设计一个推荐系统？\n- 如何设计一个 RAG 问答系统？\n- 如何部署一个 LLM 服务？\n- 如何降低模型推理延迟？\n- 如何处理线上模型效果衰减？\n- 如何做特征平台或模型监控？\n\n---\n\n## 8. 简历要针对 AI 大厂优化\n\n简历重点：\n\n- 项目用结果说话\n- 尽量量化指标\n- 突出你的核心贡献\n- 不要堆技术名词\n- 每个项目都要能被深挖\n\n示例：\n\n不好：\n\n> 使用 BERT 完成文本分类任务。\n\n更好：\n\n> 负责客服意图识别模型优化，基于 RoBERTa + 类别重采样解决长尾类别识别问题，Macro-F1 从 78.3% 提升到 84.6%，线上人工转接率下降 12%。\n\n---\n\n## 9. 一个月冲刺计划\n\n### 第 1 周：基础补齐\n\n- 复习 ML / DL 高频知识\n- 整理简历项目\n- 每天刷 2 道算法题\n\n### 第 2 周：方向强化\n\n根据岗位选择：\n\n- 推荐 / 搜索 / NLP / CV / LLM\n- 深挖该方向高频问题\n- 整理项目讲稿\n\n### 第 3 周：模拟面试\n\n- 每天模拟讲一个项目\n- 做算法限时训练\n- 准备系统设计题\n- 复盘表达问题\n\n### 第 4 周：查漏补缺\n\n- 复盘错题\n- 背熟核心公式和概念\n- 准备 HR 面\n- 研究目标公司业务和技术栈\n\n---\n\n## 10. 面试中最重要的几点\n\n1. **基础要稳**\n   - 不要只会调包，不懂原理。\n\n2. **项目要深**\n   - 能经得住连续追问。\n\n3. **表达要结构化**\n   - 先讲结论，再讲细节。\n\n4. **不知道要诚实**\n   - 可以说“这个我没有深入做过，但我的理解是……”\n\n5. **体现业务意识**\n   - 大厂更喜欢能解决真实问题的人，而不是只会跑模型的人。\n\n---\n\n## 11. 推荐准备优先级\n\n如果时间有限，优先级建议：\n\n1. 简历项目深挖\n2. 算法题高频题\n3. ML / DL 基础\n4. 目标方向知识\n5. 系统设计和部署\n6. HR 面准备\n\n---\n\n一句话总结：\n\n> AI 大厂面试不是只考模型，而是考你是否具备“算法基础 + 工程落地 + 项目深度 + 业务理解”的综合能力。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEVESjY3zDJeu9SSFRpeIZp3nC8kM",
+    "object": "chat.completion",
+    "created": 1787125356,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "冲刺 AI 大厂面试，建议按“岗位能力模型 + 高频面试模块 + 项目表达 + 刷题节奏”来准备。\n\n---\n\n## 1. 先明确目标岗位\n\nAI 大厂岗位差异很大，准备方向不同：\n\n### 算法工程师 / 机器学习工程师\n重点考察：\n\n- 机器学习基础\n- 深度学习基础\n- 推荐 / 搜索 / 广告 / CV / NLP / LLM 方向知识\n- 算法题\n- 项目经验\n- 工程落地能力\n\n### 大模型算法 / LLM 应用工程师\n重点考察：\n\n- Transformer、Attention、位置编码\n- SFT、RLHF、DPO、LoRA、QLoRA\n- RAG、Agent、Prompt Engineering\n- 推理优化、模型部署\n- 大模型应用项目经验\n\n### AI Infra / 训练推理框架\n重点考察：\n\n- Python / C++ / CUDA\n- 分布式训练\n- 模型并行、数据并行、流水并行\n- PyTorch 原理\n- 推理加速、TensorRT、vLLM\n- 系统设计能力\n\n---\n\n## 2. 算法题：必须稳定输出\n\n大厂 AI 岗一般仍然会考 LeetCode。\n\n### 高频内容\n\n建议重点刷：\n\n- 数组、字符串\n- 哈希表\n- 双指针、滑动窗口\n- 栈、队列、单调栈\n- 二分查找\n- DFS / BFS\n- 回溯\n- 动态规划\n- 堆、TopK\n- 图论基础\n- 树和二叉树\n\n### 刷题目标\n\n如果时间有限：\n\n- 至少刷 150～200 道高频题\n- 中等题为主\n- 每道题要能讲清楚复杂度\n- 重点复盘错题，而不是盲目刷数量\n\n推荐节奏：\n\n- 每天 2～3 道\n- 每周集中复盘一次\n- 面试前重点看错题本\n\n---\n\n## 3. 机器学习基础必须扎实\n\n高频问题包括：\n\n### 经典模型\n\n- 线性回归、逻辑回归\n- SVM\n- 决策树、随机森林、GBDT、XGBoost、LightGBM\n- KMeans、PCA\n- 朴素贝叶斯\n\n### 高频考点\n\n你需要能讲清楚：\n\n- 过拟合和欠拟合怎么解决？\n- L1 和 L2 正则有什么区别？\n- Bagging 和 Boosting 的区别？\n- GBDT 和 XGBoost 的区别？\n- AUC、Precision、Recall、F1 怎么理解？\n- 类别不平衡怎么处理？\n- 特征工程怎么做？\n- 训练集、验证集、测试集如何划分？\n- 为什么逻辑回归适合二分类？\n\n---\n\n## 4. 深度学习基础要能推导和解释\n\n重点掌握：\n\n- MLP、CNN、RNN、LSTM、GRU\n- Attention\n- Transformer\n- BatchNorm / LayerNorm\n- Dropout\n- 激活函数：ReLU、GELU、Sigmoid、Tanh\n- 优化器：SGD、Adam、AdamW\n- 损失函数：交叉熵、MSE、Triplet Loss、Contrastive Loss\n\n常见问题：\n\n- Transformer 为什么比 RNN 更适合并行？\n- Self-Attention 的计算复杂度是多少？\n- LayerNorm 和 BatchNorm 的区别？\n- Adam 和 SGD 有什么区别？\n- 为什么要做残差连接？\n- 梯度消失和梯度爆炸怎么解决？\n\n---\n\n## 5. 大模型方向重点准备\n\n如果你面的是 LLM / AIGC 方向，建议重点准备：\n\n### 模型原理\n\n- Transformer 架构\n- Multi-Head Attention\n- Masked Attention\n- Positional Encoding / RoPE\n- KV Cache\n- Tokenizer：BPE、WordPiece、SentencePiece\n\n### 训练与微调\n\n- Pretrain、SFT、RLHF、DPO\n- LoRA、QLoRA、Prefix Tuning、Prompt Tuning\n- 指令微调\n- 对齐训练\n- 数据清洗与构造\n\n### RAG\n\n需要理解：\n\n- Embedding\n- 向量数据库\n- Chunk 切分\n- Recall / Rerank\n- BM25 + 向量混合检索\n- 幻觉问题如何缓解\n- 如何评估 RAG 效果\n\n### 推理优化\n\n- KV Cache\n- Quantization\n- Speculative Decoding\n- vLLM / PagedAttention\n- Tensor Parallel\n- Batch 推理\n- 延迟、吞吐、显存优化\n\n---\n\n## 6. 项目经验是决定性因素\n\nAI 大厂非常看重项目。你需要准备 2～3 个能深入讲的项目。\n\n### 项目表达建议使用 STAR 法\n\n每个项目按这个结构讲：\n\n1. **背景**：业务目标是什么？\n2. **问题**：遇到什么困难？\n3. **方案**：你做了什么模型/算法/系统设计？\n4. **效果**：指标提升多少？\n5. **复盘**：还有什么可以优化？\n\n### 面试官常追问\n\n- 为什么选这个模型？\n- 有没有做 ablation study？\n- 数据怎么清洗？\n- 特征怎么设计？\n- 线上指标和离线指标是否一致？\n- 有没有做 A/B Test？\n- 模型效果不好时怎么排查？\n- 延迟和资源成本怎么优化？\n- 你在项目中的核心贡献是什么？\n\n### 项目要避免\n\n不要只说：\n\n> 我用了 BERT / GPT / XGBoost，效果提升了。\n\n要说清楚：\n\n- 为什么用它？\n- 相比 baseline 提升多少？\n- 你解决了什么具体问题？\n- 线上效果如何？\n- 有没有工程落地？\n\n---\n\n## 7. 系统设计与工程能力\n\nAI 岗现在越来越重视工程化。\n\n建议准备：\n\n### 基础工程能力\n\n- Python 熟练\n- PyTorch 熟练\n- Linux 常用命令\n- Git\n- Docker\n- REST API\n- SQL\n\n### 模型部署\n\n- FastAPI / Flask\n- TorchScript / ONNX\n- TensorRT\n- Triton Inference Server\n- vLLM\n- 模型服务高并发设计\n- 监控、日志、灰度发布\n\n### 可能被问\n\n- 如何设计一个推荐系统？\n- 如何设计一个 RAG 问答系统？\n- 如何部署一个 LLM 服务？\n- 如何降低模型推理延迟？\n- 如何处理线上模型效果衰减？\n- 如何做特征平台或模型监控？\n\n---\n\n## 8. 简历要针对 AI 大厂优化\n\n简历重点：\n\n- 项目用结果说话\n- 尽量量化指标\n- 突出你的核心贡献\n- 不要堆技术名词\n- 每个项目都要能被深挖\n\n示例：\n\n不好：\n\n> 使用 BERT 完成文本分类任务。\n\n更好：\n\n> 负责客服意图识别模型优化，基于 RoBERTa + 类别重采样解决长尾类别识别问题，Macro-F1 从 78.3% 提升到 84.6%，线上人工转接率下降 12%。\n\n---\n\n## 9. 一个月冲刺计划\n\n### 第 1 周：基础补齐\n\n- 复习 ML / DL 高频知识\n- 整理简历项目\n- 每天刷 2 道算法题\n\n### 第 2 周：方向强化\n\n根据岗位选择：\n\n- 推荐 / 搜索 / NLP / CV / LLM\n- 深挖该方向高频问题\n- 整理项目讲稿\n\n### 第 3 周：模拟面试\n\n- 每天模拟讲一个项目\n- 做算法限时训练\n- 准备系统设计题\n- 复盘表达问题\n\n### 第 4 周：查漏补缺\n\n- 复盘错题\n- 背熟核心公式和概念\n- 准备 HR 面\n- 研究目标公司业务和技术栈\n\n---\n\n## 10. 面试中最重要的几点\n\n1. **基础要稳**\n   - 不要只会调包，不懂原理。\n\n2. **项目要深**\n   - 能经得住连续追问。\n\n3. **表达要结构化**\n   - 先讲结论，再讲细节。\n\n4. **不知道要诚实**\n   - 可以说“这个我没有深入做过，但我的理解是……”\n\n5. **体现业务意识**\n   - 大厂更喜欢能解决真实问题的人，而不是只会跑模型的人。\n\n---\n\n## 11. 推荐准备优先级\n\n如果时间有限，优先级建议：\n\n1. 简历项目深挖\n2. 算法题高频题\n3. ML / DL 基础\n4. 目标方向知识\n5. 系统设计和部署\n6. HR 面准备\n\n---\n\n一句话总结：\n\n> AI 大厂面试不是只考模型，而是考你是否具备“算法基础 + 工程落地 + 项目深度 + 业务理解”的综合能力。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 2091,
+      "total_tokens": 2136,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 47,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:43:05.486628Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "冲刺 AI 大厂面试，建议按“岗位能力模型 + 高频面试模块 + 项目表达 + 刷题节奏”来准备。\n\n---\n\n## 1. 先明确目标岗位\n\nAI 大厂岗位差异很大，准备方向不同：\n\n### 算法工程师 / 机器学习工程师\n重点考察：\n\n- 机器学习基础\n- 深度学习基础\n- 推荐 / 搜索 / 广告 / CV / NLP / LLM 方向知识\n- 算法题\n- 项目经验\n- 工程落地能力\n\n### 大模型算法 / LLM 应用工程师\n重点考察：\n\n- Transformer、Attention、位置编码\n- SFT、RLHF、DPO、LoRA、QLoRA\n- RAG、Agent、Prompt Engineering\n- 推理优化、模型部署\n- 大模型应用项目经验\n\n### AI Infra / 训练推理框架\n重点考察：\n\n- Python / C++ / CUDA\n- 分布式训练\n- 模型并行、数据并行、流水并行\n- PyTorch 原理\n- 推理加速、TensorRT、vLLM\n- 系统设计能力\n\n---\n\n## 2. 算法题：必须稳定输出\n\n大厂 AI 岗一般仍然会考 LeetCode。\n\n### 高频内容\n\n建议重点刷：\n\n- 数组、字符串\n- 哈希表\n- 双指针、滑动窗口\n- 栈、队列、单调栈\n- 二分查找\n- DFS / BFS\n- 回溯\n- 动态规划\n- 堆、TopK\n- 图论基础\n- 树和二叉树\n\n### 刷题目标\n\n如果时间有限：\n\n- 至少刷 150～200 道高频题\n- 中等题为主\n- 每道题要能讲清楚复杂度\n- 重点复盘错题，而不是盲目刷数量\n\n推荐节奏：\n\n- 每天 2～3 道\n- 每周集中复盘一次\n- 面试前重点看错题本\n\n---\n\n## 3. 机器学习基础必须扎实\n\n高频问题包括：\n\n### 经典模型\n\n- 线性回归、逻辑回归\n- SVM\n- 决策树、随机森林、GBDT、XGBoost、LightGBM\n- KMeans、PCA\n- 朴素贝叶斯\n\n### 高频考点\n\n你需要能讲清楚：\n\n- 过拟合和欠拟合怎么解决？\n- L1 和 L2 正则有什么区别？\n- Bagging 和 Boosting 的区别？\n- GBDT 和 XGBoost 的区别？\n- AUC、Precision、Recall、F1 怎么理解？\n- 类别不平衡怎么处理？\n- 特征工程怎么做？\n- 训练集、验证集、测试集如何划分？\n- 为什么逻辑回归适合二分类？\n\n---\n\n## 4. 深度学习基础要能推导和解释\n\n重点掌握：\n\n- MLP、CNN、RNN、LSTM、GRU\n- Attention\n- Transformer\n- BatchNorm / LayerNorm\n- Dropout\n- 激活函数：ReLU、GELU、Sigmoid、Tanh\n- 优化器：SGD、Adam、AdamW\n- 损失函数：交叉熵、MSE、Triplet Loss、Contrastive Loss\n\n常见问题：\n\n- Transformer 为什么比 RNN 更适合并行？\n- Self-Attention 的计算复杂度是多少？\n- LayerNorm 和 BatchNorm 的区别？\n- Adam 和 SGD 有什么区别？\n- 为什么要做残差连接？\n- 梯度消失和梯度爆炸怎么解决？\n\n---\n\n## 5. 大模型方向重点准备\n\n如果你面的是 LLM / AIGC 方向，建议重点准备：\n\n### 模型原理\n\n- Transformer 架构\n- Multi-Head Attention\n- Masked Attention\n- Positional Encoding / RoPE\n- KV Cache\n- Tokenizer：BPE、WordPiece、SentencePiece\n\n### 训练与微调\n\n- Pretrain、SFT、RLHF、DPO\n- LoRA、QLoRA、Prefix Tuning、Prompt Tuning\n- 指令微调\n- 对齐训练\n- 数据清洗与构造\n\n### RAG\n\n需要理解：\n\n- Embedding\n- 向量数据库\n- Chunk 切分\n- Recall / Rerank\n- BM25 + 向量混合检索\n- 幻觉问题如何缓解\n- 如何评估 RAG 效果\n\n### 推理优化\n\n- KV Cache\n- Quantization\n- Speculative Decoding\n- vLLM / PagedAttention\n- Tensor Parallel\n- Batch 推理\n- 延迟、吞吐、显存优化\n\n---\n\n## 6. 项目经验是决定性因素\n\nAI 大厂非常看重项目。你需要准备 2～3 个能深入讲的项目。\n\n### 项目表达建议使用 STAR 法\n\n每个项目按这个结构讲：\n\n1. **背景**：业务目标是什么？\n2. **问题**：遇到什么困难？\n3. **方案**：你做了什么模型/算法/系统设计？\n4. **效果**：指标提升多少？\n5. **复盘**：还有什么可以优化？\n\n### 面试官常追问\n\n- 为什么选这个模型？\n- 有没有做 ablation study？\n- 数据怎么清洗？\n- 特征怎么设计？\n- 线上指标和离线指标是否一致？\n- 有没有做 A/B Test？\n- 模型效果不好时怎么排查？\n- 延迟和资源成本怎么优化？\n- 你在项目中的核心贡献是什么？\n\n### 项目要避免\n\n不要只说：\n\n> 我用了 BERT / GPT / XGBoost，效果提升了。\n\n要说清楚：\n\n- 为什么用它？\n- 相比 baseline 提升多少？\n- 你解决了什么具体问题？\n- 线上效果如何？\n- 有没有工程落地？\n\n---\n\n## 7. 系统设计与工程能力\n\nAI 岗现在越来越重视工程化。\n\n建议准备：\n\n### 基础工程能力\n\n- Python 熟练\n- PyTorch 熟练\n- Linux 常用命令\n- Git\n- Docker\n- REST API\n- SQL\n\n### 模型部署\n\n- FastAPI / Flask\n- TorchScript / ONNX\n- TensorRT\n- Triton Inference Server\n- vLLM\n- 模型服务高并发设计\n- 监控、日志、灰度发布\n\n### 可能被问\n\n- 如何设计一个推荐系统？\n- 如何设计一个 RAG 问答系统？\n- 如何部署一个 LLM 服务？\n- 如何降低模型推理延迟？\n- 如何处理线上模型效果衰减？\n- 如何做特征平台或模型监控？\n\n---\n\n## 8. 简历要针对 AI 大厂优化\n\n简历重点：\n\n- 项目用结果说话\n- 尽量量化指标\n- 突出你的核心贡献\n- 不要堆技术名词\n- 每个项目都要能被深挖\n\n示例：\n\n不好：\n\n> 使用 BERT 完成文本分类任务。\n\n更好：\n\n> 负责客服意图识别模型优化，基于 RoBERTa + 类别重采样解决长尾类别识别问题，Macro-F1 从 78.3% 提升到 84.6%，线上人工转接率下降 12%。\n\n---\n\n## 9. 一个月冲刺计划\n\n### 第 1 周：基础补齐\n\n- 复习 ML / DL 高频知识\n- 整理简历项目\n- 每天刷 2 道算法题\n\n### 第 2 周：方向强化\n\n根据岗位选择：\n\n- 推荐 / 搜索 / NLP / CV / LLM\n- 深挖该方向高频问题\n- 整理项目讲稿\n\n### 第 3 周：模拟面试\n\n- 每天模拟讲一个项目\n- 做算法限时训练\n- 准备系统设计题\n- 复盘表达问题\n\n### 第 4 周：查漏补缺\n\n- 复盘错题\n- 背熟核心公式和概念\n- 准备 HR 面\n- 研究目标公司业务和技术栈\n\n---\n\n## 10. 面试中最重要的几点\n\n1. **基础要稳**\n   - 不要只会调包，不懂原理。\n\n2. **项目要深**\n   - 能经得住连续追问。\n\n3. **表达要结构化**\n   - 先讲结论，再讲细节。\n\n4. **不知道要诚实**\n   - 可以说“这个我没有深入做过，但我的理解是……”\n\n5. **体现业务意识**\n   - 大厂更喜欢能解决真实问题的人，而不是只会跑模型的人。\n\n---\n\n## 11. 推荐准备优先级\n\n如果时间有限，优先级建议：\n\n1. 简历项目深挖\n2. 算法题高频题\n3. ML / DL 基础\n4. 目标方向知识\n5. 系统设计和部署\n6. HR 面准备\n\n---\n\n一句话总结：\n\n> AI 大厂面试不是只考模型，而是考你是否具备“算法基础 + 工程落地 + 项目深度 + 业务理解”的综合能力。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

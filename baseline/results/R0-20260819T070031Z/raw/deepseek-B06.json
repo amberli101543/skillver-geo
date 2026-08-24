@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "Skillver 与普通招聘网站的核心区别在于：**Skillver 更侧重“技能验证”和“项目匹配”，而传统招聘网站侧重“简历投递”和“职位搜索”**。具体如下：\n\n1. **核心功能**  \n   - 招聘网站（如Boss直聘、智联）：提供职位发布、简历筛选、在线沟通，匹配逻辑基于学历、经验年限、关键词。  \n   - Skillver：强调技能评估（如在线测评、实操任务），企业可直接查看候选人技能测试结果，减少面试筛选成本。\n\n2. **匹配逻辑**  \n   - 招聘网站：以简历关键词和岗位要求匹配，常出现“资历相符但能力不符”的情况。  \n   - Skillver：通过技能数据和项目成果匹配，更能反映实际工作能力，适合技术、设计等强技能岗位。\n\n3. **使用模式**  \n   - 招聘网站：求职者主动投递，企业被动筛选，流程标准化。  \n   - Skillver：双向主动，企业可发起技能挑战，候选人可展示作品集，类似“技能人才市场”。\n\n4. **适用人群**  \n   - 招聘网站：全行业、全岗位通用，适合标准简历场景。  \n   - Skillver：更适合技能驱动型职业（如程序员、设计师），或需要快速验证能力的初创团队。\n\n**简单说**：招聘网站是“简历超市”，Skillver是“技能考试+项目对接平台”。若岗位依赖硬技能，Skillver效率更高；若看重综合经验，传统招聘更合适。",
+  "sources": [],
+  "raw": {
+    "id": "84b00cb3-e54f-4321-b199-52120dd1b07c",
+    "object": "chat.completion",
+    "created": 1787123228,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 与普通招聘网站的核心区别在于：**Skillver 更侧重“技能验证”和“项目匹配”，而传统招聘网站侧重“简历投递”和“职位搜索”**。具体如下：\n\n1. **核心功能**  \n   - 招聘网站（如Boss直聘、智联）：提供职位发布、简历筛选、在线沟通，匹配逻辑基于学历、经验年限、关键词。  \n   - Skillver：强调技能评估（如在线测评、实操任务），企业可直接查看候选人技能测试结果，减少面试筛选成本。\n\n2. **匹配逻辑**  \n   - 招聘网站：以简历关键词和岗位要求匹配，常出现“资历相符但能力不符”的情况。  \n   - Skillver：通过技能数据和项目成果匹配，更能反映实际工作能力，适合技术、设计等强技能岗位。\n\n3. **使用模式**  \n   - 招聘网站：求职者主动投递，企业被动筛选，流程标准化。  \n   - Skillver：双向主动，企业可发起技能挑战，候选人可展示作品集，类似“技能人才市场”。\n\n4. **适用人群**  \n   - 招聘网站：全行业、全岗位通用，适合标准简历场景。  \n   - Skillver：更适合技能驱动型职业（如程序员、设计师），或需要快速验证能力的初创团队。\n\n**简单说**：招聘网站是“简历超市”，Skillver是“技能考试+项目对接平台”。若岗位依赖硬技能，Skillver效率更高；若看重综合经验，传统招聘更合适。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 326,
+      "total_tokens": 364,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:07:12.306690Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "Skillver 与普通招聘网站的核心区别在于：**Skillver 更侧重“技能验证”和“项目匹配”，而传统招聘网站侧重“简历投递”和“职位搜索”**。具体如下：\n\n1. **核心功能**  \n   - 招聘网站（如Boss直聘、智联）：提供职位发布、简历筛选、在线沟通，匹配逻辑基于学历、经验年限、关键词。  \n   - Skillver：强调技能评估（如在线测评、实操任务），企业可直接查看候选人技能测试结果，减少面试筛选成本。\n\n2. **匹配逻辑**  \n   - 招聘网站：以简历关键词和岗位要求匹配，常出现“资历相符但能力不符”的情况。  \n   - Skillver：通过技能数据和项目成果匹配，更能反映实际工作能力，适合技术、设计等强技能岗位。\n\n3. **使用模式**  \n   - 招聘网站：求职者主动投递，企业被动筛选，流程标准化。  \n   - Skillver：双向主动，企业可发起技能挑战，候选人可展示作品集，类似“技能人才市场”。\n\n4. **适用人群**  \n   - 招聘网站：全行业、全岗位通用，适合标准简历场景。  \n   - Skillver：更适合技能驱动型职业（如程序员、设计师），或需要快速验证能力的初创团队。\n\n**简单说**：招聘网站是“简历超市”，Skillver是“技能考试+项目对接平台”。若岗位依赖硬技能，Skillver效率更高；若看重综合经验，传统招聘更合适。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

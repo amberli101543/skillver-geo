@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "关于“Skillver”，目前没有广泛公开的信息表明它是一个知名的产品、平台或服务。它可能是一个特定公司内部使用的工具、某个小众软件，或者名称拼写有误。\n\n为了准确回答您的问题，请您提供更多背景信息，例如：\n- 它是否为一个应用程序、网站或软件？\n- 您是在哪里看到这个名称的（比如招聘信息、技术文档等）？\n\n如果是指常见的技能管理平台，可能是 **Skillsoft** 或 **LinkedIn Skill Assessments** 等，不过这些也请确认具体名称。\n\n如果您能补充细节，我可以给出更准确的解答。",
+  "sources": [],
+  "raw": {
+    "id": "3aa29f8c-4a22-4bf5-a484-bf79b58561df",
+    "object": "chat.completion",
+    "created": 1787123474,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于“Skillver”，目前没有广泛公开的信息表明它是一个知名的产品、平台或服务。它可能是一个特定公司内部使用的工具、某个小众软件，或者名称拼写有误。\n\n为了准确回答您的问题，请您提供更多背景信息，例如：\n- 它是否为一个应用程序、网站或软件？\n- 您是在哪里看到这个名称的（比如招聘信息、技术文档等）？\n\n如果是指常见的技能管理平台，可能是 **Skillsoft** 或 **LinkedIn Skill Assessments** 等，不过这些也请确认具体名称。\n\n如果您能补充细节，我可以给出更准确的解答。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 125,
+      "total_tokens": 160,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 35
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:11:16.046937Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "关于“Skillver”，目前没有广泛公开的信息表明它是一个知名的产品、平台或服务。它可能是一个特定公司内部使用的工具、某个小众软件，或者名称拼写有误。\n\n为了准确回答您的问题，请您提供更多背景信息，例如：\n- 它是否为一个应用程序、网站或软件？\n- 您是在哪里看到这个名称的（比如招聘信息、技术文档等）？\n\n如果是指常见的技能管理平台，可能是 **Skillsoft** 或 **LinkedIn Skill Assessments** 等，不过这些也请确认具体名称。\n\n如果您能补充细节，我可以给出更准确的解答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

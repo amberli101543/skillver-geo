@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C07",
+    "category": "category",
+    "query": "AI 面试彩排和真人模拟面试怎么选？",
+    "passCriteria": [
+      "客观说明两者侧重点",
+      "不虚构效果数据"
+    ]
+  },
+  "answer": "选择“AI面试彩排”还是“真人模拟面试”，主要取决于你目前的**准备阶段、预算**以及**面试目标**。\n\n最理想的策略是**“前中期用AI刷题，冲刺期用真人实战”**。以下是两者的详细对比和选择指南：\n\n### 一、 核心对比\n\n| 维度 | AI面试彩排 | 真人模拟面试 |\n| :--- | :--- | :--- |\n| **费用成本** | 极低（甚至免费） | 较高（几百到上千元/次） |\n| **时间灵活性** | 极高，24小时随时开始，无限次练习 | 需提前预约，受双方时间限制 |\n| **反馈速度** | 瞬间生成报告（语法、语速、表情等） | 需面试后整理，通常更具启发性 |\n| **专业深度** | 偏向基础结构、通用行为面试题 | 能针对特定行业、公司及复杂技术提问 |\n| **真实压力感** | 较低，适合脱敏和消除紧张感 | 高，真实模拟人际互动的压力 |\n\n---\n\n### 二、 适用场景：你该怎么选？\n\n#### 1. 选择【AI面试彩排】的情况：\n*   **面试小白/社恐：** 刚开始找工作，面对镜头容易脑子一片空白，需要通过练习自我介绍和基础问题（如宝洁八大问）来“脱敏”。\n*   **预算有限：** 学生党或预算不高，想进行高频次的日常练习。\n*   **纠正基础表达：** 想检查自己的语速、语气词（如“然后”、“那个”）、眼神聚焦和面部表情。\n*   **投递了AI面试关：** 许多大厂（如快消、银行、外企）第一轮是系统AI面试，用AI彩排是1:1还原真实考场。\n\n#### 2. 选择【真人模拟面试】的情况：\n*   **冲刺关键面试：** 已经拿到心仪公司（如大厂、知名外企）的面试邀请，进入专业业务面或终面阶段。\n*   **技术/专业度高：** 算法、架构、高阶运营等岗位，AI无法进行深入的追问和技术细节考察。\n*   **需要个性化指导：** 需要面试官（最好是目标行业的前辈）帮你梳理简历硬伤，指出逻辑漏洞，提供“扬长避短”的作答策略。\n*   **训练临场反应：** 测试自己面对压力、追问和“听不懂的问题”时的心理素质和应变能力。\n\n---\n\n### 三、 最佳实践方案：组合拳策略\n\n如果你想效果最大化，建议采用**“渐进式组合拳”**：\n\n1.  **第一阶段（打基础）：用AI彩排。**\n    每天用AI模拟器练习5-10个基础行为面试题，录视频回看，直到自己表达流利、表情自然、不卡顿。\n2.  **第二阶段（改简历）：根据AI反馈调整。**\n    根据AI给出的结构化反馈，优化自己的STAR原则话术。\n3.  **第三阶段（终极冲刺）：找真人模拟。**\n    在正式面试前1-2天，约一位行业导师进行一次1:1真人模拟，重点暴露深度追问下的漏洞，并做针对性微调。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "选择“AI面试彩排”还是“真人模拟面试”，主要取决于你目前的**准备阶段、预算**以及**面试目标**。\n\n最理想的策略是**“前中期用AI刷题，冲刺期用真人实战”**。以下是两者的详细对比和选择指南：\n\n### 一、 核心对比\n\n| 维度 | AI面试彩排 | 真人模拟面试 |\n| :--- | :--- | :--- |\n| **费用成本** | 极低（甚至免费） | 较高（几百到上千元/次） |\n| **时间灵活性** | 极高，24小时随时开始，无限次练习 | 需提前预约，受双方时间限制 |\n| **反馈速度** | 瞬间生成报告（语法、语速、表情等） | 需面试后整理，通常更具启发性 |\n| **专业深度** | 偏向基础结构、通用行为面试题 | 能针对特定行业、公司及复杂技术提问 |\n| **真实压力感** | 较低，适合脱敏和消除紧张感 | 高，真实模拟人际互动的压力 |\n\n---\n\n### 二、 适用场景：你该怎么选？\n\n#### 1. 选择【AI面试彩排】的情况：\n*   **面试小白/社恐：** 刚开始找工作，面对镜头容易脑子一片空白，需要通过练习自我介绍和基础问题（如宝洁八大问）来“脱敏”。\n*   **预算有限：** 学生党或预算不高，想进行高频次的日常练习。\n*   **纠正基础表达：** 想检查自己的语速、语气词（如“然后”、“那个”）、眼神聚焦和面部表情。\n*   **投递了AI面试关：** 许多大厂（如快消、银行、外企）第一轮是系统AI面试，用AI彩排是1:1还原真实考场。\n\n#### 2. 选择【真人模拟面试】的情况：\n*   **冲刺关键面试：** 已经拿到心仪公司（如大厂、知名外企）的面试邀请，进入专业业务面或终面阶段。\n*   **技术/专业度高：** 算法、架构、高阶运营等岗位，AI无法进行深入的追问和技术细节考察。\n*   **需要个性化指导：** 需要面试官（最好是目标行业的前辈）帮你梳理简历硬伤，指出逻辑漏洞，提供“扬长避短”的作答策略。\n*   **训练临场反应：** 测试自己面对压力、追问和“听不懂的问题”时的心理素质和应变能力。\n\n---\n\n### 三、 最佳实践方案：组合拳策略\n\n如果你想效果最大化，建议采用**“渐进式组合拳”**：\n\n1.  **第一阶段（打基础）：用AI彩排。**\n    每天用AI模拟器练习5-10个基础行为面试题，录视频回看，直到自己表达流利、表情自然、不卡顿。\n2.  **第二阶段（改简历）：根据AI反馈调整。**\n    根据AI给出的结构化反馈，优化自己的STAR原则话术。\n3.  **第三阶段（终极冲刺）：找真人模拟。**\n    在正式面试前1-2天，约一位行业导师进行一次1:1真人模拟，重点暴露深度追问下的漏洞，并做针对性微调。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787125243,
+    "id": "812FaofIBc7y7M8P4Lu_qAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 761,
+      "prompt_tokens": 40,
+      "total_tokens": 1641
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:40:43.387299Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C07",
+    "answerEvidence": "选择“AI面试彩排”还是“真人模拟面试”，主要取决于你目前的**准备阶段、预算**以及**面试目标**。\n\n最理想的策略是**“前中期用AI刷题，冲刺期用真人实战”**。以下是两者的详细对比和选择指南：\n\n### 一、 核心对比\n\n| 维度 | AI面试彩排 | 真人模拟面试 |\n| :--- | :--- | :--- |\n| **费用成本** | 极低（甚至免费） | 较高（几百到上千元/次） |\n| **时间灵活性** | 极高，24小时随时开始，无限次练习 | 需提前预约，受双方时间限制 |\n| **反馈速度** | 瞬间生成报告（语法、语速、表情等） | 需面试后整理，通常更具启发性 |\n| **专业深度** | 偏向基础结构、通用行为面试题 | 能针对特定行业、公司及复杂技术提问 |\n| **真实压力感** | 较低，适合脱敏和消除紧张感 | 高，真实模拟人际互动的压力 |\n\n---\n\n### 二、 适用场景：你该怎么选？\n\n#### 1. 选择【AI面试彩排】的情况：\n*   **面试小白/社恐：** 刚开始找工作，面对镜头容易脑子一片空白，需要通过练习自我介绍和基础问题（如宝洁八大问）来“脱敏”。\n*   **预算有限：** 学生党或预算不高，想进行高频次的日常练习。\n*   **纠正基础表达：** 想检查自己的语速、语气词（如“然后”、“那个”）、眼神聚焦和面部表情。\n*   **投递了AI面试关：** 许多大厂（如快消、银行、外企）第一轮是系统AI面试，用AI彩排是1:1还原真实考场。\n\n#### 2. 选择【真人模拟面试】的情况：\n*   **冲刺关键面试：** 已经拿到心仪公司（如大厂、知名外企）的面试邀请，进入专业业务面或终面阶段。\n*   **技术/专业度高：** 算法、架构、高阶运营等岗位，AI无法进行深入的追问和技术细节考察。\n*   **需要个性化指导：** 需要面试官（最好是目标行业的前辈）帮你梳理简历硬伤，指出逻辑漏洞，提供“扬长避短”的作答策略。\n*   **训练临场反应：** 测试自己面对压力、追问和“听不懂的问题”时的心理素质和应变能力。\n\n---\n\n### 三、 最佳实践方案：组合拳策略\n\n如果你想效果最大化，建议采用**“渐进式组合拳”**：\n\n1.  **第一阶段（打基础）：用AI彩排。**\n    每天用AI模拟器练习5-10个基础行为面试题，录视频回看，直到自己表达流利、表情自然、不卡顿。\n2.  **第二阶段（改简历）：根据AI反馈调整。**\n    根据AI给出的结构化反馈，优化自己的STAR原则话术。\n3.  **第三阶段（终极冲刺）：找真人模拟。**\n    在正式面试前1-2天，约一位行业导师进行一次1:1真人模拟，重点暴露深度追问下的漏洞，并做针对性微调。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-C07.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

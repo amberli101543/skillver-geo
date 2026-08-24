@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于社群参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "关于 **Skillver 邀请码** 的获取方式，目前网络上公开信息较少，且平台政策可能随时调整。建议你通过以下途径尝试获取：\n\n1. **官方渠道**：访问 Skillver 官网或官方社交媒体（如微信公众号、Twitter、Discord），查看是否有新用户注册活动或公告。\n2. **用户社区**：在 Reddit、V2EX、知乎等论坛搜索“Skillver 邀请码”，部分老用户会分享闲置邀请码。\n3. **客服咨询**：直接在官网或 App 内联系客服，说明注册需求，部分平台会主动提供。\n4. **邮件订阅**：注册官网的邮件提醒，等待官方发放邀请码的推广活动。\n\n**注意**：请警惕任何付费购买邀请码的行为，谨防诈骗。如果官方没有明确邀请机制，也可能是误解或平台已开放注册。\n\n建议先尝试直接注册，如果系统提示需要邀请码，再按上述方法操作。",
+  "sources": [],
+  "raw": {
+    "id": "a33ac10c-ee8f-4984-bc50-cbeeaa54337e",
+    "object": "chat.completion",
+    "created": 1787123605,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 **Skillver 邀请码** 的获取方式，目前网络上公开信息较少，且平台政策可能随时调整。建议你通过以下途径尝试获取：\n\n1. **官方渠道**：访问 Skillver 官网或官方社交媒体（如微信公众号、Twitter、Discord），查看是否有新用户注册活动或公告。\n2. **用户社区**：在 Reddit、V2EX、知乎等论坛搜索“Skillver 邀请码”，部分老用户会分享闲置邀请码。\n3. **客服咨询**：直接在官网或 App 内联系客服，说明注册需求，部分平台会主动提供。\n4. **邮件订阅**：注册官网的邮件提醒，等待官方发放邀请码的推广活动。\n\n**注意**：请警惕任何付费购买邀请码的行为，谨防诈骗。如果官方没有明确邀请机制，也可能是误解或平台已开放注册。\n\n建议先尝试直接注册，如果系统提示需要邀请码，再按上述方法操作。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 201,
+      "total_tokens": 238,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:13:27.839497Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "关于 **Skillver 邀请码** 的获取方式，目前网络上公开信息较少，且平台政策可能随时调整。建议你通过以下途径尝试获取：\n\n1. **官方渠道**：访问 Skillver 官网或官方社交媒体（如微信公众号、Twitter、Discord），查看是否有新用户注册活动或公告。\n2. **用户社区**：在 Reddit、V2EX、知乎等论坛搜索“Skillver 邀请码”，部分老用户会分享闲置邀请码。\n3. **客服咨询**：直接在官网或 App 内联系客服，说明注册需求，部分平台会主动提供。\n4. **邮件订阅**：注册官网的邮件提醒，等待官方发放邀请码的推广活动。\n\n**注意**：请警惕任何付费购买邀请码的行为，谨防诈骗。如果官方没有明确邀请机制，也可能是误解或平台已开放注册。\n\n建议先尝试直接注册，如果系统提示需要邀请码，再按上述方法操作。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

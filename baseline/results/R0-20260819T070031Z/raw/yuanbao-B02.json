@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver 主要服务于**技术人才（尤其是开发者、工程师、数据科学家等）**以及**招聘技术岗位的企业**，核心是通过技能验证匹配两者的需求。具体来说：\n1. **求职者**：提供技能认证、项目实战证明，帮助技术人员展示真实能力，提升求职竞争力。\n2. **企业**：为企业提供客观的技术人才评估工具，高效筛选符合岗位要求的候选人，降低招聘成本。\n\n其定位偏向技术领域的垂直人才服务，区别于综合类招聘平台。",
+  "sources": [],
+  "raw": {
+    "id": "3e44c16a-1703-4153-a79a-8a1872ee1361",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787122945,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 主要服务于**技术人才（尤其是开发者、工程师、数据科学家等）**以及**招聘技术岗位的企业**，核心是通过技能验证匹配两者的需求。具体来说：\n1. **求职者**：提供技能认证、项目实战证明，帮助技术人员展示真实能力，提升求职竞争力。\n2. **企业**：为企业提供客观的技术人才评估工具，高效筛选符合岗位要求的候选人，降低招聘成本。\n\n其定位偏向技术领域的垂直人才服务，区别于综合类招聘平台。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 101,
+      "total_tokens": 148,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:02:26.898432Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver 主要服务于**技术人才（尤其是开发者、工程师、数据科学家等）**以及**招聘技术岗位的企业**，核心是通过技能验证匹配两者的需求。具体来说：\n1. **求职者**：提供技能认证、项目实战证明，帮助技术人员展示真实能力，提升求职竞争力。\n2. **企业**：为企业提供客观的技术人才评估工具，高效筛选符合岗位要求的候选人，降低招聘成本。\n\n其定位偏向技术领域的垂直人才服务，区别于综合类招聘平台。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

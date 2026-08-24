@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具一般可分为 **4 类**：**职业规划/岗位匹配**、**简历优化**、**模拟面试**、**面试/求职辅助**。这四类基本覆盖了从准备到面试的主要环节。[4][6][14][16]\n\n也可以按“产品形态”再细分为更常见的几种类型：\n\n- **简历工具**：简历生成、排版、关键词优化、ATS 通过率检查。[4][5][15][16]\n- **岗位匹配/求职推荐工具**：根据技能、经历、JD 做职位推荐或匹配度分析。[4][5][14][16]\n- **模拟面试工具**：生成面试题、进行 AI 面试演练、给出反馈建议。[6][10][16][20]\n- **求职辅助工具**：包括求职信生成、申请进度管理、投递跟踪、薪资查询、岗位咨询等。[2][3][4][6]\n\n如果按“是否一体化”来分，还可以看到两种常见路线：\n\n- **单点工具**：只解决一个环节，比如只做简历优化、只做模拟面试。[4][15]\n- **全链路工具**：覆盖多个环节，从简历、投递到面试辅助甚至求职管理。[8][13][15][17]\n\n如果你愿意，我也可以继续帮你整理成一张 **“AI 求职工具分类表”**，或者按 **应届生/社招/转行** 分别推荐适合的工具类型。",
+  "sources": [
+    {
+      "url": "https://www.mokahr.com/blog/41064.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.aihub.cn/tools/hr/",
+      "title": ""
+    },
+    {
+      "url": "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights",
+      "title": ""
+    },
+    {
+      "url": "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L35G510805527AC6.html",
+      "title": ""
+    },
+    {
+      "url": "https://ai-kit.cn/11308.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.ai-oko.com/tools?category=recruitment",
+      "title": ""
+    },
+    {
+      "url": "https://aitools.aiting.com/zh/topic/ai-recruiting",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/11134",
+      "title": ""
+    },
+    {
+      "url": "https://sheepnav.com/categories/hiring",
+      "title": ""
+    },
+    {
+      "url": "http://toolai.io/zh/ranking-category/human-resources",
+      "title": ""
+    },
+    {
+      "url": "https://blog.offergoose.com/zh-cn/post468/",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L4076N8M0556N9H4.html",
+      "title": ""
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7672291277678706730",
+      "title": ""
+    },
+    {
+      "url": "https://maobucv.com/articles/2025/07/353/",
+      "title": ""
+    },
+    {
+      "url": "https://www.unite.ai/zh-cn/ai-recruiting-tools/",
+      "title": ""
+    },
+    {
+      "url": "https://www.zhitoujianli.com/blog/job-hunting-efficiency-tools-comparison/",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/KBONABDM0556FC0Y.html",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.mokahr.com/blog/41064.html",
+      "title": "主流AI招聘工具全景解读：2026年企业该怎么用用哪种？"
+    },
+    {
+      "url": "https://www.aihub.cn/tools/hr/",
+      "title": "20+最好用的AI招聘求职工具和助手 - AIHub"
+    },
+    {
+      "url": "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights",
+      "title": "7款AI求職工具實測：如何提升面試邀約率20倍"
+    },
+    {
+      "url": "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/",
+      "title": "10 年十大最佳求职 AI 工具 - TargetTrend"
+    },
+    {
+      "url": "https://www.163.com/dy/article/L35G510805527AC6.html",
+      "title": "网申通过率高的招聘平台怎么选？5款AI求职工具实测盘点"
+    },
+    {
+      "url": "https://ai-kit.cn/11308.html",
+      "title": "AI求职工具全面剖析：从职业规划到面试辅助的全新助力 | AI工具箱"
+    },
+    {
+      "url": "https://www.ai-oko.com/tools?category=recruitment",
+      "title": "AI招聘求职工具 - AI聚合导航网"
+    },
+    {
+      "url": "https://aitools.aiting.com/zh/topic/ai-recruiting",
+      "title": "AI招聘工具大全：简历筛选、人才搜寻、ATS与面试、自动化对比"
+    },
+    {
+      "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/11134",
+      "title": "AI招聘深度测评：五大主流工具实战对比（2026年版）"
+    },
+    {
+      "url": "https://sheepnav.com/categories/hiring",
+      "title": "招聘 - AI 工具分类 | SheepNav"
+    },
+    {
+      "url": "http://toolai.io/zh/ranking-category/human-resources",
+      "title": "ToolAI 全球最完整最全面的AI人工智能工具集合"
+    },
+    {
+      "url": "https://blog.offergoose.com/zh-cn/post468/",
+      "title": "宠物行业求职工具怎么选：四类 AI 求职工具横评与一体化取舍"
+    },
+    {
+      "url": "https://www.163.com/dy/article/L4076N8M0556N9H4.html",
+      "title": "AI正在颠覆求职链：HR开始用AI筛简历，求职者如何反向破局？"
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7672291277678706730",
+      "title": "AI简历工具持续迭代 多类型产品为求职者提供辅助参考"
+    },
+    {
+      "url": "https://maobucv.com/articles/2025/07/353/",
+      "title": "2025 年免费求职 AI 工具网站盘点：猫步简历 / 猫步导航等 8 大工具推荐"
+    },
+    {
+      "url": "https://www.unite.ai/zh-cn/ai-recruiting-tools/",
+      "title": "10 个最佳 AI 招聘软件平台（2026年8月）"
+    },
+    {
+      "url": "https://www.zhitoujianli.com/blog/job-hunting-efficiency-tools-comparison/",
+      "title": "求职效率工具对比：哪个更适合你？"
+    },
+    {
+      "url": "https://www.163.com/dy/article/KBONABDM0556FC0Y.html",
+      "title": "春招AI 求职工具实测：5 款热门产品横评，谁才是应届生最优解？ - 网易"
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html",
+      "title": "7款主流AI模拟面试工具全维度对比，谁才是真正的求职神器？"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "AI 求职工具一般可分为 **4 类**：**职业规划/岗位匹配**、**简历优化**、**模拟面试**、**面试/求职辅助**。这四类基本覆盖了从准备到面试的主要环节。[4][6][14][16]\n\n也可以按“产品形态”再细分为更常见的几种类型：\n\n- **简历工具**：简历生成、排版、关键词优化、ATS 通过率检查。[4][5][15][16]\n- **岗位匹配/求职推荐工具**：根据技能、经历、JD 做职位推荐或匹配度分析。[4][5][14][16]\n- **模拟面试工具**：生成面试题、进行 AI 面试演练、给出反馈建议。[6][10][16][20]\n- **求职辅助工具**：包括求职信生成、申请进度管理、投递跟踪、薪资查询、岗位咨询等。[2][3][4][6]\n\n如果按“是否一体化”来分，还可以看到两种常见路线：\n\n- **单点工具**：只解决一个环节，比如只做简历优化、只做模拟面试。[4][15]\n- **全链路工具**：覆盖多个环节，从简历、投递到面试辅助甚至求职管理。[8][13][15][17]\n\n如果你愿意，我也可以继续帮你整理成一张 **“AI 求职工具分类表”**，或者按 **应届生/社招/转行** 分别推荐适合的工具类型。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.mokahr.com/blog/41064.html",
+      "https://www.aihub.cn/tools/hr/",
+      "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights",
+      "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/",
+      "https://www.163.com/dy/article/L35G510805527AC6.html",
+      "https://ai-kit.cn/11308.html",
+      "https://www.ai-oko.com/tools?category=recruitment",
+      "https://aitools.aiting.com/zh/topic/ai-recruiting",
+      "https://www.cnblogs.com/Ningxianwei/articles/19199547",
+      "https://hr.nowcoder.com/article/11134",
+      "https://sheepnav.com/categories/hiring",
+      "http://toolai.io/zh/ranking-category/human-resources",
+      "https://blog.offergoose.com/zh-cn/post468/",
+      "https://www.163.com/dy/article/L4076N8M0556N9H4.html",
+      "https://developer.volcengine.com/articles/7672291277678706730",
+      "https://maobucv.com/articles/2025/07/353/",
+      "https://www.unite.ai/zh-cn/ai-recruiting-tools/",
+      "https://www.zhitoujianli.com/blog/job-hunting-efficiency-tools-comparison/",
+      "https://www.163.com/dy/article/KBONABDM0556FC0Y.html",
+      "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html"
+    ],
+    "created": 1787125103,
+    "id": "869e0bc8-33dc-47b3-9b5e-9106d4ec2677",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-06-03",
+        "last_updated": "2026-08-01",
+        "place_metadata": null,
+        "snippet": "AI招聘工具的核心能力由四个层次构成：**简历智能处理层、候选人评估层、流程协同层、数据决策层**。这四层缺一不可，也是判断一款工具是否真正具备AI能力的基本框架。\n...\n当前市场上的AI招聘工具，按能力形态大致分为三类，适合不同规模和诉求的企业。\n**第一类：垂直AI简历筛选工具。** 这类工具聚焦在简历处理和初步筛选环节，通常以API或插件形式集成到企业现有ATS中。适合招聘量大但对流程管理需求相对简单的场景——比如一家有稳定招聘流程但每月收到大量简历的制造业企业，直接采购筛选工具叠加在现有系统上，成本低、上手快。\n...\n**第二类：AI增强型ATS。** 这是当前市场的主流形态，指在...",
+        "source": "web",
+        "title": "主流AI招聘工具全景解读：2026年企业该怎么用用哪种？",
+        "url": "https://www.mokahr.com/blog/41064.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-02",
+        "place_metadata": null,
+        "snippet": "DeepHire 是 BOSS直聘推出的 AI 招聘求职工具，支持岗位咨询、薪资查询、简历优化、人才筛选、AI 代聊和约面等功能，面向求职者与招聘者提供智能化招聘求职辅助服务。",
+        "source": "web",
+        "title": "20+最好用的AI招聘求职工具和助手 - AIHub",
+        "url": "https://www.aihub.cn/tools/hr/"
+      },
+      {
+        "date": "2025-06-17",
+        "last_updated": "2026-07-07",
+        "place_metadata": null,
+        "snippet": "2. **輔助管理：** 用 **TealHQ** 的免費版來追蹤所有申請，包括 AI 投的、你自己手動投的，還有透過人脈介紹的。這樣你的求職進度才會一目了然，不會亂掉。",
+        "source": "web",
+        "title": "7款AI求職工具實測：如何提升面試邀約率20倍",
+        "url": "https://www.pineymountain.com/tw/article/157/ai-job-tool-benefits-insights"
+      },
+      {
+        "date": "2025-04-28",
+        "last_updated": "2025-06-09",
+        "place_metadata": null,
+        "snippet": "**工具类别**关于人工智能求职工具，首先要了解的是，工具分为不同类别。有些工具专门用于创建简历，而另一些则用于自动求职、职位匹配、求职信生成器、职业顾问和模拟面试。为了在求职过程中充分利用这些工具，你需要了解它们之间的区别，并确定哪些工具最适合你的工具库。",
+        "source": "web",
+        "title": "10 年十大最佳求职 AI 工具 - TargetTrend",
+        "url": "https://targettrend.com/zh-CN/best-ai-tools-for-job-search/"
+      },
+      {
+        "date": "2026-07-31",
+        "last_updated": "2026-08-04",
+        "place_metadata": null,
+        "snippet": "AI简历姬是一款以岗位JD为中心的全流程求职工作台，主打3分钟生成可投递初稿。它的差异化优势在于JD关键词映射与ATS校验，能给出匹配度评分和缺口清单，帮助用户做“一岗一版”的批量适配。适合瞄准互联网大厂、对ATS关键词匹配要求高的求职者，尤其是在海投场景下需要高效管理多版本简历的用户。",
+        "source": "web",
+        "title": "网申通过率高的招聘平台怎么选？5款AI求职工具实测盘点",
+        "url": "https://www.163.com/dy/article/L35G510805527AC6.html"
+      },
+      {
+        "date": "2025-04-20",
+        "last_updated": "2025-06-11",
+        "place_metadata": null,
+        "snippet": "当下，求职领域正经历着AI带来的深刻变革。据Capterra的《2024年求职者人工智能调查报告》，58%的求职者已借助AI工具求职。AI求职工具主要在职业规划、简历修改、模拟面试、面试辅助这四大环节发力。",
+        "source": "web",
+        "title": "AI求职工具全面剖析：从职业规划到面试辅助的全新助力 | AI工具箱",
+        "url": "https://ai-kit.cn/11308.html"
+      },
+      {
+        "date": "2026-06-06",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "蓝字典AI求职是AI求职辅助工具，提供AI简历生成、AI模拟面试与求职指导服务，助力求职者高效完成求职准备与面试表现提升。",
+        "source": "web",
+        "title": "AI招聘求职工具 - AI聚合导航网",
+        "url": "https://www.ai-oko.com/tools?category=recruitment"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-03",
+        "place_metadata": null,
+        "snippet": "iSmartRecruit AI 是一款面向招聘机构与企业人力资源团队的智能招聘软件，集应聘者跟踪系统（ATS）、招聘 CRM、AI 与自动化以及招聘营销于一体，覆盖从职位发布、候选人搜寻、简历筛选、面试安排到录用与报表分析的全流程。",
+        "source": "web",
+        "title": "AI招聘工具大全：简历筛选、人才搜寻、ATS与面试、自动化对比",
+        "url": "https://aitools.aiting.com/zh/topic/ai-recruiting"
+      },
+      {
+        "date": "2025-11-07",
+        "last_updated": "2026-04-20",
+        "place_metadata": null,
+        "snippet": "选手A：“简历魔法师” (代表“单点优化工具”)",
+        "source": "web",
+        "title": "2025年AI求职助手横评：从“写作工具”到“智能体” - 博客园",
+        "url": "https://www.cnblogs.com/Ningxianwei/articles/19199547"
+      },
+      {
+        "date": "2026-01-28",
+        "last_updated": "2026-03-05",
+        "place_metadata": null,
+        "snippet": "随着人工智能技术的发展，越来越多的人力资源与招聘平台推出了基于AI的面试工具。以下为市场上主流的五款AI模拟面试工具：",
+        "source": "web",
+        "title": "AI招聘深度测评：五大主流工具实战对比（2026年版）",
+        "url": "https://hr.nowcoder.com/article/11134"
+      },
+      {
+        "date": "2026-08-05",
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "- **[Developer Tools](https://www.producthunt.com/categories/llm-developer-tools)** – Tools that help developers design, test, document, and maintain APIs throughout the development lifecycle.\n- **[AI Infrastructure](https://www.producthunt.com/categories/ai-infrastructure)** – Infrastructure produc...",
+        "source": "web",
+        "title": "招聘 - AI 工具分类 | SheepNav",
+        "url": "https://sheepnav.com/categories/hiring"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-06-17",
+        "place_metadata": null,
+        "snippet": "|排行榜|工具|介绍|月访问量|操作|\n...\n|36|AI Assisted Jobs|AIAssistedJobs.com 是生成式 AI 工作的基于技能的工作板。通过按特定技能筛选工作，找到完全适合您技能的工作。|17.63K|查看|",
+        "source": "web",
+        "title": "ToolAI 全球最完整最全面的AI人工智能工具集合",
+        "url": "http://toolai.io/zh/ranking-category/human-resources"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "这组横评就是为「转行宠业者」写的。我会把最常见的四类工具放在一起：专注简历与 JD 匹配的 Jobscan、专注简历模板优化的超级简历、专注面试题库的牛客、以及招聘平台内的智联招聘 AI 模拟面试，再把鹅来面放进来，做一次「定位 → 要点 → 定价 → 人群 → 建议」的分点对比。",
+        "source": "web",
+        "title": "宠物行业求职工具怎么选：四类 AI 求职工具横评与一体化取舍",
+        "url": "https://blog.offergoose.com/zh-cn/post468/"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-15",
+        "place_metadata": null,
+        "snippet": "按功能分为简历优化、模拟面试、行业研究、岗位匹配四类。",
+        "source": "web",
+        "title": "AI正在颠覆求职链：HR开始用AI筛简历，求职者如何反向破局？",
+        "url": "https://www.163.com/dy/article/L4076N8M0556N9H4.html"
+      },
+      {
+        "date": "2026-08-10",
+        "last_updated": "2026-08-10",
+        "place_metadata": null,
+        "snippet": "简历作为求职过程中的重要材料，简历撰写、内容打磨是不少求职者需要面对的环节。随着人工智能技术在求职场景落地，市场上出现多款 AI 简历修改、简历优化类工具，不同产品的功能定位各有侧重。本文将按照**全链路求职一体化工具、专注简历排版生成工具、专项简历诊断优化工具** 三大类别，客观梳理相关工具，供求职者结合自身实际情况参考选择。",
+        "source": "web",
+        "title": "AI简历工具持续迭代 多类型产品为求职者提供辅助参考",
+        "url": "https://developer.volcengine.com/articles/7672291277678706730"
+      },
+      {
+        "date": "2025-07-04",
+        "last_updated": "2025-07-06",
+        "place_metadata": null,
+        "snippet": "以下是一些免费求职 AI 工具网站的归纳整理，包含猫步简历及其他实用工具，涵盖简历优化、面试模拟、职位匹配等核心功能：",
+        "source": "web",
+        "title": "2025 年免费求职 AI 工具网站盘点：猫步简历 / 猫步导航等 8 大工具推荐",
+        "url": "https://maobucv.com/articles/2025/07/353/"
+      },
+      {
+        "date": "2022-02-01",
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "|AI 工具|最佳适用|关键特性|\n|--|--|--|\n...\n|Eightfold AI|人才情报、技能匹配和内部流动|人才情报、技能图谱、寻源、匹配、内部流动、劳动力规划、分析|\n|Recruit CRM|人力派遣和招聘机构|ATS、招聘 CRM、候选人和客户管理、电子邮件、自动化、报告、机构工作流|\n|HireVue|结构化面试和评估|视频面试、结构化面试、评估、排程、候选人互动、分析|\n|SeekOut|候选人寻源和人才搜索|人才搜索、寻源、个人资料、外联、洞察、内部人才、AI 辅助搜索|\n|iCIMS|大型企业招聘运营|ATS、职业网站、候选人互动、CRM、自动化、分析、AI 辅助...",
+        "source": "web",
+        "title": "10 个最佳 AI 招聘软件平台（2026年8月）",
+        "url": "https://www.unite.ai/zh-cn/ai-recruiting-tools/"
+      },
+      {
+        "date": "2025-01-21",
+        "last_updated": "2026-01-02",
+        "place_metadata": null,
+        "snippet": "|工具A|简历优化|多平台|付费|70%|4.2/5.0|",
+        "source": "web",
+        "title": "求职效率工具对比：哪个更适合你？",
+        "url": "https://www.zhitoujianli.com/blog/job-hunting-efficiency-tools-comparison/"
+      },
+      {
+        "date": "2025-10-13",
+        "last_updated": "2025-12-06",
+        "place_metadata": null,
+        "snippet": "招聘竞争进入白热化阶段，AI 求职工具已成为毕业生提升效率、突破面试瓶颈的关键帮手。但市场上产品功能参差不齐，有的侧重面试模拟，有的聚焦岗位推荐，到底哪款更适配大学生需求？我们团队耗时 2 周，从功能实用性、精准度、用户体验、性价比 4 个核心维度，对 5 款主流 AI 求职工具展开深度测评，为你筛选出真正能 “雪中送炭” 的求职利器。",
+        "source": "web",
+        "title": "春招AI 求职工具实测：5 款热门产品横评，谁才是应届生最优解？ - 网易",
+        "url": "https://www.163.com/dy/article/KBONABDM0556FC0Y.html"
+      },
+      {
+        "date": "2026-05-13",
+        "last_updated": "2026-05-17",
+        "place_metadata": null,
+        "snippet": "AI模拟面试工具通过大模型技术，能够模拟真实面试官的提问逻辑，生成个性化面试题，提供即时反馈和改进建议，帮助求职者在短时间内提升面试技巧。目前市场上的AI模拟面试工具主要分为三类：垂直求职平台延伸产品、综合AI平台功能模块、专业面试工具。不同类型的产品在技术实力、场景适配度和用户体验上存在较大差距。",
+        "source": "web",
+        "title": "7款主流AI模拟面试工具全维度对比，谁才是真正的求职神器？",
+        "url": "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 407,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00041,
+        "request_cost": 0.005,
+        "total_cost": 0.00544
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 443
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:38:23.435544Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具一般可分为 **4 类**：**职业规划/岗位匹配**、**简历优化**、**模拟面试**、**面试/求职辅助**。这四类基本覆盖了从准备到面试的主要环节。[4][6][14][16]\n\n也可以按“产品形态”再细分为更常见的几种类型：\n\n- **简历工具**：简历生成、排版、关键词优化、ATS 通过率检查。[4][5][15][16]\n- **岗位匹配/求职推荐工具**：根据技能、经历、JD 做职位推荐或匹配度分析。[4][5][14][16]\n- **模拟面试工具**：生成面试题、进行 AI 面试演练、给出反馈建议。[6][10][16][20]\n- **求职辅助工具**：包括求职信生成、申请进度管理、投递跟踪、薪资查询、岗位咨询等。[2][3][4][6]\n\n如果按“是否一体化”来分，还可以看到两种常见路线：\n\n- **单点工具**：只解决一个环节，比如只做简历优化、只做模拟面试。[4][15]\n- **全链路工具**：覆盖多个环节，从简历、投递到面试辅助甚至求职管理。[8][13][15][17]\n\n如果你愿意，我也可以继续帮你整理成一张 **“AI 求职工具分类表”**，或者按 **应届生/社招/转行** 分别推荐适合的工具类型。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

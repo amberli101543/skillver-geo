@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B03",
+    "category": "brand",
+    "query": "Skillver 靠谱吗？",
+    "passCriteria": [
+      "区分已上线能力与待开通能力",
+      "不承诺求职结果"
+    ]
+  },
+  "answer": "我不能仅凭“Skillver”这个名字判断它是否靠谱；如果你指的是某个学习/技能培训/兼职/接单平台，建议先谨慎核验。\n\n可以从这几方面判断：\n\n1. **看主体信息**：官网或 App 是否明确写明公司名称、营业执照、联系方式、地址。  \n2. **查备案/资质**：国内网站可查 ICP 备案；培训类看是否有相关资质。  \n3. **看收费模式**：如果要求先交高额费用、贷款报课、押金、保证金，要特别小心。  \n4. **警惕夸张承诺**：比如“包就业”“高薪保底”“稳赚不赔”“几天变现”等，风险较高。  \n5. **查真实评价**：不要只看官网评价，去小红书、知乎、黑猫投诉、应用商店等多渠道看。  \n6. **支付与合同**：是否走正规支付、是否有发票、退款规则是否清楚。  \n7. **保护个人信息**：不要轻易上传身份证、银行卡、人脸识别等敏感信息。\n\n如果你把 **Skillver 的官网链接、App 截图、收费方式或它让你做什么** 发我，我可以帮你具体判断风险点。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUcrnhSSp3cyUV8rB9S1spDbwRTP",
+    "object": "chat.completion",
+    "created": 1787123025,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "我不能仅凭“Skillver”这个名字判断它是否靠谱；如果你指的是某个学习/技能培训/兼职/接单平台，建议先谨慎核验。\n\n可以从这几方面判断：\n\n1. **看主体信息**：官网或 App 是否明确写明公司名称、营业执照、联系方式、地址。  \n2. **查备案/资质**：国内网站可查 ICP 备案；培训类看是否有相关资质。  \n3. **看收费模式**：如果要求先交高额费用、贷款报课、押金、保证金，要特别小心。  \n4. **警惕夸张承诺**：比如“包就业”“高薪保底”“稳赚不赔”“几天变现”等，风险较高。  \n5. **查真实评价**：不要只看官网评价，去小红书、知乎、黑猫投诉、应用商店等多渠道看。  \n6. **支付与合同**：是否走正规支付、是否有发票、退款规则是否清楚。  \n7. **保护个人信息**：不要轻易上传身份证、银行卡、人脸识别等敏感信息。\n\n如果你把 **Skillver 的官网链接、App 截图、收费方式或它让你做什么** 发我，我可以帮你具体判断风险点。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 416,
+      "total_tokens": 458,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 119,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:03:52.705732Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B03",
+    "answerEvidence": "我不能仅凭“Skillver”这个名字判断它是否靠谱；如果你指的是某个学习/技能培训/兼职/接单平台，建议先谨慎核验。\n\n可以从这几方面判断：\n\n1. **看主体信息**：官网或 App 是否明确写明公司名称、营业执照、联系方式、地址。  \n2. **查备案/资质**：国内网站可查 ICP 备案；培训类看是否有相关资质。  \n3. **看收费模式**：如果要求先交高额费用、贷款报课、押金、保证金，要特别小心。  \n4. **警惕夸张承诺**：比如“包就业”“高薪保底”“稳赚不赔”“几天变现”等，风险较高。  \n5. **查真实评价**：不要只看官网评价，去小红书、知乎、黑猫投诉、应用商店等多渠道看。  \n6. **支付与合同**：是否走正规支付、是否有发票、退款规则是否清楚。  \n7. **保护个人信息**：不要轻易上传身份证、银行卡、人脸识别等敏感信息。\n\n如果你把 **Skillver 的官网链接、App 截图、收费方式或它让你做什么** 发我，我可以帮你具体判断风险点。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

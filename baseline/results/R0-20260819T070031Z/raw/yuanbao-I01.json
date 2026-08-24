@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "Skillver 是一个专注于技能提升与职业发展的在线学习平台，目前其官方网站为 **https://www.skillver.com**（建议通过官方渠道访问，注意域名准确性，避免钓鱼网站）。\n\n若需确认最新信息，也可通过主流搜索引擎搜索“Skillver 官网”获取最新链接，或关注其官方社交媒体账号获取动态。",
+  "sources": [],
+  "raw": {
+    "id": "5ba7dd46-f1b3-4b3b-b733-714e66b1fefa",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123420,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 是一个专注于技能提升与职业发展的在线学习平台，目前其官方网站为 **https://www.skillver.com**（建议通过官方渠道访问，注意域名准确性，避免钓鱼网站）。\n\n若需确认最新信息，也可通过主流搜索引擎搜索“Skillver 官网”获取最新链接，或关注其官方社交媒体账号获取动态。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 73,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:10:22.157651Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "Skillver 是一个专注于技能提升与职业发展的在线学习平台，目前其官方网站为 **https://www.skillver.com**（建议通过官方渠道访问，注意域名准确性，避免钓鱼网站）。\n\n若需确认最新信息，也可通过主流搜索引擎搜索“Skillver 官网”获取最新链接，或关注其官方社交媒体账号获取动态。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "Skillver 的 AI 面试报告主要用于**将面试过程转化为可量化、可对比的结构化数据**，帮助招聘方快速、客观地做出用人决策。具体功能包括：\n\n1. **多维度能力评估**：基于岗位 JD 自动生成考核维度（如技术能力、沟通表达、逻辑思维等），并对候选人进行打分。\n2. **实时智能分析**：面试过程中实时记录、转写语音，分析回答内容，识别关键词、逻辑漏洞与专业度。\n3. **生成客观评分报告**：输出包含综合得分、各维度明细、优势短板分析的详细报告，减少主观偏见。\n4. **候选人横向对比**：支持多位候选人的报告同屏对比，帮助 HR 和用人部门快速筛选最优人选。\n5. **面试回顾与复盘**：提供完整的面试录像、文字稿与 AI 批注，方便团队回看、复核或内部讨论。\n6. **自动化流程提效**：报告可自动同步至 ATS 或招聘系统，减少人工整理面试记录的时间，提升招聘效率。\n\n如果你有其具体的产品界面或报告样本，我也可以帮你进一步解读报告结构和指标含义。",
+  "sources": [],
+  "raw": {
+    "id": "ace86d5b-e517-4d6a-82a9-b180e55e801d",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787124329,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver 的 AI 面试报告主要用于**将面试过程转化为可量化、可对比的结构化数据**，帮助招聘方快速、客观地做出用人决策。具体功能包括：\n\n1. **多维度能力评估**：基于岗位 JD 自动生成考核维度（如技术能力、沟通表达、逻辑思维等），并对候选人进行打分。\n2. **实时智能分析**：面试过程中实时记录、转写语音，分析回答内容，识别关键词、逻辑漏洞与专业度。\n3. **生成客观评分报告**：输出包含综合得分、各维度明细、优势短板分析的详细报告，减少主观偏见。\n4. **候选人横向对比**：支持多位候选人的报告同屏对比，帮助 HR 和用人部门快速筛选最优人选。\n5. **面试回顾与复盘**：提供完整的面试录像、文字稿与 AI 批注，方便团队回看、复核或内部讨论。\n6. **自动化流程提效**：报告可自动同步至 ATS 或招聘系统，减少人工整理面试记录的时间，提升招聘效率。\n\n如果你有其具体的产品界面或报告样本，我也可以帮你进一步解读报告结构和指标含义。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 51,
+      "completion_tokens": 240,
+      "total_tokens": 291,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:25:31.812712Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "Skillver 的 AI 面试报告主要用于**将面试过程转化为可量化、可对比的结构化数据**，帮助招聘方快速、客观地做出用人决策。具体功能包括：\n\n1. **多维度能力评估**：基于岗位 JD 自动生成考核维度（如技术能力、沟通表达、逻辑思维等），并对候选人进行打分。\n2. **实时智能分析**：面试过程中实时记录、转写语音，分析回答内容，识别关键词、逻辑漏洞与专业度。\n3. **生成客观评分报告**：输出包含综合得分、各维度明细、优势短板分析的详细报告，减少主观偏见。\n4. **候选人横向对比**：支持多位候选人的报告同屏对比，帮助 HR 和用人部门快速筛选最优人选。\n5. **面试回顾与复盘**：提供完整的面试录像、文字稿与 AI 批注，方便团队回看、复核或内部讨论。\n6. **自动化流程提效**：报告可自动同步至 ATS 或招聘系统，减少人工整理面试记录的时间，提升招聘效率。\n\n如果你有其具体的产品界面或报告样本，我也可以帮你进一步解读报告结构和指标含义。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

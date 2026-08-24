@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I07",
+    "category": "entry",
+    "query": "Skillver 现在收费吗？",
+    "passCriteria": [
+      "费用口径以官网当前说明为准",
+      "不声称永久免费"
+    ]
+  },
+  "answer": "目前公开信息显示，**Skillver 人才端核心功能是免费使用的，不收费**；包括注册、选岗匹配、AI 面试和企业投递等已开放功能。[2][3][4]\n\n需要注意的是，官方页面同时说明：**后续收费策略以届时公告为准**，也就是说现在免费不代表以后一定永久免费。[3][4]\n\n如果你问的是**导师端/企业端**，它们目前还处于待开通或需申请状态，不能简单理解为同样免费开放。[2][4]",
+  "sources": [
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skills.google/payments/new?locale=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.ai-indeed.com/encyclopedia/28242.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillveris.com/tags/repaint-vs-reflow",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://getpodcast.com/fr/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/from-500k-to-1-5m-arr-bootstrapping-vr-saas-for-trade-skills_2dba541569",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_TW",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillto.ai/pricing",
+      "title": ""
+    },
+    {
+      "url": "https://www.53ai.com/news/tishicijiqiao/2026071654367.html",
+      "title": ""
+    },
+    {
+      "url": "https://developer.cloud.tencent.com/article/2697648",
+      "title": ""
+    },
+    {
+      "url": "https://x.com/Jackywine/status/2034128391742648503",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://www.skills.google/payments/new?locale=zh",
+      "title": "找到通往高薪工作的道路 - Google Skills"
+    },
+    {
+      "url": "https://www.ai-indeed.com/encyclopedia/28242.html",
+      "title": "AI技能收费吗？主流Skill市场付费模式全解析 - 实在智能"
+    },
+    {
+      "url": "https://www.skillveris.com/tags/repaint-vs-reflow",
+      "title": "SkillVeris — AI Personalized Learning Platform | Skills Upgrade"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": "SkillVerse - Google Play 上的应用"
+    },
+    {
+      "url": "https://getpodcast.com/fr/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/from-500k-to-1-5m-arr-bootstrapping-vr-saas-for-trade-skills_2dba541569",
+      "title": "From $500K to $1.5M ARR: Bootstrapping VR SaaS for Trade Skills ..."
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483",
+      "title": "How I Built my AI Tool SubMagic to $667k/Month With a Tiny Team ..."
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_TW",
+      "title": "SkillVerse - Google Play 應用程式"
+    },
+    {
+      "url": "https://www.skillto.ai/pricing",
+      "title": "会员价格"
+    },
+    {
+      "url": "https://www.53ai.com/news/tishicijiqiao/2026071654367.html",
+      "title": "Skill 开始走向商业化了"
+    },
+    {
+      "url": "https://developer.cloud.tencent.com/article/2697648",
+      "title": "SkillHub 技能收费吗？免费与付费技能完整说明 - 腾讯云开发者社区"
+    },
+    {
+      "url": "https://x.com/Jackywine/status/2034128391742648503",
+      "title": "佬你收费了吗？如果收了的话请标注一下“付费”"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "目前公开信息显示，**Skillver 人才端核心功能是免费使用的，不收费**；包括注册、选岗匹配、AI 面试和企业投递等已开放功能。[2][3][4]\n\n需要注意的是，官方页面同时说明：**后续收费策略以届时公告为准**，也就是说现在免费不代表以后一定永久免费。[3][4]\n\n如果你问的是**导师端/企业端**，它们目前还处于待开通或需申请状态，不能简单理解为同样免费开放。[2][4]\n\n",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/faq",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/beta.html",
+      "https://tcodeai.com/company/",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://www.skills.google/payments/new?locale=zh",
+      "https://www.ai-indeed.com/encyclopedia/28242.html",
+      "https://www.skillveris.com/tags/repaint-vs-reflow",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "https://getpodcast.com/fr/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/from-500k-to-1-5m-arr-bootstrapping-vr-saas-for-trade-skills_2dba541569",
+      "https://linktr.ee/Skillver.Academy",
+      "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_TW",
+      "https://www.skillto.ai/pricing",
+      "https://www.53ai.com/news/tishicijiqiao/2026071654367.html",
+      "https://developer.cloud.tencent.com/article/2697648",
+      "https://x.com/Jackywine/status/2034128391742648503"
+    ],
+    "created": 1787123838,
+    "id": "4db4f524-fa7a-4cf6-adc8-056749c5fc67",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。\n...\n- **Skillver 收费吗？**\n现已开放公共用户注册，核心功能可免费使用。具体费用边界以 Skillver 主站 /faq 为准，不构成长期价格承诺。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- **Skillver 收费吗？**\nSkillver 现已开放公共用户注册，**核心功能可免费使用**。该口径仅适用于当前版本，不构成长期价格承诺。\n...\nSkillver 现已开放公共用户注册。请访问 www.skillver.cn 或 www.skillver.ai 完成免费注册；导师赋能待开通。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai ——两个域名功能完全相同，任选其一即可。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n...\n人才端（求职者）已开放注册，无需邀请码：\n1. 访问 www.skillver.cn 或 www.skillver.ai（双域功能相同）；\n2. 点击「免费注册」，使用手机号完成注册即可开始使用。\n...\n费用：人才端当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）；导师赋能仍为待开通。后续收费策略以届时公告为准，本页不承诺后续仍零费用。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n人才端开放注册，当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）。后续收费策略以届时公告为准。\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排\n...\n企业端与导师端需通过邀请码或入驻申请开通。企业请通过 /enterprise/apply ...",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "现已开放公共用户注册，核心功能可免费使用。功能范围、使用额度与费用边界以 Skillver 主站 /faq 为准。\n...\n当前核心功能可免费使用。费用边界请以\nSkillver /faq 为准，不构成长期价格承诺；导师赋能待开通。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "核心功能可免费使用，与用户共同验证产品价值\n...\nSkillver v1.0.0（2026-07-01）已开放公共用户注册，生产环境稳定运行，移动端可供体验完整漏斗。费用边界以 Skillver 主站 /faq 为准，导师赋能待开通，无佣金。",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**。产品仍在持续迭代评分校准、多模态临场感和真人辅导产品化等环节。\n...\n现已开放公共用户注册，核心功能可免费使用。访问 skillver.cn 或 skillver.ai 即可完成注册。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "2026年8月5日，上海才谱人工智能科技有限公司宣布，旗下AI人才平台Skillver已于7月下旬启动建设青年AI人才网络（简称YATN）。该项目响应国家'产教衔接''投资于人'等政策要求，面向高校学生完全免费，首批已覆盖浙江大学、复旦大学、上海交通大学、同济大学、东南大学等长三角头部高校，目前参与学生超过500人。\n当前，不少高校学生对AI行业岗位设置和能力要求认知较为模糊。YATN以实战研讨为核心，帮助学生快速完成行业认知提升，连接青年人才与AI企业，着力缓解人才供需矛盾。项目负责人南山介绍，YATN由企业全额投入，坚持社会价值优先，先做人才培育、再做产业价值，不向学生收取任何费用。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-14",
+        "place_metadata": null,
+        "snippet": "- Starter\n## 免费\n领取免费赠金，学习有限的实操实验，并获得各个级别的技能徽章。\n...\n- Pro\n## $29 / 月\n解锁所有实操学习实验，涵盖从初级到高级的所有级别。\n...\n- 职业证书\n## $49 / 月 $349 / 年\n掌握雇主所需的技能，开启高薪职业生涯。",
+        "source": "web",
+        "title": "找到通往高薪工作的道路 - Google Skills",
+        "url": "https://www.skills.google/payments/new?locale=zh"
+      },
+      {
+        "date": "2026-07-27",
+        "last_updated": "2026-08-11",
+        "place_metadata": null,
+        "snippet": "AI Skill市场是集中发布、发现和安装AI技能模块的平台，核心价值在于将专业能力封装为标准化模块供智能体按需调用。关于“skills收费吗”这个问题，答案是**部分免费、部分付费**——具体取决于平台政策和开发者定价。本文将梳理主流Skill市场的收费模式，帮你快速判断哪些需要花钱、哪些可以免费使用。\n...\n**平台侧完全免费**：\n- 访问 `skillhub.cn` 官方网站、浏览技能库、查看技能详情均不收费\n...\n综合来看，当前主流Skill市场的收费模式可归纳为：\n|平台|平台收费|技能收费|适合人群|\n|--|--|--|--|\n|SkillHub|免费|开发者自主定价（免费...",
+        "source": "web",
+        "title": "AI技能收费吗？主流Skill市场付费模式全解析 - 实在智能",
+        "url": "https://www.ai-indeed.com/encyclopedia/28242.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-10",
+        "place_metadata": null,
+        "snippet": "100% Free Forever\nAI-Powered Learning\n...\nSkillVeris is a completely free tech-upskilling platform o\nffering 37 live courses across AI/ML, programming, web development, DevOps, cloud, security and databases.\n...\nIs SkillVeris really a free learning platform?\nYes, SkillVeris is genuinely free.\nEvery ...",
+        "source": "web",
+        "title": "SkillVeris — AI Personalized Learning Platform | Skills Upgrade",
+        "url": "https://www.skillveris.com/tags/repaint-vs-reflow"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "support@skillverse.com\n...\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+      },
+      {
+        "date": "2026-05-21",
+        "last_updated": "2026-05-26",
+        "place_metadata": null,
+        "snippet": "— How Skillveri sells VR training software starting at $4K/year per school",
+        "source": "web",
+        "title": "From $500K to $1.5M ARR: Bootstrapping VR SaaS for Trade Skills ...",
+        "url": "https://getpodcast.com/fr/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/from-500k-to-1-5m-arr-bootstrapping-vr-saas-for-trade-skills_2dba541569"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "Sell an online course\n...\nBooked and paid, easily\nOffer sessions and earn from your expertise",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2025-12-31",
+        "last_updated": "2026-01-09",
+        "place_metadata": null,
+        "snippet": "You'll learn: — How Skillveri sells VR training software starting at $4K/year per school — Why their largest customer pays $350K annually (and how they plan to reach $1M contracts) — The SaaS + hardware hybrid model driving 60% recurring revenue — Why schools (not industry) are",
+        "source": "web",
+        "title": "How I Built my AI Tool SubMagic to $667k/Month With a Tiny Team ...",
+        "url": "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483"
+      },
+      {
+        "date": "2025-03-03",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "支援服務電子郵件地址\nsupport@skillverse.com\n...\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_TW"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "免费创作额度与积分权益\n100积分/月\nStarter monthly allowance\n连续包月\n$0\n$0/月\n...\n$78\n$6.50/月\n连续包季76折\n$25\n$8.30/月\n连续包月88折\n$8\n$8/月\n...\n账单、退款或产品问题请联系 support@skillto.ai。",
+        "source": "web",
+        "title": "会员价格",
+        "url": "https://www.skillto.ai/pricing"
+      },
+      {
+        "date": "2026-07-17",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "现在付费方式很简单：Skill 里必须配置一个 API key 才能调用，而这个 key 需要用户按月或者按次去订阅。",
+        "source": "web",
+        "title": "Skill 开始走向商业化了",
+        "url": "https://www.53ai.com/news/tishicijiqiao/2026071654367.html"
+      },
+      {
+        "date": "2026-06-24",
+        "last_updated": "2026-07-01",
+        "place_metadata": null,
+        "snippet": "SkillHub 的收费模式分为两部分：平台收费和技能收费。\n**平台收费**：SkillHub 平台的基础功能免费，用户无需支付费用即可使用。\n**技能收费**：平台上的技能由开发者自行决定是否收费。有免费技能，也有付费技能。\n...\n在 SkillHub 平台上，安装和使用技能的费用取决于技能本身：\n- 如果是免费技能，安装和使用都免费。\n- 如果是付费技能，需要支付费用才能安装和使用。\n平台不会收取额外的安装或使用费用。\n...\nSkillHub 平台的基础功能免费，包括平台访问、CLI 工具使用、技能搜索和详情查看。平台上的技能分为免费技能和付费技能，用户可以根据需求选择。",
+        "source": "web",
+        "title": "SkillHub 技能收费吗？免费与付费技能完整说明 - 腾讯云开发者社区",
+        "url": "https://developer.cloud.tencent.com/article/2697648"
+      },
+      {
+        "date": "2026-03-18",
+        "last_updated": "2026-04-25",
+        "place_metadata": null,
+        "snippet": "佬你收费了吗？如果收了的话请标注一下“付费”",
+        "source": "web",
+        "title": "佬你收费了吗？如果收了的话请标注一下“付费”",
+        "url": "https://x.com/Jackywine/status/2034128391742648503"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 135,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00014,
+        "request_cost": 0.005,
+        "total_cost": 0.00517
+      },
+      "prompt_tokens": 33,
+      "search_context_size": "low",
+      "total_tokens": 168
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:18.427477Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I07",
+    "answerEvidence": "目前公开信息显示，**Skillver 人才端核心功能是免费使用的，不收费**；包括注册、选岗匹配、AI 面试和企业投递等已开放功能。[2][3][4]\n\n需要注意的是，官方页面同时说明：**后续收费策略以届时公告为准**，也就是说现在免费不代表以后一定永久免费。[3][4]\n\n如果你问的是**导师端/企业端**，它们目前还处于待开通或需申请状态，不能简单理解为同样免费开放。[2][4]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I07.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

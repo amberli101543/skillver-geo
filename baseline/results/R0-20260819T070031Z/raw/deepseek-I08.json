@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I08",
+    "category": "entry",
+    "query": "没有邀请码能直接使用 Skillver 吗？",
+    "passCriteria": [
+      "回答可以无邀请码直接注册",
+      "说明邀请码仅用于社群参与"
+    ]
+  },
+  "answer": "很抱歉，我目前没有关于“Skillver”这一产品的具体信息。如果它是一个需要邀请码的平台，通常意味着其处于内测或限制注册阶段，没有邀请码可能无法直接使用。\n\n建议你：\n1. 访问其官网或官方社交媒体，查看是否有公开注册入口。\n2. 关注其官方公告，了解是否开放公测。\n3. 联系客服或社区，询问获取邀请码的渠道。\n\n如果你能提供更多背景（如产品类型、网址等），我可以帮你进一步分析。",
+  "sources": [],
+  "raw": {
+    "id": "9a87ca85-4dba-4ddb-97e1-ea740bec2d22",
+    "object": "chat.completion",
+    "created": 1787123871,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "很抱歉，我目前没有关于“Skillver”这一产品的具体信息。如果它是一个需要邀请码的平台，通常意味着其处于内测或限制注册阶段，没有邀请码可能无法直接使用。\n\n建议你：\n1. 访问其官网或官方社交媒体，查看是否有公开注册入口。\n2. 关注其官方公告，了解是否开放公测。\n3. 联系客服或社区，询问获取邀请码的渠道。\n\n如果你能提供更多背景（如产品类型、网址等），我可以帮你进一步分析。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 108,
+      "total_tokens": 148,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 40
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:17:53.565657Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I08",
+    "answerEvidence": "很抱歉，我目前没有关于“Skillver”这一产品的具体信息。如果它是一个需要邀请码的平台，通常意味着其处于内测或限制注册阶段，没有邀请码可能无法直接使用。\n\n建议你：\n1. 访问其官网或官方社交媒体，查看是否有公开注册入口。\n2. 关注其官方公告，了解是否开放公测。\n3. 联系客服或社区，询问获取邀请码的渠道。\n\n如果你能提供更多背景（如产品类型、网址等），我可以帮你进一步分析。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I08.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

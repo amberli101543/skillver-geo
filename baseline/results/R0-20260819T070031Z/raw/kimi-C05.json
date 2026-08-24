@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具通常可分为以下 **6 大类**：\n\n1. **简历优化类**  \n   帮助生成、润色简历，进行 ATS（招聘系统）关键词匹配和排版优化，提高过筛率。\n\n2. **面试准备类**  \n   提供 AI 模拟面试、真题演练、语音/表达反馈，甚至视频面试时的肢体语言分析。\n\n3. **职位匹配与推荐类**  \n   根据用户画像、技能和偏好，智能筛选并推荐合适岗位，部分支持薪资、地点等多维过滤。\n\n4. **求职文书生成类**  \n   自动生成求职信（Cover Letter）、邮件、自我介绍等个性化文案，匹配不同岗位需求。\n\n5. **求职自动化/代理类**  \n   自动填写网申信息、批量投递、跟踪申请进度，充当“AI 求职代理”减少重复劳动。\n\n6. **职业咨询与薪酬分析类**  \n   提供职业规划、技能 gap 分析、行业趋势洞察以及薪资谈判参考数据。\n\n实际产品中，不少平台会同时集成多项功能，形成一站式 AI 求职助手。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a855d282668eae8a309933f",
+    "object": "chat.completion",
+    "created": 1787125032,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI 求职工具通常可分为以下 **6 大类**：\n\n1. **简历优化类**  \n   帮助生成、润色简历，进行 ATS（招聘系统）关键词匹配和排版优化，提高过筛率。\n\n2. **面试准备类**  \n   提供 AI 模拟面试、真题演练、语音/表达反馈，甚至视频面试时的肢体语言分析。\n\n3. **职位匹配与推荐类**  \n   根据用户画像、技能和偏好，智能筛选并推荐合适岗位，部分支持薪资、地点等多维过滤。\n\n4. **求职文书生成类**  \n   自动生成求职信（Cover Letter）、邮件、自我介绍等个性化文案，匹配不同岗位需求。\n\n5. **求职自动化/代理类**  \n   自动填写网申信息、批量投递、跟踪申请进度，充当“AI 求职代理”减少重复劳动。\n\n6. **职业咨询与薪酬分析类**  \n   提供职业规划、技能 gap 分析、行业趋势洞察以及薪资谈判参考数据。\n\n实际产品中，不少平台会同时集成多项功能，形成一站式 AI 求职助手。",
+          "reasoning_content": "用户问的是“AI 求职工具一般分哪几类？”，需要用中文回答，要求事实性和简洁性。\n\n我需要对市场上主流的AI求职工具进行分类。常见的分类维度包括：\n\n1. **简历优化类**：帮助生成、优化简历，ATS（申请人追踪系统）友好，关键词匹配。\n2. **面试准备类**：AI模拟面试、刷题、反馈表达、肢体语言分析。\n3. **职位匹配/推荐类**：基于用户画像和JD（职位描述）进行智能推荐，有些还能自动投递。\n4. **求职信/文书生成类**：Cover Letter、自荐信、邮件模板生成。\n5. **职业规划/薪酬分析类**：职业路径建议、薪资谈判辅助、市场数据分析。\n6. **自动化/代理类（AI Agent）**：自动填写申请表、批量投递、跟踪申请进度。\n\n让我把这些归纳得更清晰简洁：\n\n- 简历优化（Resume Builder/Optimizer）\n- 面试辅导（Interview Prep/Coach）\n- 职位匹配与推荐（Job Matching）\n- 求职文书生成（Cover Letter/Email Generator）\n- 求职自动化/Agent（Auto-apply/Application Tracker）\n- 职业咨询/薪酬分析（Career Coach/Salary Insights）\n\n为了简洁，可以合并一些。比如把求职文书和简历合并为“文书与简历类”，但通常简历单独一类更重要。或者分为5-6类。\n\n最终分类建议：\n1. 简历优化类\n2. 面试准备类\n3. 职位匹配与推荐类\n4. 求职文书生成类\n5. 求职自动化/申请代理类\n6. 职业咨询与薪酬分析类\n\n这样比较全面且条理清晰。需要确保用词准确，符合中文语境。\n\n回答结构：\n- 直接列出分类，每类简要说明1-2句话即可。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 604,
+      "total_tokens": 650,
+      "completion_tokens_details": {
+        "reasoning_tokens": 376
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:37:30.005214Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具通常可分为以下 **6 大类**：\n\n1. **简历优化类**  \n   帮助生成、润色简历，进行 ATS（招聘系统）关键词匹配和排版优化，提高过筛率。\n\n2. **面试准备类**  \n   提供 AI 模拟面试、真题演练、语音/表达反馈，甚至视频面试时的肢体语言分析。\n\n3. **职位匹配与推荐类**  \n   根据用户画像、技能和偏好，智能筛选并推荐合适岗位，部分支持薪资、地点等多维过滤。\n\n4. **求职文书生成类**  \n   自动生成求职信（Cover Letter）、邮件、自我介绍等个性化文案，匹配不同岗位需求。\n\n5. **求职自动化/代理类**  \n   自动填写网申信息、批量投递、跟踪申请进度，充当“AI 求职代理”减少重复劳动。\n\n6. **职业咨询与薪酬分析类**  \n   提供职业规划、技能 gap 分析、行业趋势洞察以及薪资谈判参考数据。\n\n实际产品中，不少平台会同时集成多项功能，形成一站式 AI 求职助手。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

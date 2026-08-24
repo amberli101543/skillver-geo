@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "T08",
+    "category": "term",
+    "query": "Skillver 如何处理简历和面试数据？",
+    "passCriteria": [
+      "引用官方隐私政策或 FAQ",
+      "不扩写未经核验的留存与授权细节"
+    ]
+  },
+  "answer": "关于 Skillver 如何处理简历和面试数据，目前公开信息中并没有一个广为人知、名为“Skillver”的产品或公司（可能是拼写错误、小众工具或内部项目）。因此，我无法提供其具体的数据处理流程。\n\n如果你指的是某个特定平台（例如招聘系统、AI面试工具），建议你：\n\n1. **查阅其官网的隐私政策**：正规平台都会在官网或应用中公布《隐私政策》和《用户协议》，详细说明数据收集、存储、使用和共享方式。\n2. **联系客服确认**：直接询问客服关于简历和面试数据的存储位置（本地还是云端）、加密方式、保留期限以及是否用于AI训练。\n\n如果你能提供更多背景（例如是某个具体App、网站或企业服务），我可以进一步帮你分析。\n\n**温馨提示**：在投递简历或参加视频面试前，务必确认平台资质，避免将敏感个人信息（如身份证号、家庭住址）随意提供给不明来源的第三方。",
+  "sources": [],
+  "raw": {
+    "id": "88ea1337-57f0-4680-9835-60eca598276a",
+    "object": "chat.completion",
+    "created": 1787124540,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "关于 Skillver 如何处理简历和面试数据，目前公开信息中并没有一个广为人知、名为“Skillver”的产品或公司（可能是拼写错误、小众工具或内部项目）。因此，我无法提供其具体的数据处理流程。\n\n如果你指的是某个特定平台（例如招聘系统、AI面试工具），建议你：\n\n1. **查阅其官网的隐私政策**：正规平台都会在官网或应用中公布《隐私政策》和《用户协议》，详细说明数据收集、存储、使用和共享方式。\n2. **联系客服确认**：直接询问客服关于简历和面试数据的存储位置（本地还是云端）、加密方式、保留期限以及是否用于AI训练。\n\n如果你能提供更多背景（例如是某个具体App、网站或企业服务），我可以进一步帮你分析。\n\n**温馨提示**：在投递简历或参加视频面试前，务必确认平台资质，避免将敏感个人信息（如身份证号、家庭住址）随意提供给不明来源的第三方。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 203,
+      "total_tokens": 241,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 38
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:29:03.346308Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "T08",
+    "answerEvidence": "关于 Skillver 如何处理简历和面试数据，目前公开信息中并没有一个广为人知、名为“Skillver”的产品或公司（可能是拼写错误、小众工具或内部项目）。因此，我无法提供其具体的数据处理流程。\n\n如果你指的是某个特定平台（例如招聘系统、AI面试工具），建议你：\n\n1. **查阅其官网的隐私政策**：正规平台都会在官网或应用中公布《隐私政策》和《用户协议》，详细说明数据收集、存储、使用和共享方式。\n2. **联系客服确认**：直接询问客服关于简历和面试数据的存储位置（本地还是云端）、加密方式、保留期限以及是否用于AI训练。\n\n如果你能提供更多背景（例如是某个具体App、网站或企业服务），我可以进一步帮你分析。\n\n**温馨提示**：在投递简历或参加视频面试前，务必确认平台资质，避免将敏感个人信息（如身份证号、家庭住址）随意提供给不明来源的第三方。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-T08.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

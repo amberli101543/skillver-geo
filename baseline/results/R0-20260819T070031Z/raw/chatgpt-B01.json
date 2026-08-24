@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "“Skillver” 不是一个通用中文词汇，通常看起来像是由 **Skill（技能）+ verifier/verification（验证）** 组合而来的名称。\n\n如果你指的是某个具体产品或平台，**Skillver 可能是一个用于技能评估、技能认证或人才匹配的服务**，例如帮助用户展示能力、完成测试，或让企业验证候选人的技能。\n\n不过仅凭 “Skillver” 这个名字，我无法确定你指的是哪一个具体网站、App 或公司。你可以把它的链接、截图或出现的场景发给我，我可以帮你判断它具体是什么、是否靠谱。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUanikOTa7dfYpc8SMYvwnfgc4Le",
+    "object": "chat.completion",
+    "created": 1787122897,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 不是一个通用中文词汇，通常看起来像是由 **Skill（技能）+ verifier/verification（验证）** 组合而来的名称。\n\n如果你指的是某个具体产品或平台，**Skillver 可能是一个用于技能评估、技能认证或人才匹配的服务**，例如帮助用户展示能力、完成测试，或让企业验证候选人的技能。\n\n不过仅凭 “Skillver” 这个名字，我无法确定你指的是哪一个具体网站、App 或公司。你可以把它的链接、截图或出现的场景发给我，我可以帮你判断它具体是什么、是否靠谱。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 40,
+      "completion_tokens": 387,
+      "total_tokens": 427,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 236,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:01:44.493173Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "“Skillver” 不是一个通用中文词汇，通常看起来像是由 **Skill（技能）+ verifier/verification（验证）** 组合而来的名称。\n\n如果你指的是某个具体产品或平台，**Skillver 可能是一个用于技能评估、技能认证或人才匹配的服务**，例如帮助用户展示能力、完成测试，或让企业验证候选人的技能。\n\n不过仅凭 “Skillver” 这个名字，我无法确定你指的是哪一个具体网站、App 或公司。你可以把它的链接、截图或出现的场景发给我，我可以帮你判断它具体是什么、是否靠谱。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "Skillver **主要服务技术人才**，尤其是**冲刺 AI 独角兽和头部科技公司**的求职者。[2][6]\n\n更具体地说，它面向的是希望进入 **AI 原生企业**、**头部互联网/科技集团的 AI 相关岗位** 的候选人，提供选岗匹配、AI 面试、投递和企业沟通等求职支持。[2][11][14]\n\n如果你想问的是“它也服务企业吗”，答案是**有**：平台还连接两类雇主，主要是 **AI 独角兽** 和 **头部大厂/科技公司** 的招聘需求。[2][11]",
+  "sources": [
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/in/amine-boutaybi-b53621327",
+      "title": ""
+    },
+    {
+      "url": "https://www.rmzxw.com.cn/c/2026-08-06/3957885.shtml?n2m=1",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillveri",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/people-2/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.linkedin.com/in/amine-boutaybi-b53621327",
+      "title": "Amine Boutaybi | LinkedIn"
+    },
+    {
+      "url": "https://www.rmzxw.com.cn/c/2026-08-06/3957885.shtml?n2m=1",
+      "title": "AI 行业重构人才评价履历让位实战成果 - 人民政协网"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillveri",
+      "title": "Skillveri MR & XR Simulations | Software Development"
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": "Skillver | Education"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o",
+      "title": "Skillveri - Company Profile - Tracxn"
+    },
+    {
+      "url": "https://skillveri.com/people-2/",
+      "title": "People"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483",
+      "title": "How I Built my AI Tool SubMagic to $667k/Month With a Tiny Team ..."
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": "Skillveri Support - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver **主要服务技术人才**，尤其是**冲刺 AI 独角兽和头部科技公司**的求职者。[2][6]\n\n更具体地说，它面向的是希望进入 **AI 原生企业**、**头部互联网/科技集团的 AI 相关岗位** 的候选人，提供选岗匹配、AI 面试、投递和企业沟通等求职支持。[2][11][14]\n\n如果你想问的是“它也服务企业吗”，答案是**有**：平台还连接两类雇主，主要是 **AI 独角兽** 和 **头部大厂/科技公司** 的招聘需求。[2][11]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.tcodeai.com/insights/what-is-skillver/",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/company/",
+      "https://www.linkedin.com/in/amine-boutaybi-b53621327",
+      "https://www.rmzxw.com.cn/c/2026-08-06/3957885.shtml?n2m=1",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/products/skillver.html",
+      "https://www.linkedin.com/company/skillveri",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://www.linkedin.com/company/skillver",
+      "https://tcodeai.com/faq.html",
+      "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o",
+      "https://skillveri.com/people-2/",
+      "https://tcodeai.com/beta.html",
+      "https://www.skillver.cn/help/glossary",
+      "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483",
+      "https://linktr.ee/Skillver.Academy",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "https://www.geekpark.net/news/368542",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+    ],
+    "created": 1787122979,
+    "id": "29e6a8d1-4b29-495c-adf1-afe910fcca58",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "选岗匹配 → AI 面试 → 投递企业 → 导师赋能（待开通）\n...\n一句话概括：Skillver 用 AI 帮求职者按目标岗位完成准备、能力核验和机会连接，但不承诺通过面试或拿到 offer。\n...\nSkillver 是 AI 求职助手。人才端覆盖选岗匹配、AI 面试和投递企业；导师赋能当前待开通。它不只提供职位，也不只提供一次面试练习。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://www.tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n...\nSkillver 重点连接两类雇主：\n- AI 独角兽：国内估值 10 亿美元以上的 AI 原生企业；\n- AI 大厂：头部互联网与科技集团的 AI 相关部门（大模型、推荐、算法、MLOps 等）。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\n上海才谱人工智能科技有限公司专注于 AI 时代的人才服务。2026 年 3 月注册于上海徐汇模速空间。团队汇集平台企业高管、AI 技术骨干与资深猎头，直连 AI独角兽和头部科技企业的真实在招职位。\nSkillver 站在人才这一侧。我们不是冷冰冰的招聘网站，也不是只帮企业筛人的工具平台，而是一位 7×24 在线、越用越懂你的 AI 搭档——帮你看清方向、证明能力、练熟面试、对接机会。",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-11",
+        "place_metadata": null,
+        "snippet": "I am the founder of SKILLVER, a recruitment firm specializing in connecting innovative companies with top talent in the fields of technology, design, and engineering.\n...\nWe help businesses recruit talent in the fields of technology, finance, and design.\nWe provide tailored recruitment services, inc...",
+        "source": "web",
+        "title": "Amine Boutaybi | LinkedIn",
+        "url": "https://www.linkedin.com/in/amine-boutaybi-b53621327"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-07",
+        "place_metadata": null,
+        "snippet": "Skillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇“模速空间”的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。Skillver认为，当前AI人才市场的主要矛盾不是供给不足，而是技能标签的“通胀”与真实工程交付能力的“通缩”。这种错位之严重，已从市场难题上升为公共议题。",
+        "source": "web",
+        "title": "AI 行业重构人才评价履历让位实战成果 - 人民政协网",
+        "url": "https://www.rmzxw.com.cn/c/2026-08-06/3957885.shtml?n2m=1"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n- 投递企业：直连 AI 独角兽与 AI 大厂 HR，接收面试邀约",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 不卖简历流量，卖可验证的能力闭环。先验证，再匹配，再成交——头部 AI 企业的门槛，已从「会不会调 API」变成「能不能在高压面试里讲清系统思维」。\n...\n对话式发岗 · 7D 需求模型 · 人才池向量匹配。适合 头部大厂 / AI 独角兽 HR。\n...\nKAE 面试 · 七维报告 · 投递硬闸门。适合冲刺头部 offer 的优秀人才。\n...\nCopilot 编排 · 缺口路径 · 180 天衰减提醒。需要方向感而非海投的候选人。\n...\n头部科技企业的门槛，正在从「会不会」变成「强不强、真不真」。对大模型、Agent、Infra、应用层等岗位，企业要看真实工程能力、系...",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-12",
+        "place_metadata": null,
+        "snippet": "Skillveri is a pioneer in Metaverse XR/MR based multi-skill simulators that provide training for manufacturing sector skills, delivering enhanced learning outcomes and exact assessment at far lesser costs and time than legacy learning methods.\nSimulation modules are available for welding (GMAW, SMAW...",
+        "source": "web",
+        "title": "Skillveri MR & XR Simulations | Software Development",
+        "url": "https://www.linkedin.com/company/skillveri"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "Skillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇'模速空间'的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "Skillver is an academy dedicated to empowering children and teenagers aged 6 to 18 with essential soft skills that are often overlooked in traditional education systems, through engaging, interactive, and age-appropriate onsite workshops.",
+        "source": "web",
+        "title": "Skillver | Education",
+        "url": "https://www.linkedin.com/company/skillver"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "- **Skillver 连接的是哪些企业？岗位质量怎么样？**\n重点连接两类雇主： - **AI 独角兽**：国内估值 10 亿美元以上的 AI 原生企业 - **头部大厂**：头部互联网与科技集团 所有在招职位经平台审核。HR 通过招聘助手发布岗位并主动邀约，候选人持 AI 面试报告投递。\n...\nSkillver 不是简历海投平台，而是 AI 求职助手。产品围绕选岗匹配、面试彩排、正式评估与企业沟通提供支持；导师赋能待开通。AI 输出辅助求职准备，不构成录用结果承诺。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "Online VR-based LMS platform for enterprises.\nIt offers a metaverse XR simulation platform for training in a variety of manufacturing disciplines.\nIts main products include welding simulations and painting simulators like the AURA welding simulator and the Chroma painting simulator.\n...\n- Skillveri ...",
+        "source": "web",
+        "title": "Skillveri - Company Profile - Tracxn",
+        "url": "https://tracxn.com/d/companies/skillveri/__fxlpjbeYsgFl8eqSDPlEy2jbBd4an7OYAeYM7ieSg_o"
+      },
+      {
+        "date": "2020-04-11",
+        "last_updated": "2025-09-20",
+        "place_metadata": null,
+        "snippet": "He engages widely with grass-root level organizations and NGOs working with rural poor on sustainable solutions that improve quality of life, from whom he draws inspiration for pioneering new solutions that hold the promise of scalable impact.",
+        "source": "web",
+        "title": "People",
+        "url": "https://skillveri.com/people-2/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "Skillver 是中国优秀人才的 AI 求职助手，已完成 ICP 备案（沪ICP备2026018662号-2），现已开放公共用户注册。Web 与 App 功能对齐、进度互通。\n...\n- **选岗匹配**：49 个标准岗位，上传简历核验，产出匹配报告（不限次数）\n- **面试彩排**：基于 10000+ 合规题库练习表达与题型，具体使用额度以 Skillver 主站 /faq 为准，报告不可用于投递\n- **正式 AI 面试**：能力认证，具体使用额度以 Skillver 主站 /faq 为准，七维战力报告用于投递（硬通行证）\n- **企业沟通**：浏览在招职位，结构化跟进投递、约面、off...",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE 将分散的简历关键词与主观印象，转化为结构化、可追溯的七维战力评估结果，供 HR 与求职助手共同参考。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2025-12-31",
+        "last_updated": "2026-01-09",
+        "place_metadata": null,
+        "snippet": "20:14Sabari Nair, co-founder and CEO of Skillveri, joins Nathan to break down how he's scaling a VR-powered vocational training platform to $1.5M ARR today, serving 100+ schools in the U.S., with $350K enterprise contracts — and why he believes immersive training plus SaaS pricing is the future of s...",
+        "source": "web",
+        "title": "How I Built my AI Tool SubMagic to $667k/Month With a Tiny Team ...",
+        "url": "https://getpodcast.com/pt/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-i-built-my-ai-tool-submagic-to-667k-month-with-a-tiny-team-and-no-_723928d483"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "🌟 Unleashing creativity & skills!\nJoin the journey!",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "支持团队邮箱\nsupport@skillveri.com\n隐私权政策\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave\nNo #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet\nChennai, Tamil Nadu 600083\nIndia\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "8 月 4 日，AI 垂直招聘平台 Skillver 发布《2026 AI 行业人才白皮书》，将这一矛盾概括为一场人才价值重估。",
+        "source": "web",
+        "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园",
+        "url": "https://www.geekpark.net/news/368542"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 158,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00016,
+        "request_cost": 0.005,
+        "total_cost": 0.00519
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 190
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:02:59.346631Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "Skillver **主要服务技术人才**，尤其是**冲刺 AI 独角兽和头部科技公司**的求职者。[2][6]\n\n更具体地说，它面向的是希望进入 **AI 原生企业**、**头部互联网/科技集团的 AI 相关岗位** 的候选人，提供选岗匹配、AI 面试、投递和企业沟通等求职支持。[2][11][14]\n\n如果你想问的是“它也服务企业吗”，答案是**有**：平台还连接两类雇主，主要是 **AI 独角兽** 和 **头部大厂/科技公司** 的招聘需求。[2][11]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

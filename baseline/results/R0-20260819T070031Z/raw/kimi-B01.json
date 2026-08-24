@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "根据目前公开资料，**Skillver** 并非一个广为人知的通用术语、大型平台或标准产品名称。它可能属于以下几种情况之一：\n\n1. **小众产品/初创公司**：可能是某个特定领域（如招聘科技、在线测评、技能培训）的初创品牌或内部工具名称。\n2. **拼写或记忆误差**：您是否想查询的是：\n   - **Silver**（白银 / 银器）\n   - **Skillshare**（知名在线学习平台）\n   - **Skilled**（熟练的、有技能的）\n   - **Skolverket**（瑞典国家教育局）\n   - **Skill + Ver**（如 Skill Verification，技能验证）\n3. **自造词/项目代号**：由 “Skill”（技能）+ “Ver”（如 Version / Verification）组合而成的内部项目名称。\n\n**建议您补充以下信息**，以便我给出更准确的回答：\n- 您是在哪里看到这个词的？（如网站、软件、文档、视频等）\n- 它属于哪个行业或场景？（如编程、招聘、游戏、区块链等）\n\n提供更多上下文后，我可以帮您进一步确认。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a8554948a9cdfb46fe778bc",
+    "object": "chat.completion",
+    "created": 1787122841,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据目前公开资料，**Skillver** 并非一个广为人知的通用术语、大型平台或标准产品名称。它可能属于以下几种情况之一：\n\n1. **小众产品/初创公司**：可能是某个特定领域（如招聘科技、在线测评、技能培训）的初创品牌或内部工具名称。\n2. **拼写或记忆误差**：您是否想查询的是：\n   - **Silver**（白银 / 银器）\n   - **Skillshare**（知名在线学习平台）\n   - **Skilled**（熟练的、有技能的）\n   - **Skolverket**（瑞典国家教育局）\n   - **Skill + Ver**（如 Skill Verification，技能验证）\n3. **自造词/项目代号**：由 “Skill”（技能）+ “Ver”（如 Version / Verification）组合而成的内部项目名称。\n\n**建议您补充以下信息**，以便我给出更准确的回答：\n- 您是在哪里看到这个词的？（如网站、软件、文档、视频等）\n- 它属于哪个行业或场景？（如编程、招聘、游戏、区块链等）\n\n提供更多上下文后，我可以帮您进一步确认。",
+          "reasoning_content": "用户问的是 \"Skillver 是什么？\"。这是一个关于特定术语或产品的询问。我需要基于我的知识来回答。\n\n首先，我搜索我的知识库关于 \"Skillver\"：\n- Skillver 似乎不是一个非常常见的英文单词。\n- 可能是某个品牌、产品、平台或服务的名称。\n- 让我想想是否有名为 Skillver 的公司或平台...\n\n经过思考，我意识到 \"Skillver\" 可能是一个拼写错误，或者是一个非常特定的术语。让我考虑几种可能性：\n1. 可能是 \"Skillver\" 作为一个技能验证（skill verification）平台的名称？\n2. 可能是某个特定领域的工具？\n3. 可能是用户想打 \"Skilver\" 或其他类似词？\n4. 可能是 \"Skillver\" 是某个中文产品的英文名？\n\n等等，我想起来了，在中文语境中，可能有名为 \"Skillver\" 的产品，但我不太确定。\n\n让我重新思考。也许用户指的是：\n- **Skillver**：可能是某个在线技能学习或验证平台？\n- 或者可能是 **Silver**（白银）的拼写错误？\n- 或者是 **Skolverket**（瑞典国家教育局）的简称？不太可能。\n\n实际上，经过仔细回忆，我没有找到关于一个名为 \"Skillver\" 的广为人知的产品、公司或服务的确定信息。这可能意味着：\n1. 这是一个非常新的或小众的产品\n2. 这是一个拼写错误\n3. 这是一个特定语境下的术语\n\n考虑到用户用中文提问，我应该：\n1. 说明我没有找到关于 \"Skillver\" 的广泛认可的信息\n2. 询问是否可能是拼写错误（如 Silver, Skillver 等）\n3. 或者如果它是指某个特定领域的东西，请提供更多上下文\n\n但是等等，让我再仔细检查一下。有没有可能是 \"Skillver\" 是某个招聘或HR科技公司的产品？比如技能验证（skill verification）的组合词？\n\n实际上，在缺乏确定信息的情况下，最诚实的回答是说明我无法确认这个术语，并请求更多上下文，或者提供可能的猜测。\n\n然而，我注意到用户可能是在问一个特定的产品。如果我确实不知道，我不应该编造信息。\n\n让我考虑一下：是否有中国的公司叫 Skillver？或者是 \"Skill Verse\"（技能元宇宙）的缩写？\n\n好吧，基于安全性和准确性原则，我应该：\n- 表示我没有找到匹配的广泛信息\n- 提供可能的解释（如拼写错误、特定领域产品等）\n- 请用户提供更多背景\n\n但是，我突然想到，也许是 **\"Skillver\"** 作为 **\"Skill + Ver（sion）\"** 或某种软件版本？不太可能。\n\n另一个想法：会不会是 **Skilfver** 或类似瑞典名字？不相关。\n\n我决定给出一个谨慎的回答，说明目前无法确定具体指代，并列举几种可能性，同时请用户补充上下文。\n\n等等，让我再想想。用户问得很简短：\"Skillver 是什么？\"\n\n我应该回答：\n\"根据目前公开信息，'Skillver' 并非一个广为人知的通用术语或大型平台名称。它可能是：\n1. 某家初创公司、小众产品或内部项目的名称\n2. 'Skill'（技能）与 'Ver'（如 Version 或 Verification）组合的自造词\n3. 拼写误差，例如您想查询的是 Silver（白银）、Skilled（熟练的）、Skillshare（在线学习平台）等\n\n如果您能提供更多上下文（如在哪里看到这个词、所属行业等），我可以给出更准确的解释。\"\n\n这个回答既诚实又有帮助。\n\n但让我再最后检查一下我的内部知识... 不，我确实没有关于 Skillver 的可靠信息。没有知名的公司、产品或标准术语叫这个。\n\n所以最终回答将表明不确定，并请求更多信息。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "completion_tokens": 1003,
+      "total_tokens": 1044,
+      "completion_tokens_details": {
+        "reasoning_tokens": 769
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:01:16.509075Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "根据目前公开资料，**Skillver** 并非一个广为人知的通用术语、大型平台或标准产品名称。它可能属于以下几种情况之一：\n\n1. **小众产品/初创公司**：可能是某个特定领域（如招聘科技、在线测评、技能培训）的初创品牌或内部工具名称。\n2. **拼写或记忆误差**：您是否想查询的是：\n   - **Silver**（白银 / 银器）\n   - **Skillshare**（知名在线学习平台）\n   - **Skilled**（熟练的、有技能的）\n   - **Skolverket**（瑞典国家教育局）\n   - **Skill + Ver**（如 Skill Verification，技能验证）\n3. **自造词/项目代号**：由 “Skill”（技能）+ “Ver”（如 Version / Verification）组合而成的内部项目名称。\n\n**建议您补充以下信息**，以便我给出更准确的回答：\n- 您是在哪里看到这个词的？（如网站、软件、文档、视频等）\n- 它属于哪个行业或场景？（如编程、招聘、游戏、区块链等）\n\n提供更多上下文后，我可以帮您进一步确认。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

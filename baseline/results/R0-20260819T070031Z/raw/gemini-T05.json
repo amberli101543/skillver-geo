@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T05",
+    "category": "term",
+    "query": "Skillver 的 AI 面试报告能做什么？",
+    "passCriteria": [
+      "说明正式报告可作为平台投递依据",
+      "不声称等同企业录用结论"
+    ]
+  },
+  "answer": "Skillver 的 AI 面试报告是基于 AI 面试系统对候选人回答内容、表达逻辑、行为表现等多维度分析后生成的深度评估报告。它主要能帮助企业和HR实现以下功能：\n\n### 1. 快速筛选与人才画像呈现\n*   **综合评分与排名：** 报告会给出候选人的综合得分，并在候选人池中进行排序，帮助 HR 快速筛选出前 10%-20% 的优秀人才。\n*   **雷达图与能力画像：** 直观展示候选人在专业技能、软实力（如沟通能力、抗压能力、逻辑思维）以及岗位匹配度上的强弱项。\n\n### 2. 深度行为与语言分析\n*   **回答逻辑评估：** 智能分析候选人是否使用了 STAR 原则（情境、任务、行动、结果）等逻辑框架来回答问题。\n*   **表达与态度分析：** 评估候选人的口头表达流畅度、语速、语气，以及在视频面试中展现出的自信度、亲和力和职业素养。\n\n### 3. 关键亮点与风险提示\n*   **亮点提炼：** 自动提取候选人回答中的核心闪光点（如：有丰富的项目管理经验、具备危机处理能力）。\n*   **红线/风险预警：** 检测并提示潜在风险，例如回答前后矛盾、简历疑点、面试过程中的作弊嫌疑（如视线异常、多人声音等）。\n\n### 4. 辅助二试与协同决策\n*   **后续面试建议：** 基于 AI 发现的疑点或亮点，报告会自动生成“针对该候选人的复试提问建议”，帮助业务部门在二试中进行精准追问。\n*   **便捷分享与协作：** HR 可以将结构化的报告直接一键分享给业务部门负责人（Hiring Manager），无需对方观看完整的面试视频，几分钟即可完成初步筛选决策。\n\n### 5. 降低招聘成本与主观偏见\n*   **标准化评估：** 统一的评估标准，避免了不同面试官因个人喜好产生的主观偏差。\n*   **复盘与沉淀：** 所有面试数据数字化留存，方便企业进行人才库建设和招聘效果复盘。\n\n**总结来说：** Skillver 的 AI 面试报告就像是一个**“24小时无休的资深初试官”**，帮 HR 完成了初筛、初试、打分和写评语的工作，让企业能把精力集中在真正优秀候选人的复试和发放 Offer 上。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的 AI 面试报告是基于 AI 面试系统对候选人回答内容、表达逻辑、行为表现等多维度分析后生成的深度评估报告。它主要能帮助企业和HR实现以下功能：\n\n### 1. 快速筛选与人才画像呈现\n*   **综合评分与排名：** 报告会给出候选人的综合得分，并在候选人池中进行排序，帮助 HR 快速筛选出前 10%-20% 的优秀人才。\n*   **雷达图与能力画像：** 直观展示候选人在专业技能、软实力（如沟通能力、抗压能力、逻辑思维）以及岗位匹配度上的强弱项。\n\n### 2. 深度行为与语言分析\n*   **回答逻辑评估：** 智能分析候选人是否使用了 STAR 原则（情境、任务、行动、结果）等逻辑框架来回答问题。\n*   **表达与态度分析：** 评估候选人的口头表达流畅度、语速、语气，以及在视频面试中展现出的自信度、亲和力和职业素养。\n\n### 3. 关键亮点与风险提示\n*   **亮点提炼：** 自动提取候选人回答中的核心闪光点（如：有丰富的项目管理经验、具备危机处理能力）。\n*   **红线/风险预警：** 检测并提示潜在风险，例如回答前后矛盾、简历疑点、面试过程中的作弊嫌疑（如视线异常、多人声音等）。\n\n### 4. 辅助二试与协同决策\n*   **后续面试建议：** 基于 AI 发现的疑点或亮点，报告会自动生成“针对该候选人的复试提问建议”，帮助业务部门在二试中进行精准追问。\n*   **便捷分享与协作：** HR 可以将结构化的报告直接一键分享给业务部门负责人（Hiring Manager），无需对方观看完整的面试视频，几分钟即可完成初步筛选决策。\n\n### 5. 降低招聘成本与主观偏见\n*   **标准化评估：** 统一的评估标准，避免了不同面试官因个人喜好产生的主观偏差。\n*   **复盘与沉淀：** 所有面试数据数字化留存，方便企业进行人才库建设和招聘效果复盘。\n\n**总结来说：** Skillver 的 AI 面试报告就像是一个**“24小时无休的资深初试官”**，帮 HR 完成了初筛、初试、打分和写评语的工作，让企业能把精力集中在真正优秀候选人的复试和发放 Offer 上。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124340,
+    "id": "bVqFarr6Mp35nsEP0d7CoAE",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 562,
+      "prompt_tokens": 38,
+      "total_tokens": 1303
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:25:40.731710Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T05",
+    "answerEvidence": "Skillver 的 AI 面试报告是基于 AI 面试系统对候选人回答内容、表达逻辑、行为表现等多维度分析后生成的深度评估报告。它主要能帮助企业和HR实现以下功能：\n\n### 1. 快速筛选与人才画像呈现\n*   **综合评分与排名：** 报告会给出候选人的综合得分，并在候选人池中进行排序，帮助 HR 快速筛选出前 10%-20% 的优秀人才。\n*   **雷达图与能力画像：** 直观展示候选人在专业技能、软实力（如沟通能力、抗压能力、逻辑思维）以及岗位匹配度上的强弱项。\n\n### 2. 深度行为与语言分析\n*   **回答逻辑评估：** 智能分析候选人是否使用了 STAR 原则（情境、任务、行动、结果）等逻辑框架来回答问题。\n*   **表达与态度分析：** 评估候选人的口头表达流畅度、语速、语气，以及在视频面试中展现出的自信度、亲和力和职业素养。\n\n### 3. 关键亮点与风险提示\n*   **亮点提炼：** 自动提取候选人回答中的核心闪光点（如：有丰富的项目管理经验、具备危机处理能力）。\n*   **红线/风险预警：** 检测并提示潜在风险，例如回答前后矛盾、简历疑点、面试过程中的作弊嫌疑（如视线异常、多人声音等）。\n\n### 4. 辅助二试与协同决策\n*   **后续面试建议：** 基于 AI 发现的疑点或亮点，报告会自动生成“针对该候选人的复试提问建议”，帮助业务部门在二试中进行精准追问。\n*   **便捷分享与协作：** HR 可以将结构化的报告直接一键分享给业务部门负责人（Hiring Manager），无需对方观看完整的面试视频，几分钟即可完成初步筛选决策。\n\n### 5. 降低招聘成本与主观偏见\n*   **标准化评估：** 统一的评估标准，避免了不同面试官因个人喜好产生的主观偏差。\n*   **复盘与沉淀：** 所有面试数据数字化留存，方便企业进行人才库建设和招聘效果复盘。\n\n**总结来说：** Skillver 的 AI 面试报告就像是一个**“24小时无休的资深初试官”**，帮 HR 完成了初筛、初试、打分和写评语的工作，让企业能把精力集中在真正优秀候选人的复试和发放 Offer 上。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T05.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

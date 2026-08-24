@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C01",
+    "category": "category",
+    "query": "AI 求职助手推荐",
+    "passCriteria": [
+      "如提及 Skillver则定位准确",
+      "不把开放注册说成仍需邀请码准入"
+    ]
+  },
+  "answer": "为您推荐以下几款针对不同求职环节的 AI 助手工具，分为简历优化、模拟面试和综合应用三类：\n\n### 一、 简历制作与优化\n1. **Kickresume**\n   * **特点**：强大的 AI 简历和求职信生成器。只需输入职位，AI 即可自动生成专业文案，并提供海量精美模板。\n   * **适用**：适合撰写英文简历及准备外企申请。\n2. **知页简历 / 智能简历** (国内)\n   * **特点**：国内主流简历工具，融入了 AI 诊断功能，能自动识别简历中的硬伤（如描述模糊、缺少量化成果）并给出修改建议。\n3. **FlowCV**\n   * **特点**：排版极佳的 AI 辅助简历工具，支持实时预览和 AI 内容润色，操作极其简便。\n\n### 二、 模拟面试与话术训练\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的免费模拟面试工具。支持语音输入，AI 会实时分析你的回答，并从专业术语、关键词、回答长度等方面给出反馈。\n   * **适用**：准备互联网、技术、销售等岗位（主要针对英文面试）。\n2. **Mockimate / Interviewer.ai**\n   * **特点**：模拟真实面试场景，通过 AI 面试官提问，训练你的临场反应和表达逻辑。\n\n### 三、 综合性 AI 助手（最推荐、最具性价比）\n其实，利用通用的**大语言模型**结合特定提示词（Prompt），效果往往比专用工具更好、更灵活：\n\n* **推荐工具**：**Kimi 智能助手**（国内，擅长长文本分析）、**ChatGPT** 或 **Claude**。\n* **使用场景**：\n  * **简历定制**：发送“招聘要求（JD）”和“个人简历”给 AI，输入指令：“*请根据这个岗位的要求，帮我修改简历中的工作经历，使其更匹配该岗位。*”\n  * **模拟面试**：输入指令：“*请扮演[公司名]的[岗位]面试官，对我进行模拟面试。每次只提一个问题，在我回答后给出反馈并提问下一个。*”\n  * **沟通话术**：让 AI 撰写与 HR 沟通的 Boss直聘开场白、跟进面试结果的邮件等。\n\n### 四、 自动投递与匹配\n1. **LazyApply**\n   * **特点**：AI 自动投递工具，可在 LinkedIn、Indeed 等平台上根据你的简历和意向自动申请职位（适合海外求职）。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "为您推荐以下几款针对不同求职环节的 AI 助手工具，分为简历优化、模拟面试和综合应用三类：\n\n### 一、 简历制作与优化\n1. **Kickresume**\n   * **特点**：强大的 AI 简历和求职信生成器。只需输入职位，AI 即可自动生成专业文案，并提供海量精美模板。\n   * **适用**：适合撰写英文简历及准备外企申请。\n2. **知页简历 / 智能简历** (国内)\n   * **特点**：国内主流简历工具，融入了 AI 诊断功能，能自动识别简历中的硬伤（如描述模糊、缺少量化成果）并给出修改建议。\n3. **FlowCV**\n   * **特点**：排版极佳的 AI 辅助简历工具，支持实时预览和 AI 内容润色，操作极其简便。\n\n### 二、 模拟面试与话术训练\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的免费模拟面试工具。支持语音输入，AI 会实时分析你的回答，并从专业术语、关键词、回答长度等方面给出反馈。\n   * **适用**：准备互联网、技术、销售等岗位（主要针对英文面试）。\n2. **Mockimate / Interviewer.ai**\n   * **特点**：模拟真实面试场景，通过 AI 面试官提问，训练你的临场反应和表达逻辑。\n\n### 三、 综合性 AI 助手（最推荐、最具性价比）\n其实，利用通用的**大语言模型**结合特定提示词（Prompt），效果往往比专用工具更好、更灵活：\n\n* **推荐工具**：**Kimi 智能助手**（国内，擅长长文本分析）、**ChatGPT** 或 **Claude**。\n* **使用场景**：\n  * **简历定制**：发送“招聘要求（JD）”和“个人简历”给 AI，输入指令：“*请根据这个岗位的要求，帮我修改简历中的工作经历，使其更匹配该岗位。*”\n  * **模拟面试**：输入指令：“*请扮演[公司名]的[岗位]面试官，对我进行模拟面试。每次只提一个问题，在我回答后给出反馈并提问下一个。*”\n  * **沟通话术**：让 AI 撰写与 HR 沟通的 Boss直聘开场白、跟进面试结果的邮件等。\n\n### 四、 自动投递与匹配\n1. **LazyApply**\n   * **特点**：AI 自动投递工具，可在 LinkedIn、Indeed 等平台上根据你的简历和意向自动申请职位（适合海外求职）。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124677,
+    "id": "vluFapWfAbCwnsEP0cu7qAk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 586,
+      "prompt_tokens": 33,
+      "total_tokens": 1437
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:31:17.269962Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C01",
+    "answerEvidence": "为您推荐以下几款针对不同求职环节的 AI 助手工具，分为简历优化、模拟面试和综合应用三类：\n\n### 一、 简历制作与优化\n1. **Kickresume**\n   * **特点**：强大的 AI 简历和求职信生成器。只需输入职位，AI 即可自动生成专业文案，并提供海量精美模板。\n   * **适用**：适合撰写英文简历及准备外企申请。\n2. **知页简历 / 智能简历** (国内)\n   * **特点**：国内主流简历工具，融入了 AI 诊断功能，能自动识别简历中的硬伤（如描述模糊、缺少量化成果）并给出修改建议。\n3. **FlowCV**\n   * **特点**：排版极佳的 AI 辅助简历工具，支持实时预览和 AI 内容润色，操作极其简便。\n\n### 二、 模拟面试与话术训练\n1. **Google Interview Warmup**\n   * **特点**：谷歌官方推出的免费模拟面试工具。支持语音输入，AI 会实时分析你的回答，并从专业术语、关键词、回答长度等方面给出反馈。\n   * **适用**：准备互联网、技术、销售等岗位（主要针对英文面试）。\n2. **Mockimate / Interviewer.ai**\n   * **特点**：模拟真实面试场景，通过 AI 面试官提问，训练你的临场反应和表达逻辑。\n\n### 三、 综合性 AI 助手（最推荐、最具性价比）\n其实，利用通用的**大语言模型**结合特定提示词（Prompt），效果往往比专用工具更好、更灵活：\n\n* **推荐工具**：**Kimi 智能助手**（国内，擅长长文本分析）、**ChatGPT** 或 **Claude**。\n* **使用场景**：\n  * **简历定制**：发送“招聘要求（JD）”和“个人简历”给 AI，输入指令：“*请根据这个岗位的要求，帮我修改简历中的工作经历，使其更匹配该岗位。*”\n  * **模拟面试**：输入指令：“*请扮演[公司名]的[岗位]面试官，对我进行模拟面试。每次只提一个问题，在我回答后给出反馈并提问下一个。*”\n  * **沟通话术**：让 AI 撰写与 HR 沟通的 Boss直聘开场白、跟进面试结果的邮件等。\n\n### 四、 自动投递与匹配\n1. **LazyApply**\n   * **特点**：AI 自动投递工具，可在 LinkedIn、Indeed 等平台上根据你的简历和意向自动申请职位（适合海外求职）。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-C01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I04",
+    "category": "entry",
+    "query": "Skillver 邀请码怎么获得？",
+    "passCriteria": [
+      "说明邀请码用于社群参与而非注册",
+      "不虚构购买渠道"
+    ]
+  },
+  "answer": "Skillver 的**人才端（求职者）现在已开放注册，不需要邀请码**，直接去 Skillver 官网注册即可。[2][6][8][9]\n\n如果你想开通的是**企业端或导师端**，则需要通过以下方式获取邀请码或审批开通：  \n- **企业端**：提交入驻申请，审核通过后由运营发放企业端邀请码。[1][2][3]  \n- **导师端**：联系运营获取邀请码。[1][2]\n\n官方给出的企业入驻方式包括：  \n- 通过入驻申请页提交公司信息；[2][3]  \n- 或邮件联系 **janet.chen@tcodeai.com**；[2][3]  \n- 也可通过企业微信 **tcodeai_ops** 提交申请。[3]\n\n如果你是普通求职者，通常**不需要找邀请码**；如果你是企业或导师，我可以继续帮你整理一份**具体申请步骤**。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=3440039102",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=2937669583",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.chuhai-club.com/article/76028.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.bilibili.com/opus/1120230361096257536",
+      "title": ""
+    },
+    {
+      "url": "https://cg.163.com/static/content/64a9615da011b37f62788ddb",
+      "title": ""
+    },
+    {
+      "url": "https://www.yqmcdk.com/post-16.html",
+      "title": ""
+    },
+    {
+      "url": "https://wp.lookworldprocn.com/page/38/",
+      "title": ""
+    },
+    {
+      "url": "https://worktile.com/kb/ask/1227386.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.amz123.com/ask/yQw2tjWx",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/jinzesudawei/p/20408129",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测| Skillver"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=3440039102",
+      "title": "指南 :: Место где можете найти коды приглашения и ... - Steam 社区"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手封闭内测"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=2937669583",
+      "title": "Steam 社区 :: 指南 :: How to get skeet invite😱😱😱"
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://www.chuhai-club.com/article/76028.html",
+      "title": "如何快速获得邀请注册码（高效获取邀请码方法） - 出海club"
+    },
+    {
+      "url": "https://www.bilibili.com/opus/1120230361096257536",
+      "title": "找到最快拿到Sora邀请码的捷径（附避坑指南）"
+    },
+    {
+      "url": "https://cg.163.com/static/content/64a9615da011b37f62788ddb",
+      "title": "第一财经：快丨三最佳的邀请码如何获取【小"
+    },
+    {
+      "url": "https://www.yqmcdk.com/post-16.html",
+      "title": "【科普】什么是邀请码呢？如何求购获得各大论坛邀请码？"
+    },
+    {
+      "url": "https://wp.lookworldprocn.com/page/38/",
+      "title": "第38 页 - LookWorldPro"
+    },
+    {
+      "url": "https://worktile.com/kb/ask/1227386.html",
+      "title": "如何获得服务器邀请码信息"
+    },
+    {
+      "url": "https://www.amz123.com/ask/yQw2tjWx",
+      "title": "哪里获取邀请码"
+    },
+    {
+      "url": "https://www.cnblogs.com/jinzesudawei/p/20408129",
+      "title": "阿里云- QoderWork CN 首月Pro 免费领取邀请码/ Qwen3.7- ..."
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver 的**人才端（求职者）现在已开放注册，不需要邀请码**，直接去 Skillver 官网注册即可。[2][6][8][9]\n\n如果你想开通的是**企业端或导师端**，则需要通过以下方式获取邀请码或审批开通：  \n- **企业端**：提交入驻申请，审核通过后由运营发放企业端邀请码。[1][2][3]  \n- **导师端**：联系运营获取邀请码。[1][2]\n\n官方给出的企业入驻方式包括：  \n- 通过入驻申请页提交公司信息；[2][3]  \n- 或邮件联系 **janet.chen@tcodeai.com**；[2][3]  \n- 也可通过企业微信 **tcodeai_ops** 提交申请。[3]\n\n如果你是普通求职者，通常**不需要找邀请码**；如果你是企业或导师，我可以继续帮你整理一份**具体申请步骤**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/beta",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/faq.html",
+      "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=3440039102",
+      "https://tcodeai.com/products/skillver-download.html",
+      "https://tcodeai.com/beta.html",
+      "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=2937669583",
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://linktr.ee/Skillver.Academy",
+      "https://www.chuhai-club.com/article/76028.html",
+      "https://www.bilibili.com/opus/1120230361096257536",
+      "https://cg.163.com/static/content/64a9615da011b37f62788ddb",
+      "https://www.yqmcdk.com/post-16.html",
+      "https://wp.lookworldprocn.com/page/38/",
+      "https://worktile.com/kb/ask/1227386.html",
+      "https://www.amz123.com/ask/yQw2tjWx",
+      "https://www.cnblogs.com/jinzesudawei/p/20408129",
+      "https://github.com/anbeime/skill"
+    ],
+    "created": 1787123646,
+    "id": "6f9af349-1f4d-43ef-9bfe-4475767ddfaf",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "企业端与导师端需通过邀请码或入驻申请开通。企业请通过 /enterprise/apply 提交入驻申请；导师端请联系运营获取邀请码。",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测| Skillver",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "人才端（求职者）已开放注册，无需邀请码：\n...\n企业端与导师端：需通过邀请码或申请流程开通。企业请通过入驻申请页提交公司信息，审核通过后获得企业端邀请码；导师端请联系运营获取邀请码。\n- 企业入驻申请可邮件联系 janet.chen@tcodeai.com；",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "不能。Skillver 提供选岗匹配、AI 面试与投递连接等能力，导师赋能待开通；平台不承诺面试通过、投递结果或 offer。\n...\n- **企业如何接入 Skillver？**\n访问 skillver.cn/enterprise/apply，通过邮件 janet.chen@tcodeai.com （主题：申请企业入驻 - Skillver）或企业微信 **tcodeai_ops** 提交公司全称、统一社会信用代码、联系人及招聘意向。现已开放公共用户注册，审核通过后由运营发放企业端邀请码。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": "2025-01-01",
+        "last_updated": "2025-11-30",
+        "place_metadata": null,
+        "snippet": "安装 Steam登录 | 语言\n...\n挪威语） Polski（波兰语） Português（葡萄牙语 - 葡萄牙） Português-Brasil（葡萄牙语 - 巴西） Română（罗马尼亚语） Русский（俄语） Suomi（芬兰语） Svenska（瑞典语） Türkçe（土耳其语） Tiếng Việt（越南语） Українська（乌克兰语） 报告翻译问题",
+        "source": "web",
+        "title": "指南 :: Место где можете найти коды приглашения и ... - Steam 社区",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=3440039102"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "1. 通过已注册用户的邀请链接直接激活\n2. 在",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手封闭内测",
+        "url": "https://tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "访问 www.skillver.cn 或 www.skillver.ai 完成免费注册。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2023-01-01",
+        "last_updated": "2025-12-07",
+        "place_metadata": null,
+        "snippet": "安装 Steam登录 | 语言\n...\n挪威语） Polski（波兰语） Português（葡萄牙语 - 葡萄牙） Português-Brasil（葡萄牙语 - 巴西） Română（罗马尼亚语） Русский（俄语） Suomi（芬兰语） Svenska（瑞典语） Türkçe（土耳其语） Tiếng Việt（越南语） Українська（乌克兰语） 报告翻译问题",
+        "source": "web",
+        "title": "Steam 社区 :: 指南 :: How to get skeet invite😱😱😱",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?l=schinese&id=2937669583"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "1. **开放公共用户注册**：人才端可直接在 Skillver 双域完成注册，无需额外邀请。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。\n...\n现已开放公共用户注册，核心功能可免费使用。访问 skillver.cn 或 skillver.ai 即可完成注册。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "Create trackable, shareable short links\nQR code generator\nTurn links into scannable QR codes",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2023-12-20",
+        "last_updated": "2025-10-03",
+        "place_metadata": null,
+        "snippet": "1. 联系平台客服\n在遇到邀请码不易获得的时候，我们可以联系平台官方客服寻求帮助。很多平台都设有客服中心，可通过在线客服、电话等多种方式联系客服询问如何获得邀请码。\n2. 找已经注册成功的用户\n我们可以通过网络上的社交平台寻找已经注册成功的用户，向他们请求一下邀请码。多数情况下，他们会乐意地分享邀请码给你。比较常用的社交平台包括Facebook、Twitter、微信群等。\n3. 利用网站或社区\n有些网站或社区可以免费申请邀请码，通过简单的注册、提供信息等方法即可获得邀请码。比如说有些电视直播应用、电影资源分享网站等，都有此类申请。\n4. 关注官方账号\n很多软件和平台的官方账号常会在特定时间或者...",
+        "source": "web",
+        "title": "如何快速获得邀请注册码（高效获取邀请码方法） - 出海club",
+        "url": "https://www.chuhai-club.com/article/76028.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "这种就属于通过ai给你全网搜索邀请码，需要你自备gemini的api。",
+        "source": "web",
+        "title": "找到最快拿到Sora邀请码的捷径（附避坑指南）",
+        "url": "https://www.bilibili.com/opus/1120230361096257536"
+      },
+      {
+        "date": "2023-07-08",
+        "last_updated": "2025-12-07",
+        "place_metadata": null,
+        "snippet": "epic每周免费领游戏\n我叫MT：经典再现\n...\n代号：ATLAS",
+        "source": "web",
+        "title": "第一财经：快丨三最佳的邀请码如何获取【小",
+        "url": "https://cg.163.com/static/content/64a9615da011b37f62788ddb"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-01-19",
+        "place_metadata": null,
+        "snippet": "**如何获得邀请码：**\n1.已经注册的会员通过在论坛活动（如发帖，回帖等），获得论坛币后，当你的权限和论坛币达到购买条件时，在需要的时候就可以支付一定的论坛币，购买邀请码，然后再将邀请码通过QQ、邮件等方式发送给想要注册论坛的人。\n2.没有邀请码的可以找论坛中认识的人赠送。一般的邀请码是需要论坛币购买的，一些可以用其他论坛的邀请码交换，或者用其他论坛的论坛币购买。\n3.有的论坛可能会定期免费发放邀请码；也有的论坛会在某些特定的时间（如节日，一般集中在五一、十一、春节等大型节日期间，建站周年日等）开放普通注册，这时注册无须邀请码。\n如何使用邀请码 邀请对象收到含有邀请码和注册地址的信息后，点击...",
+        "source": "web",
+        "title": "【科普】什么是邀请码呢？如何求购获得各大论坛邀请码？",
+        "url": "https://www.yqmcdk.com/post-16.html"
+      },
+      {
+        "date": "2026-03-11",
+        "last_updated": "2026-05-09",
+        "place_metadata": null,
+        "snippet": "- 下载官方APP并用手机号或邮箱注册账户；\n- 在“福利/活动/账号”页面查找“邀请码/激活码/内测申请”等入口；\n- 根据提示填写申请信息或直接点“领取”；有时需要完成新手任务或分享行为；\n- 拿到邀请码后按指引在“设置-兑换/激活”处输入或扫码即可生效。\n...\n- 联系LookWorldPro商务或本地渠道，说明需求；\n...\n1. **确认信息来源**：看到邀请码前先确认它来自官方渠道、已知用户或正规合作方；如果来自群聊或社交私信，问清楚是谁发的；\n2. **检查适用范围**：看清邀请码是否限地区、限版本（iOS/Android/网页版）或限时间；\n3. **按官方说明兑换**：多数...",
+        "source": "web",
+        "title": "第38 页 - LookWorldPro",
+        "url": "https://wp.lookworldprocn.com/page/38/"
+      },
+      {
+        "date": "2024-04-18",
+        "last_updated": "2025-06-09",
+        "place_metadata": null,
+        "snippet": "回复 共3条回复 我来回复 不及物动词 这个人很懒，什么都没有留下～ 评论 获取服务器邀请码信息的方法有以下几种： 通过官方渠道：访问服务器的官方网站或官方社交媒体平台，查找服务器邀请码的发布信息。有些服务器会定期或不定期地发布邀请码，你可以根据官方发布的信息，获取邀请码。\n...\n赞同 1年前 0条评论 worktile Worktile官方账号 评论 获得服务器邀请码信息的具体方法和操作流程如下： 方法一：通过邀请链接获取邀请码信息 在社交媒体、游戏论坛、聊天软件等渠道中，寻找服务器的官方账号或官方发布的邀请链接。\n点击邀请链接，进入服务器的官方页面或相关页面。\n在页面上查找邀请码的相关信...",
+        "source": "web",
+        "title": "如何获得服务器邀请码信息",
+        "url": "https://worktile.com/kb/ask/1227386.html"
+      },
+      {
+        "date": "2024-05-25",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "1、邀请链接：平台会为每个用户生成一个独特的邀请链接，用户可以将该链接分享给他人，当他人通过该链接注册或者参与活动时，邀请人就可以获得邀请码。",
+        "source": "web",
+        "title": "哪里获取邀请码",
+        "url": "https://www.amz123.com/ask/yQw2tjWx"
+      },
+      {
+        "date": "2026-06-09",
+        "last_updated": "2026-08-13",
+        "place_metadata": null,
+        "snippet": "**邀请码：https://qoder.com.cn/referral?referral_code=Gale2oS6Hc51h4A9bFWhVJldicAM04bH**",
+        "source": "web",
+        "title": "阿里云- QoderWork CN 首月Pro 免费领取邀请码/ Qwen3.7- ...",
+        "url": "https://www.cnblogs.com/jinzesudawei/p/20408129"
+      },
+      {
+        "date": "2026-02-02",
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "安装依赖\n```\npip install -r requirements.txt\n```",
+        "source": "web",
+        "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理",
+        "url": "https://github.com/anbeime/skill"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 254,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00025,
+        "request_cost": 0.005,
+        "total_cost": 0.00529
+      },
+      "prompt_tokens": 34,
+      "search_context_size": "low",
+      "total_tokens": 288
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:05.995771Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I04",
+    "answerEvidence": "Skillver 的**人才端（求职者）现在已开放注册，不需要邀请码**，直接去 Skillver 官网注册即可。[2][6][8][9]\n\n如果你想开通的是**企业端或导师端**，则需要通过以下方式获取邀请码或审批开通：  \n- **企业端**：提交入驻申请，审核通过后由运营发放企业端邀请码。[1][2][3]  \n- **导师端**：联系运营获取邀请码。[1][2]\n\n官方给出的企业入驻方式包括：  \n- 通过入驻申请页提交公司信息；[2][3]  \n- 或邮件联系 **janet.chen@tcodeai.com**；[2][3]  \n- 也可通过企业微信 **tcodeai_ops** 提交申请。[3]\n\n如果你是普通求职者，通常**不需要找邀请码**；如果你是企业或导师，我可以继续帮你整理一份**具体申请步骤**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I04.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

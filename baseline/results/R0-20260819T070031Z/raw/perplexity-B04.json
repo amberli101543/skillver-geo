@@ -1,0 +1,394 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "才谱 AI 和 **Skillver 是同一家公司体系下的两个品牌/主体与产品关系**：**才谱 AI** 是运营主体品牌，**Skillver** 是其旗下的 AI 求职助手产品品牌。[1][4]\n\n更具体地说：\n\n- **上海才谱人工智能科技有限公司** 是运营公司。[1][5]\n- **Skillver** 是这家公司推出的 AI 求职助手产品，用于选岗匹配、AI 面试、企业投递等功能。[1][10][11]\n- **tcodeai.com** 主要承载品牌介绍、FAQ 和研究内容；实际产品使用入口在 **skillver.cn / skillver.ai**。[1][4][10][11]\n\n如果你问的是“是不是同一个东西”，答案是：**不是完全同名，但属于同一家公司旗下，才谱 AI 更像公司/运营品牌，Skillver 更像产品品牌**。[1][4]",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L3LT5EK40514R9OJ.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.takefoto.cn/news/2026/08/06/11903636.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E6%99%BA%E8%B0%B1ai%E5%BC%A0%E9%B9%8F%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%8D%E5%81%9A%E4%B8%AD%E5%9B%BD%E7%9A%84chatgpt",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am",
+      "title": ""
+    },
+    {
+      "url": "https://www.zhipuai.cn/zh",
+      "title": ""
+    },
+    {
+      "url": "https://bigmodel.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://hk.finance.yahoo.com/news/%E5%85%A7%E5%9C%B0-ai%E5%85%AD%E5%B0%8F%E8%99%8E-%E6%99%BA%E8%AD%9C%E5%85%A8%E6%96%B0ai%E6%A8%A1%E5%9E%8B-%E6%88%90%E6%9C%AC%E5%8F%8A%E8%B2%BB%E7%94%A8%E6%AF%94deepseek%E4%BD%8E-073418695.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "才谱AI"
+    },
+    {
+      "url": "https://www.163.com/dy/article/L3LT5EK40514R9OJ.html",
+      "title": "上海才谱AI启动青年AI人才网络 免费开放助力产教融合"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://www.takefoto.cn/news/2026/08/06/11903636.shtml",
+      "title": "AI 行业重构人才评价 履历让位实战成果"
+    },
+    {
+      "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E6%99%BA%E8%B0%B1ai%E5%BC%A0%E9%B9%8F%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%8D%E5%81%9A%E4%B8%AD%E5%9B%BD%E7%9A%84chatgpt",
+      "title": "启明星| 智谱AI张鹏：我们不做中国的ChatGPT"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "title": "智谱 - 维基百科，自由的百科全书"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am",
+      "title": "智谱AI的开发计算平台有哪些功能？"
+    },
+    {
+      "url": "https://www.zhipuai.cn/zh",
+      "title": "智谱AI"
+    },
+    {
+      "url": "https://bigmodel.cn/",
+      "title": "智谱AI开放平台"
+    },
+    {
+      "url": "https://hk.finance.yahoo.com/news/%E5%85%A7%E5%9C%B0-ai%E5%85%AD%E5%B0%8F%E8%99%8E-%E6%99%BA%E8%AD%9C%E5%85%A8%E6%96%B0ai%E6%A8%A1%E5%9E%8B-%E6%88%90%E6%9C%AC%E5%8F%8A%E8%B2%BB%E7%94%A8%E6%AF%94deepseek%E4%BD%8E-073418695.html",
+      "title": "內地「AI六小虎」智譜全新AI模型成本及費用比DeepSeek低"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "才谱 AI 和 **Skillver 是同一家公司体系下的两个品牌/主体与产品关系**：**才谱 AI** 是运营主体品牌，**Skillver** 是其旗下的 AI 求职助手产品品牌。[1][4]\n\n更具体地说：\n\n- **上海才谱人工智能科技有限公司** 是运营公司。[1][5]\n- **Skillver** 是这家公司推出的 AI 求职助手产品，用于选岗匹配、AI 面试、企业投递等功能。[1][10][11]\n- **tcodeai.com** 主要承载品牌介绍、FAQ 和研究内容；实际产品使用入口在 **skillver.cn / skillver.ai**。[1][4][10][11]\n\n如果你问的是“是不是同一个东西”，答案是：**不是完全同名，但属于同一家公司旗下，才谱 AI 更像公司/运营品牌，Skillver 更像产品品牌**。[1][4]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/faq.html",
+      "https://www.tcodeai.com/",
+      "https://www.163.com/dy/article/L3LT5EK40514R9OJ.html",
+      "https://tcodeai.com/company/",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://www.takefoto.cn/news/2026/08/06/11903636.shtml",
+      "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E6%99%BA%E8%B0%B1ai%E5%BC%A0%E9%B9%8F%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%8D%E5%81%9A%E4%B8%AD%E5%9B%BD%E7%9A%84chatgpt",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.geekpark.net/news/368542",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/products/skillver.html",
+      "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "https://www.skillver.cn/beta",
+      "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am",
+      "https://www.zhipuai.cn/zh",
+      "https://bigmodel.cn/",
+      "https://hk.finance.yahoo.com/news/%E5%85%A7%E5%9C%B0-ai%E5%85%AD%E5%B0%8F%E8%99%8E-%E6%99%BA%E8%AD%9C%E5%85%A8%E6%96%B0ai%E6%A8%A1%E5%9E%8B-%E6%88%90%E6%9C%AC%E5%8F%8A%E8%B2%BB%E7%94%A8%E6%AF%94deepseek%E4%BD%8E-073418695.html"
+    ],
+    "created": 1787123118,
+    "id": "dc9f086c-b9a8-4661-8228-744711458ec5",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "- **Skillver 和才谱 AI 是什么关系？**\nSkillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手产品。才谱 AI 为运营主体品牌，Skillver 为产品品牌。\n...\n**www.tcodeai.com** 是 Skillver 的品牌内容与研究院 GEO 站点（FAQ、白皮书、岗位标准等）；实际使用产品请前往 skillver 双域。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "为 AI 独角兽与科技企业解决 Agent / 算法 / Infra 岗招聘难题：KAE 七维战力验证、向量人才匹配、持报告投递硬闸门——把招聘从「看简历」变成「看验证过的交付能力」。",
+        "source": "web",
+        "title": "才谱AI",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "2026年8月5日，上海才谱人工智能科技有限公司宣布，旗下AI人才平台Skillver已于7月下旬启动青年AI人才网络（YATN）建设。\n当前，不少高校学生对AI行业岗位设置和能力要求认知较为模糊。YATN致力于以实战研讨为核心，帮助学生快速完成行业认知提升，连接青年人才与AI企业，着力缓解人才供需矛盾。\n据项目负责人南山介绍，YATN积极响应'产教衔接''投资于人'等要求，由企业全额投入，坚持社会价值优先，免费面向高校学生开放。项目为学生提供职业公开课、工具包、产品拆解赛等常态化训练，8月中旬起还将引入企业真实任务落地赛与月度'黑客松'比赛，帮助学生在校期间完成从认知到实践、再到交付的全过程...",
+        "source": "web",
+        "title": "上海才谱AI启动青年AI人才网络 免费开放助力产教融合",
+        "url": "https://www.163.com/dy/article/L3LT5EK40514R9OJ.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是上海才谱人工智能科技有限公司旗下的 AI 求职助手——一位始终站在人才身边的 AI 伙伴，陪伴学习、练习、面试与每一次成长。\n...\nSkillver 站在人才这一侧。我们不是冷冰冰的招聘网站，也不是只帮企业筛人的工具平台，而是一位 7×24 在线、越用越懂你的 AI 搭档——帮你看清方向、证明能力、练熟面试、对接机会。\n**使用 Skillver 产品**（注册、登录、AI 面试）请访问 www.skillver.cn 或 www.skillver.ai （双域功能相同）。本站 www.tcodeai.com 承载品牌故事、FAQ 与研究院内容。",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "AI垂直招聘平台Skillver近期发布《2026 AI行业人才白皮书》，将这一变化概括为：AI人才市场不只是缺人，更缺少能够准确识别能力的评价方式。\nSkillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇'模速空间'的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。\n...\n2026年8月5日，上海才谱人工智能科技有限公司宣布，旗下AI人才平台Skillver已于7月下旬启动建设青年AI人才网络（简称YATN）。该项目响应国家'产教衔接''投资于人'等政策要求，面向高校学生完全免费，首批已覆盖浙江大学、复旦大学、上海交通大学、同济大学、东南大学等长三角头部...",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "Skillver由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇“模速空间”的AI初创企业，其致力于实现中国AI和机器人行业人才供需高效匹配。Skillver认为，当前AI人才市场的主要矛盾不是供给不足，而是技能标签的“通胀”与真实工程交付能力的“通缩”。这种错位之严重，已从市场难题上升为公共议题。",
+        "source": "web",
+        "title": "AI 行业重构人才评价 履历让位实战成果",
+        "url": "https://www.takefoto.cn/news/2026/08/06/11903636.shtml"
+      },
+      {
+        "date": "2023-09-22",
+        "last_updated": "2026-08-08",
+        "place_metadata": null,
+        "snippet": "**编者按：** 日前，启明创投投资企业智谱AI正式上线首款生成式AI助手——智谱清言。该助手基于智谱AI自主研发的中英双语对话模型ChatGLM2，经过万亿字符的文本与代码预训练，并采用监督微调技术，以通用对话的形式为用户提供智能化服务。同时，智谱AI等8家企业/机构的大模型通过了《生成式人工智能服务管理暂行办法》备案，位列第一批名单，可正式上线面向公众提供服务。",
+        "source": "web",
+        "title": "启明星| 智谱AI张鹏：我们不做中国的ChatGPT",
+        "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E6%99%BA%E8%B0%B1ai%E5%BC%A0%E9%B9%8F%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%8D%E5%81%9A%E4%B8%AD%E5%9B%BD%E7%9A%84chatgpt"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE（Knowledge & Ability Engine）是 Skillver 的能力评测引擎，为人才端 AI 面试与企业端候选人评估提供统一的能力语言。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "8 月 4 日，AI 垂直招聘平台 Skillver 发布《2026 AI 行业人才白皮书》，将这一矛盾概括为一场人才价值重估。",
+        "source": "web",
+        "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园",
+        "url": "https://www.geekpark.net/news/368542"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n产品使用入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）；www.tcodeai.com 是品牌内容站，用于品牌介绍与内容沉淀。\n...\n1. 访问 www.skillver.cn 或 www.skillver.ai（双域功能相同）；\n2. 点击「免费注册」，使用手机号完成注册即可开始使用。\n...\n- 企业入驻申请可邮件联系 jane...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "它不是只做岗位信息展示的招聘网站，也不是只替企业筛选简历的工具；人才端围绕一条完整主线组织功能：\n选岗匹配 → AI 面试 → 投递企业 → 导师赋能（待开通）\n...\n产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。\n...\n一句话概括：Skillver 用 AI 帮求职者按目标岗位完成准备、能力核验和机会连接，但不承诺通过面试或拿到 offer。\n...\nSkillver 是 AI 求职助手。人才端覆盖选岗匹配、AI 面试和投递企业；导师赋能当前待开通。它不只提供...",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "人才侧与企业侧共用 KAE 能力引擎与 Tcode 协议——同一套七维战力向量，人才用来证明实力，企业用来降低错招。",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": "2025-01-19",
+        "last_updated": "2026-06-24",
+        "place_metadata": null,
+        "snippet": "下载超过3000万；智谱现已完成了至少12轮融资，投资方包括北京市人工智能产业投资基金、社保基金中关村自主创新基金（君联资本为基金管理人）、美团、蚂蚁、阿里、腾讯、小米、金山、顺为、红杉、高瓴等，公司估值超过200亿人民币。同时，优刻得、视觉中国、宇信科技等多家中国A股上市公司已有披露其与智谱的合作。",
+        "source": "web",
+        "title": "智谱 - 维基百科，自由的百科全书",
+        "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2024-07-19",
+        "last_updated": "2025-01-25",
+        "place_metadata": null,
+        "snippet": "美团入股智谱AI，通过投资布局AI大模型赛道，结合美团在本地生活服务领域的行业优势、海量的用户数据资源以及雄厚的技术实力和资金投入，共同探索AI技术的商业化落地。",
+        "source": "web",
+        "title": "智谱AI的开发计算平台有哪些功能？",
+        "url": "https://docs.feishu.cn/v/wiki/ZcIPwtqGWiFOL8kQtkfcUhRrnug/am"
+      },
+      {
+        "date": "2026-06-16",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "数十个深度耦合业务的应用级 API，开箱即用，直击千行百业真需求",
+        "source": "web",
+        "title": "智谱AI",
+        "url": "https://www.zhipuai.cn/zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-29",
+        "place_metadata": null,
+        "snippet": "A globally popular subscription-based AI coding package designed for high-frequency coding scenarios, deeply integrated with mainstream development tools.",
+        "source": "web",
+        "title": "智谱AI开放平台",
+        "url": "https://bigmodel.cn/"
+      },
+      {
+        "date": "2025-07-29",
+        "last_updated": "2025-07-29",
+        "place_metadata": null,
+        "snippet": "현재 이 회사의 주주에는 베이징 인공지능 산업 투자 기금, 사회 보장 기금 중관춘 자주 혁신 특별 기금, 메이퇀(03690), 알리바바, 텐센트(00700), 샤오미(01810), 세쿼이아, 고릉 자본 등이 포함되어 있다.",
+        "source": "web",
+        "title": "內地「AI六小虎」智譜全新AI模型成本及費用比DeepSeek低",
+        "url": "https://hk.finance.yahoo.com/news/%E5%85%A7%E5%9C%B0-ai%E5%85%AD%E5%B0%8F%E8%99%8E-%E6%99%BA%E8%AD%9C%E5%85%A8%E6%96%B0ai%E6%A8%A1%E5%9E%8B-%E6%88%90%E6%9C%AC%E5%8F%8A%E8%B2%BB%E7%94%A8%E6%AF%94deepseek%E4%BD%8E-073418695.html"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 232,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00023,
+        "request_cost": 0.005,
+        "total_cost": 0.00527
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 268
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:05:19.067352Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "才谱 AI 和 **Skillver 是同一家公司体系下的两个品牌/主体与产品关系**：**才谱 AI** 是运营主体品牌，**Skillver** 是其旗下的 AI 求职助手产品品牌。[1][4]\n\n更具体地说：\n\n- **上海才谱人工智能科技有限公司** 是运营公司。[1][5]\n- **Skillver** 是这家公司推出的 AI 求职助手产品，用于选岗匹配、AI 面试、企业投递等功能。[1][10][11]\n- **tcodeai.com** 主要承载品牌介绍、FAQ 和研究内容；实际产品使用入口在 **skillver.cn / skillver.ai**。[1][4][10][11]\n\n如果你问的是“是不是同一个东西”，答案是：**不是完全同名，但属于同一家公司旗下，才谱 AI 更像公司/运营品牌，Skillver 更像产品品牌**。[1][4]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

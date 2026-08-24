@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "# Skillver 与招聘网站的主要区别\n\n## Skillver 是什么？\nSkillver 是一个**以技能为核心**的职业发展平台，主要聚焦于技能评估、认证和匹配。\n\n## 主要区别对比\n\n| 维度 | Skillver | 传统招聘网站 |\n|------|----------|------------|\n| **核心逻辑** | 以**技能**为匹配基础 | 以**简历/学历/经验**为主 |\n| **用途** | 技能评估 + 求职 + 职业发展 | 主要用于招聘/求职 |\n| **评估方式** | 提供技能测试与认证 | 通常无技能验证机制 |\n| **匹配精准度** | 基于实际能力匹配 | 基于关键词/条件筛选 |\n| **求职者价值** | 帮助展示真实能力 | 展示经历和背景 |\n\n## 简单来说\n- 招聘网站更像**\"信息发布平台\"**\n- Skillver 更像**\"能力证明 + 智能匹配平台\"**，强调用技能说话，减少对学历和背景的依赖\n\n---\n如果您想了解更具体的功能对比，欢迎进一步提问！",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgiijMU77sytxbqucWe",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 与招聘网站的主要区别\n\n## Skillver 是什么？\nSkillver 是一个**以技能为核心**的职业发展平台，主要聚焦于技能评估、认证和匹配。\n\n## 主要区别对比\n\n| 维度 | Skillver | 传统招聘网站 |\n|------|----------|------------|\n| **核心逻辑** | 以**技能**为匹配基础 | 以**简历/学历/经验**为主 |\n| **用途** | 技能评估 + 求职 + 职业发展 | 主要用于招聘/求职 |\n| **评估方式** | 提供技能测试与认证 | 通常无技能验证机制 |\n| **匹配精准度** | 基于实际能力匹配 | 基于关键词/条件筛选 |\n| **求职者价值** | 帮助展示真实能力 | 展示经历和背景 |\n\n## 简单来说\n- 招聘网站更像**\"信息发布平台\"**\n- Skillver 更像**\"能力证明 + 智能匹配平台\"**，强调用技能说话，减少对学历和背景的依赖\n\n---\n如果您想了解更具体的功能对比，欢迎进一步提问！"
+        }
+      }
+    ],
+    "created": 1787123274,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 394,
+      "prompt_tokens": 53,
+      "total_tokens": 447
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:07:54.410364Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "# Skillver 与招聘网站的主要区别\n\n## Skillver 是什么？\nSkillver 是一个**以技能为核心**的职业发展平台，主要聚焦于技能评估、认证和匹配。\n\n## 主要区别对比\n\n| 维度 | Skillver | 传统招聘网站 |\n|------|----------|------------|\n| **核心逻辑** | 以**技能**为匹配基础 | 以**简历/学历/经验**为主 |\n| **用途** | 技能评估 + 求职 + 职业发展 | 主要用于招聘/求职 |\n| **评估方式** | 提供技能测试与认证 | 通常无技能验证机制 |\n| **匹配精准度** | 基于实际能力匹配 | 基于关键词/条件筛选 |\n| **求职者价值** | 帮助展示真实能力 | 展示经历和背景 |\n\n## 简单来说\n- 招聘网站更像**\"信息发布平台\"**\n- Skillver 更像**\"能力证明 + 智能匹配平台\"**，强调用技能说话，减少对学历和背景的依赖\n\n---\n如果您想了解更具体的功能对比，欢迎进一步提问！",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

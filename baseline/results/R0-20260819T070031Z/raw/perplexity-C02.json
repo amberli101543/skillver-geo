@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "常见的 **AI 模拟面试工具** 主要有这几类：**多面鹅/OfferGoose、Gank Interview、面多多、智面星、牛客 AI 面试、Final Round AI、Interviewable、Huru、Interviews.chat、AceRound AI** 等。[1][2][9][10][12][15][19][20]\n\n如果按国内外和功能来分，比较典型的是：\n\n- **国内求职平台型**：OfferGoose（多面鹅）、Gank Interview、面多多、智面星、牛客 AI 面试。[1][2][9][12]\n- **海外/英文面试型**：Final Round AI、Interviewable、Huru、Interviews.chat、AceRound AI。[7][10][16][19][20]\n- **偏综合辅助型**：面试猫、职徒简历等，通常把**模拟面试**和**简历优化、实时答题、面后复盘**一起提供。[15][11]\n\n这些工具普遍支持的核心功能包括：**根据简历或岗位 JD 定制题目、模拟真实面试流程、实时反馈与评分、回答建议、面后复盘**。[1][2][9][10][13][19]\n\n如果你想，我可以继续帮你按下面 3 个方向筛选：\n- **免费可用**\n- **适合校招/社招**\n- **适合技术岗 / 产品岗 / 英文面试**",
+  "sources": [
+    {
+      "url": "https://offergoose.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.gankinterview.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/pechka/articles/19749943",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145304242",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145305198",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145305667",
+      "title": ""
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a27691d10ee7a33f2798ad0.html",
+      "title": ""
+    },
+    {
+      "url": "https://ai.mianshiya.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.finalroundai.com/zh/ai-mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/844485361_497167",
+      "title": ""
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": ""
+    },
+    {
+      "url": "https://www.gankinterview.cn/docs/features/mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/2301_79306982/article/details/148902903",
+      "title": ""
+    },
+    {
+      "url": "https://ai.google.dev/competition/projects/rehearsai?hl=zh-cn",
+      "title": ""
+    },
+    {
+      "url": "https://www.finalroundai.com/zh-tw/ai-mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://top.aibase.com/tool/ai-mock-interview",
+      "title": ""
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147087486",
+      "title": ""
+    },
+    {
+      "url": "https://offergoose.cn/",
+      "title": "OfferGoose 鹅来面(原多面鹅官网- AI 面试模拟| 实时面试提醒 ..."
+    },
+    {
+      "url": "https://www.gankinterview.cn/",
+      "title": "Gank Interview - 智能AI面试笔试助手| AI模拟面试| AI求职助手 ..."
+    },
+    {
+      "url": "https://www.cnblogs.com/pechka/articles/19749943",
+      "title": "2026年最好用的AI面试助手有哪些？8款热门工具真实测评 ..."
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145304242",
+      "title": "2025年最新5款AI面试工具大盘点！毕业生职场人必备ai模拟面试神器"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145305198",
+      "title": "2025年AI面试全攻略：6款必备模拟工具大盘点"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/145305667",
+      "title": "2025年AI面试必备：6款模拟工具助力求职者脱颖而出"
+    },
+    {
+      "url": "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/",
+      "title": "2026年免费AI模拟面试工具哪个最值得用：海外求职者实测对比"
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a27691d10ee7a33f2798ad0.html",
+      "title": "2026年十款主流AI面试与模拟工具深度盘点 - AtomGit开源社区"
+    },
+    {
+      "url": "https://ai.mianshiya.com/",
+      "title": "面多多- AI模拟面试神器，大厂面试练习求职提升平台"
+    },
+    {
+      "url": "https://www.finalroundai.com/zh/ai-mock-interview",
+      "title": "免费AI模拟面试- 与AI进行面试练习"
+    },
+    {
+      "url": "https://www.sohu.com/a/844485361_497167",
+      "title": "2025年5款AI面试工具盘点，应届生/职场人/留学生AI模拟面试必备"
+    },
+    {
+      "url": "https://aiqtools.cn/",
+      "title": "智面星官网| AI面试助手| 实时答案提示"
+    },
+    {
+      "url": "https://www.gankinterview.cn/docs/features/mock-interview",
+      "title": "Gank Interview - AI智能面试助手"
+    },
+    {
+      "url": "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html",
+      "title": "7款主流AI模拟面试工具全维度对比，谁才是真正的求职神器？"
+    },
+    {
+      "url": "https://www.offermore.cc/",
+      "title": "面试猫-AI面试助手，在线面试神器，实时答案生成"
+    },
+    {
+      "url": "https://blog.csdn.net/2301_79306982/article/details/148902903",
+      "title": "15个AI模拟面试平台和简历修改/ 真人面试平台原创"
+    },
+    {
+      "url": "https://ai.google.dev/competition/projects/rehearsai?hl=zh-cn",
+      "title": "RehearsAI | Gemini API Developer Competition"
+    },
+    {
+      "url": "https://www.finalroundai.com/zh-tw/ai-mock-interview",
+      "title": "免費AI模擬面試- 與AI進行面試練習"
+    },
+    {
+      "url": "https://top.aibase.com/tool/ai-mock-interview",
+      "title": "AI Mock Interview : AI模拟面试服务"
+    },
+    {
+      "url": "https://blog.csdn.net/offergoose/article/details/147087486",
+      "title": "10款免费AI面试神器，助力求职一路顺风"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "常见的 **AI 模拟面试工具** 主要有这几类：**多面鹅/OfferGoose、Gank Interview、面多多、智面星、牛客 AI 面试、Final Round AI、Interviewable、Huru、Interviews.chat、AceRound AI** 等。[1][2][9][10][12][15][19][20]\n\n如果按国内外和功能来分，比较典型的是：\n\n- **国内求职平台型**：OfferGoose（多面鹅）、Gank Interview、面多多、智面星、牛客 AI 面试。[1][2][9][12]\n- **海外/英文面试型**：Final Round AI、Interviewable、Huru、Interviews.chat、AceRound AI。[7][10][16][19][20]\n- **偏综合辅助型**：面试猫、职徒简历等，通常把**模拟面试**和**简历优化、实时答题、面后复盘**一起提供。[15][11]\n\n这些工具普遍支持的核心功能包括：**根据简历或岗位 JD 定制题目、模拟真实面试流程、实时反馈与评分、回答建议、面后复盘**。[1][2][9][10][13][19]\n\n如果你想，我可以继续帮你按下面 3 个方向筛选：\n- **免费可用**\n- **适合校招/社招**\n- **适合技术岗 / 产品岗 / 英文面试**",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://offergoose.cn/",
+      "https://www.gankinterview.cn/",
+      "https://www.cnblogs.com/pechka/articles/19749943",
+      "https://blog.csdn.net/offergoose/article/details/145304242",
+      "https://blog.csdn.net/offergoose/article/details/145305198",
+      "https://blog.csdn.net/offergoose/article/details/145305667",
+      "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/",
+      "https://gitcode.csdn.net/6a27691d10ee7a33f2798ad0.html",
+      "https://ai.mianshiya.com/",
+      "https://www.finalroundai.com/zh/ai-mock-interview",
+      "https://www.sohu.com/a/844485361_497167",
+      "https://aiqtools.cn/",
+      "https://www.gankinterview.cn/docs/features/mock-interview",
+      "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html",
+      "https://www.offermore.cc/",
+      "https://blog.csdn.net/2301_79306982/article/details/148902903",
+      "https://ai.google.dev/competition/projects/rehearsai?hl=zh-cn",
+      "https://www.finalroundai.com/zh-tw/ai-mock-interview",
+      "https://top.aibase.com/tool/ai-mock-interview",
+      "https://blog.csdn.net/offergoose/article/details/147087486"
+    ],
+    "created": 1787124836,
+    "id": "8e64459e-e448-48e8-8562-fd0d80d3b6a5",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-12",
+        "place_metadata": null,
+        "snippet": "专为求职者打造的**AI面试训练平台**，通过**智能模拟**、**简历优化** 和**面试实时助手**，助你在真实面试中脱颖而出",
+        "source": "web",
+        "title": "OfferGoose 鹅来面(原多面鹅官网- AI 面试模拟| 实时面试提醒 ...",
+        "url": "https://offergoose.cn/"
+      },
+      {
+        "date": "2026-08-16",
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "从信息收集、简历优化、模拟面试、岗位拆解，到笔试训练、实时面试辅助与面后复盘，",
+        "source": "web",
+        "title": "Gank Interview - 智能AI面试笔试助手| AI模拟面试| AI求职助手 ...",
+        "url": "https://www.gankinterview.cn/"
+      },
+      {
+        "date": "2026-03-22",
+        "last_updated": "2026-05-13",
+        "place_metadata": null,
+        "snippet": "鹅来面是一款专注AI模拟面试的平台，主打沉浸式视频面试模拟。支持导入简历和岗位JD，生成针对性面试题目。\n...\n牛客是国内老牌的求职平台，拥有海量互联网大厂面试真题库，近年也加入了AI模拟面试功能。\n...\n职徒简历以简历服务起家，后来拓展了AI模拟面试功能，将简历内容与面试题目深度关联。\n...\n谷歌推出的免费AI面试练习工具，提供基础的面试问答模拟和反馈。\n...\n|产品|实时辅助|模拟面试|免安装|价格|推荐指数|\n|--|--|--|--|--|--|",
+        "source": "web",
+        "title": "2026年最好用的AI面试助手有哪些？8款热门工具真实测评 ...",
+        "url": "https://www.cnblogs.com/pechka/articles/19749943"
+      },
+      {
+        "date": "2025-01-22",
+        "last_updated": "2026-05-05",
+        "place_metadata": null,
+        "snippet": "**先放结论：整体来说，做的最全面、最真实的是** **多面** **鹅** **ai** **，** **ai** **模拟** **面试官，而且中英文面试环境都做的挺好。做得更久、名企面试真题更丰富的是牛客，包含很多互联网大厂的真题，其他的大家看情况选择。**",
+        "source": "web",
+        "title": "2025年最新5款AI面试工具大盘点！毕业生职场人必备ai模拟面试神器",
+        "url": "https://blog.csdn.net/offergoose/article/details/145304242"
+      },
+      {
+        "date": "2025-01-22",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "**先放结论：整体来说，做的最全面、最真实的是** **多面** **鹅** **ai** **，** **ai** **模拟** **面试官，而且中英文面试环境都做的挺好。做得更久、名企面试真题更丰富的是牛客，包含很多互联网大厂的真题，其他的大家看情况选择。**",
+        "source": "web",
+        "title": "2025年AI面试全攻略：6款必备模拟工具大盘点",
+        "url": "https://blog.csdn.net/offergoose/article/details/145305198"
+      },
+      {
+        "date": "2025-01-22",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "**先放结论：整体来说，做的最全面、最真实的是** **多面** **鹅** **ai** **，** **ai** **模拟** **面试官，而且中英文面试环境都做的挺好。做得更久、名企面试真题更丰富的是牛客，包含很多互联网大厂的真题，其他的大家看情况选择。**",
+        "source": "web",
+        "title": "2025年AI面试必备：6款模拟工具助力求职者脱颖而出",
+        "url": "https://blog.csdn.net/offergoose/article/details/145305667"
+      },
+      {
+        "date": "2026-05-05",
+        "last_updated": "2026-06-24",
+        "place_metadata": null,
+        "snippet": "> **太长不看版**：2026年最值得用的免费AI模拟面试工具包括：AceRound AI（真实面试实时辅助）、Interviews by AI（行为面试无限免费练习）和 X-Interview（多语言支持最强）。大多数工具免费试用3–5次就会遇到付费墙——本文详细说明每款工具到底能免费用多少次、研究表明你实际需要练多少次，以及哪款工具最适合英语非母语的海外华人候选人。",
+        "source": "web",
+        "title": "2026年免费AI模拟面试工具哪个最值得用：海外求职者实测对比",
+        "url": "https://www.aceround.app/zh-cn/blog/ai-mock-interview-free/"
+      },
+      {
+        "date": "2026-06-09",
+        "last_updated": "2026-06-19",
+        "place_metadata": null,
+        "snippet": "- **一句话定位**：兼顾全流程模拟与实时辅导的综合型沉浸式平台。\n...\n智面星",
+        "source": "web",
+        "title": "2026年十款主流AI面试与模拟工具深度盘点 - AtomGit开源社区",
+        "url": "https://gitcode.csdn.net/6a27691d10ee7a33f2798ad0.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-04-11",
+        "place_metadata": null,
+        "snippet": "从自我介绍到项目深挖，从技术拷问到综合素质评估，完全模拟目标岗位的完整面试流程。定制化匹配面试题目模拟真实面试场景个性化面试报告专项突破",
+        "source": "web",
+        "title": "面多多- AI模拟面试神器，大厂面试练习求职提升平台",
+        "url": "https://ai.mianshiya.com/"
+      },
+      {
+        "date": "2025-03-23",
+        "last_updated": "2025-10-15",
+        "place_metadata": null,
+        "snippet": "随时与AI面试官进行练习，它提出现实问题并提供即时反馈。它会根据您的职位描述和经验水平进行调整，帮助您改进答案并建立信心。AI模拟面试全天候工作，无需预约或准备时间。",
+        "source": "web",
+        "title": "免费AI模拟面试- 与AI进行面试练习",
+        "url": "https://www.finalroundai.com/zh/ai-mock-interview"
+      },
+      {
+        "date": "2025-01-02",
+        "last_updated": "2025-10-19",
+        "place_metadata": null,
+        "snippet": "总结来说，职徒简历在各大AI面试工具中表现最为全面和真实，提供面对面的真人面试官模拟，�中文面环�都做得相当不错。相比之下，牛客在运营时间和名企面试真题的丰富性上更具优势，涵盖了许互网大�的实题目，其他工具可根据个人需求选择使用。",
+        "source": "web",
+        "title": "2025年5款AI面试工具盘点，应届生/职场人/留学生AI模拟面试必备",
+        "url": "https://www.sohu.com/a/844485361_497167"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-07",
+        "place_metadata": null,
+        "snippet": "80,000+面试真题训练,覆盖数万家公司,数千种岗位\n针对你的简历和面试岗位进行模拟练习",
+        "source": "web",
+        "title": "智面星官网| AI面试助手| 实时答案提示",
+        "url": "https://aiqtools.cn/"
+      },
+      {
+        "date": "2026-06-01",
+        "last_updated": "2026-06-01",
+        "place_metadata": null,
+        "snippet": "“AI 模拟面试”不是单轮问答工具，而是一套完整的面试演练工作台。",
+        "source": "web",
+        "title": "Gank Interview - AI智能面试助手",
+        "url": "https://www.gankinterview.cn/docs/features/mock-interview"
+      },
+      {
+        "date": "2026-05-13",
+        "last_updated": "2026-05-17",
+        "place_metadata": null,
+        "snippet": "AI模拟面试工具通过大模型技术，能够模拟真实面试官的提问逻辑，生成个性化面试题，提供即时反馈和改进建议，帮助求职者在短时间内提升面试技巧。目前市场上的AI模拟面试工具主要分为三类：垂直求职平台延伸产品、综合AI平台功能模块、专业面试工具。不同类型的产品在技术实力、场景适配度和用户体验上存在较大差距。\n...\n- AI简历姬：国内垂直求职平台，主打简历+面试全流程服务\n- 牛客AI面试：技术岗垂直平台，拥有丰富的大厂真题库\n- 智联招聘AI模拟面试：综合招聘平台，覆盖全行业通用岗位\n- 领英Learning AI Interview：海外求职平台，英文面试专业度高\n- Interviewing....",
+        "source": "web",
+        "title": "7款主流AI模拟面试工具全维度对比，谁才是真正的求职神器？",
+        "url": "https://gitcode.csdn.net/6a04304e54b52172bc73bad3.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-27",
+        "place_metadata": null,
+        "snippet": "面试猫是强大的 AI 求职助手，实时 AI 面试辅助、AI 笔试辅助、AI 简历优化和面试总结，最强大模型辅助，助你轻松拿Offer。",
+        "source": "web",
+        "title": "面试猫-AI面试助手，在线面试神器，实时答案生成",
+        "url": "https://www.offermore.cc/"
+      },
+      {
+        "date": "2025-06-25",
+        "last_updated": "2026-03-22",
+        "place_metadata": null,
+        "snippet": "|平台名称|网址|主要侧重|免费版服务|核心付费方案|关键软件工程功能|反馈复杂性|分析师评级 (SWE)|\n|--|--|--|--|--|--|--|--|\n...\n|**Interviews.chat**|`interviews.chat`|实时面试辅助|30免费积分|$19/月 (积分制)|编码挑战解答, STAR框架|中 (STAR, 要点)|4.0/5|",
+        "source": "web",
+        "title": "15个AI模拟面试平台和简历修改/ 真人面试平台原创",
+        "url": "https://blog.csdn.net/2301_79306982/article/details/148902903"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-03-28",
+        "place_metadata": null,
+        "snippet": "带有语音功能的 AI 模拟面试 Web 应用。",
+        "source": "web",
+        "title": "RehearsAI | Gemini API Developer Competition",
+        "url": "https://ai.google.dev/competition/projects/rehearsai?hl=zh-cn"
+      },
+      {
+        "date": "2025-03-23",
+        "last_updated": "2025-10-20",
+        "place_metadata": null,
+        "snippet": "隨時與AI面試官進行練習，它會提出現實問題並提供即時回饋。它會根據您的職位描述和經驗水平進行調整，幫助您改進答案並建立信心。AI模擬面試全天候工作，無需預約或準備時間。",
+        "source": "web",
+        "title": "免費AI模擬面試- 與AI進行面試練習",
+        "url": "https://www.finalroundai.com/zh-tw/ai-mock-interview"
+      },
+      {
+        "date": "2023-09-11",
+        "last_updated": "2025-05-31",
+        "place_metadata": null,
+        "snippet": "Skillora是一个AI面试工具，旨在帮助求职者练习面试技巧，为公司优化招聘流程，并为教育机构培训员工和学生。它提供个性化定制的模拟面试，实时反馈和评分，以及学习资源库。Skillora可以帮助用户增加面试自信，提升成功机会。\n...\nInterviewable是一款AI面试准备工具，帮助用户提升面试表现。其个性化反馈、每周进展追踪、常见面试问题曝光等功能，使其成为求职者和教育机构的理想选择。产品分为STARTER、GROWTH、PRO和TEAMS四个套餐，价格从每月12美元到每月300美元不等。\n...\nAI模拟面试是一个提供个性化AI面试模拟和反馈的服务。用户可以选择模板或自定义面试内容...",
+        "source": "web",
+        "title": "AI Mock Interview : AI模拟面试服务",
+        "url": "https://top.aibase.com/tool/ai-mock-interview"
+      },
+      {
+        "date": "2025-04-09",
+        "last_updated": "2026-03-24",
+        "place_metadata": null,
+        "snippet": "多面鹅是一款专为求职者打造的AI面试平台，它通过模拟面试和实时提醒，帮助你在面试中自信展示才华与潜力。它的优势在于能够提供即时反馈和指导，提升你的回答质量和自信心。多面鹅官网提供了全面的服务，包括AI模拟面试、智能面试押题等，是你面试准备的不二之选。\n...\nHuru是AI面试准备应用，通过模拟真实面试场景，为用户提供个性化反馈和建议，帮助求职者提升自信心和沟通技巧。主要功能包括无限次模拟面试、即时AI反馈、多语言支持以及与主流招聘网站集成，直接从职位描述生成面试问题。Huru拥有超过20,000个模拟面试问题，覆盖各类职位和行业。",
+        "source": "web",
+        "title": "10款免费AI面试神器，助力求职一路顺风",
+        "url": "https://blog.csdn.net/offergoose/article/details/147087486"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 367,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00037,
+        "request_cost": 0.005,
+        "total_cost": 0.0054
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 403
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:33:55.925348Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "常见的 **AI 模拟面试工具** 主要有这几类：**多面鹅/OfferGoose、Gank Interview、面多多、智面星、牛客 AI 面试、Final Round AI、Interviewable、Huru、Interviews.chat、AceRound AI** 等。[1][2][9][10][12][15][19][20]\n\n如果按国内外和功能来分，比较典型的是：\n\n- **国内求职平台型**：OfferGoose（多面鹅）、Gank Interview、面多多、智面星、牛客 AI 面试。[1][2][9][12]\n- **海外/英文面试型**：Final Round AI、Interviewable、Huru、Interviews.chat、AceRound AI。[7][10][16][19][20]\n- **偏综合辅助型**：面试猫、职徒简历等，通常把**模拟面试**和**简历优化、实时答题、面后复盘**一起提供。[15][11]\n\n这些工具普遍支持的核心功能包括：**根据简历或岗位 JD 定制题目、模拟真实面试流程、实时反馈与评分、回答建议、面后复盘**。[1][2][9][10][13][19]\n\n如果你想，我可以继续帮你按下面 3 个方向筛选：\n- **免费可用**\n- **适合校招/社招**\n- **适合技术岗 / 产品岗 / 英文面试**",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

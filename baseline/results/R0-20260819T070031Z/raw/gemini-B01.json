@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "**Skillver** 通常是指一家专注于**数字化学习（Digital Learning / E-learning）**的专业咨询与制作机构（总部位于法国）。\n\n它主要为企业和机构提供以下服务：\n\n1. **定制化在线课程开发**：设计和制作符合企业需求的 E-learning 课件、微学习（Micro-learning）内容和多媒体培训素材。\n2. **数字化培训咨询**：帮助企业规划数字化转型中的员工培训策略。\n3. **学习管理系统（LMS）服务**：协助企业选择、部署和优化在线学习平台。\n\n*注：如果您指的是其他特定领域的“Skillver”（例如某个特定的软件工具、游戏装备或存在拼写偏差，如 Skillverse/Silver），请提供更多上下文。*",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 通常是指一家专注于**数字化学习（Digital Learning / E-learning）**的专业咨询与制作机构（总部位于法国）。\n\n它主要为企业和机构提供以下服务：\n\n1. **定制化在线课程开发**：设计和制作符合企业需求的 E-learning 课件、微学习（Micro-learning）内容和多媒体培训素材。\n2. **数字化培训咨询**：帮助企业规划数字化转型中的员工培训策略。\n3. **学习管理系统（LMS）服务**：协助企业选择、部署和优化在线学习平台。\n\n*注：如果您指的是其他特定领域的“Skillver”（例如某个特定的软件工具、游戏装备或存在拼写偏差，如 Skillverse/Silver），请提供更多上下文。*",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787122893,
+    "id": "yVSFarWxO4asxN8PpqGrgAY",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 163,
+      "prompt_tokens": 33,
+      "total_tokens": 688
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:01:33.510419Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "**Skillver** 通常是指一家专注于**数字化学习（Digital Learning / E-learning）**的专业咨询与制作机构（总部位于法国）。\n\n它主要为企业和机构提供以下服务：\n\n1. **定制化在线课程开发**：设计和制作符合企业需求的 E-learning 课件、微学习（Micro-learning）内容和多媒体培训素材。\n2. **数字化培训咨询**：帮助企业规划数字化转型中的员工培训策略。\n3. **学习管理系统（LMS）服务**：协助企业选择、部署和优化在线学习平台。\n\n*注：如果您指的是其他特定领域的“Skillver”（例如某个特定的软件工具、游戏装备或存在拼写偏差，如 Skillverse/Silver），请提供更多上下文。*",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

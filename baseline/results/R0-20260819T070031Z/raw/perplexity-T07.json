@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T07",
+    "category": "term",
+    "query": "Skillver 的导师赋能是什么？",
+    "passCriteria": [
+      "导师服务标注待开通",
+      "不声称当前可立即预约"
+    ]
+  },
+  "answer": "**Skillver 的“导师赋能”目前是“待开通”功能。** 现有公开说明只提到它的规划方向包括**简历精修、面试实战和入职适应**，但**开放时间、导师名单、服务时段和费用**都还要等后续通知。[1][2][4]\n\n补充说明：\n\n- 目前 Skillver 已开放的能力主要是**选岗匹配、AI 面试、企业投递**，导师赋能不在已开放范围内。[4][5][6]\n- 官方 FAQ 明确写到，**导师赋能尚未开放**，上线前不会对外宣称可预约。[4]\n- 费用方面，当前**已开放功能可免费使用**；导师赋能未来是否收费、如何收费，仍以届时公告为准。[4][5]\n\n如果你想，我也可以继续帮你整理成一版“Skillver 当前能用什么 / 不能用什么”的简明清单。",
+  "sources": [
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/product/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L4H2NQJR0550CBNY.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "title": ""
+    },
+    {
+      "url": "https://titanwings.github.io/colleague-skill-site/gallery/",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill",
+      "title": ""
+    },
+    {
+      "url": "https://skillhub.cloud.tencent.com/skills",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/libukai/awesome-agent-skills/blob/main/docs/Claude-Skills-%E5%AE%8C%E5%85%A8%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97.md",
+      "title": ""
+    },
+    {
+      "url": "https://www.digital-knowledge.co.jp/product/skill-plus/",
+      "title": ""
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7598410716223602697",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/product/",
+      "title": "产品— Skillver AI 求职助手与企业招聘"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver.html",
+      "title": "AI人才助手 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "title": "skillver - App Store - Apple"
+    },
+    {
+      "url": "https://www.linkedin.com/company/skillver",
+      "title": "Skillver | Education"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://www.163.com/dy/article/L4H2NQJR0550CBNY.html",
+      "title": "数智技术赋能新型导学关系"
+    },
+    {
+      "url": "https://tcodeai.com/",
+      "title": "才谱AI"
+    },
+    {
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "title": "alchaincyf/x-mentor-skill: X导师.skill — 女娲的第一个「非 ..."
+    },
+    {
+      "url": "https://titanwings.github.io/colleague-skill-site/gallery/",
+      "title": "Skill Gallery — colleague-skill"
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill",
+      "title": "[论文评述] SkillEvolver: Skill Learning as a Meta-Skill"
+    },
+    {
+      "url": "https://skillhub.cloud.tencent.com/skills",
+      "title": "SkillHub-专为中国用户优化的Skills社区"
+    },
+    {
+      "url": "https://github.com/libukai/awesome-agent-skills/blob/main/docs/Claude-Skills-%E5%AE%8C%E5%85%A8%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97.md",
+      "title": "Claude-Skills-完全构建指南.md"
+    },
+    {
+      "url": "https://www.digital-knowledge.co.jp/product/skill-plus/",
+      "title": "AIネイティブ人材化プラットフォーム ナレッジデリバースキル＋"
+    },
+    {
+      "url": "https://developer.volcengine.com/articles/7598410716223602697",
+      "title": "一文读懂Skills｜从概念到实操的完整指南"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver 的“导师赋能”目前是“待开通”功能。** 现有公开说明只提到它的规划方向包括**简历精修、面试实战和入职适应**，但**开放时间、导师名单、服务时段和费用**都还要等后续通知。[1][2][4]\n\n补充说明：\n\n- 目前 Skillver 已开放的能力主要是**选岗匹配、AI 面试、企业投递**，导师赋能不在已开放范围内。[4][5][6]\n- 官方 FAQ 明确写到，**导师赋能尚未开放**，上线前不会对外宣称可预约。[4]\n- 费用方面，当前**已开放功能可免费使用**；导师赋能未来是否收费、如何收费，仍以届时公告为准。[4][5]\n\n如果你想，我也可以继续帮你整理成一版“Skillver 当前能用什么 / 不能用什么”的简明清单。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/product/",
+      "https://tcodeai.com/products/skillver.html",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/beta.html",
+      "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://apps.apple.com/gb/app/skillver/id6786519057",
+      "https://www.linkedin.com/company/skillver",
+      "https://www.skillver.cn/beta",
+      "https://linktr.ee/Skillver.Academy",
+      "https://www.163.com/dy/article/L4H2NQJR0550CBNY.html",
+      "https://tcodeai.com/",
+      "https://github.com/alchaincyf/x-mentor-skill",
+      "https://titanwings.github.io/colleague-skill-site/gallery/",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill",
+      "https://skillhub.cloud.tencent.com/skills",
+      "https://github.com/libukai/awesome-agent-skills/blob/main/docs/Claude-Skills-%E5%AE%8C%E5%85%A8%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97.md",
+      "https://www.digital-knowledge.co.jp/product/skill-plus/",
+      "https://developer.volcengine.com/articles/7598410716223602697"
+    ],
+    "created": 1787124501,
+    "id": "365e1597-4287-431e-8127-cf21d70fe8b4",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "选岗匹配 → AI 面试 → 投递企业 → 导师赋能（待开通）\n...\n## 第四步：导师赋能\n导师赋能当前待开通。现有规划方向包括简历精修、面试实战和入职适应；正式开放时间、导师名单、服务时段与费用以届时通知为准。\n...\nSkillver 现已 **开放公共用户注册**，**核心功能可免费使用**。产品仍在持续迭代评分校准、多模态临场感和真人辅导产品化等环节。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://www.tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "现已开放公共用户注册；导师赋能待开通。动态规则以 Skillver 主站为准。\n...\n中国优秀人才的 AI 求职助手——选岗匹配 → 面试彩排 → 企业沟通 → 导师赋能。\n...\n导师赋能\n待开通；开放时间、服务范围与费用以 Skillver 主站公告为准。",
+        "source": "web",
+        "title": "产品— Skillver AI 求职助手与企业招聘",
+        "url": "https://tcodeai.com/product/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "4. ④ 导师赋能\n导师赋能待开通。开放时间、服务范围与费用以 Skillver 主站公告为准。\n...\n当前版本费用边界以 Skillver 主站 /faq 为准，导师赋能待开通，无需绑定支付方式。问题请通过设置 → 反馈与帮助反馈。",
+        "source": "web",
+        "title": "AI人才助手 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/products/skillver.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n...\n企业端与导师端：需通过邀请码或申请流程开通。企业请通过入驻申请页提交公司信息，审核通过后获得企业端邀请码；导师端请联系运营获取邀请码。\n...\n费用：人才端当前可免费使用已开放功能（选岗匹配、AI 面试、企业投递等）；导师赋能仍为待开通。后续收费策略以届时公告为准，本页不承诺后续仍零费用。\n...\nSkillver 不是简历海投平台，而是 AI 求职助手。你可按选岗匹配 → AI 面试（含彩排练习）→ 企业投递推进；导师赋能标注为待开通。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "- **导师赋能**：导师赋能待开通，开放时间与服务范围以 Skillver 主站公告为准\n## 费用说明\n当前核心功能可免费使用。费用边界请以\nSkillver /faq 为准，不构成长期价格承诺；导师赋能待开通。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "3. **导师赋能待开通**：真人辅导尚未开放，开放时间与服务范围以届时通知为准。\n...\n当前可以沿人才端主线体验：**选岗匹配 → AI 面试 → 投递企业**，并在「我的报告」查看按岗位聚合的简历核验报告、模拟/正式 AI 面试报告与能力档案。导师赋能仍待开通；Web 与 App 进度互通。\n...\n- **模拟面试** 用于练习表达、熟悉题型，不能作为正式面试或投递凭证。\n- **正式 AI 面试报告** 才是平台投递链路所要求的依据；向具体职位投递前，需要在对应标准岗位下已有正式 AI 面试报告。\n...\nSkillver 提供的是求职准备、能力核验和机会连接工具，不承诺用户一定通过...",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": "2026-08-13",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver：中国优秀人才的 AI 求职助手。用 AI 核验真实实力，精准对接以 AI 独角兽为代表的头部科技企业优质岗位。提供选岗匹配、AI 面试彩排、人企透明沟通及真人导师服务，陪你拿下头部 offer。",
+        "source": "web",
+        "title": "skillver - App Store - Apple",
+        "url": "https://apps.apple.com/gb/app/skillver/id6786519057"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "Skillver is an academy dedicated to empowering children and teenagers aged 6 to 18 with essential soft skills that are often overlooked in traditional education systems, through engaging, interactive, and age-appropriate onsite workshops.",
+        "source": "web",
+        "title": "Skillver | Education",
+        "url": "https://www.linkedin.com/company/skillver"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "Collect leads with contact forms\nTurn visitors into subscribers\nManage and activate your audience",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2026-08-16",
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "沟通效率低下是当前导学矛盾的核心症结。导师层面源于多重工作安排有时难以对学生的疑问进行及时、深度的回复指导。基于数智技术开发的导师数字人在通过导师本人的专业训练后，在日常导学沟通场景中可基于学生疑问高效检索权威专业知识，并模拟导师本人的思维模式展开知识整合并作出充分解答。",
+        "source": "web",
+        "title": "数智技术赋能新型导学关系",
+        "url": "https://www.163.com/dy/article/L4H2NQJR0550CBNY.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "从目标岗位、面试训练到正式能力验证与企业沟通，用一份持续更新的能力档案，让努力被看见。",
+        "source": "web",
+        "title": "才谱AI",
+        "url": "https://tcodeai.com/"
+      },
+      {
+        "date": "2026-04-06",
+        "last_updated": "2026-05-31",
+        "place_metadata": null,
+        "snippet": "**女娲的第一个「非人类」作品。不是蒸馏一个人，是蒸馏一个领域。**\n基于 Nicolas Cole、Dickie Bush、Sahil Bloom、Justin Welsh、Dan Koe、Alex Hormozi\n六位年收入百万美元级X创作者的方法论 + X开源算法精确权重数据，\n提炼 6 个核心心智模型、10 条决策启发式、完整的选题-写作-增长操作手册。\n...\nX导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill",
+        "source": "web",
+        "title": "alchaincyf/x-mentor-skill: X导师.skill — 女娲的第一个「非 ...",
+        "url": "https://github.com/alchaincyf/x-mentor-skill"
+      },
+      {
+        "date": "2026-05-25",
+        "last_updated": "2026-05-26",
+        "place_metadata": null,
+        "snippet": "科研路上的导师视角。帮你打磨开题报告、预判答辩追问、整理研究方向—— 在真正见导师之前，先过一遍这关。\nSimulates your academic advisor.\nSharpens proposals, anticipates defense questions, and helps you clarify research direction — run it before the real meeting.\n...\n导师 skill，让导师再次伟大。把导师的反馈风格、追问方式和研究指导习惯蒸馏成可调用的 AI Skill。\n导师 skill，让导师再次伟大。把导师的反馈风格、追问方式...",
+        "source": "web",
+        "title": "Skill Gallery — colleague-skill",
+        "url": "https://titanwings.github.io/colleague-skill-site/gallery/"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": "2026-05-13",
+        "last_updated": "2026-07-09",
+        "place_metadata": null,
+        "snippet": "本论文提出了SkillEvolver，一种轻量级、即插即用的在线技能学习解决方案。该方案通过一个单一的“元技能”（meta-skill）迭代地创作、部署和优化特定领域的技能。SkillEvolver的学习目标是技能的",
+        "source": "web",
+        "title": "[论文评述] SkillEvolver: Skill Learning as a Meta-Skill",
+        "url": "https://www.themoonlight.io/zh/review/skillevolver-skill-learning-as-a-meta-skill"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-16",
+        "place_metadata": null,
+        "snippet": "天工.skill(Tiangong Skill)智能体设计师。当用户需要设计、创建或优化AI智能体/Agent，或基于真实人物蒸馏思维框架创建人物Skill时使用。支持两种范式：人物蒸馏（由内而外，复刻心智模型）与岗位型专家（由外而内，定义岗位职责）。目标：创建专业领域专家角色，具备清晰人设和扎实交付力。",
+        "source": "web",
+        "title": "SkillHub-专为中国用户优化的Skills社区",
+        "url": "https://skillhub.cloud.tencent.com/skills"
+      },
+      {
+        "date": "2025-12-21",
+        "last_updated": "2026-05-19",
+        "place_metadata": null,
+        "snippet": "Skill 是一组指令——打包成一个简单的文件夹——用于教导 Claude 如何处理特定任务或工作流程。Skills 是根据你的特定需求定制 Claude 最强大的方式之一。你无需在每次对话中重复解释自己的偏好、流程和领域知识，Skills 让你只需教导 Claude 一次，便能每次受益。",
+        "source": "web",
+        "title": "Claude-Skills-完全构建指南.md",
+        "url": "https://github.com/libukai/awesome-agent-skills/blob/main/docs/Claude-Skills-%E5%AE%8C%E5%85%A8%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97.md"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-10-29",
+        "place_metadata": null,
+        "snippet": "KnowledgeDeliverSkill+は、デジタルバッジを活用してユーザのスキルを可視化します。",
+        "source": "web",
+        "title": "AIネイティブ人材化プラットフォーム ナレッジデリバースキル＋",
+        "url": "https://www.digital-knowledge.co.jp/product/skill-plus/"
+      },
+      {
+        "date": "2026-01-23",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "“Skills” 这个概念最早由 Anthropic 公司提出，作为其大模型 Claude 的一种能力扩展机制。简单来说，它允许用户为 Claude 添加自定义的功能和工具。随着这套做法越来越成熟，并被社区广泛接受，Skills 如今已成为大多数 Agent 开发工具和 IDE 都支持的一种标准扩展规范。",
+        "source": "web",
+        "title": "一文读懂Skills｜从概念到实操的完整指南",
+        "url": "https://developer.volcengine.com/articles/7598410716223602697"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 246,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00025,
+        "request_cost": 0.005,
+        "total_cost": 0.00528
+      },
+      "prompt_tokens": 35,
+      "search_context_size": "low",
+      "total_tokens": 281
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:28:21.356735Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T07",
+    "answerEvidence": "**Skillver 的“导师赋能”目前是“待开通”功能。** 现有公开说明只提到它的规划方向包括**简历精修、面试实战和入职适应**，但**开放时间、导师名单、服务时段和费用**都还要等后续通知。[1][2][4]\n\n补充说明：\n\n- 目前 Skillver 已开放的能力主要是**选岗匹配、AI 面试、企业投递**，导师赋能不在已开放范围内。[4][5][6]\n- 官方 FAQ 明确写到，**导师赋能尚未开放**，上线前不会对外宣称可预约。[4]\n- 费用方面，当前**已开放功能可免费使用**；导师赋能未来是否收费、如何收费，仍以届时公告为准。[4][5]\n\n如果你想，我也可以继续帮你整理成一版“Skillver 当前能用什么 / 不能用什么”的简明清单。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T07.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

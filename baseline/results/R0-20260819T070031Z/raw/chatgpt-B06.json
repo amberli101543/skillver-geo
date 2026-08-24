@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "如果你说的 **Skillver** 是以“技能验证/能力展示”为核心的平台，那么它和传统招聘网站的主要区别在于：\n\n1. **核心关注点不同**  \n   - 招聘网站：主要围绕“职位发布、简历投递、HR筛选”。  \n   - Skillver：更强调“个人技能、能力证明、项目/测评结果”。\n\n2. **匹配方式不同**  \n   - 招聘网站：通常根据学历、工作年限、关键词、简历内容匹配。  \n   - Skillver：更可能根据真实技能、测试结果、作品或能力标签来匹配机会。\n\n3. **对求职者的价值不同**  \n   - 招聘网站：适合主动找工作、海投简历。  \n   - Skillver：适合展示自己“会什么、能做什么”，尤其对经验不多但能力强的人更友好。\n\n4. **对企业的价值不同**  \n   - 招聘网站：企业需要从大量简历中筛选。  \n   - Skillver：企业可以更快看到候选人的技能水平，降低筛选成本。\n\n简单说：  \n**招聘网站更像“职位和简历市场”，Skillver 更像“技能证明和人才发现平台”。** 两者不一定互相替代，也可以配合使用。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUgbwMxyxV083mDo48iYWhzhWicI",
+    "object": "chat.completion",
+    "created": 1787123257,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "如果你说的 **Skillver** 是以“技能验证/能力展示”为核心的平台，那么它和传统招聘网站的主要区别在于：\n\n1. **核心关注点不同**  \n   - 招聘网站：主要围绕“职位发布、简历投递、HR筛选”。  \n   - Skillver：更强调“个人技能、能力证明、项目/测评结果”。\n\n2. **匹配方式不同**  \n   - 招聘网站：通常根据学历、工作年限、关键词、简历内容匹配。  \n   - Skillver：更可能根据真实技能、测试结果、作品或能力标签来匹配机会。\n\n3. **对求职者的价值不同**  \n   - 招聘网站：适合主动找工作、海投简历。  \n   - Skillver：适合展示自己“会什么、能做什么”，尤其对经验不多但能力强的人更友好。\n\n4. **对企业的价值不同**  \n   - 招聘网站：企业需要从大量简历中筛选。  \n   - Skillver：企业可以更快看到候选人的技能水平，降低筛选成本。\n\n简单说：  \n**招聘网站更像“职位和简历市场”，Skillver 更像“技能证明和人才发现平台”。** 两者不一定互相替代，也可以配合使用。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 400,
+      "total_tokens": 443,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 102,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:07:44.226138Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "如果你说的 **Skillver** 是以“技能验证/能力展示”为核心的平台，那么它和传统招聘网站的主要区别在于：\n\n1. **核心关注点不同**  \n   - 招聘网站：主要围绕“职位发布、简历投递、HR筛选”。  \n   - Skillver：更强调“个人技能、能力证明、项目/测评结果”。\n\n2. **匹配方式不同**  \n   - 招聘网站：通常根据学历、工作年限、关键词、简历内容匹配。  \n   - Skillver：更可能根据真实技能、测试结果、作品或能力标签来匹配机会。\n\n3. **对求职者的价值不同**  \n   - 招聘网站：适合主动找工作、海投简历。  \n   - Skillver：适合展示自己“会什么、能做什么”，尤其对经验不多但能力强的人更友好。\n\n4. **对企业的价值不同**  \n   - 招聘网站：企业需要从大量简历中筛选。  \n   - Skillver：企业可以更快看到候选人的技能水平，降低筛选成本。\n\n简单说：  \n**招聘网站更像“职位和简历市场”，Skillver 更像“技能证明和人才发现平台”。** 两者不一定互相替代，也可以配合使用。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

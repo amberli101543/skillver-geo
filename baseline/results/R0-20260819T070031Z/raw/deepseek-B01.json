@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "B01",
+    "category": "brand",
+    "query": "Skillver 是什么？",
+    "passCriteria": [
+      "定位为 AI 求职助手或 AI 人才猎头",
+      "不出现开放注册或保证 offer"
+    ]
+  },
+  "answer": "根据我的知识库，**“Skillver”并不是一个广为人知的通用术语、产品或品牌**。它可能指代以下几种情况：\n\n1. **拼写错误或特定项目**：可能是某个公司、软件、游戏角色或社区项目的名称（如“Skillver”作为“Skill”+“ver”的组合）。\n2. **小众工具或平台**：可能是一个新兴的在线学习、技能认证或招聘平台（但截至当前，没有公开的主流记录）。\n3. **虚构或内部名称**：在特定小说、企业或研究中的自定义名词。\n\n如果你是在某个具体场景（如招聘、代码、游戏）中看到这个词，建议提供更多上下文，我可以帮你进一步分析。若它是指一个真实产品，可能信息较新，建议通过搜索引擎直接查询以获得最新结果。",
+  "sources": [],
+  "raw": {
+    "id": "6c82ce45-14f6-428f-9861-72524875aaa1",
+    "object": "chat.completion",
+    "created": 1787122878,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "根据我的知识库，**“Skillver”并不是一个广为人知的通用术语、产品或品牌**。它可能指代以下几种情况：\n\n1. **拼写错误或特定项目**：可能是某个公司、软件、游戏角色或社区项目的名称（如“Skillver”作为“Skill”+“ver”的组合）。\n2. **小众工具或平台**：可能是一个新兴的在线学习、技能认证或招聘平台（但截至当前，没有公开的主流记录）。\n3. **虚构或内部名称**：在特定小说、企业或研究中的自定义名词。\n\n如果你是在某个具体场景（如招聘、代码、游戏）中看到这个词，建议提供更多上下文，我可以帮你进一步分析。若它是指一个真实产品，可能信息较新，建议通过搜索引擎直接查询以获得最新结果。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 167,
+      "total_tokens": 201,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 34
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:01:20.660684Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "B01",
+    "answerEvidence": "根据我的知识库，**“Skillver”并不是一个广为人知的通用术语、产品或品牌**。它可能指代以下几种情况：\n\n1. **拼写错误或特定项目**：可能是某个公司、软件、游戏角色或社区项目的名称（如“Skillver”作为“Skill”+“ver”的组合）。\n2. **小众工具或平台**：可能是一个新兴的在线学习、技能认证或招聘平台（但截至当前，没有公开的主流记录）。\n3. **虚构或内部名称**：在特定小说、企业或研究中的自定义名词。\n\n如果你是在某个具体场景（如招聘、代码、游戏）中看到这个词，建议提供更多上下文，我可以帮你进一步分析。若它是指一个真实产品，可能信息较新，建议通过搜索引擎直接查询以获得最新结果。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-B01.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

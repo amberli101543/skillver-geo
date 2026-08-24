@@ -1,0 +1,394 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "如果你说的是 **Skillver**，注册方法很简单：访问 **www.skillver.cn** 或 **www.skillver.ai**，点击「**免费注册**」，然后用**手机号 + 短信验证码**完成注册即可。[3][4]\n\n补充几点：\n- **人才端/求职者**：已开放**公共注册**，通常**不需要邀请码**。[3][4][9]\n- **企业端 / 导师端**：需要通过**邀请码**或**申请流程**开通，不是直接自助注册。[3][4]\n- **两个域名功能相同**，任选其一即可；**www.tcodeai.com** 主要是品牌内容站，不负责产品账号注册。[4][6][10]\n\n如果你愿意，我也可以继续帮你整理成一份“**手机注册 Skillver 的一步一步操作**”。",
+  "sources": [
+    {
+      "url": "https://skillsusa-register.org/join",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.bnext.com.tw/article/90058/agent-skills-free-course-deeplearning-ai-anthropic-latest-partnership",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": ""
+    },
+    {
+      "url": "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillshare.com/en/",
+      "title": ""
+    },
+    {
+      "url": "https://skillsusa-register.org/join",
+      "title": "Register for SkillsUSA Membership"
+    },
+    {
+      "url": "https://www.tcodeai.com/",
+      "title": "Skillver：AI人才助手"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手封闭内测"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://tcodeai.com/company/",
+      "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "title": "SkillVerse - Google Play 應用程式"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": "SkillVerse - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'"
+    },
+    {
+      "url": "https://www.bnext.com.tw/article/90058/agent-skills-free-course-deeplearning-ai-anthropic-latest-partnership",
+      "title": "Agent skill 是什麼？Agent skill教學，6步驟打造你的第一個Skill"
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理"
+    },
+    {
+      "url": "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn",
+      "title": "编写Google Antigravity Skills - Codelabs"
+    },
+    {
+      "url": "https://www.skillshare.com/en/",
+      "title": "Skillshare: Online Classes for Creatives"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果你说的是 **Skillver**，注册方法很简单：访问 **www.skillver.cn** 或 **www.skillver.ai**，点击「**免费注册**」，然后用**手机号 + 短信验证码**完成注册即可。[3][4]\n\n补充几点：\n- **人才端/求职者**：已开放**公共注册**，通常**不需要邀请码**。[3][4][9]\n- **企业端 / 导师端**：需要通过**邀请码**或**申请流程**开通，不是直接自助注册。[3][4]\n- **两个域名功能相同**，任选其一即可；**www.tcodeai.com** 主要是品牌内容站，不负责产品账号注册。[4][6][10]\n\n如果你愿意，我也可以继续帮你整理成一份“**手机注册 Skillver 的一步一步操作**”。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://skillsusa-register.org/join",
+      "https://www.tcodeai.com/",
+      "https://www.skillver.cn/beta",
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/products/skillver-download.html",
+      "https://tcodeai.com/faq.html",
+      "https://tcodeai.com/beta.html",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://tcodeai.com/company/",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.ctdsb.net/c1666_202608/2823537.html",
+      "https://www.bnext.com.tw/article/90058/agent-skills-free-course-deeplearning-ai-anthropic-latest-partnership",
+      "https://github.com/anbeime/skill",
+      "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn",
+      "https://www.skillshare.com/en/"
+    ],
+    "created": 1787123578,
+    "id": "059001a5-28a9-42b9-8025-f1bac51c6657",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2025-02-18",
+        "place_metadata": null,
+        "snippet": "Select your SkillsUSA State and enter the Registration Code provided by your teacher to sign up for SkillsUSA today!",
+        "source": "web",
+        "title": "Register for SkillsUSA Membership",
+        "url": "https://skillsusa-register.org/join"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "1. 01\n### 确定目标\n从 49 个标准岗位中锁定方向，上传简历看清匹配度与能力缺口。\n2. 02\n### 练习表达\n按目标岗位进行 AI 面试彩排，熟悉真实题型与表达节奏。\n3. 03\n### 正式验证\n完成正式 AI 面试，生成可追溯的七维能力报告与能力档案。\n4. 04\n### 连接机会\n携带正式报告投递，结构化跟进企业邀约、面试与 offer。\n...\n打开 skillver.cn，3 分钟完成注册，今天就能开始第一场 AI 面试彩排。",
+        "source": "web",
+        "title": "Skillver：AI人才助手",
+        "url": "https://www.tcodeai.com/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n## 人才端如何注册？\n1. 访问 www.skillver.cn 或 www.skillver.ai，点击「免费注册」\n2. 使用手机号完成注册，3 分钟即可开始第一场 AI 面试彩排\n...\n企业端与导师端需通过邀请码或入驻申请开通。企业请通过 /enterprise/apply 提交入驻申请；导师端请联系运营获取邀请码。\n...\n企业入驻或导师端开通请发送邮件至 jan...",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "人才端（求职者）已开放注册，无需邀请码：\n1. 访问 www.skillver.cn 或 www.skillver.ai（双域功能相同）；\n2. 点击「免费注册」，使用手机号完成注册即可开始使用。\n企业端与导师端：需通过邀请码或申请流程开通。企业请通过入驻申请页提交公司信息，审核通过后获得企业端邀请码；导师端请联系运营获取邀请码。\n- 企业入驻申请可邮件联系 janet.chen@tcodeai.com；\n- www.tcodeai.com 是品牌内容站，注册与使用产品请访问 skillver 双域。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skil...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "1. 使用 **Chrome** 或系统自带浏览器打开本页（微信内请先「在浏览器中打开」）。\n2. 点击上方\n下载 Android APK ，等待下载完成。\n3. 在通知栏或「文件管理 → 下载」中打开 APK，按提示安装。\n...\n5. 安装完成后打开 Skillver，选择「人才 / 求职者」，用手机号 + 短信验证码完成注册。\n...\n## 三步开始使用\n1. 1. 免费注册 — 访问 skillver.cn 完成注册。详见开始使用说明\n2. 2. 注册账号 — 打开 Web 或 App，选择「人才 / 求职者」，用手机号 + 短信验证码完成注册\n3. 3. 开始求职 — 选岗匹配 → ...",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手封闭内测",
+        "url": "https://tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 现已开放公共用户注册。请访问 www.skillver.cn 或 www.skillver.ai 完成免费注册；导师赋能待开通。\n...\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai ——两个域名功能完全相同，任选其一即可。\n**www.tcodeai.com** 是 Skillver 的品牌内容与研究院 GEO 站点（FAQ、白皮书、岗位标准等）；实际使用产品请前往 skillver 双域。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "## 如何注册？\n访问 www.skillver.cn 或 www.skillver.ai 完成免费注册。\n企业 HR 请访问 企业入驻申请。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。\n...\nSkillver 现已 **开放公共用户注册**，**核心功能可免费使用**。产品仍在持续迭代评分校准、多模态临场感和真人辅导产品化等环节。\n...\n现已开放公共用户注册，核心功能可免费使用。访问 skillver.cn 或 skillver.ai 即可完成注册。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。\n...\n1. **开放公共用户注册**：人才端可直接在 Skillver 双域完成注册，无需额外邀请。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "**使用 Skillver 产品**（注册、登录、AI 面试）请访问 www.skillver.cn 或 www.skillver.ai （双域功能相同）。本站 www.tcodeai.com 承载品牌故事、FAQ 与研究院内容。\n...\nSkillver v1.0.0（2026-07-01）已开放公共用户注册，生产环境稳定运行，移动端可供体验完整漏斗。费用边界以 Skillver 主站 /faq 为准，导师赋能待开通，无佣金。",
+        "source": "web",
+        "title": "让每个人，都能搭上AI 方舟 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/company/"
+      },
+      {
+        "date": "2025-03-03",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "支援電郵地址\nsupport@skillverse.com\n...\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "support@skillverse.com\n...\n+91 91007 23030",
+        "source": "web",
+        "title": "SkillVerse - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "人才完成正式 AI 面试后，系统会生成包含七维战力的 KAE 能力报告；企业 HR 在平台内可查看脱敏后的评分摘要（签约后可解密实名信息）。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-06",
+        "place_metadata": null,
+        "snippet": "2026年8月5日，上海才谱人工智能科技有限公司宣布，旗下AI人才平台Skillver已于7月下旬启动建设青年AI人才网络（简称YATN）。该项目响应国家'产教衔接''投资于人'等政策要求，面向高校学生完全免费，首批已覆盖浙江大学、复旦大学、上海交通大学、同济大学、东南大学等长三角头部高校，目前参与学生超过500人。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从'拼简历'转向'验能力'",
+        "url": "https://www.ctdsb.net/c1666_202608/2823537.html"
+      },
+      {
+        "date": "2026-02-25",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "> 1.\n...\n把 `SKILL.md` 放在這個資料夾「最上層」\n> 3.\n再在裡面建立 `references` 資料夾，放所有參考檔案\n...\n接著照影片的 UI 操作流程走：\n> 1.\n把 `analyzing-marketing-campaign` 這個整個資料夾壓縮成一個 zip 檔\n>    - 確保壓縮後打開時，仍然是上述那種資料夾結構。\n> 2.\n打開 Claude 的 **Settings（設定）**\n> 3.\n進到 **Capabilities（能力／功能）** 頁籤\n> 4.\n滑到下面的 **Skills** 區塊 - 可以看到官方示範的幾個內建 skill\n> 5....",
+        "source": "web",
+        "title": "Agent skill 是什麼？Agent skill教學，6步驟打造你的第一個Skill",
+        "url": "https://www.bnext.com.tw/article/90058/agent-skills-free-course-deeplearning-ai-anthropic-latest-partnership"
+      },
+      {
+        "date": "2026-02-02",
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "克隆仓库\n...\ngit clone https://github.com/anbeime/skill.git",
+        "source": "web",
+        "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理",
+        "url": "https://github.com/anbeime/skill"
+      },
+      {
+        "date": "2026-06-18",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "**第 1 步**：对 https://github.com/rominirani/antigravity-skills 执行 `git clone`\n**第 2 步**：现在，根据您使用的是 Antigravity 还是 Antigravity CLI，您可以进入 `antigravity-skills/skills_tutorial` 文件夹。\n**第 3 步**：您会看到一组技能，这些技能已打包到各自的文件夹中。复制以下 4 个文件夹：\n- `git-commit-formatter`\n- `license-header-adder`\n- `database-schema-validat...",
+        "source": "web",
+        "title": "编写Google Antigravity Skills - Codelabs",
+        "url": "https://codelabs.developers.google.com/getting-started-with-antigravity-skills?hl=zh-cn"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-14",
+        "place_metadata": null,
+        "snippet": "As a Skillshare member, you’ll have unlimited access to all Skillshare classes to watch when and where you want, and additional features such as offline viewing, access to a vibrant community of lifelong learners, and so much more.",
+        "source": "web",
+        "title": "Skillshare: Online Classes for Creatives",
+        "url": "https://www.skillshare.com/en/"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 211,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00021,
+        "request_cost": 0.005,
+        "total_cost": 0.00524
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 243
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:58.050656Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "如果你说的是 **Skillver**，注册方法很简单：访问 **www.skillver.cn** 或 **www.skillver.ai**，点击「**免费注册**」，然后用**手机号 + 短信验证码**完成注册即可。[3][4]\n\n补充几点：\n- **人才端/求职者**：已开放**公共注册**，通常**不需要邀请码**。[3][4][9]\n- **企业端 / 导师端**：需要通过**邀请码**或**申请流程**开通，不是直接自助注册。[3][4]\n- **两个域名功能相同**，任选其一即可；**www.tcodeai.com** 主要是品牌内容站，不负责产品账号注册。[4][6][10]\n\n如果你愿意，我也可以继续帮你整理成一份“**手机注册 Skillver 的一步一步操作**”。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

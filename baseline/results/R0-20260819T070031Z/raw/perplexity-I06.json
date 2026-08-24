@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "有，**Skillver 支持移动端**。官方 FAQ 写明移动端（Flutter App）已支持完整求职主线体验，而且 **Web 与移动端进度同步**[1][2]。\n\n补充一下：\n- **Android**：可通过下载页获取 APK[2][3]\n- **iPhone / iPad**：已上架 **App Store**，可直接下载[2][3]\n- 另外，**手机浏览器**也可以直接访问使用 Web 端[3]\n\n如果你愿意，我也可以顺手帮你整理一下 **Skillver 的 iOS/Android 下载方式**。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillveris.com/tags/repaint-vs-reflow",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://apps.apple.com/ar/app/%E6%99%BA%E8%83%BD%E4%BD%93%E6%8A%80%E8%83%BD%E5%BA%93-skill%E6%B1%87%E6%80%BB/id6778345242",
+      "title": ""
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK",
+      "title": ""
+    },
+    {
+      "url": "https://developer.android.com/studio/gemini/skills?hl=zh-cn",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://www.ithome.com/0/986/606.htm",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": "SkillVerse - Google Play 上的应用"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "title": "SkillVerse - Google Play 應用程式"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": "Skillveri Support - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.skillveris.com/tags/repaint-vs-reflow",
+      "title": "SkillVeris — AI Personalized Learning Platform | Skills Upgrade"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "title": "SKILL-VERSE - Google Play 上的应用"
+    },
+    {
+      "url": "https://linktr.ee/Skillver.Academy",
+      "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://apps.apple.com/ar/app/%E6%99%BA%E8%83%BD%E4%BD%93%E6%8A%80%E8%83%BD%E5%BA%93-skill%E6%B1%87%E6%80%BB/id6778345242",
+      "title": "智能体技能库Skill汇总 - App Store"
+    },
+    {
+      "url": "https://meta.appinn.net/t/topic/84427",
+      "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK",
+      "title": "Skill App - Google Play 應用程式"
+    },
+    {
+      "url": "https://developer.android.com/studio/gemini/skills?hl=zh-cn",
+      "title": "使用技能扩展智能体模式| Android Studio"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh",
+      "title": "Skill App - Google Play 上的应用"
+    },
+    {
+      "url": "https://www.ithome.com/0/986/606.htm",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - IT之家"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "有，**Skillver 支持移动端**。官方 FAQ 写明移动端（Flutter App）已支持完整求职主线体验，而且 **Web 与移动端进度同步**[1][2]。\n\n补充一下：\n- **Android**：可通过下载页获取 APK[2][3]\n- **iPhone / iPad**：已上架 **App Store**，可直接下载[2][3]\n- 另外，**手机浏览器**也可以直接访问使用 Web 端[3]\n\n如果你愿意，我也可以顺手帮你整理一下 **Skillver 的 iOS/Android 下载方式**。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/faq.html",
+      "https://www.tcodeai.com/products/skillver-download.html",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "https://www.skillveris.com/tags/repaint-vs-reflow",
+      "https://tcodeai.com/beta.html",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh",
+      "https://linktr.ee/Skillver.Academy",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://apps.apple.com/ar/app/%E6%99%BA%E8%83%BD%E4%BD%93%E6%8A%80%E8%83%BD%E5%BA%93-skill%E6%B1%87%E6%80%BB/id6778345242",
+      "https://meta.appinn.net/t/topic/84427",
+      "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK",
+      "https://developer.android.com/studio/gemini/skills?hl=zh-cn",
+      "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh",
+      "https://www.ithome.com/0/986/606.htm"
+    ],
+    "created": 1787123771,
+    "id": "5cff3343-91f3-4c72-b524-9f3c6a4a7c36",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "产品使用入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）；www.tcodeai.com 是品牌内容站，用于品牌介绍与内容沉淀。\n...\n## 移动端能用吗？\n可以。Skillver 移动端（Flutter App）已支持完整求职主线体验。注册后可在 Web 端与移动端同步使用求职进度。",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "互通。用同一手机号登录即可在 Web 与 App 看到相同岗位进度与报告。换手机后数据仍在。Android 版可在 下载页 获取；iPhone / iPad 可在 App Store 下载。更新 Android APK 时需先卸载旧版再安装新版。\n...\n- **移动端能用吗？**\n可以。Skillver Flutter App 与 Web 功能对齐，支持完整四步漏斗。Android 版可在下载页获取；iPhone / iPad 可在 App Store 下载。安装说明见 下载页。",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "当前版本，Web 与 App 功能对齐、进度互通。Android 安装包可在本页下载；**iPhone / iPad 已上架 App Store**，可直接搜索或点击下方按钮安装。\n...\narm64 APK（v1.2.0+9）。下载后需允许「未知来源」安装；更新请先卸载旧版。详见下方Android 安装说明。\n...\n已上架 App Store。打开 App Store 搜索「Skillver」即可下载；也可点击下方按钮直达。详见下方iOS 安装说明。\n...\n### 浏览器访问\n电脑或手机浏览器打开即可，无需安装。推荐优先使用 Web 端，与 App 同一账号进度互通。\n## 移动端安装说...",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手",
+        "url": "https://www.tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "SkillVerse - Google Play 上的应用\n# SkillVerse\n...\nsupport@skillverse.com",
+        "source": "web",
+        "title": "SkillVerse - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "SkillVerse - Google Play 應用程式\n...\nsupport@skillverse.com",
+        "source": "web",
+        "title": "SkillVerse - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh_HK"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillveri Support - Google Play 上的应用\n...\nSkillveri 支持应用程序是满足您所有 Skillveri 需求的一站式商店。使用此应用程序，您可以轻松访问产品说明、有关 Skillveri 的新闻以及对用户的支持和见解。\n...\n支持团队邮箱\nsupport@skillveri.com\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave\nNo #10 (O/29) Periyar Sal...",
+        "source": "web",
+        "title": "Skillveri Support - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-10",
+        "place_metadata": null,
+        "snippet": "Is SkillVeris available in India?\nYes, SkillVeris is fully available in India and is built with Indian learners strongly in mind.\n...\nCan I use SkillVeri\ns on my mobile phone?\nYes, SkillVeris works in any modern mobile browser, so you can read lessons, switch analogy domains, ask the AI Mentor quest...",
+        "source": "web",
+        "title": "SkillVeris — AI Personalized Learning Platform | Skills Upgrade",
+        "url": "https://www.skillveris.com/tags/repaint-vs-reflow"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "Skillver 是中国优秀人才的 AI 求职助手，已完成 ICP 备案（沪ICP备2026018662号-2），现已开放公共用户注册。Web 与 App 功能对齐、进度互通。\n...\n访问 www.skillver.cn 或 www.skillver.ai 完成免费注册。",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。\n...\n企业端与导师端需通过邀请码或入驻申请开通。企业请通过 /enterprise/apply 提交入驻申请；导师端请联系运营获取邀请码。",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "是。Skillver 现已 **开放公共用户注册**，**核心功能可免费使用**；费用边界以产品主站说明为准，不构成长期价格承诺。\n...\n当前可以沿人才端主线体验：**选岗匹配 → AI 面试 → 投递企业**，并在「我的报告」查看按岗位聚合的简历核验报告、模拟/正式 AI 面试报告与能力档案。导师赋能仍待开通；Web 与 App 进度互通。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": "2026-02-03",
+        "last_updated": "2026-02-06",
+        "place_metadata": null,
+        "snippet": "支持团队邮箱\nsupport@classplus.co\n...\nBUNCH MICROTECHNOLOGIES PRIVATE LIMITED\npsupdates@classplus.co\nFirst Floor, D-8, Sector-3, Noida\nGautam Budh Nagar, Uttar Pradesh 201301\nIndia\n+91 72900 85267",
+        "source": "web",
+        "title": "SKILL-VERSE - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=co.robin.lznth&hl=zh"
+      },
+      {
+        "date": "2025-08-13",
+        "last_updated": "2026-06-30",
+        "place_metadata": null,
+        "snippet": "Join Skillver.Academy on Linktree\n...\nGrow and engage your audience everywhere",
+        "source": "web",
+        "title": "Skillver Official: TikTok, Instagram, Facebook | Linktree",
+        "url": "https://linktr.ee/Skillver.Academy"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": "2026-06-16",
+        "last_updated": "2026-06-22",
+        "place_metadata": null,
+        "snippet": "智能体技能库 是一款多平台原生应用，帮你发现并管理开源的 Agent Skills（智能体技能）。\n按职业分类浏览 • 前端、后端、移动端、数据、设计、产品、市场、写作、安全、法务、财务、办公等职业入口，快速找到与你工作相关的技能。\n...\n- **Compatibilidad**\n## Requiere iOS 18.0 o posterior.\n- **iPhone** Requiere iOS 18.0 o posterior.\n- - **iPad** Requiere iPadOS 18.0 o posterior.\n- - **Mac** Requiere macOS 15.0 o...",
+        "source": "web",
+        "title": "智能体技能库Skill汇总 - App Store",
+        "url": "https://apps.apple.com/ar/app/%E6%99%BA%E8%83%BD%E4%BD%93%E6%8A%80%E8%83%BD%E5%BA%93-skill%E6%B1%87%E6%80%BB/id6778345242"
+      },
+      {
+        "date": "2026-04-23",
+        "last_updated": "2026-05-07",
+        "place_metadata": null,
+        "snippet": "## 应用平台\n- Windows\n- MacOS\n- Linux",
+        "source": "web",
+        "title": "【开发者自荐】Skiller：一款多平台的AI Skills管理工具",
+        "url": "https://meta.appinn.net/t/topic/84427"
+      },
+      {
+        "date": "2026-01-13",
+        "last_updated": "2026-01-17",
+        "place_metadata": null,
+        "snippet": "7. AI驅動的職業援助人才應用程式基於用戶的人才和認證，該應用程式使用人工智慧驅動的技術來提供工作推薦、履歷幫助和職業指導。8.\n跨裝置的可訪問性在技​​術應用程式的幫助下，學生可以從任何位置存取他們的課程隨時在各種裝置上，包括桌上型電腦、平板電腦和智慧型手機。\n...\n電話號碼\n+918851920153\n支援電郵地址\nsupport@edtechinnovate.com\n...\ntechnology@edtechinnovate.com\nB-127, First Floor, F-03, Sector-2\nNoida, Uttar Pradesh 201301\nIndia\n+91 885...",
+        "source": "web",
+        "title": "Skill App - Google Play 應用程式",
+        "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh_HK"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-05-20",
+        "place_metadata": null,
+        "snippet": "如需将 Android 技能导入 Android Studio，请从\nGitHub 代码库下载该技能，并将其保存在项目根目录或主 目录中名为 `.agents/skills` 或 `.android-studio/skills` 的目录下。",
+        "source": "web",
+        "title": "使用技能扩展智能体模式| Android Studio",
+        "url": "https://developer.android.com/studio/gemini/skills?hl=zh-cn"
+      },
+      {
+        "date": "2026-01-11",
+        "last_updated": "2026-01-13",
+        "place_metadata": null,
+        "snippet": "8. 跨设备的可访问性\n在技能应用程序的帮助下，学生可以从任何位置访问他们的课程\n随时在各种设备上，包括台式电脑、平板电脑和\n智能手机。\n...\n电话号码\n+918851920153\nemail\n支持团队邮箱\nsupport@edtechinnovate.com\nshield\n...\ntechnology@edtechinnovate.com\nB-127, First Floor, F-03, Sector-2 Noida, Uttar Pradesh 201301 India\n+91 88519 20153\nflag",
+        "source": "web",
+        "title": "Skill App - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillappedtech&hl=zh"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "AI 垂直招聘平台 Skillver 近期发布《2026 AI 行业人才白皮书》，将这一变化概括为：AI 人才市场不只是缺人，更缺少能够准确识别能力的评价方式。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - IT之家",
+        "url": "https://www.ithome.com/0/986/606.htm"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 143,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00014,
+        "request_cost": 0.005,
+        "total_cost": 0.00518
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 175
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:16:11.587812Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "有，**Skillver 支持移动端**。官方 FAQ 写明移动端（Flutter App）已支持完整求职主线体验，而且 **Web 与移动端进度同步**[1][2]。\n\n补充一下：\n- **Android**：可通过下载页获取 APK[2][3]\n- **iPhone / iPad**：已上架 **App Store**，可直接下载[2][3]\n- 另外，**手机浏览器**也可以直接访问使用 Web 端[3]\n\n如果你愿意，我也可以顺手帮你整理一下 **Skillver 的 iOS/Android 下载方式**。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

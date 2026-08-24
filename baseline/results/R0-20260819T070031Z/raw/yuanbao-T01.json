@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "KAE 技能体系通常指 **Key Account Executive（关键客户执行/大客户销售）** 所需的核心能力框架，聚焦企业大客户开发与维护，常见于 B2B 销售领域。其核心模块一般包括：\n\n1. **客户洞察与战略思维**：分析客户业务、行业趋势，制定长期合作策略；\n2. **关系构建与信任经营**：深度链接客户决策链，建立高层互信；\n3. **解决方案销售能力**：将产品/服务转化为客户业务价值，而非单纯推销；\n4. **谈判与商务闭环**：复杂报价、合同谈判及风险管控；\n5. **跨部门协同**：联动产品、交付、服务团队，保障客户承诺落地。\n\n不同企业可能微调定义，但核心围绕 **“价值型大客户经营”** 展开，区别于普通销售，更强调战略思维与长期价值创造。",
+  "sources": [],
+  "raw": {
+    "id": "dd664e5c-6bfc-46e2-8265-14ca7d108c7c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123962,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "KAE 技能体系通常指 **Key Account Executive（关键客户执行/大客户销售）** 所需的核心能力框架，聚焦企业大客户开发与维护，常见于 B2B 销售领域。其核心模块一般包括：\n\n1. **客户洞察与战略思维**：分析客户业务、行业趋势，制定长期合作策略；\n2. **关系构建与信任经营**：深度链接客户决策链，建立高层互信；\n3. **解决方案销售能力**：将产品/服务转化为客户业务价值，而非单纯推销；\n4. **谈判与商务闭环**：复杂报价、合同谈判及风险管控；\n5. **跨部门协同**：联动产品、交付、服务团队，保障客户承诺落地。\n\n不同企业可能微调定义，但核心围绕 **“价值型大客户经营”** 展开，区别于普通销售，更强调战略思维与长期价值创造。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 181,
+      "total_tokens": 228,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:19:26.885353Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "KAE 技能体系通常指 **Key Account Executive（关键客户执行/大客户销售）** 所需的核心能力框架，聚焦企业大客户开发与维护，常见于 B2B 销售领域。其核心模块一般包括：\n\n1. **客户洞察与战略思维**：分析客户业务、行业趋势，制定长期合作策略；\n2. **关系构建与信任经营**：深度链接客户决策链，建立高层互信；\n3. **解决方案销售能力**：将产品/服务转化为客户业务价值，而非单纯推销；\n4. **谈判与商务闭环**：复杂报价、合同谈判及风险管控；\n5. **跨部门协同**：联动产品、交付、服务团队，保障客户承诺落地。\n\n不同企业可能微调定义，但核心围绕 **“价值型大客户经营”** 展开，区别于普通销售，更强调战略思维与长期价值创造。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-T01.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

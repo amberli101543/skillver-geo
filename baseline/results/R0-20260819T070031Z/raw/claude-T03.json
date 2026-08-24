@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "# Skillver 面试彩排\n\n**Skillver 面试彩排**是 Skillver 平台提供的一项 AI 模拟面试功能，旨在帮助求职者在真实面试前进行练习和准备。\n\n## 主要功能\n\n- **模拟真实面试场景**：模拟与面试官对话的过程，让用户提前熟悉面试流程\n- **AI 智能提问**：根据岗位、行业等信息，生成针对性的面试问题\n- **实时反馈**：对用户的回答进行分析，提供改进建议\n- **评估表现**：从表达能力、内容质量、逻辑结构等维度对回答进行评分\n\n## 适用人群\n\n- 即将参加面试的求职者\n- 希望提升面试技巧的职场人士\n- 对某类岗位面试经验不足的候选人\n\n## 核心价值\n\n通过反复练习，帮助用户：\n- 减少面试紧张感\n- 优化回答思路和表达方式\n- 提高面试成功率\n\n---\n\n如果您需要了解更具体的功能细节或使用方式，建议直接访问 **Skillver 官网**或平台内查看最新信息。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBhuYbaok8fiJbkKBoc4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Skillver 面试彩排\n\n**Skillver 面试彩排**是 Skillver 平台提供的一项 AI 模拟面试功能，旨在帮助求职者在真实面试前进行练习和准备。\n\n## 主要功能\n\n- **模拟真实面试场景**：模拟与面试官对话的过程，让用户提前熟悉面试流程\n- **AI 智能提问**：根据岗位、行业等信息，生成针对性的面试问题\n- **实时反馈**：对用户的回答进行分析，提供改进建议\n- **评估表现**：从表达能力、内容质量、逻辑结构等维度对回答进行评分\n\n## 适用人群\n\n- 即将参加面试的求职者\n- 希望提升面试技巧的职场人士\n- 对某类岗位面试经验不足的候选人\n\n## 核心价值\n\n通过反复练习，帮助用户：\n- 减少面试紧张感\n- 优化回答思路和表达方式\n- 提高面试成功率\n\n---\n\n如果您需要了解更具体的功能细节或使用方式，建议直接访问 **Skillver 官网**或平台内查看最新信息。"
+        }
+      }
+    ],
+    "created": 1787124207,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 377,
+      "prompt_tokens": 50,
+      "total_tokens": 427
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:23:27.406770Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "# Skillver 面试彩排\n\n**Skillver 面试彩排**是 Skillver 平台提供的一项 AI 模拟面试功能，旨在帮助求职者在真实面试前进行练习和准备。\n\n## 主要功能\n\n- **模拟真实面试场景**：模拟与面试官对话的过程，让用户提前熟悉面试流程\n- **AI 智能提问**：根据岗位、行业等信息，生成针对性的面试问题\n- **实时反馈**：对用户的回答进行分析，提供改进建议\n- **评估表现**：从表达能力、内容质量、逻辑结构等维度对回答进行评分\n\n## 适用人群\n\n- 即将参加面试的求职者\n- 希望提升面试技巧的职场人士\n- 对某类岗位面试经验不足的候选人\n\n## 核心价值\n\n通过反复练习，帮助用户：\n- 减少面试紧张感\n- 优化回答思路和表达方式\n- 提高面试成功率\n\n---\n\n如果您需要了解更具体的功能细节或使用方式，建议直接访问 **Skillver 官网**或平台内查看最新信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

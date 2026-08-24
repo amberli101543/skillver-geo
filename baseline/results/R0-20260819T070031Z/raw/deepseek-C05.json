@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "C05",
+    "category": "category",
+    "query": "AI 求职工具一般分哪几类？",
+    "passCriteria": [
+      "区分信息、练习与能力报告等用途",
+      "不捏造市场份额"
+    ]
+  },
+  "answer": "AI 求职工具主要分为以下几类：\n\n1. **简历优化与生成工具**  \n   - 自动生成、润色简历，根据职位描述（JD）匹配关键词，调整排版。  \n   - 例子：ResumeWorded、Zety、Jobscan（关键字分析）。\n\n2. **职位匹配与搜索工具**  \n   - 基于求职者技能、经验、偏好，智能推荐合适岗位，聚合多平台招聘信息。  \n   - 例子：LinkedIn Job Match、Indeed（AI推荐）、Simplify（插件匹配）。\n\n3. **模拟面试与反馈工具**  \n   - 提供AI虚拟面试官，进行语音/文字模拟，分析回答逻辑、语速、关键词覆盖，并给出改进建议。  \n   - 例子：Interview Warmup（Google）、Yoodli、Preplaced。\n\n4. **求职进度管理工具**  \n   - 自动追踪投递记录、跟进邮件，提醒面试时间，统计申请漏斗。  \n   - 例子：Huntr、Teal（含求职CRM功能）。\n\n5. **AI简历筛选与辅助投递工具**  \n   - 针对企业端（ATS系统）优化简历通过率，或自动填写申请表、批量投递。  \n   - 例子：Simplify（自动填写）、Jobscan（ATS适配）。\n\n6. **薪资谈判与行业洞察工具**  \n   - 基于市场数据提供薪资范围、谈判话术建议，分析行业趋势。  \n   - 例子：Payscale、Levels.fyi（AI数据分析）。\n\n7. **综合型求职助手（多功能平台）**  \n   - 整合简历、匹配、面试、跟踪等多种功能，形成一站式服务。  \n   - 例子：Teal、Career.io、Sonara（自动投递+管理）。\n\n---\n\n**补充说明**：  \n- 按使用端划分，还可分成 **求职者端**（上述类目）和 **招聘者端**（AI简历筛选、人岗匹配，如HireVue）。  \n- 多数工具会结合 **自然语言处理（NLP）** 和 **机器学习** 实现功能，但免费与付费功能差异较大。建议根据个人需求组合使用，例如：简历优化+职位匹配+模拟面试三件套。",
+  "sources": [],
+  "raw": {
+    "id": "b7d0ae8c-6fe3-42fa-96e7-0762809a6a79",
+    "object": "chat.completion",
+    "created": 1787125051,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI 求职工具主要分为以下几类：\n\n1. **简历优化与生成工具**  \n   - 自动生成、润色简历，根据职位描述（JD）匹配关键词，调整排版。  \n   - 例子：ResumeWorded、Zety、Jobscan（关键字分析）。\n\n2. **职位匹配与搜索工具**  \n   - 基于求职者技能、经验、偏好，智能推荐合适岗位，聚合多平台招聘信息。  \n   - 例子：LinkedIn Job Match、Indeed（AI推荐）、Simplify（插件匹配）。\n\n3. **模拟面试与反馈工具**  \n   - 提供AI虚拟面试官，进行语音/文字模拟，分析回答逻辑、语速、关键词覆盖，并给出改进建议。  \n   - 例子：Interview Warmup（Google）、Yoodli、Preplaced。\n\n4. **求职进度管理工具**  \n   - 自动追踪投递记录、跟进邮件，提醒面试时间，统计申请漏斗。  \n   - 例子：Huntr、Teal（含求职CRM功能）。\n\n5. **AI简历筛选与辅助投递工具**  \n   - 针对企业端（ATS系统）优化简历通过率，或自动填写申请表、批量投递。  \n   - 例子：Simplify（自动填写）、Jobscan（ATS适配）。\n\n6. **薪资谈判与行业洞察工具**  \n   - 基于市场数据提供薪资范围、谈判话术建议，分析行业趋势。  \n   - 例子：Payscale、Levels.fyi（AI数据分析）。\n\n7. **综合型求职助手（多功能平台）**  \n   - 整合简历、匹配、面试、跟踪等多种功能，形成一站式服务。  \n   - 例子：Teal、Career.io、Sonara（自动投递+管理）。\n\n---\n\n**补充说明**：  \n- 按使用端划分，还可分成 **求职者端**（上述类目）和 **招聘者端**（AI简历筛选、人岗匹配，如HireVue）。  \n- 多数工具会结合 **自然语言处理（NLP）** 和 **机器学习** 实现功能，但免费与付费功能差异较大。建议根据个人需求组合使用，例如：简历优化+职位匹配+模拟面试三件套。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 39,
+      "completion_tokens": 476,
+      "total_tokens": 515,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 39
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:37:36.978946Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "C05",
+    "answerEvidence": "AI 求职工具主要分为以下几类：\n\n1. **简历优化与生成工具**  \n   - 自动生成、润色简历，根据职位描述（JD）匹配关键词，调整排版。  \n   - 例子：ResumeWorded、Zety、Jobscan（关键字分析）。\n\n2. **职位匹配与搜索工具**  \n   - 基于求职者技能、经验、偏好，智能推荐合适岗位，聚合多平台招聘信息。  \n   - 例子：LinkedIn Job Match、Indeed（AI推荐）、Simplify（插件匹配）。\n\n3. **模拟面试与反馈工具**  \n   - 提供AI虚拟面试官，进行语音/文字模拟，分析回答逻辑、语速、关键词覆盖，并给出改进建议。  \n   - 例子：Interview Warmup（Google）、Yoodli、Preplaced。\n\n4. **求职进度管理工具**  \n   - 自动追踪投递记录、跟进邮件，提醒面试时间，统计申请漏斗。  \n   - 例子：Huntr、Teal（含求职CRM功能）。\n\n5. **AI简历筛选与辅助投递工具**  \n   - 针对企业端（ATS系统）优化简历通过率，或自动填写申请表、批量投递。  \n   - 例子：Simplify（自动填写）、Jobscan（ATS适配）。\n\n6. **薪资谈判与行业洞察工具**  \n   - 基于市场数据提供薪资范围、谈判话术建议，分析行业趋势。  \n   - 例子：Payscale、Levels.fyi（AI数据分析）。\n\n7. **综合型求职助手（多功能平台）**  \n   - 整合简历、匹配、面试、跟踪等多种功能，形成一站式服务。  \n   - 例子：Teal、Career.io、Sonara（自动投递+管理）。\n\n---\n\n**补充说明**：  \n- 按使用端划分，还可分成 **求职者端**（上述类目）和 **招聘者端**（AI简历筛选、人岗匹配，如HireVue）。  \n- 多数工具会结合 **自然语言处理（NLP）** 和 **机器学习** 实现功能，但免费与付费功能差异较大。建议根据个人需求组合使用，例如：简历优化+职位匹配+模拟面试三件套。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-C05.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

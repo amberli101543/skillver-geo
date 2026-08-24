@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B04",
+    "category": "brand",
+    "query": "才谱 AI 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 Skillver 由上海才谱人工智能科技有限公司运营",
+      "不虚构关联主体"
+    ]
+  },
+  "answer": "**Skillver** 是**才谱 AI**（北京才谱科技有限公司）旗下核心的 **AI 招聘/面试产品**。\n\n它们之间的关系可以概括为**母公司/品牌与旗舰产品**的关系：\n\n1. **研发主体（才谱 AI）**：\n   * **才谱 AI**（Type AI / 才谱科技）是一家专注于 HR Tech（人力资源科技）领域的 AI 科技公司。它致力于将大语言模型（LLM）和 AI Agent 技术应用于企业的人才招聘、选拔和管理场景。\n\n2. **核心产品（Skillver）**：\n   * **Skillver** 是才谱 AI 推出的一款**“AI 面试官/AI 招聘助手”**产品。\n   * 它利用大模型技术，能够模拟真人面试官对候选人进行多轮、深入的音视频/文字面试，并自动生成结构化的评估报告，帮助企业HR进行初筛和人才识别，从而提升招聘效率。\n\n**总结：**\n才谱 AI 是技术提供方和母公司，而 Skillver 是其在 AI 招聘与面试领域落地的核心产品。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 是**才谱 AI**（北京才谱科技有限公司）旗下核心的 **AI 招聘/面试产品**。\n\n它们之间的关系可以概括为**母公司/品牌与旗舰产品**的关系：\n\n1. **研发主体（才谱 AI）**：\n   * **才谱 AI**（Type AI / 才谱科技）是一家专注于 HR Tech（人力资源科技）领域的 AI 科技公司。它致力于将大语言模型（LLM）和 AI Agent 技术应用于企业的人才招聘、选拔和管理场景。\n\n2. **核心产品（Skillver）**：\n   * **Skillver** 是才谱 AI 推出的一款**“AI 面试官/AI 招聘助手”**产品。\n   * 它利用大模型技术，能够模拟真人面试官对候选人进行多轮、深入的音视频/文字面试，并自动生成结构化的评估报告，帮助企业HR进行初筛和人才识别，从而提升招聘效率。\n\n**总结：**\n才谱 AI 是技术提供方和母公司，而 Skillver 是其在 AI 招聘与面试领域落地的核心产品。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EtkXCtYXARFNMg/kM+bZ05SSWV2N3Ry1Cj9VmsXhmg27WJ3dbG/n+/5KaJ1WQAcwxrXxhFqruwYj7r9QNQb1BGiB/mmD+W3ItXZI3GUXgceSLrJkfyfF+bTWpeK1bbO9FSlbTGKDAQVidj5sbFO2HuZEjy9llUK1A6+t76wuUYCVxiPbXjbVTFf2tnnJwb1TsSgc8VX4pp9gnvDaz/Abbq5z3fDhaPzO1Cf8cxo85zOWnSmqmpzmcTHLaSbfVZeBkgOkRKlt5RGkjXAkj/grzdUM+88ISAvZzPXu/bynUbo5UTeZHuo8syjZph9aTTnqmY4l3Me4djbdN5k9tm427QxZE7EkzoWKG0vtrRcYWxfJNEAAONApZnA/RQTB/SV7qqxUb9lObs4VXN8GL5jUxFZWrpvlwkWqtenY0Gby7V5SerIFOyNVpl7AvYFZOPdFgJ0h/AnzUmGyHtSKsc7XcDBg/e4jqcGD8mMGR9vwB3hgYgyWYsv3j0aqbvd0Alf4cjy8fz+vV+1iWBEVGjLSm+EGuTeZj1cVrbji6hhpVIPcGh2TZkdTNYdTzvei6INpIAnaym5hXUoP/42xkkcFhZ/FICdIQXx6Q4b1qGdH3NtfRHeagCxy+kxlm9HmQRiUM1b3jPMNWbSwnlVx17rqamQqDdZPk8EuE/ZPFXDEnWocerJZU83Lp8XRP3Nxivw8+6TdF1bSSuK7igwIhNcCyyCjIpjpVhuzYEaGbaGLLR6oDwGMF3tD3Gd+q1UZQ05wX5NG9REWcW94hOs+yxaq2L/N4G6fUaJqgLv4uKX5QHlRZCMZj+pmCPhvVGb5tiDKXAporcI5eHo6HkAyPidSQ4QEeS5VsuhHuFaHQpHAeBafjUAc2XSSZ3x00joroqEYdQVPZ7m4/1MYYyHZFe2ak/+R7LMioBJDLVEGPxIXasxEnY7y6Z3bFUrzlsu7IukDmB8KcgC2+4LFEZ3O3JTx+SUYEvg/BlByIkOwX60GB+FEo/bNWsrRuU3jQyTUUdcwmDLg2kICC8jsKXYo8uuFRcIhs//8sebgWd8uOTXr+lrq3YpvLMh82JlPEn1tQ8w7XVqsL4ImI8iLPuGC9leOgYxjPR+H5AapCkVtDM/rMN/5J5xADAGp4gbroZ++Q4xrYeqb15GklNG6bDe8cdn2ueQN9Moci/2Qn9JIV1ov2kaUvrqCsW/OcyjLb+ZWVcWODtHfIIxS12C0AojZ4DDitPkcixvDJmzj5aFZijTTLqAxa46G3TG6ic2R+/600Pg/DizUb81jxkw4F8eecBySJdiwXKWxx3q8GLDsfxdv4sgwYNbCee6OJw9ZnlxSdDYdyg33VoziVvAa8Nxn5es0oSTb19TTPDJz2KBNVPcidt75EltM6mJ+sqEJ1WFm2QsR8Ty3/lKpkeqnp3v3YtE+I5m5/8WUOCXQRa6cc2oeYyqScS1uNWcxojxZUTGDrqgfAG+27PyZskU6QBsD90FKkyMuhTzx3t7AXmiODzYFT9oBIXvxMGhS43UsZkqNWWCAhQ+l2g6haHvoT7htnkzZ/yJ50CezQk6Wxg8mM01LGEO2AU9eBAAY1ETxaEXCfRL1sLqxv42aGPEKpPS3mW5HmNbgX6Pg/6l9S3oGaWSbYidI88nihLd6SLfz11y53KQmCzyEEEKTdy1fMVtvU/eBfppqiqk8QbMHJXB5QbCsN72lh1XRsP+amGqcb9kbp0i3m3nPUBuryOduv8U761uwVTnR+j651NcBNFIYnY3wzJOd0zY60F1F66odIQGpNqFLvVWNaE+ugjh/WeLsMSYly3Ox3WB8Kzfjqj1X8a3Qe3JEo/N68YO3yK9tGG8hY3n6I/EHGj0pu8hhpmMeacLykpCTqtzXnHwPkuZGqWOPhoNta1fH6sTincT3oxc4aHBeD+0FHqrZYRSFTDfomnzw89ve2MGkGT1ACM6XPUQ4+pCZcyRvdHtHUs9VYaUYGKpNOrcLtRjdk5vMKx8YsYuYKiq6d5kJLM+tD8wH2YZIYOa7GFzxifoFhBlJzpGdzA+bZ14uNwMBGXGNGmFDxkmje/cdmabTh/DLssQ3rTvX5zRIw3rR9Pa8/GwPKxMXJZszBQCsKRHxo9EXM8/I/MFrePSzpe+XGcFrRccTszXV9h8ZkJN5CmrQyCasLomwdEnt7OzYwr8X+MmiEPJJdLnMSxD4WOxlPxtgn2WsNhk6hk+Tlm3/0EoXekpn8GTtTCZPjEAskQp9+X0Xxk53E9Kz87jNJOTgdzI5q5QM769nfNmimTMtZhqX428fZ5ClMJU2FK9bvOqSt02Jt6QXmQQeEGHfhGT/9vdXjSFsq9MRNnay/5Oez6W/Z9hGxjhXYh9tVeO3RCtpnObcBidm4VmIA2VLfi8D8Y+Ou1t83cTKs2pjIIjjEwN7clsmOu25y7s6LZgalf1Dp5qlZE2xf2wVzSNkhv8p1/K3f5n0W+AoAzLrZWHjDL03HedpCw6ayOvccQMjojf4rHWZZwc2kexcFIDY5lMm/j2W0qUfKEfJeZc+E99I9ZaBJ0pfsLvUXo2tGcHapRfPVj+b8Lo1Cr0zegQVTvG+3g3ByEuQWhoZZ2l6GtQOtAciZsdhsdgOqSlFMBlzxgQJYVAa/+ptF6u7oSqAt6CkSXj6/8VZ/mA+QLFWKe5uPA0TMHRWQKKotaoi8lMZAYhLv4GLfVI97PQSYkG9L4xBGxjA3aUUAhVDfKG4rT4ADiyZCsUcR+SA/KVghThkP/bUqQ2VQF2vGZW5QfiS1styvNaU5X1VOQBsidPppfNk26kABx4tclFvlPB8a92tqM4GWrZhyGcCAayFOu9E05hik6J4e0YLpLgxzyNgi1aX6uN95MF7FLV9ZEMQbxN3sQqsQ0v7Ngwvgb9j+IvLn9GSWURmaeON6Cz6epa/NlU5ZpEpzxK2OzQFHgTcmBZxfw0Op8qRCa1p6I5QdrxMnZ0Pu8a4v2N0LnRvEgAj5X2Czz9PfAZnaSR9UqmVVJ3xoi8pnX4u50RD7lxPC3xNRT6oOyFd5XuorzhN7VlLFb6oqDBpMrXvXNINbeTOJ66so2yd7E5tMqkoAd4BO9cC1qYXi+evIOzaTPoFCNduVgofisoba/XMnCVlkAp1NxLS0xp8KGfxY0fR3t0dLJN5Lb3I2pc5jZooyotTuQXv2acdFlMNUs8zarFcGFbxpNpTz+PRV+NCJhG3CrNDvogJAyQpt1vvHhu32qXXoa1jyCHhIxmn9y1x05K1p1pMTHI0MwBrhlBZFcCzn7E0yMbl2GukeMA3b0lht2Vpdwi/NG5Bh1rg+/UeWRP8H7EKzywtbq0YE0r44eVWPdMGnWh3JrsP7wyQ3sSLC9kWq/LdR2g47F5J7p5RkUNljidRnq5auL8qsAf8cSiykj2pqA6DynJhjO+9NGdNNqF9ZxVDbwGF8KkeneDiAZwpWEUkrixOn2C2QuT6WzA/6UCGTPjYD+W++EfSFO/aLgR5I/qIvYgnO9uNLzpTn0yhQSl6fvmMDW0of64KAbWDSJvOpEti0FOPNPgqXupB6QvFndECE2NgZ31Ft0vFVXuvPT2Qtq+f5AM+19MSwjJXIarU4IJanBG1Hz2Ie1bn7Z8zH23AvO7H6e7Bt8qxiSi1CzZNzlw/oqOoiEpryDyI8s/vbHyytEm1vmWp47dYlmzFG2k+uExpv12UUS8RQ6aZdvG1Kjp1wV3PvBrBvgRc2VAHvuRCYSbSE61goW7gkuK2m5r0temIJiAtx57DJfo9egLZzhPtU6SVwM/kegRN4cAPm4lXnf2/ZX89azgFg5FnU9a04NhtbPmhURAg4Um/viw5PW4tlmUXucelmcnkbBadnYsqbZ9BFcILU15kzeKWmcD4T3cK0QpkOdK8fmCwx4rMsXAcvZyv+LUeXy3ksoxez4+xafsy97bRMk3As6qe7kIaMLRZOO0ZC2UTLjYtFDm3VxKsk7d7BTF2T0e4mnW7706rv3gl37IeWQRpymwWw7TOtRF7zuDNvFL+CvFT4jF1YuY77A82Eqyem7Ss"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123092,
+    "id": "j1WFaqrLA5fYkdUP-bmpoAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 245,
+      "prompt_tokens": 38,
+      "total_tokens": 1047
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:04:52.393986Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B04",
+    "answerEvidence": "**Skillver** 是**才谱 AI**（北京才谱科技有限公司）旗下核心的 **AI 招聘/面试产品**。\n\n它们之间的关系可以概括为**母公司/品牌与旗舰产品**的关系：\n\n1. **研发主体（才谱 AI）**：\n   * **才谱 AI**（Type AI / 才谱科技）是一家专注于 HR Tech（人力资源科技）领域的 AI 科技公司。它致力于将大语言模型（LLM）和 AI Agent 技术应用于企业的人才招聘、选拔和管理场景。\n\n2. **核心产品（Skillver）**：\n   * **Skillver** 是才谱 AI 推出的一款**“AI 面试官/AI 招聘助手”**产品。\n   * 它利用大模型技术，能够模拟真人面试官对候选人进行多轮、深入的音视频/文字面试，并自动生成结构化的评估报告，帮助企业HR进行初筛和人才识别，从而提升招聘效率。\n\n**总结：**\n才谱 AI 是技术提供方和母公司，而 Skillver 是其在 AI 招聘与面试领域落地的核心产品。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B04.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

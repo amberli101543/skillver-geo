@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "**Skillver 面试彩排**是 Skillver 平台提供的一项**模拟真实面试场景**的实战练习服务，旨在帮助用户提前适应面试流程、优化表现，从而提升真实面试的通过率。\n\n### 核心功能与特点\n- **全真模拟**：还原真实面试的流程、节奏与提问方式，包括自我介绍、技术/行为问题、反问环节等。\n- **AI 或专家反馈**：部分服务由 AI 即时点评，部分由行业专家进行人工复盘，覆盖**回答逻辑、表达清晰度、技术深度、软技能**等维度。\n- **针对性训练**：支持按岗位（如前端、后端、产品、数据等）、公司风格或面试轮次（一面、二面、HR 面）定制场景。\n- **复盘与改进建议**：提供详细的反馈报告，指出优势与不足，并给出具体的优化建议和话术参考。\n\n### 适用人群\n- 准备换工作、正在求职的求职者\n- 面试经验较少、容易紧张的应届生或转行人群\n- 希望冲击更高阶岗位、需要打磨面试表现的职场人\n\n简单来说，它就像**面试前的“模拟考”**，让你在真正面试前发现问题、调整状态，避免踩坑。",
+  "sources": [],
+  "raw": {
+    "id": "119905b0-9d53-4b15-944b-5818678c253c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787124178,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver 面试彩排**是 Skillver 平台提供的一项**模拟真实面试场景**的实战练习服务，旨在帮助用户提前适应面试流程、优化表现，从而提升真实面试的通过率。\n\n### 核心功能与特点\n- **全真模拟**：还原真实面试的流程、节奏与提问方式，包括自我介绍、技术/行为问题、反问环节等。\n- **AI 或专家反馈**：部分服务由 AI 即时点评，部分由行业专家进行人工复盘，覆盖**回答逻辑、表达清晰度、技术深度、软技能**等维度。\n- **针对性训练**：支持按岗位（如前端、后端、产品、数据等）、公司风格或面试轮次（一面、二面、HR 面）定制场景。\n- **复盘与改进建议**：提供详细的反馈报告，指出优势与不足，并给出具体的优化建议和话术参考。\n\n### 适用人群\n- 准备换工作、正在求职的求职者\n- 面试经验较少、容易紧张的应届生或转行人群\n- 希望冲击更高阶岗位、需要打磨面试表现的职场人\n\n简单来说，它就像**面试前的“模拟考”**，让你在真正面试前发现问题、调整状态，避免踩坑。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 262,
+      "total_tokens": 310,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:23:03.835319Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "**Skillver 面试彩排**是 Skillver 平台提供的一项**模拟真实面试场景**的实战练习服务，旨在帮助用户提前适应面试流程、优化表现，从而提升真实面试的通过率。\n\n### 核心功能与特点\n- **全真模拟**：还原真实面试的流程、节奏与提问方式，包括自我介绍、技术/行为问题、反问环节等。\n- **AI 或专家反馈**：部分服务由 AI 即时点评，部分由行业专家进行人工复盘，覆盖**回答逻辑、表达清晰度、技术深度、软技能**等维度。\n- **针对性训练**：支持按岗位（如前端、后端、产品、数据等）、公司风格或面试轮次（一面、二面、HR 面）定制场景。\n- **复盘与改进建议**：提供详细的反馈报告，指出优势与不足，并给出具体的优化建议和话术参考。\n\n### 适用人群\n- 准备换工作、正在求职的求职者\n- 面试经验较少、容易紧张的应届生或转行人群\n- 希望冲击更高阶岗位、需要打磨面试表现的职场人\n\n简单来说，它就像**面试前的“模拟考”**，让你在真正面试前发现问题、调整状态，避免踩坑。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

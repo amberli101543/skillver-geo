@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B02",
+    "category": "brand",
+    "query": "Skillver 主要服务谁？",
+    "passCriteria": [
+      "说明面向冲刺 AI 相关头部科技企业的技术人才",
+      "不夸大适用人群"
+    ]
+  },
+  "answer": "**Skillver**（主要指知名的法国数字化学习设计与咨询机构 Skillver）的主要服务对象是**需要将培训和教育内容进行数字化转型的组织**，具体包括：\n\n1. **企业（Companies）**：帮助企业设计内部员工的数字化培训课程（e-learning）、定制学习路径，提升员工技能。\n2. **培训机构（Training Organizations）**：协助传统的线下培训机构进行数字化转型，开发混合式学习（Blended Learning）和在线教学方案。\n3. **学校与高等教育机构（Schools & Universities）**：帮助学校将教学内容数字化，优化学生的在线学习体验。\n\n**简而言之，Skillver 主要服务于 B端（企业、培训机构和学校），帮助他们构建和实施数字化教学与培训方案。** \n\n*(注：如果您的提问是指“Skill + Silver”的特定银发经济/老年人技能平台概念，它则是服务于**老年人群体**，帮助其学习数字技能或进行知识分享。)*",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver**（主要指知名的法国数字化学习设计与咨询机构 Skillver）的主要服务对象是**需要将培训和教育内容进行数字化转型的组织**，具体包括：\n\n1. **企业（Companies）**：帮助企业设计内部员工的数字化培训课程（e-learning）、定制学习路径，提升员工技能。\n2. **培训机构（Training Organizations）**：协助传统的线下培训机构进行数字化转型，开发混合式学习（Blended Learning）和在线教学方案。\n3. **学校与高等教育机构（Schools & Universities）**：帮助学校将教学内容数字化，优化学生的在线学习体验。\n\n**简而言之，Skillver 主要服务于 B端（企业、培训机构和学校），帮助他们构建和实施数字化教学与培训方案。** \n\n*(注：如果您的提问是指“Skill + Silver”的特定银发经济/老年人技能平台概念，它则是服务于**老年人群体**，帮助其学习数字技能或进行知识分享。)*",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787122957,
+    "id": "BlWFasibDuKEnsEPm9OlyAk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 217,
+      "prompt_tokens": 34,
+      "total_tokens": 1587
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:02:37.679070Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B02",
+    "answerEvidence": "**Skillver**（主要指知名的法国数字化学习设计与咨询机构 Skillver）的主要服务对象是**需要将培训和教育内容进行数字化转型的组织**，具体包括：\n\n1. **企业（Companies）**：帮助企业设计内部员工的数字化培训课程（e-learning）、定制学习路径，提升员工技能。\n2. **培训机构（Training Organizations）**：协助传统的线下培训机构进行数字化转型，开发混合式学习（Blended Learning）和在线教学方案。\n3. **学校与高等教育机构（Schools & Universities）**：帮助学校将教学内容数字化，优化学生的在线学习体验。\n\n**简而言之，Skillver 主要服务于 B端（企业、培训机构和学校），帮助他们构建和实施数字化教学与培训方案。** \n\n*(注：如果您的提问是指“Skill + Silver”的特定银发经济/老年人技能平台概念，它则是服务于**老年人群体**，帮助其学习数字技能或进行知识分享。)*",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B02.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

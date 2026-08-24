@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T02",
+    "category": "term",
+    "query": "七维战力评估是什么？",
+    "passCriteria": [
+      "说明是 Skillver 的结构化能力画像",
+      "不擅自修改维度名称或顺序"
+    ]
+  },
+  "answer": "“七维战力评估”是一种从七个不同的维度来全面衡量、分析和可视化某一对象（如个人、角色、军队或企业）综合实力的评估方法。根据应用场景的不同，其具体含义也有所不同：\n\n### 1. 军事与国防领域（七维空间战力）\n在现代军事战争中，“七维战力”是指在七个不同空间或领域的主导权和作战能力。这七个维度通常包括：\n*   **陆**（陆地战斗力）\n*   **海**（海洋与海上作战力）\n*   **空**（领空与制空权）\n*   **天**（太空与天基系统，如卫星）\n*   **电**（电磁空间、电子战能力）\n*   **网**（网络空间、信息战与网络安全）\n*   **脑/认知**（认知域，即心理战、舆论战和决策影响）\n\n### 2. 游戏与动漫领域（角色属性雷达图）\n在ACG（动画、漫画、游戏）中，七维战力常用于评估角色的战斗数值，通常以“雷达图”（蛛网图）的形式呈现。虽然不同游戏设定不同，但常见的七个维度包括：\n*   **攻击（力）**、**防御（防）**、**速度（速）**、**生命值/耐力（体）**、**智力/法力（智）**、**技巧/命中（技）**、**运气/爆发（运）**。\n*   这种评估能直观地看出角色是“水桶型”（全能）还是“特化型”（某一方面极强，但有明显短板）。\n\n### 3. 个人能力与职场评估（人才七维模型）\n在企业管理和个人成长中，常用来评估一个人的综合职业素养或领导力。常见的七个维度为：\n*   **学习力**、**执行力**、**沟通力**、**创新力**、**抗压力**、**凝聚力（团队协作）**、**影响力（领导力）**。\n\n**总结：**\n“七维战力评估”的核心价值在于**多维度和可视化**。它不仅能得出总体的强弱结论，还能清晰地暴露评估对象的“长板”与“短板”，从而便于针对性地进行策略调整或优化。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“七维战力评估”是一种从七个不同的维度来全面衡量、分析和可视化某一对象（如个人、角色、军队或企业）综合实力的评估方法。根据应用场景的不同，其具体含义也有所不同：\n\n### 1. 军事与国防领域（七维空间战力）\n在现代军事战争中，“七维战力”是指在七个不同空间或领域的主导权和作战能力。这七个维度通常包括：\n*   **陆**（陆地战斗力）\n*   **海**（海洋与海上作战力）\n*   **空**（领空与制空权）\n*   **天**（太空与天基系统，如卫星）\n*   **电**（电磁空间、电子战能力）\n*   **网**（网络空间、信息战与网络安全）\n*   **脑/认知**（认知域，即心理战、舆论战和决策影响）\n\n### 2. 游戏与动漫领域（角色属性雷达图）\n在ACG（动画、漫画、游戏）中，七维战力常用于评估角色的战斗数值，通常以“雷达图”（蛛网图）的形式呈现。虽然不同游戏设定不同，但常见的七个维度包括：\n*   **攻击（力）**、**防御（防）**、**速度（速）**、**生命值/耐力（体）**、**智力/法力（智）**、**技巧/命中（技）**、**运气/爆发（运）**。\n*   这种评估能直观地看出角色是“水桶型”（全能）还是“特化型”（某一方面极强，但有明显短板）。\n\n### 3. 个人能力与职场评估（人才七维模型）\n在企业管理和个人成长中，常用来评估一个人的综合职业素养或领导力。常见的七个维度为：\n*   **学习力**、**执行力**、**沟通力**、**创新力**、**抗压力**、**凝聚力（团队协作）**、**影响力（领导力）**。\n\n**总结：**\n“七维战力评估”的核心价值在于**多维度和可视化**。它不仅能得出总体的强弱结论，还能清晰地暴露评估对象的“长板”与“短板”，从而便于针对性地进行策略调整或优化。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124101,
+    "id": "fVmFas_WO6vonsEP5fmumQs",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 35,
+      "total_tokens": 1515
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:21:40.805669Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T02",
+    "answerEvidence": "“七维战力评估”是一种从七个不同的维度来全面衡量、分析和可视化某一对象（如个人、角色、军队或企业）综合实力的评估方法。根据应用场景的不同，其具体含义也有所不同：\n\n### 1. 军事与国防领域（七维空间战力）\n在现代军事战争中，“七维战力”是指在七个不同空间或领域的主导权和作战能力。这七个维度通常包括：\n*   **陆**（陆地战斗力）\n*   **海**（海洋与海上作战力）\n*   **空**（领空与制空权）\n*   **天**（太空与天基系统，如卫星）\n*   **电**（电磁空间、电子战能力）\n*   **网**（网络空间、信息战与网络安全）\n*   **脑/认知**（认知域，即心理战、舆论战和决策影响）\n\n### 2. 游戏与动漫领域（角色属性雷达图）\n在ACG（动画、漫画、游戏）中，七维战力常用于评估角色的战斗数值，通常以“雷达图”（蛛网图）的形式呈现。虽然不同游戏设定不同，但常见的七个维度包括：\n*   **攻击（力）**、**防御（防）**、**速度（速）**、**生命值/耐力（体）**、**智力/法力（智）**、**技巧/命中（技）**、**运气/爆发（运）**。\n*   这种评估能直观地看出角色是“水桶型”（全能）还是“特化型”（某一方面极强，但有明显短板）。\n\n### 3. 个人能力与职场评估（人才七维模型）\n在企业管理和个人成长中，常用来评估一个人的综合职业素养或领导力。常见的七个维度为：\n*   **学习力**、**执行力**、**沟通力**、**创新力**、**抗压力**、**凝聚力（团队协作）**、**影响力（领导力）**。\n\n**总结：**\n“七维战力评估”的核心价值在于**多维度和可视化**。它不仅能得出总体的强弱结论，还能清晰地暴露评估对象的“长板”与“短板”，从而便于针对性地进行策略调整或优化。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

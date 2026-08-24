@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T01",
+    "category": "term",
+    "query": "KAE 技能体系是什么？",
+    "passCriteria": [
+      "引用 Skillver 官方定义或页面",
+      "不擅自修改七维核心定义"
+    ]
+  },
+  "answer": "你问的 **KAE 技能体系**，在当前搜索结果里最明确对应的是 Skillver 的 **KAE（Knowledge & Ability Engine）**：它是一个能力评测引擎，用来把简历信息和面试表现转化为**结构化、可追溯的能力画像**，供 AI 面试和企业候选人评估使用。[1]\n\n它的核心不是“单一技能清单”，而是围绕一套 **七维战力评估** 来描述人才能力，包括：**T 技术熟练度、L 逻辑严密性、O 交付可靠性、S 学习力、R 韧性、C 统筹力、D 推动力**。[1]\n\n另外，相关报道还提到，Skillver 以 KAE 技能体系为基础，结合 **七维战力评估框架** 和 **314 项技能分类体系**，通过结构化 AI 面试核验候选人与岗位的匹配程度。[2][3]\n\n如果你指的是别的“KAE”，搜索结果里也有一个完全不同的含义：华为鲲鹏的 **KAE（Kunpeng Accelerator Engine）**，这是硬件加速引擎，主要用于加解密和压缩，不是人才评估体系。[4]\n\n如果你愿意，我可以继续帮你把 **KAE 技能体系** 画成一张“维度—含义—面试判断点”的对照表。",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.jiemian.com/article/14885278.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.hikunpeng.com/developer/techArticles/20230906-4",
+      "title": ""
+    },
+    {
+      "url": "https://yadavrohit.substack.com/p/indias-deep-tech-ecosystem-has-entered",
+      "title": ""
+    },
+    {
+      "url": "https://www.gamekee.com/czn/677824.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/humanresources/comments/1o6k9ru/kae_educations_advanced_certification_in_hr/",
+      "title": ""
+    },
+    {
+      "url": "https://kiewitcareers.kiewit.com/job/Lenexa-BIMREVIT-Designer-Industrial-Buildings-1-KS/1398509500/",
+      "title": ""
+    },
+    {
+      "url": "https://www.kentadulteducation.co.uk/",
+      "title": ""
+    },
+    {
+      "url": "https://www.leagueoflegends.com/zh-tw/champions/kayle/",
+      "title": ""
+    },
+    {
+      "url": "https://www.pasefikaproud.co.nz/assets/Initial-Content/Resources/Fofola-e-fala-kae-talanoa-e-kainga-A-Tongan-Conceptual-Framework-for-the-prevention-of-and-intervention-in-family-violence-in-New-Zealand-Famili-lelei/PASEFI1.PDF",
+      "title": ""
+    },
+    {
+      "url": "https://buff.163.com/news/61098",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/769777783_121935256",
+      "title": ""
+    },
+    {
+      "url": "https://web2021.vbird.tw/4090c003/h5-4.html",
+      "title": ""
+    },
+    {
+      "url": "https://a.4399.cn/gl/44800966_238306.html",
+      "title": ""
+    },
+    {
+      "url": "https://x.com/KaeCapital/status/2084570552447201623",
+      "title": ""
+    },
+    {
+      "url": "https://www.163.com/dy/article/L41PD0PH0550CBNY.html",
+      "title": ""
+    },
+    {
+      "url": "https://peopleforce.io/hr-glossary/knowledge-skills-and-abilities",
+      "title": ""
+    },
+    {
+      "url": "https://www.caieglobal.com/certification.html",
+      "title": ""
+    },
+    {
+      "url": "https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimwyqv4415591.shtml",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”"
+    },
+    {
+      "url": "https://www.jiemian.com/article/14885278.html",
+      "title": "AI 行业重构人才评价履历让位实战成果"
+    },
+    {
+      "url": "https://www.hikunpeng.com/developer/techArticles/20230906-4",
+      "title": "鲲鹏加速引擎KAE简介-官方技术文章"
+    },
+    {
+      "url": "https://yadavrohit.substack.com/p/indias-deep-tech-ecosystem-has-entered",
+      "title": "India's Deep Tech Ecosystem Has Entered Its Third Era. The ..."
+    },
+    {
+      "url": "https://www.gamekee.com/czn/677824.html",
+      "title": "卡厄思与战斗机制讲解"
+    },
+    {
+      "url": "https://www.reddit.com/r/humanresources/comments/1o6k9ru/kae_educations_advanced_certification_in_hr/",
+      "title": "KAE教育的高级人力资源分析认证课程或AIHR的 ..."
+    },
+    {
+      "url": "https://kiewitcareers.kiewit.com/job/Lenexa-BIMREVIT-Designer-Industrial-Buildings-1-KS/1398509500/",
+      "title": "BIM/REVIT Designer- Industrial Buildings 1 - Kiewit Careers"
+    },
+    {
+      "url": "https://www.kentadulteducation.co.uk/",
+      "title": "Kent Adult Education: Adult Education courses in Kent"
+    },
+    {
+      "url": "https://www.leagueoflegends.com/zh-tw/champions/kayle/",
+      "title": "凱爾"
+    },
+    {
+      "url": "https://www.pasefikaproud.co.nz/assets/Initial-Content/Resources/Fofola-e-fala-kae-talanoa-e-kainga-A-Tongan-Conceptual-Framework-for-the-prevention-of-and-intervention-in-family-violence-in-New-Zealand-Famili-lelei/PASEFI1.PDF",
+      "title": "Fofola e fala kae"
+    },
+    {
+      "url": "https://buff.163.com/news/61098",
+      "title": "新英雄凯技能介绍，9个技能按的过来？"
+    },
+    {
+      "url": "https://www.sohu.com/a/769777783_121935256",
+      "title": "王者荣耀凯怎么玩儿？游戏中的操作技巧和战术策略_技能_敌人_输出"
+    },
+    {
+      "url": "https://web2021.vbird.tw/4090c003/h5-4.html",
+      "title": "期中報告"
+    },
+    {
+      "url": "https://a.4399.cn/gl/44800966_238306.html",
+      "title": "英雄“凯”攻略 - 安卓游戏"
+    },
+    {
+      "url": "https://x.com/KaeCapital/status/2084570552447201623",
+      "title": "Kae Capital (@KaeCapital) on X"
+    },
+    {
+      "url": "https://www.163.com/dy/article/L41PD0PH0550CBNY.html",
+      "title": "把技能型大学建成中国职业教育的名片_手机网易网"
+    },
+    {
+      "url": "https://peopleforce.io/hr-glossary/knowledge-skills-and-abilities",
+      "title": "What is KSA (Knowledge, Skills and Abilities)?"
+    },
+    {
+      "url": "https://www.caieglobal.com/certification.html",
+      "title": "报名流程、考试时间与费用（Level I/Level II） - CAIE（赛一）官网"
+    },
+    {
+      "url": "https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimwyqv4415591.shtml",
+      "title": "证券业扎堆布局AI Skills服务自家客户，哪些券商已经重大破局？"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "你问的 **KAE 技能体系**，在当前搜索结果里最明确对应的是 Skillver 的 **KAE（Knowledge & Ability Engine）**：它是一个能力评测引擎，用来把简历信息和面试表现转化为**结构化、可追溯的能力画像**，供 AI 面试和企业候选人评估使用。[1]\n\n它的核心不是“单一技能清单”，而是围绕一套 **七维战力评估** 来描述人才能力，包括：**T 技术熟练度、L 逻辑严密性、O 交付可靠性、S 学习力、R 韧性、C 统筹力、D 推动力**。[1]\n\n另外，相关报道还提到，Skillver 以 KAE 技能体系为基础，结合 **七维战力评估框架** 和 **314 项技能分类体系**，通过结构化 AI 面试核验候选人与岗位的匹配程度。[2][3]\n\n如果你指的是别的“KAE”，搜索结果里也有一个完全不同的含义：华为鲲鹏的 **KAE（Kunpeng Accelerator Engine）**，这是硬件加速引擎，主要用于加解密和压缩，不是人才评估体系。[4]\n\n如果你愿意，我可以继续帮你把 **KAE 技能体系** 画成一张“维度—含义—面试判断点”的对照表。",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/help/glossary",
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html",
+      "https://www.jiemian.com/article/14885278.html",
+      "https://www.hikunpeng.com/developer/techArticles/20230906-4",
+      "https://yadavrohit.substack.com/p/indias-deep-tech-ecosystem-has-entered",
+      "https://www.gamekee.com/czn/677824.html",
+      "https://www.reddit.com/r/humanresources/comments/1o6k9ru/kae_educations_advanced_certification_in_hr/",
+      "https://kiewitcareers.kiewit.com/job/Lenexa-BIMREVIT-Designer-Industrial-Buildings-1-KS/1398509500/",
+      "https://www.kentadulteducation.co.uk/",
+      "https://www.leagueoflegends.com/zh-tw/champions/kayle/",
+      "https://www.pasefikaproud.co.nz/assets/Initial-Content/Resources/Fofola-e-fala-kae-talanoa-e-kainga-A-Tongan-Conceptual-Framework-for-the-prevention-of-and-intervention-in-family-violence-in-New-Zealand-Famili-lelei/PASEFI1.PDF",
+      "https://buff.163.com/news/61098",
+      "https://www.sohu.com/a/769777783_121935256",
+      "https://web2021.vbird.tw/4090c003/h5-4.html",
+      "https://a.4399.cn/gl/44800966_238306.html",
+      "https://x.com/KaeCapital/status/2084570552447201623",
+      "https://www.163.com/dy/article/L41PD0PH0550CBNY.html",
+      "https://peopleforce.io/hr-glossary/knowledge-skills-and-abilities",
+      "https://www.caieglobal.com/certification.html",
+      "https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimwyqv4415591.shtml"
+    ],
+    "created": 1787124009,
+    "id": "bb7cca7e-499e-46dc-a1db-261a6e6450bc",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE（Knowledge & Ability Engine）是 Skillver 的能力评测引擎，为人才端 AI 面试与企业端候选人评估提供统一的能力语言。\nKAE 将分散的简历关键词与主观印象，转化为结构化、可追溯的七维战力评估结果，供 HR 与求职助手共同参考。\n...\n- 输出七维战力评估（T / L / O / S / R / C / D）能力画像\n...\n七维战力评估是 Skillver 对外使用的能力画像框架，由七个维度组成，用于描述技术人才在真实工作场景中的综合表现。\n...\n- T 技术熟练度 — 技术栈流利度与硬核实现能力\n- L 逻辑严密性 — 逻辑连贯性与系统推理能力\n...",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver以KAE技能体系、七维战力评估框架和314项技能分类体系为基础，通过结构化AI面试和能力评估，对候选人与具体岗位的匹配程度进行核验。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力”",
+        "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a744686a310d709c2fc1e9d.html"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "能力核验紧随其后。Skillver以KAE技能体系为基础，结合七维战力评估框架和314项技能分类体系，由多个专责AI Agent协同完成评估。公开流程包括选岗、简历核验、面试彩排、正式AI面试和能力报告。",
+        "source": "web",
+        "title": "AI 行业重构人才评价履历让位实战成果",
+        "url": "https://www.jiemian.com/article/14885278.html"
+      },
+      {
+        "date": "2023-09-06",
+        "last_updated": "2026-08-04",
+        "place_metadata": null,
+        "snippet": "其中鲲鹏加速引擎（Kunpeng Accelerator Engine，简称：KAE）是基于鲲鹏920处理器提供的硬件加速解决方案，包含了KAE加解密和KAEzip，归属加解密和压缩两类库，分别用于加速SSL/TLS应用加解密和数据压缩，可以显著降低处理器消耗，提高处理器效率。\n...\n鲲鹏920处理器内置KAE硬件引擎，支持硬件加解密和压缩/解压缩特性，同时提供适配KAE硬加速的zlib和OpenSSL库，让开发者在不修改应用程序的同时获得成倍的性能提升。\n...\nKAE是基于鲲鹏920处理器提供的硬件加速解决方案，包含了KAE加解密和KAEzip，分别用于加速SSL/TLS应用加解密和数据...",
+        "source": "web",
+        "title": "鲲鹏加速引擎KAE简介-官方技术文章",
+        "url": "https://www.hikunpeng.com/developer/techArticles/20230906-4"
+      },
+      {
+        "date": "2026-04-08",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "- Kae’s four C’s framework: Customers, Capital, Capabilities, Community\n...\nKae operates on an internal framework of four C’s for supporting portfolio companies - particularly relevant for deep tech where the zero-to-one journey is longer and lonelier.\n**Customers.** Kae’s internal KPI is to help ea...",
+        "source": "web",
+        "title": "India's Deep Tech Ecosystem Has Entered Its Third Era. The ...",
+        "url": "https://yadavrohit.substack.com/p/indias-deep-tech-ecosystem-has-entered"
+      },
+      {
+        "date": "2026-02-11",
+        "last_updated": "2026-05-02",
+        "place_metadata": null,
+        "snippet": "第二个分类是**基本卡牌和独特卡牌**，起始卡牌**只有前三张是基本卡牌，第四张是独特卡牌，而4张灵光一闪卡牌均为独特卡牌** **。** 卡厄思中通过战斗更容易获取灵光一闪卡牌，这也是推荐1层多战斗的原因。﻿",
+        "source": "web",
+        "title": "卡厄思与战斗机制讲解",
+        "url": "https://www.gamekee.com/czn/677824.html"
+      },
+      {
+        "date": "2025-10-23",
+        "last_updated": "2026-02-12",
+        "place_metadata": null,
+        "snippet": "### KAE Education’s Advanced Certification in HR Analytics OR AIHR’s People Analytics Certificate Analytics & Metrics [Canada]",
+        "source": "web",
+        "title": "KAE教育的高级人力资源分析认证课程或AIHR的 ...",
+        "url": "https://www.reddit.com/r/humanresources/comments/1o6k9ru/kae_educations_advanced_certification_in_hr/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "Associates degree or Bachelors' degree in drafting/design, engineering technology, architecture or related field and minimum of 3 years' experience in BIM/REVIT design in industrial, power, water, manufacturing, water, oil/gas/chemical, Biopharma, healthcare, mission critical facilities or similar i...",
+        "source": "web",
+        "title": "BIM/REVIT Designer- Industrial Buildings 1 - Kiewit Careers",
+        "url": "https://kiewitcareers.kiewit.com/job/Lenexa-BIMREVIT-Designer-Industrial-Buildings-1-KS/1398509500/"
+      },
+      {
+        "date": "2026-07-30",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "KAE Future Pathways offers a range of tailored programmes designed to support young people aged 16-18, and up to 25 with an Education, Health and Care Plan (EHCP) to build skills, confidence and independence as they progress into further education or employment.",
+        "source": "web",
+        "title": "Kent Adult Education: Adult Education courses in Kent",
+        "url": "https://www.kentadulteducation.co.uk/"
+      },
+      {
+        "date": "2023-01-13",
+        "last_updated": "2026-02-14",
+        "place_metadata": null,
+        "snippet": "- 聖域之梯\n- 聖光衝擊波",
+        "source": "web",
+        "title": "凱爾",
+        "url": "https://www.leagueoflegends.com/zh-tw/champions/kayle/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-10-03",
+        "place_metadata": null,
+        "snippet": "a perpetrator of violence: \n1. Dismiss the belief that anger and violence are natural or acceptable in ‘ulungaanga faka-Tonga.",
+        "source": "web",
+        "title": "Fofola e fala kae",
+        "url": "https://www.pasefikaproud.co.nz/assets/Initial-Content/Resources/Fofola-e-fala-kae-talanoa-e-kainga-A-Tongan-Conceptual-Framework-for-the-prevention-of-and-intervention-in-family-violence-in-New-Zealand-Famili-lelei/PASEFI1.PDF"
+      },
+      {
+        "date": "1997-01-01",
+        "last_updated": "2024-11-09",
+        "place_metadata": null,
+        "snippet": "凯有两种武器，所以他有两套技能与之搭配。他在挥舞影武长刀时可用一套，挥舞翔影双钗时可用另一套。每种武器在攻击时还具有独特的效果凯有两种武器，所以他有两套技能与之搭配。他在挥舞影武长刀时可用一套，挥舞翔影双钗时可用另一套；每种武器在攻击时还具有独特的效果。",
+        "source": "web",
+        "title": "新英雄凯技能介绍，9个技能按的过来？",
+        "url": "https://buff.163.com/news/61098"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "在游戏中，凯的技能包括一技能“勾击”和二技能“切割”，而大招则是“无限剑制”。首先，我们要熟练地运用一技能的“勾击”，这个技能具有定点位移和控制敌人的效果，可以帮助我们追击敌人或者脱离战场。",
+        "source": "web",
+        "title": "王者荣耀凯怎么玩儿？游戏中的操作技巧和战术策略_技能_敌人_输出",
+        "url": "https://www.sohu.com/a/769777783_121935256"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-08-05",
+        "place_metadata": null,
+        "snippet": "凱殷是多重接技角的職業 也是缺點之一， 首先靠 衝擊箭+散射箭+破塵箭 為基本傷害， 五轉後 且有累積不少的冷卻技能， 讓玩家們的雙手 手忙腳亂。",
+        "source": "web",
+        "title": "期中報告",
+        "url": "https://web2021.vbird.tw/4090c003/h5-4.html"
+      },
+      {
+        "date": "2024-05-11",
+        "last_updated": "2025-10-06",
+        "place_metadata": null,
+        "snippet": "获得版号：2025年5月21日\n...\n预下载开启：2025年10月8日",
+        "source": "web",
+        "title": "英雄“凯”攻略 - 安卓游戏",
+        "url": "https://a.4399.cn/gl/44800966_238306.html"
+      },
+      {
+        "date": "2026-08-04",
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "AI infra as a category tends to get collapsed into three things: foundation models, GPU clouds, and Nvidia.",
+        "source": "web",
+        "title": "Kae Capital (@KaeCapital) on X",
+        "url": "https://x.com/KaeCapital/status/2084570552447201623"
+      },
+      {
+        "date": "2026-08-11",
+        "last_updated": "2026-08-11",
+        "place_metadata": null,
+        "snippet": "从知识体系看，技能型大学需要发展以技能型知识为中心的学科体系。长期以来，有一种误解认为职业教育不需要学科建设。事实上，技能型大学同样需要学科——技能实现型知识的系统化。没有技能型学科的知识积累和理论建构，技能型大学的学位授予就缺乏学术根基，人才培养就缺乏理论支撑，教师的学术发展就缺乏评价标准。",
+        "source": "web",
+        "title": "把技能型大学建成中国职业教育的名片_手机网易网",
+        "url": "https://www.163.com/dy/article/L41PD0PH0550CBNY.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-17",
+        "place_metadata": null,
+        "snippet": "**KSA** is an acronym derived from the words: **Knowledge, Skills, ** and **Abilities.\n** It's a concept for classifying and understanding competencies, used in HR for job descriptions, employee evaluations, and development planning.\nIt can be treated as a framework that helps organize job requireme...",
+        "source": "web",
+        "title": "What is KSA (Knowledge, Skills and Abilities)?",
+        "url": "https://peopleforce.io/hr-glossary/knowledge-skills-and-abilities"
+      },
+      {
+        "date": "2025-10-25",
+        "last_updated": "2026-08-18",
+        "place_metadata": null,
+        "snippet": "CAIE，全称 Certified Artificial Intelligence Engineer（人工智能工程师），简称 CAIE（赛一） ，是人工智能领域的技能等级认证。旨在评估和培养具备人工智能理论基础与实战能力的职业人士。",
+        "source": "web",
+        "title": "报名流程、考试时间与费用（Level I/Level II） - CAIE（赛一）官网",
+        "url": "https://www.caieglobal.com/certification.html"
+      },
+      {
+        "date": "2026-08-11",
+        "last_updated": "2026-08-11",
+        "place_metadata": null,
+        "snippet": "所谓AI Agent Skills，即智能体技能，本质是将成熟系统能力封装为标准化功能单元的可复用能力包，可供AI识别、调用与直接执行。通俗来讲，如果把AI大模型比作“大脑”，Skills就是让大脑能够动手干活的“手脚”，它将完成特定任务所需的领域知识、操作流程、工具调用规则、最佳实践全部打包封装，当AI识别到匹配的任务需求时，会自动加载对应Skill执行全流程操作，无需用户手动逐步指令。",
+        "source": "web",
+        "title": "证券业扎堆布局AI Skills服务自家客户，哪些券商已经重大破局？",
+        "url": "https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimwyqv4415591.shtml"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 342,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00034,
+        "request_cost": 0.005,
+        "total_cost": 0.00537
+      },
+      "prompt_tokens": 32,
+      "search_context_size": "low",
+      "total_tokens": 374
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:20:09.816994Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T01",
+    "answerEvidence": "你问的 **KAE 技能体系**，在当前搜索结果里最明确对应的是 Skillver 的 **KAE（Knowledge & Ability Engine）**：它是一个能力评测引擎，用来把简历信息和面试表现转化为**结构化、可追溯的能力画像**，供 AI 面试和企业候选人评估使用。[1]\n\n它的核心不是“单一技能清单”，而是围绕一套 **七维战力评估** 来描述人才能力，包括：**T 技术熟练度、L 逻辑严密性、O 交付可靠性、S 学习力、R 韧性、C 统筹力、D 推动力**。[1]\n\n另外，相关报道还提到，Skillver 以 KAE 技能体系为基础，结合 **七维战力评估框架** 和 **314 项技能分类体系**，通过结构化 AI 面试核验候选人与岗位的匹配程度。[2][3]\n\n如果你指的是别的“KAE”，搜索结果里也有一个完全不同的含义：华为鲲鹏的 **KAE（Kunpeng Accelerator Engine）**，这是硬件加速引擎，主要用于加解密和压缩，不是人才评估体系。[4]\n\n如果你愿意，我可以继续帮你把 **KAE 技能体系** 画成一张“维度—含义—面试判断点”的对照表。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T01.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

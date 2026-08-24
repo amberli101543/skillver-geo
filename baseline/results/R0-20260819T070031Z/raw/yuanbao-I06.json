@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "“Skillver” 目前**没有独立的移动端 App**。\n\n它主要通过**网页端**提供服务，你可以在手机或平板的浏览器中访问其官网来使用相关功能。如果你指的是其他名称相似的产品，建议确认具体拼写或官网信息。",
+  "sources": [],
+  "raw": {
+    "id": "adc88e55-c3db-4fd1-ae9d-bde9c7a13ecb",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123735,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "“Skillver” 目前**没有独立的移动端 App**。\n\n它主要通过**网页端**提供服务，你可以在手机或平板的浏览器中访问其官网来使用相关功能。如果你指的是其他名称相似的产品，建议确认具体拼写或官网信息。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 53,
+      "total_tokens": 101,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:15:37.186045Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "“Skillver” 目前**没有独立的移动端 App**。\n\n它主要通过**网页端**提供服务，你可以在手机或平板的浏览器中访问其官网来使用相关功能。如果你指的是其他名称相似的产品，建议确认具体拼写或官网信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

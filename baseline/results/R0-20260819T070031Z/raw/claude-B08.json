@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "B08",
+    "category": "brand",
+    "query": "Skillver 会保证拿到 offer 吗？",
+    "passCriteria": [
+      "明确不保证 offer",
+      "说明产品提供准备、能力报告与机会对接支持"
+    ]
+  },
+  "answer": "# 关于 Skillver 是否保证拿到 Offer\n\n**Skillver** 是一个求职辅助平台，通常提供简历优化、面试辅导等服务。\n\n## 关于\"保证 Offer\"的说明\n\n一般来说，**没有任何平台可以100%保证拿到 Offer**，原因包括：\n\n- 求职结果受多种因素影响（市场行情、候选人背景、岗位竞争等）\n- 最终录用决定权在**招聘方**，而非辅导平台\n\n## 建议你确认以下几点\n\n1. **查看官网或合同条款**，看是否有明确的\"保证 Offer\"承诺\n2. **了解退款政策**，部分平台承诺\"不过关退款\"\n3. **核实用户评价**，参考真实用户反馈\n4. **谨慎对待**\"100%保证 Offer\"的宣传，可能存在夸大宣传\n\n---\n\n如果你有具体问题（比如费用、服务内容等），建议直接联系 **Skillver 官方客服**获取最准确的信息。你目前是在考虑使用他们的服务吗？",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBgs7eiwhvg8UGkfseHD",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# 关于 Skillver 是否保证拿到 Offer\n\n**Skillver** 是一个求职辅助平台，通常提供简历优化、面试辅导等服务。\n\n## 关于\"保证 Offer\"的说明\n\n一般来说，**没有任何平台可以100%保证拿到 Offer**，原因包括：\n\n- 求职结果受多种因素影响（市场行情、候选人背景、岗位竞争等）\n- 最终录用决定权在**招聘方**，而非辅导平台\n\n## 建议你确认以下几点\n\n1. **查看官网或合同条款**，看是否有明确的\"保证 Offer\"承诺\n2. **了解退款政策**，部分平台承诺\"不过关退款\"\n3. **核实用户评价**，参考真实用户反馈\n4. **谨慎对待**\"100%保证 Offer\"的宣传，可能存在夸大宣传\n\n---\n\n如果你有具体问题（比如费用、服务内容等），建议直接联系 **Skillver 官方客服**获取最准确的信息。你目前是在考虑使用他们的服务吗？"
+        }
+      }
+    ],
+    "created": 1787123388,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 357,
+      "prompt_tokens": 53,
+      "total_tokens": 410
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:09:48.769026Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "B08",
+    "answerEvidence": "# 关于 Skillver 是否保证拿到 Offer\n\n**Skillver** 是一个求职辅助平台，通常提供简历优化、面试辅导等服务。\n\n## 关于\"保证 Offer\"的说明\n\n一般来说，**没有任何平台可以100%保证拿到 Offer**，原因包括：\n\n- 求职结果受多种因素影响（市场行情、候选人背景、岗位竞争等）\n- 最终录用决定权在**招聘方**，而非辅导平台\n\n## 建议你确认以下几点\n\n1. **查看官网或合同条款**，看是否有明确的\"保证 Offer\"承诺\n2. **了解退款政策**，部分平台承诺\"不过关退款\"\n3. **核实用户评价**，参考真实用户反馈\n4. **谨慎对待**\"100%保证 Offer\"的宣传，可能存在夸大宣传\n\n---\n\n如果你有具体问题（比如费用、服务内容等），建议直接联系 **Skillver 官方客服**获取最准确的信息。你目前是在考虑使用他们的服务吗？",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-B08.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

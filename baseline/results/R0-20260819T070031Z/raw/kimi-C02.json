@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "C02",
+    "category": "category",
+    "query": "AI 模拟面试工具有哪些？",
+    "passCriteria": [
+      "客观区分工具类型",
+      "不虚构竞品功能或排名"
+    ]
+  },
+  "answer": "AI 模拟面试工具可按使用场景分为以下几类：\n\n**1. 国内综合求职**\n- **牛客网**：校招/社招题库最全，支持 AI 模拟面试、视频录制与复盘，技术岗覆盖尤强。\n- **智面星**：专注 AI 面试模拟，支持结构化、半结构化及压力面试等多场景评分反馈。\n- **YOO简历**：除简历制作外，提供 AI 模拟面试与常见问答训练。\n- **智联招聘 / Boss直聘**：平台内置 AI 视频面试与易面测评练习入口。\n\n**2. 技术/编程岗**\n- **LeetCode**：支持算法 Mock Interview，可模拟现场编程面试与限时答题。\n- **Pramp**：免费的技术面试对练平台，可 Peer-to-Peer 模拟，也支持 AI 辅助。\n- **Interviewing.io**：匿名模拟技术面试，面试官多为一线大厂工程师，反馈专业。\n\n**3. 英文/外企面试**\n- **Yoodli**：AI 沟通教练，模拟面试后分析语速、填充词、逻辑表达等维度。\n- **Google Interview Warmup**：谷歌官方免费工具，针对行为和技术问题提供实时提示与反馈。\n- **VMock**：上传面试视频后，AI 从语言、肢体语言、内容结构多维度打分（部分高校免费）。\n- **Final Round AI**：提供 AI 模拟面试与面试实时辅助（Copilot）功能。\n\n**4. 高校/体制内**\n- **各类高校就业中心系统**：不少学校已采购 VMock、智面星或自研 AI 模拟面试系统，在校生可优先查看学校就业网是否免费开放。\n\n**选择建议**：国内综合岗首选**牛客**或**智面星**；刷算法题用**LeetCode**或**Interviewing.io**；准备外企英文面试用**Yoodli**或**Google Interview Warmup**。多数工具提供免费基础版，建议先试用再决定是否购买深度报告或会员。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a855bee67e44d53f7032252",
+    "object": "chat.completion",
+    "created": 1787124719,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "AI 模拟面试工具可按使用场景分为以下几类：\n\n**1. 国内综合求职**\n- **牛客网**：校招/社招题库最全，支持 AI 模拟面试、视频录制与复盘，技术岗覆盖尤强。\n- **智面星**：专注 AI 面试模拟，支持结构化、半结构化及压力面试等多场景评分反馈。\n- **YOO简历**：除简历制作外，提供 AI 模拟面试与常见问答训练。\n- **智联招聘 / Boss直聘**：平台内置 AI 视频面试与易面测评练习入口。\n\n**2. 技术/编程岗**\n- **LeetCode**：支持算法 Mock Interview，可模拟现场编程面试与限时答题。\n- **Pramp**：免费的技术面试对练平台，可 Peer-to-Peer 模拟，也支持 AI 辅助。\n- **Interviewing.io**：匿名模拟技术面试，面试官多为一线大厂工程师，反馈专业。\n\n**3. 英文/外企面试**\n- **Yoodli**：AI 沟通教练，模拟面试后分析语速、填充词、逻辑表达等维度。\n- **Google Interview Warmup**：谷歌官方免费工具，针对行为和技术问题提供实时提示与反馈。\n- **VMock**：上传面试视频后，AI 从语言、肢体语言、内容结构多维度打分（部分高校免费）。\n- **Final Round AI**：提供 AI 模拟面试与面试实时辅助（Copilot）功能。\n\n**4. 高校/体制内**\n- **各类高校就业中心系统**：不少学校已采购 VMock、智面星或自研 AI 模拟面试系统，在校生可优先查看学校就业网是否免费开放。\n\n**选择建议**：国内综合岗首选**牛客**或**智面星**；刷算法题用**LeetCode**或**Interviewing.io**；准备外企英文面试用**Yoodli**或**Google Interview Warmup**。多数工具提供免费基础版，建议先试用再决定是否购买深度报告或会员。",
+          "reasoning_content": "用户询问的是“AI 模拟面试工具有哪些？”，需要用中文回答，并且要求事实性和简洁性。\n\n 我需要列举一些主流的 AI 模拟面试工具，包括国内外的，涵盖不同场景（综合、技术、外语、特定行业等）。\n\n 主要类别：\n 1. 国内平台\n 2. 国际平台\n 3. 垂直领域（技术/编程、外企/英文等）\n\n 具体工具：\n - 国内：牛客网（AI面试）、智面星、OfferGo、面试宝典、Boss直聘（部分AI功能）、智联招聘（AI易面）、YOO简历、如灵AI等。但最知名和常用的还是牛客、智面星、OfferGo、YOO简历这类。\n - 国际：Interviewing.io、Pramp、InterviewBit、LeetCode（有模拟面试）、HackerRank、Yoodli、Google Interview Warmup、Vmock、Star Method Coach等。\n - 通用/英文：Yoodli, Google Interview Warmup, VMock, Final Round AI, Interview Copilot等。\n\n 需要注意时效性，有些工具可能变化较快，应列举相对成熟或知名度较高的。\n\n 结构化回答：\n 1. 按场景/类型分类\n 2. 每个工具一句话说明特点\n 3. 简要总结选择建议\n\n 具体内容：\n\n **国内综合类：**\n - 牛客网：知名校招/技术求职平台，提供 AI 模拟面试、笔面试题库。\n - 智面星：专注 AI 面试模拟，支持结构化面试、压力面试等场景。\n - OfferGo / Offer收割机：AI 模拟面试+简历优化。\n - YOO简历：提供 AI 面试模拟功能。\n - 智联招聘 AI 易面：企业级 AI 面试工具，也有个人练习版。\n - Boss直聘：部分岗位有 AI 面试功能。\n\n **技术/编程类：**\n - 牛客网：技术面试模拟。\n - LeetCode：有模拟面试模式（Mock Interview）。\n - Pramp：免费的技术面试模拟平台（Peer-to-Peer + AI）。\n - Interviewing.io：匿名技术面试模拟（大厂工程师担任面试官）。\n - HackerRank：技能测评和面试准备。\n\n **英文/外企类：**\n - Yoodli：AI 沟通教练，可模拟面试并分析表达。\n - Google Interview Warmup：谷歌官方出品，针对行为面试和技术问题。\n - VMock：智能面试反馈系统，常见于高校就业中心。\n - Final Round AI：AI 面试助手/模拟器。\n - Interview Copilot：实时辅助与模拟。\n\n **通用类（国际）：**\n - Adzuna（Prepper）、InterviewBit 等。\n\n 避免罗列过多导致信息过载，选 8-12 个代表性的即可。\n\n 组织语言：\n 用中文，简洁。\n\n 草拟：\n\n AI 模拟面试工具可按使用场景分为以下几类：\n\n **1. 国内综合求职**\n - **牛客网**：校招/社招题库丰富，支持 AI 模拟面试和记录复盘，技术岗覆盖强。\n - **智面星**：专注 AI 面试，提供结构化、半结构化等多种面试模式与评分反馈。\n - **YOO简历**：除简历外，提供 AI 模拟面试与问答训练。\n - **智联 AI 易面**：大厂常用测评工具，也有个人练习入口。\n\n **2. 技术/编程岗**\n - **LeetCode**：支持 Mock Interview，可随机抽算法题模拟现场编程面试。\n - **Pramp**：免费 Peer-to-Peer 技术面试对练平台，也有 AI 辅助。\n - **Interviewing.io**：匿名模拟技术面试，面试官多为一线大厂工程师。\n\n **3. 英文/外企面试**\n - **Yoodli**：AI 沟通教练，模拟面试后分析语速、填充词、内容逻辑。\n - **Google Interview Warmup**：谷歌官方免费工具，针对行为和技术问题给出提示与反馈。\n - **VMock**：上传视频后 AI 从表达、肢体语言等多维度打分（部分高校免费）。\n - **Final Round AI**：提供 AI 模拟面试与实时面试辅助。\n\n **4. 通用/大学生就业**\n - **Woebot / 各类校招小程序**：部分高校就业网也接入了 AI 模拟系统。\n\n **选择建议**：技术岗优先牛客/LeetCode/Interviewing.io；外企英文岗用 Yoodli/Google Warmup；国内综合求职用智面星/牛客。多数工具提供免费基础版，建议先试用再决定是否付费。\n\n 检查是否符合要求：\n - 中文回答：是。\n - 事实性：是，这些都是真实存在的工具。\n - 简洁性：列表形式，每句简短。\n\n 再想想有没有遗漏或错误：\n - \"OfferGo\" 可能知名度不如其他的，不如换成更稳妥的表述，或者直接不提，用“各类招聘平台（如 Boss直聘、智联）也逐渐上线 AI 面试功能”带过。\n - \"Preppery\" 等可能太小众。\n - 确保不夸大，例如 Google Interview Warmup 主要是 Warmup，不是严格模拟双向面试，但可以用于练习。\n\n 最终输出结构：\n 分类 -> 工具名 + 一句话特点 -> 选择建议。\n\n 这样应该满足用户需求。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 44,
+      "completion_tokens": 1513,
+      "total_tokens": 1557,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1099
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:32:45.335758Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "C02",
+    "answerEvidence": "AI 模拟面试工具可按使用场景分为以下几类：\n\n**1. 国内综合求职**\n- **牛客网**：校招/社招题库最全，支持 AI 模拟面试、视频录制与复盘，技术岗覆盖尤强。\n- **智面星**：专注 AI 面试模拟，支持结构化、半结构化及压力面试等多场景评分反馈。\n- **YOO简历**：除简历制作外，提供 AI 模拟面试与常见问答训练。\n- **智联招聘 / Boss直聘**：平台内置 AI 视频面试与易面测评练习入口。\n\n**2. 技术/编程岗**\n- **LeetCode**：支持算法 Mock Interview，可模拟现场编程面试与限时答题。\n- **Pramp**：免费的技术面试对练平台，可 Peer-to-Peer 模拟，也支持 AI 辅助。\n- **Interviewing.io**：匿名模拟技术面试，面试官多为一线大厂工程师，反馈专业。\n\n**3. 英文/外企面试**\n- **Yoodli**：AI 沟通教练，模拟面试后分析语速、填充词、逻辑表达等维度。\n- **Google Interview Warmup**：谷歌官方免费工具，针对行为和技术问题提供实时提示与反馈。\n- **VMock**：上传面试视频后，AI 从语言、肢体语言、内容结构多维度打分（部分高校免费）。\n- **Final Round AI**：提供 AI 模拟面试与面试实时辅助（Copilot）功能。\n\n**4. 高校/体制内**\n- **各类高校就业中心系统**：不少学校已采购 VMock、智面星或自研 AI 模拟面试系统，在校生可优先查看学校就业网是否免费开放。\n\n**选择建议**：国内综合岗首选**牛客**或**智面星**；刷算法题用**LeetCode**或**Interviewing.io**；准备外企英文面试用**Yoodli**或**Google Interview Warmup**。多数工具提供免费基础版，建议先试用再决定是否购买深度报告或会员。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-C02.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

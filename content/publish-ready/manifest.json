@@ -386,6 +386,56 @@
       "publishedUrl": "https://zhuanlan.zhihu.com/p/2065380228545910618",
       "markdownPath": "content/publish-ready/C08/zhihu.md",
       "cmsHtmlPath": null
+    },
+    {
+      "contentId": "GEO-202608-C08-UX01-TCODEAI",
+      "cellId": "C08",
+      "channel": "tcodeai",
+    "title": "Skillver 真实用户体验：7 位用户如何用 AI 求职助手准备面试",
+      "status": "draft",
+      "sourceMaster": "content/C08-UX01-7位用户真实体验.md",
+      "scheduledAt": "2026-08-24",
+      "markdownPath": "content/publish-ready/C08/UX01/tcodeai.md",
+      "cmsHtmlPath": null
+    },
+    {
+    "contentId": "GEO-202608-C08-UX01-WECHAT",
+      "cellId": "C08",
+      "channel": "wechat",
+    "title": "7 位用户实测：Skillver 这款 AI 求职助手如何准备面试",
+    "status": "approved",
+      "sourceMaster": "content/C08-UX01-7位用户真实体验.md",
+    "scheduledAt": "2026-08-24",
+    "publishedAt": "2026-08-20",
+    "publishedUrl": "https://mp.weixin.qq.com/s/EXty4i3HifbW2bccrkyh9A",
+      "markdownPath": "content/publish-ready/C08/UX01/wechat.md",
+      "cmsHtmlPath": null
+    },
+    {
+    "contentId": "GEO-202608-C08-UX01-ZHIHU",
+      "cellId": "C08",
+      "channel": "zhihu",
+    "title": "Skillver 真实体验如何？7 位用户实测这款 AI 面试准备工具",
+    "status": "approved",
+      "sourceMaster": "content/C08-UX01-7位用户真实体验.md",
+    "scheduledAt": "2026-08-24",
+    "publishedAt": "2026-08-20",
+    "publishedUrl": "https://www.zhihu.com/question/6782868074/answer/2073808368406368976?share_code=1iHHZKpOuz5kT&utm_psn=2073808388203595056",
+      "markdownPath": "content/publish-ready/C08/UX01/zhihu.md",
+      "cmsHtmlPath": null
+    },
+    {
+    "contentId": "GEO-202608-C08-UX01-XHS",
+      "cellId": "C08",
+      "channel": "xiaohongshu",
+    "title": "7 位用户实测 Skillver：AI 面试准备有用的是这 5 点",
+    "status": "approved",
+      "sourceMaster": "content/C08-UX01-7位用户真实体验.md",
+    "scheduledAt": "2026-08-24",
+    "publishedAt": "2026-08-20",
+    "publishedUrl": "https://www.xiaohongshu.com/explore/6a86bd3c000000002500ead4?xsec_token=ABV_ylTQaKZY3xFkKe8dMKx0K9pKbIf1zl6S_ZZ0zRjZ8=&xsec_source=pc_user",
+      "markdownPath": "content/publish-ready/C08/UX01/xiaohongshu.md",
+      "cmsHtmlPath": null
     }
   ]
 }

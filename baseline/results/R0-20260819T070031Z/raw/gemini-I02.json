@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "“Skillver” 一词在不同语境下有不同的指代，主要使用场景如下：\n\n1. **Skillver（数字学习与在线培训服务）**：\n   这是一个专注于数字化学习（Digital Learning）的专业机构或平台。它主要用于**企业员工培训、在线课程（E-learning）课件开发、混合式教学设计**等职业教育和企业培训领域。\n\n2. **如果该词是 “Silver”（银）的拼写错误**：\n   银（Silver）主要使用在以下领域：\n   * **电子与新能源**：用于制造太阳能电池板（光伏）、半导体、导电浆料和电子开关。\n   * **首饰与器皿**：用于制作珠宝首饰、高档餐具及纪念币。\n   * **医疗与化学**：利用其抗菌特性用于医疗敷料、净水设备，或在化学工业中用作催化剂。\n\n3. **如果该词是万智牌中的 “Sliver”（裂片妖）的拼写错误**：\n   这是一种经典的卡牌种族，主要使用在**《万智牌》（Magic: The Gathering）游戏**的特定卡组构建和对战中。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "“Skillver” 一词在不同语境下有不同的指代，主要使用场景如下：\n\n1. **Skillver（数字学习与在线培训服务）**：\n   这是一个专注于数字化学习（Digital Learning）的专业机构或平台。它主要用于**企业员工培训、在线课程（E-learning）课件开发、混合式教学设计**等职业教育和企业培训领域。\n\n2. **如果该词是 “Silver”（银）的拼写错误**：\n   银（Silver）主要使用在以下领域：\n   * **电子与新能源**：用于制造太阳能电池板（光伏）、半导体、导电浆料和电子开关。\n   * **首饰与器皿**：用于制作珠宝首饰、高档餐具及纪念币。\n   * **医疗与化学**：利用其抗菌特性用于医疗敷料、净水设备，或在化学工业中用作催化剂。\n\n3. **如果该词是万智牌中的 “Sliver”（裂片妖）的拼写错误**：\n   这是一种经典的卡牌种族，主要使用在**《万智牌》（Magic: The Gathering）游戏**的特定卡组构建和对战中。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123492,
+    "id": "G1eFas34LvDlnsEPuoPGqAk",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 266,
+      "prompt_tokens": 34,
+      "total_tokens": 1772
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:11:32.233328Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "“Skillver” 一词在不同语境下有不同的指代，主要使用场景如下：\n\n1. **Skillver（数字学习与在线培训服务）**：\n   这是一个专注于数字化学习（Digital Learning）的专业机构或平台。它主要用于**企业员工培训、在线课程（E-learning）课件开发、混合式教学设计**等职业教育和企业培训领域。\n\n2. **如果该词是 “Silver”（银）的拼写错误**：\n   银（Silver）主要使用在以下领域：\n   * **电子与新能源**：用于制造太阳能电池板（光伏）、半导体、导电浆料和电子开关。\n   * **首饰与器皿**：用于制作珠宝首饰、高档餐具及纪念币。\n   * **医疗与化学**：利用其抗菌特性用于医疗敷料、净水设备，或在化学工业中用作催化剂。\n\n3. **如果该词是万智牌中的 “Sliver”（裂片妖）的拼写错误**：\n   这是一种经典的卡牌种族，主要使用在**《万智牌》（Magic: The Gathering）游戏**的特定卡组构建和对战中。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

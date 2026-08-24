@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位的面试，可以从**算法编程、AI理论与系统设计、模拟面试、面经收集**四个维度来选择工具。以下是推荐的实用工具清单：\n\n### 1. 算法与编程基础\n*   **LeetCode (力扣)**：AI 算法岗同样需要考察代码基本功。重点刷数据结构、动态规划、双指针以及经典的“手写机器学习算法”（如 KNN、K-Means、梯度下降等）。\n*   **HackerRank / Codility**：部分外企或大厂初筛使用的在线编程平台，可用于提前熟悉考试环境。\n\n### 2. 机器学习理论与系统设计 (ML System Design)\n*   **GitHub**：搜索“AI Interview”、“ML System Design”等关键词。推荐高星项目如：\n    *   *ML-Interview-Primer*（机器学习面试知识点）\n    *   *system-design-primer*（系统设计基础）\n*   **Kaggle / Hugging Face**：用于复习实战项目。回顾经典数据集的 Pipeline、模型调优、特征工程步骤，以及最新的 Transformer/LLM 微调知识。\n*   **Anki**：卡片式记忆软件。适合用来背诵和巩固机器学习八股文、数学公式、优化器原理等硬知识。\n\n### 3. AI 模拟面试与对话工具\n*   **ChatGPT / Claude**：最强大的免费/低成本模拟面试官。\n    *   *使用方法*：输入 Prompt（提示词），例如：“*请扮演 Meta 的资深 AI 科学家，对我进行一次关于‘如何设计推荐系统的重排阶段’的系统设计面试。每次只问一个问题，并在我回答后给出追问或反馈。*”\n*   **Google Interview Warmup**：谷歌推出的 AI 模拟面试工具，通过语音或文字输入回答，AI 会分析你的回答并给出改进建议（偏向通用和基础技术岗位）。\n\n### 4. 面经与求职社区\n*   **牛客网 (Nowcoder)**：国内 AI/算法岗最火的面经聚集地，包含大量大厂的真题、薪资爆料和面试流程分享。\n*   **一分三分地 (1point3acres)** / **Glassdoor**：适合准备外企（如 Google、Meta、微软）或海外 AI 岗位的求职者，有丰富的海外真题和薪资参考。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "准备 AI 岗位的面试，可以从**算法编程、AI理论与系统设计、模拟面试、面经收集**四个维度来选择工具。以下是推荐的实用工具清单：\n\n### 1. 算法与编程基础\n*   **LeetCode (力扣)**：AI 算法岗同样需要考察代码基本功。重点刷数据结构、动态规划、双指针以及经典的“手写机器学习算法”（如 KNN、K-Means、梯度下降等）。\n*   **HackerRank / Codility**：部分外企或大厂初筛使用的在线编程平台，可用于提前熟悉考试环境。\n\n### 2. 机器学习理论与系统设计 (ML System Design)\n*   **GitHub**：搜索“AI Interview”、“ML System Design”等关键词。推荐高星项目如：\n    *   *ML-Interview-Primer*（机器学习面试知识点）\n    *   *system-design-primer*（系统设计基础）\n*   **Kaggle / Hugging Face**：用于复习实战项目。回顾经典数据集的 Pipeline、模型调优、特征工程步骤，以及最新的 Transformer/LLM 微调知识。\n*   **Anki**：卡片式记忆软件。适合用来背诵和巩固机器学习八股文、数学公式、优化器原理等硬知识。\n\n### 3. AI 模拟面试与对话工具\n*   **ChatGPT / Claude**：最强大的免费/低成本模拟面试官。\n    *   *使用方法*：输入 Prompt（提示词），例如：“*请扮演 Meta 的资深 AI 科学家，对我进行一次关于‘如何设计推荐系统的重排阶段’的系统设计面试。每次只问一个问题，并在我回答后给出追问或反馈。*”\n*   **Google Interview Warmup**：谷歌推出的 AI 模拟面试工具，通过语音或文字输入回答，AI 会分析你的回答并给出改进建议（偏向通用和基础技术岗位）。\n\n### 4. 面经与求职社区\n*   **牛客网 (Nowcoder)**：国内 AI/算法岗最火的面经聚集地，包含大量大厂的真题、薪资爆料和面试流程分享。\n*   **一分三分地 (1point3acres)** / **Glassdoor**：适合准备外企（如 Google、Meta、微软）或海外 AI 岗位的求职者，有丰富的海外真题和薪资参考。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EvUeCvIeARFNMg8KAePR7YuQ1wFpQIfb58rSQQzI2jiRULSt6E5bU3+g1fgS/KBDU1LU6TPNkrxu415qp0UWcx3FHL7VPaYTWsHWWMVjaNgEvyfSoLjuflkQKInbr2tlSPu4Jqob9n/kDVvMvjtIkeod3Sh7JJWykkJegpudZk9jFWgYXxkz+3U47SXL32CH8tJoiAaqNXeeT9IpLblbtbBy10aZeDt8YVMsVvDSpY2962eWZujL4H7GFGm+bbS6YAh8CJmx/+4kutpvHm3Gg7QsNR4/4IFSzcpygDmqQdr5Ji59DHIYfpssatv6MU9yk2hb/vzSjhnfU4PJsgkZRRoXpIgzH7thcc3NHle2dR56MaclKP06GU48KQ1qK5bUdZMy4FE2h8uGTGeUOPbdGSKUNBZylG9VNdLAiX3OFTktkYezxjBUlEB2X5f6qomDIE92uikqQDjHmdZwcUy2lISz/bHek21R+lmZQY4R34Ox9FWGCzVyOP+Qju4GBAD0ZF413HDAWG+wreF1Qmj0OCBTYFAPyOTCkS2t3MsIVqaqstFQSmbfKQeyOW5aQvizSMpN5PZhNPReJ1fU2wDrSF2NGxIPTv0r+PoIxTwRvETzhHTDZd9SS6TgBw63LQARGmRdnhs393VeC0AFI9xUDCRpQESFHJgHVekIi/Xe1C9/aOTzbgFiSmAljI+hYPzRgaCFBahhheiE3uf4HiRo4gaoUpLyZBQb5TNs7Gg2YXYq5hpRhqvMaeMduO2mAh5aljXrqfpNsxbtZZf9rzDfwaUjUJcjZc7+9TzOtUIedQutBXg43Q9Esq0v2QGqrFNmxZI4tPYrkbport0Fbr+OzUdAkgiDlmVm7cSdcAjHiptIqgMpMgwpwOWVsncIbL914wwvhEZQ6ktGf0K+4pchRX3TmTP9NSmqsR2mj9oLrGftd470WukXoSZpfIB7nZrx8lSGTo2G5GVrFou0t55VBLy6cW0IHexc+tfFSMn7z/8hXR4BazcjklfjoLLfwnA6PwG4+zlZHT7sZsB6esfi80skEGFQNOqCPxCNZqzC0CukTV1j0PR+IYr/tfMxKJ6k+sqI7KfIzwpoxS1it42rtuStxE71D1ONyy2D+UT+NZdQ7k97Q7mcIo6FCV9FjzQIZP8pCblC0hVUIQg98t60Hv9bi4ChVp6Fyu+rOoI3R8R0WXijFPa946DX/j434UfQoAI5CRheq29XlaRY6kq/cOBZ/1idv3NnqK+WgxYlq6BfbsIUluymdkUkC+FY56Sg2/Ecw602L40s3iN3IVK7V3Qzf4bgd+sSXpE8T7fNWC19uDRLlx2g45zeuSmvTgL0RiLMuCIt+EqE4AucJy/sgrThrYVtDvNC3EMAkuSvvfQnJiWIN2fbPEAElFVu/58oFe9uL+aefsyz9exW2JX+xbTkVdQMS0rgfm0n5elJO+E0bSSoEeGj3dBjvPovjtRHsKTPrAp8sjSgpcqoay7Wlu6VwTaQknKXaNHzK/A3GqPYGE/h7Xp8r6xsSrxnpyM1/jaU20fFZuyEefOJ/AsoKys3CDX5xTEXzlqDmHC+Xmb3RkFsqJDwFHOxX6GIYr6v/b4QZAgwQJtdhK8Nl0ARcvbvZDAnVY2zSrHS/m+qfWKwgLuWp5IqAmtOm5uhnJLshGS4MdlM9fen2SwkRsMlq7lSXX4tKuXo/46xZaa0kMyl/RyesbLvoG6jZcbEStYNXDXBxlfKUyNMgvrkMRimB4XntSptsOAOFEsPXJQqRxN6UWwCG6hdB3HYLWkRjhIw1Znz1lOCexEGMt62FjPLIpVXTNm62kpal1E4+tDTWqmqXXxgfw07fixssfReJdUHPO/IFhjemy9Dbwl4ijVDNwjpj/EcI7MLP8Tngk33Sg5GRxdw4tqEJfkv9d4WClrfY8vkV9QDOA6g2qhgyD0IwzsvVJ6nc5jKmaVyEm4nla8e22XHyWL2Un4pWa7SxZeoer7CL5Z2CA5X8KyFTsqx8pwqFrXTgjRcFE7QNP78ASeDya0O890MHFIHEvHYgaejTTQnZ6lN3TG5giLFPoyO8Hv6lIN78uLh9BJFuJfo6m/U/eQIzaDmJkTq6LfcMWpbqp3sY6F25BPpWgDlm+z+2DK6PgFWlC+OuQrm1Mha+fvcAu+VHwn33h48YzBM6rIW3qP5uHagbAEX4TfOoz31BLkyc0IwIjU141vYHVWO89lyY8o4t049abX0R0mnF9L6mKy+39iioIGhCTYoNSy2U6+Ag/T38NlXZr3eDRh1xdZS+1aQ6L+4wRa9BumrcRdzZJlZQt7vw+6iQmg8GDOH4XB3uxMBwrip8on7lPytB7yK2MYyrUGYR9nfWFmYAjqwKQGHyRF8Wg5kXpqiF04/WqP8mWyAKm5m/vdkV7opVKiB6i70l7ZFnnWuj2Y2dNi6b845wCboJVj6mSfKQsD87HS9nlnAUNRIDnEOE4Wqo8IzulB/I2CW6AQWHaw57zW9fwAx7wIxf9FsUwE+QfxUj3KmiYLjCzVKFEyWZIHu+50S+vVoY/uchSG71ydx8Of9wzlQ4MEn9qs2u/tA+sI90WpCts0ZNussdN4I4Y5sqV28Y82ngCGpF5XmJz2rSC7PASd7HqM4tB2r2fBz2XWYIf1c+HIfA4yFOSz3j2LCsq0ZS2gD74ff8RWamPCxNsHWpPxA7s+zcJaPVlup6zB6ZiCbfqBBjuCTzc1kb9r6DpLRNCL4WYJcLeiB89qedE3W5wq1rOfB+zRv5fBj61xkpdCE9JSKQEauRgB2Ez1ciqToYdRGI1ZL33u1wCFeDsRifH/SRJSvrjGuYwjsxFp3rpzoYjC+nRz/ycSJ85caIbnEGvOz7vAUHmY/DyqPVhcJ4Tr/83BbB8c/AsWlI7irVwQjrxZijLbYu2Tts095EwApqRm/Boi5M0dRrPVGZvStxDlgvildh965dP5lxkDzjRhUkHyD2XTJ/jL5cYXTJmT0Dj91rQF2NuX9ATJ0rZsRZzGBN1FQFJ8cTPDaHWHbP+mC69TyBBRGAL7iUkHnMrYnbTkGD0QC9tSTvKvYY+ES34ptCICoMdN0NuUX1isXrt2ZRZH1e6dwc8KusEp4N6iQbBjMbk6ha3a1XoqBkcPpKqS65YZFh4CER5WTM0ZK8A4gng/FmAvCYBP2u+vZYjPrfb2GSQlnewfJr+VWO79KV3lyKUUYS3IUs4qhyvkL8dDcm3Drx/DOvSgCPBlVH+JyLmz4hbq1MqdiOPROIHZxfkUag30L+4cA/CN4A71hQgRs1f807/bKwwjkFbTVGFbnPUdZzH9ihBJRYLPCEU80g+nBqnjOpjZ3YNEGa4xMKxaxsdywlc+DX5NtSBhYEH/q3h4U7EzjOzQViuBGpfNJHt6qyZ5uMB5R7BUNWKCk06IQL9rAs04xxPhN3CERxhGDkbr12Et6tj/SvD2yOekg5xYV5ll/jpcVB5AJFwSTuT8CNhzqwcfnLnooZfHRAD0oxST4Xt197KwRjNGR2fqs9LaWq8wtE9XEAeQpZKkuoPShzaBoPBjBZ2KXQp2Mh+ewR9cmVxBGrCGfJDmoTgcnNo5cbafwEmL8X9AWW9P3xgzzpB7Tc3FagRQ0SIVKfI22xtX4e2LW4Wo6j0UGAC6nSj5zGuyOFq30Z4VaTFh0IgyvbEXUiC/Lst72jYCy4RtyHdCLzWtEeLUuOGAhXn0LlnaldRARbyo+3DMYM6KXLXMb4fqTkvsOSXruNWs8fjQ2//5uqrXFoYvpYyytuK5itCuycjiOvsdpH4G+oRJPSYASWO//juQCD+luT8ktHIC3hb67rMpU0gYPYdi6OUw25spqcozVgrPNct46qbzkqug/kW2qNFtdJYismXIlYm//4JwzNbZDhQDEGyfKWJLf6IFmwjf7gnusgcONIQ7axp5cAkicFiZU/YbzxEvzFaHHBch5vZkz3OkCIHusYsF09SlM10DR2/1EG+huc5cer8F96a4OIZU++lroygm86HG9oBkk8NcdNYvwz53zm/snT2ksM/NJPh/IWvEjMGSPUIArtYVsOAvwj+jGHyHSHVh+a+VEbt8L13tefYIyUKaxlHn8VhxkymwpCvw69dUTmcst4kLXg4YpDE7xQwr683jYGfnxwWdlDsS0NVE4QIlBHXNvXdUrPa7FScPLEb5UbFBgPZ3nq7SylxMJI95VwESFCY0Hrkp0xTQi1qWr++aJj50vwr4fv+GY2cCmLOQ3UzKBK7uXkywq1VZ6EUD5KPsRepETP6B0ytjCPpYh7u/QmkFu6Gr1stB7kB9E6k3ArSNulFF4HFZBSNQV0/STIfeAyJo9RzcozzYamKWK9ymMWcSya4v1UjgTxP366MsHzPrMsG9+r51gyr0hL3uCgTnu+/6+b/YlXc0LYzrMjiQkrxgmyBmkcRInJ5/f3rTsZ0XbwaGnHP10/KtDPX9DHQmW84ATVr8AVsXI0gCZoDjUZ/KvOfXP0A+E4334uxD3kGQGhPFSP70PTPgglCAjOByD69jnkMXnOnV4I2wGf9e4fDxFEfeT+/lYTCMf7xR0De/8DFX/LaPafJkF1tg48FeIiC0l6bzkFpXXE490BzvjOHP55+x1QRNXK+IuDALAvDyRwolO6SsP/yz4JQovFaFW7YmHoCbA3XFrbT9Flkkk6lNwddmfUqCXNiu1WgYJNgC1LoLBxJhSKIbhnYIq6RI/OV0+7kxZHS4FynsQw4myVgU739C3ckIyArql2hbUUw32UF1thd1uB/IQtQo5OztEfyjxYvUOWzunkegJhToegNprLVW9x1BzfMqQKKe2A/Kvy8GoNgJiZ2bYXiL0+Wh5nQMQAgrtmUTBmtWo7rAXmHf2VOM+xKlE/VqUSl1HnQ67FBIbmapgxbHJyZr62i1TnR2a8PdVU2ENAfEXeaXrERTrXHq2svO2cvWPdRLtgSOWAco5XV3gOLXz9vXAMvMWeLMh8JJD1Jq9A/3ZQW4/RN4VoQYUwham4TXNCv6uXP0JuF914M3j0+oyYFVGsX5rxy13dL2nh5PNf8yErz/yN8axrFMufVUij8Swavl2+t3bDTheBOu3jRkeN2ZALfR1HQKjjIjXEmygpcMo6p3rdzLH8itObGI/vp7IrynIWcku4f33F/DHfLINHdKTbYxEHBmI1Ap2UjEUo3rl2aaZXP4DDsc+9DupVU2QSshwVX8ewjmTFWtzCDFUXG56Nr12OW0zoxYQpLBgYlVZaxzGCC6lnbfNp2eR4QJP2JxcEktbydO2nwAR"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124901,
+    "id": "nlyFatX-B-bGnsEPqOLbgAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 37,
+      "total_tokens": 1553
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:35:01.423333Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位的面试，可以从**算法编程、AI理论与系统设计、模拟面试、面经收集**四个维度来选择工具。以下是推荐的实用工具清单：\n\n### 1. 算法与编程基础\n*   **LeetCode (力扣)**：AI 算法岗同样需要考察代码基本功。重点刷数据结构、动态规划、双指针以及经典的“手写机器学习算法”（如 KNN、K-Means、梯度下降等）。\n*   **HackerRank / Codility**：部分外企或大厂初筛使用的在线编程平台，可用于提前熟悉考试环境。\n\n### 2. 机器学习理论与系统设计 (ML System Design)\n*   **GitHub**：搜索“AI Interview”、“ML System Design”等关键词。推荐高星项目如：\n    *   *ML-Interview-Primer*（机器学习面试知识点）\n    *   *system-design-primer*（系统设计基础）\n*   **Kaggle / Hugging Face**：用于复习实战项目。回顾经典数据集的 Pipeline、模型调优、特征工程步骤，以及最新的 Transformer/LLM 微调知识。\n*   **Anki**：卡片式记忆软件。适合用来背诵和巩固机器学习八股文、数学公式、优化器原理等硬知识。\n\n### 3. AI 模拟面试与对话工具\n*   **ChatGPT / Claude**：最强大的免费/低成本模拟面试官。\n    *   *使用方法*：输入 Prompt（提示词），例如：“*请扮演 Meta 的资深 AI 科学家，对我进行一次关于‘如何设计推荐系统的重排阶段’的系统设计面试。每次只问一个问题，并在我回答后给出追问或反馈。*”\n*   **Google Interview Warmup**：谷歌推出的 AI 模拟面试工具，通过语音或文字输入回答，AI 会分析你的回答并给出改进建议（偏向通用和基础技术岗位）。\n\n### 4. 面经与求职社区\n*   **牛客网 (Nowcoder)**：国内 AI/算法岗最火的面经聚集地，包含大量大厂的真题、薪资爆料和面试流程分享。\n*   **一分三分地 (1point3acres)** / **Glassdoor**：适合准备外企（如 Google、Meta、微软）或海外 AI 岗位的求职者，有丰富的海外真题和薪资参考。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

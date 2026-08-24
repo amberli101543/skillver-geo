@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "C03",
+    "category": "category",
+    "query": "准备 AI 岗位面试可以用什么工具？",
+    "passCriteria": [
+      "说明选岗、简历、练习与正式评估是不同环节",
+      "不承诺面试通过"
+    ]
+  },
+  "answer": "准备 AI 岗位面试，可以结合**知识复习、刷题、项目实战、面试模拟**等维度，使用以下工具：\n\n### 一、算法与编程刷题\n- **LeetCode**：必用，重点刷 **Top 100 Liked、Hot 100、剑指 Offer**，AI 岗常考动态规划、图、数组、字符串等。\n- **牛客网**：国内校招/社招高频题、AI 公司真题、面经分享。\n- **Codeforces / AtCoder**：提升算法竞赛能力，适合偏研究型岗位。\n\n### 二、机器学习 / 深度学习知识\n- **《百面机器学习》《百面深度学习》**：经典面试题汇总。\n- **GitHub 面经项目**：如 `AI-Job-Interview`、`DeepLearning-500-questions`。\n- **Papers with Code**：了解前沿模型、SOTA 方法和代码实现。\n- **Hugging Face**：熟悉 Transformer、LLM、多模态模型实战。\n\n### 三、数学与理论基础\n- **Khan Academy / 3Blue1Brown**：线性代数、概率论、微积分可视化学习。\n- **Coursera / B站**：吴恩达《机器学习》《深度学习》课程复习。\n\n### 四、项目与实战\n- **Kaggle**：做真实数据集项目，熟悉建模、调参、评估。\n- **GitHub**：整理自己的 AI 项目，展示代码能力和工程能力。\n- **Colab / Jupyter**：快速验证模型、做 demo。\n\n### 五、面试模拟与简历\n- **Interviewing.io / Pramp**：英文技术面试模拟。\n- **牛客面试模拟**：国内 AI 岗位模拟面试。\n- **Canva / LaTeX**：优化简历排版，突出 AI 项目与成果。\n\n### 六、AI 辅助工具\n- **ChatGPT / Claude / 通义千问**：模拟面试官、解释算法、优化项目描述。\n- **Notion / Obsidian**：整理知识点、面经、错题本。\n\n### 建议准备路线\n1. 刷 LeetCode + 复习 ML/DL 基础  \n2. 做 1–2 个完整 AI 项目并开源  \n3. 背熟常见面试题 + 整理项目亮点  \n4. 模拟面试，练习表达逻辑  \n\n如果你告诉我**目标岗位（CV/NLP/LLM/推荐/算法）和级别（校招/社招）**，我可以给你更具体的工具清单和复习计划。",
+  "sources": [],
+  "raw": {
+    "id": "907578f8-7911-4672-bb01-e3d44f7d1168",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787124881,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "准备 AI 岗位面试，可以结合**知识复习、刷题、项目实战、面试模拟**等维度，使用以下工具：\n\n### 一、算法与编程刷题\n- **LeetCode**：必用，重点刷 **Top 100 Liked、Hot 100、剑指 Offer**，AI 岗常考动态规划、图、数组、字符串等。\n- **牛客网**：国内校招/社招高频题、AI 公司真题、面经分享。\n- **Codeforces / AtCoder**：提升算法竞赛能力，适合偏研究型岗位。\n\n### 二、机器学习 / 深度学习知识\n- **《百面机器学习》《百面深度学习》**：经典面试题汇总。\n- **GitHub 面经项目**：如 `AI-Job-Interview`、`DeepLearning-500-questions`。\n- **Papers with Code**：了解前沿模型、SOTA 方法和代码实现。\n- **Hugging Face**：熟悉 Transformer、LLM、多模态模型实战。\n\n### 三、数学与理论基础\n- **Khan Academy / 3Blue1Brown**：线性代数、概率论、微积分可视化学习。\n- **Coursera / B站**：吴恩达《机器学习》《深度学习》课程复习。\n\n### 四、项目与实战\n- **Kaggle**：做真实数据集项目，熟悉建模、调参、评估。\n- **GitHub**：整理自己的 AI 项目，展示代码能力和工程能力。\n- **Colab / Jupyter**：快速验证模型、做 demo。\n\n### 五、面试模拟与简历\n- **Interviewing.io / Pramp**：英文技术面试模拟。\n- **牛客面试模拟**：国内 AI 岗位模拟面试。\n- **Canva / LaTeX**：优化简历排版，突出 AI 项目与成果。\n\n### 六、AI 辅助工具\n- **ChatGPT / Claude / 通义千问**：模拟面试官、解释算法、优化项目描述。\n- **Notion / Obsidian**：整理知识点、面经、错题本。\n\n### 建议准备路线\n1. 刷 LeetCode + 复习 ML/DL 基础  \n2. 做 1–2 个完整 AI 项目并开源  \n3. 背熟常见面试题 + 整理项目亮点  \n4. 模拟面试，练习表达逻辑  \n\n如果你告诉我**目标岗位（CV/NLP/LLM/推荐/算法）和级别（校招/社招）**，我可以给你更具体的工具清单和复习计划。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 539,
+      "total_tokens": 588,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:34:52.273954Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "C03",
+    "answerEvidence": "准备 AI 岗位面试，可以结合**知识复习、刷题、项目实战、面试模拟**等维度，使用以下工具：\n\n### 一、算法与编程刷题\n- **LeetCode**：必用，重点刷 **Top 100 Liked、Hot 100、剑指 Offer**，AI 岗常考动态规划、图、数组、字符串等。\n- **牛客网**：国内校招/社招高频题、AI 公司真题、面经分享。\n- **Codeforces / AtCoder**：提升算法竞赛能力，适合偏研究型岗位。\n\n### 二、机器学习 / 深度学习知识\n- **《百面机器学习》《百面深度学习》**：经典面试题汇总。\n- **GitHub 面经项目**：如 `AI-Job-Interview`、`DeepLearning-500-questions`。\n- **Papers with Code**：了解前沿模型、SOTA 方法和代码实现。\n- **Hugging Face**：熟悉 Transformer、LLM、多模态模型实战。\n\n### 三、数学与理论基础\n- **Khan Academy / 3Blue1Brown**：线性代数、概率论、微积分可视化学习。\n- **Coursera / B站**：吴恩达《机器学习》《深度学习》课程复习。\n\n### 四、项目与实战\n- **Kaggle**：做真实数据集项目，熟悉建模、调参、评估。\n- **GitHub**：整理自己的 AI 项目，展示代码能力和工程能力。\n- **Colab / Jupyter**：快速验证模型、做 demo。\n\n### 五、面试模拟与简历\n- **Interviewing.io / Pramp**：英文技术面试模拟。\n- **牛客面试模拟**：国内 AI 岗位模拟面试。\n- **Canva / LaTeX**：优化简历排版，突出 AI 项目与成果。\n\n### 六、AI 辅助工具\n- **ChatGPT / Claude / 通义千问**：模拟面试官、解释算法、优化项目描述。\n- **Notion / Obsidian**：整理知识点、面经、错题本。\n\n### 建议准备路线\n1. 刷 LeetCode + 复习 ML/DL 基础  \n2. 做 1–2 个完整 AI 项目并开源  \n3. 背熟常见面试题 + 整理项目亮点  \n4. 模拟面试，练习表达逻辑  \n\n如果你告诉我**目标岗位（CV/NLP/LLM/推荐/算法）和级别（校招/社招）**，我可以给你更具体的工具清单和复习计划。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-C03.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

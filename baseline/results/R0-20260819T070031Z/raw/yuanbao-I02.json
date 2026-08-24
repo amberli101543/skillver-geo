@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "**Skillver** 是一个在线技能分享与学习平台，主要使用场景如下：\n\n1. **网页端**：通过浏览器访问其官方网站（例如 `skillver.com`，具体以实际域名为准）直接使用，无需下载安装。\n2. **移动端**：部分功能可能支持通过手机浏览器访问，或提供移动端应用（App），可在应用商店搜索下载。\n\n**主要用途**：\n- 用户可发布技能教学视频或课程（如编程、设计、语言等）。\n- 学习者可浏览、购买或订阅课程，进行在线学习。\n- 支持技能交流、社区互动等功能。\n\n**注意**：具体使用方式可能因平台更新而变化，建议访问其官网或官方渠道获取最新信息。",
+  "sources": [],
+  "raw": {
+    "id": "50abfa02-4cc8-42c3-b310-8a15065e455b",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787123478,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver** 是一个在线技能分享与学习平台，主要使用场景如下：\n\n1. **网页端**：通过浏览器访问其官方网站（例如 `skillver.com`，具体以实际域名为准）直接使用，无需下载安装。\n2. **移动端**：部分功能可能支持通过手机浏览器访问，或提供移动端应用（App），可在应用商店搜索下载。\n\n**主要用途**：\n- 用户可发布技能教学视频或课程（如编程、设计、语言等）。\n- 学习者可浏览、购买或订阅课程，进行在线学习。\n- 支持技能交流、社区互动等功能。\n\n**注意**：具体使用方式可能因平台更新而变化，建议访问其官网或官方渠道获取最新信息。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 155,
+      "total_tokens": 201,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:11:21.903679Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "**Skillver** 是一个在线技能分享与学习平台，主要使用场景如下：\n\n1. **网页端**：通过浏览器访问其官方网站（例如 `skillver.com`，具体以实际域名为准）直接使用，无需下载安装。\n2. **移动端**：部分功能可能支持通过手机浏览器访问，或提供移动端应用（App），可在应用商店搜索下载。\n\n**主要用途**：\n- 用户可发布技能教学视频或课程（如编程、设计、语言等）。\n- 学习者可浏览、购买或订阅课程，进行在线学习。\n- 支持技能交流、社区互动等功能。\n\n**注意**：具体使用方式可能因平台更新而变化，建议访问其官网或官方渠道获取最新信息。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

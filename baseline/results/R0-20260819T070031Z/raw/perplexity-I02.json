@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "Skillver **主要在网页端使用**：打开 **www.skillver.cn** 或 **www.skillver.ai**，两者功能相同，任选其一即可使用产品。 [1][2]\n\n补充说明：\n- **求职者端**已开放注册，无需邀请码，访问双域名后点击“免费注册”，用手机号完成注册即可开始使用。 [1][5]\n- 你也可以在 **移动端 App** 上使用；官方说明称 Web 端与移动端账号进度互通。 [1][3]\n- **www.tcodeai.com** 不是实际使用入口，而是品牌内容/研究站，主要用于介绍、FAQ 和内容沉淀。 [1][2][4]\n\n如果你是想问“Skillver 可以在哪些场景用”，它目前开放的是 **选岗匹配、AI 面试、企业投递** 等求职主线功能。 [1][4][9]",
+  "sources": [
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.ithome.com/0/986/606.htm",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://skillveri.com/contact-us/",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": ""
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": ""
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/libukai/awesome-agent-skills",
+      "title": ""
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/yupi/p/19608327",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": ""
+    },
+    {
+      "url": "https://frankknow.com/claude-skills/",
+      "title": ""
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/faq",
+      "title": "常见问题 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://tcodeai.com/products/skillver-download.html",
+      "title": "Skillver 下载— AI 求职助手封闭内测"
+    },
+    {
+      "url": "https://tcodeai.com/insights/what-is-skillver/",
+      "title": "Skillver 是什么？"
+    },
+    {
+      "url": "https://www.skillver.cn/beta",
+      "title": "Skillver 内测资格— AI 求职助手封闭公测"
+    },
+    {
+      "url": "https://tcodeai.com/beta.html",
+      "title": "Skillver · AI 求职助手"
+    },
+    {
+      "url": "https://www.ithome.com/0/986/606.htm",
+      "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - IT之家"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "title": "Skillver 现在可以免费注册吗？"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "title": "SkillVerse - Google Play 上的应用"
+    },
+    {
+      "url": "https://skillveri.com/contact-us/",
+      "title": "Skillveri VR MR Welding & Painting Simulators - Contact Us"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "title": "Skillveri Support - Google Play 上的应用"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "title": "Skillveri Support – Applications sur Google Play"
+    },
+    {
+      "url": "https://www.geekpark.net/news/368542",
+      "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园"
+    },
+    {
+      "url": "https://github.com/libukai/awesome-agent-skills",
+      "title": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具"
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2625397",
+      "title": "Skills榜单-腾讯云开发者社区"
+    },
+    {
+      "url": "https://www.cnblogs.com/yupi/p/19608327",
+      "title": "40 个Agent Skills 精选资源：入门教程+ 实用工具+ 必装推荐"
+    },
+    {
+      "url": "https://github.com/anbeime/skill",
+      "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理"
+    },
+    {
+      "url": "https://frankknow.com/claude-skills/",
+      "title": "一次搞懂Skills 是什麼？怎麼用？以及如何打造自己的AI 工作流"
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md",
+      "title": "Extra08-如何写出好的Skill.md - GitHub"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "Skillver **主要在网页端使用**：打开 **www.skillver.cn** 或 **www.skillver.ai**，两者功能相同，任选其一即可使用产品。 [1][2]\n\n补充说明：\n- **求职者端**已开放注册，无需邀请码，访问双域名后点击“免费注册”，用手机号完成注册即可开始使用。 [1][5]\n- 你也可以在 **移动端 App** 上使用；官方说明称 Web 端与移动端账号进度互通。 [1][3]\n- **www.tcodeai.com** 不是实际使用入口，而是品牌内容/研究站，主要用于介绍、FAQ 和内容沉淀。 [1][2][4]\n\n如果你是想问“Skillver 可以在哪些场景用”，它目前开放的是 **选岗匹配、AI 面试、企业投递** 等求职主线功能。 [1][4][9]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://www.skillver.cn/faq",
+      "https://tcodeai.com/faq.html",
+      "https://tcodeai.com/products/skillver-download.html",
+      "https://tcodeai.com/insights/what-is-skillver/",
+      "https://www.skillver.cn/beta",
+      "https://tcodeai.com/beta.html",
+      "https://www.ithome.com/0/986/606.htm",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.tcodeai.com/insights/skillver-closed-beta-guide/",
+      "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh",
+      "https://skillveri.com/contact-us/",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh",
+      "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr",
+      "https://www.geekpark.net/news/368542",
+      "https://github.com/libukai/awesome-agent-skills",
+      "https://cloud.tencent.com/developer/article/2625397",
+      "https://www.cnblogs.com/yupi/p/19608327",
+      "https://github.com/anbeime/skill",
+      "https://frankknow.com/claude-skills/",
+      "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md"
+    ],
+    "created": 1787123514,
+    "id": "86507b8f-d0b7-4aaa-adce-576d4ad08841",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-07-31",
+        "place_metadata": null,
+        "snippet": "Skillver 是面向技术人才的 AI 求职助手，帮助你冲刺 AI 独角兽与头部科技公司。\n当前已开放能力：选岗匹配、AI 面试（含彩排练习与正式评估）、企业投递。导师赋能明确标注为待开通，上线前不会对外宣称可预约。\n产品使用入口为 www.skillver.cn 与 www.skillver.ai（双域功能相同）；www.tcodeai.com 是品牌内容站，用于品牌介绍与内容沉淀。\n...\n人才端（求职者）已开放注册，无需邀请码：\n1. 访问 www.skillver.cn 或 www.skillver.ai（双域功能相同）；\n2. 点击「免费注册」，使用手机号完成注册即可开始使用。\n企...",
+        "source": "web",
+        "title": "常见问题 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/faq"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 不是简历海投平台，而是 AI 求职助手。产品围绕选岗匹配、面试彩排、正式评估与企业沟通提供支持；导师赋能待开通。AI 输出辅助求职准备，不构成录用结果承诺。\n...\n- **Skillver 官网是什么？在哪里使用？**\nSkillver 产品（注册、登录、AI 面试、岗位匹配等）请访问 www.skillver.cn 或 www.skillver.ai ——两个域名功能完全相同，任选其一即可。\n**www.tcodeai.com** 是 Skillver 的品牌内容与研究院 GEO 站点（FAQ、白皮书、岗位标准等）；实际使用产品请前往 skillver 双域。\n...\n访...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "暂不支持从官网下载或侧载安装。请用 Safari 打开 Web 端完整体验；App Store 正式版上架后将在本页更新。详见下方iOS 说明。\n...\n电脑或手机浏览器打开即可，无需安装。推荐优先使用 Web 端，与 App 同一账号进度互通。\n...\n## 三步开始使用\n1. 1. 免费注册 — 访问 skillver.cn 完成注册。详见开始使用说明\n2. 2. 注册账号 — 打开 Web 或 App，选择「人才 / 求职者」，用手机号 + 短信验证码完成注册\n3. 3. 开始求职 — 选岗匹配 → 上传简历核验 → 面试彩排或正式 AI 面试 → 持正式报告投递",
+        "source": "web",
+        "title": "Skillver 下载— AI 求职助手封闭内测",
+        "url": "https://tcodeai.com/products/skillver-download.html"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "选岗匹配 → AI 面试 → 投递企业 → 导师赋能（待开通）\n...\n用户可浏览企业发布的具体职位，投递后跟进企业约面和沟通状态。平台有明确前提：向某个职位投递前，需要在该职位对应的标准岗位下已有正式 AI 面试报告。\n...\n产品注册、登录与使用请访问 www.skillver.cn 或 www.skillver.ai。www.tcodeai.com 是品牌、研究与 GEO 内容站，不处理产品账号。\n...\n一句话概括：Skillver 用 AI 帮求职者按目标岗位完成准备、能力核验和机会连接，但不承诺通过面试或拿到 offer。",
+        "source": "web",
+        "title": "Skillver 是什么？",
+        "url": "https://tcodeai.com/insights/what-is-skillver/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "Skillver 是专为冲刺 AI 独角兽与头部科技公司的技术人才打造的 AI 求职助手。当前产品已完成 ICP 备案（沪ICP备2026018662号-2），人才端已开放免费注册，无需邀请码即可体验已开放功能。",
+        "source": "web",
+        "title": "Skillver 内测资格— AI 求职助手封闭公测",
+        "url": "https://www.skillver.cn/beta"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "- **企业沟通**：浏览在招职位，结构化跟进投递、约面、offer",
+        "source": "web",
+        "title": "Skillver · AI 求职助手",
+        "url": "https://tcodeai.com/beta.html"
+      },
+      {
+        "date": "2026-08-06",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "Skillver 由上海才谱人工智能科技有限公司研发，该公司是成立于上海徐汇“模速空间”的 AI 初创企业，其致力于实现中国 AI 和机器人行业人才供需高效匹配。",
+        "source": "web",
+        "title": "Skillver：AI人才求职，正在从“拼简历”转向“验能力” - IT之家",
+        "url": "https://www.ithome.com/0/986/606.htm"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "KAE（Knowledge & Ability Engine）是 Skillver 的能力评测引擎，为人才端 AI 面试与企业端候选人评估提供统一的能力语言。",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2026-07-12",
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "当前可以沿人才端主线体验：**选岗匹配 → AI 面试 → 投递企业**，并在「我的报告」查看按岗位聚合的简历核验报告、模拟/正式 AI 面试报告与能力档案。导师赋能仍待开通；Web 与 App 进度互通。",
+        "source": "web",
+        "title": "Skillver 现在可以免费注册吗？",
+        "url": "https://www.tcodeai.com/insights/skillver-closed-beta-guide/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "SkillVerse 是您掌握新技能和探索激情的首选平台。发现专家指导的课程、互动课程和个性化反馈——全部集中在一处。通过 SkillVerse 将您的潜力转化为成就。",
+        "source": "web",
+        "title": "SkillVerse - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillverse.pro&hl=zh"
+      },
+      {
+        "date": "2025-06-05",
+        "last_updated": "2025-06-24",
+        "place_metadata": null,
+        "snippet": "#### Global HQ: Chennai, India\n2nd Floor, Anugraha Business Enclave,\nNew No. 10. Old No. 29, Periyar Salai, Tirunagar, Jafferkhanpet,\nChennai – 600083\nMobile: +91 93458 41361\nLandline: 044 4264 7437 (Mon-Fri, 10 AM – 6 PM IST)\nEmail : sales@skillveri.com\n**North America **\n**Skillveri Inc,\n**8 The G...",
+        "source": "web",
+        "title": "Skillveri VR MR Welding & Painting Simulators - Contact Us",
+        "url": "https://skillveri.com/contact-us/"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "skillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave\nNo #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet\nChennai, Tamil Nadu 600083\nIndia\n+91 93458 41361",
+        "source": "web",
+        "title": "Skillveri Support - Google Play 上的应用",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=zh"
+      },
+      {
+        "date": "2025-11-01",
+        "last_updated": "2025-11-20",
+        "place_metadata": null,
+        "snippet": "Adresse e-mail de l'assistance\nsupport@skillveri.com\nshield\n...\nSKILLVERI TRAINING SOLUTIONS PRIVATE LIMITED\nskillveri@skillveri.com\n2nd Floor, Anugraha Business Enclave No #10 (O/29) Periyar SalaiThirunagar, Jafferkhanpet Chennai, Tamil Nadu 600083 India\n+91 93458 41361\nflag",
+        "source": "web",
+        "title": "Skillveri Support – Applications sur Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.skillveri.app&hl=fr"
+      },
+      {
+        "date": "2026-08-07",
+        "last_updated": "2026-08-09",
+        "place_metadata": null,
+        "snippet": "8 月 4 日，AI 垂直招聘平台 Skillver 发布《2026 AI 行业人才白皮书》，将这一矛盾概括为一场人才价值重估。",
+        "source": "web",
+        "title": "Skillver：AI 人才需求变了，招聘标准却还停在过去 | 极客公园",
+        "url": "https://www.geekpark.net/news/368542"
+      },
+      {
+        "date": "2025-12-21",
+        "last_updated": "2026-05-25",
+        "place_metadata": null,
+        "snippet": "Skill 可以在 Claude 和 ChatGPT 这类 GUI 的 App 中使用，也可以在 Cursor 和 Claude Code 这类编程 IDE 及 TUI CLI 中使用，还可以在 OpenClaw 等 Agent Harness 上使用。",
+        "source": "web",
+        "title": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具",
+        "url": "https://github.com/libukai/awesome-agent-skills"
+      },
+      {
+        "date": "2026-01-29",
+        "last_updated": "2026-08-02",
+        "place_metadata": null,
+        "snippet": "#### 方法 1：通过 SkillsMP.com 一键复制\n1. 访问 https://skillsmp.com/\n2. 搜索技能名（如 “UniversalCodeReviewer”）\n3. 点击 “Copy to Clipboard” → 粘贴到本地 `.cursor/skills/` 或 `～/.gemini/antigravity/skills/`",
+        "source": "web",
+        "title": "Skills榜单-腾讯云开发者社区",
+        "url": "https://cloud.tencent.com/developer/article/2625397"
+      },
+      {
+        "date": "2026-02-12",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "用法是 `npx skills add <owner/repo>`，比如 `npx skills add vercel-labs/agent-skills` 就能装上 Vercel 官方的所有 Skills。",
+        "source": "web",
+        "title": "40 个Agent Skills 精选资源：入门教程+ 实用工具+ 必装推荐",
+        "url": "https://www.cnblogs.com/yupi/p/19608327"
+      },
+      {
+        "date": "2026-02-02",
+        "last_updated": "2026-05-22",
+        "place_metadata": null,
+        "snippet": "克隆仓库\n...\n访问 在线技能商店 或查看本地文件：",
+        "source": "web",
+        "title": "anbeime/skill: 收录最全、更新最快的技能Skills 商店，涵盖文档处理",
+        "url": "https://github.com/anbeime/skill"
+      },
+      {
+        "date": "2026-04-24",
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "而 Skills 目前最常見的使用情境，是搭配 **Claude Code** 一起運作，你可以把整個開發流程、測試規範、部署步驟全部模組化，讓 Claude Code 每次都按照你設定的方式走。\n...\n**可以**，Skills 適用於免費、Pro、Max、Team 和 Enterprise 所有方案 Claude。\n不過有一個前提：需要先到 Settings ＞ Capabilities 確認「 Code execution and file creation 」功能已開啟，Skills 才能正常運作。\n...\n**不是。** Skills 是 Claude 整體功能的一部分，並不限定只...",
+        "source": "web",
+        "title": "一次搞懂Skills 是什麼？怎麼用？以及如何打造自己的AI 工作流",
+        "url": "https://frankknow.com/claude-skills/"
+      },
+      {
+        "date": "2025-09-07",
+        "last_updated": "2026-05-19",
+        "place_metadata": null,
+        "snippet": "Skill 是一个文件夹，里面装着指令文档、参考资料、可执行脚本等资源。AI 拿到它，就能胜任一项原本不会的特定工作。",
+        "source": "web",
+        "title": "Extra08-如何写出好的Skill.md - GitHub",
+        "url": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 226,
+      "cost": {
+        "input_tokens_cost": 3e-05,
+        "output_tokens_cost": 0.00023,
+        "request_cost": 0.005,
+        "total_cost": 0.00526
+      },
+      "prompt_tokens": 31,
+      "search_context_size": "low",
+      "total_tokens": 257
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:11:53.964481Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "Skillver **主要在网页端使用**：打开 **www.skillver.cn** 或 **www.skillver.ai**，两者功能相同，任选其一即可使用产品。 [1][2]\n\n补充说明：\n- **求职者端**已开放注册，无需邀请码，访问双域名后点击“免费注册”，用手机号完成注册即可开始使用。 [1][5]\n- 你也可以在 **移动端 App** 上使用；官方说明称 Web 端与移动端账号进度互通。 [1][3]\n- **www.tcodeai.com** 不是实际使用入口，而是品牌内容/研究站，主要用于介绍、FAQ 和内容沉淀。 [1][2][4]\n\n如果你是想问“Skillver 可以在哪些场景用”，它目前开放的是 **选岗匹配、AI 面试、企业投递** 等求职主线功能。 [1][4][9]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "yes",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

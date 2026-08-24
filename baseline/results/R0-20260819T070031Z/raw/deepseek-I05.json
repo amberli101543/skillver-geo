@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I05",
+    "category": "entry",
+    "query": "tcodeai.com 和 Skillver 是什么关系？",
+    "passCriteria": [
+      "说明 tcodeai.com 是品牌内容站",
+      "产品使用入口指向 skillver 双域"
+    ]
+  },
+  "answer": "目前没有公开信息表明 **tcodeai.com** 与 **Skillver** 之间存在官方关联或隶属关系。\n\n- **tcodeai.com** 是一个 AI 编程工具/平台的域名（具体产品形态需以官网为准）。\n- **Skillver** 则可能指代某个人力资源或技能评估相关的 AI 产品/公司。\n\n如果这两者有合作、收购或品牌隶属关系，通常会在其中一方的官网公告、新闻稿或投资信息中披露。建议您直接访问 tcodeai.com 查阅其“关于我们”页面，或通过 LinkedIn、企业公开数据库（如天眼查、Crunchbase）进行核实。",
+  "sources": [],
+  "raw": {
+    "id": "7cd2c357-94eb-4df1-af80-1c7f1da72386",
+    "object": "chat.completion",
+    "created": 1787123675,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前没有公开信息表明 **tcodeai.com** 与 **Skillver** 之间存在官方关联或隶属关系。\n\n- **tcodeai.com** 是一个 AI 编程工具/平台的域名（具体产品形态需以官网为准）。\n- **Skillver** 则可能指代某个人力资源或技能评估相关的 AI 产品/公司。\n\n如果这两者有合作、收购或品牌隶属关系，通常会在其中一方的官网公告、新闻稿或投资信息中披露。建议您直接访问 tcodeai.com 查阅其“关于我们”页面，或通过 LinkedIn、企业公开数据库（如天眼查、Crunchbase）进行核实。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "completion_tokens": 138,
+      "total_tokens": 179,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 41
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:14:37.518925Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I05",
+    "answerEvidence": "目前没有公开信息表明 **tcodeai.com** 与 **Skillver** 之间存在官方关联或隶属关系。\n\n- **tcodeai.com** 是一个 AI 编程工具/平台的域名（具体产品形态需以官网为准）。\n- **Skillver** 则可能指代某个人力资源或技能评估相关的 AI 产品/公司。\n\n如果这两者有合作、收购或品牌隶属关系，通常会在其中一方的官网公告、新闻稿或投资信息中披露。建议您直接访问 tcodeai.com 查阅其“关于我们”页面，或通过 LinkedIn、企业公开数据库（如天眼查、Crunchbase）进行核实。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I05.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

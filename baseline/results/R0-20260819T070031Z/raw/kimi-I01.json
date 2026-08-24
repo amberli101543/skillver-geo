@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I01",
+    "category": "entry",
+    "query": "Skillver 官网是什么？",
+    "passCriteria": [
+      "推荐 www.skillver.cn 或 www.skillver.ai",
+      "不把 tcodeai.com 作为产品登录入口"
+    ]
+  },
+  "answer": "抱歉，我目前无法确认 **Skillver** 的确切官方网站地址。\n\n建议您通过 Google 或百度搜索“**Skillver 官网**”进行查找，并注意核对域名信息，避免访问非官方站点。如果您能提供更多背景信息（例如它所属的行业，如技能认证、招聘服务等），我可以尝试进一步帮您确认。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a8556c69af0b4304c80abc2",
+    "object": "chat.completion",
+    "created": 1787123398,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "抱歉，我目前无法确认 **Skillver** 的确切官方网站地址。\n\n建议您通过 Google 或百度搜索“**Skillver 官网**”进行查找，并注意核对域名信息，避免访问非官方站点。如果您能提供更多背景信息（例如它所属的行业，如技能认证、招聘服务等），我可以尝试进一步帮您确认。",
+          "reasoning_content": "用户询问 \"Skillver 官网是什么？\"，这是一个关于特定品牌或公司官方网站的事实性问题。\n\n首先，我需要确认 \"Skillver\" 是什么。根据我的知识，Skillver 似乎是一家与技能验证、招聘或教育科技相关的公司，但我不确定其确切的官方网站URL。\n\n让我回忆一下：Skillver 可能是：\n1. 一个技能评估平台\n2. 一个招聘或人力资源技术公司\n3. 一个教育科技初创公司\n\n然而，我需要谨慎，因为我没有关于 \"Skillver\" 官方网站的明确、可靠的信息。如果我无法确认确切的官方网站，我应该诚实地说明，而不是编造URL。\n\n可能的官方网站可能是 skillver.com 或类似的域名，但如果没有确切把握，我不应该随意猜测，因为这可能导致用户访问错误的或恶意的网站。\n\n最安全的做法是：\n1. 说明我无法确认 Skillver 的确切官方网站\n2. 建议用户通过搜索引擎查找\n3. 如果我知道相关信息，可以提供上下文\n\n等等，让我再仔细思考一下。是否有名为 \"Skillver\" 的知名公司？可能是 \"Skillver\" 拼写错误，或者是 \"Skillshare\"、\"Skillsver\" 的变体？\n\n实际上，用户明确问的是 \"Skillver\"。我应该：\n- 如果知道，直接提供官网链接\n- 如果不确定，坦白说明并提供搜索建议\n\n经过仔细考虑，我无法100%确定 Skillver 的官方网站地址。因此，我应该诚实地回答，并建议用户通过可靠渠道查找。\n\n但是，如果我确实不知道，直接说不知道比猜测更好。\n\n等等，让我再想想... 可能是 skillver.com？但我不应该假设。\n\n最终决定：用中文回答，说明无法确认确切网址，建议通过搜索引擎查询，并提醒用户注意辨别官方网站以防钓鱼网站。\n\n回答结构：\n1. 直接回应：目前无法确认 Skillver 的官方网站\n2. 建议：通过 Google/百度 搜索 \"Skillver 官网\"\n3. 提醒：注意辨别域名，避免进入钓鱼网站\n4. 补充：如果 Skillver 是特定行业（如招聘、技能认证），可以建议查看 LinkedIn 或企业注册信息\n\n保持简洁，符合系统提示的 \"factual and concise\" 要求。\n\n最终回答（中文）：\n抱歉，我目前无法确认 Skillver 的确切官方网站地址。建议您通过 Google 或百度搜索“Skillver 官网”进行查找，并注意核对域名信息，避免访问非官方站点。如果您指的是某个特定领域的 Skillver（如技能认证、招聘服务等），提供更多背景信息可能有助于进一步确认。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 595,
+      "total_tokens": 637,
+      "completion_tokens_details": {
+        "reasoning_tokens": 524
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:10:14.685761Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I01",
+    "answerEvidence": "抱歉，我目前无法确认 **Skillver** 的确切官方网站地址。\n\n建议您通过 Google 或百度搜索“**Skillver 官网**”进行查找，并注意核对域名信息，避免访问非官方站点。如果您能提供更多背景信息（例如它所属的行业，如技能认证、招聘服务等），我可以尝试进一步帮您确认。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-I01.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

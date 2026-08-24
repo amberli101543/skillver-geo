@@ -1,0 +1,68 @@
+{
+  "engine": "chatgpt",
+  "model": "gpt-5.5",
+  "baseUrl": "https://api.openai.com/v1",
+  "question": {
+    "id": "T03",
+    "category": "term",
+    "query": "Skillver 面试彩排是什么？",
+    "passCriteria": [
+      "说明彩排是练习模式",
+      "明确彩排不等于正式评估"
+    ]
+  },
+  "answer": "Skillver「面试彩排」通常指一种**模拟真实面试的练习服务/功能**：在正式面试前，帮你提前演练面试流程，熟悉常见问题，并获得反馈。\n\n一般会包括：\n\n- 模拟面试官提问  \n- 练习自我介绍、项目经历、岗位匹配度等回答  \n- 针对简历或目标岗位追问  \n- 反馈表达逻辑、回答内容、临场表现  \n- 帮你发现问题并优化面试策略  \n\n简单来说，它就像正式面试前的一次“排练”，目的是让你在真正面试时更自信、回答更清晰。\n\n如果你说的是 Skillver 平台里的具体产品，我也可以帮你进一步解释它的使用流程或适合哪些人。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-EEUvhJcZYFwn89pxjJWIk5FQMVFvO",
+    "object": "chat.completion",
+    "created": 1787124193,
+    "model": "gpt-5.5-2026-04-23",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Skillver「面试彩排」通常指一种**模拟真实面试的练习服务/功能**：在正式面试前，帮你提前演练面试流程，熟悉常见问题，并获得反馈。\n\n一般会包括：\n\n- 模拟面试官提问  \n- 练习自我介绍、项目经历、岗位匹配度等回答  \n- 针对简历或目标岗位追问  \n- 反馈表达逻辑、回答内容、临场表现  \n- 帮你发现问题并优化面试策略  \n\n简单来说，它就像正式面试前的一次“排练”，目的是让你在真正面试时更自信、回答更清晰。\n\n如果你说的是 Skillver 平台里的具体产品，我也可以帮你进一步解释它的使用流程或适合哪些人。",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 43,
+      "completion_tokens": 267,
+      "total_tokens": 310,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 80,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:23:17.854424Z",
+    "engine": "chatgpt",
+    "surface": "api",
+    "questionId": "T03",
+    "answerEvidence": "Skillver「面试彩排」通常指一种**模拟真实面试的练习服务/功能**：在正式面试前，帮你提前演练面试流程，熟悉常见问题，并获得反馈。\n\n一般会包括：\n\n- 模拟面试官提问  \n- 练习自我介绍、项目经历、岗位匹配度等回答  \n- 针对简历或目标岗位追问  \n- 反馈表达逻辑、回答内容、临场表现  \n- 帮你发现问题并优化面试策略  \n\n简单来说，它就像正式面试前的一次“排练”，目的是让你在真正面试时更自信、回答更清晰。\n\n如果你说的是 Skillver 平台里的具体产品，我也可以帮你进一步解释它的使用流程或适合哪些人。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/chatgpt-T03.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

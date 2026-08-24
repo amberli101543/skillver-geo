@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "一般来说，面试彩排（模拟面试）**不会直接**计入正式评估的分数，但在不同情况下，它会以不同方式影响你的最终结果：\n\n### 1. 积极的间接影响（最常见）\n*   **消除紧张感：** 彩排能让你熟悉面试流程、设备（如视频会议软件）和常见问题，降低正式面试时的焦虑。\n*   **优化回答内容：** 通过彩排，你可以发现自己表达不流畅、逻辑混乱或重点不突出的地方，并在正式面试前进行修正。\n\n### 2. 潜在的负面影响（需警惕）\n如果你参加的是**招聘方内部（如HR或猎头）**组织的彩排，虽然不直接打分，但以下情况会影响正式评估：\n*   **态度与专业度：** 如果你在彩排中表现得过于随意、迟到、不礼貌或准备极度不充分，HR可能会在正式面试前就对你的职业素养产生怀疑，甚至取消你的正式面试资格。\n*   **暴露硬伤：** 如果在彩排中透露了与简历严重不符的信息或价值观冲突，HR会向正式面试官报备。\n\n### 3. “假彩排，真面试”\n有些公司会将第一轮的“电话沟通”或“技术预对接”称为“彩排”或“暖场”，但这实际上是**初筛（Screening）**。这种情况下，彩排的表现会直接决定你是否能进入下一轮。\n\n### 建议：\n**把每一次彩排都当作正式面试来对待。** 保持职业装束、准时出席、礼貌沟通，这不仅能留给招聘方良好的第一印象，也能帮你调整到最佳的竞争状态。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "一般来说，面试彩排（模拟面试）**不会直接**计入正式评估的分数，但在不同情况下，它会以不同方式影响你的最终结果：\n\n### 1. 积极的间接影响（最常见）\n*   **消除紧张感：** 彩排能让你熟悉面试流程、设备（如视频会议软件）和常见问题，降低正式面试时的焦虑。\n*   **优化回答内容：** 通过彩排，你可以发现自己表达不流畅、逻辑混乱或重点不突出的地方，并在正式面试前进行修正。\n\n### 2. 潜在的负面影响（需警惕）\n如果你参加的是**招聘方内部（如HR或猎头）**组织的彩排，虽然不直接打分，但以下情况会影响正式评估：\n*   **态度与专业度：** 如果你在彩排中表现得过于随意、迟到、不礼貌或准备极度不充分，HR可能会在正式面试前就对你的职业素养产生怀疑，甚至取消你的正式面试资格。\n*   **暴露硬伤：** 如果在彩排中透露了与简历严重不符的信息或价值观冲突，HR会向正式面试官报备。\n\n### 3. “假彩排，真面试”\n有些公司会将第一轮的“电话沟通”或“技术预对接”称为“彩排”或“暖场”，但这实际上是**初筛（Screening）**。这种情况下，彩排的表现会直接决定你是否能进入下一轮。\n\n### 建议：\n**把每一次彩排都当作正式面试来对待。** 保持职业装束、准时出席、礼貌沟通，这不仅能留给招聘方良好的第一印象，也能帮你调整到最佳的竞争状态。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787124401,
+    "id": "q1qFauySJObGnsEPqOLbgAw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 380,
+      "prompt_tokens": 37,
+      "total_tokens": 1115
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:26:41.018054Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "一般来说，面试彩排（模拟面试）**不会直接**计入正式评估的分数，但在不同情况下，它会以不同方式影响你的最终结果：\n\n### 1. 积极的间接影响（最常见）\n*   **消除紧张感：** 彩排能让你熟悉面试流程、设备（如视频会议软件）和常见问题，降低正式面试时的焦虑。\n*   **优化回答内容：** 通过彩排，你可以发现自己表达不流畅、逻辑混乱或重点不突出的地方，并在正式面试前进行修正。\n\n### 2. 潜在的负面影响（需警惕）\n如果你参加的是**招聘方内部（如HR或猎头）**组织的彩排，虽然不直接打分，但以下情况会影响正式评估：\n*   **态度与专业度：** 如果你在彩排中表现得过于随意、迟到、不礼貌或准备极度不充分，HR可能会在正式面试前就对你的职业素养产生怀疑，甚至取消你的正式面试资格。\n*   **暴露硬伤：** 如果在彩排中透露了与简历严重不符的信息或价值观冲突，HR会向正式面试官报备。\n\n### 3. “假彩排，真面试”\n有些公司会将第一轮的“电话沟通”或“技术预对接”称为“彩排”或“暖场”，但这实际上是**初筛（Screening）**。这种情况下，彩排的表现会直接决定你是否能进入下一轮。\n\n### 建议：\n**把每一次彩排都当作正式面试来对待。** 保持职业装束、准时出席、礼貌沟通，这不仅能留给招聘方良好的第一印象，也能帮你调整到最佳的竞争状态。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-T06.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

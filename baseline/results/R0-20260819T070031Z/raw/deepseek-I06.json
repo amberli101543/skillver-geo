@@ -1,0 +1,61 @@
+{
+  "engine": "deepseek",
+  "model": "deepseek-chat",
+  "baseUrl": "https://api.deepseek.com/v1",
+  "question": {
+    "id": "I06",
+    "category": "entry",
+    "query": "Skillver 有移动端吗？",
+    "passCriteria": [
+      "仅陈述事实源可确认的内测移动端状态",
+      "不声称已在应用商店公开上架"
+    ]
+  },
+  "answer": "目前 **Skillver 没有移动端应用**。该平台主要提供 Web 端服务，用户可通过浏览器访问使用。如果你需要移动办公，建议使用手机浏览器登录，但体验可能不如桌面端流畅。后续如有移动端上线计划，建议关注官方公告。",
+  "sources": [],
+  "raw": {
+    "id": "a3b320b9-459c-4605-956c-0aa9088ea757",
+    "object": "chat.completion",
+    "created": 1787123732,
+    "model": "deepseek-v4-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前 **Skillver 没有移动端应用**。该平台主要提供 Web 端服务，用户可通过浏览器访问使用。如果你需要移动办公，建议使用手机浏览器登录，但体验可能不如桌面端流畅。后续如有移动端上线计划，建议关注官方公告。"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 57,
+      "total_tokens": 94,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    },
+    "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:15:33.072138Z",
+    "engine": "deepseek",
+    "surface": "api",
+    "questionId": "I06",
+    "answerEvidence": "目前 **Skillver 没有移动端应用**。该平台主要提供 Web 端服务，用户可通过浏览器访问使用。如果你需要移动办公，建议使用手机浏览器登录，但体验可能不如桌面端流畅。后续如有移动端上线计划，建议关注官方公告。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/deepseek-I06.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

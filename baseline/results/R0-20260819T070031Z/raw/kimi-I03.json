@@ -1,0 +1,58 @@
+{
+  "engine": "kimi",
+  "model": "kimi-k2.6",
+  "baseUrl": "https://api.moonshot.ai/v1",
+  "question": {
+    "id": "I03",
+    "category": "entry",
+    "query": "怎么注册 Skillver？",
+    "passCriteria": [
+      "说明可直接官网自助注册",
+      "说明注册不再需要邀请码"
+    ]
+  },
+  "answer": "目前我没有找到名为 **Skillver** 的知名平台的确切信息，可能是名称拼写有误。你是否指的是以下平台之一？\n\n1. **Skillshare**（全球知名的在线学习平台）  \n2. **Skillveri**（印度的VR技能培训平台）  \n3. 其他新兴或区域性平台\n\n### 如果是 Skillshare，注册步骤如下：\n1. 访问官网 **skillshare.com** 或下载 Skillshare App。\n2. 点击右上角 **\"Sign Up\"**（注册）。\n3. 选择注册方式：**邮箱**、**Google 账号**、**Apple ID** 或 **Facebook**。\n4. 根据提示完成验证，选择会员计划（通常有免费试用或付费订阅）。\n\n### 如果确实是其他名为 Skillver 的平台：\n建议直接在搜索引擎或应用商店搜索其**官方网站/官方App**，注册流程通常为：\n- 点击 **\"注册 / Sign Up / 开始使用\"**\n- 填写**邮箱或手机号** → 获取验证码 → 设置密码 → 完善个人资料\n\n**提醒**：注册时请认准官方网站，避免在第三方不明链接中填写个人信息。如果你能提供更准确的平台名称或官网链接，我可以给你更具体的指导。",
+  "sources": [],
+  "raw": {
+    "id": "chatcmpl-6a85573e5fd1b6b3fb8f2505",
+    "object": "chat.completion",
+    "created": 1787123518,
+    "model": "kimi-k2.6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "目前我没有找到名为 **Skillver** 的知名平台的确切信息，可能是名称拼写有误。你是否指的是以下平台之一？\n\n1. **Skillshare**（全球知名的在线学习平台）  \n2. **Skillveri**（印度的VR技能培训平台）  \n3. 其他新兴或区域性平台\n\n### 如果是 Skillshare，注册步骤如下：\n1. 访问官网 **skillshare.com** 或下载 Skillshare App。\n2. 点击右上角 **\"Sign Up\"**（注册）。\n3. 选择注册方式：**邮箱**、**Google 账号**、**Apple ID** 或 **Facebook**。\n4. 根据提示完成验证，选择会员计划（通常有免费试用或付费订阅）。\n\n### 如果确实是其他名为 Skillver 的平台：\n建议直接在搜索引擎或应用商店搜索其**官方网站/官方App**，注册流程通常为：\n- 点击 **\"注册 / Sign Up / 开始使用\"**\n- 填写**邮箱或手机号** → 获取验证码 → 设置密码 → 完善个人资料\n\n**提醒**：注册时请认准官方网站，避免在第三方不明链接中填写个人信息。如果你能提供更准确的平台名称或官网链接，我可以给你更具体的指导。",
+          "reasoning_content": "用户问的是“怎么注册 Skillver？”。这是一个关于特定平台/服务（Skillver）注册流程的问题。\n\n首先，我需要确认“Skillver”是什么。这可能是一个拼写错误，或者是一个我不太熟悉的平台。让我想想：\n- 可能是 \"Skillshare\"？这是一个知名的在线学习平台。\n- 可能是 \"Skillveri\"？这是一个印度的VR技能培训平台？\n- 可能是一个新出现的、区域性的或小众的平台。\n\n由于我的知识截止日期是2024年4月，如果这是一个非常新的平台，我可能没有相关信息。我不应该编造注册流程。\n\n最佳做法是：\n1. 说明我不确定 \"Skillver\" 具体指哪个平台。\n2. 询问是否是 \"Skillshare\" 或其他类似名称的平台。\n3. 如果用户确实指的是某个特定的小众平台，建议他们直接访问官方网站查找注册入口，通常注册流程都是类似的（邮箱/手机号/第三方登录）。\n4. 如果是指 Skillshare，我可以提供 Skillshare 的注册流程作为参考。\n\n但等等，让我再仔细检查一下。有没有可能是 \"Skillver\" 这个确切的平台？在我的训练数据中，没有关于名为 \"Skillver\" 的知名平台的明确信息。有可能是用户打错了。\n\n我应该：\n- 礼貌地指出我没有找到名为 \"Skillver\" 的平台的确切信息。\n- 询问是否指的是 Skillshare 或其他平台。\n- 提供一般性的网站注册建议（访问官网、点击注册、填写信息等）。\n- 保持简洁，因为用户用中文提问，我用中文回答。\n\n回答结构：\n1. 直接回应：目前我没有找到名为 \"Skillver\" 的知名平台的确切注册信息，可能是名称拼写有误。\n2. 常见可能性：询问是否指的是 **Skillshare**（全球知名在线学习平台）。\n3. 如果是 Skillshare，简述注册方式（官网/APP → 点击Sign Up → 邮箱/谷歌/苹果/Facebook → 选择计划）。\n4. 一般建议：如果是其他小众平台，建议直接在搜索引擎或应用商店搜索，通常流程是访问官网 → 点击\"注册/Sign Up\" → 填写邮箱/手机号 → 验证 → 设置密码。\n5. 提醒注意安全，认准官方网站。\n\n需要确保事实准确，不编造。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "completion_tokens": 711,
+      "total_tokens": 752,
+      "completion_tokens_details": {
+        "reasoning_tokens": 460
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:12:19.369229Z",
+    "engine": "kimi",
+    "surface": "api",
+    "questionId": "I03",
+    "answerEvidence": "目前我没有找到名为 **Skillver** 的知名平台的确切信息，可能是名称拼写有误。你是否指的是以下平台之一？\n\n1. **Skillshare**（全球知名的在线学习平台）  \n2. **Skillveri**（印度的VR技能培训平台）  \n3. 其他新兴或区域性平台\n\n### 如果是 Skillshare，注册步骤如下：\n1. 访问官网 **skillshare.com** 或下载 Skillshare App。\n2. 点击右上角 **\"Sign Up\"**（注册）。\n3. 选择注册方式：**邮箱**、**Google 账号**、**Apple ID** 或 **Facebook**。\n4. 根据提示完成验证，选择会员计划（通常有免费试用或付费订阅）。\n\n### 如果确实是其他名为 Skillver 的平台：\n建议直接在搜索引擎或应用商店搜索其**官方网站/官方App**，注册流程通常为：\n- 点击 **\"注册 / Sign Up / 开始使用\"**\n- 填写**邮箱或手机号** → 获取验证码 → 设置密码 → 完善个人资料\n\n**提醒**：注册时请认准官方网站，避免在第三方不明链接中填写个人信息。如果你能提供更准确的平台名称或官网链接，我可以给你更具体的指导。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/kimi-I03.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

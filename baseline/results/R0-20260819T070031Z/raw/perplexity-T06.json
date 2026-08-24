@@ -1,0 +1,430 @@
+{
+  "engine": "perplexity",
+  "model": "sonar",
+  "baseUrl": "https://api.perplexity.ai",
+  "question": {
+    "id": "T06",
+    "category": "term",
+    "query": "面试彩排会影响正式评估吗？",
+    "passCriteria": [
+      "明确彩排不计入企业正式评估",
+      "不把彩排报告说成投递凭证"
+    ]
+  },
+  "answer": "如果你问的是**平台上的“面试彩排”**，一般**不会影响正式评估**；彩排的用途是熟悉题型和节奏，且**不计入企业评估**，也**不生成可投递的正式报告**。[1][2]\n\n- 彩排的定位是练习，不是正式面试或投递凭证。[1][2]\n- 真正会进入企业投递链路的是**正式 AI 面试**生成的报告。[1][2]\n- 平台说明里也写到，彩排用于熟悉题型与节奏，**不计入企业评估**。[2]\n\n如果你想问的是**一般求职场景**，模拟面试通常也不会被正式招聘方直接计入评估，但它可能通过提升表现间接影响结果；也就是说，**影响的是你的发挥，不是评估记录本身**。[4][7]",
+  "sources": [
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/",
+      "title": ""
+    },
+    {
+      "url": "https://subcue.ai/zh/answers/do-mock-interviews-actually-help",
+      "title": ""
+    },
+    {
+      "url": "https://guidance.sce.pccu.edu.tw/download/%E7%BF%B1%E7%BF%94-%E8%81%B7%E6%B6%AF%E6%89%8B%E6%9C%AD%EF%BC%9A%E9%9D%A2%E8%A9%A6%E6%8A%80%E5%B7%A7%E7%AF%87.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://www.jiandaoyun.com/news/article/684aaf15229b892d52a1aad1",
+      "title": ""
+    },
+    {
+      "url": "https://nabi.104.com.tw/posts/nabi_post_a29fdc27-7723-4912-bc61-3850ff52ba64",
+      "title": ""
+    },
+    {
+      "url": "https://m.joyowo.com/xwzc/xwdt/928216774934007808",
+      "title": ""
+    },
+    {
+      "url": "https://www.sohu.com/a/647333866_121124005",
+      "title": ""
+    },
+    {
+      "url": "https://mitratech.com/zh/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/%E5%8D%9A%E5%AE%A2/5-creative-ways-assess-candidates-job-interviews/",
+      "title": ""
+    },
+    {
+      "url": "https://www.shlglobal.cn/assets/premium-content/voice-of-the-candidate-ebook-cn.pdf",
+      "title": ""
+    },
+    {
+      "url": "https://cn.gllue.com/blog_campus_recruitment_estimate/",
+      "title": ""
+    },
+    {
+      "url": "https://www.jiandaoyun.com/news/article/68764d77229b892d526161ee",
+      "title": ""
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/13581",
+      "title": ""
+    },
+    {
+      "url": "https://hk.jobsdb.com/zh/career-advice/article/%E9%9D%A2%E8%A9%A6%E7%B4%B0%E7%AF%80-%E9%A0%90%E7%9F%A5%E7%B5%90%E6%9E%9C",
+      "title": ""
+    },
+    {
+      "url": "https://www.hrsee.com/?id=4274",
+      "title": ""
+    },
+    {
+      "url": "https://lifeplanning.edb.gov.hk/tc/career/career-skills-development/interviewing-and-presentation-skills.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.qzfzfz.com/newsinfo/1761972.html",
+      "title": ""
+    },
+    {
+      "url": "https://www.yonyou.com/subject/HRSaaS/news/5802",
+      "title": ""
+    },
+    {
+      "url": "https://business.linkedin.com/zh-cn/talent-solutions/talent-blog/recruitment-faq",
+      "title": ""
+    },
+    {
+      "url": "https://tcodeai.com/faq.html",
+      "title": "常见问题 - Skillver AI 求职助手"
+    },
+    {
+      "url": "https://www.skillver.cn/help/glossary",
+      "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手"
+    },
+    {
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/",
+      "title": "你个人在进行技术面试时，是如何评估候选人的？ : r/ExperiencedDevs"
+    },
+    {
+      "url": "https://subcue.ai/zh/answers/do-mock-interviews-actually-help",
+      "title": "模拟面试真的有用吗？证据怎么说 — SubcueAI | 适用于 macOS 和 Windows 的 AI 面试助手"
+    },
+    {
+      "url": "https://guidance.sce.pccu.edu.tw/download/%E7%BF%B1%E7%BF%94-%E8%81%B7%E6%B6%AF%E6%89%8B%E6%9C%AD%EF%BC%9A%E9%9D%A2%E8%A9%A6%E6%8A%80%E5%B7%A7%E7%AF%87.pdf",
+      "title": "面試技巧篇"
+    },
+    {
+      "url": "https://www.jiandaoyun.com/news/article/684aaf15229b892d52a1aad1",
+      "title": "面试评估太主观？评分表设计指南| 零代码企业数字化知识站 - 简道云"
+    },
+    {
+      "url": "https://nabi.104.com.tw/posts/nabi_post_a29fdc27-7723-4912-bc61-3850ff52ba64",
+      "title": "模擬面試讓你「練」上成功之路🛣️ - IELTS (雅思考試)學習"
+    },
+    {
+      "url": "https://m.joyowo.com/xwzc/xwdt/928216774934007808",
+      "title": "面试评价不要只填是否录用，这么写才有实用价值!"
+    },
+    {
+      "url": "https://www.sohu.com/a/647333866_121124005",
+      "title": "如何做到精准有效的面试评估？_评价_用人_部门"
+    },
+    {
+      "url": "https://mitratech.com/zh/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/%E5%8D%9A%E5%AE%A2/5-creative-ways-assess-candidates-job-interviews/",
+      "title": "面试中评估候选人的5种创新方法 - Mitratech"
+    },
+    {
+      "url": "https://www.shlglobal.cn/assets/premium-content/voice-of-the-candidate-ebook-cn.pdf",
+      "title": "[PDF] 聆听来自候选人的心声： 对招聘流程和企业的评价 - SHL"
+    },
+    {
+      "url": "https://cn.gllue.com/blog_campus_recruitment_estimate/",
+      "title": "在校园招聘中，HR如何有效评估应届生的能力与潜力 - 谷露软件"
+    },
+    {
+      "url": "https://www.jiandaoyun.com/news/article/68764d77229b892d526161ee",
+      "title": "新员工面试评语大全，助你快速选才不盲目 - 简道云"
+    },
+    {
+      "url": "https://hr.nowcoder.com/article/13581",
+      "title": "AI面试评估标准的构建逻辑：维度设计、效度验证与公平性保障"
+    },
+    {
+      "url": "https://hk.jobsdb.com/zh/career-advice/article/%E9%9D%A2%E8%A9%A6%E7%B4%B0%E7%AF%80-%E9%A0%90%E7%9F%A5%E7%B5%90%E6%9E%9C",
+      "title": "面試時間愈久愈有機？見工過程細節可預知結果 一條問題試探成敗 - Jobsdb Hong Kong"
+    },
+    {
+      "url": "https://www.hrsee.com/?id=4274",
+      "title": "HR或面试官该如何写好面试评语？"
+    },
+    {
+      "url": "https://lifeplanning.edb.gov.hk/tc/career/career-skills-development/interviewing-and-presentation-skills.html",
+      "title": "生涯規劃資訊網站- 教育局- 面試和表達技巧"
+    },
+    {
+      "url": "https://www.qzfzfz.com/newsinfo/1761972.html",
+      "title": "面试时，HR如何判断一个人，是真牛逼还是吹牛逼？"
+    },
+    {
+      "url": "https://www.yonyou.com/subject/HRSaaS/news/5802",
+      "title": "AI面试官2026效果评估：5个关键问题帮你判断价值 - 用友"
+    },
+    {
+      "url": "https://business.linkedin.com/zh-cn/talent-solutions/talent-blog/recruitment-faq",
+      "title": "高段位HR面试都在问什么问题 - LinkedIn Business Solutions"
+    }
+  ],
+  "raw": {
+    "choices": [
+      {
+        "delta": {
+          "content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "如果你问的是**平台上的“面试彩排”**，一般**不会影响正式评估**；彩排的用途是熟悉题型和节奏，且**不计入企业评估**，也**不生成可投递的正式报告**。[1][2]\n\n- 彩排的定位是练习，不是正式面试或投递凭证。[1][2]\n- 真正会进入企业投递链路的是**正式 AI 面试**生成的报告。[1][2]\n- 平台说明里也写到，彩排用于熟悉题型与节奏，**不计入企业评估**。[2]\n\n如果你想问的是**一般求职场景**，模拟面试通常也不会被正式招聘方直接计入评估，但它可能通过提升表现间接影响结果；也就是说，**影响的是你的发挥，不是评估记录本身**。[4][7]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "citations": [
+      "https://tcodeai.com/faq.html",
+      "https://www.skillver.cn/help/glossary",
+      "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/",
+      "https://subcue.ai/zh/answers/do-mock-interviews-actually-help",
+      "https://guidance.sce.pccu.edu.tw/download/%E7%BF%B1%E7%BF%94-%E8%81%B7%E6%B6%AF%E6%89%8B%E6%9C%AD%EF%BC%9A%E9%9D%A2%E8%A9%A6%E6%8A%80%E5%B7%A7%E7%AF%87.pdf",
+      "https://www.jiandaoyun.com/news/article/684aaf15229b892d52a1aad1",
+      "https://nabi.104.com.tw/posts/nabi_post_a29fdc27-7723-4912-bc61-3850ff52ba64",
+      "https://m.joyowo.com/xwzc/xwdt/928216774934007808",
+      "https://www.sohu.com/a/647333866_121124005",
+      "https://mitratech.com/zh/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/%E5%8D%9A%E5%AE%A2/5-creative-ways-assess-candidates-job-interviews/",
+      "https://www.shlglobal.cn/assets/premium-content/voice-of-the-candidate-ebook-cn.pdf",
+      "https://cn.gllue.com/blog_campus_recruitment_estimate/",
+      "https://www.jiandaoyun.com/news/article/68764d77229b892d526161ee",
+      "https://hr.nowcoder.com/article/13581",
+      "https://hk.jobsdb.com/zh/career-advice/article/%E9%9D%A2%E8%A9%A6%E7%B4%B0%E7%AF%80-%E9%A0%90%E7%9F%A5%E7%B5%90%E6%9E%9C",
+      "https://www.hrsee.com/?id=4274",
+      "https://lifeplanning.edb.gov.hk/tc/career/career-skills-development/interviewing-and-presentation-skills.html",
+      "https://www.qzfzfz.com/newsinfo/1761972.html",
+      "https://www.yonyou.com/subject/HRSaaS/news/5802",
+      "https://business.linkedin.com/zh-cn/talent-solutions/talent-blog/recruitment-faq"
+    ],
+    "created": 1787124421,
+    "id": "0ae4a34a-228d-4f53-a762-e7df7939b26b",
+    "model": "sonar",
+    "object": "chat.completion",
+    "search_results": [
+      {
+        "date": null,
+        "last_updated": "2026-08-19",
+        "place_metadata": null,
+        "snippet": "与普通模拟面试的区别： - 彩排由 15+ 专责 AI Agent 协同编排，题目与评分标准对齐头部科技企业真实岗位要求 - 可反复练习（当前版本 **具体使用额度以 Skillver 主站 /faq 为准**），不计入企业评估 - 正式 AI 面试报告是向头部企业投递的硬通行证——彩排本身不生成可投递报告\n- **模拟面试报告可以直接投递吗？**\n不可以。模拟面试用于练习，不是正式面试或投递凭证；平台投递链路要求对应岗位下已有正式 AI 面试报告。\n...\nSkillver 把空泛的自荐信，变成经过 AI 核验的能力画像。投递某个**岗位** 前，需至少完成 1 次**正式** AI 面试并...",
+        "source": "web",
+        "title": "常见问题 - Skillver AI 求职助手",
+        "url": "https://tcodeai.com/faq.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-21",
+        "place_metadata": null,
+        "snippet": "彩排用于熟悉题型与节奏，不计入企业评估。向企业投递需要的是正式 AI 面试完成后生成的 AI 面试报告（硬通行证）。\n...\n- 题目与评分标准对齐头部科技企业真实岗位要求\n- 彩排本身不生成可投递的正式报告\n## AI 面试报告",
+        "source": "web",
+        "title": "品牌术语— KAE · 七维战力 - Skillver—AI求职助手",
+        "url": "https://www.skillver.cn/help/glossary"
+      },
+      {
+        "date": "2021-06-29",
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "Google's research found the best way to make the right hires, AND the best way to reduce discrimination in the hiring process, is to have a consistent assessment bar across interviewers.\nCompare them to the interviewing bar.\nIn reality this means shadowing and discussing with other interviewers to l...",
+        "source": "web",
+        "title": "你个人在进行技术面试时，是如何评估候选人的？ : r/ExperiencedDevs",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/oahfxb/how_do_you_personally_assess_a_candidate_when/"
+      },
+      {
+        "date": "2026-01-01",
+        "last_updated": "2026-07-24",
+        "place_metadata": null,
+        "snippet": "是的，原因有两个已被充分理解的机制：提取练习让排练过的答案在压力下能被调用，而对真实面试情境的反复暴露可以降低焦虑感。关键在于仿真度；默读问题的效果远不如大声回答能给予反馈的对象。\n...\n没有诚实的通用数字，任何援引具体数字的人都是在推销什么。其机制——提取练习和通过暴露降低焦虑——已被充分证实；效果的大小取决于练习的真实感以及你进行了多少轮次。\n...\n它用可用性和重复次数换取了真人的直觉判断。经验丰富的真人面试官每次会话能给出更丰富的判断；AI 助手让你每天任何时间都能进行真实的口头练习。对大多数求职者而言，限制因素是练习次数，而非判断质量。",
+        "source": "web",
+        "title": "模拟面试真的有用吗？证据怎么说 — SubcueAI | 适用于 macOS 和 Windows 的 AI 面试助手",
+        "url": "https://subcue.ai/zh/answers/do-mock-interviews-actually-help"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-30",
+        "place_metadata": null,
+        "snippet": "�������\n�\n...\n������������������������\n...\n���������������������\n������������������������",
+        "source": "web",
+        "title": "面試技巧篇",
+        "url": "https://guidance.sce.pccu.edu.tw/download/%E7%BF%B1%E7%BF%94-%E8%81%B7%E6%B6%AF%E6%89%8B%E6%9C%AD%EF%BC%9A%E9%9D%A2%E8%A9%A6%E6%8A%80%E5%B7%A7%E7%AF%87.pdf"
+      },
+      {
+        "date": "2025-06-12",
+        "last_updated": "2025-10-24",
+        "place_metadata": null,
+        "snippet": "传统面试形式大多依赖于面对面的交流，这种形式容易受评估者的即时情绪和候选人的临场表现影响。例如，候选人的一时紧张或评估者的疲劳状态，都可能影响评估结果的客观性。\n...\n- 采用多名面试官共同面试一个候选人的方式，减少个人主观偏见的影响。面试官可以来自不同部门或具有不同背景，这样可以从多个角度对候选人进行评价。\n...\n- 建立面试后反馈机制，让面试官互相评估和讨论。通过分享和讨论面试经验，面试官可以相互学习和改进。",
+        "source": "web",
+        "title": "面试评估太主观？评分表设计指南| 零代码企业数字化知识站 - 简道云",
+        "url": "https://www.jiandaoyun.com/news/article/684aaf15229b892d52a1aad1"
+      },
+      {
+        "date": "2025-05-07",
+        "last_updated": "2026-05-26",
+        "place_metadata": null,
+        "snippet": "模擬面試（Mock Interview） 是準備正式面試最有效的方式之一。就像上台前的彩排，它讓你有機會反覆練習答案、調整表達方式、累積自信，讓你在真正上場時**更有底氣、少緊張、答得好！**以下是讓模擬面試發揮最大效益的秘訣：",
+        "source": "web",
+        "title": "模擬面試讓你「練」上成功之路🛣️ - IELTS (雅思考試)學習",
+        "url": "https://nabi.104.com.tw/posts/nabi_post_a29fdc27-7723-4912-bc61-3850ff52ba64"
+      },
+      {
+        "date": "2022-01-05",
+        "last_updated": "2025-09-24",
+        "place_metadata": null,
+        "snippet": "填写面试评价的目的，并不只是为了做档案登记，还是为了给复试和其他面试官提供决策参考，完善岗位人才画像，丰富人才储备库。\n...\n面试评价虽然只是一件小事，但它也体现了一个公司的正规程度，体现了HR的专业程度和工作能力，同时也可以为选才量才提供标准依据，减少面试者的主观影响，让招聘流程更加规范。",
+        "source": "web",
+        "title": "面试评价不要只填是否录用，这么写才有实用价值!",
+        "url": "https://m.joyowo.com/xwzc/xwdt/928216774934007808"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-04",
+        "place_metadata": null,
+        "snippet": "在面试结束后，HR要及时跟踪用人部门填写面试评估表，间隔时间不要太久。",
+        "source": "web",
+        "title": "如何做到精准有效的面试评估？_评价_用人_部门",
+        "url": "https://www.sohu.com/a/647333866_121124005"
+      },
+      {
+        "date": "2017-01-26",
+        "last_updated": "2026-07-14",
+        "place_metadata": null,
+        "snippet": "在进行工作面试时，人们很容易走走过场。候选人讲述自己的工作经历，面试官询问其优缺点，面试结束，招聘团队便做出决定。这种决策往往基于对候选人已知的信息，而非面试中获得的新认知。",
+        "source": "web",
+        "title": "面试中评估候选人的5种创新方法 - Mitratech",
+        "url": "https://mitratech.com/zh/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/%E5%8D%9A%E5%AE%A2/5-creative-ways-assess-candidates-job-interviews/"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "分析��余万条来自全球候选人的评论，\n我们发现消极的面试体验无疑将直接\n导致候选人拒绝入职\n…\n...\n当应聘者分享负面应聘体验并传开后，企业的人才梯队规模和质量\n可能会受到限制，同时，推荐人数、招聘到岗效率和接受录用比例",
+        "source": "web",
+        "title": "[PDF] 聆听来自候选人的心声： 对招聘流程和企业的评价 - SHL",
+        "url": "https://www.shlglobal.cn/assets/premium-content/voice-of-the-candidate-ebook-cn.pdf"
+      },
+      {
+        "date": "2020-06-02",
+        "last_updated": "2026-07-15",
+        "place_metadata": null,
+        "snippet": "1、不要被简历忽悠，也不要通过简历对候选人做任何不必要的假设；\n2、对于候选人的回答，有时候不要纠结对错，要看ta的思考过程；\n3、属于自己这一环节的决定一定要自己做，不要留给下一个人；",
+        "source": "web",
+        "title": "在校园招聘中，HR如何有效评估应届生的能力与潜力 - 谷露软件",
+        "url": "https://cn.gllue.com/blog_campus_recruitment_estimate/"
+      },
+      {
+        "date": "2025-07-15",
+        "last_updated": "2026-03-30",
+        "place_metadata": null,
+        "snippet": "- **提供客观依据**：面试评语为招聘决策提供了客观的依据，使得选才过程更加透明和公正。\n- **减少误判风险**：通过详细的评语记录，可以减少因面试官主观偏见或短时间内的印象而导致的误判。",
+        "source": "web",
+        "title": "新员工面试评语大全，助你快速选才不盲目 - 简道云",
+        "url": "https://www.jiandaoyun.com/news/article/68764d77229b892d526161ee"
+      },
+      {
+        "date": "2026-03-03",
+        "last_updated": "2026-03-25",
+        "place_metadata": null,
+        "snippet": "· 通过算法模型的确定性，消除人工评估的主观波动，确保在相同输入下产生一致的输出结果。\n...\n· 平均绝对误差 (MAE) 控制在0.8以内，且AI评分星级与候选人后续的人工复试通过率呈现显著的正相关。\n...\n· 集成眼神轨迹追踪、书面语监测（识别AI代答）、键盘声音监测、第二机位监控等硬核防作弊技术，严守选拔底线。",
+        "source": "web",
+        "title": "AI面试评估标准的构建逻辑：维度设计、效度验证与公平性保障",
+        "url": "https://hr.nowcoder.com/article/13581"
+      },
+      {
+        "date": "2021-08-04",
+        "last_updated": "2025-08-03",
+        "place_metadata": null,
+        "snippet": "面試者在實體或視像面試室內的互動時間長短，也預示著取錄機會之高低，一般而言，面試時間愈久，贏面愈高。「",
+        "source": "web",
+        "title": "面試時間愈久愈有機？見工過程細節可預知結果 一條問題試探成敗 - Jobsdb Hong Kong",
+        "url": "https://hk.jobsdb.com/zh/career-advice/article/%E9%9D%A2%E8%A9%A6%E7%B4%B0%E7%AF%80-%E9%A0%90%E7%9F%A5%E7%B5%90%E6%9E%9C"
+      },
+      {
+        "date": null,
+        "last_updated": "2025-11-03",
+        "place_metadata": null,
+        "snippet": "首先，写好面试评语，第一，体现出企业对求职人员的重视程度；第二，体现企业的管理规范，HR或面试官的敬业程度和职业操守；第三，可为企业人才录用评价决策、人才储备等方面提供参考依据。",
+        "source": "web",
+        "title": "HR或面试官该如何写好面试评语？",
+        "url": "https://www.hrsee.com/?id=4274"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-07-09",
+        "place_metadata": null,
+        "snippet": "- 面試時盡量不要經常撥弄頭髮和其他小動作，這可能會讓對方覺得你緊張和焦慮",
+        "source": "web",
+        "title": "生涯規劃資訊網站- 教育局- 面試和表達技巧",
+        "url": "https://lifeplanning.edb.gov.hk/tc/career/career-skills-development/interviewing-and-presentation-skills.html"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-06-08",
+        "place_metadata": null,
+        "snippet": "**除了观察眼神，面部的** **其他小动作** **，比如抬高眉毛、眨眼、嘴角快速抽动等可以感受到候选人的信息反馈。**",
+        "source": "web",
+        "title": "面试时，HR如何判断一个人，是真牛逼还是吹牛逼？",
+        "url": "https://www.qzfzfz.com/newsinfo/1761972.html"
+      },
+      {
+        "date": "2026-07-02",
+        "last_updated": "2026-07-05",
+        "place_metadata": null,
+        "snippet": "行业实践显示，成熟的AI面试系统在结构化面试场景下，与资深面试官的一致性可达90%以上。但要注意：这通常是在“初面筛选”环节，而非终面决策。用友HR SaaS的AI面试模块，基于自研YonGPT大模型和百万级面试样本训练，在内部测试中一致性达到92.3%。当然，这个数据需要结合具体岗位和面试维度来看——技术岗的硬技能评估准确率通常高于软素质评估。",
+        "source": "web",
+        "title": "AI面试官2026效果评估：5个关键问题帮你判断价值 - 用友",
+        "url": "https://www.yonyou.com/subject/HRSaaS/news/5802"
+      },
+      {
+        "date": null,
+        "last_updated": "2026-08-11",
+        "place_metadata": null,
+        "snippet": "优秀的候选人会清晰地回答这个问题，并且懂得把个人的成功与公司价值相关联。HR也要仔细聆听，从答案中发现他究竟是否适合即将加入的团队。",
+        "source": "web",
+        "title": "高段位HR面试都在问什么问题 - LinkedIn Business Solutions",
+        "url": "https://business.linkedin.com/zh-cn/talent-solutions/talent-blog/recruitment-faq"
+      }
+    ],
+    "usage": {
+      "completion_tokens": 218,
+      "cost": {
+        "input_tokens_cost": 4e-05,
+        "output_tokens_cost": 0.00022,
+        "request_cost": 0.005,
+        "total_cost": 0.00525
+      },
+      "prompt_tokens": 36,
+      "search_context_size": "low",
+      "total_tokens": 254
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:27:01.408244Z",
+    "engine": "perplexity",
+    "surface": "api",
+    "questionId": "T06",
+    "answerEvidence": "如果你问的是**平台上的“面试彩排”**，一般**不会影响正式评估**；彩排的用途是熟悉题型和节奏，且**不计入企业评估**，也**不生成可投递的正式报告**。[1][2]\n\n- 彩排的定位是练习，不是正式面试或投递凭证。[1][2]\n- 真正会进入企业投递链路的是**正式 AI 面试**生成的报告。[1][2]\n- 平台说明里也写到，彩排用于熟悉题型与节奏，**不计入企业评估**。[2]\n\n如果你想问的是**一般求职场景**，模拟面试通常也不会被正式招聘方直接计入评估，但它可能通过提升表现间接影响结果；也就是说，**影响的是你的发挥，不是评估记录本身**。[4][7]",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/perplexity-T06.json",
+    "mentioned": true,
+    "positioningCorrect": "yes",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": true,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

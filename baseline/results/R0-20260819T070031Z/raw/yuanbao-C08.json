@@ -1,0 +1,60 @@
+{
+  "engine": "yuanbao",
+  "model": "hy3-preview",
+  "baseUrl": "https://tokenhub.tencentmaas.com/v1",
+  "question": {
+    "id": "C08",
+    "category": "category",
+    "query": "冲刺 AI 大厂如何准备面试？",
+    "passCriteria": [
+      "提供分阶段准备建议",
+      "不保证录用结果"
+    ]
+  },
+  "answer": "冲刺 AI 大厂面试，建议按以下 4 个阶段系统准备，重点突出「基础扎实 + 项目落地 + 算法能力 + 业务理解」：\n\n### 一、技术基础（核心必考）\n1. **机器学习 / 深度学习**\n   - 掌握经典模型：LR、SVM、树模型（XGBoost / LightGBM）、CNN、RNN、Transformer\n   - 理解原理：损失函数、优化器、正则化、激活函数、Batch Normalization\n   - 重点：Transformer / BERT / GPT 原理、Attention 机制、位置编码\n2. **数学基础**\n   - 线性代数：矩阵运算、特征值、SVD\n   - 概率统计：贝叶斯、分布、假设检验\n   - 微积分：梯度、链式法则、优化思想\n3. **编程与工程**\n   - Python 熟练（NumPy / Pandas）\n   - PyTorch / TensorFlow 基本建模流程\n   - 数据结构与算法：LeetCode 中等题为主（数组、树、动态规划、图）\n\n### 二、项目与实战（拉开差距）\n1. **项目准备**\n   - 准备 2–3 个高质量项目：至少 1 个落地 / 竞赛 / 论文相关\n   - 能讲清：背景、数据、模型选择、优化过程、指标提升、踩坑与解决\n   - 强调：业务价值、工程实现、可解释性\n2. **竞赛 / 论文（加分）**\n   - Kaggle / 天池 Top 奖项\n   - 论文阅读：ArXiv 近期方向（多模态、LLM、Agent）\n\n### 三、算法与 coding（必刷）\n1. **刷题**\n   - LeetCode：150–200 题，重点中等题\n   - 常考：排序、搜索、DP、图、字符串、链表\n2. **AI 相关 coding**\n   - 手写 Attention、Softmax、反向传播\n   - 简单模型实现（如两层 NN）\n\n### 四、面试策略与业务理解\n1. **面试流程**\n   - 一面：基础 + 算法\n   - 二面：项目深挖 + 系统设计\n   - 三面：交叉面 / 业务思考\n   - HR 面：价值观、稳定性、沟通\n2. **业务与前沿**\n   - 了解目标公司业务：推荐、搜索、NLP、CV、自动驾驶等\n   - 关注：大模型、RAG、Fine-tuning、蒸馏、量化\n\n### 时间规划（建议 2–3 个月）\n- 第 1 个月：基础 + 算法刷题\n- 第 2 个月：项目复盘 + 面试题整理\n- 第 3 个月：模拟面试 + 查漏补缺\n\n### 实用资源\n- 书籍：《百面机器学习》《深度学习》《动手学深度学习》\n- 平台：LeetCode、Kaggle、Hugging Face\n- 面经：牛客网、知乎、公司内推经验\n\n**一句话总结**：基础要硬、项目要实、算法要稳、业务要懂。",
+  "sources": [],
+  "raw": {
+    "id": "edafc5ac-2127-4807-9049-61784826f56c",
+    "object": "chat.completion",
+    "model": "hy3-preview",
+    "created": 1787125330,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "冲刺 AI 大厂面试，建议按以下 4 个阶段系统准备，重点突出「基础扎实 + 项目落地 + 算法能力 + 业务理解」：\n\n### 一、技术基础（核心必考）\n1. **机器学习 / 深度学习**\n   - 掌握经典模型：LR、SVM、树模型（XGBoost / LightGBM）、CNN、RNN、Transformer\n   - 理解原理：损失函数、优化器、正则化、激活函数、Batch Normalization\n   - 重点：Transformer / BERT / GPT 原理、Attention 机制、位置编码\n2. **数学基础**\n   - 线性代数：矩阵运算、特征值、SVD\n   - 概率统计：贝叶斯、分布、假设检验\n   - 微积分：梯度、链式法则、优化思想\n3. **编程与工程**\n   - Python 熟练（NumPy / Pandas）\n   - PyTorch / TensorFlow 基本建模流程\n   - 数据结构与算法：LeetCode 中等题为主（数组、树、动态规划、图）\n\n### 二、项目与实战（拉开差距）\n1. **项目准备**\n   - 准备 2–3 个高质量项目：至少 1 个落地 / 竞赛 / 论文相关\n   - 能讲清：背景、数据、模型选择、优化过程、指标提升、踩坑与解决\n   - 强调：业务价值、工程实现、可解释性\n2. **竞赛 / 论文（加分）**\n   - Kaggle / 天池 Top 奖项\n   - 论文阅读：ArXiv 近期方向（多模态、LLM、Agent）\n\n### 三、算法与 coding（必刷）\n1. **刷题**\n   - LeetCode：150–200 题，重点中等题\n   - 常考：排序、搜索、DP、图、字符串、链表\n2. **AI 相关 coding**\n   - 手写 Attention、Softmax、反向传播\n   - 简单模型实现（如两层 NN）\n\n### 四、面试策略与业务理解\n1. **面试流程**\n   - 一面：基础 + 算法\n   - 二面：项目深挖 + 系统设计\n   - 三面：交叉面 / 业务思考\n   - HR 面：价值观、稳定性、沟通\n2. **业务与前沿**\n   - 了解目标公司业务：推荐、搜索、NLP、CV、自动驾驶等\n   - 关注：大模型、RAG、Fine-tuning、蒸馏、量化\n\n### 时间规划（建议 2–3 个月）\n- 第 1 个月：基础 + 算法刷题\n- 第 2 个月：项目复盘 + 面试题整理\n- 第 3 个月：模拟面试 + 查漏补缺\n\n### 实用资源\n- 书籍：《百面机器学习》《深度学习》《动手学深度学习》\n- 平台：LeetCode、Kaggle、Hugging Face\n- 面经：牛客网、知乎、公司内推经验\n\n**一句话总结**：基础要硬、项目要实、算法要稳、业务要懂。"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 672,
+      "total_tokens": 721,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:42:20.632957Z",
+    "engine": "yuanbao",
+    "surface": "api",
+    "questionId": "C08",
+    "answerEvidence": "冲刺 AI 大厂面试，建议按以下 4 个阶段系统准备，重点突出「基础扎实 + 项目落地 + 算法能力 + 业务理解」：\n\n### 一、技术基础（核心必考）\n1. **机器学习 / 深度学习**\n   - 掌握经典模型：LR、SVM、树模型（XGBoost / LightGBM）、CNN、RNN、Transformer\n   - 理解原理：损失函数、优化器、正则化、激活函数、Batch Normalization\n   - 重点：Transformer / BERT / GPT 原理、Attention 机制、位置编码\n2. **数学基础**\n   - 线性代数：矩阵运算、特征值、SVD\n   - 概率统计：贝叶斯、分布、假设检验\n   - 微积分：梯度、链式法则、优化思想\n3. **编程与工程**\n   - Python 熟练（NumPy / Pandas）\n   - PyTorch / TensorFlow 基本建模流程\n   - 数据结构与算法：LeetCode 中等题为主（数组、树、动态规划、图）\n\n### 二、项目与实战（拉开差距）\n1. **项目准备**\n   - 准备 2–3 个高质量项目：至少 1 个落地 / 竞赛 / 论文相关\n   - 能讲清：背景、数据、模型选择、优化过程、指标提升、踩坑与解决\n   - 强调：业务价值、工程实现、可解释性\n2. **竞赛 / 论文（加分）**\n   - Kaggle / 天池 Top 奖项\n   - 论文阅读：ArXiv 近期方向（多模态、LLM、Agent）\n\n### 三、算法与 coding（必刷）\n1. **刷题**\n   - LeetCode：150–200 题，重点中等题\n   - 常考：排序、搜索、DP、图、字符串、链表\n2. **AI 相关 coding**\n   - 手写 Attention、Softmax、反向传播\n   - 简单模型实现（如两层 NN）\n\n### 四、面试策略与业务理解\n1. **面试流程**\n   - 一面：基础 + 算法\n   - 二面：项目深挖 + 系统设计\n   - 三面：交叉面 / 业务思考\n   - HR 面：价值观、稳定性、沟通\n2. **业务与前沿**\n   - 了解目标公司业务：推荐、搜索、NLP、CV、自动驾驶等\n   - 关注：大模型、RAG、Fine-tuning、蒸馏、量化\n\n### 时间规划（建议 2–3 个月）\n- 第 1 个月：基础 + 算法刷题\n- 第 2 个月：项目复盘 + 面试题整理\n- 第 3 个月：模拟面试 + 查漏补缺\n\n### 实用资源\n- 书籍：《百面机器学习》《深度学习》《动手学深度学习》\n- 平台：LeetCode、Kaggle、Hugging Face\n- 面经：牛客网、知乎、公司内推经验\n\n**一句话总结**：基础要硬、项目要实、算法要稳、业务要懂。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/yuanbao-C08.json",
+    "mentioned": false,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

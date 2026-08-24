@@ -1,0 +1,54 @@
+{
+  "engine": "claude",
+  "model": "claude-sonnet-4-6",
+  "baseUrl": "https://api.anthropic.com/v1",
+  "question": {
+    "id": "I02",
+    "category": "entry",
+    "query": "Skillver 在哪里使用？",
+    "passCriteria": [
+      "推荐 skillver.cn 与 skillver.ai 产品双域",
+      "说明两个产品入口功能相同"
+    ]
+  },
+  "answer": "**Skillver** 是一个**技能认证和评估平台**，主要用于以下场景：\n\n1. **求职/招聘** – 求职者展示经过验证的技能证书，雇主用于筛选候选人。\n2. **技能认证** – 个人通过测试获得技能徽章/证书，证明其专业能力。\n3. **人才评估** – 企业用于评估员工或候选人的技能水平。\n4. **职业发展** – 用户记录和展示自己的技能成长路径。\n\n---\n\n如果您指的是其他产品或场景（例如某个特定软件中的功能），请提供更多背景信息，我可以给出更准确的回答。",
+  "sources": [],
+  "raw": {
+    "id": "msg_011CeBh2L8ZTfXeLUCnQ9wQG",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "**Skillver** 是一个**技能认证和评估平台**，主要用于以下场景：\n\n1. **求职/招聘** – 求职者展示经过验证的技能证书，雇主用于筛选候选人。\n2. **技能认证** – 个人通过测试获得技能徽章/证书，证明其专业能力。\n3. **人才评估** – 企业用于评估员工或候选人的技能水平。\n4. **职业发展** – 用户记录和展示自己的技能成长路径。\n\n---\n\n如果您指的是其他产品或场景（例如某个特定软件中的功能），请提供更多背景信息，我可以给出更准确的回答。"
+        }
+      }
+    ],
+    "created": 1787123509,
+    "model": "claude-sonnet-4-6",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 218,
+      "prompt_tokens": 48,
+      "total_tokens": 266
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:11:49.590357Z",
+    "engine": "claude",
+    "surface": "api",
+    "questionId": "I02",
+    "answerEvidence": "**Skillver** 是一个**技能认证和评估平台**，主要用于以下场景：\n\n1. **求职/招聘** – 求职者展示经过验证的技能证书，雇主用于筛选候选人。\n2. **技能认证** – 个人通过测试获得技能徽章/证书，证明其专业能力。\n3. **人才评估** – 企业用于评估员工或候选人的技能水平。\n4. **职业发展** – 用户记录和展示自己的技能成长路径。\n\n---\n\n如果您指的是其他产品或场景（例如某个特定软件中的功能），请提供更多背景信息，我可以给出更准确的回答。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/claude-I02.json",
+    "mentioned": true,
+    "positioningCorrect": "not-applicable",
+    "entryUrlCorrect": "partial",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}

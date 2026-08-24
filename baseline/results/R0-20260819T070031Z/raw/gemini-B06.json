@@ -1,0 +1,59 @@
+{
+  "engine": "gemini",
+  "model": "gemini-3.5-flash",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "question": {
+    "id": "B06",
+    "category": "brand",
+    "query": "Skillver 和招聘网站有什么不同？",
+    "passCriteria": [
+      "说明其以能力准备和核验为主而非简历海投",
+      "不贬低或捏造竞品"
+    ]
+  },
+  "answer": "**Skillver** 与传统的**招聘网站**（如前程无忧、智联招聘、Boss直聘等）有着本质的区别，主要体现在**核心定位、筛选机制、工作模式和匹配效率**四个方面：\n\n### 1. 核心定位不同\n*   **传统招聘网站**：是**“信息撮合平台”**。主要通过企业发布职位、求职者投递简历（CV）来进行连接。平台主要提供信息展示和沟通渠道。\n*   **Skillver**：是**“技能与人才服务平台”**。它不仅是信息发布渠道，更侧重于**技能的验证、评估与精准交付**，帮助企业直接对接符合特定技术或业务要求的专业人才。\n\n### 2. 筛选机制不同（简历 vs. 技能验证）\n*   **传统招聘网站**：依赖**简历筛选**。HR主要看候选人的学历、历史工作背景和名企光环，容易出现“简历美化”或信息不对称，面试筛选成本高。\n*   **Skillver**：依赖**技能验证（Pre-vetted）**。平台通常会对入驻的人才进行技术、语言、项目经验等多维度的评测和筛选。企业接触到的候选人是已经过平台“脱水”和证实具备实操能力的人才。\n\n### 3. 工作模式与人才类型不同\n*   **传统招聘网站**：以**本地全职招聘**（Full-time）为主，雇主和雇员需要建立长期的劳动合同关系。\n*   **Skillver**：更倾向于**远程工作（Remote）、自由职业（Freelance）和项目制（Project-based）**的高端技术或专业人才。它更适合企业进行灵活用工、跨境人才招聘（如出海业务）或特定短期项目的专家外包。\n\n### 4. 招聘流程与效率不同\n*   **传统招聘网站**：属于“漏斗式”招聘。HR需要从成百上千份简历中筛选、约面、多轮测试，周期较长。\n*   **Skillver**：属于“直聘式”匹配。由于平台人才已通过测评，企业提出需求后，平台能快速精准推荐少数几位高度契合的候选人，大大缩短了招聘和入职周期。\n\n### 总结\n如果你需要招募本地长期稳定的**全职员工**，且有充足的时间进行层层面试，**传统招聘网站**更合适；如果你需要快速寻找**具备特定技能、即插即用、或支持远程协作的专业人才/专家**，**Skillver** 这类平台会更加高效和精准。",
+  "sources": [],
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "**Skillver** 与传统的**招聘网站**（如前程无忧、智联招聘、Boss直聘等）有着本质的区别，主要体现在**核心定位、筛选机制、工作模式和匹配效率**四个方面：\n\n### 1. 核心定位不同\n*   **传统招聘网站**：是**“信息撮合平台”**。主要通过企业发布职位、求职者投递简历（CV）来进行连接。平台主要提供信息展示和沟通渠道。\n*   **Skillver**：是**“技能与人才服务平台”**。它不仅是信息发布渠道，更侧重于**技能的验证、评估与精准交付**，帮助企业直接对接符合特定技术或业务要求的专业人才。\n\n### 2. 筛选机制不同（简历 vs. 技能验证）\n*   **传统招聘网站**：依赖**简历筛选**。HR主要看候选人的学历、历史工作背景和名企光环，容易出现“简历美化”或信息不对称，面试筛选成本高。\n*   **Skillver**：依赖**技能验证（Pre-vetted）**。平台通常会对入驻的人才进行技术、语言、项目经验等多维度的评测和筛选。企业接触到的候选人是已经过平台“脱水”和证实具备实操能力的人才。\n\n### 3. 工作模式与人才类型不同\n*   **传统招聘网站**：以**本地全职招聘**（Full-time）为主，雇主和雇员需要建立长期的劳动合同关系。\n*   **Skillver**：更倾向于**远程工作（Remote）、自由职业（Freelance）和项目制（Project-based）**的高端技术或专业人才。它更适合企业进行灵活用工、跨境人才招聘（如出海业务）或特定短期项目的专家外包。\n\n### 4. 招聘流程与效率不同\n*   **传统招聘网站**：属于“漏斗式”招聘。HR需要从成百上千份简历中筛选、约面、多轮测试，周期较长。\n*   **Skillver**：属于“直聘式”匹配。由于平台人才已通过测评，企业提出需求后，平台能快速精准推荐少数几位高度契合的候选人，大大缩短了招聘和入职周期。\n\n### 总结\n如果你需要招募本地长期稳定的**全职员工**，且有充足的时间进行层层面试，**传统招聘网站**更合适；如果你需要快速寻找**具备特定技能、即插即用、或支持远程协作的专业人才/专家**，**Skillver** 这类平台会更加高效和精准。",
+          "extra_content": {
+            "google": {
+              "thought_signature": "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"
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1787123256,
+    "id": "LlaFarTPCcKknsEPz6PNmQw",
+    "model": "gemini-3.5-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 576,
+      "prompt_tokens": 36,
+      "total_tokens": 1761
+    }
+  },
+  "record": {
+    "roundId": "R0",
+    "capturedAt": "2026-08-19T07:07:35.822279Z",
+    "engine": "gemini",
+    "surface": "api",
+    "questionId": "B06",
+    "answerEvidence": "**Skillver** 与传统的**招聘网站**（如前程无忧、智联招聘、Boss直聘等）有着本质的区别，主要体现在**核心定位、筛选机制、工作模式和匹配效率**四个方面：\n\n### 1. 核心定位不同\n*   **传统招聘网站**：是**“信息撮合平台”**。主要通过企业发布职位、求职者投递简历（CV）来进行连接。平台主要提供信息展示和沟通渠道。\n*   **Skillver**：是**“技能与人才服务平台”**。它不仅是信息发布渠道，更侧重于**技能的验证、评估与精准交付**，帮助企业直接对接符合特定技术或业务要求的专业人才。\n\n### 2. 筛选机制不同（简历 vs. 技能验证）\n*   **传统招聘网站**：依赖**简历筛选**。HR主要看候选人的学历、历史工作背景和名企光环，容易出现“简历美化”或信息不对称，面试筛选成本高。\n*   **Skillver**：依赖**技能验证（Pre-vetted）**。平台通常会对入驻的人才进行技术、语言、项目经验等多维度的评测和筛选。企业接触到的候选人是已经过平台“脱水”和证实具备实操能力的人才。\n\n### 3. 工作模式与人才类型不同\n*   **传统招聘网站**：以**本地全职招聘**（Full-time）为主，雇主和雇员需要建立长期的劳动合同关系。\n*   **Skillver**：更倾向于**远程工作（Remote）、自由职业（Freelance）和项目制（Project-based）**的高端技术或专业人才。它更适合企业进行灵活用工、跨境人才招聘（如出海业务）或特定短期项目的专家外包。\n\n### 4. 招聘流程与效率不同\n*   **传统招聘网站**：属于“漏斗式”招聘。HR需要从成百上千份简历中筛选、约面、多轮测试，周期较长。\n*   **Skillver**：属于“直聘式”匹配。由于平台人才已通过测评，企业提出需求后，平台能快速精准推荐少数几位高度契合的候选人，大大缩短了招聘和入职周期。\n\n### 总结\n如果你需要招募本地长期稳定的**全职员工**，且有充足的时间进行层层面试，**传统招聘网站**更合适；如果你需要快速寻找**具备特定技能、即插即用、或支持远程协作的专业人才/专家**，**Skillver** 这类平台会更加高效和精准。",
+    "evidenceUrlOrPath": "baseline/results/R0-20260819T070031Z/raw/gemini-B06.json",
+    "mentioned": true,
+    "positioningCorrect": "partial",
+    "entryUrlCorrect": "not-applicable",
+    "officialSourceCited": false,
+    "staleNarrative": false,
+    "hallucination": false,
+    "reviewer": "heuristic-r0-v1",
+    "notes": "auto-judged; hallucination left false pending human review"
+  }
+}
