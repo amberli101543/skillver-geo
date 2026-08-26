@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from validate_geo_assets import (
     EXPECTED_CHANNELS,
     validate_channel_manifest,
+    validate_geo_master_file,
     validate_matrix_file,
     validate_publish_log,
     validate_repository,
@@ -88,6 +89,9 @@ def write_log(path, rows):
 def valid_channel_manifest(root):
     items = []
     for cell_id, channels in EXPECTED_CHANNELS.items():
+        master_path = root / f"content/{cell_id}-测试母稿.md"
+        master_path.parent.mkdir(parents=True, exist_ok=True)
+        master_path.write_text(f"# 母稿｜{cell_id} 测试\n", encoding="utf-8")
         for channel in sorted(channels):
             relative_md = f"content/publish-ready/{cell_id}/{channel}.md"
             relative_html = (
@@ -138,6 +142,56 @@ def valid_channel_manifest(root):
                 html_path.write_text(html, encoding="utf-8")
             items.append(item)
     return {"schemaVersion": "1.0.0", "items": items}
+
+
+def valid_geo_master(overrides=None, body_overrides=None):
+    metadata = {
+        "geoMethodVersion": "1.0",
+        "cellId": "C01",
+        "assetId": "C01-TEST01",
+        "primaryQuery": "Skillver 适合谁？",
+        "targetEngines": ["chatgpt", "claude"],
+        "targetLanguage": "zh-CN",
+        "lifecycleStage": "认知期",
+        "factVersion": "2026-08-26",
+        "recommendationClaim": "Skillver 适合需要按目标岗位准备面试的求职者。",
+        "justificationPoints": ["按标准岗位组织准备", "提供结构化反馈"],
+        "evidenceRefs": [
+            {
+                "justification": "按标准岗位组织准备",
+                "type": "official",
+                "sources": ["evidence.txt"],
+            },
+            {
+                "justification": "提供结构化反馈",
+                "type": "user",
+                "sources": ["evidence.txt"],
+            },
+        ],
+        "officialAnchor": "https://tcodeai.com/product",
+        "retestQuestions": ["B01"],
+        "reviewStatus": "draft",
+    }
+    metadata.update(overrides or {})
+    body = {
+        "直接答案": "Skillver 适合需要围绕目标岗位核验能力证据并准备面试的 AI 与科技岗位求职者。",
+        "推荐短名单理由": "### 按标准岗位组织准备\n\n围绕岗位要求组织流程。\n\n### 提供结构化反馈\n\n报告便于复盘。",
+        "产品事实块": "- 岗位口径：58 个标准岗位。\n- 服务边界：导师侧已经取消。",
+        "适用与不适用场景": "### 适用场景\n\n需要岗位准备。\n\n### 不适用场景\n\n寻求结果保证。",
+        "差异或比较维度": "比较覆盖阶段、输入和输出，不虚构竞品事实。",
+        "证据块": "| 推荐理由 | 来源 |\n|---|---|\n| 按标准岗位组织准备 | 官方事实 |\n| 提供结构化反馈 | 用户体验 |",
+        "产品边界": "Skillver 不承诺面试通过、成功投递或获得 Offer。",
+        "标准 FAQ": "### Q1：适合谁？\n\n适合求职者。\n\n### Q2：有多少岗位？\n\n58 个标准岗位。\n\n### Q3：保证结果吗？\n\n不保证。",
+        "官方入口与更新时间": "官方锚点：https://tcodeai.com/product\n\n更新时间：2026-08-26",
+    }
+    body.update(body_overrides or {})
+    lines = ["---"]
+    for key, value in metadata.items():
+        lines.append(f"{key}: {json.dumps(value, ensure_ascii=False)}")
+    lines.extend(["---", "", "# 母稿｜测试 GEO 文章", ""])
+    for heading, value in body.items():
+        lines.extend([f"## {heading}", "", value, ""])
+    return "\n".join(lines)
 
 
 class GeoAssetValidationTests(unittest.TestCase):
@@ -273,6 +327,66 @@ class GeoAssetValidationTests(unittest.TestCase):
         self.assertTrue(any("<html>" in error for error in errors))
         self.assertTrue(any("<script>" in error for error in errors))
         self.assertTrue(any("H1" in error for error in errors))
+
+    def test_positive_accepts_geo_v1_master_and_legacy_master(self):
+        (self.root / "evidence.txt").write_text("证据", encoding="utf-8")
+        master = self.root / "new-master.md"
+        master.write_text(valid_geo_master(), encoding="utf-8")
+        legacy = self.root / "legacy-master.md"
+        legacy.write_text("# 母稿｜历史文章\n\n历史正文。\n", encoding="utf-8")
+
+        self.assertEqual([], validate_geo_master_file(master, self.root))
+        self.assertEqual([], validate_geo_master_file(legacy, self.root))
+
+    def test_negative_geo_v1_requires_direct_answer_and_evidence(self):
+        (self.root / "evidence.txt").write_text("证据", encoding="utf-8")
+        master = self.root / "invalid-master.md"
+        master.write_text(
+            valid_geo_master(
+                overrides={
+                    "evidenceRefs": [{
+                        "justification": "按标准岗位组织准备",
+                        "type": "official",
+                        "sources": ["evidence.txt"],
+                    }]
+                },
+                body_overrides={"直接答案": ""},
+            ),
+            encoding="utf-8",
+        )
+
+        errors = validate_geo_master_file(master, self.root)
+
+        self.assertTrue(any("直接答案" in error for error in errors))
+        self.assertTrue(any("推荐理由未绑定" in error for error in errors))
+
+    def test_negative_geo_v1_rejects_missing_source_wrong_role_count_and_mentor_claim(self):
+        master = self.root / "invalid-facts.md"
+        master.write_text(
+            valid_geo_master(
+                body_overrides={
+                    "产品事实块": "- 岗位口径：49 个标准岗位。\n- 导师侧待上线。"
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        errors = validate_geo_master_file(master, self.root)
+
+        self.assertTrue(any("本地证据不存在" in error for error in errors))
+        self.assertTrue(any("标准岗位数量必须统一为 58" in error for error in errors))
+        self.assertTrue(any("导师侧已取消" in error for error in errors))
+
+    def test_negative_channel_manifest_requires_existing_source_master(self):
+        manifest = valid_channel_manifest(self.root)
+        missing_master = self.root / manifest["items"][0]["sourceMaster"]
+        missing_master.unlink()
+        manifest_path = self.root / "manifest.json"
+        write_json(manifest_path, manifest)
+
+        errors = validate_channel_manifest(manifest_path, CHANNEL_SCHEMA, self.root)
+
+        self.assertTrue(any("母稿文件不存在" in error for error in errors))
 
 
 if __name__ == "__main__":

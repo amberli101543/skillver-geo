@@ -28,6 +28,37 @@ EXPECTED_CHANNELS = {
     "C15": {"tcodeai", "main-faq", "wechat", "xiaohongshu", "zhihu"},
     "C16": {"tcodeai", "main-faq", "wechat", "xiaohongshu"},
 }
+GEO_METHOD_VERSION = "1.0"
+GEO_MASTER_FIELDS = (
+    "geoMethodVersion",
+    "cellId",
+    "assetId",
+    "primaryQuery",
+    "targetEngines",
+    "targetLanguage",
+    "lifecycleStage",
+    "factVersion",
+    "recommendationClaim",
+    "justificationPoints",
+    "evidenceRefs",
+    "officialAnchor",
+    "retestQuestions",
+    "reviewStatus",
+)
+GEO_MASTER_HEADINGS = (
+    "直接答案",
+    "推荐短名单理由",
+    "产品事实块",
+    "适用与不适用场景",
+    "差异或比较维度",
+    "证据块",
+    "产品边界",
+    "标准 FAQ",
+    "官方入口与更新时间",
+)
+EVIDENCE_TYPES = {"official", "user", "whitepaper", "third-party"}
+TARGET_LANGUAGES = {"zh-CN", "en"}
+REVIEW_STATUSES = {"draft", "approved"}
 
 
 def _load_json(path):
@@ -120,6 +151,157 @@ def _banned_claim_errors(value):
             if re.sub(r"\s+", "", claim).lower() in compact:
                 errors.append(f"{path}: 命中过时准入禁语 {claim!r}")
     return errors
+
+
+def _critical_fact_errors(text, path):
+    errors = []
+    for match in re.finditer(r"(\d+)\s*个标准岗位", text):
+        if match.group(1) != "58":
+            errors.append(f"{path}: 标准岗位数量必须统一为 58，发现 {match.group(1)}")
+    mentor_patterns = (
+        r"导师侧[^，。；\n]{0,12}(待开通|待上线|已上线|已开放|可预约|提供)",
+        r"导师服务[^，。；\n]{0,12}(待开通|待上线|已上线|已开放|可预约)",
+    )
+    if any(re.search(pattern, text) for pattern in mentor_patterns):
+        errors.append(f"{path}: 导师侧已取消，不得使用待开通、上线或可预约口径")
+    return errors
+
+
+def _parse_frontmatter(text, path):
+    if not text.startswith("---\n"):
+        return None, []
+    marker = text.find("\n---\n", 4)
+    if marker < 0:
+        return None, [f"{path}: frontmatter 未闭合"]
+    values = {}
+    errors = []
+    for number, line in enumerate(text[4:marker].splitlines(), 2):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if ":" not in line:
+            errors.append(f"{path}:{number}: frontmatter 必须使用 key: value")
+            continue
+        key, raw = line.split(":", 1)
+        key, raw = key.strip(), raw.strip()
+        if not raw:
+            values[key] = ""
+            continue
+        try:
+            values[key] = json.loads(raw)
+        except json.JSONDecodeError:
+            values[key] = raw
+    return values, errors
+
+
+def _section_text(text, heading):
+    match = re.search(
+        rf"(?ms)^##\s+{re.escape(heading)}\s*$\n(.*?)(?=^##\s+|\Z)",
+        text,
+    )
+    return match.group(1).strip() if match else None
+
+
+def validate_geo_master_file(master_path, root):
+    """Validate GEO v1 master drafts; legacy drafts remain compatible."""
+    path = Path(master_path)
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        return [f"{path}: 无法读取母稿：{exc}"]
+    metadata, errors = _parse_frontmatter(text, path)
+    if metadata is None or metadata.get("geoMethodVersion") is None:
+        return []
+    if metadata.get("geoMethodVersion") != GEO_METHOD_VERSION:
+        errors.append(f"{path}: geoMethodVersion 仅支持 {GEO_METHOD_VERSION}")
+        return errors
+
+    for field in GEO_MASTER_FIELDS:
+        if field not in metadata or metadata[field] in (None, "", []):
+            errors.append(f"{path}: GEO v1 frontmatter 缺少必填字段 {field}")
+
+    if not re.fullmatch(r"C(0[1-9]|1[0-6])", str(metadata.get("cellId", ""))):
+        errors.append(f"{path}: cellId 必须是 C01-C16")
+    if not re.fullmatch(r"C(0[1-9]|1[0-6])-[A-Z0-9]+", str(metadata.get("assetId", ""))):
+        errors.append(f"{path}: assetId 必须使用 Cxx-大写字母数字编号")
+    if metadata.get("targetLanguage") not in TARGET_LANGUAGES:
+        errors.append(f"{path}: targetLanguage 仅支持 zh-CN 或 en")
+    if metadata.get("lifecycleStage") not in STAGES:
+        errors.append(f"{path}: lifecycleStage 不在 16 格阶段范围")
+    if not re.fullmatch(r"20\d{2}-(0[1-9]|1[0-2])-([0-2]\d|3[01])", str(metadata.get("factVersion", ""))):
+        errors.append(f"{path}: factVersion 必须为 YYYY-MM-DD")
+    if metadata.get("reviewStatus") not in REVIEW_STATUSES:
+        errors.append(f"{path}: reviewStatus 仅支持 draft 或 approved")
+
+    engines = metadata.get("targetEngines")
+    if not isinstance(engines, list) or not engines or not all(isinstance(item, str) and item for item in engines):
+        errors.append(f"{path}: targetEngines 必须是非空字符串数组")
+    questions = metadata.get("retestQuestions")
+    if not isinstance(questions, list) or not questions or not all(isinstance(item, str) and item for item in questions):
+        errors.append(f"{path}: retestQuestions 必须是非空字符串数组")
+
+    points = metadata.get("justificationPoints")
+    if not isinstance(points, list) or not 2 <= len(points) <= 4 or not all(isinstance(item, str) and item for item in points):
+        errors.append(f"{path}: justificationPoints 必须包含 2-4 条非空理由")
+        points = []
+    refs = metadata.get("evidenceRefs")
+    mapped = set()
+    if not isinstance(refs, list) or not refs:
+        errors.append(f"{path}: evidenceRefs 必须是非空数组")
+        refs = []
+    for index, ref in enumerate(refs):
+        prefix = f"{path}: evidenceRefs[{index}]"
+        if not isinstance(ref, dict):
+            errors.append(f"{prefix} 必须是对象")
+            continue
+        justification = ref.get("justification")
+        source_type = ref.get("type")
+        sources = ref.get("sources")
+        if justification:
+            mapped.add(justification)
+        if source_type not in EVIDENCE_TYPES:
+            errors.append(f"{prefix}.type 必须是 {', '.join(sorted(EVIDENCE_TYPES))}")
+        if not isinstance(sources, list) or not sources:
+            errors.append(f"{prefix}.sources 必须是非空数组")
+            continue
+        for source in sources:
+            if not isinstance(source, str) or not source:
+                errors.append(f"{prefix}.sources 包含无效来源")
+            elif not source.startswith(("https://", "http://")) and not (Path(root) / source).is_file():
+                errors.append(f"{prefix}.sources 本地证据不存在：{source}")
+    for point in points:
+        if point not in mapped:
+            errors.append(f"{path}: 推荐理由未绑定 evidenceRef：{point}")
+
+    anchor = metadata.get("officialAnchor")
+    if not isinstance(anchor, str) or not anchor.startswith("https://"):
+        errors.append(f"{path}: officialAnchor 必须是 HTTPS URL")
+    elif anchor not in text:
+        errors.append(f"{path}: 正文必须出现 officialAnchor")
+
+    h1 = re.findall(r"(?m)^#\s+(.+?)\s*$", text)
+    if len(h1) != 1:
+        errors.append(f"{path}: GEO v1 母稿必须恰有一个 H1")
+    found_headings = re.findall(r"(?m)^##\s+(.+?)\s*$", text)
+    for heading in GEO_MASTER_HEADINGS:
+        if heading not in found_headings:
+            errors.append(f"{path}: 缺少强制章节 ## {heading}")
+
+    direct = _section_text(text, "直接答案")
+    if direct is not None:
+        paragraph = next((item.strip() for item in re.split(r"\n\s*\n", direct) if item.strip()), "")
+        plain = re.sub(r"[`*_>#\[\]()]", "", paragraph)
+        if not plain or len(plain) > 300:
+            errors.append(f"{path}: 直接答案首段必须非空且不超过 300 字符")
+    faq = _section_text(text, "标准 FAQ")
+    if faq is not None:
+        faq_count = len(re.findall(r"(?m)^###\s+Q\d*[：:]", faq))
+        if not 3 <= faq_count <= 5:
+            errors.append(f"{path}: 标准 FAQ 必须包含 3-5 个 ### Q 问答")
+    boundary = _section_text(text, "产品边界")
+    if boundary is not None and not re.search(r"不.{0,8}(承诺|保证).{0,20}(面试|投递|Offer|offer)", boundary):
+        errors.append(f"{path}: 产品边界必须明确不承诺面试、投递或 Offer 结果")
+
+    return errors + _banned_claim_errors(text) + _critical_fact_errors(text, path)
 
 
 def _matrix_invariant_errors(matrix):
@@ -245,12 +427,24 @@ def _validate_channel_files(items, root):
     for index, item in enumerate(items):
         if not isinstance(item, dict):
             continue
+        master_path = root / str(item.get("sourceMaster", ""))
+        master_text = ""
+        if not master_path.is_file():
+            errors.append(f"$.items[{index}].sourceMaster: 母稿文件不存在")
+        else:
+            master_text = master_path.read_text(encoding="utf-8")
         markdown_path = root / str(item.get("markdownPath", ""))
         if not markdown_path.is_file():
             errors.append(f"$.items[{index}].markdownPath: 文件不存在")
         else:
             text = markdown_path.read_text(encoding="utf-8")
             errors.extend(_banned_claim_errors(text))
+            if "geoMethodVersion:" in master_text:
+                errors.extend(_critical_fact_errors(text, markdown_path))
+                if not re.search(r"\bSkillver\b", text, re.IGNORECASE):
+                    errors.append(f"{markdown_path}: GEO v1 渠道稿必须明确提及 Skillver")
+                if re.search(r"导师侧.{0,12}(待开通|待上线|已上线|已开放|可预约|提供)", text):
+                    errors.append(f"{markdown_path}: 渠道稿与母稿的导师取消口径冲突")
             for field in (
                 "contentId",
                 "cellId",
@@ -358,6 +552,8 @@ def validate_repository(root):
     errors.extend(validate_channel_manifest(channel_manifest, channel_schema, root))
     errors.extend(validate_upstream_manifest(upstream_manifest, root))
     errors.extend(validate_content_assets_manifest(content_assets_manifest, root))
+    for master_path in sorted((root / "content").glob("*.md")):
+        errors.extend(validate_geo_master_file(master_path, root))
     return errors
 
 
