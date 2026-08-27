@@ -1,5 +1,7 @@
 # Skillver GEO 首轮基线 Runbook
 
+> 效果评价方法见 `baseline/GEO效果检测指标体系-v2.md`。R0/R1 历史记录继续使用现有 Schema；采用 v2 指标的新轮次必须同时冻结题库版本与产品事实版本。
+
 ## 目标与边界
 
 - 固定使用 `baseline/skillver-question-set-v1.json` 的 32 个问题，首轮记为 `R0`。
